@@ -1,0 +1,264 @@
+{
+ "status": "draft",
+ "received_sha256_12": "10a5667c0ec4",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 2,
+   "shared_root": 1,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-05T07:25:14+00:00",
+  "window": {
+   "from": "2026-11-04T07:25:14+00:00",
+   "to": "2026-11-05T07:25:14+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611050725"
+  },
+  "summary": "בגזרה הצפונית נמשכות תקריות נקודתיות הכוללות תקיפות כטב\"ם וירי ארטילרי ישראלי בדרום לבנון לצד פעילות של חיזבאללה באזורים שפונו. במקביל, ממשלת לבנון מנסה לבלום היגררות למלחמה נוספת על רקע לחצים והערכות לגבי התפתחות אזורית, וסוריה ממשיכה לחזק את קשריה האזוריים והביטחוניים.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "פעיל חלקית עם תקיפות נקודתיות של צה\"ל ופעילות חזרה של חיזבאללה לכפרים"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11050725-01",
+    "title": "תקיפת כטב\"ם ישראלי בקבריח'א",
+    "summary": "כטב\"ם ישראלי תקף אופנוע במרחב קבריח'א שבדרום לבנון, מה שהביא להריגת אדם אחד ולפציעת אחר.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T11:34:05+00:00",
+    "last_update_at": "2026-11-04T15:49:08+00:00",
+    "what_is_not_verified": "זהותם המלאה של הנפגעים מעבר לדיווחים המקומיים אינה מאומתת ממקור רשמי ישראלי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133087",
+      "published_at": "2026-11-04T15:49:08+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25544",
+      "published_at": "2026-11-04T15:48:09+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133083",
+      "published_at": "2026-11-04T14:48:56+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/1-killed-another-wounded-in-fresh-israeli-strike-on-southern-lebanon/4111534",
+      "published_at": "2026-11-04T12:40:53+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/966393/israeli-strike-on-motorcycle-in-south-lebanon-kills-one-injures-anothe/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966393",
+      "published_at": "2026-11-04T11:34:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קבריח'א, לבנון",
+      "lat": 33.2524,
+      "lon": 35.4663
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11050725-02",
+    "title": "ירי ארטילרי ואוויר בסביבת כפרים בדרום לבנון",
+    "summary": "ארטילריה ישראלית הפגיזה את האזור שבין חאריס לחאדאתא, ותקיפה אווירית נוספת מכוונת לעבר העיירה טלווסה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T22:33:23+00:00",
+    "last_update_at": "2026-11-04T22:34:12+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/146997/",
+      "published_at": "2026-11-04T22:34:12+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/146987/",
+      "published_at": "2026-11-04T22:33:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חאריס, לבנון",
+      "lat": 33.1768,
+      "lon": 35.3799
+     },
+     {
+      "name": "חאדאתא, לבנון",
+      "lat": 33.1561,
+      "lon": 35.3912
+     },
+     {
+      "name": "טלווסה, לבנון",
+      "lat": 33.2284,
+      "lon": 35.4885
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11050725-03",
+    "title": "הערכת מצב של הרמטכ\"ל בפיקוד הצפון",
+    "summary": "הרמטכ\"ל קיין הערכת מצב בפיקוד הצפון והצהיר כי צה\"ל לא יאפשר לחיזבאללה לבסס תשתיות טרור במרחב.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T16:15:22+00:00",
+    "last_update_at": "2026-11-04T16:15:22+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25545",
+      "published_at": "2026-11-04T16:15:22+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11050725-04",
+    "title": "אזהרת ראש ממשלת לבנון לחיזבאללה",
+    "summary": "ראש ממשלת לבנון נוואף סלאם הזהיר את חיזבאללה מפני גרירת המדינה למלחמה חדשה והפיכתה לזירת עימותים.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T13:55:10+00:00",
+    "last_update_at": "2026-11-04T13:55:10+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49282",
+      "published_at": "2026-11-04T13:55:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "ההערכות הישראליות על תיאום מלא בין חיזבאללה לאיראן",
+   "ההנחיות הנטענות מצד שגרירות איראן בביירות לבכירים בחיזבאללה לנקוט אמצעי זהירות"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1633,
+    "unit": "ILS",
+    "change_pct": 0.2,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-04T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת ביסוס תשתיות טרור של חיזבאללה במרחב",
+     "תגובה מיידית ועוצמתית לכל ניסיון התבססות או איום על יישובי הצפון"
+    ],
+    "inferred": [
+     "שמירה על חופש פעולה מבצעי בדרום לבנון למרות הקשיים בשליטת צבא לבנון",
+     "היערכות לאפשרות של הסלמה רחבה מול ציר המיליציות והאיראנים"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדמות נגד חשודים וגורמים עוינים החורגים ממרחב ההגנה"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [],
+    "inferred": [
+     "חזרה הדרגתית לפעילות ולכפרים בדרום לבנון",
+     "שימור יכולות והיערכות לתרחישי עימות אפשריים"
+    ],
+    "forecast": [
+     "המשך נוכחות בשטח במקביל למתיחות מול פעילות צה\"ל"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/146987/",
+    "accessed_at": "2026-11-05T07:25:14+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/1-killed-another-wounded-in-fresh-israeli-strike-on-southern-lebanon/4111534",
+    "accessed_at": "2026-11-05T07:25:14+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/966393/israeli-strike-on-motorcycle-in-south-lebanon-kills-one-injures-anothe/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966393",
+    "accessed_at": "2026-11-05T07:25:14+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133083",
+    "accessed_at": "2026-11-05T07:25:14+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49282",
+    "accessed_at": "2026-11-05T07:25:14+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25545",
+    "accessed_at": "2026-11-05T07:25:14+00:00"
+   }
+  ]
+ }
+}

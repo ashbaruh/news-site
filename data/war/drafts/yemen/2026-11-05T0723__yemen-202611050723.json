@@ -1,0 +1,331 @@
+{
+ "status": "draft",
+ "received_sha256_12": "23ba26af63b1",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "initial": 6,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-05T07:23:53+00:00",
+  "window": {
+   "from": "2026-11-04T07:23:53+00:00",
+   "to": "2026-11-05T07:23:53+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611050723"
+  },
+  "summary": "בזירת תימן והחות'ים נמשכת הלחימה הקרקעית והאווירית הכוללת תקיפות טילים וכטב\"מים של החות'ים נגד סעודיה ומחנות צבא של הממשלה בתימן, לצד מצור והתנגשויות סביב העיר תאיז ותקיפות נגד של הקואליציה. סעודיה פועלת להידוק שיתופי פעולה אזוריים והגנה, בעוד החות'ים מציבים תנאים נוקשים לסיום הלחימה הכוללים פיצויים והכרה בשלטונם.",
+  "fronts": [
+   {
+    "name": "חזית תימן הפנימית (אל-ג'וף, תאיז, אל-דאלאע)",
+    "status": "פעילה עם עימותים קרקעיים, מתקפות טילים ומצור על תאיז"
+   },
+   {
+    "name": "חזית תימן-סעודיה",
+    "status": "פעילה עם מתקפות טילים וכטב\"מים של החות'ים לעבר הממלכה ומאמצי הגנה סעודיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11050723-01",
+    "title": "פניית סעודיות לחות'ים ודרישת פיצויים",
+    "summary": "ערב הסעודית פנתה לחות'ים לבירור תנאי סיום הלחימה, ובתגובה דרשו החות'ים פיצויים והכרה רשמית בהם כשלטון בתימן.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T06:53:26+00:00",
+    "last_update_at": "2026-11-05T06:53:26+00:00",
+    "what_is_not_verified": "פרטי הפנייה המדויקים ותגובת סעודיה עליה אינם מאומתים מעבר לדיווח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94957",
+      "published_at": "2026-11-05T06:53:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11050723-02",
+    "title": "תקיפות הקואליציה בראשות סעודיה בתימן",
+    "summary": "תקיפות של הקואליציה בראשות סעודיה ברחבי תימן הרגו לכאורה כ-20 בני אדם.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T02:00:08+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T02:00:08+00:00",
+    "last_update_at": "2026-11-05T02:00:08+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק אינו מאומת מעבר לדיווח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-hits-yemen-reportedly-kill-20-people-over-past-day",
+      "published_at": "2026-11-05T02:00:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סעדה, תימן",
+      "lat": 16.9409,
+      "lon": 43.763
+     },
+     {
+      "name": "תאיז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11050723-03",
+    "title": "חתימת הסכם הגנה בין סעודיה לסוריה",
+    "summary": "סעודיה וסוריה חתמו על הסכם שיתוף פעולה בין משרדי ההגנה שלהן על רקע התקפות החות'ים נגד סעודיה.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T20:46:39+00:00",
+    "last_update_at": "2026-11-05T00:22:20+00:00",
+    "what_is_not_verified": "פרטי ההסכם המדויקים אינם ידועים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_spa",
+      "url": "https://www.newarab.com/news/saudi-syrian-defence-ministries-sign-cooperation-agreement",
+      "published_at": "2026-11-05T00:22:20+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_spa",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-syrian-defence-ministries-sign-cooperation-agreement",
+      "published_at": "2026-11-04T21:32:47+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_spa",
+      "url": "https://www.al-monitor.com/originals/2026/11/saudi-syrian-defence-ministries-sign-cooperation-agreement-spa-reports",
+      "published_at": "2026-11-04T20:46:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11050723-04",
+    "title": "מתקפת טילים של החות'ים בתאיז והתקדמות כוחות הממשלה",
+    "summary": "מתקפת טילים ביישוב בתאיז הרגה בני משפחה אחת, בזמן שכוחות הממשלה דיווחו על השגת הישגים טריטוריאליים באל-ג'וף ובלמו התקפות בתאיז.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T23:36:39+00:00",
+    "last_update_at": "2026-11-04T23:36:39+00:00",
+    "what_is_not_verified": "מספר הנפגעים וההישגים בשטח נמסרו מטעם צדדים מעורבים ולא אומתו ממקור עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-attack-kills-four-people-yemeni-government-forces-make-gains-al",
+      "published_at": "2026-11-04T23:36:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הייפאן, תימן",
+      "lat": 13.3179,
+      "lon": 44.2722
+     },
+     {
+      "name": "תאיז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11050723-05",
+    "title": "השמדת רכב לוגיסטי של החות'ים",
+    "summary": "הושמד רכב לוגיסטי של החות'ים באמצעות טיל נגד טנקים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T22:01:08+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T22:01:08+00:00",
+    "last_update_at": "2026-11-04T22:01:08+00:00",
+    "what_is_not_verified": "מקום האירוע המדויק אינו מפורט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49301",
+      "published_at": "2026-11-04T22:01:08+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11050723-06",
+    "title": "משלוח סיוע רפואי של הצלב האדום לעיר תאיז",
+    "summary": "הצלב האדום הביא משלוח ציוד רפואי לעיר תאיז המצורפת בידי החות'ים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-04T17:52:51+00:00",
+    "last_update_at": "2026-11-04T17:52:51+00:00",
+    "what_is_not_verified": "היקף הצורך המלא ומצב האוכלוסייה המדויק מבוסס על הערכות ארגונים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_ab1baf7625f5107b",
+      "url": "https://www.newarab.com/news/icrc-says-delivered-first-medical-aid-yemens-besieged-taiz",
+      "published_at": "2026-11-04T17:52:51+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תאיז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11050723-07",
+    "title": "מתקפת טילים של החות'ים על מחנה אימונים באל-דאלאע",
+    "summary": "מתקפת טילים של החות'ים פגעה במחנה אימונים צבאי ליד קטבא שבמחוז אל-דאלאע, וגרמה לעשרות הרוגים ופצועים בקרב חיילים חדשים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T12:55:33+00:00",
+    "last_update_at": "2026-11-04T12:55:33+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק אינו מאומת ממקור עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthi-missile-attack-kills-dozens-military-camp-yemen",
+      "published_at": "2026-11-04T12:55:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קטבא, תימן",
+      "lat": 13.8796,
+      "lon": 43.2359
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "דרישת הפיצויים של החות'ים בסך 51 מיליארד דולר ותנאי סיום הלחימה",
+   "מספר הנפגעים המדויק בתקיפות הקואליציה ובתקיפות החות'ים במחנות הצבא",
+   "היקף הסיוע הביטחוני המדויק שסוריה עשויה לספק לסעודיה במסגרת ההסכמים"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1633,
+    "unit": "ILS",
+    "change_pct": 0.2,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-04T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "דרישה לפיצויים בגובה 51 מיליארד דולר על נזקי המלחמה",
+     "הכרה רשמית בהם כשלטון הלגיטימי של תימן כולה"
+    ],
+    "inferred": [
+     "ביסוס שליטה צבאית ומדינית בתימן תוך הפעלת לחץ על סעודיה ומחנה הממשלה",
+     "שימור יכולות שיגור טילים וכטב\"מים למטרות אזוריות"
+    ],
+    "forecast": [
+     "המשך התקיפות לעבר יעדים בסעודיה ובתוך תימן כל עוד לא יושגו דרישותיהם",
+     "שמירת המצור סביב ערים כמו תאיז כקלף מיקוח"
+    ]
+   },
+   {
+    "actor": "ערב הסעודית",
+    "declared": [
+     "חיפוש תנאים להפסקת הלחימה והמתקפות נגד הממלכה",
+     "יצירת שיתופי פעולה ביטחוניים אזוריים להגנה והתמודדות עם איומים"
+    ],
+    "inferred": [
+     "רצון לייצר הרתעה ולבלום את האיום החות'י באמצעות בריתות חדשות וסיוע חיצוני",
+     "ניסיון לבחון אפשרויות להסדר מדיני או הפוגה מול החות'ים"
+    ],
+    "forecast": [
+     "הידוק הקשרים הביטחוניים עם שותפות אזוריות דוגמת סוריה",
+     "המשך תמיכה בממשלת תימן הרשמית ובפעולות הקואליציה לצד מגעים עקיפים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/saudi-syrian-defence-ministries-sign-cooperation-agreement-spa-reports",
+    "accessed_at": "2026-11-05T07:23:53+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-attack-kills-four-people-yemeni-government-forces-make-gains-al",
+    "accessed_at": "2026-11-05T07:23:53+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/houthi-missile-attack-kills-dozens-military-camp-yemen",
+    "accessed_at": "2026-11-05T07:23:53+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49301",
+    "accessed_at": "2026-11-05T07:23:53+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94957",
+    "accessed_at": "2026-11-05T07:23:53+00:00"
+   }
+  ]
+ }
+}

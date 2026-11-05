@@ -1,0 +1,255 @@
+{
+ "status": "draft",
+ "received_sha256_12": "5497a0733cb6",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 2,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-05T07:18:19+00:00",
+  "window": {
+   "from": "2026-11-04T07:18:19+00:00",
+   "to": "2026-11-05T07:18:19+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611050718"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל מתנהל במקביל לזעזועים פוליטיים פנימיים בארה\"ב לאחר הפסד המפלגה הרפובליקנית בבחירות האמצע, המיוחס במידה רבה למחיר הכלכלי של המלחמה. בזירה הימית נרשמו תקריות באזור מצר הורמוז שכללו שריפת כלי שיט, בעוד שדרום קוריאה נערכת להרחיב את נוכחותה באזור לבקשת וושינגטון.",
+  "fronts": [
+   {
+    "name": "ציר איראן-ארה\"ב-ישראל",
+    "status": "פעיל ומתוח בעקבות השלכות פוליטיות בארה\"ב ותקריות במפרץ"
+   },
+   {
+    "name": "מרחב מצר הורמוז והמפרץ",
+    "status": "פעיל עם אירועים ימיים וסיכוני ניווט"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11050718-01",
+    "title": "שריפת מכליות נפט וגוררת במצר הורמוז",
+    "summary": "משמרות המהפכה של איראן הודיעו כי שתי מכליות נפט וספינת גוררת עלו באש במצר הורמוז לאחר שניסו לעבור בנתיב לא מורשה, וכי יחידת לוחמה אלקטרונית תפסה שני רחפנים.",
+    "axis": "ציר איראן-מפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T08:43:31+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T08:43:31+00:00",
+    "last_update_at": "2026-11-05T05:41:22+00:00",
+    "what_is_not_verified": "הטענות על נסיבות הפגיעה והשימוש בנתיב לא מורשה מבוססות על הודעת משמרות המהפכה בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_07c4b5f7a0d7f334",
+      "url": "https://en.irna.ir/news/86313001/IRGC-Two-oil-tankers-tugboat-catch-fire-in-Strait-of-Hormuz",
+      "published_at": "2026-11-05T05:41:22+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_648bf0d134180874",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-says-two-tankers-tugboat-were-ablaze-hormuz-strait",
+      "published_at": "2026-11-05T04:58:18+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_07c4b5f7a0d7f334",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
+      "published_at": "2026-11-05T00:00:00+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_07c4b5f7a0d7f334",
+      "url": "https://www.france24.com/en/middle-east/20261104-four-oil-tankers-destroyed-in-hormuz-after-hitting-mines-tehran-says",
+      "published_at": "2026-11-04T08:43:31+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11050718-02",
+    "title": "שריפת שלט ענק בטהראן",
+    "summary": "שלט ענק המציג את נשיא ארה\"ב דונלד טראמפ, סגנו ג'יי די ואנס וראש ממשלת ישראל בנימין נתניהו הועלה באש בעצרת בטהראן.",
+    "axis": "ציר איראן-ישראל-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T23:34:47+00:00",
+    "last_update_at": "2026-11-04T23:34:47+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_tehran_rally_reports",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/giant-banner-of-trump-vance-and-netanyahu-burnt-at-tehran-rally?traffic_source=rss",
+      "published_at": "2026-11-04T23:34:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11050718-03",
+    "title": "חשיפת שלט הסתה בכיכר אנקלאב בטהראן",
+    "summary": "באיראן נחשף שלט חוצות ענק בכיכר אנקלאב בטהראן הנושא את הכיתוב \"אנו נהרוג את טראמפ\".",
+    "axis": "ציר איראן-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-04T14:07:17+00:00",
+    "last_update_at": "2026-11-04T14:07:17+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_tehran_billboard_unveiling",
+      "url": "https://www.theguardian.com/us-news/2026/nov/04/joy-iran-trump-defeat-us-midterm-elections-war",
+      "published_at": "2026-11-04T14:07:17+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11050718-04",
+    "title": "הרחבת פעילות הימית של דרום קוריאה בקרבת מצר הורמוז",
+    "summary": "משרד ההגנה של דרום קוריאה הודיע על תוכנית להרחיב את פעילות יחידת אנטי-הפיראט צ'ונגהאה למיים קרובים יותר למצר הורמוז בהתאם לדרישת ארה\"ב.",
+    "axis": "ציר ארה\"ב-אסיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-05T02:46:30+00:00",
+    "last_update_at": "2026-11-05T04:22:49+00:00",
+    "what_is_not_verified": "אישור הפרלמנט והקבינט טרם התקבל סופית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_52f6387001e80a03",
+      "url": "https://www.theguardian.com/world/2026/nov/05/south-korea-to-expand-anti-piracy-unit-strait-of-hormuz",
+      "published_at": "2026-11-05T04:22:49+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_52f6387001e80a03",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-south-koreas-anti-piracy-unit-expand-operations-closer-hormuz",
+      "published_at": "2026-11-05T04:15:24+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_6fe54b27bec6a1fb",
+      "url": "https://www.al-monitor.com/originals/2026/11/south-korea-expand-anti-piracy-unit-operations-closer-strait-hormuz",
+      "published_at": "2026-11-05T02:46:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דוקם, עומאן",
+      "lat": 19.623,
+      "lon": 57.634
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "ההערכות בוושינגטון על כוונתו הוודאית של טראמפ לחדש את התקיפות נגד איראן.",
+   "הטענה האיראנית בדבר פגיעת מכליות הנפט במוקשים ימיים בנתיבים בלתי מורשים."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1633,
+    "unit": "ILS",
+    "change_pct": 0.2,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-04T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "התנגדות לתוקפנות ארה\"ב וישראל",
+     "אזהרות מפני מעבר בנתיבים לא מורשים במפרץ"
+    ],
+    "inferred": [
+     "שאיפה למצות את ההפסדים הפוליטיים של ממשל טראמפ כדי להחליש את הלחץ הבינלאומי",
+     "הרתיעה באמצעות איומים ימיים ואזוריים"
+    ],
+    "forecast": [
+     "המשך לוחמה פסיכולוגית והפגנות נגד ארה\"ב וישראל",
+     "שימור המוכנות לעימות ימי במפרץ"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "בחינת צעדים נוספים מול איראן למרות תוצאות הבחירות"
+    ],
+    "inferred": [
+     "התלבטות פנימית עמוקה בעקבות הפסד הבחירות והמחיר הכלכלי של הלחימה",
+     "לחץ על בעלות ברית לסייע מבחינה ימית במפרץ"
+    ],
+    "forecast": [
+     "אפשרות להגבלת פעולות צבאיות רחבות בשל לחץ הקונגרס החדש",
+     "המשך שמירה על נתיבי השיייט בדרכים שונות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/giant-banner-of-trump-vance-and-netanyahu-burnt-at-tehran-rally?traffic_source=rss",
+    "accessed_at": "2026-11-05T07:18:19+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/south-korea-expand-anti-piracy-unit-operations-closer-strait-hormuz",
+    "accessed_at": "2026-11-05T07:18:19+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261104-four-oil-tankers-destroyed-in-hormuz-after-hitting-mines-tehran-says",
+    "accessed_at": "2026-11-05T07:18:19+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/05/south-korea-to-expand-anti-piracy-unit-strait-of-hormuz",
+    "accessed_at": "2026-11-05T07:18:19+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86313001/IRGC-Two-oil-tankers-tugboat-catch-fire-in-Strait-of-Hormuz",
+    "accessed_at": "2026-11-05T07:18:19+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-south-koreas-anti-piracy-unit-expand-operations-closer-hormuz",
+    "accessed_at": "2026-11-05T07:18:19+00:00"
+   }
+  ]
+ }
+}

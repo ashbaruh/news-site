@@ -748,6 +748,10 @@
 25.0743,
 55.1886
 ],
+"duqm, oman": [
+19.623,
+57.634
+],
 "eastern ghouta, syria": [
 33.4878,
 36.3496
@@ -758,6 +762,7 @@
 47.4901,
 34.6603
 ],
+"enqelab square, tehran, iran": null,
 "erbil, iraq": [
 36.1912,
 44.0094
@@ -898,6 +903,10 @@
 "hawsh as-sayyid ali, lebanon": null,
 "hawsh bint ismail, lebanon": null,
 "hawsh sayyid ali, lebanon": null,
+"hayfan, yemen": [
+13.3179,
+44.2722
+],
 "hebron, west bank": [
 31.5289,
 35.0945
@@ -2297,6 +2306,10 @@
 "tallousa, lebanon": [
 33.2295,
 35.489
+],
+"talloussa, lebanon": [
+33.2284,
+35.4885
 ],
 "talloussah, lebanon": null,
 "taman, russia": [

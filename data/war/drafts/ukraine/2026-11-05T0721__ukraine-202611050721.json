@@ -1,0 +1,317 @@
+{
+ "status": "draft",
+ "received_sha256_12": "70863c901202",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 4,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-05T07:21:05+00:00",
+  "window": {
+   "from": "2026-11-04T07:21:05+00:00",
+   "to": "2026-11-05T07:21:05+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611050721"
+  },
+  "summary": "המלחמה בין רוסיה לאוקראינה נמשכת ביתאת מתקפות אוויריות נרחבות של כטב\"מים וטילים מצד רוסיה מחד, ותקיפות נגד תשתיות עומק ברוסיה מאידך. במקביל, מתקיימים מגעים דיפלומטיים ותיאומים בינלאומיים שונים סביב יוזמות תיווך אפשריות.",
+  "fronts": [
+   {
+    "name": "החזית האווירית ותשתיות האנרגיה",
+    "status": "פעילה מאוד עם תקיפות הדדיות על תשתיות"
+   },
+   {
+    "name": "חזית הדרום (חרסון וזפוריז'יה)",
+    "status": "פעילה עם פגיעות באזרחים ובמתקנים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11050721-01",
+    "title": "תקיפה לוגיסטית באזור קייב",
+    "summary": "כוחות רוסיים תקפו תשתיות לוגיסטיות באזור קייב, מה שגרם לפציעת אדם אחד ולשריפה.",
+    "axis": "תקיפות אוויריות ולוגיסטיקה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T21:53:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T21:53:57+00:00",
+    "last_update_at": "2026-11-05T06:38:00+00:00",
+    "what_is_not_verified": "היקף הנזק המלא מעבר לדיווחים הראשוניים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_ukrinform",
+      "url": "https://www.ukrinform.net/rubric-ato/4181596-russian-army-attacks-logistics-infrastructure-in-bucha-one-injured.html",
+      "published_at": "2026-11-05T06:38:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_ukrinform",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/05/8061332/",
+      "published_at": "2026-11-05T05:27:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_ukrinform",
+      "url": "https://kyivindependent.com/russian-drone-attacks-injure-4-in-dnipropetrovsk-and-kyiv-oblasts-spark-fires-at-infrastructure-facilities/",
+      "published_at": "2026-11-05T04:58:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_ukrinform",
+      "url": "https://t.me/alexmehacarmel/49299",
+      "published_at": "2026-11-04T21:53:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז בוצ'ה, אוקראינה",
+      "lat": 50.5449,
+      "lon": 29.8987
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11050721-02",
+    "title": "יירוט כטב\"מים וטילים",
+    "summary": "כוחות ההגנה האווירית של אוקראינה ירטו או שיבשו מספר רב של כטב\"מים וטילים ששגרו כוחות רוסיים.",
+    "axis": "הגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-05T06:09:00+00:00",
+    "last_update_at": "2026-11-05T06:54:00+00:00",
+    "what_is_not_verified": "תוצאות פגיעה של כלל החלקים שלא יורטו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_ukrinform",
+      "url": "https://www.ukrinform.net/rubric-ato/4181598-adf-neutralises-105-russian-drones-since-yesterday-evening.html",
+      "published_at": "2026-11-05T06:54:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_ukrinform",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/05/8061335/",
+      "published_at": "2026-11-05T06:09:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11050721-03",
+    "title": "פגיעה במתקנים בריאזאן",
+    "summary": "מתקנים בריאזאן שברוסיה הותקפו וספגו פגיעות, כולל דיווחים על פגיעה בבית זיקוק ובמחסן.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T00:19:16+00:00",
+    "last_update_at": "2026-11-05T02:31:34+00:00",
+    "what_is_not_verified": "הנזק המדויק לבית הזיקוק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://t.me/alexmehacarmel/49305",
+      "published_at": "2026-11-05T02:31:34+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://kyivindependent.com/russian-oil-refinery-in-ryazan-reportedly-targeted-in-drone-attack/",
+      "published_at": "2026-11-05T02:05:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://t.me/alexmehacarmel/49304",
+      "published_at": "2026-11-05T01:11:39+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://t.me/alexmehacarmel/49303",
+      "published_at": "2026-11-05T00:19:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאזאן, רוסיה",
+      "lat": 54.6296,
+      "lon": 39.7425
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11050721-04",
+    "title": "נפגעים בתקיפות בחרסון ובקמישוואחה",
+    "summary": "תקיפות רוסיות על קהילות באזור חרסון ובקמישוואחה גרמו להרוגים ולפצועים רבים באוכלוסייה האזרחית.",
+    "axis": "דרום אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T16:09:19+00:00",
+    "last_update_at": "2026-11-05T05:11:00+00:00",
+    "what_is_not_verified": "מספר הנעדרים המדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_kherson_city_military_administration",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/05/8061331/",
+      "published_at": "2026-11-05T05:11:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_kherson_city_military_administration",
+      "url": "https://kyivindependent.com/ukraine-war-latest-kyiv-suffers-worst-water-outage-of-full-scale-war-after-mass-russian-assault/",
+      "published_at": "2026-11-04T21:21:54+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_kherson_city_military_administration",
+      "url": "https://t.me/alexmehacarmel/49298",
+      "published_at": "2026-11-04T20:01:39+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_kherson_city_military_administration",
+      "url": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news",
+      "published_at": "2026-11-04T16:09:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרסון, אוקראינה",
+      "lat": 46.6401,
+      "lon": 32.6144
+     },
+     {
+      "name": "קמישוואחה, אוקראינה",
+      "lat": 48.6403,
+      "lon": 37.4558
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11050721-05",
+    "title": "השעיית עיצומים בשוויץ",
+    "summary": "שוויץ יישרה קו עם האיภาพ האיחוד האירופי והסירה עיצומים מעל אישים מסוימים.",
+    "axis": "סנקציות וכלכלה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-04T21:00:00+00:00",
+    "last_update_at": "2026-11-04T21:00:00+00:00",
+    "what_is_not_verified": "השפעת ההחלטה על מאמצי הסנקציות הרחבים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_tass",
+      "url": "https://tass.com/world/2213007",
+      "published_at": "2026-11-04T21:00:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר אבדות מדויק של הצבא הרוסי כפי שמדווח המטה הכללי האוקראיני",
+   "היקף הנזק המדויק בבית הזיקוק בריאזאן"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1267,
+    "unit": "USD",
+    "change_pct": 0.79,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-04T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך הגנה על האינטרסים ופגיעה בתשתיות צבאיות-לוגיסטיות של אוקראינה"
+    ],
+    "inferred": [
+     "שחיקת התשתיות הקריטיות של אוקראינה והורדת מוראל",
+     "המשך לחץ צבאי להשגת תנאים נוחים להסדר עתידי"
+    ],
+    "forecast": [
+     "המשך מתקפות אוויריות על ערי אוקראינה ותשתיות האנרגיה שלה"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על המדינה, קבלת סיוע בינלאומי מוגבר והרחקת הכוחות הרוסיים",
+     "שאיפה להגברת הלחץ הבינלאומי על רוסיה לסיום המלחמה"
+    ],
+    "inferred": [
+     "פגיעה ביכולות הכלכליות והאנרגטיות של רוסיה באמצעות תקיפות עומק",
+     "חיזוק קשרים עם גורמים בממשל האמריקאי והאירופי"
+    ],
+    "forecast": [
+     "המשך פעילות הגנה אווירית ותקיפות נגד מטרות בתוך שטח רוסיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news",
+    "accessed_at": "2026-11-05T07:21:05+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-war-latest-kyiv-suffers-worst-water-outage-of-full-scale-war-after-mass-russian-assault/",
+    "accessed_at": "2026-11-05T07:21:05+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/05/8061331/",
+    "accessed_at": "2026-11-05T07:21:05+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2213007",
+    "accessed_at": "2026-11-05T07:21:05+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49298",
+    "accessed_at": "2026-11-05T07:21:05+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4181598-adf-neutralises-105-russian-drones-since-yesterday-evening.html",
+    "accessed_at": "2026-11-05T07:21:05+00:00"
+   }
+  ]
+ }
+}
