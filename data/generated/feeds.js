@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-05T07:17:26+00:00",
-  "fetched_at": "2026-11-05T07:17:26+00:00"
+  "checked_at": "2026-11-05T08:17:09+00:00",
+  "fetched_at": "2026-11-05T08:17:09+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-05T07:17:41+00:00",
-  "fetched_at": "2026-11-05T07:17:41+00:00"
+  "checked_at": "2026-11-05T08:17:22+00:00",
+  "fetched_at": "2026-11-05T08:17:22+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-05T07:17:41+00:00",
-  "fetched_at": "2026-11-05T07:17:41+00:00"
+  "checked_at": "2026-11-05T08:17:22+00:00",
+  "fetched_at": "2026-11-05T08:17:22+00:00"
  },
- "generated_at": "2026-11-05T07:17:41+00:00",
+ "generated_at": "2026-11-05T08:17:22+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מסעדה ברוטשילד הפילה רשת שלמה: כל המספרים והסיבות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562113",
-     "date": "2026-11-05T03:28:00+00:00"
+     "title": "ירידות חדות בפתיחה בתל אביב; מניות השבבים נחלשות, אל על נופלת אחרי הדוחות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562088",
+     "date": "2026-11-05T08:03:00+00:00"
     },
     {
      "title": "הרצוג בעקבות הפשיעה הלאומנית: \"ללא אכיפה נגיע לאסון\"",
@@ -98,6 +98,21 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "ירידות חדות בפתיחה בתל אביב; מניות השבבים נחלשות, אל על נופלת אחרי הדוחות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562088",
+     "date": "2026-11-05T08:03:00+00:00"
+    },
+    {
+     "title": "אורמת עקפה את התחזיות ברבעון השלישי, ומעלה את התחזית השנתית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562158",
+     "date": "2026-11-05T07:52:00+00:00"
+    },
+    {
+     "title": "מכרה הזהב של אל על: רווח נקי של 160 מיליון שקל לנוסע המתמיד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562157",
+     "date": "2026-11-05T07:52:00+00:00"
+    },
     {
      "title": "לראשונה מאז 2019: בלקרוק חוזרת לשוק קרנות הסל בתל אביב",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562153",
@@ -109,14 +124,9 @@ window.DB.generated = {
      "date": "2026-11-05T06:39:00+00:00"
     },
     {
-     "title": "הרווח של אל על ירד ב-14% ברבעון; תחלק דיבידנד ענק",
+     "title": "ההכנסות גדלו, הרווח נחתך ואל על תחלק דיבידנד ענק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562149",
      "date": "2026-11-05T06:38:00+00:00"
-    },
-    {
-     "title": "המניות הישראליות שהיו מעדיפות לשכוח את עונת הדוחות הזו: חמישה דברים לקראת יום המסחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562088",
-     "date": "2026-11-05T06:25:00+00:00"
     },
     {
      "title": "הסיבה מאחורי הראלי האדיר שנרשם אמש בוול סטריט",
@@ -189,11 +199,6 @@ window.DB.generated = {
      "date": "2026-11-04T16:35:00+00:00"
     },
     {
-     "title": "הפניקס מציגה: חופשה לכל עובד במימון של עד 7,200 שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562071",
-     "date": "2026-11-04T16:02:00+00:00"
-    },
-    {
      "title": "\"כולם כבר בפנים\": למה הבורסה בישראל מתקשה להתאושש, ומה צפוי לקרות לריבית?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562120",
      "date": "2026-11-04T15:45:00+00:00"
@@ -214,11 +219,6 @@ window.DB.generated = {
      "date": "2026-11-04T13:24:00+00:00"
     },
     {
-     "title": "רמי לוי מגיב לחשיפת גלובס על רכישת ארקיע: \"לא יהיה פשוט לאשר את זה\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562009",
-     "date": "2026-11-04T12:36:00+00:00"
-    },
-    {
      "title": "\"נהנים מהגידול המהיר בביקוש ל-AI\": קמטק עם תחזית אופטימית להמשך",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562015",
      "date": "2026-11-04T12:12:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-05T07:17:28+00:00",
-  "fetched_at": "2026-11-05T07:17:28+00:00"
+  "checked_at": "2026-11-05T08:17:10+00:00",
+  "fetched_at": "2026-11-05T08:17:10+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-05T07:17:29+00:00",
-  "fetched_at": "2026-11-05T07:17:29+00:00"
+  "checked_at": "2026-11-05T08:17:11+00:00",
+  "fetched_at": "2026-11-05T08:17:11+00:00"
  },
  "tv": {
   "data": [
@@ -2431,6 +2431,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-08",
+    "time": "15:00",
+    "channel": "5 גולד",
+    "sport": "כדורגל",
+    "title": "מאמלודי סאנדאונס - USM אלגר"
+   },
+   {
+    "date": "2026-11-08",
     "time": "15:30",
     "channel": "ספורט 4",
     "sport": "כדורגל",
@@ -2452,6 +2459,20 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-08",
+    "time": "16:00",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "ראן - ליל"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "17:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "הפועל עמק יזרעאל - הפועל העמק"
+   },
+   {
+    "date": "2026-11-08",
     "time": "17:15",
     "channel": "ONE",
     "sport": "כדורגל",
@@ -2466,6 +2487,34 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-08",
+    "time": "18:15",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "ברסט - ליון"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "18:15",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "אנז'ה - ניס"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "18:15",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "לה האבר - לוריין"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "18:15",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "לה מאן - מונאקו"
+   },
+   {
+    "date": "2026-11-08",
     "time": "18:30",
     "channel": "ספורט 1",
     "sport": "כדורגל",
@@ -2477,6 +2526,13 @@ window.DB.generated = {
     "channel": "ספורט 6",
     "sport": "כדורגל",
     "title": "פרייבורג - אוניון ברלין"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "18:30",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "עירוני נס ציונה - עירוני קריית אתא"
    },
    {
     "date": "2026-11-08",
@@ -2515,6 +2571,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-08",
+    "time": "20:15",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "הפועל ירושלים - הפועל העמק"
+   },
+   {
+    "date": "2026-11-08",
     "time": "20:30",
     "channel": "ספורט 5",
     "sport": "כדורגל",
@@ -2526,6 +2589,13 @@ window.DB.generated = {
     "channel": "ספורט 6",
     "sport": "כדורגל",
     "title": "הופנהיים - שאלקה 04"
+   },
+   {
+    "date": "2026-11-08",
+    "time": "21:45",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "לאנס - מארסיי"
    },
    {
     "date": "2026-11-08",
@@ -2564,8 +2634,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-05T07:17:30+00:00",
-  "fetched_at": "2026-11-05T07:17:30+00:00"
+  "checked_at": "2026-11-05T08:17:13+00:00",
+  "fetched_at": "2026-11-05T08:17:13+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2741,8 +2811,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-05T07:17:30+00:00",
-  "fetched_at": "2026-11-05T07:17:30+00:00"
+  "checked_at": "2026-11-05T08:17:13+00:00",
+  "fetched_at": "2026-11-05T08:17:13+00:00"
  },
  "ai": {
   "data": {
@@ -2758,22 +2828,23 @@ window.DB.generated = {
     },
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/evolve-to-ai-2026-recap/",
-     "date": "2026-11-04T15:44:25+00:00",
+     "link": "https://www.geektime.co.il/evolve-to-ai-2026-red-hat/",
+     "date": "2026-11-04T17:09:20+00:00",
      "launch": false,
-     "title": "לא באתם לכנס Evolve to AI? הנה כל מה שפספסתם"
+     "title": "במקום לנחש איזה מודל יצליח, תנו לסוכני ה-AI לבחור בעצמם"
     }
    ],
    "candidates": 14,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1300,
+     "likes": 1303,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2787,7 +2858,7 @@ window.DB.generated = {
      "title": "AI Text Humanizer",
      "desc_en": "Cliché-removal rules; protects code, numbers, quotes.",
      "desc_he": "כללי הסרת קלישה; מגן על קוד, מספרים, ציטוטים.",
-     "likes": 181,
+     "likes": 186,
      "link": "https://huggingface.co/spaces/fendouai/free-ai-humanizer"
     },
     {
@@ -2842,12 +2913,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-05T07:17:39+00:00",
-  "fetched_at": "2026-11-05T07:17:39+00:00"
+  "checked_at": "2026-11-05T08:17:21+00:00",
+  "fetched_at": "2026-11-05T08:17:21+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "מהמגרש למסך: ההישג המרשים של ליאל עבדה",
+     "link": "https://www.one.co.il/Article/538036.html?ref=rss",
+     "date": "2026-11-05T08:02:00+00:00",
+     "source": "ONE",
+     "players": [
+      "ליאל עבדה"
+     ]
+    },
     {
      "title": "\"קבלת החלטות איומה\": מנור סולומון נקטל באנגליה",
      "link": "https://sports.walla.co.il/item/3875061",
@@ -2936,15 +3016,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "קייס גאנם"
-     ]
-    },
-    {
-     "title": "שהר: השמיים הם הגבול עבור גורן, תנו לו לשחק",
-     "link": "https://www.one.co.il/Article/537958.html?ref=rss",
-     "date": "2026-11-04T12:24:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוריין גורן"
      ]
     },
     {
@@ -3184,6 +3255,15 @@ window.DB.generated = {
    ],
    "europe": [
     {
+     "title": "הבינה מנתחת: סיכויי הפועל ב\"ש בליגה האירופית",
+     "link": "https://www.one.co.il/Article/538007.html?ref=rss",
+     "date": "2026-11-05T08:00:00+00:00",
+     "source": "ONE",
+     "clubs": [
+      "הפועל ב\"ש"
+     ]
+    },
+    {
      "title": "ב-10 שחקנים ובדרמת פנדלים: מכבי ת\"א עלתה שלב בליגת האלופות",
      "link": "https://sports.walla.co.il/item/3874849",
      "date": "2026-11-03T18:34:00+00:00",
@@ -3195,8 +3275,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-05T07:17:34+00:00",
-  "fetched_at": "2026-11-05T07:17:34+00:00"
+  "checked_at": "2026-11-05T08:17:15+00:00",
+  "fetched_at": "2026-11-05T08:17:15+00:00"
  },
  "idf": {
   "data": [
@@ -3227,58 +3307,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-05T07:17:34+00:00",
-  "fetched_at": "2026-11-05T07:17:34+00:00"
+  "checked_at": "2026-11-05T08:17:16+00:00",
+  "fetched_at": "2026-11-05T08:17:16+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-05T06:54:00+00:00",
-    "seen_at": "2026-11-05T07:17:41+00:00",
+    "newest": "2026-11-05T08:11:00+00:00",
+    "seen_at": "2026-11-05T08:17:22+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-05T06:54:00+00:00",
-    "seen_at": "2026-11-05T07:17:41+00:00",
+    "newest": "2026-11-05T08:03:00+00:00",
+    "seen_at": "2026-11-05T08:17:22+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-05T06:39:00+00:00",
-    "seen_at": "2026-11-05T07:17:41+00:00",
+    "seen_at": "2026-11-05T08:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-05T07:30:00+00:00",
-    "seen_at": "2026-11-05T07:17:41+00:00",
+    "seen_at": "2026-11-05T08:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-05T07:36:00+00:00",
-    "seen_at": "2026-11-05T07:17:41+00:00",
+    "newest": "2026-11-05T09:00:00+00:00",
+    "seen_at": "2026-11-05T08:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-05T07:25:00+00:00",
-    "seen_at": "2026-11-05T07:17:41+00:00",
+    "newest": "2026-11-05T09:07:00+00:00",
+    "seen_at": "2026-11-05T08:17:22+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-05T06:51:00+00:00",
-    "seen_at": "2026-11-05T07:17:41+00:00",
+    "newest": "2026-11-05T08:15:00+00:00",
+    "seen_at": "2026-11-05T08:17:22+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-04T15:37:26+00:00",
-    "seen_at": "2026-11-05T07:17:41+00:00",
+    "seen_at": "2026-11-05T08:17:22+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3290,40 +3370,40 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-02T17:45:00+00:00",
-    "seen_at": "2026-11-05T07:17:41+00:00",
+    "seen_at": "2026-11-05T08:17:22+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-04T15:44:25+00:00",
-    "seen_at": "2026-11-05T07:17:41+00:00",
+    "newest": "2026-11-05T07:27:44+00:00",
+    "seen_at": "2026-11-05T08:17:22+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-03T19:30:09+00:00",
-    "seen_at": "2026-11-05T07:17:41+00:00",
+    "seen_at": "2026-11-05T08:17:22+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-04T16:49:06+00:00",
-    "seen_at": "2026-11-05T07:17:41+00:00",
+    "seen_at": "2026-11-05T08:17:22+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-04T16:04:01+00:00",
-    "seen_at": "2026-11-05T07:17:41+00:00",
+    "seen_at": "2026-11-05T08:17:22+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-05T07:17:41+00:00"
+  "checked_at": "2026-11-05T08:17:22+00:00"
  },
  "health_news": {
   "data": [
    {
-    "title": "\"שפעת יכולה לשלוח גם ילדים בריאים לטיפול נמרץ\". כך תפחיתו סיכון",
+    "title": "הילד בריא, אז למה לחסן? מומחית עונה על השאלה של הורים רבים",
     "link": "https://www.walla.co.il/healthy/health-news/383959808",
     "date": "2026-11-04T16:04:01+00:00"
    },
@@ -3474,7 +3554,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-05T07:17:35+00:00",
-  "fetched_at": "2026-11-05T07:17:35+00:00"
+  "checked_at": "2026-11-05T08:17:17+00:00",
+  "fetched_at": "2026-11-05T08:17:17+00:00"
  }
 };
