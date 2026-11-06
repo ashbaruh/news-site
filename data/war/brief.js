@@ -1,180 +1,116 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-06T04:00:00+02:00",
- "generated_at": "2026-11-06T01:40:29+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-11-06T12:00:00+02:00",
+ "generated_at": "2026-11-06T10:10:13+00:00",
+ "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11060140-01",
-     "title": "נסיעת מזכיר המועצה העליונה לביטחון לאומי למוסקבה",
-     "summary": "מזכיר המועצה העליונה לביטחון לאומי של איראן נחת במוסקבה ונפגש עם הנשיא פוטין כדי למסור לו איגרת מהמנהיג העליון.",
+     "id": "IRAN-11061010-01",
+     "title": "שתי מכליות נפט עלו באש במצר הורמוז",
+     "summary": "חיל הים של משמרות המהפכה הודיע כי שתי מכליות נפט שהפרו תקנות ימיות עלו באש ונעצרו לאחר שפגעו במוקשים במצר הורמוז וממזרח לו.",
      "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-05T15:36:22+00:00",
+     "occurred_at": "2026-11-06T07:58:14+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-05T15:36:22+00:00",
-     "last_update_at": "2026-11-05T15:36:22+00:00",
-     "what_is_not_verified": "תוכן המדויק של האיגרת אינו מאומת מעבר לקיומה.",
+     "first_reported_at": "2026-11-06T07:58:14+00:00",
+     "last_update_at": "2026-11-06T08:50:58+00:00",
+     "what_is_not_verified": "הנסיבות המדויקות מעבר להודעת משמרות המהפכה אינן מאומתות ממקור עצמאי",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_src_tg_abualiexpress",
-       "url": "https://t.me/abualiexpress/133149",
-       "published_at": "2026-11-05T15:36:22+00:00"
+       "source_id": "src_irna",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://en.irna.ir/news/86313858/Two-other-violating-oil-tankers-catch-fire-in-Strait-of-Hormuz",
+       "published_at": "2026-11-06T08:50:58+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-two-oil-tankers-ablaze-after-collision-mines-hormuz-strait",
+       "published_at": "2026-11-06T07:58:14+00:00"
       }
      ],
      "places": [
       {
-       "name": "מוסקבה, רוסיה",
-       "lat": 55.7505,
-       "lon": 37.6175
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
       }
      ]
     },
     {
-     "id": "IRAN-11060140-02",
-     "title": "הצהרת שר המלחמה האמריקאי על המערכה",
-     "summary": "שר המלחמה האמריקאי פרסם הודעת וידאו שבה הגדיר את המלחמה באיראן כמאמץ אמיץ והיסטורי ודחה את הניסיונות להדיחו.",
+     "id": "IRAN-11061010-02",
+     "title": "דיווח על דיונים בארה\"ב לגבי תקיפות באיראן",
+     "summary": "גורמים אמריקאים מסרו כי בבית הלבן נערכו פגישות דחופות בנוגע לחידוש אפשרי של תקיפות נגד איראן, בעוד פיקוד המרכז משלים את היערכותו.",
      "axis": "iran",
-     "claim_type": "statement",
+     "claim_type": "assessment",
      "lifecycle": "active",
-     "occurred_at": "2026-11-05T20:53:18+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-05T20:53:18+00:00",
-     "last_update_at": "2026-11-05T20:53:18+00:00",
-     "what_is_not_verified": "לא מאומת האם הלחץ הקונגרסואלי יצליח או ייכשל בסופו של דבר.",
+     "occurred_at": "2026-11-06T09:47:53+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-06T09:47:53+00:00",
+     "last_update_at": "2026-11-06T09:47:53+00:00",
+     "what_is_not_verified": "פרטי הפגישות וההיערכות הצבאית מבוססים על דיווח תקשורתי בלבד",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133165",
-       "published_at": "2026-11-05T20:53:18+00:00"
+       "url": "https://t.me/abualiexpress/133176",
+       "published_at": "2026-11-06T09:47:53+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "וושינגטון, ארה\"ב",
-       "lat": 38.8951,
-       "lon": -77.0364
-      }
-     ]
+     "places": []
     },
     {
-     "id": "IRAN-11060140-03",
-     "title": "אמירת נשיא ארה\"ב על תוכנית הגרעין והשמדת איראן",
-     "summary": "נשיא ארה\"ב אמר כי איראן אינה עושה דבר בתוכנית הגרעין ללא אישור אמריקאי, וציין כי ייתכן שיידרש להשמיד את יתרת המדינה.",
+     "id": "IRAN-11061010-03",
+     "title": "הצעה גרעינית מאיראן לארה\"ב דרך קטאר",
+     "summary": "גורם איראני בכיר מסר כי טהראן העבירה הצעה בנושא הגרעין לוושינגטון באמצעות קטאר, המותנית במילוי שבע דרישות איראניות מוקדמות.",
      "axis": "iran",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-05T22:09:29+00:00",
+     "occurred_at": "2026-11-05T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-05T23:23:51+00:00",
-     "last_update_at": "2026-11-05T23:23:51+00:00",
-     "what_is_not_verified": "האם ארה\"ב תבצע בפועל תקיפה נוספת להשמדת חלקי מדינה אינו מאומת.",
+     "first_reported_at": "2026-11-06T05:46:30+00:00",
+     "last_update_at": "2026-11-06T05:46:30+00:00",
+     "what_is_not_verified": "תוכן ההצעה ותגובת ארה\"ב טרם אומתו רשמית",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_src_mee",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-he-may-have-destroy-rest-iran",
-       "published_at": "2026-11-05T23:23:51+00:00"
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/iran-sent-nuclear-proposal-us-qatar-senior-iranian-official-tells-reuters",
+       "published_at": "2026-11-06T05:46:30+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "וושינגטון, ארה\"ב",
-       "lat": 38.8951,
-       "lon": -77.0364
-      }
-     ]
+     "places": []
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-11060140-01",
-     "title": "תקיפות צה\"ל בדרום לבנון",
-     "summary": "מטוסי קרב וכוחות של צה\"ל תקפו במספר אזורים בדרום לבנון, בהם ברעשית ואזור הסלוקי.",
+     "id": "NORTH-11061010-01",
+     "title": "הודעה על נאום עתידי של מנהיג חיזבאללה",
+     "summary": "משרד ההסברה של חיזבאללה הודיע כי מזכ\"ל הארגון נעים קאסם יישא נאום ביום רביעי הקרוב לציון יום השהיד.",
      "axis": "north",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-05T18:13:19+00:00",
+     "occurred_at": "2026-11-06T08:12:52+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-05T18:13:19+00:00",
-     "last_update_at": "2026-11-05T18:13:19+00:00",
-     "what_is_not_verified": "מלוא נזקי התקיפות והתוצאות המדויקות בשטח אינם מפורטים.",
+     "first_reported_at": "2026-11-06T08:12:52+00:00",
+     "last_update_at": "2026-11-06T08:12:52+00:00",
+     "what_is_not_verified": "תוכן הנאום הצפוי",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_src_tg_abualiexpress",
-       "url": "https://t.me/abualiexpress/133156",
-       "published_at": "2026-11-05T18:13:19+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ברעשית, לבנון",
-       "lat": 33.1785,
-       "lon": 35.4372
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11060140-02",
-     "title": "ירי ארטילרי ישראלי בסוריה",
-     "summary": "הצבא היראלי ירה שני פגזי ארטילריה לעבר אזור חקלאי בדרום-מערב דמשק סמוך לכפר בית ג'ין.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-05T17:51:14+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-05T17:51:14+00:00",
-     "last_update_at": "2026-11-05T17:51:14+00:00",
-     "what_is_not_verified": "האם היו נפגעים או נזק כבד כתוצאה מהירי הארטילרי אינו מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_src_anadolu",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-army-fires-2-artillery-shells-in-rural-area-southwest-of-damascus-/4113329",
-       "published_at": "2026-11-05T17:51:14+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בית ג'ין, סוריה",
-       "lat": 33.3145,
-       "lon": 35.8794
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11060140-03",
-     "title": "פרישת מפלגת PUK מהממשל באזור כורדיסטן בעיראק",
-     "summary": "אחת משתי המפלגות הכורדיות המרכזיות בעיראק פרשה מהממשל האזורי וקיבלה איומים להקמת ממשל מתחרה.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-05T21:30:55+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-05T21:30:55+00:00",
-     "last_update_at": "2026-11-05T21:30:55+00:00",
-     "what_is_not_verified": "ההשלכות המלאות של הקרע הפוליטי על יציבות האזור אינן מאומתות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_src_newarab",
-       "url": "https://www.newarab.com/news/puk-quits-iraqi-kurdistan-government-deepening-power-struggle",
-       "published_at": "2026-11-05T21:30:55+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "fh_8819b46075ff59a8",
+       "url": "https://english.almanar.com.lb/article/147412/",
+       "published_at": "2026-11-06T08:12:52+00:00"
       }
      ],
      "places": []
@@ -184,96 +120,150 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11060140-01",
-     "title": "סיוע צבאי ספרדי לאוקראינה",
-     "summary": "ספרד הודיעה על העברת חבילת סיוע צבאי בשווי 490 מיליון דולר לחיזוק הגנת האוויר של אוקראינה.",
+     "id": "UKRAINE-11061010-01",
+     "title": "תקיפה אוקראינית על בית זיקוק במחוז קרסנודאר",
+     "summary": "כטב\"מים אוקראיניים פגעו במפעל ביישוב אפיפסקי שבמחוז קרסנודאר ברוסיה וגרמו לשריפה לאחר נפילת שברי כלי טיס.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-05T22:21:17+00:00",
+     "occurred_at": "2026-11-06T09:30:35+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-05T22:21:17+00:00",
-     "last_update_at": "2026-11-05T22:21:17+00:00",
-     "what_is_not_verified": "לוח הזמנים המדויק להגעת מלוא הציוד אינו מפורט.",
+     "first_reported_at": "2026-11-06T09:30:35+00:00",
+     "last_update_at": "2026-11-06T09:30:35+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק בבית הזיקוק לא אושר רשמית על ידי הרשויות המקומיות",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_src_kyivind",
-       "url": "https://kyivindependent.com/spain-to-provide-ukraine-490-million-in-military-aid-zelensky-says/",
-       "published_at": "2026-11-05T22:21:17+00:00"
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/11/06/ukraine-attacks-afipsky-oil-refinery-in-southern-russia",
+       "published_at": "2026-11-06T09:30:35+00:00"
       }
      ],
      "places": [
       {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "אפיפסקי, מחוז קרסנודאר, רוסיה",
+       "lat": 44.9147,
+       "lon": 38.8398
       }
      ]
     },
     {
-     "id": "UKRAINE-11060140-02",
-     "title": "זיהוי מעורבים במהומות בפטרופבלובסקה בורשצ'אחיבקה",
-     "summary": "המשטרה הלאומית ושירות הביטחון של אוקראינה זיהו 130 בני אדם שעשויים להיות מעורבים באירועי ההתפרעות.",
+     "id": "UKRAINE-11061010-02",
+     "title": "פגיעות במאגרי תחמושת רוסיים בדרום ובמזרח אוקראינה",
+     "summary": "המטה הכללי של צבא אוקראינה דיווח על פגיעה בשני מחסני תחמושת באזור מליטופול ומטרות תשתית ושליטה נוספות במחוז דונצק.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-05T23:25:00+00:00",
+     "occurred_at": "2026-11-05T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-06T09:09:00+00:00",
+     "last_update_at": "2026-11-06T09:09:00+00:00",
+     "what_is_not_verified": "אימות עצמאי למידת הנזק מהצד הרוסי",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_c4533a547dbf1800",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/06/8061532/",
+       "published_at": "2026-11-06T09:09:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11061010-03",
+     "title": "עלייה במספר ההרוגים בהפצצה בקומישובאחה ל-53",
+     "summary": "צוותי חילוץ במחוז זפוריז'יה משו גופות של 53 בני אדם מבין הריסות בית ספר תת-קרקעי שנפגע מתקיפה אווירית רוסית.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-02T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-05T23:25:00+00:00",
-     "last_update_at": "2026-11-05T23:25:00+00:00",
-     "what_is_not_verified": "מידת המעורבות המשפטית המדויקת של כל אחד מהחשודים אינה סופית.",
+     "first_reported_at": "2026-11-06T09:07:00+00:00",
+     "last_update_at": "2026-11-06T09:53:00+00:00",
+     "what_is_not_verified": "המספר הסופי של הקורבנות שכן פעולות החילוץ נמשכות",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "fh_fb7142b26e1fc032",
-       "url": "https://www.ukrinform.net/rubric-crime/4181725-clashes-in-petropavlivska-borshchahivka-police-and-security-service-identify-130-people-who-may-be-involved.html",
-       "published_at": "2026-11-05T23:25:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4182051-bodies-of-53-people-recovered-from-rubble-of-underground-school-in-komyshuvakha.html",
+       "published_at": "2026-11-06T09:53:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/06/8061530/",
+       "published_at": "2026-11-06T09:07:00+00:00"
+      }
+     ],
+     "places": []
+    }
+   ]
+  },
+  "yemen": {
+   "events": [
+    {
+     "id": "YEMEN-11061010-01",
+     "title": "יירוט שני טילים בליסטיים ששוגרו לעבר נג'ראן",
+     "summary": "הקואליציה בהובלת סעודיה הודיעה כי מערכות ההגנה האווירית יירטו והשמידו שני טילים בליסטיים ששיגרו החות'ים לעבר העיר נג'ראן.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-06T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-06T08:00:12+00:00",
+     "last_update_at": "2026-11-06T08:05:11+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק מנפילת שברי היירוט טרם פורסם",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-662",
+       "published_at": "2026-11-06T08:05:11+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-two-houthi-missiles-fired-towards-saudi-arabias",
+       "published_at": "2026-11-06T08:00:12+00:00"
       }
      ],
      "places": [
       {
-       "name": "פטרופבלובסקה בורשצ'אחיבקה, אוקראינה",
-       "lat": 50.4372,
-       "lon": 30.346
+       "name": "נג'ראן, ערב הסעודית",
+       "lat": 17.544,
+       "lon": 44.2247
       }
      ]
     },
     {
-     "id": "UKRAINE-11060140-03",
-     "title": "חיבור בנייני מגורים לחימום בקייב",
-     "summary": "עיריית קייב החלה בתהליך הדרגתי של חיבור כלל בנייני המגורים בעיר למערכת החימום המרכזית.",
-     "axis": "ukraine",
+     "id": "YEMEN-11061010-02",
+     "title": "דיווח על תשעה הרוגים בתקיפות סעודיות בתימן",
+     "summary": "משרד הבריאות בצנעא הודיע כי תקיפות סעודיות ברחבי תימן גרמו למותם של תשעה אזרחים ולפציעתם של 14 נוספים.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-05T22:39:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-05T22:39:00+00:00",
-     "last_update_at": "2026-11-05T22:39:00+00:00",
-     "what_is_not_verified": "האם התהליך יושלם במלואו תוך עשרת הימים כמתוכנן טרם אומת סופית.",
+     "occurred_at": "2026-11-05T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-06T07:13:54+00:00",
+     "last_update_at": "2026-11-06T07:13:54+00:00",
+     "what_is_not_verified": "אין אימות עצמאי או התייחסות סעודית למספר הנפגעים ולנסיבות התקיפה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_bc6c7baf6784c393",
-       "url": "https://www.ukrinform.net/rubric-society/4181724-kyiv-plans-to-connect-all-residential-buildings-to-heating-by-november-12.html",
-       "published_at": "2026-11-05T22:39:00+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-attacks-yemen-kill-nine-including-children",
+       "published_at": "2026-11-06T07:13:54+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      }
-     ]
+     "places": []
     }
    ]
   }
  },
- "skipped": {
-  "yemen": "אותיות בשפה זרה בתוך הטקסט העברי (1) (גם בניסיון חוזר)"
- }
+ "skipped": {}
 };
