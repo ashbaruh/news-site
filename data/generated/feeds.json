@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-06T21:17:11+00:00",
-  "fetched_at": "2026-11-06T21:17:11+00:00"
+  "checked_at": "2026-11-06T22:17:14+00:00",
+  "fetched_at": "2026-11-06T22:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T21:17:34+00:00",
-  "fetched_at": "2026-11-06T21:17:34+00:00"
+  "checked_at": "2026-11-06T22:17:25+00:00",
+  "fetched_at": "2026-11-06T22:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T21:17:34+00:00",
-  "fetched_at": "2026-11-06T21:17:34+00:00"
+  "checked_at": "2026-11-06T22:17:26+00:00",
+  "fetched_at": "2026-11-06T22:17:26+00:00"
  },
- "generated_at": "2026-11-06T21:17:34+00:00",
+ "generated_at": "2026-11-06T22:17:26+00:00",
  "globes": {
   "data": {
    "top": [
@@ -214,8 +214,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-06T21:17:13+00:00",
-  "fetched_at": "2026-11-06T21:17:13+00:00"
+  "checked_at": "2026-11-06T22:17:15+00:00",
+  "fetched_at": "2026-11-06T22:17:15+00:00"
  },
  "ifa": {
   "data": [
@@ -1859,165 +1859,11 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T21:17:14+00:00",
-  "fetched_at": "2026-11-06T21:17:14+00:00"
+  "checked_at": "2026-11-06T22:17:16+00:00",
+  "fetched_at": "2026-11-06T22:17:16+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-11-06",
-    "time": "00:30",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "פלמייראס - רמו"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "05:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "גולדן סטייט ווריירס - מיאמי היט"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "13:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "הפועל חולון - הפועל גליל עליון"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "14:00",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "מכבי תל אביב - מכבי פתח תקווה"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "15:00",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "מכבי קריית גת - מכבי יפו"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "15:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "הפועל ראשון לציון - הפועל רעננה"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "15:00",
-    "channel": "5 סטארס",
-    "sport": "כדורגל",
-    "title": "מ.ס קרית ים - מ.ס אשדוד"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "15:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "בני יהודה - מכבי אחי נצרת"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "15:00",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "מכבי הרצליה - הפועל כפר שלם"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "19:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "בשיקטאש - ז'לגיריס קובנה"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "19:30",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "דינמו דרזדן - גרויטר פירת'"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "21:15",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "אולימפיאקוס - הכוכב האדום בלגרד"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "21:30",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "וירטוס בולוניה - בי.סי דובאי"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "21:30",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "המבורג - מנשנגלדבאך"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "21:30",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "אסקולי - פאלרמו"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "21:45",
-    "channel": "ONE2",
-    "sport": "כדורגל",
-    "title": "ונציה - אודינזה"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "21:45",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "טולוז - שטרסבורג"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "21:45",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "אוקספורד סיטי - לסטר"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "21:45",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "פרטיזן בלגרד - מכבי תל אביב"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "22:00",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "אברטון - קובנטרי"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "22:00",
-    "channel": "ONE",
-    "sport": "כדורגל",
-    "title": "סביליה - אלאבס"
-   },
-   {
-    "date": "2026-11-06",
-    "time": "22:00",
-    "channel": "5 גולד",
-    "sport": "כדורגל",
-    "title": "פאריס סן ז'רמן נשים - לה האבר"
-   },
    {
     "date": "2026-11-07",
     "time": "05:00",
@@ -2072,14 +1918,14 @@
     "time": "16:00",
     "channel": "ONE2",
     "sport": "כדורגל",
-    "title": "טורינו - לצ'ה"
+    "title": "קליארי - פרוסינונה"
    },
    {
     "date": "2026-11-07",
     "time": "16:00",
     "channel": "ONE2",
     "sport": "כדורגל",
-    "title": "קליארי - פרוסינונה"
+    "title": "טורינו - לצ'ה"
    },
    {
     "date": "2026-11-07",
@@ -2843,11 +2689,130 @@
     "channel": "ספורט 5 מקס",
     "sport": "כדורסל",
     "title": "ריאל מדריד - הכוכב האדום בלגרד"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "02:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "פילדלפיה 76 - טורונטו ראפטורס"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "03:00",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "מינסוטה טימברוולבס - דאלאס מאבריקס"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "13:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "מכבי רחובות - עירוני רעננה"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "15:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "קומורוס - קונגו"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "15:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "זמביה - בורונדי"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "15:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מוזמביק - אתיופיה"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "18:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "גבון - לסוטו"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "18:00",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "דרום אפריקה - קניה"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "18:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "בורקינה פאסו - מאוריטניה"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "18:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "טוניסיה - לוב"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "18:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "כף ורדה - ליבריה"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "18:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "ניגריה - טנזניה"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "21:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "מאלי - רואנדה"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "21:15",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "פנאתינאיקוס - ברצלונה"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "21:30",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "ליון-וילרבאן - בשיקטאש"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "22:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "מרוקו - ניז'ר"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "22:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "מצרים - מלאווי"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T21:17:16+00:00",
-  "fetched_at": "2026-11-06T21:17:16+00:00"
+  "checked_at": "2026-11-06T22:17:18+00:00",
+  "fetched_at": "2026-11-06T22:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2868,15 +2833,6 @@
     "עירוני ק\"ש"
    ],
    "upcoming": [
-    {
-     "date": "2026-11-06",
-     "time": "14:00",
-     "home": "מכבי ת\"א",
-     "away": "מכבי פ\"ת",
-     "channels": [
-      "ספורט 1"
-     ]
-    },
     {
      "date": "2026-11-07",
      "time": "15:00",
@@ -2947,8 +2903,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-06T21:17:16+00:00",
-  "fetched_at": "2026-11-06T21:17:16+00:00"
+  "checked_at": "2026-11-06T22:17:18+00:00",
+  "fetched_at": "2026-11-06T22:17:18+00:00"
  },
  "ai": {
   "data": {
@@ -2980,7 +2936,7 @@
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 254,
+     "likes": 257,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
@@ -2994,28 +2950,28 @@
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 170,
+     "likes": 171,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
      "title": "LFM3 Omni 2B WebGPU",
      "desc_en": "Run LFM3-Omni-2B locally in the browser on WebGPU",
      "desc_he": "הפעל LFM3-Omni -2B באופן מקומי בדפדפן ב-WebGPU",
-     "likes": 123,
+     "likes": 124,
      "link": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
     },
     {
      "title": "Qwen Image 2.1 Realtime",
      "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 185,
+     "likes": 186,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 75,
+     "likes": 77,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -3043,14 +2999,14 @@
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 303,
+     "likes": 304,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-06T21:17:32+00:00",
-  "fetched_at": "2026-11-06T21:17:32+00:00"
+  "checked_at": "2026-11-06T22:17:25+00:00",
+  "fetched_at": "2026-11-06T22:17:25+00:00"
  },
  "abroad": {
   "data": {
@@ -3392,8 +3348,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-06T21:17:20+00:00",
-  "fetched_at": "2026-11-06T21:17:20+00:00"
+  "checked_at": "2026-11-06T22:17:20+00:00",
+  "fetched_at": "2026-11-06T22:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -3425,7 +3381,7 @@
   ],
   "ok": false,
   "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-06T21:17:20+00:00",
+  "checked_at": "2026-11-06T22:17:20+00:00",
   "fetched_at": "2026-11-06T20:17:38+00:00"
  },
  "feed_health": {
@@ -3434,43 +3390,43 @@
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-06T21:03:00+00:00",
-    "seen_at": "2026-11-06T21:17:34+00:00",
+    "seen_at": "2026-11-06T22:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-06T12:32:00+00:00",
-    "seen_at": "2026-11-06T21:17:34+00:00",
+    "seen_at": "2026-11-06T22:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-06T13:32:00+00:00",
-    "seen_at": "2026-11-06T21:17:34+00:00",
+    "seen_at": "2026-11-06T22:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-06T07:24:00+00:00",
-    "seen_at": "2026-11-06T21:17:34+00:00",
+    "seen_at": "2026-11-06T22:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-06T21:28:00+00:00",
-    "seen_at": "2026-11-06T21:17:34+00:00",
+    "newest": "2026-11-06T22:59:00+00:00",
+    "seen_at": "2026-11-06T22:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-06T18:45:00+00:00",
-    "seen_at": "2026-11-06T21:17:34+00:00",
+    "seen_at": "2026-11-06T22:17:26+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-06T20:25:00+00:00",
-    "seen_at": "2026-11-06T21:17:34+00:00",
+    "newest": "2026-11-06T21:57:00+00:00",
+    "seen_at": "2026-11-06T22:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3488,35 +3444,35 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-05T17:00:00+00:00",
-    "seen_at": "2026-11-06T21:17:34+00:00",
+    "seen_at": "2026-11-06T22:17:26+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-06T14:30:47+00:00",
-    "seen_at": "2026-11-06T21:17:34+00:00",
+    "seen_at": "2026-11-06T22:17:26+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-06T14:00:28+00:00",
-    "seen_at": "2026-11-06T21:17:34+00:00",
+    "seen_at": "2026-11-06T22:17:26+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-06T16:44:36+00:00",
-    "seen_at": "2026-11-06T21:17:34+00:00",
+    "seen_at": "2026-11-06T22:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-04T16:04:01+00:00",
-    "seen_at": "2026-11-06T21:17:34+00:00",
+    "seen_at": "2026-11-06T22:17:26+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-06T21:17:34+00:00"
+  "checked_at": "2026-11-06T22:17:26+00:00"
  },
  "health_news": {
   "data": [
@@ -3672,7 +3628,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T21:17:21+00:00",
-  "fetched_at": "2026-11-06T21:17:21+00:00"
+  "checked_at": "2026-11-06T22:17:21+00:00",
+  "fetched_at": "2026-11-06T22:17:21+00:00"
  }
 }
