@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-06T13:17:27+00:00",
-  "fetched_at": "2026-11-06T13:17:27+00:00"
+  "checked_at": "2026-11-06T14:17:18+00:00",
+  "fetched_at": "2026-11-06T14:17:18+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "Venomous Primate Believed Extinct for 100 Years Was Hiding in Plain Sight All Along",
+    "title_he": "פרימטים ארסיים שנכחדו במשך 100 שנה התחבאו למראה רגיל לכל אורך הדרך",
+    "translated_by": "mymemory",
+    "link": "https://www.goodnewsnetwork.org/venomous-primate-believed-extinct-for-100-years-was-hiding-in-plain-sight-all-along/",
+    "date": "2026-11-06T14:00:28+00:00"
+   },
    {
     "title_en": "Seabirds See Miracle Recovery After Avian Flu Wiped Them Out",
     "title_he": "עופות הים רואים נס החלמה לאחר ששפעת העופות חיסלה אותם",
@@ -34,18 +41,11 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/whale-festival-to-kick-off-amelia-island-in-florida-to-celebrate-the-return-of-the-right-whale/",
     "date": "2026-11-02T19:30:58+00:00"
-   },
-   {
-    "title_en": "Weather.pet App Generates Forecasts for Dogs’ Head and Paws Based on Ground Temps and More",
-    "title_he": "אפליקציית Weather.pet מייצרת תחזיות לראש ולכפות של כלבים על סמך טמפ' קרקע ועוד",
-    "translated_by": "google",
-    "link": "https://www.goodnewsnetwork.org/weather-pet-app-generates-forecasts-for-dogs-head-and-paws-based-on-ground-temps-and-more/",
-    "date": "2026-11-02T14:00:25+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T13:17:41+00:00",
-  "fetched_at": "2026-11-06T13:17:41+00:00"
+  "checked_at": "2026-11-06T14:17:33+00:00",
+  "fetched_at": "2026-11-06T14:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T13:17:44+00:00",
-  "fetched_at": "2026-11-06T13:17:44+00:00"
+  "checked_at": "2026-11-06T14:17:34+00:00",
+  "fetched_at": "2026-11-06T14:17:34+00:00"
  },
- "generated_at": "2026-11-06T13:17:44+00:00",
+ "generated_at": "2026-11-06T14:17:34+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "פתאום כולם מציעים נדל\"ן בחינם: הסכנות הגדולות ברכישה עם 0% הון עצמי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562263",
-     "date": "2026-11-06T10:30:00+00:00"
+     "title": "\"הם חיפשו שעיר לעזאזל\": חד הקרן קרס, עכשיו הנושה שלו מדבר לראשונה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562169",
+     "date": "2026-11-06T13:36:00+00:00"
     },
     {
      "title": "נתניהו על הסיוע האמריקאי: \"המעבר שמובילים נתניהו וטראמפ מסיוע לשותפות משקף את עוצמת היחסים בין המדינות\"",
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-06T13:17:29+00:00",
-  "fetched_at": "2026-11-06T13:17:29+00:00"
+  "checked_at": "2026-11-06T14:17:19+00:00",
+  "fetched_at": "2026-11-06T14:17:19+00:00"
  },
  "ifa": {
   "data": [
@@ -794,7 +794,7 @@ window.DB.generated = {
     "home": "מכבי ת\"א",
     "away": "מכבי פ\"ת",
     "round": "מחזור 10",
-    "score": "",
+    "score": "2-2",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T13:17:29+00:00",
-  "fetched_at": "2026-11-06T13:17:29+00:00"
+  "checked_at": "2026-11-06T14:17:20+00:00",
+  "fetched_at": "2026-11-06T14:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -2848,8 +2848,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T13:17:31+00:00",
-  "fetched_at": "2026-11-06T13:17:31+00:00"
+  "checked_at": "2026-11-06T14:17:22+00:00",
+  "fetched_at": "2026-11-06T14:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2936,66 +2936,12 @@ window.DB.generated = {
    ],
    "results": [
     {
-     "date": "2026-10-31",
-     "time": "15:00",
-     "home": "בית\"ר ירושלים",
-     "away": "עירוני ק\"ש",
-     "round": "מחזור 9",
-     "score": "1-1",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-10-31",
-     "time": "17:30",
-     "home": "הפועל חיפה",
-     "away": "הפועל פ\"ת",
-     "round": "מחזור 9",
-     "score": "2-1",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-10-31",
-     "time": "18:00",
-     "home": "בני סכנין",
-     "away": "עירוני טבריה",
-     "round": "מחזור 9",
-     "score": "1-1",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-10-31",
-     "time": "19:30",
-     "home": "מכבי נתניה",
-     "away": "הפועל ירושלים",
-     "round": "מחזור 9",
-     "score": "1-1",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-11-01",
-     "time": "20:00",
-     "home": "מכבי פ\"ת",
-     "away": "הפועל ב\"ש",
-     "round": "מחזור 9",
-     "score": "2-5",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-11-02",
-     "time": "20:00",
-     "home": "הפועל ר\"ג",
-     "away": "מכבי ת\"א",
-     "round": "מחזור 9",
-     "score": "0-5",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-11-02",
-     "time": "20:30",
-     "home": "הפועל ת\"א",
-     "away": "מכבי חיפה",
-     "round": "מחזור 9",
-     "score": "2-1",
+     "date": "2026-11-06",
+     "time": "14:00",
+     "home": "מכבי ת\"א",
+     "away": "מכבי פ\"ת",
+     "round": "מחזור 10",
+     "score": "2-2",
      "link": "https://www.one.co.il/Soccer/League/1"
     }
    ],
@@ -3003,8 +2949,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-06T13:17:31+00:00",
-  "fetched_at": "2026-11-06T13:17:31+00:00"
+  "checked_at": "2026-11-06T14:17:22+00:00",
+  "fetched_at": "2026-11-06T14:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -3035,14 +2981,14 @@ window.DB.generated = {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 204,
+     "likes": 213,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1339,
+     "likes": 1340,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -3077,8 +3023,15 @@ window.DB.generated = {
      "title": "SimReady Central",
      "desc_en": "Semantic search for 3D assets: USD + RTX simulation previews",
      "desc_he": "חיפוש סמנטי של נכסי תלת מימד: תצוגה מקדימה של סימולציית USD + RTX",
-     "likes": 381,
+     "likes": 382,
      "link": "https://huggingface.co/spaces/nvidia/simready-central"
+    },
+    {
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
+     "likes": 299,
+     "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
      "title": "AI Text Humanizer",
@@ -3086,13 +3039,6 @@ window.DB.generated = {
      "desc_he": "כללי הסרת קלישה; מגן על קוד, מספרים, ציטוטים.",
      "likes": 213,
      "link": "https://huggingface.co/spaces/fendouai/free-ai-humanizer"
-    },
-    {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 298,
-     "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
      "title": "Pika H3 Flex",
@@ -3104,12 +3050,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-06T13:17:39+00:00",
-  "fetched_at": "2026-11-06T13:17:39+00:00"
+  "checked_at": "2026-11-06T14:17:31+00:00",
+  "fetched_at": "2026-11-06T14:17:31+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "\"לצ'כים כנראה אין מזל\": הסערה סביב אוריין גורן",
+     "link": "https://www.one.co.il/Article/538158.html?ref=rss",
+     "date": "2026-11-06T13:30:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
     {
      "title": "צרות בטבריה: קייס גאנם ייעדר, זיו מורגן בספק",
      "link": "https://www.one.co.il/Article/538157.html?ref=rss",
@@ -3232,15 +3187,6 @@ window.DB.generated = {
      "title": "אבדיה על פתיחת העונה הנהדרת של הבלייזרס: \"כולם מתעלים\"",
      "link": "https://sports.walla.co.il/item/3875059",
      "date": "2026-11-05T07:30:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"לא משנה את מי שלחו עליו\": בארה\"ב מתמוגגים מאבדיה",
-     "link": "https://sports.walla.co.il/item/3875058",
-     "date": "2026-11-05T07:06:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3455,8 +3401,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-06T13:17:35+00:00",
-  "fetched_at": "2026-11-06T13:17:35+00:00"
+  "checked_at": "2026-11-06T14:17:26+00:00",
+  "fetched_at": "2026-11-06T14:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -3487,98 +3433,98 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T13:17:35+00:00",
-  "fetched_at": "2026-11-06T13:17:35+00:00"
+  "checked_at": "2026-11-06T14:17:27+00:00",
+  "fetched_at": "2026-11-06T14:17:27+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-06T12:57:00+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "newest": "2026-11-06T13:58:00+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-06T12:32:00+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-06T12:32:00+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "newest": "2026-11-06T13:32:00+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-06T07:24:00+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-06T11:18:00+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-06T11:40:00+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "newest": "2026-11-06T15:05:00+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-06T13:14:00+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "newest": "2026-11-06T13:44:00+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-06T12:08:21+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-05T17:05:16+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-05T17:00:00+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-06T08:14:31+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
-    "newest": "2026-11-05T12:00:52+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "newest": "2026-11-06T14:00:28+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-06T13:00:00+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-04T16:04:01+00:00",
-    "seen_at": "2026-11-06T13:17:44+00:00",
+    "seen_at": "2026-11-06T14:17:34+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-06T13:17:44+00:00"
+  "checked_at": "2026-11-06T14:17:34+00:00"
  },
  "health_news": {
   "data": [
@@ -3734,7 +3680,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T13:17:36+00:00",
-  "fetched_at": "2026-11-06T13:17:36+00:00"
+  "checked_at": "2026-11-06T14:17:28+00:00",
+  "fetched_at": "2026-11-06T14:17:28+00:00"
  }
 };
