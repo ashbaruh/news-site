@@ -7,15 +7,15 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-06T10:17:16+00:00",
-  "fetched_at": "2026-11-06T10:17:16+00:00"
+  "checked_at": "2026-11-06T11:17:24+00:00",
+  "fetched_at": "2026-11-06T11:17:24+00:00"
  },
  "animals": {
   "data": [
    {
-    "title_en": "Seabird Sees Miracle Recovery After Avian Flu Wiped Them Out",
-    "title_he": "התאוששות נס של ציפורי ים לאחר ששפעת העופות מחקה אותם",
-    "translated_by": "mymemory",
+    "title_en": "Seabirds See Miracle Recovery After Avian Flu Wiped Them Out",
+    "title_he": "עופות הים רואים נס החלמה לאחר ששפעת העופות חיסלה אותם",
+    "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/miracle-recovery-sees-seabirds-reclaim-former-colony-after-avian-flu-wiped-them-out/",
     "date": "2026-11-05T12:00:52+00:00"
    },
@@ -42,11 +42,25 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T10:17:32+00:00",
-  "fetched_at": "2026-11-06T10:17:32+00:00"
+  "checked_at": "2026-11-06T11:17:39+00:00",
+  "fetched_at": "2026-11-06T11:17:39+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Standard Bluetooth will soon support lossless and hi-res audio, with no special codecs required",
+    "title_he": "Bluetooth רגיל יתמוך בקרוב באודיו ללא הפסדים וברזולוציה גבוהה, ללא צורך בקודקים מיוחדים",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/standard-bluetooth-will-soon-support-lossless-and-hi-res-audio-with-no-special-codecs-required",
+    "date": "2026-11-06T10:26:52+00:00"
+   },
+   {
+    "title_en": "Dali, KEF and Fyne Audio add new blood to the standmount speakers category at the What Hi-Fi? Awards 2026",
+    "title_he": "Dali, KEF ו-Fyne Audio מוסיפים דם חדש לקטגוריית הרמקולים למעמד ב-What Hi-Fi? פרסים 2026",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/dali-kef-and-fyne-audio-add-new-blood-to-the-standmount-speakers-category-at-the-what-hi-fi-awards-2026",
+    "date": "2026-11-06T10:23:32+00:00"
+   },
    {
     "title_en": "Sony revives its classic 1979 Walkman headphones for modern listeners – with a surprisingly affordable price",
     "title_he": "סוני מחייה את אוזניות הווקמן הקלאסיות שלה משנת 1979 עבור מאזינים מודרניים - עם מחיר סביר באופן מפתיע",
@@ -60,46 +74,37 @@
     "translated_by": null,
     "link": "https://www.whathifi.com/tv-home-cinema/televisions/lg-b6-oled65b6",
     "date": "2026-11-05T15:14:11+00:00"
-   },
-   {
-    "title_en": "KEF has just added this long-awaited feature to its Award-winning Dolby Atmos soundbar",
-    "title_he": "KEF הוסיפה זה עתה את התכונה המיוחלת לסרגל הקול עטור הפרסים שלה Dolby Atmos",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/kef-has-just-added-this-long-awaited-feature-to-its-award-winning-dolby-atmos-soundbar",
-    "date": "2026-11-05T12:40:13+00:00"
-   },
-   {
-    "title_en": "I predicted Sony's flagship Dolby Atmos system could be even better – and this upgrade proves it",
-    "title_he": "ניבאתי שמערכת הדגל של סוני Dolby Atmos יכולה להיות אפילו טובה יותר - והשדרוג הזה מוכיח זאת",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/surround-sound-systems/i-predicted-sonys-flagship-dolby-atmos-system-could-be-even-better-and-this-upgrade-proves-it",
-    "date": "2026-11-05T11:02:16+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T10:17:34+00:00",
-  "fetched_at": "2026-11-06T10:17:34+00:00"
+  "checked_at": "2026-11-06T11:17:44+00:00",
+  "fetched_at": "2026-11-06T11:17:44+00:00"
  },
- "generated_at": "2026-11-06T10:17:34+00:00",
+ "generated_at": "2026-11-06T11:17:44+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "\"עמדנו עם דמעות בעיניים\": מייסדי AI21 מדברים על המשבר - והתפנית",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561932",
-     "date": "2026-11-06T08:00:00+00:00"
+     "title": "למה אפס הון עצמי זה דבר כל כך מסוכן",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562263",
+     "date": "2026-11-06T10:30:00+00:00"
     },
     {
-     "title": "טראמפ באיום על איראן: \"אולי אצטרך להרוס את מה שנותר מהמדינה\"",
+     "title": "נתניהו על הסיוע האמריקאי: \"המעבר שמובילים נתניהו וטראמפ מסיוע לשותפות משקף את עוצמת היחסים בין המדינות\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562351",
-     "date": "2026-11-06T08:20:00+00:00"
+     "date": "2026-11-06T11:03:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "הבורסה בת\"א עברה לעליות של מעל 3%. אלו המניות המובילות",
+     "title": "מגמה ירוקה בבורסה בתל אביב. אלו המניות המובילות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562306",
-     "date": "2026-11-06T09:51:00+00:00"
+     "date": "2026-11-06T11:13:00+00:00"
+    },
+    {
+     "title": "אירופה בירידות, בורסות אסיה צנחו ויפן נכנסה לטריטוריה של שוק דובי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562355",
+     "date": "2026-11-06T10:12:00+00:00"
     },
     {
      "title": "אינטל התרסקה ב- 42% - האם עסקת הרכישה של קלאסיק בסכנה?",
@@ -107,17 +112,12 @@
      "date": "2026-11-06T09:35:00+00:00"
     },
     {
-     "title": "סערה במט\"ח: הדולר זינק הבוקר – למה השקל נחלש ומה ישנה את המגמה בחזרה?",
+     "title": "מה מניע את שער הדולר-שקל שזינק לשיא של כמעט שנה, ומתי תתהפך המגמה?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562358",
      "date": "2026-11-06T09:35:00+00:00"
     },
     {
-     "title": "אירופה בירידות, בורסות אסיה צנחו ויפן נכנסה לטריטוריה של שוק דובי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562355",
-     "date": "2026-11-06T09:21:00+00:00"
-    },
-    {
-     "title": "\"נוצרה הזדמנות\": מנכ״ל ישראייר מאשר את חשיפת גלובס על מו״מ לרכישת ארקיע",
+     "title": "\"נשנה את מפת התעופה הישראלית\": מנכ\"ל ישראייר מאשר את חשיפת גלובס - במו\"מ לרכישת ארקיע",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562357",
      "date": "2026-11-06T08:42:00+00:00"
     },
@@ -214,8 +214,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-06T10:17:17+00:00",
-  "fetched_at": "2026-11-06T10:17:17+00:00"
+  "checked_at": "2026-11-06T11:17:25+00:00",
+  "fetched_at": "2026-11-06T11:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1859,8 +1859,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T10:17:18+00:00",
-  "fetched_at": "2026-11-06T10:17:18+00:00"
+  "checked_at": "2026-11-06T11:17:26+00:00",
+  "fetched_at": "2026-11-06T11:17:26+00:00"
  },
  "tv": {
   "data": [
@@ -2811,8 +2811,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T10:17:22+00:00",
-  "fetched_at": "2026-11-06T10:17:22+00:00"
+  "checked_at": "2026-11-06T11:17:29+00:00",
+  "fetched_at": "2026-11-06T11:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2966,8 +2966,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-06T10:17:22+00:00",
-  "fetched_at": "2026-11-06T10:17:22+00:00"
+  "checked_at": "2026-11-06T11:17:29+00:00",
+  "fetched_at": "2026-11-06T11:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -2989,30 +2989,31 @@
      "title": "איפה הכסף? אנת'רופיק מחברת את קלוד לחשבון הבנק שלכם"
     }
    ],
-   "candidates": 15,
+   "candidates": 13,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 175,
+     "likes": 188,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1337,
+     "likes": 1339,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 160,
+     "likes": 163,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
@@ -3067,12 +3068,22 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-06T10:17:31+00:00",
-  "fetched_at": "2026-11-06T10:17:31+00:00"
+  "checked_at": "2026-11-06T11:17:37+00:00",
+  "fetched_at": "2026-11-06T11:17:37+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "הדילמה בין פרץ לצור והסיבה שסבע ואבו פאני בחוץ",
+     "link": "https://www.one.co.il/Article/538115.html?ref=rss",
+     "date": "2026-11-06T10:15:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מוחמד אבו פאני",
+      "דיא סבע"
+     ]
+    },
     {
      "title": "\"אחת הסיבות לפיטורי המאמן\": באנגליה מאשימים את סולומון",
      "link": "https://sports.walla.co.il/item/3875206",
@@ -3137,15 +3148,6 @@
      ]
     },
     {
-     "title": "בהולנד התמוגגו מגלוך: \"גמל לעצמו על ההופעה\"",
-     "link": "https://www.one.co.il/Article/538097.html?ref=rss",
-     "date": "2026-11-05T20:12:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
      "title": "יובנטוס גברה על אלקמאר, ניצחון לזועבי וטורנסה",
      "link": "https://www.one.co.il/Article/538049.html?ref=rss",
      "date": "2026-11-05T20:00:00+00:00",
@@ -3161,15 +3163,6 @@
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "שער ובישול לגלוך, 1:6 ענק לאייאקס על מיטיולן",
-     "link": "https://www.one.co.il/Article/538046.html?ref=rss",
-     "date": "2026-11-05T17:45:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוסקר גלוך"
      ]
     },
     {
@@ -3203,6 +3196,15 @@
      "title": "אבדיה על פתיחת העונה הנהדרת של הבלייזרס: \"כולם מתעלים\"",
      "link": "https://sports.walla.co.il/item/3875059",
      "date": "2026-11-05T07:30:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"לא משנה את מי שלחו עליו\": בארה\"ב מתמוגגים מאבדיה",
+     "link": "https://sports.walla.co.il/item/3875058",
+     "date": "2026-11-05T07:06:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3417,8 +3419,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-06T10:17:26+00:00",
-  "fetched_at": "2026-11-06T10:17:26+00:00"
+  "checked_at": "2026-11-06T11:17:32+00:00",
+  "fetched_at": "2026-11-06T11:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -3449,58 +3451,58 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T10:17:27+00:00",
-  "fetched_at": "2026-11-06T10:17:27+00:00"
+  "checked_at": "2026-11-06T11:17:32+00:00",
+  "fetched_at": "2026-11-06T11:17:32+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-06T10:12:00+00:00",
-    "seen_at": "2026-11-06T10:17:34+00:00",
+    "newest": "2026-11-06T11:13:00+00:00",
+    "seen_at": "2026-11-06T11:17:44+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-06T09:51:00+00:00",
-    "seen_at": "2026-11-06T10:17:34+00:00",
+    "newest": "2026-11-06T11:13:00+00:00",
+    "seen_at": "2026-11-06T11:17:44+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-06T09:21:00+00:00",
-    "seen_at": "2026-11-06T10:17:34+00:00",
+    "newest": "2026-11-06T10:12:00+00:00",
+    "seen_at": "2026-11-06T11:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-06T07:24:00+00:00",
-    "seen_at": "2026-11-06T10:17:34+00:00",
+    "seen_at": "2026-11-06T11:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-06T09:14:00+00:00",
-    "seen_at": "2026-11-06T10:17:34+00:00",
+    "newest": "2026-11-06T11:18:00+00:00",
+    "seen_at": "2026-11-06T11:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-06T10:53:00+00:00",
-    "seen_at": "2026-11-06T10:17:34+00:00",
+    "newest": "2026-11-06T11:40:00+00:00",
+    "seen_at": "2026-11-06T11:17:44+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-06T09:44:00+00:00",
-    "seen_at": "2026-11-06T10:17:34+00:00",
+    "newest": "2026-11-06T11:03:00+00:00",
+    "seen_at": "2026-11-06T11:17:44+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-05T19:04:09+00:00",
-    "seen_at": "2026-11-06T10:17:34+00:00",
+    "seen_at": "2026-11-06T11:17:44+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3512,35 +3514,35 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-05T17:00:00+00:00",
-    "seen_at": "2026-11-06T10:17:34+00:00",
+    "seen_at": "2026-11-06T11:17:44+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-06T08:14:31+00:00",
-    "seen_at": "2026-11-06T10:17:34+00:00",
+    "seen_at": "2026-11-06T11:17:44+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-05T12:00:52+00:00",
-    "seen_at": "2026-11-06T10:17:34+00:00",
+    "seen_at": "2026-11-06T11:17:44+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-05T16:38:02+00:00",
-    "seen_at": "2026-11-06T10:17:34+00:00",
+    "newest": "2026-11-06T10:26:52+00:00",
+    "seen_at": "2026-11-06T11:17:44+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-04T16:04:01+00:00",
-    "seen_at": "2026-11-06T10:17:34+00:00",
+    "seen_at": "2026-11-06T11:17:44+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-06T10:17:34+00:00"
+  "checked_at": "2026-11-06T11:17:44+00:00"
  },
  "health_news": {
   "data": [
@@ -3696,7 +3698,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-06T10:17:28+00:00",
-  "fetched_at": "2026-11-06T10:17:28+00:00"
+  "checked_at": "2026-11-06T11:17:33+00:00",
+  "fetched_at": "2026-11-06T11:17:33+00:00"
  }
 }
