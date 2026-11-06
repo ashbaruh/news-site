@@ -1,0 +1,304 @@
+{
+ "status": "draft",
+ "received_sha256_12": "5436f8f30635",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "initial": 4,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-06T00:51:38+00:00",
+  "window": {
+   "from": "2026-11-05T00:51:38+00:00",
+   "to": "2026-11-06T00:51:38+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611060051"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת בדגש על תקיפות רוסיות בלתי פוסקות נגד תשתיות האנרגיה והייצור באוקראינה, הגורמות לשיבושים קשים באספקת החשמל והמים. במקביל, נרשמת פעילות דיפלומטית ענפה הכוללת דיונים על הסדרי בטחון עתידיים, דרישות לסיוע כספי וצבאי נוסף מצד אוקראינה, ומפגשים מדיניים בארצות הברית.",
+  "fronts": [
+   {
+    "name": "החזית האווירית והאנרגטית",
+    "status": "פעילה ואינטנסיבית"
+   },
+   {
+    "name": "חזית המדינית והדיפלומטית",
+    "status": "פעילה"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11060051-01",
+    "title": "ספרד מעבירה סיוע צבאי לאוקראינה",
+    "summary": "ספרד מתכוונת לספק לאוקראינה סיוע צבאי בשווי 490 מיליון דולר לחיזוק הגנה אווירית",
+    "axis": "סיוע צבאי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T22:21:17+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T22:21:17+00:00",
+    "last_update_at": "2026-11-05T22:21:17+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/spain-to-provide-ukraine-490-million-in-military-aid-zelensky-says/",
+      "published_at": "2026-11-05T22:21:17+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11060051-02",
+    "title": "מתקפות רוסיות על תשתיות אנרגיה באוקראינה",
+    "summary": "מתקפות רוסיות פגעו בתשתיות אנרגיה ותחנות כוח באוקראינה וגרמו לשיבושים באספקת המים והחשמל בקייב",
+    "axis": "תקיפות והפגזות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T19:07:39+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-05T19:07:39+00:00",
+    "last_update_at": "2026-11-05T21:20:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_799de924e62143b3",
+      "url": "https://kyivindependent.com/ukraine-war-latest-kyiv-water-supply-disrupted-after-power-fluctuations-due-to-russian-attacks/",
+      "published_at": "2026-11-05T19:07:39+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_0de7e9a10424d9d0",
+      "url": "https://tass.com/world/2213571",
+      "published_at": "2026-11-05T21:20:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11060051-03",
+    "title": "פגיעה במתקן ייצור במחוז קייב",
+    "summary": "כוחות רוסיים תקפו מתקן ייצור ומחסן במחוז קייב, שני בני אדם נפצעו",
+    "axis": "תקיפות והפגזות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T17:53:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T17:53:00+00:00",
+    "last_update_at": "2026-11-05T17:53:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_6c9d6f9f52cfecb5",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/05/8061467/",
+      "published_at": "2026-11-05T17:53:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11060051-04",
+    "title": "מפגש משלחות בבית הלבן",
+    "summary": "נציגים מרוסיה ומאוקראינה השתתפו באירוע בבית הלבן והעניקו מתנות למלאניה טראמפ",
+    "axis": "משא ומתן דיפלומטי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T13:09:12+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T13:09:12+00:00",
+    "last_update_at": "2026-11-05T21:04:53+00:00",
+    "what_is_not_verified": "טענות על תיווך הפסקת אש מקומית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_81d72e8e829a9795",
+      "url": "https://www.theguardian.com/world/video/2026/nov/05/russian-and-ukrainian-officials-thank-melania-trump-for-brokering-ceasefire-video",
+      "published_at": "2026-11-05T21:04:53+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_5568d64cad0bb4f5",
+      "url": "https://www.theguardian.com/us-news/video/2026/nov/05/putin-envoy-thanks-melania-trump-for-brokering-ceasefire-video",
+      "published_at": "2026-11-05T18:35:22+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_81d72e8e829a9795",
+      "url": "https://t.me/alexmehacarmel/49320",
+      "published_at": "2026-11-05T16:43:42+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_887b9f9c3299b856",
+      "url": "https://www.bbc.co.uk/news/articles/cm87zvpzwq0no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-05T13:09:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארצות הברית",
+      "lat": 38.8951,
+      "lon": -77.0364
+     },
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11060051-05",
+    "title": "מעצר חשודים בריגול ואספקת רכיבי נשק בפולין",
+    "summary": "הרשויות בפולין עצרו שישה חשודים באספקת רכיבי נשק בלתי חוקית לרוסיה",
+    "axis": "סנקציות ופעילות חשאית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T20:56:53+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T20:56:53+00:00",
+    "last_update_at": "2026-11-05T20:56:53+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_9aeb2cb72d856270",
+      "url": "https://meduza.io/en/news/2026/11/05/polish-authorities-detain-a-russian-woman-and-five-poles-on-suspicion-of-illegally-supplying-weapons-components-to-russia",
+      "published_at": "2026-11-05T20:56:53+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11060051-06",
+    "title": "מעצר קצין מודיעין קנדי באשמת העברת מידע לאוקראינה",
+    "summary": "איש שירות קנדי צפוי למשפט צבאי באשמת מסירת מידע מבצעי לאוקראינה",
+    "axis": "סיוע צבאי ומודיעין",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T21:13:04+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T21:13:04+00:00",
+    "last_update_at": "2026-11-05T21:13:04+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_a990f900b71910b0",
+      "url": "https://kyivindependent.com/canadian-service-member-to-face-court-martial-for-sharing-sensitive-information-with-ukraine/",
+      "published_at": "2026-11-05T21:13:04+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות על תיווך הפסקת אש מקומית באולשקי על ידי גורמים אמריקאיים",
+   "פרטי הסכמים עתידיים בין ארצות הברית לרוסיה בנושא ביטחון אירופה",
+   "תוכניות מדויקות של משא ומתן עתידי באבו דאבי"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1224,
+    "unit": "USD",
+    "change_pct": -0.38,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-05T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "השגת סיוע צבאי וכלכלי נוסף מארצות הברית ומדינות אירופה",
+     "חיזוק מערכות ההגנה האווירית ושיקום תשתיות האנרגיה הפגועות"
+    ],
+    "inferred": [
+     "שמירת תמיכה דו-מפלגתית בארה\"ב למרות תוצאות הבחירות",
+     "גיוס ציוד חלופי מהיר לשמירת רשת החשמל"
+    ],
+    "forecast": [
+     "המשך מאמצים דיפלומטיים להבטחת תקציבי סיוע לשנת 2027"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך פגיעה בתשתיות צבאיות ואנרגטיות של אוקראינה"
+    ],
+    "inferred": [
+     "שחיקת היכולת הכלכלית והאנרגטית של אוקראינה כדי להקשות על המשך הלחימה",
+     "יצירת ערוצי הידברות ישירים או עקיפים עם ממשל בארה\"ב לעיצוב הסדרים"
+    ],
+    "forecast": [
+     "הגברת לחץ צבאי בתקופת החורף באמצעות מתקפות אוויריות מרוכזות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cm87zvpzwq0no?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-06T00:51:38+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/us-news/video/2026/nov/05/putin-envoy-thanks-melania-trump-for-brokering-ceasefire-video",
+    "accessed_at": "2026-11-06T00:51:38+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/canadian-service-member-to-face-court-martial-for-sharing-sensitive-information-with-ukraine/",
+    "accessed_at": "2026-11-06T00:51:38+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/05/polish-authorities-detain-a-russian-woman-and-five-poles-on-suspicion-of-illegally-supplying-weapons-components-to-russia",
+    "accessed_at": "2026-11-06T00:51:38+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/05/8061467/",
+    "accessed_at": "2026-11-06T00:51:38+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2213571",
+    "accessed_at": "2026-11-06T00:51:38+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49320",
+    "accessed_at": "2026-11-06T00:51:38+00:00"
+   }
+  ]
+ }
+}

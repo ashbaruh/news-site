@@ -1,0 +1,228 @@
+{
+ "status": "draft",
+ "received_sha256_12": "8bdb36d83269",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "initial": 2,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-06T00:40:37+00:00",
+  "window": {
+   "from": "2026-11-05T00:40:37+00:00",
+   "to": "2026-11-06T00:40:37+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611060040"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל נמשך על רקע תוצאות בחירות האמצע בארה\"ב, המעוררות ויכוח בוושינגטון ובטהראן על המשך הלחימה או מתווה מדיני. איראן מגבירה את המגעים הדיפלומטיים מול רוסיה ומדינות האזור ומציגה הצעות חדשות, mentre ארה\"ב משדרת נחישות להמשיך במערכה אך בוחנת גם ערוצים דיפלומטיים. במקביל נרשמות תקריות במצר הורמוז ופעילות צבאית ערה.",
+  "fronts": [
+   {
+    "name": "החזית הישירה איראן-ארה\"ב",
+    "status": "פעילה עם מגעים דיפלומטיים ברקע"
+   },
+   {
+    "name": "החזית הצפונית (מול חיזבאללה)",
+    "status": "מתיחות וחיכוך גובר לאורך הקו הצהוב"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11060040-01",
+    "title": "פגיעת מכליות נפט במצר הורמוז",
+    "summary": "כוחות איראניים דיווחו כי חמש מכליות נפט וסירת גוררת עלו באש במספר אירועים במצר הורמוז.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T18:47:10+00:00",
+    "last_update_at": "2026-11-05T18:47:10+00:00",
+    "what_is_not_verified": "הנסיבות המדויקות של הדליקות והגורם להן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss",
+      "published_at": "2026-11-05T18:47:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11060040-02",
+    "title": "יירוט כטב\"מי סיור מעל אי קשם",
+    "summary": "משמרות המהפכה של איראן הודיעו כי הפילו כטב\"מי סיור אמריקאיים חמישי ושישי מסוג אם-קיו-אם-170 מעל האי קשם.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T20:22:02+00:00",
+    "last_update_at": "2026-11-05T20:22:02+00:00",
+    "what_is_not_verified": "אימות אמריקאי לגבי הפלת הכלים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_4137ce43e638f853",
+      "url": "https://en.irna.ir/news/86313659/Iran-downs-fifth-and-sixth-MQM-170-US-drones-over-Qeshm-Island",
+      "published_at": "2026-11-05T20:22:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי קשם, איראן",
+      "lat": 26.7687,
+      "lon": 55.8477
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11060040-03",
+    "title": "פגישת מזכיר המועצה העליונה לביטחון לאומי של איראן עם נשיא רוסיה",
+    "summary": "מחסן רזאאי נפגש במוסקבה עם נשיא רוסיה והעביר לו איגרת מהמנהיג העליון של איראן, ודן עמו בהסדרי ביטחון ותנאים להסכם שלום.",
+    "axis": "איראן - רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T15:36:22+00:00",
+    "last_update_at": "2026-11-05T19:53:57+00:00",
+    "what_is_not_verified": "תוכן מדויק ורשמי של כל שבעת הסעיפים שהוצגו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49323",
+      "published_at": "2026-11-05T19:53:57+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/skgb6bqpge",
+      "published_at": "2026-11-05T19:25:50+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133149",
+      "published_at": "2026-11-05T15:36:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "פיתוח ושירות של מערכת הקרקע הניידת 'איזדלייה 347' וטילי LMUR באיראן",
+   "אספקה בפועל של 90 משגרי טילים מרוסיה לאיראן",
+   "פרטי ההצעות המדויקים בתוכנית הגרעין שהועברו דרך מתווכים קטארים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1716,
+    "unit": "ILS",
+    "change_pct": 0.26,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-05T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "דרישה להפסקת הלחימה בכל החזיתות כולל לבנון ועזה",
+     "הפרשת נכסים איראניים והסרת סנקציות",
+     "העברת השליטה במצר הורמוז לידי איראן והוצאת כוחות אמריקאיים"
+    ],
+    "inferred": [
+     "ניצול חולשה פוליטית לכאורה של הממשל האמריקאי בעקבות בחירות האמצע להפגת לחץ",
+     "הידוק שיתוף הפעולה הצבאי והמדיני עם רוסיה ומדינות האזור"
+    ],
+    "forecast": [
+     "שמירה על אופציה של לחץ צבאי וימי במקביל לניהול משא ומתן דיפלומטי"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "מניעת השגת יכולת גרעינית על ידי איראן",
+     "הגנה על בעלות ברית ונתיבי שיט במפרץ"
+    ],
+    "inferred": [
+     "שמירה על מרחב פעולה מדיני למרות ביקורת קונגרסית ותוצאות בחירות האמצע",
+     "בחינת אפשרויות תקיפה נוספות לצד ערוצי תיווך"
+    ],
+    "forecast": [
+     "המשך לחץ צבאי וכלכלי בשילוב בדיקת פשרות אפשריות בנושא הגרעין"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות איראנית והסרת איומים בגבולותיה"
+    ],
+    "inferred": [
+     "היערכות לאפשרות של הסלמה כוללת במידה שעימות ישיר יתפרץ מול טהראן, כולל חזית מול חיזבאללה"
+    ],
+    "forecast": [
+     "מעקב דרוך אחרי התפתחויות בזירה המדינית והצבאית מול איראן ושלוחותיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss",
+    "accessed_at": "2026-11-06T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86313659/Iran-downs-fifth-and-sixth-MQM-170-US-drones-over-Qeshm-Island",
+    "accessed_at": "2026-11-06T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133149",
+    "accessed_at": "2026-11-06T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49323",
+    "accessed_at": "2026-11-06T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/skgb6bqpge",
+    "accessed_at": "2026-11-06T00:40:37+00:00"
+   }
+  ]
+ }
+}

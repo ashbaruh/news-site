@@ -1,0 +1,349 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a3fdd2be657b",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 3,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-06T00:52:16+00:00",
+  "window": {
+   "from": "2026-11-05T00:52:16+00:00",
+   "to": "2026-11-06T00:52:16+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611060052"
+  },
+  "summary": "הלחימה בתימן נמשכת בעצימות גבוהה, כאשר כוחות החות'ים מנהלים התקדמות קרקעית משמעותית במחוזות מאריב, תעז ובאזור הדרום לעבר עדן, וממשיכים בשיגורי טילים לעבר ערב הסעודית, כולל יירוט מעל העיר מדינה. מנגד, סעודיה ובעלות בריתה פועלות להידוק שיתופי הפעולה האזוריים והבינלאומיים, לרבות אישור הסכם הגנה משותף עם טורקיה וחתירה לבריתות הגנה רחבות יותר בניסיון לבלום את האיומים.",
+  "fronts": [
+   {
+    "name": "חזית מאריב",
+    "status": "פעילה והתקפתית מצד החות'ים"
+   },
+   {
+    "name": "החזית הדרומית (תעז, לחג', אבין ועדן)",
+    "status": "פעילה ותחת לחץ מתקדם של החות'ים"
+   },
+   {
+    "name": "המרחב האווירי של סעודיה (מדינה וינבוע)",
+    "status": "תחת איומי טילים וכטב'מים ופעילות יירוט"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11060052-01",
+    "title": "פרלמנט טורקיה אישר את הסכם ההגנה של מכה",
+    "summary": "הפרלמנט בטורקיה אישר את הסכם ההגנה המשותף יחד עם פקיסטן וערב הסעודית, מה שסולל את הדרך למשלוח תמיכה צבאית ופריסת אנשי צבא בסעודיה.",
+    "axis": "ציר סעודיה-טורקיה-פקיסטן מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T22:09:29+00:00",
+    "last_update_at": "2026-11-06T00:15:22+00:00",
+    "what_is_not_verified": "היactual תאריך פריסת הכוחות בפועל טרם בוצע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_aljazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/6/turkiyes-parliament-ratifies-mecca-defence-agreement?traffic_source=rss",
+      "published_at": "2026-11-06T00:15:22+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_aljazeera",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkeys-parliament-ratifies-mecca-defence-pact-clearing-way-military",
+      "published_at": "2026-11-05T22:09:29+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11060052-02",
+    "title": "עצרת מחאה בניו יורק נגד המצור על תעז ותקיפות החות'ים",
+    "summary": "התקיימה עצרת מחאה מול מטה האומות המאוחדות בניו יורק בדרישה להסרת המצור מעל העיר תעז ותוך גינוי מתמשך של התקיפות החות'יות.",
+    "axis": "ממשלת תימן והמתנגדים לחות'ים מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T22:48:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T22:48:40+00:00",
+    "last_update_at": "2026-11-05T22:48:40+00:00",
+    "what_is_not_verified": "מספר המשתתפים המדויק בעצרת המחאה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_9f9b0e198dc26edf",
+      "url": "https://www.sabanew.net/viewstory/155281",
+      "published_at": "2026-11-05T22:48:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארצות הברית",
+      "lat": 40.7127,
+      "lon": -74.006
+     },
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11060052-03",
+    "title": "טענות לדרישות פיצויים והכרה של החות'ים מסעודיה",
+    "summary": "פורסם כי החות'ים דרשו מסעודיה 51 מיליארד דולר והכרה בהם כשלטון הלגיטימי, טענות שהוכחשו על ידי גורם המקורב לחות'ים שטענו לדרישת סכומים גבוהים יותר על נזקי המלחמה עבור כלל העם התימני.",
+    "axis": "משא ומתן סעודי-חות'י",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T06:53:26+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-05T06:53:26+00:00",
+    "last_update_at": "2026-11-05T18:00:07+00:00",
+    "what_is_not_verified": "אמיתות סכומי הדרישות המדויקים ותנאי הפשרה האמיתיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_wall_street_journal",
+      "url": "https://www.newarab.com/news/houthis-sought-51bn-compensation-saudi-recognition-report",
+      "published_at": "2026-11-05T18:00:07+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_wall_street_journal",
+      "url": "https://t.me/alexmehacarmel/49311",
+      "published_at": "2026-11-05T12:42:19+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_wall_street_journal",
+      "url": "https://t.me/lelotsenzura/94957",
+      "published_at": "2026-11-05T06:53:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11060052-04",
+    "title": "הסלמה ולחימה במחוזות מאריב, תעז, לחג' ואבין",
+    "summary": "כוחות צנעא (החות'ים) פתחו במתקפה נרחבת באזור רע'וואן במחוז מאריב ובגזרות נוספות בדרום ובמזרח, תוך דיווחים על השמדת כוחות פרו-סעודיים והתקדמות לעבר עדן.",
+    "axis": "החות'ים מול ממשלת תימן והקואליציה הסעודית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-05T11:29:14+00:00",
+    "last_update_at": "2026-11-05T13:47:00+00:00",
+    "what_is_not_verified": "היקף האבדות המדויק ומידת השמדת הגדודים בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/05/yemen-president-sacks-ministers-and-officers-houthis",
+      "published_at": "2026-11-05T13:47:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_guardian",
+      "url": "https://t.me/alexmehacarmel/49310",
+      "published_at": "2026-11-05T11:29:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מאריב, תימן",
+      "lat": 15.4579,
+      "lon": 45.323
+     },
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11060052-05",
+    "title": "יירוט טיל בליסטי לעבר העיר מדינה בסעודיה",
+    "summary": "דובר הקואליציה בהובלת סעודיה הודיע כי טיל בליסטי ששוגר לעבר העיר אל-מדינה יורט בהצלחה, זאת לאחר אזהרות סביב הנמל האסטרטגי ינבוע.",
+    "axis": "החות'ים מול ערב הסעודית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T11:07:22+00:00",
+    "last_update_at": "2026-11-05T11:07:22+00:00",
+    "what_is_not_verified": "הנזקים או הנפגעים הפוטנציאליים מנפילת שברי היירוט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_a91d7ddb886b0f90",
+      "url": "https://www.france24.com/en/middle-east/20261105-houthi-missiles-fired-at-medina-intercepted-saudi-coalition-says",
+      "published_at": "2026-11-05T11:07:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מדינה, ערב הסעודית",
+      "lat": 24.4712,
+      "lon": 39.6111
+     },
+     {
+      "name": "ינבוע, ערב הסעודית",
+      "lat": 24.089,
+      "lon": 38.0687
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11060052-06",
+    "title": "חתימת הסכם שיתוף פעולה ביטחוני בין סעודיה לסוריה",
+    "summary": "ערב הסעודית וסוריה חתמו על הסכם שיתוף פעולה בין משרדי ההגנה של שתי המדינות ברוסיה/ריאד על רקע התקיפות החות'יות נגד סעודיה.",
+    "axis": "סעודיה ובעלות בריתה מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T00:22:20+00:00",
+    "last_update_at": "2026-11-05T00:52:16+00:00",
+    "what_is_not_verified": "הפרטים המדויקים אודות יישום הסיוע הצבאי בפועל במסגרת ההסכם",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_spa",
+      "url": "https://www.newarab.com/news/saudi-syrian-defence-ministries-sign-cooperation-agreement",
+      "published_at": "2026-11-05T00:22:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "גובה דרישות הפיצויים המדויק של החות'ים מושג בהכחשה הדדית",
+   "מספר הנפגעים והאדמות שנפלו בפועל בקרבות מאריב והדרום",
+   "פרטי היישום המדויקים של הסכמי ההגנה של סעודיה עם טורקיה וסוריה"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1716,
+    "unit": "ILS",
+    "change_pct": 0.26,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-05T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים (כוחות צנעא)",
+    "declared": [
+     "דורשים הכרה בהם כשלטון הלגיטימי בתימן",
+     "דורשים פיצויים בגין נזקי המלחמה"
+    ],
+    "inferred": [
+     "להרחיב את השליטה הקרקעית לעבר מחוזות מפתח כמו מאריב ועיר הנמל עדן",
+     "להפעיל לחץ צבאי וכלכלי על סעודיה באמצעות שיגורי טילים וכטב'מים"
+    ],
+    "forecast": [
+     "המשך לחץ צבאי על החזיתות בדרום ובמאריב",
+     "התמדה בשיגורים לעבר עומק סעודיה עד להשגת הישגים מדיניים"
+    ]
+   },
+   {
+    "actor": "ערב הסעודית והקואליציה",
+    "declared": [
+     "בלימת ההתקפות של החות'ים על תשתיות וממלכת סעודיה",
+     "חיזוק שיתופי הפעולה הביטחוניים עם מדינות אזוריות (טורקיה, סוריה, פקיסטן)"
+    ],
+    "inferred": [
+     "ניסיון להגיע להסדר מדיני שיעצור את מתקפות החות'ים תוך מזעור נזקים",
+     "תמיכה בכוחות הממשל התימני והכוחות הפרו-סעודיים בבלמים מול ההתקדמות החות'ית"
+    ],
+    "forecast": [
+     "הרחבת פריסת סיוע צבאי זגנתי (כגון טורקי) בסעודיה",
+     "המשך מאמצי התיווך והלחץ הדיפלומטי והצבאי במקביל"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/6/turkiyes-parliament-ratifies-mecca-defence-agreement?traffic_source=rss",
+    "accessed_at": "2026-11-06T00:52:16+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261105-houthi-missiles-fired-at-medina-intercepted-saudi-coalition-says",
+    "accessed_at": "2026-11-06T00:52:16+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/05/yemen-president-sacks-ministers-and-officers-houthis",
+    "accessed_at": "2026-11-06T00:52:16+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkeys-parliament-ratifies-mecca-defence-pact-clearing-way-military",
+    "accessed_at": "2026-11-06T00:52:16+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-syrian-defence-ministries-sign-cooperation-agreement",
+    "accessed_at": "2026-11-06T00:52:16+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155281",
+    "accessed_at": "2026-11-06T00:52:16+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49310",
+    "accessed_at": "2026-11-06T00:52:16+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94957",
+    "accessed_at": "2026-11-06T00:52:16+00:00"
+   }
+  ]
+ }
+}

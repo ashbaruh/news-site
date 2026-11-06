@@ -1,0 +1,262 @@
+{
+ "status": "draft",
+ "received_sha256_12": "00d46d0ebc8f",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 1,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-06T00:58:04+00:00",
+  "window": {
+   "from": "2026-11-05T00:58:04+00:00",
+   "to": "2026-11-06T00:58:04+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611060058"
+  },
+  "summary": "בזירה הצפונית נמשכות תקיפות צה\"ל בלבנון ובדרום סוריה, לצד פעילות מוגברת של חיזבאללה סביב הקו הצהוב והיערכות לאפשרות של הסלמה רחבה יותר. במקביל, ממשלת לבנון פועלת לעידוד יציבות כלכלית, שיקום הדרום והידוק שיתופי פעולה אזוריים.",
+  "fronts": [
+   {
+    "name": "חזית לבנון",
+    "status": "פעילה עם תקיפות אוויריות וארטילריות של צה\"ל וחיכוך גובר מצד חיזבאללה"
+   },
+   {
+    "name": "חזית סוריה",
+    "status": "פעילה עם פשיטות קרקעיות וירי ארטילרי נקודתי של צה\"ל בדרום המדינה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11060058-01",
+    "title": "תקיפות והפגזות בדרום לבנון",
+    "summary": "מטוסי קרב ישראליים תקפו מטרות במספר אזורים בדרום לבנון, וכן נורו פגזי ארטילריה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T18:13:19+00:00",
+    "last_update_at": "2026-11-05T20:44:13+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_a406e25e2f9d301f",
+      "url": "https://english.almanar.com.lb/article/147372/",
+      "published_at": "2026-11-05T20:44:13+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_8e94bfc14c0e87ff",
+      "url": "https://english.almanar.com.lb/article/147362/",
+      "published_at": "2026-11-05T20:36:55+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_a406e25e2f9d301f",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-target-lebanons-nabatieh-tyre-districts",
+      "published_at": "2026-11-05T20:08:04+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_a406e25e2f9d301f",
+      "url": "https://t.me/abualiexpress/133156",
+      "published_at": "2026-11-05T18:13:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ברעשית, לבנון",
+      "lat": 33.1785,
+      "lon": 35.4372
+     },
+     {
+      "name": "כפר תבנית, לבנון",
+      "lat": 33.3519,
+      "lon": 35.5186
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11060058-02",
+    "title": "פשיטה ישראלית באזור קוניטרה בסוריה",
+    "summary": "כוחות הצבא הישראלי ביצעו פשיטה בכפר אל-חוריה שבמרחב קוניטרה בדרום סוריה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T16:07:48+00:00",
+    "last_update_at": "2026-11-05T16:07:48+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-raids-southern-syria-s-quneitra-countryside/4113240",
+      "published_at": "2026-11-05T16:07:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-חוריה, סוריה",
+      "lat": 36.2579,
+      "lon": 38.8643
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11060058-03",
+    "title": "נפילת פגזים בדרום סוריה",
+    "summary": "שני פגזי ארטילריה ישראליים נפלו באזור כפרי מדרום-מערב לדמשק בסוריה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T17:51:14+00:00",
+    "last_update_at": "2026-11-05T17:51:14+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-fires-2-artillery-shells-in-rural-area-southwest-of-damascus-/4113329",
+      "published_at": "2026-11-05T17:51:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בית ג'ן, סוריה",
+      "lat": 33.3145,
+      "lon": 35.8794
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11060058-04",
+    "title": "תקרית ירי בגבול לבנון-סוריה",
+    "summary": "כוח של צבא לבנון ירה לעבר רכב שעקף מחסום דרכים בנתיב הברחה בלתי חוקי בגבול סוריה-לבנון, דבר שהביא למותה של אישה סורית ולפציעתם של אחרים.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-04T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T13:55:38+00:00",
+    "last_update_at": "2026-11-05T13:55:38+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_eb473781bd18d3e5",
+      "url": "https://english.almanar.com.lb/article/147242/",
+      "published_at": "2026-11-05T13:55:38+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עורסאל, לבנון",
+      "lat": 34.1473,
+      "lon": 36.4591
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הערכת מערכת הביטחון הישראלית בנוגע לכוונות המדויקות של חיזבאללה במקרה של עימות כולל מול איראן",
+   "היקף הפעילות המדויק של כוחות זרים או טורקיים בסוריה ובלבנון מעבר למדווח"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1716,
+    "unit": "ILS",
+    "change_pct": 0.26,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-05T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הגנה על גבולות המדינה ותושבי הצפון"
+    ],
+    "inferred": [
+     "יצירת הרתעה מול חיזבאללה והרחקתו מן הגבול",
+     "פגיעה בתשתיות טרור וסיכול התבססות איראנית בגבולות סוריה ולבנון"
+    ],
+    "forecast": [
+     "המשך התקיפות הנקודתיות למניעת התעצמות האויב",
+     "היערכות לאפשרות של פתיחת חזית נוספת מצד חיזבאללה"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "הגנה על לבנון והתנגדות לתוקפנות הישראלית"
+    ],
+    "inferred": [
+     "הגברת החיכוך סביב הקו הצהוב כדי לייצר מנוף לחץ מטעם ציר ההתנגדות ואיראן",
+     "שמירה על יכולות צבאיות והיערכות לעימות אפשרי"
+    ],
+    "forecast": [
+     "שמירה על מוכנות להסלמה רחבה במקרה של עימות ישיר בין ישראל לאיראן"
+    ]
+   },
+   {
+    "actor": "לבנון (ממשל וצבא)",
+    "declared": [
+     "שמירה על ריבונות המדינה והימנעות מעימותים אזוריים",
+     "אכיפת חוק ומניעת הברחות גבול"
+    ],
+    "inferred": [
+     "ניסיון לייצב את הכלכלה ולקדם פרויקטים שיקומיים בעזרת גורמים בינלאומיים ואזוריים",
+     "הגבלת פעילות גורמים חמושים לא-מדינתיים בשטח המדינה"
+    ],
+    "forecast": [
+     "המשך המאמצים הדיפלומטיים והכלכליים לשיקום אזורים שנפגעו והבטחת יציבות פיננסית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/147242/",
+    "accessed_at": "2026-11-06T00:58:04+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-army-fires-2-artillery-shells-in-rural-area-southwest-of-damascus-/4113329",
+    "accessed_at": "2026-11-06T00:58:04+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-target-lebanons-nabatieh-tyre-districts",
+    "accessed_at": "2026-11-06T00:58:04+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133156",
+    "accessed_at": "2026-11-06T00:58:04+00:00"
+   }
+  ]
+ }
+}
