@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06T01:41:36+00:00",
- "ok": true,
- "msg": "עדכון ביניים 04:00: iran 3, north 3, ukraine 3 · דולגו: yemen: אותיות בשפה זרה בתוך הטקסט העברי (1) (גם בניסיון חוזר)"
+ "at": "2026-11-06T09:56:58+00:00",
+ "ok": false,
+ "msg": "הבינה נכשלה — העדכון הקודם נשאר: gemini-3.8-flash צורה 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | gemini-3.8-flash: נגמר הזמן לניסיונות"
 }
