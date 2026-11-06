@@ -1,0 +1,252 @@
+{
+ "status": "draft",
+ "received_sha256_12": "181f14d67e06",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 3,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-06T18:08:59+00:00",
+  "window": {
+   "from": "2026-11-05T18:08:59+00:00",
+   "to": "2026-11-06T18:08:59+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611061808"
+  },
+  "summary": "הלחימה בתימן נמשכת בין החות'ים לבין הממשלה המוכרת הנתמכת בידי קואליציה בהובלת סעודיה, לצד חיכוך צבאי ישיר הכולל שיגור טילים לעבר שטח סעודיה ותקיפות הדדיות במחוז תעז. במקביל, סעודיה מרחיבה את שיתופי הפעולה הצבאיים שלה למול האיום, בין היתר באמצעות קבלת ייעוץ צבאי מסוריה ואישור הסכמי הגנה אזוריים.",
+  "fronts": [
+   {
+    "name": "זירת תימן הפנימית",
+    "status": "פעיל עם עימותים קרקעיים ותקיפות באזור תעז"
+   },
+   {
+    "name": "ציר תימן-סעודיה",
+    "status": "פעיל עם שיגורי טילים לעבר סעודיה והתארגנות הגנתית"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11061808-01",
+    "title": "תקיפה בשוק בתעז והאשמות הדדיות",
+    "summary": "חילופי האשמות בין החות'ים לממשלת תימן בנוגע לתקיפה בשוק במחוז תעז שגרמה לנפגעים רבים, כאשר החות'ים מאשימים את סעודיה והממשלה מאשימה את החות'ים בירי טילים.",
+    "axis": "זירת תימן הפנימית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T11:25:47+00:00",
+    "last_update_at": "2026-11-06T17:28:39+00:00",
+    "what_is_not_verified": "זהות אלגאנב האחראי לפגיעה בשוק וסוג החימוש המדויק אינם מאומתים באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-and-yemeni-government-blame-each-other-taiz-market-attack-killed",
+      "published_at": "2026-11-06T17:28:39+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133190",
+      "published_at": "2026-11-06T13:35:24+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/more-30-killed-or-wounded-air-strikes-yemen-market-houthis-say",
+      "published_at": "2026-11-06T11:25:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11061808-02",
+    "title": "השתלטות כוחות ממשלת תימן על אזורים בתעז",
+    "summary": "כוחות הממשלה המוכרת בתימן דיווחו כי כבשו מחדש כפרים ומחוזות שונים בתעז.",
+    "axis": "זירת תימן הפנימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T13:04:14+00:00",
+    "last_update_at": "2026-11-06T17:28:39+00:00",
+    "what_is_not_verified": "היקף ההישגים בשטח ונתוני הנפגעים של הצד השני אינם מאומתים ממקור בלתי תלוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-and-yemeni-government-blame-each-other-taiz-market-attack-killed",
+      "published_at": "2026-11-06T17:28:39+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-forces-recapture-villages-and-districts-taiz-government-says",
+      "published_at": "2026-11-06T13:04:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11061808-03",
+    "title": "יירוט טילים בליסטיים מעל סעודיה",
+    "summary": "הקואליציה הודיעה על יירוט והשמדה של שני טילים בליסטיים ששוגרו על ידי המיליציות החות'יות לעבר סעודיה.",
+    "axis": "תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T07:47:30+00:00",
+    "last_update_at": "2026-11-06T07:47:30+00:00",
+    "what_is_not_verified": "אין פירוט על מיקום נפילת הרסיסים או נזק אפשרי מעבר להודעת היירוט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_56409fc2cfbdbd97",
+      "url": "https://www.sabanew.net/viewstory/155305",
+      "published_at": "2026-11-06T07:47:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11061808-04",
+    "title": "משלוח יועצים צבאיים מסוריה לסעודיה",
+    "summary": "גורמים צבאיים ואמריקאיים דיווחו כי סוריה שלחה עשרות אנשי צוות ומומחים צבאיים לסעודיה לצורך ייעוץ והכשרה על רקע ההתקפות החות'יות.",
+    "axis": "תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T16:46:34+00:00",
+    "last_update_at": "2026-11-06T17:52:01+00:00",
+    "what_is_not_verified": "ההיקף המדויק ותנאי ההסכם המלאים בין המדינות לא פורסמו במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133199",
+      "published_at": "2026-11-06T17:52:01+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-sends-military-advisers-saudi-arabia-amid-houthi-attacks-sources",
+      "published_at": "2026-11-06T16:55:48+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/syria-aids-saudi-arabia-military-advice-and-training-amid-houthi-attacks-sources",
+      "published_at": "2026-11-06T16:46:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "דרישות החות'ים לפיצויים של 51 מיליארד דולר והכרת סעודיה בלגיטימיות שלהם מוכחשות בידי גורמים המקורבים לחות'ים.",
+   "היקף הפריסה המדויק של היועצים הסורים בסעודיה."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.199,
+    "unit": "ILS",
+    "change_pct": 0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "עצירת תקיפות הקואליציה",
+     "הטלת מצור והפעלת לחץ באזור תעז"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי וכלכלי על ממשלת תימן וסעודיה",
+     "ביסוס שליטה במרחבים קריטיים סמוך למצר באב אל-מנדב"
+    ],
+    "forecast": [
+     "המשך שיגורים לעבר יעדים בסעודיה ובפנים תימן",
+     "החמרת המצב ההומניטרי באזורים נצורים"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן וסעודיה",
+    "declared": [
+     "מיגור האיום החות'י",
+     "השבת השלטון והדחת ההפיכה"
+    ],
+    "inferred": [
+     "בניית מעטפת הגנה אזורית וגיוס תמיכה מבעלות ברית נגד החות'ים",
+     "ניסיון לבלום את התקדמות החות'ים באזורים חיוניים"
+    ],
+    "forecast": [
+     "הגברת הפעילות ההתקפלית המקומית בתעז ובמחוזות נוספים",
+     "חיזוק שיתופי הפעולה הביטחוניים עם שותפות אזוריות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/syria-aids-saudi-arabia-military-advice-and-training-amid-houthi-attacks-sources",
+    "accessed_at": "2026-11-06T18:08:59+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-sends-military-advisers-saudi-arabia-amid-houthi-attacks-sources",
+    "accessed_at": "2026-11-06T18:08:59+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155305",
+    "accessed_at": "2026-11-06T18:08:59+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133199",
+    "accessed_at": "2026-11-06T18:08:59+00:00"
+   }
+  ]
+ }
+}

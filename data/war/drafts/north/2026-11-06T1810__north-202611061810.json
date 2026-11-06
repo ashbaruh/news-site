@@ -1,0 +1,243 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a1246dda3bf3",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 3,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-06T18:10:13+00:00",
+  "window": {
+   "from": "2026-11-05T18:10:13+00:00",
+   "to": "2026-11-06T18:10:13+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611061810"
+  },
+  "summary": "בגזרה הצפונית מתנהלים עיחידים צבאיים עקיפים וישירים, הכוללים תקיפות ארטילריות ואוויריות מצד ישראל בדרום לבנון ובדרום סוריה, לצד פעילות מתמשכת של חיזבאללה ועלייה במתיחות בגבולות. ממשלת לבנון והצבא מנסים לשמור על יציבות פנים-מדינתית ולהתמודד עם אתגרים ביטחוניים והומניטריים, תוך אזהרות מצד גורמים בחיזבאללה מפני הסלמה אזורית רחבה יותר מול ישראל.",
+  "fronts": [
+   {
+    "name": "גבול ישראל-לבנון",
+    "status": "פעיל ומתוח עם תקיפות והתנגשויות נקודתיות"
+   },
+   {
+    "name": "דרום סוריה (קוניטרה)",
+    "status": "מוקד לחיכוך ותקיפות ארטילריות מוגבלות"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11061810-01",
+    "title": "תקיפות צה\"ל בדרום לבנון",
+    "summary": "כוחות צה\"ל תקפו בימים האחרונים מספר מטרות ואזורים בדרום לבנון, כולל אזור אל-סלוקי, ברעשית וכפר תבנית.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T18:13:19+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-05T18:13:19+00:00",
+    "last_update_at": "2026-11-05T18:13:19+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והנפגעים אינם מפורטים במלואם במקורות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133156",
+      "published_at": "2026-11-05T18:13:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בינת ג'ביל, לבנון",
+      "lat": 33.1195,
+      "lon": 35.4328
+     },
+     {
+      "name": "כפר תבנית, לבנון",
+      "lat": 33.3519,
+      "lon": 35.5186
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11061810-02",
+    "title": "תקיפה ושריפת אדמות קרובה לקוניטרה בסוריה",
+    "summary": "כוחות צבא ישראל ביצעו ירי ארטילרי לעבר שטחים חקלאיים בדרום סוריה, בסמוך לכפר עין זיואן ואל-סמדאניה אל-שרקייה.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T11:36:53+00:00",
+    "last_update_at": "2026-11-06T13:11:12+00:00",
+    "what_is_not_verified": "האם היו נפגעים בגוף כתוצאה מהירי הארטילרי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-shells-agricultural-land-in-southern-syria-s-quneitra/4114313",
+      "published_at": "2026-11-06T13:11:12+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-strike-targets-syria-and-lebanon-simultaneously",
+      "published_at": "2026-11-06T11:36:53+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11061810-03",
+    "title": "עצירת אזרח וכניסת כוח זר בכפר קילה",
+    "summary": "כוח צבאי ישראלי שהתקדם מכפר קילה לעבר דיר מימאס מנע מאזרחים להיכנס לעיירה וחטף אזרח למקום לא ידוע.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T12:41:33+00:00",
+    "last_update_at": "2026-11-06T12:41:33+00:00",
+    "what_is_not_verified": "זהותו המדויקת של האזרח החטוף ומצבו הנוכחי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/147587/",
+      "published_at": "2026-11-06T12:41:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפר קילה, לבנון",
+      "lat": 33.2827,
+      "lon": 35.5588
+     },
+     {
+      "name": "דיר מימאס, לבנון",
+      "lat": 33.3021,
+      "lon": 35.5467
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11061810-04",
+    "title": "מעצר והגשת כתבי אישום נגד פעילי חיזבאללה בגין משלוח חומרי נפץ",
+    "summary": "הרשויות בלבנון הגישו כתבי אישום ומעצר נגד שני חברי חיזבאללה על מעורבות בהעברת משלוח חומרי נפץ שנוטרו בדאהר אל-ביידאר.",
+    "axis": "הגזרה הצפונית של ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T14:55:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T14:55:00+00:00",
+    "last_update_at": "2026-11-06T14:55:00+00:00",
+    "what_is_not_verified": "היעד הסופי המדויק של משלוח חומרי הנפץ",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_lbci",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/966668/from-baalbek-to-beirut-the-trail-of-the-explosives-shipment-under-inve/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966668",
+      "published_at": "2026-11-06T14:55:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דאהר אל-ביידאר, לבנון",
+      "lat": 33.8109,
+      "lon": 35.7661
+     },
+     {
+      "name": "בעלבכ, לבנון",
+      "lat": 34.0097,
+      "lon": 36.2117
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מטרתו המדויקת של משלוח חומרי הנפץ שנתפס בלבנון",
+   "היקף הנפגעים המלא בתקיפות צה\"ל בדרום לבנון ובסוריה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.199,
+    "unit": "ILS",
+    "change_pct": 0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "דחיית ההתערבות האמריקאית והמערבית בענייני לבנון",
+     "המשך התנגדות למדיניות העוינת של ארה\"ב וישראל באזור"
+    ],
+    "inferred": [
+     "יצירת לחץ על ישראל דרך הגברת החיכוך בגבול כדי להוות הרתעה מפני עימות רחב עם איראן"
+    ],
+    "forecast": [
+     "שמירה על מוכנות לעימות רחב אם יתפתח משבר צבאי כולל מול איראן"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת איומים ביטחוניים בגבול הצפון ושמירה על חופש פעולה מבצעי"
+    ],
+    "inferred": [
+     "סיכול תשתיות טרור והעברת מסרים תקיפים נגד התבססות עוינת בלבנון ובסוריה"
+    ],
+    "forecast": [
+     "המשך תקיפות נקודתיות ככל שהחיכוך בגבול יימשך"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/147587/",
+    "accessed_at": "2026-11-06T18:10:13+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-army-shells-agricultural-land-in-southern-syria-s-quneitra/4114313",
+    "accessed_at": "2026-11-06T18:10:13+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/966668/from-baalbek-to-beirut-the-trail-of-the-explosives-shipment-under-inve/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966668",
+    "accessed_at": "2026-11-06T18:10:13+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-strike-targets-syria-and-lebanon-simultaneously",
+    "accessed_at": "2026-11-06T18:10:13+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133156",
+    "accessed_at": "2026-11-06T18:10:13+00:00"
+   }
+  ]
+ }
+}

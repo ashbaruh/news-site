@@ -1,0 +1,268 @@
+{
+ "status": "draft",
+ "received_sha256_12": "b9c3a6d40657",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 3,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-06T17:39:56+00:00",
+  "window": {
+   "from": "2026-11-05T17:39:56+00:00",
+   "to": "2026-11-06T17:39:56+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611061739"
+  },
+  "summary": "הזירה מתאפיינת במתיחות צבאית גבוהה לצד מאמצים דיפלומטיים קדחתניים לקראת אפשרות של חידוש הלחימה והתקיפות מצד ארה\"ב וישראל. איראן מחזקת את היערכותה הפנימית והגנתית, מבצעת פניות לרוסיה ומפעילה לחץ אזורי, בעוד שבארה\"ב ובאירופה גוברים הדיונים על עתיד המערכה והאפשרות להסכם פוטנציאלי.",
+  "fronts": [
+   {
+    "name": "הזירה הישראלית-אמריקאית מול איראן ושלוחותיה",
+    "status": "פעיל ומתוח"
+   },
+   {
+    "name": "הזירה הדיפלומטית-אזורית סביב מתקני הגרעין והסנקציות",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11061739-01",
+    "title": "חלוקת טבליות יוד באיראן סביב מתקני גרעין",
+    "summary": "רשויות הבריאות באיראן החלו לחלק טבליות יוד לתושבים הגרים בסמוך למתקני גרעין כהיערכות לשעת מלחמה.",
+    "axis": "איראן מול ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T15:54:06+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T15:54:06+00:00",
+    "last_update_at": "2026-11-06T17:36:52+00:00",
+    "what_is_not_verified": "היקף החלוקה המדויק ומידת האיום המיייש",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133198",
+      "published_at": "2026-11-06T17:36:52+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21795203",
+      "published_at": "2026-11-06T15:54:06+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11061739-02",
+    "title": "פגישת מזכיר המועצה העליונה לביטחון לאומי של איראן עם נשיא רוסיה",
+    "summary": "מוחסן רזאי נפגש במוסקבה עם נשיא רוסיה והעביר לו איגרת ומכתב ממנהיג איראן הדורש בין היתר מערכות הגנה אווירית.",
+    "axis": "איראן מול רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T19:53:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T19:53:57+00:00",
+    "last_update_at": "2026-11-06T17:15:56+00:00",
+    "what_is_not_verified": "תוכן התשובה הרוסית לבקשה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_the_telegraph",
+      "url": "https://www.iranintl.com/en/202611067881",
+      "published_at": "2026-11-06T17:15:56+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_the_telegraph",
+      "url": "https://www.ynet.co.il/news/article/syl0011uiaml",
+      "published_at": "2026-11-06T16:08:08+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_the_telegraph",
+      "url": "https://t.me/abualiexpress/133196",
+      "published_at": "2026-11-06T16:05:01+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_the_telegraph",
+      "url": "https://t.me/alexmehacarmel/49339",
+      "published_at": "2026-11-06T16:01:26+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_the_telegraph",
+      "url": "https://t.me/alexmehacarmel/49323",
+      "published_at": "2026-11-05T19:53:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11061739-03",
+    "title": "יירוט רחפן אמריקאי מעל האי קשם",
+    "summary": "משמרות המהפכה טענו שיירטו רחפן אמריקאי מעל האי קשם.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T14:34:57+00:00",
+    "last_update_at": "2026-11-06T14:34:57+00:00",
+    "what_is_not_verified": "אמינות הדיווח על היירוט עצמו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1385664",
+      "published_at": "2026-11-06T14:34:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי קשם, איראן",
+      "lat": 26.7687,
+      "lon": 55.8477
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11061739-04",
+    "title": "ספינות הקשורות לאיראן מתעכבות מעל כבלי תקשורת במפרץ",
+    "summary": "ספינות ומכליות הקשורות לאיראן תועדו שייטות במסלולים חריגים מעל כבלי תקשורת תת-ימיים במפרץ עומאן.",
+    "axis": "איראן מול ארה\"ב והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T07:36:30+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T07:36:30+00:00",
+    "last_update_at": "2026-11-06T13:08:14+00:00",
+    "what_is_not_verified": "האם מתבצעת הנחת מוקשים בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_financial_times",
+      "url": "https://www.iranintl.com/en/202611067103",
+      "published_at": "2026-11-06T13:08:14+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_financial_times",
+      "url": "https://www.ynet.co.il/news/article/skhjaxitgx",
+      "published_at": "2026-11-06T07:36:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מפרץ עומאן",
+      "lat": 24.2138,
+      "lon": 58.9846
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "דרישת איראן לקיים העברת שליטה במצר הורמוז לידיה במסגרת תנאי שלום",
+   "קיומה בפועל של מערכת קרקעית ניידת רוסית בשם איזדלייה 347 בשירות איראן",
+   "ההיתכנות המדויקת של פריצת דרך מדינית בין ארה\"ב לאיראן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.199,
+    "unit": "ILS",
+    "change_pct": 0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "דחיית התוקפנות של ארה\"ב וישראל",
+     "הפסקת הלחימה בכל החזיתות כתנאי להסכם שלום"
+    ],
+    "inferred": [
+     "שיקום מערך ההגנה האווירית והגרעין",
+     "יצירת מנופי לחץ במפרץ ודרכי תקשורת דיפלומטיות עם מעצמות"
+    ],
+    "forecast": [
+     "המשך היערכות פנימית לעימות אפשרי",
+     "חיזוק קשרים צבאיים עם רוסיה"
+    ]
+   },
+   {
+    "actor": "ארה\"ב וישראל",
+    "declared": [
+     "בחינת אפשרויות לפעולה צבאית נוספת מול איראן",
+     "מניעת התקדמות גרעינית איראנית"
+    ],
+    "inferred": [
+     "בדיקת נכונות מצד טהרן להסכם בתנאים נוחים",
+     "ניהול לחץ כלכלי וצבאי למניעת התבססות איראנית"
+    ],
+    "forecast": [
+     "הכרעה קרובה לגבי חידוש תקיפות או מיצוי ערוצי משא ומתן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611067103",
+    "accessed_at": "2026-11-06T17:39:56+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21795203",
+    "accessed_at": "2026-11-06T17:39:56+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1385664",
+    "accessed_at": "2026-11-06T17:39:56+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133196",
+    "accessed_at": "2026-11-06T17:39:56+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49323",
+    "accessed_at": "2026-11-06T17:39:56+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/skhjaxitgx",
+    "accessed_at": "2026-11-06T17:39:56+00:00"
+   }
+  ]
+ }
+}

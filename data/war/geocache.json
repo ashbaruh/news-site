@@ -1149,6 +1149,10 @@
 33.3277,
 35.6927
 ],
+"kfar kila, lebanon": [
+33.2827,
+35.5588
+],
 "kfar roummane, lebanon": [
 33.399,
 35.5169
@@ -1487,6 +1491,10 @@
 "makhachkala, russia": [
 42.983,
 47.5049
+],
+"mala tokmachka, ukraine": [
+47.5327,
+35.8968
 ],
 "malkia, israel": [
 33.0992,
@@ -2581,6 +2589,7 @@
 46.4609,
 34.8643
 ],
+"zaporizhzhia region, ukraine": null,
 "zaporizhzhia, ukraine": [
 47.8508,
 35.1183

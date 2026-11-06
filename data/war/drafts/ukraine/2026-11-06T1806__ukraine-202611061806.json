@@ -1,0 +1,369 @@
+{
+ "status": "draft",
+ "received_sha256_12": "0179941d6d89",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "initial": 4,
+   "verified": 1,
+   "shared_root": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-06T18:06:13+00:00",
+  "window": {
+   "from": "2026-11-05T18:06:13+00:00",
+   "to": "2026-11-06T18:06:13+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611061806"
+  },
+  "summary": "המלחמה בין רוסיה לאוקראינה נמשכת בשילוב תקיפות אוויריות נרחבות על תשתיות האנרגיה באוקראינה ולחימה קרקעית, לצד מאמצים דיפלומטיים גוברים וגישושים לקראת מגעים אפשריים בהשתתפות מעורבות בינלאומית. צדדים שלישיים, בהם ארצות הברית, מדווחים על יוזמות להסכמים רחבים, בעוד אוקראינה מתמודדת עם נזקים כבדים לכלכלה ולתשתיות.",
+  "fronts": [
+   {
+    "name": "חזית זפוריז'יה",
+    "status": "פעילה עם קרבות מקומיים וטענות הדדיות על שליטה ביישובים"
+   },
+   {
+    "name": "העורף האוקראיני ותשתיות האנרגיה",
+    "status": "תחת התקפות כטב\"מים וטילים בלתי פוסקות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11061806-01",
+    "title": "השתתפות בודאנוב במשלחת באבו דאבי",
+    "summary": "היועץ הנשיאותי הבהיר שקירילו בודאנוב יצטרף למשלחת האוקראינית באבו דאבי אך לא יעמוד בראשותה, בניגוד לדיווחים קודמים.",
+    "axis": "דיפלומטיה ומשא ומתן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T17:59:00+00:00",
+    "last_update_at": "2026-11-06T17:59:00+00:00",
+    "what_is_not_verified": "האם חלים שינויים נוספים בהרכב המשלחת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_1187cc8bcd6bbaee",
+      "url": "https://www.ukrinform.net/rubric-polytics/4182234-budanov-to-join-ukrainian-delegation-in-abu-dhabi-but-not-lead-it-presidential-adviser.html",
+      "published_at": "2026-11-06T17:59:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אבו דאבי, איחוד האמירויות הערביות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11061806-02",
+    "title": "פעילות רחפנים קרקעיים באוקראינה",
+    "summary": "כוחות ההגנה האוקראיניים ביצעו למעלה מ-30 אלף משימות באמצעות רחפנים קרקעיים במהלך חודש אוקטובר לצורכי לוגיסטיקה ופינוי.",
+    "axis": "חזית יבשתית",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-01T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T15:56:00+00:00",
+    "last_update_at": "2026-11-06T17:32:42+00:00",
+    "what_is_not_verified": "הנתונים אינם מאומתים ממקור בלתי תלוי מעבר להודעת משרד ההגנה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_0f68b712e4de2ba6",
+      "url": "https://kyivindependent.com/ukraines-ground-drones-complete-over-30-000-missions-in-record-month-for-robot-warfare/",
+      "published_at": "2026-11-06T17:32:42+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_0f68b712e4de2ba6",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/06/8061610/",
+      "published_at": "2026-11-06T15:56:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11061806-03",
+    "title": "המצב במאלה טוקמאצ'קה",
+    "summary": "הצבא האוקראיני מדווח כי היישוב מאלה טוקמאצ'קה נותר בשליטת כוחות ההגנה האוקראיניים, למרות טענות רוסיות על כיבושו.",
+    "axis": "חזית זפוריז'יה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T17:30:00+00:00",
+    "last_update_at": "2026-11-06T17:30:00+00:00",
+    "what_is_not_verified": "שליטה בפועל בשטח המחלוקת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_19874a2ef7cd96b8",
+      "url": "https://www.ukrinform.net/rubric-ato/4182196-mala-tokmachka-remains-under-ukrainian-control-military.html",
+      "published_at": "2026-11-06T17:30:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מאלה טוקמאצ'קה, אוקראינה",
+      "lat": 47.5327,
+      "lon": 35.8968
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11061806-04",
+    "title": "תקיפת כטב\"ם במחוז קייב",
+    "summary": "אדם בן 22 נפצע כתוצאה מתקיפת כטב\"ם רוסי שפעה על מתחם מחסנים ובית במחוז קייב.",
+    "axis": "תקיפות אוויריות ועורף",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T17:10:00+00:00",
+    "last_update_at": "2026-11-06T17:10:00+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק למבנים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_53f9777a5e916356",
+      "url": "https://www.ukrinform.net/rubric-ato/4182192-russian-drone-attack-damages-warehouse-complex-house-in-kyiv-region-injures-man.html",
+      "published_at": "2026-11-06T17:10:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז קייב, אוקראינה",
+      "lat": 50.4731,
+      "lon": 30.4674
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11061806-05",
+    "title": "הכרזת רכוש כמנוּטש בשטחים הכבושים",
+    "summary": "הרשויות הרוסיות הכריזו על אלפי נכסים פרטיים ומסחריים בשטחי זפוריז'יה הכבושים כמנוטשים, בהם מאות בתי מלון, תוך דרישת אזרחות רוסית לאישור הבעלות.",
+    "axis": "השטחים הכבושים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T16:50:03+00:00",
+    "last_update_at": "2026-11-06T16:50:03+00:00",
+    "what_is_not_verified": "היקף מלא של הנכסים שהועברו בפועל לידי המדינה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/11/06/russia-has-declared-hundreds-of-hotels-in-occupied-ukraine-ownerless-dozens-have-been-taken-over-but-one-ukrainian-hotelier-is-fighting-back",
+      "published_at": "2026-11-06T16:50:03+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11061806-06",
+    "title": "פגישה ומשא ומתן צפוי באבו דאבי",
+    "summary": "ראש לשכת הנשיא באוקראינה ציין כי השיחות המתוכננות באבו דאבי אינן סופיות אלא נועדו לבחון נכונות לסיום המלחמה.",
+    "axis": "דיפלומטיה ומשא ומתן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T16:41:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T16:41:00+00:00",
+    "last_update_at": "2026-11-06T16:56:00+00:00",
+    "what_is_not_verified": "תוצאות השיחות העתידיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_962f332a67ed7ddb",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/06/8061618/",
+      "published_at": "2026-11-06T16:56:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_962f332a67ed7ddb",
+      "url": "https://www.ukrinform.net/rubric-polytics/4182215-budanov-to-lead-ukrainian-delegation-at-talks-in-abu-dhabi.html",
+      "published_at": "2026-11-06T16:41:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אבו דאבי, איחוד האמירויות הערביות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11061806-07",
+    "title": "נזקים לתשתיות האנרגיה באוקראינה",
+    "summary": "נשיא אוקראינה הודיע שמתקפות רוסיות פגעו בכל תחנות הכוח באוקראינה, וקרא לסיוע בינלאומי מהיר בציוד חשמל.",
+    "axis": "תקיפות אוויריות ועורף",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T02:11:25+00:00",
+    "last_update_at": "2026-11-06T10:04:19+00:00",
+    "what_is_not_verified": "היקף ההרס המדויק בכל אתר ואתר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_f11699b111ff03bb",
+      "url": "https://meduza.io/en/news/2026/11/06/zelensky-says-russian-strikes-have-damaged-every-power-plant-in-ukraine",
+      "published_at": "2026-11-06T10:04:19+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_f11699b111ff03bb",
+      "url": "https://www.theguardian.com/world/2026/nov/06/ukraine-war-briefing-zelenskyy-says-russia-has-damaged-every-power-plant-as-he-seeks-latin-american-help",
+      "published_at": "2026-11-06T02:11:25+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11061806-08",
+    "title": "מפגש בבית הלבן סביב הפסקת אש מקומית באולשקי",
+    "summary": "נציגים רוסים ואוקראינים השתתפו באירוע בבית הלבן שבו הודו למלניה טראמפ על תיווך הפסקת אש בעיר אולשקי.",
+    "axis": "דיפלומטיה ומשא ומתן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-05T18:35:22+00:00",
+    "last_update_at": "2026-11-06T07:56:19+00:00",
+    "what_is_not_verified": "טיב המעורבות המדויקת של הגורמים בהפסקת האש המקומית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T07:56:19+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/video/2026/nov/05/russian-and-ukrainian-officials-thank-melania-trump-for-brokering-ceasefire-video",
+      "published_at": "2026-11-05T21:04:53+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/us-news/2026/nov/05/melania-trump-white-house-visit-ukraine-russia",
+      "published_at": "2026-11-05T20:52:27+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/us-news/video/2026/nov/05/putin-envoy-thanks-melania-trump-for-brokering-ceasefire-video",
+      "published_at": "2026-11-05T18:35:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "{'string': 'פרטי הדרישות המדויקות של פוטין במסגרת עסקאות עתידיות לפי גורמים לא רשמיים'}",
+   "{'string': 'ההיתכנות והתוצאות של פגישות המשא ומתן המתוכננות באבו דאבי'}"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1165,
+    "unit": "USD",
+    "change_pct": -0.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "דרישה לוויתורים טריטוריאליים בחלקים הלא-כבושים של חבל דונבאס כתנאי להפסקת אש"
+    ],
+    "inferred": [
+     "שחיקת התשתיות האזרחיות והאנרגטיות של אוקראינה כדי לכפות עליה כניעה או פשרות קשות",
+     "השתלטות משפטית וכלכלית על נכסים בשטחים הכבושים"
+    ],
+    "forecast": [
+     "המשך מתקפות חורף מאסיביות על מערכות האנרגיה"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "שמירה על השליטה בשטחים הקיימים והחזרת ילדים שפונו בכוח"
+    ],
+    "inferred": [
+     "הסתמכות גוברת על טכנולוגיות בלתי מאוישות ללוגיסטיקה ופינוי תחת אש",
+     "חיפוש דחוף אחר ציוד שיקום לתשתיות האנרגיה ההרוסות"
+    ],
+    "forecast": [
+     "השתתפות בזהירות במגעים דיפלומטיים לצד המשך המאמץ הצבאי"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-06T18:06:13+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/us-news/video/2026/nov/05/putin-envoy-thanks-melania-trump-for-brokering-ceasefire-video",
+    "accessed_at": "2026-11-06T18:06:13+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraines-ground-drones-complete-over-30-000-missions-in-record-month-for-robot-warfare/",
+    "accessed_at": "2026-11-06T18:06:13+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/06/zelensky-says-russian-strikes-have-damaged-every-power-plant-in-ukraine",
+    "accessed_at": "2026-11-06T18:06:13+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/06/8061618/",
+    "accessed_at": "2026-11-06T18:06:13+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4182215-budanov-to-lead-ukrainian-delegation-at-talks-in-abu-dhabi.html",
+    "accessed_at": "2026-11-06T18:06:13+00:00"
+   }
+  ]
+ }
+}
