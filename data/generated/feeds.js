@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-07T08:17:25+00:00",
-  "fetched_at": "2026-11-07T08:17:25+00:00"
+  "checked_at": "2026-11-07T09:17:27+00:00",
+  "fetched_at": "2026-11-07T09:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-07T08:17:40+00:00",
-  "fetched_at": "2026-11-07T08:17:40+00:00"
+  "checked_at": "2026-11-07T09:17:41+00:00",
+  "fetched_at": "2026-11-07T09:17:41+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-07T08:17:41+00:00",
-  "fetched_at": "2026-11-07T08:17:41+00:00"
+  "checked_at": "2026-11-07T09:17:42+00:00",
+  "fetched_at": "2026-11-07T09:17:42+00:00"
  },
- "generated_at": "2026-11-07T08:17:41+00:00",
+ "generated_at": "2026-11-07T09:17:42+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "המנהל שפוטר משופרסל והירקן שקנה רשת: המתחרים החדשים של רמי לוי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001561929",
-     "date": "2026-11-07T05:43:00+00:00"
+     "title": "מנהל בית חולים מספר: כך איבדתי את התשוקה לכסף",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001561913",
+     "date": "2026-11-05T07:47:00+00:00"
     },
     {
      "title": "מאחורי הקלעים: ואנס פועל להשגת הסכם עם איראן",
@@ -99,7 +99,12 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "הטלטלה בשווקים הפילה אפילו את \"הקוסם מארץ עוץ\"",
+     "title": "S&P הותירה את דירוג האשראי של ישראל ללא שינוי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562323",
+     "date": "2026-11-07T08:16:00+00:00"
+    },
+    {
+     "title": "נפגעי הטלטלה בשווקים: ההפסדים, הפיטורים והחשש שהגרוע עוד לפנינו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562364",
      "date": "2026-11-07T06:27:00+00:00"
     },
@@ -207,17 +212,12 @@ window.DB.generated = {
      "title": "פלייטיקה הכריעה סופית שהפסיקה לחפש רוכש. המניה מזנקת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562198",
      "date": "2026-11-05T14:37:00+00:00"
-    },
-    {
-     "title": "הנפט יוצא מהמפרץ, אבל כשליש מהתמורה הולכת לשינוע וביטוח",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562222",
-     "date": "2026-11-05T14:20:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-07T08:17:26+00:00",
-  "fetched_at": "2026-11-07T08:17:26+00:00"
+  "checked_at": "2026-11-07T09:17:28+00:00",
+  "fetched_at": "2026-11-07T09:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-07T08:17:27+00:00",
-  "fetched_at": "2026-11-07T08:17:27+00:00"
+  "checked_at": "2026-11-07T09:17:29+00:00",
+  "fetched_at": "2026-11-07T09:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2813,8 +2813,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-07T08:17:29+00:00",
-  "fetched_at": "2026-11-07T08:17:29+00:00"
+  "checked_at": "2026-11-07T09:17:31+00:00",
+  "fetched_at": "2026-11-07T09:17:31+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2905,8 +2905,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-07T08:17:29+00:00",
-  "fetched_at": "2026-11-07T08:17:29+00:00"
+  "checked_at": "2026-11-07T09:17:31+00:00",
+  "fetched_at": "2026-11-07T09:17:31+00:00"
  },
  "ai": {
   "data": {
@@ -2919,26 +2919,25 @@ window.DB.generated = {
      "title": "איפה הכסף? אנת'רופיק מחברת את קלוד לחשבון הבנק שלכם"
     },
     {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/australian-universities-ai-native-graduates",
-     "date": "2026-11-05T17:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+     "date": "2026-11-05T17:05:16+00:00",
      "launch": false,
-     "title_en": "Australian universities are creating AI-native graduates",
-     "title_he": "אוניברסיטאות אוסטרליה יוצרות בוגרי בינה מלאכותית",
+     "title_en": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+     "title_he": "Gemini Omni 1.2 פלאש: מהיר וחסכוני עם קליפסים ארוכים יותר",
      "translated_by": "google"
     }
    ],
-   "candidates": 9,
+   "candidates": 10,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 297,
+     "likes": 298,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
@@ -2952,14 +2951,14 @@ window.DB.generated = {
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 180,
+     "likes": 181,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 98,
+     "likes": 102,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -2984,18 +2983,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/fendouai/free-ai-humanizer"
     },
     {
+     "title": "FIBO 2.0 Edit Turbo",
+     "desc_en": "Fibo 2.0 Edit Turbo image editing in 4 steps",
+     "desc_he": "Fibo 2.0 עריכת טורבו עריכת תמונה ב-4 שלבים",
+     "likes": 231,
+     "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
+    },
+    {
      "title": "SimReady Central",
      "desc_en": "Semantic search for 3D assets: USD + RTX simulation previews",
      "desc_he": "חיפוש סמנטי של נכסי תלת מימד: תצוגה מקדימה של סימולציית USD + RTX",
      "likes": 385,
      "link": "https://huggingface.co/spaces/nvidia/simready-central"
-    },
-    {
-     "title": "FIBO 2.0 Edit Turbo",
-     "desc_en": "Fibo 2.0 Edit Turbo image editing in 4 steps",
-     "desc_he": "Fibo 2.0 עריכת טורבו עריכת תמונה ב-4 שלבים",
-     "likes": 230,
-     "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -3007,12 +3006,30 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-07T08:17:39+00:00",
-  "fetched_at": "2026-11-07T08:17:39+00:00"
+  "checked_at": "2026-11-07T09:17:40+00:00",
+  "fetched_at": "2026-11-07T09:17:40+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "לוקה דונצ'יץ' העביר את דני אבדיה שיעור. פורטלנד תסיק מסקנות?",
+     "link": "https://sports.walla.co.il/item/3875282",
+     "date": "2026-11-07T10:07:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "ליברפול רוצה להתאושש ולהעמיק את המשבר של חלאילי ופאלאס",
+     "link": "https://sports.walla.co.il/item/3875281",
+     "date": "2026-11-07T09:54:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
     {
      "title": "\"אוריין גורן ומשפחתו העריכו את ההצעה - אבל בחרו בישראל\"",
      "link": "https://sports.walla.co.il/item/3875277",
@@ -3027,6 +3044,15 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3875276",
      "date": "2026-11-07T08:37:00+00:00",
      "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"דונצ'יץ' הראה למה אבדיה עדיין לא סופרסטאר\"",
+     "link": "https://www.one.co.il/Article/538218.html?ref=rss",
+     "date": "2026-11-07T08:20:00+00:00",
+     "source": "ONE",
      "players": [
       "דני אבדיה"
      ]
@@ -3061,7 +3087,7 @@ window.DB.generated = {
     {
      "title": "דאבל דאבל לאבדיה בהפסד ללייקרס, 53 לדונצ'יץ'",
      "link": "https://www.one.co.il/Article/538207.html?ref=rss",
-     "date": "2026-11-07T05:24:00+00:00",
+     "date": "2026-11-07T06:05:00+00:00",
      "source": "ONE",
      "players": [
       "דני אבדיה"
@@ -3119,33 +3145,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "\"אחת הסיבות לפיטורי המאמן\": באנגליה מאשימים את סולומון",
-     "link": "https://sports.walla.co.il/item/3875206",
-     "date": "2026-11-06T09:14:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
-     "title": "\"קרוב למושלם\": כך מכניס דני אבדיה את הגנות ה-NBA לפאניקה",
-     "link": "https://sports.walla.co.il/item/3875189",
-     "date": "2026-11-06T07:24:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"שחקן מיוחד\": בארה\"ב מזהים את הפוטנציאל של דני וולף",
-     "link": "https://sports.walla.co.il/item/3875186",
-     "date": "2026-11-06T07:05:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני וולף"
      ]
     }
    ],
@@ -3349,8 +3348,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-07T08:17:32+00:00",
-  "fetched_at": "2026-11-07T08:17:32+00:00"
+  "checked_at": "2026-11-07T09:17:35+00:00",
+  "fetched_at": "2026-11-07T09:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -3380,100 +3379,99 @@ window.DB.generated = {
     "date": "2026-11-03T17:55:02+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-07T08:17:33+00:00",
-  "fetched_at": "2026-11-07T06:17:28+00:00"
+  "ok": true,
+  "checked_at": "2026-11-07T09:17:35+00:00",
+  "fetched_at": "2026-11-07T09:17:35+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-07T08:08:00+00:00",
-    "seen_at": "2026-11-07T08:17:41+00:00",
+    "newest": "2026-11-07T09:00:00+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-06T21:03:00+00:00",
-    "seen_at": "2026-11-07T08:17:41+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-07T06:27:00+00:00",
-    "seen_at": "2026-11-07T08:17:41+00:00",
+    "newest": "2026-11-07T08:16:00+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
-    "newest": "2026-11-07T08:37:00+00:00",
-    "seen_at": "2026-11-07T08:17:41+00:00",
+    "newest": "2026-11-07T10:07:00+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-07T08:46:00+00:00",
-    "seen_at": "2026-11-07T08:17:41+00:00",
+    "newest": "2026-11-07T09:54:00+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-07T09:04:00+00:00",
-    "seen_at": "2026-11-07T08:17:41+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-07T07:50:00+00:00",
-    "seen_at": "2026-11-07T08:17:41+00:00",
+    "newest": "2026-11-07T09:09:00+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-07T05:58:18+00:00",
-    "seen_at": "2026-11-07T06:17:32+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-05T17:05:16+00:00",
-    "seen_at": "2026-11-07T07:17:32+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-05T17:00:00+00:00",
-    "seen_at": "2026-11-07T08:17:41+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-06T14:30:47+00:00",
-    "seen_at": "2026-11-07T08:17:41+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-06T14:00:28+00:00",
-    "seen_at": "2026-11-07T08:17:41+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-07T08:00:00+00:00",
-    "seen_at": "2026-11-07T08:17:41+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-04T16:04:01+00:00",
-    "seen_at": "2026-11-07T08:17:41+00:00",
+    "seen_at": "2026-11-07T09:17:42+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-07T08:17:41+00:00"
+  "checked_at": "2026-11-07T09:17:42+00:00"
  },
  "health_news": {
   "data": [
@@ -3629,7 +3627,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-07T08:17:33+00:00",
-  "fetched_at": "2026-11-07T08:17:33+00:00"
+  "checked_at": "2026-11-07T09:17:36+00:00",
+  "fetched_at": "2026-11-07T09:17:36+00:00"
  }
 };
