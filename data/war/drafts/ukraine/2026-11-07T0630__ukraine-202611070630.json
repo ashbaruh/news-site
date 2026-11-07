@@ -1,0 +1,473 @@
+{
+ "status": "draft",
+ "received_sha256_12": "d3a18ddfb3f2",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 4,
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-07T06:30:53+00:00",
+  "window": {
+   "from": "2026-11-06T06:30:53+00:00",
+   "to": "2026-11-07T06:30:53+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202611070630"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת בעוצמה גבוהה עם מהלומות הדדיות לעומק העורף, כאשר רוסיה מפעילה כטב\"מים וטילים בליסטיים נגד תשתיות אנרגיה וגשרים בקייב, ואילו אוקראינה פוגעת במתקני דלק ותעשייה ברוסיה. במקביל לתנועות טקטיות של כוחות רוסיים במחוז דונצק, מתנהלת פעילות דיפלומטית ענפה בארצות הברית ואיחוד האמירויות לקידום שיחות משא ומתן תלת-צדדיות. בזירה המדינית נמשכים מאמצי גיוס התקציבים והסיוע המערבי לצד שימור סנקציות והגבלות על מוסקבה.",
+  "fronts": [
+   {
+    "name": "העורף האוקראיני (קייב וז'יטומיר)",
+    "status": "ספיגת מתקפות טילים וכטב\"מים רוסיות מסיביות על יעדי אנרגיה ותחבורה"
+   },
+   {
+    "name": "העורף הרוסי (סרטוב, אוריול, רוסטוב)",
+    "status": "תקיפות כטב\"מים וטילים אוקראיניות נגד בתי זיקוק ומפעלי תעשייה"
+   },
+   {
+    "name": "חזית מחוז דונצק",
+    "status": "התקדמות קרקעית של כוחות רוסיים ליד סביטלה וואסיליבקה"
+   },
+   {
+    "name": "חזית מחוז חרקוב",
+    "status": "לחימה בעצימות מקומית ומלכוד מוקשים סמוך לגבול"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11070630-01",
+    "title": "מתקפה בליסטית ורחפנים רוסית נרחבת על קייב ותשתיות אנרגיה",
+    "summary": "רוסיה שיגרה מתקפת טילים ורחפנים שפגעה במתקני אנרגיה, בגשר פיבניצ'ני ובמבני מגורים בקייב ובמחוז ז'יטומיר, וגרמה לפציעת חמישה בני אדם ולשיבושים קשים באספקת החשמל, החימום והמים.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T22:04:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T22:04:00+00:00",
+    "last_update_at": "2026-11-07T06:28:36+00:00",
+    "what_is_not_verified": "היקף הפגיעה המדויק בגשר פיבניצ'ני והטענה בדבר שיגור עשרות טילים בליסטיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2214177",
+      "published_at": "2026-11-07T06:28:36+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4182323-injury-toll-in-russian-ballistic-attack-on-kyiv-rises-to-five.html",
+      "published_at": "2026-11-07T05:56:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/07/8061681/",
+      "published_at": "2026-11-07T05:48:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/07/8061667/",
+      "published_at": "2026-11-07T05:36:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/07/8061680/",
+      "published_at": "2026-11-07T05:24:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4182310-russian-ballistic-attack-injures-three-in-kyiv-including-child.html",
+      "published_at": "2026-11-07T04:22:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49358",
+      "published_at": "2026-11-07T02:40:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russian-ballistic-missiles-slam-kyiv-after-zelensky-warns-of-mass-attack/",
+      "published_at": "2026-11-06T22:04:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11070630-02",
+    "title": "תקיפות כטב\"מים וטילים אוקראיניות בעומק שטח רוסיה",
+    "summary": "אוקראינה ביצעה תקיפות משולבות נגד יעדים במספר מחוזות ברוסיה, בהם פגיעה בבית זיקוק בסרטוב ופגיעה במפעל פרוטון באוריול שהובילה לדליקה גדולה.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T22:53:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T22:53:00+00:00",
+    "last_update_at": "2026-11-07T03:01:27+00:00",
+    "what_is_not_verified": "סוג הטיל המדויק שפגע במפעל באוריול ומידת הנזק הסופית במתקנים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-strikes-saratov-oil-refinery-in-mass-attack-on-several-regions-reports-say/",
+      "published_at": "2026-11-07T03:01:27+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49355",
+      "published_at": "2026-11-07T01:29:36+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49352",
+      "published_at": "2026-11-07T00:02:39+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/07/8061663/",
+      "published_at": "2026-11-06T22:53:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סרטוב, רוסיה",
+      "lat": 51.53,
+      "lon": 46.0347
+     },
+     {
+      "name": "אוריול, רוסיה",
+      "lat": 52.9709,
+      "lon": 36.0642
+     },
+     {
+      "name": "רוסטוב, רוסיה",
+      "lat": 47.2223,
+      "lon": 39.7199
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11070630-03",
+    "title": "התקדמות כוחות רוסיים במחוז דונצק",
+    "summary": "אנליסטים צבאיים אוקראינים דיווחו על התקדמות של כוחות הצבא הרוסי בסמוך לכפרים סביטלה וואסיליבקה במחוז דונצק.",
+    "axis": "חזית המזרח",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-07T04:38:00+00:00",
+    "last_update_at": "2026-11-07T04:38:00+00:00",
+    "what_is_not_verified": "אישור רשמי של משרדי ההגנה על שינויי קווי השליטה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_deepstate",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/07/8061672/",
+      "published_at": "2026-11-07T04:38:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סביטלה, מחוז דונצק, אוקראינה",
+      "lat": 48.4047,
+      "lon": 37.117
+     },
+     {
+      "name": "ואסיליבקה, מחוז דונצק, אוקראינה",
+      "lat": 48.1717,
+      "lon": 37.8597
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11070630-04",
+    "title": "מגעים דיפלומטיים והכנות למשא ומתן תלת-צדדי באבו דאבי",
+    "summary": "נשיא ארצות הברית דונלד טראמפ דיווח על שיחות לסיום המלחמה, במקביל לאישור כי משלחת אוקראינית בראשות שר ההגנה תשתתף בשיחות תלת-צדדיות עם רוסיה וארצות הברית באיחוד האמירויות.",
+    "axis": "דיפלומטיה ומשא ומתן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T20:15:22+00:00",
+    "last_update_at": "2026-11-07T04:47:00+00:00",
+    "what_is_not_verified": "זהות הגורמים עמם שוחח טראמפ ותוכן ההסכם המיועד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4182311-herbst-putin-wants-peace-talks-not-peace.html",
+      "published_at": "2026-11-07T04:47:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/07/8061671/",
+      "published_at": "2026-11-07T03:31:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2214151",
+      "published_at": "2026-11-07T02:22:44+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/umerov-to-lead-ukraine-delegation-in-abu-dhabi-peace-talks-despite-media-confusion-top-official-confirms/",
+      "published_at": "2026-11-06T20:15:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אבו דאבי, איחוד האמירויות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11070630-05",
+    "title": "מפגש בבית הלבן בעקבות מבצע פינוי הומניטרי בעיר אולשקי",
+    "summary": "הגברת הראשונה של ארה\"ב אירחה נציגים רשמיים מרוסיה ומאוקראינה בעקבות הסכם הפסקת אש מקומי שאיפשר פינוי אזרחים מהעיר הכבושה אולשקי, והעבירה מכתבים למנהיגי שתי המדינות.",
+    "axis": "דיפלומטיה וערוצים הומניטריים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T07:56:19+00:00",
+    "last_update_at": "2026-11-06T21:07:45+00:00",
+    "what_is_not_verified": "מספר המפונים המדויק מאולשקי (קיים פער בין הצהרת מלניה טראמפ לדיווח הנציגים)",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/11/07/melania-trump-receives-ukraine-s-order-of-princess-olha-at-white-house-meeting-on-oleshky-evacuation",
+      "published_at": "2026-11-06T21:07:45+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T07:56:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     },
+     {
+      "name": "וושינגטון, ארצות הברית",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11070630-06",
+    "title": "מגעים לקראת פסגה משולשת בין ארצות הברית, רוסיה וסין",
+    "summary": "דוברת משרד החוץ של סין אישרה כי מתקיימים מגעים בנוגע לאפשרות של פגישה משולשת בין נשיא סין, נשיא ארה\"ב ונשיא רוסיה בשולי ועידת אפק בשנג'ן.",
+    "axis": "דיפלומטיה בין-לאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-07T03:12:08+00:00",
+    "last_update_at": "2026-11-07T03:12:08+00:00",
+    "what_is_not_verified": "האם המפגש יתממש ומידת הנכונות האמריקנית לדון בנושא האוקראיני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_1c94c612cec9f1be",
+      "url": "https://www.theguardian.com/world/2026/nov/07/ukraine-war-briefing-beijing-confirms-historic-xi-trump-putin-meeting-under-discussion",
+      "published_at": "2026-11-07T03:12:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "שנג'ן, סין",
+      "lat": 22.5446,
+      "lon": 114.0545
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11070630-07",
+    "title": "מבצע חילוץ ברחפן של חייל אוקראיני פצוע באזור חרקוב",
+    "summary": "לוחם אוקראיני חולץ במבצע מורכב באמצעות רחפן לאחר ששהה שמונה ימים כשהוא פצוע ממוקש סמוך לקו הגבול באזור מחוז חרקוב.",
+    "axis": "חזית הצפון-מזרח",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T05:00:02+00:00",
+    "last_update_at": "2026-11-07T05:00:02+00:00",
+    "what_is_not_verified": "מועד החילוץ המדויק מהשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_e267d24c03d6ab34",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/nov/07/how-injured-ukrainian-soldier-rescued-by-drone",
+      "published_at": "2026-11-07T05:00:02+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11070630-08",
+    "title": "הגבלות כניסה חדשות בפינלנד נגד ספורטאים ואזרחים מרוסיה",
+    "summary": "ממשלת פינלנד מקדמת צעדים להחמרת איסור הכניסה לאזרחים וספורטאים רוסים לקראת אירועי ספורט בינלאומיים במדינה.",
+    "axis": "סנקציות ומדיניות בינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T20:20:04+00:00",
+    "last_update_at": "2026-11-06T20:20:04+00:00",
+    "what_is_not_verified": "המועד המדויק לכניסת האיסור לתוקף",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/06/finland-moves-to-restrict-entry-for-russian-athletes-before-helsinki-nhl-games",
+      "published_at": "2026-11-06T20:20:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הלסינקי, פינלנד",
+      "lat": 60.1666,
+      "lon": 24.9435
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר האזרחים המדויק שפונו מהעיר אולשקי (פערים בין הצהרת הבית הלבן לדיווח נציגי הצדדים)",
+   "מספר הטילים הבליסטיים המדויק ששוגרו לעבר קייב",
+   "סוג הטיל שפגע במפעל פרוטון באוריול (השערה לגבי פלמינגו)",
+   "נתוני הנפגעים והאבדות של צבא רוסיה המפורסמים על ידי קייב"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1165,
+    "unit": "USD",
+    "change_pct": -0.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על מרכזי האוכלוסייה ותשתיות האנרגיה באמצעות דרישה לסוללות פטריוט נוספות",
+     "השגת סיוע צבאי ותקציבי מערבי בהיקף עשרות מיליארדי דולרים לשנים הקרובות",
+     "שליחת משלחת רשמית בראשות שר ההגנה לשיחות תלת-צדדיות באבו דאבי"
+    ],
+    "inferred": [
+     "שיבוש שרשראות האספקה והתעשייה הצבאית הרוסית באמצעות פגיעה בעומק שטחה",
+     "שימור עמדת מיקוח לקראת מגעים אפשריים להפסקת אש בחסות הממשל האמריקני החדש"
+    ],
+    "forecast": [
+     "המשך התמקדות ביירוט מתקפות עומק על משק החשמל לקראת עונת החורף",
+     "ניסיון להבטיח התחייבויות סיוע אמריקאיות ואירופיות בטרם ייכפו ויתורים טריטוריאליים"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פגיעה במתקני אנרגיה המזינים את הצבא האוקראיני",
+     "נכונות לקיים מגעים דיפלומטיים ותיאום פגישות עם מנהיגי ארה\"ב וסין"
+    ],
+    "inferred": [
+     "הפעלת לחץ כבד על האוכלוסייה והכלכלה באוקראינה דרך שיתוק מערכות החשמל והמים",
+     "המשך כרסום הדרגתי בשטחי דונצק במטרה להציג הישגים טריטוריאליים מוצקים לפני משא ומתן"
+    ],
+    "forecast": [
+     "המשך מתקפות ממוקדות על גשרים ומתקני אנרגיה לאורך נהר הדניפרו",
+     "ניצול המשא ומתן באבו דאבי להפחתת הסיוע המערבי לקייב ולביסוס הלגיטימציה של הישגיה בשטח"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-07T06:30:53+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/ng-interactive/2026/nov/07/how-injured-ukrainian-soldier-rescued-by-drone",
+    "accessed_at": "2026-11-07T06:30:53+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/umerov-to-lead-ukraine-delegation-in-abu-dhabi-peace-talks-despite-media-confusion-top-official-confirms/",
+    "accessed_at": "2026-11-07T06:30:53+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/06/finland-moves-to-restrict-entry-for-russian-athletes-before-helsinki-nhl-games",
+    "accessed_at": "2026-11-07T06:30:53+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/07/8061671/",
+    "accessed_at": "2026-11-07T06:30:53+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2214151",
+    "accessed_at": "2026-11-07T06:30:53+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49352",
+    "accessed_at": "2026-11-07T06:30:53+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4182311-herbst-putin-wants-peace-talks-not-peace.html",
+    "accessed_at": "2026-11-07T06:30:53+00:00"
+   }
+  ]
+ }
+}

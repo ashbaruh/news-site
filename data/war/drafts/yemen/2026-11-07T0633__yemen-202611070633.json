@@ -1,0 +1,375 @@
+{
+ "status": "draft",
+ "received_sha256_12": "7c019fb83152",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "initial": 2,
+   "shared_root": 3,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-07T06:33:07+00:00",
+  "window": {
+   "from": "2026-11-06T06:33:07+00:00",
+   "to": "2026-11-07T06:33:07+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202611070633"
+  },
+  "summary": "העימות בין החות'ים לבין ערב הסעודית והממשלה התימנית ממשיך להסלים, ומתבטא בשיגורי טילים לעבר יעדים בעומק השטח הסעודי ובקרבות פנימיים עזים במוקדים כמו תעז. ערב הסעודית פועלת לחיזוק יכולותיה באמצעות ייעוץ והדרכה מצד כוחות חיצוניים כדוגמת סוריה, לצד שיתופי פעולה אזוריים. במקביל, בנתיבי השיט בים האדום ובבאב אל-מנדב נרשמה רגיעה נקודתית מתקיפות, בעוד הלחץ האמריקני והאזהרות הביטחוניות באזור נותרים ברמה גבוהה.",
+  "fronts": [
+   {
+    "name": "ציר תימן - ערב הסעודית",
+    "status": "הסלמה הכוללת שיגורי טילים חות'יים לעבר ערים ויירוטים של הקואליציה הסעודית, לצד היערכות צבאית סעודית מוגברת."
+   },
+   {
+    "name": "מחוז תעז ופנים תימן",
+    "status": "לחימה מתמשכת, מצור מתהדק והפגזות הדדיות הגובות קורבנות אזרחיים ומחמירות את המשבר ההומניטרי."
+   },
+   {
+    "name": "הים האדום ומצר באב אל-מנדב",
+    "status": "הפוגה זמנית ללא תקיפות מדווחות על כלי שיט מסחריים במהלך השבוע שנסקר."
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11070633-01",
+    "title": "יירוט טיל שיוט חות'י ששוגר לעבר אזור ריאד",
+    "summary": "כוחות הקואליציה בהובלת ערב הסעודית יירטו והשמידו טיל שיוט ששיגרו החות'ים לעבר מרחב ריאד.",
+    "axis": "ערב הסעודית - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T05:44:29+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T05:44:29+00:00",
+    "last_update_at": "2026-11-07T05:44:29+00:00",
+    "what_is_not_verified": "לא הוצגו תיעודים עצמאיים המאמתים את מיקום היירוט או את סוג הטיל המדויק מעבר להודעת הדובר הסעודי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-forces-destroy-houthi-missile-over-riyadh-region",
+      "published_at": "2026-11-07T05:44:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11070633-02",
+    "title": "פגיעה קטלנית בשוק אל-חדארה במחוז תעז",
+    "summary": "אירוע פגיעה בשוק אל-חדארה באזור אל-וואזעיה גבה נפגעים רבים, כאשר ממשלת תימן מאשימה את החות'ים בהפגזת המקום, בעוד כלי תקשורת חות'יים טוענים כי מדובר בהפצצה סעודית שהביאה לעשרות הרוגים ופצועים.",
+    "axis": "פנים תימן / תעז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T13:35:24+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T13:35:24+00:00",
+    "last_update_at": "2026-11-06T19:53:10+00:00",
+    "what_is_not_verified": "זהות הגורם המבצע (ירי חות'י או תקיפה אווירית סעודית) ומספר הנפגעים המדויק אינם מוסכמים בין הצדדים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155338",
+      "published_at": "2026-11-06T19:53:10+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155334",
+      "published_at": "2026-11-06T17:14:24+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155319",
+      "published_at": "2026-11-06T15:54:53+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133190",
+      "published_at": "2026-11-06T13:35:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11070633-03",
+    "title": "דיווח על סיוע צבאי סורי לכוחות הסעודיים והתימניים מול החות'ים",
+    "summary": "גורמים צבאיים ואמריקניים דיווחו על הגעת עשרות אנשי צבא מסוריה לערב הסעודית במטרה לספק ייעוץ והכשרה ליחידות סעודיות ותימניות במסגרת התמודדותן עם האיום החות'י.",
+    "axis": "ערב הסעודית - סוריה - תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T16:46:34+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T16:46:34+00:00",
+    "last_update_at": "2026-11-06T20:37:40+00:00",
+    "what_is_not_verified": "דיפלומט סורי טען כי דיווחים על פריסה צבאית הם מוקדמים, בעוד מקורות אחרים אישרו הגעת כוח אדם לאימון.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/syria-aids-saudi-arabia-military-advice-and-training",
+      "published_at": "2026-11-06T20:37:40+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21795743",
+      "published_at": "2026-11-06T19:05:03+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133199",
+      "published_at": "2026-11-06T17:52:01+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/syria-aids-saudi-arabia-military-advice-and-training-amid-houthi-attacks-sources",
+      "published_at": "2026-11-06T16:46:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11070633-04",
+    "title": "אזהרת ביטחון אמריקנית בעקבות התגברות האיום החות'י",
+    "summary": "מחלקת המדינה של ארצות הברית ונציגויותיה פרסמו אזהרות ביטחון לאזרחיהן במזרח התיכון בשל סכנה מוגברת לתקיפות מצד החות'ים ומאמצים איראניים לפגוע בנציגים רשמיים.",
+    "axis": "אזור המזרח התיכון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T22:04:13+00:00",
+    "last_update_at": "2026-11-07T03:10:33+00:00",
+    "what_is_not_verified": "לא פורטו מטרות ספציפיות או עיתוי מוגדר לאיומים המיוחסים לחות'ים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-urges-citizens-across-middle-east-exercise-heightened-caution",
+      "published_at": "2026-11-07T03:10:33+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hyhzpaitmg",
+      "published_at": "2026-11-06T22:04:13+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11070633-05",
+    "title": "החמרת המצור והמצוקה הרפואית בעיר תעז",
+    "summary": "הגבלות התנועה והמצור שמוטלים על העיר תעז מובילים למחסור חמור בחמצן ובדלק להפעלת אינקובטורים בבתי החולים, ומסכנים את חייהם של פגים ותינוקות.",
+    "axis": "פנים תימן / תעז",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T16:48:12+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T16:48:12+00:00",
+    "last_update_at": "2026-11-06T16:48:12+00:00",
+    "what_is_not_verified": "אין נתון רשמי כולל ומאומת לגבי מספר מקרי המוות המדויק של תינוקות כתוצאה מהמחסור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthi-blockade-threatens-lives-newborns-yemens-taiz",
+      "published_at": "2026-11-06T16:48:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11070633-06",
+    "title": "מות עובד או\"ם במתקן מעצר חות'י בצנעא",
+    "summary": "עובד תימני של נציבות זכויות האדם של האו\"ם מת במתקן כליאה של החות'ים בצנעא לאחר שהוחזק במעצר במשך למעלה משנתיים, על רקע המשך מעצרם של עשרות עובדי סיוע נוספים.",
+    "axis": "פנים תימן / צנעא",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-31T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T12:22:46+00:00",
+    "last_update_at": "2026-11-06T12:22:46+00:00",
+    "what_is_not_verified": "סיבת המוות הרשמית והנסיבות הרפואיות של מותו במתקן המעצר לא פורסמו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/un-faces-criticism-after-yemeni-employee-dies-houthi-custody",
+      "published_at": "2026-11-06T12:22:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11070633-07",
+    "title": "היעדר תקיפות נגד כלי שיט בים האדום ובבאב אל-מנדב",
+    "summary": "במהלך שבוע המעקב לא נרשמו תקיפות על תנועת השיט המסחרי בים האדום ובמצר באב אל-מנדב, בניגוד לרצף תקיפות שהתרחש במצר הורמוז ובמפרץ.",
+    "axis": "הים האדום ומצר באב אל-מנדב",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T02:25:09+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-07T02:25:09+00:00",
+    "last_update_at": "2026-11-07T02:25:09+00:00",
+    "what_is_not_verified": "אין מידע בטקסט לגבי הסיבה להפוגה בתקיפות בנתיב זה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-11-ships-attacked-week-4-nov-hormuz-arabian-gulf",
+      "published_at": "2026-11-07T02:25:09+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "אחריות הצדדים לפגיעה בשוק אל-חדארה בתעז: הממשלה התימנית מייחסת את הפגיעה לחות'ים, ואילו מקורות חות'יים טוענים לתקיפה אווירית סעודית.",
+   "היקף הפריסה הצבאית הסורית בערב הסעודית: מקורות ביטחוניים דיווחו על עשרות אנשי צבא שהגיעו, בעוד נציג דיפלומטי סורי כינה את הטענות על פריסה צבאית כמוקדמות.",
+   "טענות ממשלת תימן בדבר ניסיון חות'י לתקוף את העיר אל-מדינה בסעודיה אינן מפורטות במקורות נוספים בטקסט."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.199,
+    "unit": "ILS",
+    "change_pct": 0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית",
+    "declared": [
+     "המשך המאבק המזוין והפעלת לחץ צבאי על ערב הסעודית וממשלת תימן."
+    ],
+    "inferred": [
+     "הרתעת ערב הסעודית מפני המשך התערבות בלחימה בתימן באמצעות שיגורים לעומק שטחה.",
+     "הידוק השליטה הקרקעית בתוך תימן ודיכוי התנגדות מקומית ופעילות ארגונים בינלאומיים בצנעא."
+    ],
+    "forecast": [
+     "המשך ניסיונות הפגיעה ביעדים סעודיים לצד שימור האחיזה המבצעית במוקדי החיכוך בתימן."
+    ]
+   },
+   {
+    "actor": "ערב הסעודית והקואליציה",
+    "declared": [
+     "הגנה על שטח הממלכה, סיכול איומי תקיפה אוויריים ושיתוף מומחיות ביטחונית במסגרת הסכמים רשמיים."
+    ],
+    "inferred": [
+     "שיפור מיומנות הכוחות הקרקעיים והיחידות התימניות בעזרת ניסיון קרבי סורי בלחימה נגד מיליציות.",
+     "יצירת מערך הגנה ובריתות אזוריות לבלימת התפשטות ההשפעה החות'ית והאיראנית."
+    ],
+    "forecast": [
+     "המשך הידוק שיתופי הפעולה הביטחוניים והסתמכות מוגברת על מערכות יירוט טילים."
+    ]
+   },
+   {
+    "actor": "ממשלת תימן וכוחותיה",
+    "declared": [
+     "מיגור האיום החות'י, השבת מוסדות המדינה והסרת המצור מעל העיר תעז."
+    ],
+    "inferred": [
+     "גיוס תמיכה בינלאומית באמצעות הדגשת פגיעות החות'ים באזרחים ובאנשי סיוע.",
+     "הישענות על הכשרה ותמיכה חיצונית לשיפור היכולות המבצעיות בחזיתות."
+    ],
+    "forecast": [
+     "המשך עימותים עצימים באזורי החיכוך המרכזיים כגון תעז וד'מאר ללא הכרעה מהירה."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/syria-aids-saudi-arabia-military-advice-and-training-amid-houthi-attacks-sources",
+    "accessed_at": "2026-11-07T06:33:07+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21795743",
+    "accessed_at": "2026-11-07T06:33:07+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-11-ships-attacked-week-4-nov-hormuz-arabian-gulf",
+    "accessed_at": "2026-11-07T06:33:07+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/un-faces-criticism-after-yemeni-employee-dies-houthi-custody",
+    "accessed_at": "2026-11-07T06:33:07+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155319",
+    "accessed_at": "2026-11-07T06:33:07+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133199",
+    "accessed_at": "2026-11-07T06:33:07+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hyhzpaitmg",
+    "accessed_at": "2026-11-07T06:33:07+00:00"
+   }
+  ]
+ }
+}

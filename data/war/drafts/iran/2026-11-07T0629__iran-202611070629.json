@@ -1,0 +1,519 @@
+{
+ "status": "draft",
+ "received_sha256_12": "c9ad155bf61c",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "shared_root": 7,
+   "initial": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-07T06:29:53+00:00",
+  "window": {
+   "from": "2026-11-06T06:29:53+00:00",
+   "to": "2026-11-07T06:29:53+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611070629"
+  },
+  "summary": "העימות הצבאי והמדיני בין ארצות הברית וישראל לבין איראן נמשך, כאשר הצבא האמריקני ביצע תקיפות מוגבלות במצר הורמוז וטהראן מצידה מאיימת להגיב ללא מגבלות גאוגרפיות. לצד פעולות הלחימה וההיערכות לפגיעות במתקני גרעין, מתנהלים מאמצי תיווך אינטנסיביים בהובלת קטאר במטרה למנוע הידרדרות אזורית נוספת.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "פעילות צבאית פעילה, תקיפות אמריקניות מוגבלות וחסימת נתיבי שיט בידי איראן"
+   },
+   {
+    "name": "חזית המודיעין ותוכנית הגרעין",
+    "status": "לחץ אמריקני להשגת מידע, היערכות איראנית לתקיפת מתקנים ועבודות בינוי"
+   },
+   {
+    "name": "הערוץ הדיפלומטי והתיווך",
+    "status": "מגעים מתמשכים בתיווך קטארי תוך חילוקי דעות עמוקים בין הצדדים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11070629-01",
+    "title": "תקיפות אמריקניות באי קשם באיראן",
+    "summary": "נשיא ארצות הברית דונלד טראמפ דיווח על תקיפות מוגבלות שביצע הצבא האמריקני נגד מערכת הגנה אווירית באי קשם במצר הורמוז, בעוד באיראן דווח על שני פיצוצים באזור סוזה באי.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T03:07:01+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T03:07:01+00:00",
+    "last_update_at": "2026-11-07T03:53:01+00:00",
+    "what_is_not_verified": "היקף הנזק והפגיעה במערכת ההגנה האווירית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island?traffic_source=rss",
+      "published_at": "2026-11-07T03:53:01+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
+      "published_at": "2026-11-07T03:07:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי קשם, איראן",
+      "lat": 26.7687,
+      "lon": 55.8477
+     },
+     {
+      "name": "סוזה, איראן",
+      "lat": 26.7776,
+      "lon": 56.0631
+     },
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11070629-02",
+    "title": "הצעת פרס כספי אמריקני עבור מידע על תוכנית הגרעין האיראנית",
+    "summary": "מחלקת המדינה האמריקנית ופיקוד המרכז של ארה\"ב הציעו פרס של עד עשרים מיליון דולר וסיוע במעבר מדינה עבור מידע על מתקנים, ציוד ואנשי מפתח בתוכנית הגרעין של איראן.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T02:30:21+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-07T02:30:21+00:00",
+    "last_update_at": "2026-11-07T05:30:20+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-says-forces-stronger-beginning-war",
+      "published_at": "2026-11-07T05:30:20+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1385747",
+      "published_at": "2026-11-07T03:47:26+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-offers-20-mn-reward-info-irans-nuclear-program-centcom",
+      "published_at": "2026-11-07T02:30:21+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11070629-03",
+    "title": "הטלת סנקציות כלכליות של ארה\"ב על חברות חלפנות כספים מקנדה",
+    "summary": "משרד האוצר של ארצות הברית הטיל עיצומים על שמונה חברות להמרת כספים מקנדה עקב סיוע לגופים איראניים הנתונים בסנקציות והעברת כספים הקשורים לסחר בסמים.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T04:50:46+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T04:50:46+00:00",
+    "last_update_at": "2026-11-07T04:50:46+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
+      "published_at": "2026-11-07T04:50:46+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11070629-04",
+    "title": "הערכות מצב ודריכות מוגברת בצבא איראן",
+    "summary": "דובר צבא איראן טען כי כוחות הצבא חזקים ומוכנים יותר מבעבר, שמצר הורמוז יישאר חסום עד להיענות לדרישות טהראן, וכי לא תתאפשר שיקומם של בסיסים אמריקניים שנפגעו באזור.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T04:07:43+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-07T04:07:43+00:00",
+    "last_update_at": "2026-11-07T05:32:18+00:00",
+    "what_is_not_verified": "הטענה בדבר השמדת למעלה מ-228 מתקנים בבסיסי ארה\"ב והיעדר יכולת מבצעית שלהם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-will-not-allow-us-rebuild-bases-region-army-spokesman-says",
+      "published_at": "2026-11-07T05:32:18+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-says-forces-stronger-beginning-war",
+      "published_at": "2026-11-07T05:30:20+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-forces-higher-alert-stronger-war-spokesman-says",
+      "published_at": "2026-11-07T04:07:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11070629-05",
+    "title": "היערכות איראנית לאפשרות של פגיעה גרעינית וחלוקת טבליות יוד",
+    "summary": "באיראן חולקו טבליות יוד לאזרחים המתגוררים סמוך למתקני גרעין והופצו הנחיות לצוותי רפואה מחשש לתקיפה אמריקנית נגד מתקנים תת-קרקעיים.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T15:54:06+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T15:54:06+00:00",
+    "last_update_at": "2026-11-06T22:06:46+00:00",
+    "what_is_not_verified": "מידת האיום הממשי בתקיפה גרעינית אמריקנית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49350",
+      "published_at": "2026-11-06T22:06:46+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49349",
+      "published_at": "2026-11-06T21:14:42+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133198",
+      "published_at": "2026-11-06T17:36:52+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21795203",
+      "published_at": "2026-11-06T15:54:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נתנז, איראן",
+      "lat": 33.5071,
+      "lon": 51.9136
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11070629-06",
+    "title": "עבודות בנייה ושיקום באתרים צבאיים באיראן",
+    "summary": "ניתוח תצלומי לוויין הצביע על פעולות בינוי וחפירות חדשות סמוך לבסיסי טילים ושיקום מתקנים צבאיים שניזוקו בתקיפות קודמות.",
+    "axis": "ישראל-ארה\"ב-איראן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T07:33:41+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T07:33:41+00:00",
+    "last_update_at": "2026-11-07T02:25:16+00:00",
+    "what_is_not_verified": "ייעודם המדויק של המבנים הנבנים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611062898",
+      "published_at": "2026-11-07T02:25:16+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T07:33:41+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11070629-07",
+    "title": "ביקור בכיר איראני במוסקבה ובקשת מערכות הגנה אווירית",
+    "summary": "הבכיר האיראני מוחסן רזאי הגיע למוסקבה ונפגש עם נשיא רוסיה ולדימיר פוטין, כשהוא מוסר איגרת ממנהיג איראן הכוללת בקשה לרכישת מערכות הגנה מסוג אס-400.",
+    "axis": "איראן - רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T16:05:01+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T16:05:01+00:00",
+    "last_update_at": "2026-11-06T17:15:56+00:00",
+    "what_is_not_verified": "האם מוסקבה נעתרה לבקשה לאספקת המערכות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611067881",
+      "published_at": "2026-11-06T17:15:56+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/syl0011uiaml",
+      "published_at": "2026-11-06T16:08:08+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133196",
+      "published_at": "2026-11-06T16:05:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11070629-08",
+    "title": "אזהרת ביטחון אמריקנית לנציגויות ולתושבים באזור",
+    "summary": "מחלקת המדינה האמריקנית פרסמה אזהרה לאזרחיה ולנציגויותיה במזרח התיכון לנקוט ערנות מוגברת בעקבות איומים מצד איראן לפגוע בבכירים אמריקנים ופעילות החות'ים.",
+    "axis": "ארצות הברית - איראן ושלוחותיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T22:04:13+00:00",
+    "last_update_at": "2026-11-07T03:10:33+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_f00090cce7ab8eab",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-urges-citizens-across-middle-east-exercise-heightened-caution",
+      "published_at": "2026-11-07T03:10:33+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_f00090cce7ab8eab",
+      "url": "https://www.ynet.co.il/news/article/hyhzpaitmg",
+      "published_at": "2026-11-06T22:04:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ירושלים, ישראל",
+      "lat": 31.7788,
+      "lon": 35.2258
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11070629-09",
+    "title": "המשך מאמצי התיווך הקטאריים בין ארה\"ב לאיראן",
+    "summary": "ראש ממשלת קטאר מסר כי מאמצי התיווך נמשכים למרות קשיים, בעוד גורמים שונים מדווחים על מגעים בהובלת סגן הנשיא האמריקני לצד הכחשות ודחיות מצד גורמים באיראן.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T12:05:53+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T12:05:53+00:00",
+    "last_update_at": "2026-11-07T04:46:27+00:00",
+    "what_is_not_verified": "רמת ההתקדמות הממשית בשיחות והסיכוי להסכם מלא",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/qatar-says-its-mediation-efforts-between-us-and-iran-continue-prevent-escalation",
+      "published_at": "2026-11-07T04:46:27+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/crisis-cannot-be-left-unresolved-qatar-pm-says-mediation-efforts",
+      "published_at": "2026-11-07T03:34:35+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21796317",
+      "published_at": "2026-11-07T02:07:27+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21796194",
+      "published_at": "2026-11-06T23:56:12+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133200",
+      "published_at": "2026-11-06T19:17:54+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94964",
+      "published_at": "2026-11-06T12:05:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אוקספורד, בריטניה",
+      "lat": 51.752,
+      "lon": -1.2578
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת איראן בדבר פגיעה והשבתה של יותר מ-228 אתרים ומתקנים בבסיסי ארה\"ב באזור",
+   "הדיווח לפיו ארה\"ב מתכוונת לבצע תקיפה גרעינית נגד מתקני גרעין איראניים",
+   "מידת ההתקדמות הממשית בשיחות להסכם מדיני בין ארה\"ב לאיראן",
+   "טענות על כוונה איראנית להשתמש בנשק כימי",
+   "אספקה בפועל של מערכות הגנה מדגם אס-400 מרוסיה לאיראן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.199,
+    "unit": "ILS",
+    "change_pct": 0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "מניעת השגת נשק גרעיני בידי איראן",
+     "הגעה להסדר ולהפחתת ההסלמה במזרח התיכון",
+     "איסוף מידע על מתקני הגרעין ואנשי המפתח באיראן"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי וכלכלי מדוד כדי לאלץ את טהראן לחתום על הסכם",
+     "הרתעת שלוחותיה של איראן מפגיעה ביעדים אמריקניים",
+     "שימור חופש הפעולה הצבאי באזור המפרץ"
+    ],
+    "forecast": [
+     "המשך אכיפת הסנקציות לצד תקיפות נקודתיות של מערכי הגנה אם תהיה תוקפנות נוספת",
+     "שמירה על ערוצי תיווך פתוחים מול איראן תוך כוננות לתקיפות נרחבות יותר"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "הותרת מצר הורמוז סגור עד להיענות ארצות הברית לדרישותיה",
+     "איסור מוחלט על שיקום בסיסי צבא אמריקניים באזור",
+     "תגובה צבאית מידית, יעילה וחסרת מגבלות גאוגרפיות לכל תקיפה"
+    ],
+    "inferred": [
+     "חיזוק מערך ההגנה האווירית באמצעות סיוע רוסי להגנה על מתקנים אסטרטגיים",
+     "שיקום תשתיות הטילים והגרעין שנפגעו",
+     "שימוש בחסימת נתיבי השיט כמנוף לחץ על הכלכלה העולמית"
+    ],
+    "forecast": [
+     "המשך עיבוי ההגנה סביב מתקני הגרעין והטילים",
+     "דחיית הצעות להסכם ביניים ללא ויתורים מוחשיים מוושינגטון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
+    "accessed_at": "2026-11-07T06:29:53+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/qatar-says-its-mediation-efforts-between-us-and-iran-continue-prevent-escalation",
+    "accessed_at": "2026-11-07T06:29:53+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-07T06:29:53+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
+    "accessed_at": "2026-11-07T06:29:53+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611067881",
+    "accessed_at": "2026-11-07T06:29:53+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21796194",
+    "accessed_at": "2026-11-07T06:29:53+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1385747",
+    "accessed_at": "2026-11-07T06:29:53+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/crisis-cannot-be-left-unresolved-qatar-pm-says-mediation-efforts",
+    "accessed_at": "2026-11-07T06:29:53+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133200",
+    "accessed_at": "2026-11-07T06:29:53+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49349",
+    "accessed_at": "2026-11-07T06:29:53+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94964",
+    "accessed_at": "2026-11-07T06:29:53+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hyhzpaitmg",
+    "accessed_at": "2026-11-07T06:29:53+00:00"
+   }
+  ]
+ }
+}
