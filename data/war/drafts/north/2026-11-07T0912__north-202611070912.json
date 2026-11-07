@@ -1,0 +1,485 @@
+{
+ "status": "draft",
+ "received_sha256_12": "59a7b6d1ff15",
+ "preview": {
+  "events": 12,
+  "levels": {
+   "initial": 9,
+   "shared_root": 1,
+   "assessment": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-07T09:12:05+00:00",
+  "window": {
+   "from": "2026-11-06T09:12:05+00:00",
+   "to": "2026-11-07T09:12:05+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202611070912"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בחילופי אש ארטילריים ופעולות נקודתיות של ישראל בדרום לבנון ובדרום סוריה, תוך אזהרות הדדיות מפני הידרדרות ללחימה מחודשת. מפקד צבא לבנון תובע את פינוי כוחות צה\"ל ורשויות המדינה מנסות לחזק תשתיות חירום ולבלום הברחות תחמושת, בעוד ממשלת סוריה מכחישה תוכניות לפינוי מוסדותיה מחשש לתמרון קרקעי. במקביל, המתיחות הפנימית בסוריה נמשכת עם עימותים אלימים סביב זכויות הכורדים בצפון-מזרח המדינה.",
+  "fronts": [
+   {
+    "name": "חזית דרום לבנון",
+    "status": "חילופי אש ארטילריים, פיצוצים ותקריות ירי מצד ישראל, מול היערכות צבאית ותשתיות חירום לבנוניות"
+   },
+   {
+    "name": "חזית דרום סוריה (קוניטרה)",
+    "status": "תקריות ירי ארטילרי ישראלי וחשש מהתרחבות התמרון היבשתי"
+   },
+   {
+    "name": "צפון-מזרח סוריה (אל-חסכה)",
+    "status": "מתיחות אתנית ועימותים אלימים בהפגנות כורדיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11070912-01",
+    "title": "תקיפות ארטילריה, ירי מקלעים ופיצוצים של צה\"ל בדרום לבנון",
+    "summary": "כתב ערוץ אל-מנאר דיווח על תקיפות ארטילריה לעבר נבטיה אל-פוקא, פאתי חאריס, חדאת'א, ואדי א-סלוקי, פאתי ברעשית, אל-מנצורי וואדי זיבקין. בנוסף דווח על פגיעה ישירה בבית בפאתי עיתא אל-ג'בל, ירי מקלעים לעבר מיס אל-ג'בל ופאתי שבעא, ופיצוץ בעיירה אל-קנטרה.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T07:40:30+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T07:40:30+00:00",
+    "last_update_at": "2026-11-07T07:40:30+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לדיווח כתב אל-מנאר על היקף הנזקים והירי המדויק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_239153b45ae70e60",
+      "url": "https://english.almanar.com.lb/article/147747/",
+      "published_at": "2026-11-07T07:40:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נבטיה אל-פוקא, לבנון",
+      "lat": 33.3619,
+      "lon": 35.4987
+     },
+     {
+      "name": "מיס אל-ג'בל, לבנון",
+      "lat": 33.17,
+      "lon": 35.5242
+     },
+     {
+      "name": "אל-קנטרה, לבנון",
+      "lat": 33.2589,
+      "lon": 35.459
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11070912-02",
+    "title": "ירי ארטילרי ישראלי בין יעטר לבית ליף",
+    "summary": "ארטילריה ישראלית תקפה באזור שבין יעטר לבית ליף בדרום לבנון, על פי דיווח כתב מקומי.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T20:25:37+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T20:25:37+00:00",
+    "last_update_at": "2026-11-06T20:25:37+00:00",
+    "what_is_not_verified": "היקף הפגיעה והנזק אינם מפורטים ולא אומתו ממקור עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_22cf41178c3c1281",
+      "url": "https://english.almanar.com.lb/article/147717/",
+      "published_at": "2026-11-06T20:25:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "יעטר, לבנון",
+      "lat": 33.1555,
+      "lon": 35.3317
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11070912-03",
+    "title": "הצהרת מפקד צבא לבנון על נסיגה ישראלית ושמירת היציבות",
+    "summary": "מפקד צבא לבנון, הגנרל רודולף הייכל, דרש נסיגה ישראלית מלאה משטחי לבנון הכבושים והצהיר כי נוכחות ישראל היא האיום המרכזי למדינה, תוך הדגשת מחויבות הצבא לאחדות הלאומית ויישום החלטות הממשלה.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T13:50:43+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T13:50:43+00:00",
+    "last_update_at": "2026-11-06T19:56:48+00:00",
+    "what_is_not_verified": "מידת יישום סמכות הצבא בפועל בדרום לבנון.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/147682/",
+      "published_at": "2026-11-06T19:56:48+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/966701/army-chief-haykal-calls-for-israeli-withdrawal-vows-to-preserve-lebano/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966701",
+      "published_at": "2026-11-06T13:50:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "יארזה, לבנון",
+      "lat": 33.8309,
+      "lon": 35.5551
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11070912-04",
+    "title": "ירי ארטילרי ישראלי לעבר קרקע חקלאית בקוניטרה",
+    "summary": "פגז ארטילרי ישראלי פגע בשטח חקלאי בסמוך לכפר עין זיוואן בדרום סוריה, כחלק מפעילות צבאית במחוז קוניטרה.",
+    "axis": "ישראל-סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T13:11:12+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T13:11:12+00:00",
+    "last_update_at": "2026-11-06T13:11:12+00:00",
+    "what_is_not_verified": "פרטי הפגיעה והנפגעים אינם מאומתים מעבר לדיווח בסוכנות הידיעות הטורקית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-shells-agricultural-land-in-southern-syria-s-quneitra/4114313",
+      "published_at": "2026-11-06T13:11:12+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11070912-05",
+    "title": "מעצר חברי חיזבאללה וחקירת משלוח חומרי נפץ בלבנון",
+    "summary": "שופטת חוקרת צבאית בלבנון הוציאה צווי מעצר נגד שני פעילי חיזבאללה שהובילו משלוח חומרי נפץ שנתפס בדהר אל-בידר. השניים טענו שקיבלו את החומרים בבעלבכ והיו אמורים למסור אותם בפרבר הדרומי של ביירות.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T14:55:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T14:55:00+00:00",
+    "last_update_at": "2026-11-06T14:55:00+00:00",
+    "what_is_not_verified": "יעד השימוש הסופי בחומרי הנפץ ומעורבות גורמים בכירים יותר טרם הובהרו בחקירה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_lbci",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/966668/from-baalbek-to-beirut-the-trail-of-the-explosives-shipment-under-inve/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966668",
+      "published_at": "2026-11-06T14:55:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דהר אל-בידר, לבנון",
+      "lat": 33.8109,
+      "lon": 35.7661
+     },
+     {
+      "name": "בעלבכ, לבנון",
+      "lat": 34.0097,
+      "lon": 36.2117
+     },
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11070912-06",
+    "title": "הכחשת ממשלת סוריה בדבר העברת משרדים ממשלתיים מדמשק",
+    "summary": "גורמי ממשל סוריים הכחישו דיווחים בתקשורת הטורקית לפיהם המשטר מתכונן להעביר משרדים ומוסדות מדינה מדמשק לחלב, חמאת, א-רקה ודיר א-זור עקב חשש מתקיפה קרקעית ישראלית נרחבת.",
+    "axis": "ישראל-סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T11:44:12+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T11:44:12+00:00",
+    "last_update_at": "2026-11-06T11:44:12+00:00",
+    "what_is_not_verified": "קיומה של תוכנית מגירה להעברת משרדים או היות הדיווח לוחמה פסיכולוגית מטורקיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_t_rkiye_gazetesi",
+      "url": "https://www.newarab.com/news/syria-denies-plans-relocate-ministries-over-israeli-threats",
+      "published_at": "2026-11-06T11:44:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     },
+     {
+      "name": "חמאת, סוריה",
+      "lat": 35.1343,
+      "lon": 36.7496
+     },
+     {
+      "name": "חלב, סוריה",
+      "lat": 36.1992,
+      "lon": 37.1637
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11070912-07",
+    "title": "הערכות ישראליות לחידוש לחימה אפשרי בחזית לבנון",
+    "summary": "דיווחים בתקשורת הישראלית מצביעים על כך שצה\"ל נערך לאפשרות של חידוש הלחימה בזירה הלבנונית ברקע המתיחות מול איראן.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T19:47:14+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T19:47:14+00:00",
+    "last_update_at": "2026-11-06T19:47:14+00:00",
+    "what_is_not_verified": "תוכניות המבצעים המדויקות של צה\"ל לא אומתו על ידי גורם רשמי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-preparing-for-possible-resumption-of-war-in-lebanon-amid-iran-tensions-report/4114716",
+      "published_at": "2026-11-06T19:47:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11070912-08",
+    "title": "הכרזת קונסול לבנון במישיגן כאישיות בלתי רצויה בארה\"ב",
+    "summary": "מחלקת המדינה של ארצות הברית הכריזה על קונסול לבנון במישיגן כאישיות בלתי רצויה בעקבות פוסטים ברשתות חברתיות שבהם שיבח לכאורה את פיגוע חיזבאללה נגד הנחתים האמריקאים בביירות בשנת 1983.",
+    "axis": "לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T04:50:31+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T04:50:31+00:00",
+    "last_update_at": "2026-11-07T04:50:31+00:00",
+    "what_is_not_verified": "תגובת הקונסול הלבנוני להאשמות המיוחסות לו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_lbci",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/966745/hiba-nasr-us-declares-lebanese-consul-in-michigan-persona-non-grata-ov/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966745",
+      "published_at": "2026-11-07T04:50:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11070912-09",
+    "title": "אזהרת מסע וערנות מוגברת של ארה\"ב בין היתר בלבנון ובישראל",
+    "summary": "מחלקת המדינה האמריקאית פרסמה התרעת ביטחון לאזרחיה במספר מדינות במזרח התיכון, כולל ישראל ולבנון, וקראה לנקוט ערנות מוגברת מחשש לתקיפות ואיומים ביטחוניים.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-07T03:10:33+00:00",
+    "last_update_at": "2026-11-07T03:10:33+00:00",
+    "what_is_not_verified": "קיומן של התרעות ספציפיות על יעדים בלבנון או בישראל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-urges-citizens-across-middle-east-exercise-heightened-caution",
+      "published_at": "2026-11-07T03:10:33+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11070912-10",
+    "title": "הפעלת שירותי אינטרנט לווייני בלבנון מחשש להסלמה",
+    "summary": "ממשלת לבנון החלה בהפעלת שירותי אינטרנט לווייני באמצעות סטארלינק לחברות ומוסדות כדי להבטיח רציפות תקשורת במצבי חירום ופגיעה אפשרית בתשתיות במקרה של מלחמה מול ישראל.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T17:07:57+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T17:07:57+00:00",
+    "last_update_at": "2026-11-06T17:07:57+00:00",
+    "what_is_not_verified": "מידת הפריסה הרחבה בפועל של השירות במוסדות השונים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/analysis/can-starlink-keep-lebanon-connected-event-another-war",
+      "published_at": "2026-11-06T17:07:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11070912-11",
+    "title": "אזהרה מפני משבר תזונה ופגיעה בקרקעות חקלאיות בדרום לבנון",
+    "summary": "ארגון הצלת הילדים הזהיר כי תקיפות ישראליות פגעו בכרבע מהקרקעות החקלאיות בלבנון, והובילו להחרפת חוסר הביטחון התזונתי ולעלייה ברמות תת-התזונה בקרב ילדים.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T17:43:01+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-06T17:43:01+00:00",
+    "last_update_at": "2026-11-06T17:43:01+00:00",
+    "what_is_not_verified": "האומדן המדויק של אחוז הקרקעות החקלאיות שניזוקו ישירות מהתקיפות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_ipc",
+      "url": "https://www.newarab.com/news/israeli-attacks-threaten-food-security-children-lebanon",
+      "published_at": "2026-11-06T17:43:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11070912-12",
+    "title": "התקפה נגד סטודנטים כורדים בעיר אל-חסכה בצפון-מזרח סוריה",
+    "summary": "גברים רעולי פנים תקפו באבנים, מקלות וחפצים חדים סטודנטים כורדים שהפגינו מחוץ לבניין המחוז באל-חסכה בדרישה להמשך לימודים בשפת אימם, ופצעו מספר מפגינים וצלם טלוויזיה.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T17:27:33+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-06T17:27:33+00:00",
+    "last_update_at": "2026-11-06T17:27:33+00:00",
+    "what_is_not_verified": "זהותם המדויקת של התוקפים ושאלת אחריות כוחות הביטחון המקומיים שלא מנעו את התקיפה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_the_new_arab",
+      "url": "https://www.newarab.com/news/kurdish-students-attacked-language-rights-protest-syria",
+      "published_at": "2026-11-06T17:27:33+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות עיתון טורקי בדבר תוכנית סורית רשמית להעתקת משרדי ממשלה והבנק המרכזי מדמשק לערי פנים",
+   "היקף הנפגעים וההרס המדויק של תקיפות צה\"ל המדווחות בכפרי דרום לבנון",
+   "פרטי החקירה והיעד המבצעי הסופי של משלוח חומרי הנפץ שנתפס בלבנון",
+   "שיעור השטחים החקלאיים שניזוקו לחלוטין בדרום לבנון"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.199,
+    "unit": "ILS",
+    "change_pct": 0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [],
+    "inferred": [
+     "מניעת התבססות והתחמשות מחדש של חיזבאללה בדרום לבנון",
+     "הרתעת גורמים עוינים בסוריה באמצעות תקיפות אזהרה בקוניטרה והיערכות לאפשרות של חידוש הלחימה"
+    ],
+    "forecast": [
+     "המשך סיכולים ממוקדים ותקיפות נקודתיות למניעת הפרות, לצד כוננות לפעולה רחבה אם תגבר המתיחות מול איראן"
+    ]
+   },
+   {
+    "actor": "צבא וממשלת לבנון",
+    "declared": [
+     "דרישה בלתי מתפשרת לנסיגת כוחות צה\"ל מהשטחים הכבושים בדרום לבנון",
+     "שמירה על האחדות הלאומית, היציבות הפנימית והבטחת רציפות התקשורת בחירום"
+    ],
+    "inferred": [
+     "ניסיון להפגין ריבונות ולאכוף פיקוח על משלוחי נשק לא מורשים בתוך המדינה"
+    ],
+    "forecast": [
+     "המשך חקירות פנימיות למניעת הברחות חיזבאללה והסתמכות מוגברת על פתרונות תקשורת חלופיים"
+    ]
+   },
+   {
+    "actor": "משטר סוריה",
+    "declared": [
+     "התמקדות בביטחון פנים, הגנת הגבולות ובנייה מחדש",
+     "הכחשת כוונות להעתקת משרדי ממשלה מדמשק"
+    ],
+    "inferred": [
+     "צמצום פרופיל ואי-רצון להיגרר לעימות ישיר נרחב מול ישראל"
+    ],
+    "forecast": [
+     "המשך בלימת יוזמות הסלמה צבאיות מול ישראל ושימור מוסדות השלטון בבירה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/147682/",
+    "accessed_at": "2026-11-07T09:12:05+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-army-preparing-for-possible-resumption-of-war-in-lebanon-amid-iran-tensions-report/4114716",
+    "accessed_at": "2026-11-07T09:12:05+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/966745/hiba-nasr-us-declares-lebanese-consul-in-michigan-persona-non-grata-ov/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966745",
+    "accessed_at": "2026-11-07T09:12:05+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-urges-citizens-across-middle-east-exercise-heightened-caution",
+    "accessed_at": "2026-11-07T09:12:05+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/kurdish-students-attacked-language-rights-protest-syria",
+    "accessed_at": "2026-11-07T09:12:05+00:00"
+   }
+  ]
+ }
+}
