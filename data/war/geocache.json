@@ -461,6 +461,7 @@
 33.3145,
 35.8794
 ],
+"beit leef, lebanon": null,
 "beit lif, lebanon": [
 33.1321,
 35.334
@@ -2047,6 +2048,10 @@
 16.9409,
 43.763
 ],
+"sabr al mawadim, yemen": [
+13.5446,
+44.0199
+],
 "saida al-hanout, syria": [
 32.8756,
 35.8774
@@ -2089,6 +2094,10 @@
 "saraqib, syria": [
 35.8636,
 36.8031
+],
+"saratov, russia": [
+51.53,
+46.0347
 ],
 "saravan, iran": [
 27.3652,
@@ -2279,6 +2288,10 @@
 "suweida, syria": [
 32.7094,
 36.5687
+],
+"suza, iran": [
+26.7776,
+56.0631
 ],
 "svatove, ukraine": [
 49.4177,
