@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-07T01:17:27+00:00",
-  "fetched_at": "2026-11-07T01:17:27+00:00"
+  "checked_at": "2026-11-07T02:17:28+00:00",
+  "fetched_at": "2026-11-07T02:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-07T01:17:38+00:00",
-  "fetched_at": "2026-11-07T01:17:38+00:00"
+  "checked_at": "2026-11-07T02:17:40+00:00",
+  "fetched_at": "2026-11-07T02:17:40+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-07T01:17:39+00:00",
-  "fetched_at": "2026-11-07T01:17:39+00:00"
+  "checked_at": "2026-11-07T02:17:41+00:00",
+  "fetched_at": "2026-11-07T02:17:41+00:00"
  },
- "generated_at": "2026-11-07T01:17:39+00:00",
+ "generated_at": "2026-11-07T02:17:41+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-07T01:17:28+00:00",
-  "fetched_at": "2026-11-07T01:17:28+00:00"
+  "checked_at": "2026-11-07T02:17:29+00:00",
+  "fetched_at": "2026-11-07T02:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-07T01:17:29+00:00",
-  "fetched_at": "2026-11-07T01:17:29+00:00"
+  "checked_at": "2026-11-07T02:17:30+00:00",
+  "fetched_at": "2026-11-07T02:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2813,8 +2813,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-07T01:17:30+00:00",
-  "fetched_at": "2026-11-07T01:17:30+00:00"
+  "checked_at": "2026-11-07T02:17:32+00:00",
+  "fetched_at": "2026-11-07T02:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2905,8 +2905,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-07T01:17:30+00:00",
-  "fetched_at": "2026-11-07T01:17:30+00:00"
+  "checked_at": "2026-11-07T02:17:32+00:00",
+  "fetched_at": "2026-11-07T02:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2938,43 +2938,50 @@ window.DB.generated = {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 275,
+     "likes": 277,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1355,
+     "likes": 1360,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 176,
+     "likes": 178,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
      "title": "LFM3 Omni 2B WebGPU",
      "desc_en": "Run LFM3-Omni-2B locally in the browser on WebGPU",
      "desc_he": "הפעל LFM3-Omni -2B באופן מקומי בדפדפן ב-WebGPU",
-     "likes": 125,
+     "likes": 126,
      "link": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
-    },
-    {
-     "title": "Harness Leaderboard",
-     "desc_en": "Which coding-agent harness should you use for your model?",
-     "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 83,
-     "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
      "title": "Qwen Image 2.1 Realtime",
      "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 186,
+     "likes": 189,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
+    },
+    {
+     "title": "Harness Leaderboard",
+     "desc_en": "Which coding-agent harness should you use for your model?",
+     "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
+     "likes": 84,
+     "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
+    },
+    {
+     "title": "AI Text Humanizer",
+     "desc_en": "Cliché-removal rules; protects code, numbers, quotes.",
+     "desc_he": "כללי הסרת קלישה; מגן על קוד, מספרים, ציטוטים.",
+     "likes": 215,
+     "link": "https://huggingface.co/spaces/fendouai/free-ai-humanizer"
     },
     {
      "title": "SimReady Central",
@@ -2982,13 +2989,6 @@ window.DB.generated = {
      "desc_he": "חיפוש סמנטי של נכסי תלת מימד: תצוגה מקדימה של סימולציית USD + RTX",
      "likes": 383,
      "link": "https://huggingface.co/spaces/nvidia/simready-central"
-    },
-    {
-     "title": "AI Text Humanizer",
-     "desc_en": "Cliché-removal rules; protects code, numbers, quotes.",
-     "desc_he": "כללי הסרת קלישה; מגן על קוד, מספרים, ציטוטים.",
-     "likes": 214,
-     "link": "https://huggingface.co/spaces/fendouai/free-ai-humanizer"
     },
     {
      "title": "FIBO 2.0 Edit Turbo",
@@ -3007,8 +3007,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-07T01:17:38+00:00",
-  "fetched_at": "2026-11-07T01:17:38+00:00"
+  "checked_at": "2026-11-07T02:17:40+00:00",
+  "fetched_at": "2026-11-07T02:17:40+00:00"
  },
  "abroad": {
   "data": {
@@ -3350,8 +3350,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-07T01:17:33+00:00",
-  "fetched_at": "2026-11-07T01:17:33+00:00"
+  "checked_at": "2026-11-07T02:17:35+00:00",
+  "fetched_at": "2026-11-07T02:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -3382,8 +3382,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-07T01:17:33+00:00",
-  "fetched_at": "2026-11-07T01:17:33+00:00"
+  "checked_at": "2026-11-07T02:17:35+00:00",
+  "fetched_at": "2026-11-07T02:17:35+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3391,49 +3391,49 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-06T21:03:00+00:00",
-    "seen_at": "2026-11-07T01:17:39+00:00",
+    "seen_at": "2026-11-07T02:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-06T12:32:00+00:00",
-    "seen_at": "2026-11-07T01:17:39+00:00",
+    "seen_at": "2026-11-07T02:17:41+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-06T13:32:00+00:00",
-    "seen_at": "2026-11-07T01:17:39+00:00",
+    "seen_at": "2026-11-07T02:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-06T07:24:00+00:00",
-    "seen_at": "2026-11-07T01:17:39+00:00",
+    "seen_at": "2026-11-07T02:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-06T22:59:00+00:00",
-    "seen_at": "2026-11-07T01:17:39+00:00",
+    "seen_at": "2026-11-07T02:17:41+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-06T18:45:00+00:00",
-    "seen_at": "2026-11-07T01:17:39+00:00",
+    "seen_at": "2026-11-07T02:17:41+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-06T21:57:00+00:00",
-    "seen_at": "2026-11-07T01:17:39+00:00",
+    "seen_at": "2026-11-07T02:17:41+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-06T17:22:56+00:00",
-    "seen_at": "2026-11-07T01:17:39+00:00",
+    "seen_at": "2026-11-07T02:17:41+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3445,35 +3445,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-05T17:00:00+00:00",
-    "seen_at": "2026-11-07T01:17:39+00:00",
+    "seen_at": "2026-11-07T02:17:41+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-06T14:30:47+00:00",
-    "seen_at": "2026-11-07T01:17:39+00:00",
+    "seen_at": "2026-11-07T02:17:41+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-06T14:00:28+00:00",
-    "seen_at": "2026-11-07T01:17:39+00:00",
+    "seen_at": "2026-11-07T02:17:41+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-06T16:44:36+00:00",
-    "seen_at": "2026-11-07T01:17:39+00:00",
+    "seen_at": "2026-11-07T02:17:41+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-04T16:04:01+00:00",
-    "seen_at": "2026-11-07T01:17:39+00:00",
+    "seen_at": "2026-11-07T02:17:41+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-07T01:17:39+00:00"
+  "checked_at": "2026-11-07T02:17:41+00:00"
  },
  "health_news": {
   "data": [
@@ -3629,7 +3629,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-07T01:17:34+00:00",
-  "fetched_at": "2026-11-07T01:17:34+00:00"
+  "checked_at": "2026-11-07T02:17:36+00:00",
+  "fetched_at": "2026-11-07T02:17:36+00:00"
  }
 };
