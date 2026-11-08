@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-08T06:17:14+00:00",
-  "fetched_at": "2026-11-08T06:17:14+00:00"
+  "checked_at": "2026-11-08T07:17:20+00:00",
+  "fetched_at": "2026-11-08T07:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T06:17:26+00:00",
-  "fetched_at": "2026-11-08T06:17:26+00:00"
+  "checked_at": "2026-11-08T07:17:31+00:00",
+  "fetched_at": "2026-11-08T07:17:31+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T06:17:26+00:00",
-  "fetched_at": "2026-11-08T06:17:26+00:00"
+  "checked_at": "2026-11-08T07:17:32+00:00",
+  "fetched_at": "2026-11-08T07:17:32+00:00"
  },
- "generated_at": "2026-11-08T06:17:26+00:00",
+ "generated_at": "2026-11-08T07:17:32+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,7 +99,7 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "אנליסטים מעריכים: סיכוי של עד 80% לחידוש המלחמה באיראן",
+     "title": "מה הסיכוי לחידוש המלחמה? אלה ההערכות העדכניות בשוק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562377",
      "date": "2026-11-08T05:12:00+00:00"
     },
@@ -129,7 +129,7 @@ window.DB.generated = {
      "date": "2026-11-08T03:38:00+00:00"
     },
     {
-     "title": "המדינה שמקימה שדה תעופה חדש והחברה הישראלית שתגן עליו",
+     "title": "היא גובלת ברוסיה, קנתה קלע דוד ועכשיו מחליפה טילי נ\"ט משנות ה־80",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561796",
      "date": "2026-11-08T03:33:00+00:00"
     },
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-08T06:17:15+00:00",
-  "fetched_at": "2026-11-08T06:17:15+00:00"
+  "checked_at": "2026-11-08T07:17:21+00:00",
+  "fetched_at": "2026-11-08T07:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T06:17:16+00:00",
-  "fetched_at": "2026-11-08T06:17:16+00:00"
+  "checked_at": "2026-11-08T07:17:22+00:00",
+  "fetched_at": "2026-11-08T07:17:22+00:00"
  },
  "tv": {
   "data": [
@@ -2278,6 +2278,20 @@ window.DB.generated = {
     "title": "בילבאו - אלבה ברלין"
    },
    {
+    "date": "2026-11-10",
+    "time": "21:30",
+    "channel": "ספורט 1",
+    "sport": "כדורסל",
+    "title": "לונדון ליונס - ונציה"
+   },
+   {
+    "date": "2026-11-11",
+    "time": "02:00",
+    "channel": "ONE",
+    "sport": "כדורסל",
+    "title": "דיוק בלו דבילס - מישיגן סטייט ספרטנס"
+   },
+   {
     "date": "2026-11-11",
     "time": "03:00",
     "channel": "ספורט 5",
@@ -2322,7 +2336,7 @@ window.DB.generated = {
    {
     "date": "2026-11-11",
     "time": "21:45",
-    "channel": "5 גולד",
+    "channel": "ספורט 5 מקס",
     "sport": "כדורסל",
     "title": "פרטיזן בלגרד - באסקוניה"
    },
@@ -2678,8 +2692,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T06:17:17+00:00",
-  "fetched_at": "2026-11-08T06:17:17+00:00"
+  "checked_at": "2026-11-08T07:17:23+00:00",
+  "fetched_at": "2026-11-08T07:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2770,8 +2784,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-08T06:17:17+00:00",
-  "fetched_at": "2026-11-08T06:17:17+00:00"
+  "checked_at": "2026-11-08T07:17:23+00:00",
+  "fetched_at": "2026-11-08T07:17:23+00:00"
  },
  "ai": {
   "data": {
@@ -2784,61 +2798,60 @@ window.DB.generated = {
      "title": "הכנס הישראלי הראשון לסוכני AI (ועוד כמה המלצות לבני האדם שלהם)"
     },
     {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/australian-universities-ai-native-graduates",
-     "date": "2026-11-05T17:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+     "date": "2026-11-05T17:05:16+00:00",
      "launch": false,
-     "title_en": "Australian universities are creating AI-native graduates",
-     "title_he": "אוניברסיטאות אוסטרליה יוצרות בוגרי בינה מלאכותית",
+     "title_en": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+     "title_he": "Gemini Omni 1.2 פלאש: מהיר וחסכוני עם קליפסים ארוכים יותר",
      "translated_by": "google"
     }
    ],
-   "candidates": 6,
+   "candidates": 7,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 361,
+     "likes": 363,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1397,
+     "likes": 1399,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 198,
+     "likes": 200,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 141,
+     "likes": 143,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
      "title": "LFM3 Omni 2B WebGPU",
      "desc_en": "Run LFM3-Omni-2B locally in the browser on WebGPU",
      "desc_he": "הפעל LFM3-Omni -2B באופן מקומי בדפדפן ב-WebGPU",
-     "likes": 137,
+     "likes": 138,
      "link": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
     },
     {
      "title": "Qwen Image 2.1 Realtime",
      "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 198,
+     "likes": 201,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
@@ -2872,8 +2885,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-08T06:17:25+00:00",
-  "fetched_at": "2026-11-08T06:17:25+00:00"
+  "checked_at": "2026-11-08T07:17:31+00:00",
+  "fetched_at": "2026-11-08T07:17:31+00:00"
  },
  "abroad": {
   "data": {
@@ -2951,15 +2964,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "31 דק' לסולומון, ווסטהאם הפסידה 2:1 לבלקבורן",
-     "link": "https://www.one.co.il/Article/538208.html?ref=rss",
-     "date": "2026-11-07T15:00:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
      "title": "באנגליה קוטלים את מנור סולומון: \"הוא לא עוזר לקבוצות לנצח\"",
      "link": "https://sports.walla.co.il/item/3875284",
      "date": "2026-11-07T10:25:00+00:00",
@@ -3011,6 +3015,15 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
+     ]
+    },
+    {
+     "title": "הפסד דרמטי לסטוינוב, גליקליך חטף שישייה מהמוליכה האוסטרית",
+     "link": "https://sports.walla.co.il/item/3875259",
+     "date": "2026-11-06T21:28:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ניקיטה סטוינוב"
      ]
     }
    ],
@@ -3214,8 +3227,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-08T06:17:20+00:00",
-  "fetched_at": "2026-11-08T06:17:20+00:00"
+  "checked_at": "2026-11-08T07:17:27+00:00",
+  "fetched_at": "2026-11-08T07:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3245,8 +3258,9 @@ window.DB.generated = {
     "date": "2026-11-03T20:07:23+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-08T06:17:21+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-08T07:17:27+00:00",
   "fetched_at": "2026-11-08T06:17:21+00:00"
  },
  "feed_health": {
@@ -3254,44 +3268,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-08T06:13:00+00:00",
-    "seen_at": "2026-11-08T06:17:26+00:00",
+    "newest": "2026-11-08T06:21:00+00:00",
+    "seen_at": "2026-11-08T07:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-08T05:01:00+00:00",
-    "seen_at": "2026-11-08T06:17:26+00:00",
+    "seen_at": "2026-11-08T07:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-08T05:12:00+00:00",
-    "seen_at": "2026-11-08T06:17:26+00:00",
+    "seen_at": "2026-11-08T07:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-08T06:37:00+00:00",
-    "seen_at": "2026-11-08T06:17:26+00:00",
+    "seen_at": "2026-11-08T07:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-08T07:08:00+00:00",
-    "seen_at": "2026-11-08T06:17:26+00:00",
+    "newest": "2026-11-08T08:02:00+00:00",
+    "seen_at": "2026-11-08T07:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-08T06:45:00+00:00",
-    "seen_at": "2026-11-08T06:17:26+00:00",
+    "newest": "2026-11-08T07:50:00+00:00",
+    "seen_at": "2026-11-08T07:17:32+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-08T05:56:00+00:00",
-    "seen_at": "2026-11-08T06:17:26+00:00",
+    "newest": "2026-11-08T06:52:00+00:00",
+    "seen_at": "2026-11-08T07:17:32+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3303,41 +3317,41 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-05T17:05:16+00:00",
-    "seen_at": "2026-11-08T06:08:29+00:00",
+    "seen_at": "2026-11-08T07:17:32+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-05T17:00:00+00:00",
-    "seen_at": "2026-11-08T06:17:26+00:00",
+    "seen_at": "2026-11-08T07:17:32+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-07T17:32:40+00:00",
-    "seen_at": "2026-11-08T06:17:26+00:00",
+    "seen_at": "2026-11-08T07:17:32+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-07T16:58:40+00:00",
-    "seen_at": "2026-11-08T06:17:26+00:00",
+    "seen_at": "2026-11-08T07:17:32+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-08T03:00:00+00:00",
-    "seen_at": "2026-11-08T06:17:26+00:00",
+    "seen_at": "2026-11-08T07:17:32+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-04T16:04:01+00:00",
-    "seen_at": "2026-11-08T06:17:26+00:00",
+    "seen_at": "2026-11-08T07:17:32+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-08T06:17:26+00:00"
+  "checked_at": "2026-11-08T07:17:32+00:00"
  },
  "health_news": {
   "data": [
@@ -3493,7 +3507,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T06:17:21+00:00",
-  "fetched_at": "2026-11-08T06:17:21+00:00"
+  "checked_at": "2026-11-08T07:17:28+00:00",
+  "fetched_at": "2026-11-08T07:17:28+00:00"
  }
 };
