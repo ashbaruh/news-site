@@ -1,0 +1,463 @@
+{
+ "status": "draft",
+ "received_sha256_12": "86be759d17de",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 5,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-08T16:56:02+00:00",
+  "window": {
+   "from": "2026-11-07T16:56:02+00:00",
+   "to": "2026-11-08T16:56:02+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202611081656"
+  },
+  "summary": "הלחימה בזירה התימנית מסלימה מחדש בעקבות קריסת הפסקת האש, כאשר החות'ים חידשו את תקיפות הטילים והכטב\"מים ארוכות הטווח לתוך שטח סעודיה ופגעו ברובע העסקים בריאד. במקביל, מתנהלת לחימה עצימה ותקיפות אוויריות קטלניות בריכוזי אוכלוסייה במחוזות צנעא ותעז וכן לאורך חוף הים האדום בין כוחות הממשלה הנתמכים בידי סעודיה לבין החות'ים. הלחימה המתרחבת מחריפה באופן דרמטי את המשבר ההומניטרי ומלווה בדיווחים על ניסיונות של סעודיה לגייס כוחות זרים לסיוע בהגנת גבולותיה.",
+  "fronts": [
+   {
+    "name": "חזית עומק סעודיה (ריאד, אבקאיק, מחוז הדרום)",
+    "status": "פעילה - ירי מוגבר של טילים בליסטיים, טילי שיוט וכטב\"מים חות'יים לעבר תשתיות אנרגיה ומרכזים שלטוניים לצד יירוטים של הקואליציה"
+   },
+   {
+    "name": "חזית מחוז תעז",
+    "status": "פעילה - חילופי אש, פגיעות באזרחים, פגיעות ברכבים ופיצוץ קטלני בשוק מקומי המלווה בהאשמות הדדיות"
+   },
+   {
+    "name": "חזית מחוז צנעא",
+    "status": "פעילה - תקיפות אוויריות של הקואליציה כנגד מטרות באזור הבירה עם נפגעים אזרחיים רבים"
+   },
+   {
+    "name": "חזית חוף הים האדום",
+    "status": "פעילה - מתקפה קרקעית של כוחות הממשלה כנגד מעוזי החות'ים תוך הסלמה מתמשכת"
+   },
+   {
+    "name": "חזית גבול סעודיה - תימן",
+    "status": "מתוחה - דיווחים על עיבוי כוחות והיערכות לפריסת כוחות זרים לסיוע לממלכה"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11081656-01",
+    "title": "פגיעה במגדל חברת אראמקו בריאד במסגרת מתקפת טילים וכטב\"מים חות'ית",
+    "summary": "החות'ים שיגרו טילים בליסטיים, טילי שיוט וכטב\"מים לעבר יעדים בסעודיה, בהם המרכז הפיננסי ונמל התעופה בריאד ומתקני נפט. מגדל חברת אראמקו בבירה הסעודית ספג נזק שכלל ניפוץ חלונות בכמה קומות; משרד האנרגיה הסעודי והקואליציה טענו כי המבנה נפגע מרסיסי יירוט, בעוד החות'ים טענו לפגיעות ישירות במסגרת ארבעה מבצעים צבאיים.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T08:00:10+00:00",
+    "last_update_at": "2026-11-08T14:49:27+00:00",
+    "what_is_not_verified": "האם המגדל נפגע מפגיעה ישירה של טיל בליסטי או מנפילת שברי יירוט כפי שטוענת סעודיה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21806102",
+      "published_at": "2026-11-08T14:49:27+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attack-saudi-arabias-king-khalad-airport",
+      "published_at": "2026-11-08T14:36:30+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attack-riyadh-financial-centre",
+      "published_at": "2026-11-08T14:05:09+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133283",
+      "published_at": "2026-11-08T13:48:11+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49401",
+      "published_at": "2026-11-08T13:29:26+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/aramco-skyscraper-damaged-riyadh-targeted-houthi-missiles",
+      "published_at": "2026-11-08T11:39:44+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/saudi-aramco-tower-damaged-after-houthi-missile-attacks-riyadh",
+      "published_at": "2026-11-08T10:26:45+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-aramco-building-riyadh-struck-us-imposes-iran-blockade",
+      "published_at": "2026-11-08T09:31:01+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-aramco-building-riyadh-damaged-falling-debris-attempted-attack",
+      "published_at": "2026-11-08T09:14:43+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/yemens-houthis-claim-attack-riyadh-financial-district-aramco-skyscraper-damaged",
+      "published_at": "2026-11-08T08:30:26+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district",
+      "published_at": "2026-11-08T08:11:54+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-664",
+      "published_at": "2026-11-08T08:00:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "אבקאיק, סעודיה",
+      "lat": 25.9356,
+      "lon": 49.6683
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11081656-02",
+    "title": "עשרות הרוגים ופצועים בתקיפה אווירית בכפר א-שריעה במחוז צנעא",
+    "summary": "החות'ים דיווחו כי לפחות שלושים ושלושה בני אדם נהרגו, מרביתם נשים וילדים, וכארבעים נפצעו בתקיפות אוויריות של הקואליציה בהובלת סעודיה מזרחית לבירה צנעא, כאשר לפי הדיווחים הותקפו גם צוותי רפואה במקום. סעודיה לא הגיבה רשמית על הפגיעה ומסרה כי הנושא בבדיקה.",
+    "axis": "פנים-תימן: צנעא",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T15:55:28+00:00",
+    "last_update_at": "2026-11-08T08:00:10+00:00",
+    "what_is_not_verified": "אחריות הקואליציה הסעודית ומספרי הנפגעים המדויקים, אשר נמסרו רק על ידי גורמי בריאות חות'יים",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-664",
+      "published_at": "2026-11-08T08:00:10+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-08T04:03:12+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/houthi-run-health-ministry-says-airstrikes-kill-33-near-yemen-capital",
+      "published_at": "2026-11-07T20:46:28+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-say-33-killed-saudi-strikes-yemens-sanaa-province",
+      "published_at": "2026-11-07T15:55:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11081656-03",
+    "title": "פיצוץ קטלני בשוק הומה במחוז תעז והטחת האשמות הדדיות",
+    "summary": "פיצוץ בשוק אל-חדארה במחוז תעז גבה את חייהם של עשרות אזרחים והביא לפציעתם של רבים נוספים. ממשלת תימן והרשויות המקומיות האשימו את החות'ים בירי טיל בליסטי לעבר השוק, בעוד החות'ים הכחישו זאת וטענו כי מטוסי קרב סעודיים הפציצו את המקום.",
+    "axis": "פנים-תימן: תעז",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T14:59:10+00:00",
+    "last_update_at": "2026-11-08T16:36:55+00:00",
+    "what_is_not_verified": "מי הגורם שביצע את התקיפה על השוק והאם מדובר בטיל בליסטי חות'י או בהפצצה אווירית סעודית",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-condemns-saudi-aggression-after-dozens-killed-attack-taiz-market",
+      "published_at": "2026-11-08T16:36:55+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-say-33-killed-saudi-strikes-yemens-sanaa-province",
+      "published_at": "2026-11-07T15:55:28+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemen-dozens-killed-wounded-taiz-market-explosion",
+      "published_at": "2026-11-07T14:59:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11081656-04",
+    "title": "דיווחים על פריסת לוחמים סורים בגבול סעודיה-תימן לצד הכחשה רשמית מדמשק",
+    "summary": "מקורות צבאיים וביטחוניים בתימן טענו בפני סוכנות הידיעות הצרפתית כי אלפי חיילים סורים עתידים להיפרס, וחלקם כבר הוצבו משני צדי הגבול בין סעודיה לתימן כדי לסייע לסעודיה בלחימה. מנגד, גורם דיפלומטי סורי רשמי הכחיש את הטענות באופן גורף ומסר כי שיתוף הפעולה הביטחוני עם סעודיה מתמקד באימונים והחלפת מומחיות.",
+    "axis": "גבול סעודיה - תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-07T15:46:49+00:00",
+    "last_update_at": "2026-11-08T08:01:01+00:00",
+    "what_is_not_verified": "האם חיילים סורים אכן נפרסו בפועל בשטח או שמא מדובר בהסכם עתידי או בדיווח שקרי שהוכחש בידי סוריה",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133265",
+      "published_at": "2026-11-08T08:01:01+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/thousands-syrian-troops-deploy-yemen-saudi-arabia-sources-afp",
+      "published_at": "2026-11-07T18:30:23+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/syria-denies-plans-send-troops-yemen-saudi-military-ties-deepen",
+      "published_at": "2026-11-07T16:46:27+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133233",
+      "published_at": "2026-11-07T16:10:22+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/syria-denies-plans-send-troops-yemen",
+      "published_at": "2026-11-07T15:46:49+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11081656-05",
+    "title": "התרסקות טיל חות'י כושל במחוז אל-ביידאא'",
+    "summary": "טיל ששיגרו החות'ים במחוז אל-ביידאא' שבתימן כשל במהלך מעופו ונפל בחזרה אל הקרקע זמן קצר לאחר השיגור.",
+    "axis": "פנים-תימן: אל-ביידאא'",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T14:17:59+00:00",
+    "last_update_at": "2026-11-08T14:17:59+00:00",
+    "what_is_not_verified": "יעד הטיל, דגם הטיל והאם היו נפגעים בהתרסקות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49404",
+      "published_at": "2026-11-08T14:17:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-ביידאא', תימן",
+      "lat": 13.9881,
+      "lon": 45.5729
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11081656-06",
+    "title": "פגיעות של החות'ים באזרחים ובאמבולנס בדרום-מזרח תעז",
+    "summary": "דיווחים רשמיים של סוכנות הידיעות של ממשלת תימן מסרו על פגיעות מכוונות של החות'ים ברכבים אזרחיים ובאמבולנס באזור דרום-מזרח מחוז תעז, שהביאו לפציעת שתי נשים ולמותו ופציעתו של מספר אזרחים נוספים.",
+    "axis": "פנים-תימן: תעז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T14:07:32+00:00",
+    "last_update_at": "2026-11-08T14:18:37+00:00",
+    "what_is_not_verified": "זהות הנפגעים ואימות מחוץ לסוכנות הממשלתית התימנית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155423",
+      "published_at": "2026-11-08T14:18:37+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155421",
+      "published_at": "2026-11-08T14:07:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "האם המגדל של חברת אראמקו בריאד ספג פגיעה ישירה של טיל או נפגע מרסיסי יירוט בלבד",
+   "האחריות לפיצוץ שגבה עשרות קורבנות בשוק אל-חדארה בתעז (טיל חות'י מול הפצצה אווירית סעודית)",
+   "מספר ההרוגים והפצועים המדויק בתקיפה בכפר א-שריעה ליד צנעא",
+   "טענות על הגעת אלפי לוחמים סורים להגנת גבולות סעודיה מול תימן (הוכחשו על ידי סוריה)",
+   "דיווחים על השבתת נמל התעופה בריאד למשך שבועיים עקב תקיפות עבר"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.199,
+    "unit": "ILS",
+    "change_pct": 0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים (אנצאר אללה)",
+    "declared": [
+     "הוצאה לפועל של פעולות צבאיות ממוקדות כנגד מטרות כלכליות וצבאיות בסעודיה בתגובה לתקיפות הקואליציה",
+     "תגובה וענישה על פגיעה באזרחים בתימן"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי ישיר על סעודיה דרך איום על תאגיד אראמקו והמרכז הפיננסי כדי לערער את יציבותה",
+     "שימור הישגים טריטוריאליים בתימן והרתעת הקואליציה מהמשך התקיפות האוויריות"
+    ],
+    "forecast": [
+     "המשך שיגור טילים וכטב\"מים לעבר יעדי תשתית ונפט בסעודיה ככל שהפצצות הקואליציה יימשכו"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "הגנה על שטח הממלכה ויירוט האיומים האוויריים של החות'ים",
+     "תמיכה בממשלת תימן המוכרת בינלאומית והחזרת היציבות"
+    ],
+    "inferred": [
+     "הגנה על מרכזי הכלכלה הלאומיים ותוכניות הגיוון הכלכלי מפני שיבוש חות'י",
+     "חיפוש משענת וסיוע צבאי מבעלות ברית אזוריות לאבטחת הגבול הדרומי והמתקנים האסטרטגיים"
+    ],
+    "forecast": [
+     "הגברת מאמצי ההגנה האווירית ותקיפות תגמול אוויריות ממוקדות על מעוזי חות'ים בצנעא ובאזורי השיגור"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן (הנתמכת על ידי סעודיה)",
+    "declared": [
+     "המשך המתקפה הצבאית לאורך חוף הים האדום ופגיעה בריכוזי כוחות חות'יים",
+     "גינוי תקיפות החות'ים על סעודיה והאשמתם בפשעים נגד אזרחים בתעז"
+    ],
+    "inferred": [
+     "ניצול הסיוע הסעודי להחזרת שטחים שנכבשו על ידי החות'ים לאורך החוף ובאזורי מפתח",
+     "הטלת האחריות המלאה למשבר ההומניטרי על התנועה החות'ית"
+    ],
+    "forecast": [
+     "המשך חיכוך צבאי עז בתעז ובחוף הים האדום ללא הכרעה מהירה, תוך החרפת מצב העקורים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/syria-denies-plans-send-troops-yemen-saudi-military-ties-deepen",
+    "accessed_at": "2026-11-08T16:56:02+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-08T16:56:02+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district",
+    "accessed_at": "2026-11-08T16:56:02+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21806102",
+    "accessed_at": "2026-11-08T16:56:02+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-condemns-saudi-aggression-after-dozens-killed-attack-taiz-market",
+    "accessed_at": "2026-11-08T16:56:02+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/syria-denies-plans-send-troops-yemen",
+    "accessed_at": "2026-11-08T16:56:02+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155421",
+    "accessed_at": "2026-11-08T16:56:02+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133233",
+    "accessed_at": "2026-11-08T16:56:02+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49404",
+    "accessed_at": "2026-11-08T16:56:02+00:00"
+   }
+  ]
+ }
+}

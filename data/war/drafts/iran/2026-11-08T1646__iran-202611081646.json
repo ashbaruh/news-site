@@ -1,0 +1,474 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9657f9350507",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 6,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-08T16:46:38+00:00",
+  "window": {
+   "from": "2026-11-07T16:46:38+00:00",
+   "to": "2026-11-08T16:46:38+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611081646"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל מתמקד באכיפת סגר צבאי וכלכלי נרחב, הכולל יירוט כלי שיט במפרץ עומאן ושיבוש נתיבי סחר יבשתיים וימיים. במקביל נרשמות פגיעות במכליות נפט במצר הורמוז, פיצוצים מדווחים במוקדים בדרום איראן, ותקיפה של החות'ים נגד יעדי נפט בריאד. לצד המתיחות הצבאית הגוברת והיערכות כוחות ימיים אמריקאיים, מתנהלים ניסיונות תיווך ומגעים דיפלומטיים עקיפים באמצעות מדינות באזור בניסיון לבלום הסלמה רחבה.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז ומפרץ עומאן",
+    "status": "פגיעות במכליות נפט, יירוט כלי שיט על ידי ארצות הברית והגבלות על תנועת הסחר הימי"
+   },
+   {
+    "name": "דרום איראן ונמלי המפרץ",
+    "status": "דיווחים על פיצוצים, תקיפות נטענות והפעלת מערכות הגנה אווירית בנמלים ובאיים"
+   },
+   {
+    "name": "גבולות איראן ונתיבי האספקה היבשתיים",
+    "status": "הפעלת כוח משימה אמריקאי לחסימת הברחות וסגירת מעברים מצד פקיסטן"
+   },
+   {
+    "name": "זירת חצי האי ערב והמפרץ (שלוחות איראן)",
+    "status": "תקיפות החות'ים לעבר מטרות בערב הסעודית והיערכות ביטחונית במדינות המפרץ"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11081646-01",
+    "title": "תקיפת כלי שיט במפרץ עומאן על ידי צבא ארצות הברית",
+    "summary": "מטוס צבאי אמריקאי שיגר חימוש מדויק לעבר ספינת משא שהפליגה תחת דגל סנט קיטס והשבית אותה, לאחר שיצאה מנמל איראני וניסתה להפר את הסגר.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T05:46:27+00:00",
+    "last_update_at": "2026-11-08T15:09:19+00:00",
+    "what_is_not_verified": "אין אימות עצמאי מעבר להודעת פיקוד המרכז האמריקאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit",
+      "published_at": "2026-11-08T15:09:19+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-military-says-it-disabled-cargo-vessel-gulf-oman",
+      "published_at": "2026-11-08T05:46:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מפרץ עומאן",
+      "lat": 24.2138,
+      "lon": 58.9846
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11081646-02",
+    "title": "פגיעה במכליות נפט ופיצוצים במצר הורמוז",
+    "summary": "משמרות המהפכה דיווחו כי שלוש מכליות נפט עלו באש וספגו פיצוצים בעקבות תנועה במסלול לא מורשה, במקביל לדיווחים איראניים על פגיעת מוקשים בספינות.",
+    "axis": "איראן-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-08T11:33:56+00:00",
+    "last_update_at": "2026-11-08T15:09:19+00:00",
+    "what_is_not_verified": "נסיבות הדליקות וזהות הגורמים שפגעו במכליות אינן מאומתות באופן עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit",
+      "published_at": "2026-11-08T15:09:19+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611083614",
+      "published_at": "2026-11-08T14:02:56+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-three-tankers-ablaze-strait-hormuz",
+      "published_at": "2026-11-08T11:33:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11081646-03",
+    "title": "פיצוצים ודיווחים על תקיפות בדרום איראן",
+    "summary": "הדי פיצוצים נשמעו במספר מוקדים בדרום איראן ובהם האי קשם, לצד דיווחים על הפעלת מערכות הגנה בבנדר עבאס ותקיפה נטענת בנמל ג'אסכ; גורמים רשמיים באיראן לא אישרו ירי טילים אמריקאי וייחסו חלק לפעילות צבאית מקומית.",
+    "axis": "איראן-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T19:38:44+00:00",
+    "last_update_at": "2026-11-08T15:09:19+00:00",
+    "what_is_not_verified": "האם התרחשה תקיפה אמריקאית בנמלים ובאי קשם או שמדובר בפעילות פנימית של צבא איראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit",
+      "published_at": "2026-11-08T15:09:19+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit",
+      "published_at": "2026-11-08T14:46:42+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133250",
+      "published_at": "2026-11-07T19:57:38+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133249",
+      "published_at": "2026-11-07T19:56:10+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94976",
+      "published_at": "2026-11-07T19:39:20+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94975",
+      "published_at": "2026-11-07T19:38:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי קשם, איראן",
+      "lat": 26.7687,
+      "lon": 55.8477
+     },
+     {
+      "name": "בנדר עבאס, איראן",
+      "lat": 27.1842,
+      "lon": 56.2893
+     },
+     {
+      "name": "ג'אסכ, איראן",
+      "lat": 25.6436,
+      "lon": 57.7746
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11081646-04",
+    "title": "הקמת כוח משימה אמריקאי לחסימת נתיבי אספקה לאיראן ותגובת טהראן",
+    "summary": "פיקוד המרכז האמריקאי הודיע על הקמת כוח משימה שמטרתו שיבוש העברת אמצעי לחימה דרך גבולותיה היבשתיים של איראן ובים הכספי; דובר משמרות המהפכה דחה את היוזמה וכינה אותה משחק מילים.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-07T23:31:16+00:00",
+    "last_update_at": "2026-11-08T16:03:12+00:00",
+    "what_is_not_verified": "מידת היכולת המעשית של כוח המשימה לעצור לחלוטין הברחות בצפון איראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iron-gate-plan-merely-wordplay-iran-mocks-us-military-initiative-disrupt",
+      "published_at": "2026-11-08T16:03:12+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611089896",
+      "published_at": "2026-11-08T16:01:55+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/8/us-task-force-to-cut-off-irans-transport-of-advanced-weapons-what-we-know?traffic_source=rss",
+      "published_at": "2026-11-08T14:06:19+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49395",
+      "published_at": "2026-11-07T23:31:16+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11081646-05",
+    "title": "העברת כוחות ימיים אמריקאיים למזרח התיכון",
+    "summary": "נושאת המטוסים תיאודור רוזוולט וקבוצת התקיפה שלה עזבו את סינגפור והחלו בתנועה דרך מצר מלאקה לעבר אזור האחריות של פיקוד המרכז של צבא ארצות הברית.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-08T15:09:44+00:00",
+    "last_update_at": "2026-11-08T15:09:44+00:00",
+    "what_is_not_verified": "מועד ההגעה המדויק ויכולת המימוש של תקיפות רחבות היקף",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133289",
+      "published_at": "2026-11-08T15:09:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11081646-06",
+    "title": "מגעים דיפלומטיים ותיווך עקיף בין ארצות הברית לאיראן",
+    "summary": "משלחת מעיראק ביקרה בטהראן להעברת מסר מארצות הברית בעקבות ביקור שליח אמריקאי בבגדאד, לצד דיווחים על מגעים לסיום הלחימה באמצעות תיווך קטרי ופקיסטני.",
+    "axis": "דיפלומטיה עקיפה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T15:26:16+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-07T15:26:16+00:00",
+    "last_update_at": "2026-11-08T16:20:49+00:00",
+    "what_is_not_verified": "תוכן המסרים ומידת ההסכמה של שני הצדדים לפגישה ישירה",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21807291",
+      "published_at": "2026-11-08T16:20:49+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94967",
+      "published_at": "2026-11-07T15:26:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     },
+     {
+      "name": "בגדאד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11081646-07",
+    "title": "מתקפת החות'ים על מבנה חברת ארמקו בריאד",
+    "summary": "פגיעה התרחשה בגורד שחקים השייך לחברת הנפט ארמקו במרכז הפיננסי של ריאד, במתקפה שלקחו עליה אחריות המורדים החות'ים מתימן.",
+    "axis": "החות'ים-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T08:11:54+00:00",
+    "last_update_at": "2026-11-08T14:02:56+00:00",
+    "what_is_not_verified": "סוג החימוש שבו נעשה שימוש במתקפה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611083614",
+      "published_at": "2026-11-08T14:02:56+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district",
+      "published_at": "2026-11-08T08:11:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11081646-08",
+    "title": "התבטאות איראנית בדבר שימושים צבאיים בטכנולוגיה גרעינית",
+    "summary": "בכיר איראני טען בריאיון כי שימוש צבאי בטכנולוגיה גרעינית אינו מחייב פצצה נגד אזרחים אלא יכול לשמש מטרות טקטיות וצבאיות, והצהיר כי יש להגיע להעשרת אורניום ברמה של שמונים אחוזים.",
+    "axis": "איראן-ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T10:52:22+00:00",
+    "last_update_at": "2026-11-08T10:52:22+00:00",
+    "what_is_not_verified": "האם הצהרה זו משקפת החלטת מדיניות מחייבת של המשטר בטהראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133274",
+      "published_at": "2026-11-08T10:52:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "דיווחים על תקיפה אמריקאית בנמל ג'אסכ ובאי קשם ב-7 בנובמבר",
+   "הסיבה המדויקת לפיצוצים בדרום איראן (תקיפה חיצונית מול פעילות צבאית מקומית)",
+   "מידת ההתקדמות והנכונות לפגישה ישירה במסגרת המגעים העקיפים בין ארצות הברית לאיראן",
+   "היקף הנזק המדויק במכליות הנפט שנפגעו במצר הורמוז"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.199,
+    "unit": "ILS",
+    "change_pct": 0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "שמירה על זכויות השיט בהתאם להנחיות המקומיות במצר הורמוז ומניעת הפרתן על ידי כלי שיט זרים",
+     "הגנה על המדינה באמצעות אמצעי לחימה מתקדמים והרתעה מפני איומים חיצוניים",
+     "החזקת יכולת טכנולוגית להעשרת אורניום ברמה של עד שמונים אחוזים"
+    ],
+    "inferred": [
+     "ערעור הביטחון בנתיבי השיט הבינלאומיים בתגובה ללחץ הכלכלי והמצור האמריקאי",
+     "שמירה על ערוצי אספקה צפוניים ומגעים מדיניים כדי למנוע קריסה כלכלית"
+    ],
+    "forecast": [
+     "המשך פעולות הטרדה נקודתיות במצר הורמוז תוך הימנעות מהודאה רשמית בעימות ישיר עם ארה\"ב",
+     "שימוש בקלף הגרעיני והעשרת האורניום כאמצעי לחץ במשא ומתן העקיף"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "אכיפת סגר כלכלי וצבאי על איראן ושיבוש העברות נשק בלתי מורשות דרך היבשה והים",
+     "הצעת תגמול כספי עבור מידע בנוגע לתוכנית הגרעין האיראנית"
+    ],
+    "inferred": [
+     "הפעלת לחץ מרבי במטרה לכפות על טהראן הסכם חדש או ויתורים אסטרטגיים",
+     "בחינת ערוצי הידברות במקביל לעיבוי הנוכחות הצבאית והרתעת הציר האיראני"
+    ],
+    "forecast": [
+     "הגברת האכיפה נגד ספינות סוחר בקרבת חופי איראן עם הגעת נושאת מטוסים נוספת לאזור",
+     "המשך תנודה בין איומים בתקיפות רחבות לבין ניסיונות למיצוי מגעים דיפלומטיים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "אזהרה מפני מבצעים שטרם הושלמו נגד איראן והדגשת חומרת האיום הנשקף ממנה"
+    ],
+    "inferred": [
+     "דחיפה להגברת הלחץ הצבאי האמריקאי על מתקניה של איראן",
+     "סיכול התבססות שלוחותיה של איראן ואיסוף מודיעין על גבולותיה"
+    ],
+    "forecast": [
+     "המשך תיאום ביטחוני הדוק עם ארצות הברית והיערכות לתגובה במקרה של הסלמה כוללת"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/8/us-task-force-to-cut-off-irans-transport-of-advanced-weapons-what-we-know?traffic_source=rss",
+    "accessed_at": "2026-11-08T16:46:38+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit",
+    "accessed_at": "2026-11-08T16:46:38+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district",
+    "accessed_at": "2026-11-08T16:46:38+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611083614",
+    "accessed_at": "2026-11-08T16:46:38+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21807291",
+    "accessed_at": "2026-11-08T16:46:38+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iron-gate-plan-merely-wordplay-iran-mocks-us-military-initiative-disrupt",
+    "accessed_at": "2026-11-08T16:46:38+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133274",
+    "accessed_at": "2026-11-08T16:46:38+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49395",
+    "accessed_at": "2026-11-08T16:46:38+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94967",
+    "accessed_at": "2026-11-08T16:46:38+00:00"
+   }
+  ]
+ }
+}
