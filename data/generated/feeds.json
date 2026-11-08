@@ -7,11 +7,18 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-08T18:31:17+00:00",
-  "fetched_at": "2026-11-08T18:31:17+00:00"
+  "checked_at": "2026-11-08T19:17:23+00:00",
+  "fetched_at": "2026-11-08T19:17:23+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "Dogs Can Sniff-Out Invasive Plant Species With High Accuracy to Curb Their Destruction",
+    "title_he": "כלבים יכולים לרחרח החוצה מינים פולשניים של צמחים עם דיוק גבוה כדי לרסן את ההרס שלהם",
+    "translated_by": "mymemory",
+    "link": "https://www.goodnewsnetwork.org/dogs-can-sniff-out-invasive-plant-species-with-75pt-accuracy/",
+    "date": "2026-11-08T18:36:02+00:00"
+   },
    {
     "title_en": "Lucky Bird Found in Storm Drain a Mile From Home After Passing Driver Happens to Spot it Hopping in",
     "title_he": "ציפור ברת מזל שנמצאה בסערה מנקזת מייל מהבית לאחר שנהג עובר במקרה מבחין בה קופצת פנימה",
@@ -32,18 +39,11 @@
     "translated_by": "mymemory",
     "link": "https://www.goodnewsnetwork.org/venomous-primate-believed-extinct-for-100-years-was-hiding-in-plain-sight-all-along/",
     "date": "2026-11-06T14:00:28+00:00"
-   },
-   {
-    "title_en": "Seabirds See Miracle Recovery After Avian Flu Wiped Them Out",
-    "title_he": "עופות הים רואים נס החלמה לאחר ששפעת העופות חיסלה אותם",
-    "translated_by": "google",
-    "link": "https://www.goodnewsnetwork.org/miracle-recovery-sees-seabirds-reclaim-former-colony-after-avian-flu-wiped-them-out/",
-    "date": "2026-11-05T12:00:52+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T18:31:48+00:00",
-  "fetched_at": "2026-11-08T18:31:48+00:00"
+  "checked_at": "2026-11-08T19:17:38+00:00",
+  "fetched_at": "2026-11-08T19:17:38+00:00"
  },
  "av_en": {
   "data": [
@@ -77,25 +77,30 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T18:31:49+00:00",
-  "fetched_at": "2026-11-08T18:31:49+00:00"
+  "checked_at": "2026-11-08T19:17:39+00:00",
+  "fetched_at": "2026-11-08T19:17:39+00:00"
  },
- "generated_at": "2026-11-08T18:31:49+00:00",
+ "generated_at": "2026-11-08T19:17:39+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "אמנון שעשוע חוזר למעבדה: מי יקנה ממנו את השליטה בבנק וואן זירו?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562480",
-     "date": "2026-11-08T17:00:00+00:00"
+     "title": "האם יש הזדמנות בוול סטריט אחרי הירידות, ומה יעשו מחר הדואליות?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562408",
+     "date": "2026-11-08T19:00:00+00:00"
     },
     {
-     "title": "סעודיה: יורט טיל בליסטי שהחות'ים שיגרו למזרח הממלכה",
+     "title": "המסר של טראמפ לנתניהו אחרי הבחירות: תתקדם עם \"תוכנית השלום\" בעזה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562373",
-     "date": "2026-11-08T17:27:00+00:00"
+     "date": "2026-11-08T19:14:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "האם יש הזדמנות בוול סטריט אחרי הירידות, ומה יעשו מחר הדואליות?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562408",
+     "date": "2026-11-08T19:00:00+00:00"
+    },
     {
      "title": "אמנון שעשוע חוזר למעבדה: מי יקנה ממנו את השליטה בבנק וואן זירו?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562480",
@@ -115,11 +120,6 @@
      "title": "הסקטור שמוביל, וזה שמדשדש: עד כמה אתם מכירים את שוק ההון?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562448",
      "date": "2026-11-08T15:26:00+00:00"
-    },
-    {
-     "title": "האם יש הזדמנות בוול סטריט אחרי הירידות, ומה יעשו מחר הדואליות?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562408",
-     "date": "2026-11-08T14:50:00+00:00"
     },
     {
      "title": "למרות הירידות במניות השבבים, בכיר באפלייד מטריאלס: \"אנחנו מגדילים היקפי ייצור\"",
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-08T18:31:18+00:00",
-  "fetched_at": "2026-11-08T18:31:18+00:00"
+  "checked_at": "2026-11-08T19:17:25+00:00",
+  "fetched_at": "2026-11-08T19:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T18:31:19+00:00",
-  "fetched_at": "2026-11-08T18:31:19+00:00"
+  "checked_at": "2026-11-08T19:17:25+00:00",
+  "fetched_at": "2026-11-08T19:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2695,8 +2695,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T18:31:23+00:00",
-  "fetched_at": "2026-11-08T18:31:23+00:00"
+  "checked_at": "2026-11-08T19:17:30+00:00",
+  "fetched_at": "2026-11-08T19:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2787,8 +2787,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-08T18:31:23+00:00",
-  "fetched_at": "2026-11-08T18:31:23+00:00"
+  "checked_at": "2026-11-08T19:17:30+00:00",
+  "fetched_at": "2026-11-08T19:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -2811,14 +2811,14 @@
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 389,
+     "likes": 392,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 166,
+     "likes": 167,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -2871,17 +2871,17 @@
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
-     "title": "Pika H3 Flex",
-     "desc_en": "Six-step video + audio · Pika reference code",
-     "desc_he": "וידאו בן שישה שלבים + אודיו · קוד הפניה לפיקה",
-     "likes": 92,
-     "link": "https://huggingface.co/spaces/Pika-Labs/pika-h3-flex"
+     "title": "Qwen 2511 + Flux.2 Klein",
+     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
+     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
+     "likes": 371,
+     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-08T18:31:47+00:00",
-  "fetched_at": "2026-11-08T18:31:47+00:00"
+  "checked_at": "2026-11-08T19:17:37+00:00",
+  "fetched_at": "2026-11-08T19:17:37+00:00"
  },
  "abroad": {
   "data": {
@@ -2914,11 +2914,12 @@
      ]
     },
     {
-     "title": "אוריין גורן כבש, ברק יצחקי עם הפסד שני רצוף בקפריסין",
+     "title": "תאי עבד ואוריין גורן כבשו, הפסד נוסף לברק יצחקי בקפריסין",
      "link": "https://sports.walla.co.il/item/3875449",
      "date": "2026-11-08T18:12:00+00:00",
      "source": "וואלה",
      "players": [
+      "תאי עבד",
       "אוריין גורן"
      ]
     },
@@ -3232,8 +3233,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-08T18:31:27+00:00",
-  "fetched_at": "2026-11-08T18:31:27+00:00"
+  "checked_at": "2026-11-08T19:17:32+00:00",
+  "fetched_at": "2026-11-08T19:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -3264,58 +3265,58 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T18:31:28+00:00",
-  "fetched_at": "2026-11-08T18:31:28+00:00"
+  "checked_at": "2026-11-08T19:17:33+00:00",
+  "fetched_at": "2026-11-08T19:17:33+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-08T18:23:00+00:00",
-    "seen_at": "2026-11-08T18:31:49+00:00",
+    "newest": "2026-11-08T19:14:00+00:00",
+    "seen_at": "2026-11-08T19:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-08T17:00:00+00:00",
-    "seen_at": "2026-11-08T18:31:49+00:00",
+    "newest": "2026-11-08T19:00:00+00:00",
+    "seen_at": "2026-11-08T19:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-08T16:34:00+00:00",
-    "seen_at": "2026-11-08T18:31:49+00:00",
+    "seen_at": "2026-11-08T19:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-08T09:20:00+00:00",
-    "seen_at": "2026-11-08T18:31:49+00:00",
+    "seen_at": "2026-11-08T19:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-08T19:19:00+00:00",
-    "seen_at": "2026-11-08T18:31:49+00:00",
+    "newest": "2026-11-08T19:49:00+00:00",
+    "seen_at": "2026-11-08T19:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-08T19:04:00+00:00",
-    "seen_at": "2026-11-08T18:31:49+00:00",
+    "newest": "2026-11-08T19:30:00+00:00",
+    "seen_at": "2026-11-08T19:17:39+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-08T18:30:00+00:00",
-    "seen_at": "2026-11-08T18:31:49+00:00",
+    "newest": "2026-11-08T19:10:00+00:00",
+    "seen_at": "2026-11-08T19:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-08T17:49:03+00:00",
-    "seen_at": "2026-11-08T18:31:49+00:00",
+    "seen_at": "2026-11-08T19:17:39+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3327,35 +3328,35 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-05T17:00:00+00:00",
-    "seen_at": "2026-11-08T18:31:49+00:00",
+    "seen_at": "2026-11-08T19:17:39+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-08T16:45:34+00:00",
-    "seen_at": "2026-11-08T18:31:49+00:00",
+    "seen_at": "2026-11-08T19:17:39+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
-    "newest": "2026-11-08T14:08:15+00:00",
-    "seen_at": "2026-11-08T18:31:49+00:00",
+    "newest": "2026-11-08T18:36:02+00:00",
+    "seen_at": "2026-11-08T19:17:39+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-08T09:00:00+00:00",
-    "seen_at": "2026-11-08T18:31:49+00:00",
+    "seen_at": "2026-11-08T19:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-08T12:01:35+00:00",
-    "seen_at": "2026-11-08T18:31:49+00:00",
+    "seen_at": "2026-11-08T19:17:39+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-08T18:31:49+00:00"
+  "checked_at": "2026-11-08T19:17:39+00:00"
  },
  "health_news": {
   "data": [
@@ -3511,7 +3512,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T18:31:29+00:00",
-  "fetched_at": "2026-11-08T18:31:29+00:00"
+  "checked_at": "2026-11-08T19:17:34+00:00",
+  "fetched_at": "2026-11-08T19:17:34+00:00"
  }
 }
