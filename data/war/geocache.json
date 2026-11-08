@@ -523,6 +523,10 @@
 51.368,
 42.0752
 ],
+"borj el-mlouk, lebanon": [
+33.323,
+35.5632
+],
 "boryspil, ukraine": [
 50.3512,
 30.9508
@@ -585,6 +589,10 @@
 ],
 "canada": null,
 "cappadocia, turkey": null,
+"caspian sea": [
+41.779,
+50.5608
+],
 "chabahar, iran": [
 25.2935,
 60.6469
@@ -717,6 +725,10 @@
 "derhachi, ukraine": [
 50.1071,
 36.1206
+],
+"detroit, united states": [
+42.3316,
+-83.0466
 ],
 "dhahran, saudi arabia": [
 26.2967,
@@ -2132,6 +2144,7 @@
 ],
 "sasovo, ryazan region, russia": null,
 "saudi arabia": null,
+"saudi-yemeni border, saudi arabia": null,
 "saxony-anhalt, germany": null,
 "sea of azov, russia": null,
 "sea of oman": [

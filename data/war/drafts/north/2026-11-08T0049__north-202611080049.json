@@ -1,0 +1,413 @@
+{
+ "status": "draft",
+ "received_sha256_12": "d100e802b3bb",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "initial": 5,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-08T00:49:12+00:00",
+  "window": {
+   "from": "2026-11-07T00:49:12+00:00",
+   "to": "2026-11-08T00:49:12+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202611080049"
+  },
+  "summary": "בדרום לבנון נמשכת הפעילות המבצעית והקרקעית של צה\"ל תוך הטמעת מערכי לחימה רובוטיים מתקדמים, ביצוע סריקות ומעצר חשודים במחסומים, ברקע טענות להמשך תקיפות חרף הפסקת האש. במקביל, ממשלת לבנון מנסה לקדם ריבונות בלעדית על הנשק ולבלום את מעורבות חיזבאללה בזירות אזוריות, בעוד המשטר בסוריה מפתח שיתוף פעולה צבאי עם סעודיה ומכחיש שליחת כוחות ללחימה מחוץ לגבולותיו.",
+  "fronts": [
+   {
+    "name": "דרום לבנון - קו המגע",
+    "status": "פעילות מבצעית מתמשכת של צה\"ל הכוללת סריקות, מחסומים והפעלת אמצעים רובוטיים בלתי מאוישים."
+   },
+   {
+    "name": "לבנון - ריבונות ומשילות מול חיזבאללה",
+    "status": "מאמצים דיפלומטיים של ממשלת לבנון לריכוז החלטות המלחמה וריסון מעורבות חיזבאללה, לצד מתיחות בינלאומית מול ארצות הברית."
+   },
+   {
+    "name": "סוריה - ציר ביטחוני ואזורי",
+    "status": "שיקום היכולות הצבאיות לאחר נפילת אסד באמצעות הסכם הכשרה עם סעודיה, לצד הכחשת מעורבות בלחימה בתימן."
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11080049-01",
+    "title": "צה\"ל חושף צוות קרב רובוטי משולב ופועל בדרום לבנון",
+    "summary": "צבא ההגנה לישראל הציג מערך לחימה רובוטי משולב הפועל בדרום לבנון, הכולל כלי רכב כבדים בלתי מאוישים, כלבים רובוטיים לגילוי חומרי נפץ ורחפנים חמושים לסריקת מבנים ומנהרות. הרמטכ\"ל אייל זמיר סייר בעיירה אל-חיאם והורה להאיץ את הטמעת היכולות ביחידות הלוחמות.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-05T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-07T16:19:20+00:00",
+    "last_update_at": "2026-11-07T16:19:20+00:00",
+    "what_is_not_verified": "רמת האוטונומיה המלאה של הכלים בשטח ותוצאות פעילותם המבצעית מעבר למידע שנמסר בדיווח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/israel-unveils-robotic-system-attacks-southern-lebanon",
+      "published_at": "2026-11-07T16:19:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-חיאם, לבנון",
+      "lat": 33.3272,
+      "lon": 35.609
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11080049-02",
+    "title": "פעילות סריקה של צה\"ל בבית יהון בדרום לבנון",
+    "summary": "כוחות צה\"ל ביצעו פעילות סריקה בעיירה בית יהון שבדרום לבנון במסגרת פעילות מבצעית מתמשכת באזור.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T09:44:36+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T09:44:36+00:00",
+    "last_update_at": "2026-11-07T09:44:36+00:00",
+    "what_is_not_verified": "היקף הפעילות, יעדיה המדויקים ותוצאותיה בשטח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/147762/",
+      "published_at": "2026-11-07T09:44:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בית יהון, לבנון",
+      "lat": 33.1582,
+      "lon": 35.4212
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11080049-03",
+    "title": "מעצר אזרח לבנוני במחסום צה\"ל בין בורג' אל-מלוכ לדיר מימאס",
+    "summary": "כוחות צה\"ל עיכבו ועצרו מהנדס בדימוס בן שישים וחמש במחסום זמני שהוצב בדרום לבנון, לאחר בדיקת מסמכים וחיפוש במכשירו הנייד, והעבירו אותו למקום לא ידוע.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-06T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-07T15:00:00+00:00",
+    "last_update_at": "2026-11-07T15:00:00+00:00",
+    "what_is_not_verified": "עילת המעצר הביטחונית ומקום הימצאו הנוכחי של העצור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/966774/israels-army-detains-65-year-old-retired-engineer-at-south-lebanon-che/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966774",
+      "published_at": "2026-11-07T15:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דיר מימאס, לבנון",
+      "lat": 33.3021,
+      "lon": 35.5467
+     },
+     {
+      "name": "בורג' אל-מלוכ, לבנון",
+      "lat": 33.323,
+      "lon": 35.5632
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11080049-04",
+    "title": "טענות קטאר בדבר המשך הפצצות בלבנון למרות הפסקת האש",
+    "summary": "ראש ממשלת קטאר הצהיר כי ארצו עוקבת אחר המצב בלבנון לאחר הפסקת האש, וציין כי ההפצצות באזור נמשכות במקביל למאמצי התיווך למניעת הסלמה.",
+    "axis": "מדיני - לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T13:11:11+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-07T13:11:11+00:00",
+    "last_update_at": "2026-11-07T13:11:11+00:00",
+    "what_is_not_verified": "היקף ההפצצות הנטענות והצדדים המעורבים בהפרות הפסקת האש.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/147807/",
+      "published_at": "2026-11-07T13:11:11+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11080049-05",
+    "title": "גירוש הקונסול הכללי של לבנון בארצות הברית על רקע עמדות עבר",
+    "summary": "מחלקת המדינה של ארצות הברית הכריזה על קונסול לבנון במישיגן כאישיות בלתי רצויה והורתה לו לעזוב, בעקבות פרסומים ישנים ברשת ששיבחו את הפיגוע במגורי הנחתים בביירות בשנת 1983.",
+    "axis": "לבנון - יחסי חוץ",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T04:50:31+00:00",
+    "last_update_at": "2026-11-07T21:48:48+00:00",
+    "what_is_not_verified": "טענת מקורבי הקונסול כי החשבון המדובר נפרץ בעבר ושאינו אחראי לפרסומים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/lebanese-consul-michigan-ordered-leave-over-old-tweets",
+      "published_at": "2026-11-07T21:48:48+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/americas/us-declares-lebanese-consul-general-in-detroit-persona-non-grata-report/4115358",
+      "published_at": "2026-11-07T16:22:46+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/966795/lebanese-consul-in-michigan-to-return-to-lebanon-sunday/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966795",
+      "published_at": "2026-11-07T12:39:18+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/966745/hiba-nasr-us-declares-lebanese-consul-in-michigan-persona-non-grata-ov/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966745",
+      "published_at": "2026-11-07T04:50:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דטרויט, ארצות הברית",
+      "lat": 42.3316,
+      "lon": -83.0466
+     },
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11080049-06",
+    "title": "תיאום צעדים בין לבנון לתימן לבלימת תמיכת חיזבאללה בחות'ים",
+    "summary": "שרת החוץ של תימן הודיעה על נקיטת צעדים משותפים עם ממשלת לבנון במטרה לעצור את תמיכת אנשי חיזבאללה בפעילות הצבאית של החות'ים, ובירכה על מאמצי ביירות לרכז את השליטה בנשק ובקבלת החלטות המלחמה בידי המדינה.",
+    "axis": "לבנון - חיזבאללה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-08T00:14:15+00:00",
+    "last_update_at": "2026-11-08T00:14:15+00:00",
+    "what_is_not_verified": "אופי הצעדים המעשיים שינקטו ומידת יכולתה של ממשלת לבנון לפקח על פעילות חיזבאללה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-and-lebanon-work-towards-halting-hezbollah-support-houthis",
+      "published_at": "2026-11-08T00:14:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11080049-07",
+    "title": "הסכם שיתוף פעולה צבאי בין סוריה לסעודיה והכחשת פריסת כוחות",
+    "summary": "דמשק חתמה על הסכם שיתוף פעולה ביטחוני עם ריאד המתמקד בהכשרת כוחות ובניית יכולות, כאשר גורמים רשמיים בסוריה הכחישו בתוקף דיווחים על כוונה לשלוח אלפי חיילים ללחימה מחוץ למדינה.",
+    "axis": "סוריה - ביטחון אזורי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-07T12:59:31+00:00",
+    "last_update_at": "2026-11-07T18:30:23+00:00",
+    "what_is_not_verified": "אמיתות הדיווחים הזרים בדבר הגעת חיילים ומומחים צבאיים סורים לתימן ולסעודיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/thousands-syrian-troops-deploy-yemen-saudi-arabia-sources-afp",
+      "published_at": "2026-11-07T18:30:23+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-says-military-deal-with-saudi-arabia-focuses-on-training-denies-sending-troops-to-yemen/4115383",
+      "published_at": "2026-11-07T17:19:27+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/syria-denies-plans-send-troops-yemen-saudi-military-ties-deepen",
+      "published_at": "2026-11-07T16:46:27+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21798154",
+      "published_at": "2026-11-07T16:26:26+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-denies-plans-send-troops-yemen-says-military-cooperation-saudi",
+      "published_at": "2026-11-07T15:48:19+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/syria-denies-plans-send-troops-yemen",
+      "published_at": "2026-11-07T15:46:49+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/middleeastnews/966804/syrian-diplomatic-source-denies-claims-troops-sent-to-yemen-state-medi/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966804",
+      "published_at": "2026-11-07T12:59:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הטענה כי אלפי חיילים סורים כבר נפרסו או עתידים להיפרס בערב הסעודית ובתימן.",
+   "היקף ההפרות וההפצצות בלבנון לאחר הפסקת האש שהוזכרו בהצהרת ראש ממשלת קטאר.",
+   "טענת מקורבי הקונסול הלבנוני כי חשבונו ברשת החברתית נפרץ בעבר.",
+   "הסיבה המדויקת למעצרו של האזרח הלבנוני נקד בשארה במחסום צה\"ל בדרום לבנון."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.199,
+    "unit": "ILS",
+    "change_pct": 0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "האצת שילוב צוותי קרב רובוטיים מתקדמים ביחידות הלוחמות לצורך איתור איומים וסריקת מבנים ותוואי תת-קרקעי."
+    ],
+    "inferred": [
+     "המשך סיכול פעילות עוינת ושימור חופש פעולה ביטחוני בדרום לבנון תוך מזעור סיכון לחיילים."
+    ],
+    "forecast": [
+     "התרחבות השימוש בכלים אוטונומיים ורובוטיים בפעולות סריקה ופשיטה נקודתיות לאורך קו הגבול."
+    ]
+   },
+   {
+    "actor": "ממשלת לבנון",
+    "declared": [
+     "ביסוס סמכות המדינה על כלל שטחה והחזקת בלעדיות מלאה על נשק והחלטות מלחמה ושלום.",
+     "בלימת התמיכה הצבאית של גורמים בחיזבאללה במיליציות אזוריות כגון החות'ים."
+    ],
+    "inferred": [
+     "ניסיון להשתחרר מהתלות בכוחו הצבאי של חיזבאללה ולשפר את היחסים עם מדינות ערב והמערב."
+    ],
+    "forecast": [
+     "המשך קשיים באכיפה ממשית של פירוק חיזבאללה מנשקו לצד התמקדות בצעדים דיפלומטיים."
+    ]
+   },
+   {
+    "actor": "סוריה",
+    "declared": [
+     "מיקוד בעניינים פנימיים והכחשת כל כוונה לשלוח כוחות צבאיים לפעילות מחוץ לשטח המדינה.",
+     "התמקדות בהכשרת הכוחות הסוריים, בניית יכולותיהם והחלפת מומחיות במסגרת שיתוף פעולה עם סעודיה."
+    ],
+    "inferred": [
+     "שיקום מנגנוני הביטחון לאחר חילופי השלטון תוך קבלת גיבוי ומימון ממדינות המפרץ והימנעות מעימותים חיצוניים."
+    ],
+    "forecast": [
+     "המשך הידוק הקשרים המקצועיים והצבאיים עם סעודיה תוך שמירה על גבולות המדינה והימנעות ממעורבות בעימותים אזוריים."
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [],
+    "inferred": [
+     "שימור יכולות צבאיות והשפעה פוליטית בלבנון למרות לחצי הממשלה והפסקת האש.",
+     "המשך תמיכה חשאית בגורמי הציר האזורי תוך שמירה על פרופיל נמוך מול מעקב צה\"ל."
+    ],
+    "forecast": [
+     "המשך פעילות מתחת לרדאר בדרום לבנון וניסיונות התחמקות ממערכי הגילוי והסריקה של צה\"ל."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/147807/",
+    "accessed_at": "2026-11-08T00:49:12+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/syria-denies-plans-send-troops-yemen-saudi-military-ties-deepen",
+    "accessed_at": "2026-11-08T00:49:12+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syria-says-military-deal-with-saudi-arabia-focuses-on-training-denies-sending-troops-to-yemen/4115383",
+    "accessed_at": "2026-11-08T00:49:12+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21798154",
+    "accessed_at": "2026-11-08T00:49:12+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/middleeastnews/966804/syrian-diplomatic-source-denies-claims-troops-sent-to-yemen-state-medi/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-966804",
+    "accessed_at": "2026-11-08T00:49:12+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-denies-plans-send-troops-yemen-says-military-cooperation-saudi",
+    "accessed_at": "2026-11-08T00:49:12+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/syria-denies-plans-send-troops-yemen",
+    "accessed_at": "2026-11-08T00:49:12+00:00"
+   }
+  ]
+ }
+}

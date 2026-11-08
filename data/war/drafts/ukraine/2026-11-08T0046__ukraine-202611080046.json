@@ -1,0 +1,463 @@
+{
+ "status": "draft",
+ "received_sha256_12": "34eaca9aa931",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "verified": 2,
+   "initial": 6,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-08T00:46:41+00:00",
+  "window": {
+   "from": "2026-11-07T00:46:41+00:00",
+   "to": "2026-11-08T00:46:41+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202611080046"
+  },
+  "summary": "רוסיה מנהלת מערכת תקיפות נרחבת באמצעות עשרות טילים בליסטיים וכטב\"מים נגד תשתיות אנרגיה, תחבורה ומטרות אזרחיות בקייב ובמחוזות נוספים. מנגד, אוקראינה מתמודדת עם מחסור חמור במערכות הגנה אווירית מסוג פטריוט במקביל לתקיפת יעדי אנרגיה בעומק רוסיה. במקביל להסלמה הצבאית, מתקיימים מגעים דיפלומטיים לשיחות עתידיות לקראת אפשרות למשא ומתן באבו דאבי.",
+  "fronts": [
+   {
+    "name": "מרחב קייב והעורף האוקראיני",
+    "status": "ספיגת מתקפות בליסטיות וכטב\"מים רוסיים, פגיעה בגשרים ובתשתיות חשמל ומים"
+   },
+   {
+    "name": "מחוז חרקוב",
+    "status": "הפגזות רוסיות מתמשכות עם נפגעים בקרב אזרחים וחיילים"
+   },
+   {
+    "name": "מחוז זפוריז'יה (קומישובאחה)",
+    "status": "המשך פעולות חילוץ בעקבות הפצצות אוויריות כבדות"
+   },
+   {
+    "name": "מחוז לוהנסק",
+    "status": "טענות רוסיות על תקיפות אוקראיניות נגד מבנים ואזרחים"
+   },
+   {
+    "name": "עומק רוסיה (סרטוב)",
+    "status": "תקיפות כטב\"מים אוקראיניות נגד בתי זיקוק ותשתיות אנרגיה"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11080046-01",
+    "title": "מתקפת טילים וכטב\"מים רוסית נרחבת על קייב ותשתיותיה",
+    "summary": "כוחות רוסיה שיגרו עשרות טילים בליסטיים ומאות כטב\"מים לעבר קייב ומחוזות נוספים, תוך פגיעה בגשר הצפוני על הדנייפר, מבני מגורים, מחסנים ותשתיות אנרגיה שגרמו להפסקות חשמל ומים.",
+    "axis": "חזית האוויר והעורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T02:40:00+00:00",
+    "last_update_at": "2026-11-07T19:57:00+00:00",
+    "what_is_not_verified": "מספר הטילים המדויק (דיווח על 36 לעומת 40 טילים בליסטיים) ומספר המתקנים שנפגעו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_8d4eb13de4f4b4ab",
+      "url": "https://www.ukrinform.net/rubric-ato/4182521-prosecutors-office-building-damaged-in-russian-attack-on-kyiv.html",
+      "published_at": "2026-11-07T19:57:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_8d4eb13de4f4b4ab",
+      "url": "https://www.ukrinform.net/rubric-ato/4182519-fire-at-warehouse-in-kyiv-region-caused-by-russian-attack-extinguished.html",
+      "published_at": "2026-11-07T19:39:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_8d4eb13de4f4b4ab",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/07/8061745/",
+      "published_at": "2026-11-07T16:25:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_c4cae6acb594da36",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/07/8061738/",
+      "published_at": "2026-11-07T15:11:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_c43f99875e334410",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/07/8061735/",
+      "published_at": "2026-11-07T14:26:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_8d4eb13de4f4b4ab",
+      "url": "https://www.theguardian.com/world/2026/nov/07/blackout-water-shortage-kyiv-russia-strike-ukraine-energy-grid",
+      "published_at": "2026-11-07T13:03:03+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_8d4eb13de4f4b4ab",
+      "url": "https://t.me/alexmehacarmel/49358",
+      "published_at": "2026-11-07T02:40:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11080046-02",
+    "title": "הפגזות רוסיות באזור חרקוב גרמו להרוגה ופצועים",
+    "summary": "הפגזות של צבא רוסיה על העיר חרקוב וסביבתה הביאו למותה של אישה ולפציעת אזרחים נוספים.",
+    "axis": "חזית מזרח אוקראינה (חרקוב)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T19:19:00+00:00",
+    "last_update_at": "2026-11-07T19:19:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים הכולל והיקף הנזק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4182512-woman-killed-others-injured-in-russian-attacks-on-kharkiv-region-since-morning.html",
+      "published_at": "2026-11-07T19:19:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11080046-03",
+    "title": "הודעת גרמניה על מיצוי יכולת אספקת סוללות פטריוט לאוקראינה",
+    "summary": "שר ההגנה הגרמני בוריס פיסטוריוס הצהיר כי גרמניה אינה יכולה לספק עוד מערכות פטריוט לאוקראינה בעת הנוכחית עקב פערים בהגנתה שלה, וקרא למדינות אחרות להגביר את תרומתן.",
+    "axis": "סיוע צבאי בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T16:00:00+00:00",
+    "last_update_at": "2026-11-07T17:55:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/germany-cannot-provide-ukraine-with-more-patriot-systems-for-now-defense-minister-says/",
+      "published_at": "2026-11-07T17:55:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/07/8061743/",
+      "published_at": "2026-11-07T16:00:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11080046-04",
+    "title": "רוסיה תשלח דיפלומטים ובכירים צבאיים לשיחות שלום באבו דאבי",
+    "summary": "סגן שר החוץ הרוסי סרגיי ריאבקוב ובכירים בצבא ישתתפו לראשונה במשא ומתן לשלום שצפוי להתקיים באבו דאבי.",
+    "axis": "משא ומתן דיפלומטי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T21:58:58+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T21:58:58+00:00",
+    "last_update_at": "2026-11-07T21:58:58+00:00",
+    "what_is_not_verified": "המועד המדויק והרכב המשתתפים המלא בשיחות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russia-to-send-senior-diplomats-military-officials-to-upcoming-peace-talks-in-abu-dhabi/",
+      "published_at": "2026-11-07T21:58:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אבו דאבי, איחוד האמירויות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11080046-05",
+    "title": "טענות פריצה למאגרי מידע רוסיים המצביעים על כ-450 אלף הרוגים במלחמה",
+    "summary": "האקרים טוענים כי השיגו נתונים ממאגר הדמוגרפיה הפנימי של רוססטאט, המעידים על עד 450,000 מקרי מוות הקשורים למלחמה באוקראינה בין 2022 ל-2026.",
+    "axis": "אבדות ולוחמת מידע",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T19:40:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T19:40:00+00:00",
+    "last_update_at": "2026-11-07T23:35:18+00:00",
+    "what_is_not_verified": "אמיתות הנתונים והמאגרים שהודלפו על ידי ההאקרים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1385992",
+      "published_at": "2026-11-07T23:35:18+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/hackers-claim-leaked-russian-data-reveals-up-to-450-000-war-related-deaths-in-ukraine/",
+      "published_at": "2026-11-07T19:40:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11080046-06",
+    "title": "טענות רוסיות על תקיפות אוקראיניות במחוז לוהנסק ונגד תשתיות אנרגיה",
+    "summary": "גורמים רשמיים ברוסיה טענו כי תקיפות אוקראיניות פגעו במבני מגורים ורכבים בלוהנסק ופצעו שני אזרחים, ובנוסף טענו להמשך פגיעה מכוונת בתשתיות אנרגיה רוסיות.",
+    "axis": "חזית המזרח / שטח רוסי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T20:13:34+00:00",
+    "last_update_at": "2026-11-07T20:37:30+00:00",
+    "what_is_not_verified": "היקף הפגיעות המדויק ומידת אמיתות הטענות הרוסיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_cb1f4bdbd4a1f9ab",
+      "url": "https://tass.com/emergencies/2214333",
+      "published_at": "2026-11-07T20:37:30+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_cb1f4bdbd4a1f9ab",
+      "url": "https://tass.com/politics/2214327",
+      "published_at": "2026-11-07T20:13:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לוהנסק, אוקראינה",
+      "lat": 48.5717,
+      "lon": 39.2973
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11080046-07",
+    "title": "תקיפה אוקראינית מדווחת נגד בית זיקוק בסרטוב",
+    "summary": "דיווח על תקיפה שביצעו כוחות אוקראיניים נגד בית זיקוק לנפט בסרטוב שבעומק רוסיה.",
+    "axis": "עומק רוסיה / תקיפת תשתיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T01:29:36+00:00",
+    "last_update_at": "2026-11-07T01:29:36+00:00",
+    "what_is_not_verified": "היקף הנזק והאמצעים ששימשו לתקיפה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49355",
+      "published_at": "2026-11-07T01:29:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סרטוב, רוסיה",
+      "lat": 51.53,
+      "lon": 46.0347
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11080046-08",
+    "title": "זיהוי אנשי צוות אוויר רוסיים החשודים בהפצצת בית ספר בקומישובאחה",
+    "summary": "המודיעין הצבאי האוקראיני פרסם את שמותיהם של קולונל רוסי ושישה טייסי מטוסי קרב החשודים בביצוע תקיפה אווירית על בית ספר שבו חולק סיוע במחוז זפוריז'יה, בה נהרגו 55 בני אדם.",
+    "axis": "פשעי מלחמה ומודיעין",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T13:59:00+00:00",
+    "last_update_at": "2026-11-07T13:59:00+00:00",
+    "what_is_not_verified": "מעורבותם האישית המדויקת של הטייסים שפורסמו מעבר להודעת המודיעין האוקראיני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_b71c472d2e596af2",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/07/8061730/",
+      "published_at": "2026-11-07T13:59:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קומישובאחה, אוקראינה",
+      "lat": 48.6403,
+      "lon": 37.4558
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11080046-09",
+    "title": "ביקור בכירי צבא אוקראינה במפקדת קורפוס הנחתים",
+    "summary": "מפקד הכוחות המזוינים של אוקראינה דראפטי ומפקד כוחות היבשה זאיץ ביקרו בעמדת הפיקוד של קורפוס הנחתים ה-30 של הצי.",
+    "axis": "פיקוד ושליטה באוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T20:56:00+00:00",
+    "last_update_at": "2026-11-07T20:56:00+00:00",
+    "what_is_not_verified": "מיקום מדויק של עמדת הפיקוד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4182529-drapatyi-zaits-visit-marine-corps-headquarters.html",
+      "published_at": "2026-11-07T20:56:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11080046-10",
+    "title": "תרומת כטב\"מי קרב ליחידת המודיעין המיוחדת של אוקראינה",
+    "summary": "היחידה המיוחדת פרימארי של המודיעין הצבאי האוקראיני קיבלה כטב\"מי קרב בשווי 4.2 מיליון הריבניה מתורמים.",
+    "axis": "הצטיידות וסיוע אוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-07T22:42:00+00:00",
+    "last_update_at": "2026-11-07T22:42:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-society/4182312-dius-prymary-unit-receives-uah-42m-worth-of-combat-drones-from-donors.html",
+      "published_at": "2026-11-07T22:42:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת ההאקרים על 450,000 הרוגים רוסים ממאגר הנתונים של רוססטאט",
+   "הדיווחים על היקף השימוש במערכות תקשורת לוויינית ישראליות בכטב\"מים אוקראיניים",
+   "מספר הטילים המדויק שנורה לעבר קייב (מקורות שונים טענו ל-36 או 40 טילים בליסטיים)",
+   "דיווחים על החזקת חיילים במרתף עינויים ליד קייב"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1165,
+    "unit": "USD",
+    "change_pct": -0.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "השגת טילי יירוט ומערכות הגנה אווירית נוספות מסוג פטריוט מבעלות הברית",
+     "הבאת האחראים הרוסים להפצצות אזרחיות לדין",
+     "תיקון מהיר של רשת החשמל והתחבורה שנפגעו בתקיפות"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות נפט ואנרגיה בעומק רוסיה כדי להעלות את מחיר המלחמה עבור מוסקבה",
+     "הפעלת לחץ על מדינות המערב להגברת הסיוע הצבאי בטרם יחמיר החורף"
+    ],
+    "forecast": [
+     "המשך דרישה דחופה מארה\"ב וממדינות אירופה לאספקת טילי יירוט נוכח החוסר הגובר",
+     "הגברת מאמצי המיגון וההתאמה של חלופות תחבורה ואנרגיה בערים המרכזיות"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "שיגור דיפלומטים ובכירים צבאיים לשיחות משא ומתן באבו דאבי",
+     "שלילת נוכחות של מדינות אירופיות בשולחן המשא ומתן על אוקראינה"
+    ],
+    "inferred": [
+     "השבתת תשתיות האנרגיה והתחבורה באוקראינה לקראת החורף כדי לשבור את כושר העמידה של העורף",
+     "השגת עמדת מיקוח עדיפה וקביעת עובדות בשטח לקראת משא ומתן אפשרי"
+    ],
+    "forecast": [
+     "המשך גלי התקיפות המשולבים של טילים וכטב\"מים לעבר יעדי תשתית אסטרטגיים",
+     "המשך גיוס כוח אדם בשיטות לחץ מבוזרות כדי להימנע מהכרזה על גיוס המוני"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/07/blackout-water-shortage-kyiv-russia-strike-ukraine-energy-grid",
+    "accessed_at": "2026-11-08T00:46:41+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/hackers-claim-leaked-russian-data-reveals-up-to-450-000-war-related-deaths-in-ukraine/",
+    "accessed_at": "2026-11-08T00:46:41+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1385992",
+    "accessed_at": "2026-11-08T00:46:41+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/07/8061730/",
+    "accessed_at": "2026-11-08T00:46:41+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/politics/2214327",
+    "accessed_at": "2026-11-08T00:46:41+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49355",
+    "accessed_at": "2026-11-08T00:46:41+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-society/4182312-dius-prymary-unit-receives-uah-42m-worth-of-combat-drones-from-donors.html",
+    "accessed_at": "2026-11-08T00:46:41+00:00"
+   }
+  ]
+ }
+}
