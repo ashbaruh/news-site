@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-08T02:17:11+00:00",
-  "fetched_at": "2026-11-08T02:17:11+00:00"
+  "checked_at": "2026-11-08T03:17:19+00:00",
+  "fetched_at": "2026-11-08T03:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T02:17:26+00:00",
-  "fetched_at": "2026-11-08T02:17:26+00:00"
+  "checked_at": "2026-11-08T03:17:32+00:00",
+  "fetched_at": "2026-11-08T03:17:32+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "How to watch Australia vs Samoa: live stream Rugby League World Cup 2026 semi-final for free from anywhere",
+    "title_he": "איך לצפות באוסטרליה נגד סמואה: גביע העולם בשידור חי בליגת הרוגבי 2026 בחצי הגמר בחינם מכל מקום",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/australia-vs-samoa-rugby-league-world-cup-2026-semi-final-free",
+    "date": "2026-11-08T03:00:00+00:00"
+   },
    {
     "title_en": "I'm a big fan of Filmmaker Mode – but it's in a bit of a weird place right now",
     "title_he": "אני מעריץ גדול של Filmmaker Mode - אבל הוא נמצא במקום קצת מוזר כרגע",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/new-zealand-vs-tonga-rugby-league-world-cup-2026-semi-final-free",
     "date": "2026-11-07T04:00:00+00:00"
-   },
-   {
-    "title_en": "Sony headphones, LG OLEDs, high-end speakers and more: 17 products earn five-star ratings from our reviewers",
-    "title_he": "אוזניות סוני, LG OLED, רמקולים מתקדמים ועוד: 17 מוצרים זוכים לדירוג של חמישה כוכבים מהמבקרים שלנו",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/av/sony-headphones-lg-oleds-high-end-speakers-and-more-17-products-earn-five-star-ratings-from-our-reviewers",
-    "date": "2026-11-06T16:04:03+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T02:17:26+00:00",
-  "fetched_at": "2026-11-08T02:17:26+00:00"
+  "checked_at": "2026-11-08T03:17:34+00:00",
+  "fetched_at": "2026-11-08T03:17:34+00:00"
  },
- "generated_at": "2026-11-08T02:17:26+00:00",
+ "generated_at": "2026-11-08T03:17:34+00:00",
  "globes": {
   "data": {
    "top": [
@@ -216,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-08T02:17:12+00:00",
-  "fetched_at": "2026-11-08T02:17:12+00:00"
+  "checked_at": "2026-11-08T03:17:20+00:00",
+  "fetched_at": "2026-11-08T03:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T02:17:14+00:00",
-  "fetched_at": "2026-11-08T02:17:14+00:00"
+  "checked_at": "2026-11-08T03:17:21+00:00",
+  "fetched_at": "2026-11-08T03:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2673,8 +2673,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T02:17:16+00:00",
-  "fetched_at": "2026-11-08T02:17:16+00:00"
+  "checked_at": "2026-11-08T03:17:23+00:00",
+  "fetched_at": "2026-11-08T03:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2765,8 +2765,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-08T02:17:16+00:00",
-  "fetched_at": "2026-11-08T02:17:16+00:00"
+  "checked_at": "2026-11-08T03:17:23+00:00",
+  "fetched_at": "2026-11-08T03:17:23+00:00"
  },
  "ai": {
   "data": {
@@ -2798,7 +2798,7 @@ window.DB.generated = {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 355,
+     "likes": 358,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
@@ -2819,7 +2819,7 @@ window.DB.generated = {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 136,
+     "likes": 137,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -2847,7 +2847,7 @@ window.DB.generated = {
      "title": "FIBO 2.0 Edit Turbo",
      "desc_en": "Fibo 2.0 Edit Turbo image editing in 4 steps",
      "desc_he": "Fibo 2.0 עריכת טורבו עריכת תמונה ב-4 שלבים",
-     "likes": 235,
+     "likes": 236,
      "link": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     },
     {
@@ -2867,8 +2867,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-08T02:17:25+00:00",
-  "fetched_at": "2026-11-08T02:17:25+00:00"
+  "checked_at": "2026-11-08T03:17:32+00:00",
+  "fetched_at": "2026-11-08T03:17:32+00:00"
  },
  "abroad": {
   "data": {
@@ -3209,8 +3209,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-08T02:17:19+00:00",
-  "fetched_at": "2026-11-08T02:17:19+00:00"
+  "checked_at": "2026-11-08T03:17:27+00:00",
+  "fetched_at": "2026-11-08T03:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3240,8 +3240,9 @@ window.DB.generated = {
     "date": "2026-11-03T19:20:08+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-08T02:17:20+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-08T03:17:27+00:00",
   "fetched_at": "2026-11-08T02:17:20+00:00"
  },
  "feed_health": {
@@ -3250,43 +3251,43 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-07T19:42:00+00:00",
-    "seen_at": "2026-11-08T02:17:26+00:00",
+    "seen_at": "2026-11-08T03:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-07T18:26:00+00:00",
-    "seen_at": "2026-11-08T02:17:26+00:00",
+    "seen_at": "2026-11-08T03:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-07T18:26:00+00:00",
-    "seen_at": "2026-11-08T02:17:26+00:00",
+    "seen_at": "2026-11-08T03:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-07T10:07:00+00:00",
-    "seen_at": "2026-11-08T02:17:26+00:00",
+    "seen_at": "2026-11-08T03:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-08T00:07:00+00:00",
-    "seen_at": "2026-11-08T02:17:26+00:00",
+    "seen_at": "2026-11-08T03:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-07T20:44:00+00:00",
-    "seen_at": "2026-11-08T02:17:26+00:00",
+    "seen_at": "2026-11-08T03:17:34+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-07T22:17:00+00:00",
-    "seen_at": "2026-11-08T02:17:26+00:00",
+    "seen_at": "2026-11-08T03:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3304,35 +3305,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-05T17:00:00+00:00",
-    "seen_at": "2026-11-08T02:17:26+00:00",
+    "seen_at": "2026-11-08T03:17:34+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-07T17:32:40+00:00",
-    "seen_at": "2026-11-08T02:17:26+00:00",
+    "seen_at": "2026-11-08T03:17:34+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-07T16:58:40+00:00",
-    "seen_at": "2026-11-08T02:17:26+00:00",
+    "seen_at": "2026-11-08T03:17:34+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-07T15:39:47+00:00",
-    "seen_at": "2026-11-08T02:17:26+00:00",
+    "newest": "2026-11-08T03:00:00+00:00",
+    "seen_at": "2026-11-08T03:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-04T16:04:01+00:00",
-    "seen_at": "2026-11-08T02:17:26+00:00",
+    "seen_at": "2026-11-08T03:17:34+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-08T02:17:26+00:00"
+  "checked_at": "2026-11-08T03:17:34+00:00"
  },
  "health_news": {
   "data": [
@@ -3488,7 +3489,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T02:17:20+00:00",
-  "fetched_at": "2026-11-08T02:17:20+00:00"
+  "checked_at": "2026-11-08T03:17:28+00:00",
+  "fetched_at": "2026-11-08T03:17:28+00:00"
  }
 };
