@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-08T06:08:11+00:00",
-  "fetched_at": "2026-11-08T06:08:11+00:00"
+  "checked_at": "2026-11-08T06:17:14+00:00",
+  "fetched_at": "2026-11-08T06:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T06:08:29+00:00",
-  "fetched_at": "2026-11-08T06:08:29+00:00"
+  "checked_at": "2026-11-08T06:17:26+00:00",
+  "fetched_at": "2026-11-08T06:17:26+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T06:08:29+00:00",
-  "fetched_at": "2026-11-08T06:08:29+00:00"
+  "checked_at": "2026-11-08T06:17:26+00:00",
+  "fetched_at": "2026-11-08T06:17:26+00:00"
  },
- "generated_at": "2026-11-08T06:08:29+00:00",
+ "generated_at": "2026-11-08T06:17:26+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "סעודיה: יורט טיל בליסטי שהחות'ים שיגרו למזרח הממלכה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562373",
-     "date": "2026-11-08T06:03:00+00:00"
+     "date": "2026-11-08T06:13:00+00:00"
     }
    ],
    "market": [
@@ -129,7 +129,7 @@ window.DB.generated = {
      "date": "2026-11-08T03:38:00+00:00"
     },
     {
-     "title": "היא גובלת ברוסיה, קנתה קלע דוד ומחליפה טילי נ\"ט משנות ה־80",
+     "title": "המדינה שמקימה שדה תעופה חדש והחברה הישראלית שתגן עליו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001561796",
      "date": "2026-11-08T03:33:00+00:00"
     },
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-08T06:08:12+00:00",
-  "fetched_at": "2026-11-08T06:08:12+00:00"
+  "checked_at": "2026-11-08T06:17:15+00:00",
+  "fetched_at": "2026-11-08T06:17:15+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T06:08:13+00:00",
-  "fetched_at": "2026-11-08T06:08:13+00:00"
+  "checked_at": "2026-11-08T06:17:16+00:00",
+  "fetched_at": "2026-11-08T06:17:16+00:00"
  },
  "tv": {
   "data": [
@@ -2678,8 +2678,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T06:08:17+00:00",
-  "fetched_at": "2026-11-08T06:08:17+00:00"
+  "checked_at": "2026-11-08T06:17:17+00:00",
+  "fetched_at": "2026-11-08T06:17:17+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2770,8 +2770,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-08T06:08:17+00:00",
-  "fetched_at": "2026-11-08T06:08:17+00:00"
+  "checked_at": "2026-11-08T06:17:17+00:00",
+  "fetched_at": "2026-11-08T06:17:17+00:00"
  },
  "ai": {
   "data": {
@@ -2784,25 +2784,26 @@ window.DB.generated = {
      "title": "הכנס הישראלי הראשון לסוכני AI (ועוד כמה המלצות לבני האדם שלהם)"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-     "date": "2026-11-05T17:05:16+00:00",
+     "source": "OpenAI",
+     "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+     "date": "2026-11-05T17:00:00+00:00",
      "launch": false,
-     "title_en": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-     "title_he": "Gemini Omni 1.2 פלאש: מהיר וחסכוני עם קליפסים ארוכים יותר",
+     "title_en": "Australian universities are creating AI-native graduates",
+     "title_he": "אוניברסיטאות אוסטרליה יוצרות בוגרי בינה מלאכותית",
      "translated_by": "google"
     }
    ],
-   "candidates": 7,
+   "candidates": 6,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 360,
+     "likes": 361,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
@@ -2871,8 +2872,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-08T06:08:27+00:00",
-  "fetched_at": "2026-11-08T06:08:27+00:00"
+  "checked_at": "2026-11-08T06:17:25+00:00",
+  "fetched_at": "2026-11-08T06:17:25+00:00"
  },
  "abroad": {
   "data": {
@@ -3213,11 +3214,16 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-08T06:08:21+00:00",
-  "fetched_at": "2026-11-08T06:08:21+00:00"
+  "checked_at": "2026-11-08T06:17:20+00:00",
+  "fetched_at": "2026-11-08T06:17:20+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "\"צה\"ל עוקף כל ביקורת באמצעות צווי 8\": זעקת המילואימניקים מול משבר כוח האדם",
+    "link": "https://www.walla.co.il/news/military/383960469",
+    "date": "2026-11-08T05:40:18+00:00"
+   },
    {
     "title": "המשבר ביריחו מעמיק: צה\"ל יאבטח שיירת אזרחים, ההכרעה בעניינם נדחתה",
     "link": "https://www.walla.co.il/news/military/383960403",
@@ -3237,67 +3243,61 @@ window.DB.generated = {
     "title": "הפסקת הסיוע האמריקני: החשש מפגיעה ברכש צה\"ל - והחלופות שעל הפרק",
     "link": "https://www.walla.co.il/news/military/383959995",
     "date": "2026-11-03T20:07:23+00:00"
-   },
-   {
-    "title": "בעקבות מידע מודיעיני: האמר שנגנב מצה\"ל אותר בבית אריזה בדרום",
-    "link": "https://www.walla.co.il/news/military/383960007",
-    "date": "2026-11-03T19:20:08+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-08T06:08:21+00:00",
-  "fetched_at": "2026-11-08T05:17:18+00:00"
+  "ok": true,
+  "checked_at": "2026-11-08T06:17:21+00:00",
+  "fetched_at": "2026-11-08T06:17:21+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-08T06:03:00+00:00",
-    "seen_at": "2026-11-08T06:08:29+00:00",
+    "newest": "2026-11-08T06:13:00+00:00",
+    "seen_at": "2026-11-08T06:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-08T05:01:00+00:00",
-    "seen_at": "2026-11-08T06:08:29+00:00",
+    "seen_at": "2026-11-08T06:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-08T05:12:00+00:00",
-    "seen_at": "2026-11-08T06:08:29+00:00",
+    "seen_at": "2026-11-08T06:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-08T06:37:00+00:00",
-    "seen_at": "2026-11-08T06:08:29+00:00",
+    "seen_at": "2026-11-08T06:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-08T00:07:00+00:00",
-    "seen_at": "2026-11-08T06:08:29+00:00",
+    "newest": "2026-11-08T07:08:00+00:00",
+    "seen_at": "2026-11-08T06:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-08T06:45:00+00:00",
-    "seen_at": "2026-11-08T06:08:29+00:00",
+    "seen_at": "2026-11-08T06:17:26+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-08T05:56:00+00:00",
-    "seen_at": "2026-11-08T06:08:29+00:00",
+    "seen_at": "2026-11-08T06:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-11-08T04:00:00+00:00",
-    "seen_at": "2026-11-08T05:17:23+00:00",
+    "newest": "2026-11-08T05:40:18+00:00",
+    "seen_at": "2026-11-08T06:17:26+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3309,35 +3309,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-05T17:00:00+00:00",
-    "seen_at": "2026-11-08T06:08:29+00:00",
+    "seen_at": "2026-11-08T06:17:26+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-07T17:32:40+00:00",
-    "seen_at": "2026-11-08T06:08:29+00:00",
+    "seen_at": "2026-11-08T06:17:26+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-07T16:58:40+00:00",
-    "seen_at": "2026-11-08T06:08:29+00:00",
+    "seen_at": "2026-11-08T06:17:26+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-08T03:00:00+00:00",
-    "seen_at": "2026-11-08T06:08:29+00:00",
+    "seen_at": "2026-11-08T06:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-04T16:04:01+00:00",
-    "seen_at": "2026-11-08T06:08:29+00:00",
+    "seen_at": "2026-11-08T06:17:26+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-08T06:08:29+00:00"
+  "checked_at": "2026-11-08T06:17:26+00:00"
  },
  "health_news": {
   "data": [
@@ -3493,7 +3493,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T06:08:22+00:00",
-  "fetched_at": "2026-11-08T06:08:22+00:00"
+  "checked_at": "2026-11-08T06:17:21+00:00",
+  "fetched_at": "2026-11-08T06:17:21+00:00"
  }
 };
