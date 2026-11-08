@@ -7,11 +7,18 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-08T13:30:07+00:00",
-  "fetched_at": "2026-11-08T13:30:07+00:00"
+  "checked_at": "2026-11-08T14:17:21+00:00",
+  "fetched_at": "2026-11-08T14:17:21+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "Lucky Bird Found in Storm Drain a Mile From Home After Passing Driver Happens to Spot it Hopping in",
+    "title_he": "ציפור ברת מזל שנמצאה בסערה מנקזת מייל מהבית לאחר שנהג עובר במקרה מבחין בה קופצת פנימה",
+    "translated_by": "mymemory",
+    "link": "https://www.goodnewsnetwork.org/lucky-bird-found-in-storm-drain-a-mile-from-home/",
+    "date": "2026-11-08T14:08:15+00:00"
+   },
    {
     "title_en": "Baby Saved After Racing Heartbeat Detected by Family Doberman",
     "title_he": "תינוק ניצל לאחר פעימות לב מרוץ שזוהו על ידי דוברמן משפחתי",
@@ -32,18 +39,11 @@
     "translated_by": "google",
     "link": "https://www.goodnewsnetwork.org/miracle-recovery-sees-seabirds-reclaim-former-colony-after-avian-flu-wiped-them-out/",
     "date": "2026-11-05T12:00:52+00:00"
-   },
-   {
-    "title_en": "Loch Ness Is About to Welcome a New Monster Not Seen There in 500 Years–the Beaver!",
-    "title_he": "לוך נס עומד לברך מפלצת חדשה שלא נראתה שם מזה 500 שנה - הבונה!",
-    "translated_by": "mymemory",
-    "link": "https://www.goodnewsnetwork.org/loch-ness-is-about-to-welcome-a-new-monster-the-beaver-500-years-since-it-last-lived-there/",
-    "date": "2026-11-03T19:30:09+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T13:30:31+00:00",
-  "fetched_at": "2026-11-08T13:30:31+00:00"
+  "checked_at": "2026-11-08T14:17:42+00:00",
+  "fetched_at": "2026-11-08T14:17:42+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T13:30:32+00:00",
-  "fetched_at": "2026-11-08T13:30:32+00:00"
+  "checked_at": "2026-11-08T14:17:43+00:00",
+  "fetched_at": "2026-11-08T14:17:43+00:00"
  },
- "generated_at": "2026-11-08T13:30:32+00:00",
+ "generated_at": "2026-11-08T14:17:43+00:00",
  "globes": {
   "data": {
    "top": [
@@ -100,6 +100,11 @@
      "title": "למרות הירידות במניות השבבים, בכיר באפלייד מטריאלס: \"אנחנו מגדילים היקפי ייצור\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562409",
      "date": "2026-11-08T12:10:00+00:00"
+    },
+    {
+     "title": "\"השקעה לטווח ארוך לא הופכת השקעה ריכוזית למפוזרת\": האזהרה של הבכירה מבנק ישראל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562412",
+     "date": "2026-11-08T12:07:00+00:00"
     },
     {
      "title": "מנכ\"ל מארוול ישראל: \"אין לי ספק שמהפכת ה-AI תממש את הפוטנציאל שלה\"",
@@ -215,17 +220,12 @@
      "title": "הנתון שישפיע על כיוון השווקים השבוע, והפרט החריג שמסתתר בו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562365",
      "date": "2026-11-07T16:36:00+00:00"
-    },
-    {
-     "title": "אחרי כיבוש הקונגרס: האם וושינגטון צפויה להיכנס לעידן של שיתוק וחקירות?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562247",
-     "date": "2026-11-07T15:17:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-08T13:30:09+00:00",
-  "fetched_at": "2026-11-08T13:30:09+00:00"
+  "checked_at": "2026-11-08T14:17:22+00:00",
+  "fetched_at": "2026-11-08T14:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T13:30:10+00:00",
-  "fetched_at": "2026-11-08T13:30:10+00:00"
+  "checked_at": "2026-11-08T14:17:23+00:00",
+  "fetched_at": "2026-11-08T14:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2696,7 +2696,7 @@
   ],
   "ok": false,
   "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-11-08T13:30:16+00:00",
+  "checked_at": "2026-11-08T14:17:29+00:00",
   "fetched_at": "2026-11-08T13:17:19+00:00"
  },
  "ligat_haal": {
@@ -2788,8 +2788,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-08T13:30:16+00:00",
-  "fetched_at": "2026-11-08T13:30:16+00:00"
+  "checked_at": "2026-11-08T14:17:29+00:00",
+  "fetched_at": "2026-11-08T14:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -2802,27 +2802,33 @@
      "title": "הכנס הישראלי הראשון לסוכני AI (ועוד כמה המלצות לבני האדם שלהם)"
     },
     {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/australian-universities-ai-native-graduates",
-     "date": "2026-11-05T17:00:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+     "date": "2026-11-05T17:05:16+00:00",
      "launch": false,
-     "title_en": "Australian universities are creating AI-native graduates",
-     "title_he": "אוניברסיטאות אוסטרליה יוצרות בוגרי בינה מלאכותית",
+     "title_en": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+     "title_he": "Gemini Omni 1.2 פלאש: מהיר וחסכוני עם קליפסים ארוכים יותר",
      "translated_by": "google"
     }
    ],
-   "candidates": 4,
+   "candidates": 5,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 377,
+     "likes": 379,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
+    },
+    {
+     "title": "Harness Leaderboard",
+     "desc_en": "Which coding-agent harness should you use for your model?",
+     "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
+     "likes": 160,
+     "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
      "title": "Wan2.2 14B Preview",
@@ -2832,17 +2838,10 @@
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
-     "title": "Harness Leaderboard",
-     "desc_en": "Which coding-agent harness should you use for your model?",
-     "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 157,
-     "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
-    },
-    {
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 204,
+     "likes": 205,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
@@ -2890,53 +2889,44 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-08T13:30:30+00:00",
-  "fetched_at": "2026-11-08T13:30:30+00:00"
+  "checked_at": "2026-11-08T14:17:39+00:00",
+  "fetched_at": "2026-11-08T14:17:39+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "חי, רוי רביבו בהרכב: אלצ'ה - בטיס 0:0 (מחצית 1)",
+     "title": "חי, רוי רביבו בהרכב: אלצ'ה - בטיס 0:0 (מחצית 2)",
      "link": "https://sports.walla.co.il/item/3875290",
-     "date": "2026-11-08T14:00:00+00:00",
+     "date": "2026-11-08T15:03:00+00:00",
      "source": "וואלה",
      "players": [
       "רועי רביבו"
      ]
     },
     {
-     "title": "15:30, ספורט4: אוסקר גלוך בהרכב אייאקס מול טוונטה",
-     "link": "https://sports.walla.co.il/item/3875437",
-     "date": "2026-11-08T13:47:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "16:00, ספורט2: חלאילי על הספסל, ליברפול תעמיק את המשבר בפאלאס?",
+     "title": "חי בספורט2, חלאילי סופסל: פאלאס - ליברפול 0:0 (מחצית 1)",
      "link": "https://sports.walla.co.il/item/3875383",
-     "date": "2026-11-08T13:45:00+00:00",
+     "date": "2026-11-08T15:00:00+00:00",
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
      ]
     },
     {
-     "title": "חלאילי על הספסל של קריסטל פאלאס מול ליברפל",
-     "link": "https://www.one.co.il/Article/538329.html?ref=rss",
-     "date": "2026-11-08T12:45:00+00:00",
-     "source": "ONE",
+     "title": "עדן קארצב סיים את העונה עם 2:2, אליפות מדהימה בסין",
+     "link": "https://sports.walla.co.il/item/3875449",
+     "date": "2026-11-08T14:59:00+00:00",
+     "source": "וואלה",
      "players": [
-      "ענאן חלאילי"
+      "עדן קארצב"
      ]
     },
     {
-     "title": "אוסקר גלוך בהרכב אייאקס למשחק מול טוונטה",
-     "link": "https://www.one.co.il/Article/538356.html?ref=rss",
-     "date": "2026-11-08T12:41:00+00:00",
-     "source": "ONE",
+     "title": "חי בספורט4: אוסקר גלוך בישל, טוונטה - אייאקס 1:0 (מחצית 1)",
+     "link": "https://sports.walla.co.il/item/3875437",
+     "date": "2026-11-08T14:30:00+00:00",
+     "source": "וואלה",
      "players": [
       "אוסקר גלוך"
      ]
@@ -3005,15 +2995,6 @@
      ]
     },
     {
-     "title": "15 נקודות לאבדיה בתבוסה לספרס, 29 לוומבניאמה",
-     "link": "https://www.one.co.il/Article/538297.html?ref=rss",
-     "date": "2026-11-08T05:33:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
      "title": "ליאל עבדה כבש צמד בקאמבק המופלא של שארלוט מול מסי ומיאמי",
      "link": "https://sports.walla.co.il/item/3875334",
      "date": "2026-11-08T00:07:00+00:00",
@@ -3029,6 +3010,24 @@
      "source": "וואלה",
      "players": [
       "דיא סבע"
+     ]
+    },
+    {
+     "title": "פרץ וסאות'המפטון ספגו הפסד מפתיע, סולומון ו-ווסטהאם מתרסקים | צפו",
+     "link": "https://sports.walla.co.il/item/3875283",
+     "date": "2026-11-07T17:49:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "באנגליה קוטלים את מנור סולומון: \"הוא לא עוזר לקבוצות לנצח\"",
+     "link": "https://sports.walla.co.il/item/3875284",
+     "date": "2026-11-07T10:25:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
      ]
     }
    ],
@@ -3242,8 +3241,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-08T13:30:19+00:00",
-  "fetched_at": "2026-11-08T13:30:19+00:00"
+  "checked_at": "2026-11-08T14:17:33+00:00",
+  "fetched_at": "2026-11-08T14:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -3274,98 +3273,98 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T13:30:20+00:00",
-  "fetched_at": "2026-11-08T13:30:20+00:00"
+  "checked_at": "2026-11-08T14:17:33+00:00",
+  "fetched_at": "2026-11-08T14:17:33+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-08T13:27:00+00:00",
-    "seen_at": "2026-11-08T13:30:32+00:00",
+    "newest": "2026-11-08T13:32:00+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-08T12:10:00+00:00",
-    "seen_at": "2026-11-08T13:30:32+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-08T10:59:00+00:00",
-    "seen_at": "2026-11-08T13:30:32+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-08T09:20:00+00:00",
-    "seen_at": "2026-11-08T13:30:32+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-08T14:23:00+00:00",
-    "seen_at": "2026-11-08T13:30:32+00:00",
+    "newest": "2026-11-08T15:03:00+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-08T14:07:00+00:00",
-    "seen_at": "2026-11-08T13:30:32+00:00",
+    "newest": "2026-11-08T15:05:00+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-08T13:23:00+00:00",
-    "seen_at": "2026-11-08T13:30:32+00:00",
+    "newest": "2026-11-08T14:00:00+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-08T08:23:52+00:00",
-    "seen_at": "2026-11-08T13:30:32+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-05T17:05:16+00:00",
-    "seen_at": "2026-11-08T13:17:27+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-05T17:00:00+00:00",
-    "seen_at": "2026-11-08T13:30:32+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-08T09:58:48+00:00",
-    "seen_at": "2026-11-08T13:30:32+00:00",
+    "newest": "2026-11-08T14:12:23+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
-    "newest": "2026-11-07T16:58:40+00:00",
-    "seen_at": "2026-11-08T13:30:32+00:00",
+    "newest": "2026-11-08T14:08:15+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-08T09:00:00+00:00",
-    "seen_at": "2026-11-08T13:30:32+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-08T12:01:35+00:00",
-    "seen_at": "2026-11-08T13:30:32+00:00",
+    "seen_at": "2026-11-08T14:17:43+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-08T13:30:32+00:00"
+  "checked_at": "2026-11-08T14:17:43+00:00"
  },
  "health_news": {
   "data": [
@@ -3521,7 +3520,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-08T13:30:20+00:00",
-  "fetched_at": "2026-11-08T13:30:20+00:00"
+  "checked_at": "2026-11-08T14:17:34+00:00",
+  "fetched_at": "2026-11-08T14:17:34+00:00"
  }
 }
