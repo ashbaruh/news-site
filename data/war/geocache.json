@@ -80,6 +80,10 @@
 34.6008,
 32.9562
 ],
+"al bayda, yemen": [
+13.9881,
+45.5729
+],
 "al khiyam, lebanon": [
 33.3103,
 35.6054
@@ -617,6 +621,10 @@
 "chernivtsi, ukraine": [
 48.2865,
 25.9377
+],
+"chernomorsk, ukraine": [
+46.3242,
+30.6523
 ],
 "chernyakhovsk, russia": [
 54.6355,
@@ -1664,6 +1672,10 @@
 ],
 "moldova": null,
 "montenegro": null,
+"montreal, canada": [
+45.5032,
+-73.5698
+],
 "moscow oblast, russia": null,
 "moscow, russia": [
 55.7505,
