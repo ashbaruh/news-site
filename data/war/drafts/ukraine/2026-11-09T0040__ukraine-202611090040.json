@@ -1,0 +1,450 @@
+{
+ "status": "draft",
+ "received_sha256_12": "2b9c05122979",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 4,
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-09T00:40:33+00:00",
+  "window": {
+   "from": "2026-11-08T00:40:33+00:00",
+   "to": "2026-11-09T00:40:33+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202611090040"
+  },
+  "summary": "רוסיה מגבירה את התקיפות המשולבות באמצעות טילים בליסטיים וכלי טיס בלתי מאוישים לעבר תשתיות אנרגיה, תחבורה וריכוזי אוכלוסייה ברחבי אוקראינה במטרה להפעיל לחץ לקראת חידוש המגעים הדיפלומטיים. אוקראינה מגיבה בתקיפות עומק נגד צירי אספקה, עמדות שליטה ברחפנים ומתקני כוח בתוך שטח רוסיה ובאזורים הכבושים. במקביל להמשך חילופי האש והפגיעה ברשתות החשמל, מתגבשים מגעים ראשוניים בין הצדדים בתיווך אמריקאי ובינלאומי באבו דאבי.",
+  "fronts": [
+   {
+    "name": "חזית הדרום (זפוריז'יה וחרסון)",
+    "status": "תקיפות אינטנסיביות, הפגזות רוסיות על עשרות יישובים, פגיעה באנשי חילוץ ורוטציית כוחות רוסית בגדה השמאלית"
+   },
+   {
+    "name": "חזית המזרח (דונצק וחארקיב)",
+    "status": "הגברת תקיפות רוסיות על קרמטורסק והפגזות חוזרות בחארקיב, לצד תקיפות אוקראיניות על מרכזי שליטה"
+   },
+   {
+    "name": "עורף אוקראינה ותשתיות אנרגיה",
+    "status": "פגיעות קשות בתחנות כוח, גשרים ומערכות חשמל באודסה, קייב ודניפרופטרובסק, המאלצות השבתות חשמל סדורות"
+   },
+   {
+    "name": "עומק רוסיה וצירי אספקה",
+    "status": "תקיפות כטב\"מים אוקראיניות נגד גשרים, תחנות כוח ומערכי שיגור במחוזות רוסטוב, בריאנסק וקורסק"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11090040-01",
+    "title": "היערכות למשא ומתן דיפלומטי באבו דאבי",
+    "summary": "הכנות לקראת שיחות תלת-צדדיות בהשתתפות נציגי ארצות הברית, אוקראינה ורוסיה באבו דאבי, לצד כוונה של צרפת ונציגים אירופים להשתתף בשיחות כדי להציג את דרישות הביטחון של אירופה.",
+    "axis": "משא ומתן מדיני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-08T04:10:42+00:00",
+    "last_update_at": "2026-11-08T23:31:01+00:00",
+    "what_is_not_verified": "הרכב המשלחות המלא ומידת המוכנות של הצדדים להגיע להסכמות ממשיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2214549",
+      "published_at": "2026-11-08T23:31:01+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2214543",
+      "published_at": "2026-11-08T22:18:36+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/europeans-will-participate-in-abu-dhabi-peace-talks-french-foreign-minister-says/",
+      "published_at": "2026-11-08T14:15:47+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2214477",
+      "published_at": "2026-11-08T13:53:45+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/08/8061819/",
+      "published_at": "2026-11-08T13:19:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says",
+      "published_at": "2026-11-08T04:10:42+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אבו דאבי, איחוד האמירויות הערביות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11090040-02",
+    "title": "מתקפות רוסיות על תשתיות אנרגיה וחשמל באוקראינה",
+    "summary": "רוסיה שיגרה טילים וכלי טיס בלתי מאוישים לעבר מתקני אנרגיה במספר מחוזות באוקראינה, ובהם אודסה, דניפרופטרובסק וקייב, דבר שגרם לניתוקי חשמל נרחבים ולהגבלות צריכה.",
+    "axis": "תקיפות תשתיות ועורף",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-08T04:10:42+00:00",
+    "last_update_at": "2026-11-08T21:00:00+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק למתקני האנרגיה ומספר הטילים המדויק שפגעו ביעדים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-economy/4182749-power-outage-schedules-to-be-in-effect-in-some-ukrainian-regions-on-monday.html",
+      "published_at": "2026-11-08T21:00:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4182739-russian-forces-launch-massive-attack-on-odesa-regions-energy-infrastructure.html",
+      "published_at": "2026-11-08T19:40:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-ukraine-hits-key-bridge-on-highway-of-death-linking-mainland-russia-to-occupied-regions/",
+      "published_at": "2026-11-08T18:44:31+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2214489",
+      "published_at": "2026-11-08T14:43:48+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/08/8061791/",
+      "published_at": "2026-11-08T10:09:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says",
+      "published_at": "2026-11-08T04:10:42+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     },
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11090040-03",
+    "title": "פגיעה בצוותי חילוץ והצלה בקומישובאחה",
+    "summary": "רחפנים רוסיים תקפו את עובדי שירות החירום של אוקראינה בעת שפעלו באתר שבו הופצץ מבנה ששימש לחלוקת סיוע, שבו נרשמו עשרות הרוגים ונעדרים.",
+    "axis": "חזית הדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-08T09:58:00+00:00",
+    "last_update_at": "2026-11-08T18:55:00+00:00",
+    "what_is_not_verified": "קיומם של נפגעים נוספים תחת ההריסות וגורל 45 הנעדרים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4182730-two-rescuers-injured-in-russian-drone-attack-on-komyshuvakha.html",
+      "published_at": "2026-11-08T18:55:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/08/8061823/",
+      "published_at": "2026-11-08T13:56:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/08/8061790/",
+      "published_at": "2026-11-08T09:58:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קומישובאחה, אוקראינה",
+      "lat": 48.6403,
+      "lon": 37.4558
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11090040-04",
+    "title": "פגיעות כטב\"מים אוקראיניים בגשר ותחנות כוח במחוז רוסטוב",
+    "summary": "שברי כלי טיס בלתי מאוישים פגעו בגשר מעל נהר מיוס בכביש אסטרטגי המחבר את מחוז רוסטוב לשטחים שבשליטת רוסיה, וכן בתחנות כוח באזור.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T17:24:18+00:00",
+    "last_update_at": "2026-11-08T18:44:31+00:00",
+    "what_is_not_verified": "מידת הפגיעה התפקודית בגשר ורמת הנזק בתחנות הכוח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-ukraine-hits-key-bridge-on-highway-of-death-linking-mainland-russia-to-occupied-regions/",
+      "published_at": "2026-11-08T18:44:31+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukrainian-drones-hit-key-bridge-power-stations-in-russias-rostov-oblast-governor-says/",
+      "published_at": "2026-11-08T17:39:36+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2214511",
+      "published_at": "2026-11-08T17:24:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11090040-05",
+    "title": "פגיעה בעמדות פיקוד ושליטה על כטב\"מים רוסיים",
+    "summary": "צבא אוקראינה פגע בארבע תחנות קרקעיות לשליטה בכלי טיס בלתי מאוישים של רוסיה, כולל מתקן של יחידת רוביקון בברדיאנסק ומוקדים נוספים בשטחים כבושים וברוסיה.",
+    "axis": "חזית המזרח והדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-07T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T12:54:00+00:00",
+    "last_update_at": "2026-11-08T12:54:00+00:00",
+    "what_is_not_verified": "היקף האבדות והנזק המדויק בקרב מפעילי הכטב\"מים הרוסים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/08/8061816/",
+      "published_at": "2026-11-08T12:54:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ברדיאנסק, אוקראינה",
+      "lat": 46.7557,
+      "lon": 36.7888
+     },
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11090040-06",
+    "title": "תקיפה רוסית נגד כלי שיט ומטענים בים השחור ובנמל צ'ורנומורסק",
+    "summary": "רוסיה הודיעה על פגיעה בשני כלי שיט ובמטענים דו-שימושיים שיועדו לצבא אוקראינה בנמל צ'ורנומורסק ובמימי הים השחור.",
+    "axis": "הזירה הימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T14:42:57+00:00",
+    "last_update_at": "2026-11-08T14:42:57+00:00",
+    "what_is_not_verified": "סוג המטענים המדויק ומידת הנזק הממשית לכלי השיט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2214487",
+      "published_at": "2026-11-08T14:42:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צ'ורנומורסק, אוקראינה",
+      "lat": 46.3013,
+      "lon": 30.6549
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11090040-07",
+    "title": "חידוש אספקת החשמל החיצונית לתחנת הכוח הגרעינית בזפוריז'יה",
+    "summary": "עובדי אנרגיה אוקראינים החזירו לפעולה קו מתח גבוה המספק הזנת חשמל חיצונית חיונית לתחנת הכוח הגרעינית בזפוריז'יה.",
+    "axis": "ביטחון גרעיני ותשתיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T17:50:00+00:00",
+    "last_update_at": "2026-11-08T17:50:00+00:00",
+    "what_is_not_verified": "יציבות הקו להמשך פעילות תחת תנאי לחימה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-economy/4182723-ukrainian-energy-workers-restore-external-power-supply-to-znpp.html",
+      "published_at": "2026-11-08T17:50:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אנרהודר, אוקראינה",
+      "lat": 47.4901,
+      "lon": 34.6603
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11090040-08",
+    "title": "רוטציית כוחות ותגבור רוסי באולשקי בחסות הפוגה הומניטרית",
+    "summary": "נשיא אוקראינה ציין כי צבא רוסיה ניצל מבצע הומניטרי באולשקי כדי לבצע החלפת כוחות ולהכניס תגבורות צבאיות לגדה השמאלית של הדנייפר.",
+    "axis": "חזית הדרום (חרסון)",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-08T15:45:00+00:00",
+    "last_update_at": "2026-11-08T15:45:00+00:00",
+    "what_is_not_verified": "היקף הכוחות והציוד הצבאי שהוכנסו בפועל לאזור",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/08/8061833/",
+      "published_at": "2026-11-08T15:45:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אולשקי, אוקראינה",
+      "lat": 46.6261,
+      "lon": 32.722
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "אמיתות הנתונים שפורסמו מהדלפת שירות הסטטיסטיקה הרוסי בנוגע להיקף של מעל 450 אלף הרוגים",
+   "מידת הנזק המדויקת לגשר מעל נהר מיוס ולתחנות הכוח במחוז רוסטוב",
+   "מספר הנפגעים הסופי והנעדרים תחת ההריסות בקומישובאחה",
+   "ההרכב הרשמי של נציגי המשא ומתן ממדינות אירופה ומידת השפעתם בשיחות אבו דאבי",
+   "דיווחים על גיוס בכפייה של אזרחים במוסקבה לטובת חוזים צבאיים",
+   "היקף הפגיעה בכלי השיט בנמל צ'ורנומורסק והאם נשאו ציוד צבאי"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1165,
+    "unit": "USD",
+    "change_pct": -0.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על שמי המדינה והשגת מערכות יירוט נוספות מארצות הברית",
+     "החמרת הסנקציות הבינלאומיות על תעשיית ייצור הטילים של רוסיה",
+     "ייצוג אינטרסים ביטחוניים מלא בשיחות המשא ומתן באבו דאבי"
+    ],
+    "inferred": [
+     "שיבוש קווי האספקה הלוגיסטיים הרוסיים באמצעות תקיפת גשרים ותחנות כוח בעומק רוסיה",
+     "התמודדות עם מחסור בכוח אדם לוחם בחטיבות המוצנחות והסתגלות לשיטות אימון מערביות"
+    ],
+    "forecast": [
+     "המשך הגבלות חשמל ופגיעה באורח החיים האזרחי כתוצאה מהרס מתקני האנרגיה לקראת החורף",
+     "התמקדות בתקיפת עמדות שליטה ברחפנים ובסיסי לוגיסטיקה רוסיים"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "נכונות לחידוש שיחות תלת-צדדיות להסדרת המשבר",
+     "פגיעה במתקנים שמשרתים את התעשייה הביטחונית וכוחות הצבא של אוקראינה"
+    ],
+    "inferred": [
+     "הפעלת לחץ מרבי על הנהגת אוקראינה והאוכלוסייה האזרחית באמצעות פגיעה במערכות חשמל לפני שיחות המשא ומתן",
+     "שימוש בהפוגות הומניטריות לצורך התעצמות צבאית, רוטציה ותגבור כוחות בחזיתות הדרום"
+    ],
+    "forecast": [
+     "המשך שיגור מטחי כטב\"מים וטילים בליסטיים נגד מתקנים אסטרטגיים באוקראינה",
+     "ניסיון להכתיב עמדות כוח במשא ומתן תוך ניצול שינויי הממשל בארצות הברית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says",
+    "accessed_at": "2026-11-09T00:40:33+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukrainian-drones-hit-key-bridge-power-stations-in-russias-rostov-oblast-governor-says/",
+    "accessed_at": "2026-11-09T00:40:33+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/08/8061833/",
+    "accessed_at": "2026-11-09T00:40:33+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2214487",
+    "accessed_at": "2026-11-09T00:40:33+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-economy/4182723-ukrainian-energy-workers-restore-external-power-supply-to-znpp.html",
+    "accessed_at": "2026-11-09T00:40:33+00:00"
+   }
+  ]
+ }
+}
