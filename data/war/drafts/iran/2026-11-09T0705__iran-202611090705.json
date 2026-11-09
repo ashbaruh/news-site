@@ -1,0 +1,536 @@
+{
+ "status": "draft",
+ "received_sha256_12": "75a14aa3e0e6",
+ "preview": {
+  "events": 11,
+  "levels": {
+   "shared_root": 6,
+   "initial": 4,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-09T07:05:57+00:00",
+  "window": {
+   "from": "2026-11-08T07:05:57+00:00",
+   "to": "2026-11-09T07:05:57+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611090705"
+  },
+  "summary": "העימות הצבאי והכלכלי בין ארצות הברית לאיראן נמשך, כאשר וושינגטון מקדמת מצור יבשתי ומבצעת תקיפות נקודתיות בדרום איראן, לצד פעולות איראניות לשיבוש השיט במצר הורמוז. במקביל, מאמצי תיווך דיפלומטיים בהובלת קטאר נתקלים בחילוקי דעות עמוקים לגבי תנאי ההסדר, הפשרת נכסים וסוגיית הגרעין. בישראל מביעים דאגה מהתקדמות הנשק הגרעיני, בעוד שלוחות איראן באזור, דוגמת החות'ים, ממשיכות לתקוף מטרות אסטרטגיות במפרץ.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ הפרסי",
+    "status": "מתיחות צבאית סביב חופש השיט, תקיפות הדדיות ושיבוש מערכות ניווט ימיות"
+   },
+   {
+    "name": "הזירה המדינית-כלכלית (ארה\"ב-איראן)",
+    "status": "משא ומתן תקוע במקביל להטלת מצור יבשתי ולחץ על מעברי הגבול בעיראק"
+   },
+   {
+    "name": "החזית הישראלית מול הגרעין האיראני",
+    "status": "התרעות על התקדמות הנשקה אל מול טענות אמריקניות על פגיעה בתשתיות"
+   },
+   {
+    "name": "שלוחות אזוריות (החות'ים בתימן)",
+    "status": "המשך ירי ותקיפות נגד מטרות תשתית ונפט במדינות המפרץ"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11090705-01",
+    "title": "תקיפה אמריקנית באי קשם בדרום איראן",
+    "summary": "האי קשם הותקף בידי ארה\"ב במהלך הלילה; גורם מחוזי באיראן מסר כי לא נפגעו תשתיות חיוניות או שירותים וכי האתרים שהותקפו מרוחקים מאזורי מגורים ומסחר.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T22:19:04+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T22:19:04+00:00",
+    "last_update_at": "2026-11-09T05:34:32+00:00",
+    "what_is_not_verified": "מידת הנזק המדויקת והיקף הפגיעה בפועל מעבר להצהרת הגורם האיראני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-official-says-no-vital-infrastructure-damaged-us-attack-qeshm",
+      "published_at": "2026-11-09T05:34:32+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611086475",
+      "published_at": "2026-11-08T22:19:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי קשם, איראן",
+      "lat": 26.7687,
+      "lon": 55.8477
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11090705-02",
+    "title": "פגיעה במערכות ניווט ושיבוש תנועת שיט במצר הורמוז",
+    "summary": "חיל הים של משמרות המהפכה הודיע על הרס עזרי ניווט בסלעים הדרומיים של מצר הורמוז, וטען כי כלי שיט בלתי מורשים לא חצו את הנתיב והברחת הנפט נעצרה.",
+    "axis": "מצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T04:46:36+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T04:46:36+00:00",
+    "last_update_at": "2026-11-09T05:52:51+00:00",
+    "what_is_not_verified": "האם כלל תנועת השיט וההברחות אכן נבלמו לחלוטין כפי שנטען על ידי איראן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-oil-smuggling-through-hormuz-strait-has-been-completely-halted",
+      "published_at": "2026-11-09T05:52:51+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-says-no-unauthorised-vessels-transited-strait-hormuz-overnight-after",
+      "published_at": "2026-11-09T04:46:36+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11090705-03",
+    "title": "הפעלת מצור יבשתי וצוות אמריקאי לאכיפת סנקציות",
+    "summary": "הנשיא טראמפ הכריז על כניסתו לתוקף של מצור יבשתי נגד איראן, וארצות הברית הקימה כוח משימה ייעודי לפגיעה במשלוחי נשק וציוד בגבולות היבשתיים ובאזור הים הכספי.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T16:01:55+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-08T16:01:55+00:00",
+    "last_update_at": "2026-11-09T03:00:00+00:00",
+    "what_is_not_verified": "היקף היישום המעשי של המצור היבשתי ויכולת האכיפה המלאה לאורך הגבולות הצפוניים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/theheadline/article/f969hl021",
+      "published_at": "2026-11-09T03:00:00+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?traffic_source=rss",
+      "published_at": "2026-11-09T00:00:34+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611089896",
+      "published_at": "2026-11-08T16:01:55+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11090705-04",
+    "title": "לחץ אמריקאי על עיראק לסגירת מעברי גבול עם איראן",
+    "summary": "משרד האוצר האמריקני דרש מעיראק לסגור את מרבית מעברי הגבול שלה עם איראן כחלק מהלחץ הכלכלי, למעט שני מעברים, בעוד בגדאד מנהלת מגעים בנושא ומזהירה מפגיעה בכלכלתה.",
+    "axis": "עיראק-איראן-ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T19:47:33+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-08T19:47:33+00:00",
+    "last_update_at": "2026-11-08T19:47:33+00:00",
+    "what_is_not_verified": "האם עיראק תיעתר לדרישה האמריקנית לסגור את המעברים בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-asks-iraq-shut-most-iran-border-crossings-iraqi-foreign-minister-says",
+      "published_at": "2026-11-08T19:47:33+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11090705-05",
+    "title": "הבנות בין עיראק לארה\"ב לייצוא נפט במצר הורמוז",
+    "summary": "שר החוץ העיראקי הודיע על השגת הבנות עם וושינגטון שיאפשרו ייצוא נפט עיראקי דרך נתיב שיט ליד עומאן, לאחר שהנזקים לעיראק משיבושי המלחמה הגיעו לעשרות מיליארדי דולרים.",
+    "axis": "עיראק-ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T19:47:33+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T19:47:33+00:00",
+    "last_update_at": "2026-11-08T19:47:33+00:00",
+    "what_is_not_verified": "האופן שבו יאובטח הנתיב הימי בפועל מול פעילות הכוחות האיראניים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/iraq-has-reached-understandings-us-allow-oil-exports-through-hormuz-minister-says",
+      "published_at": "2026-11-08T19:47:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז, עומאן",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11090705-06",
+    "title": "תיווך קטארי ופגישת פסגה בבית הלבן",
+    "summary": "ראש ממשלת קטאר מגיע לוושינגטון לפגישה עם הנשיא טראמפ וסגנו ואנס במטרה לקדם מתווה פשרה בין איראן לארה\"ב הכולל הקלות כלכליות ופתיחה של מצר הורמוז.",
+    "axis": "דיפלומטיה אזורית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T20:57:01+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-08T20:57:01+00:00",
+    "last_update_at": "2026-11-09T06:48:01+00:00",
+    "what_is_not_verified": "פרטי המתווה המדויקים שהובאו מטהרן ומידת ההסכמה של ממשל ארה\"ב לקבלם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133316",
+      "published_at": "2026-11-09T06:48:01+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1386448",
+      "published_at": "2026-11-09T05:43:19+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/geopolitics/article/21809667",
+      "published_at": "2026-11-09T05:28:08+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/trump-meet-qatars-prime-minister-iran-diplomacy-faces-hurdles",
+      "published_at": "2026-11-09T01:46:31+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49419",
+      "published_at": "2026-11-08T20:57:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארה\"ב",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11090705-07",
+    "title": "התבטאויות רוביו וגורמים בארה\"ב על קיפאון במשא ומתן",
+    "summary": "שר החוץ של ארה\"ב מרקו רוביו ציין כי אין פריצת דרך במגעים והגדיר את דרישות טהרן כבלתי סבירות, בעוד שר החוץ האיראני עראקג'י טען כי המגעים הואטו בעקבות הבחירות בארה\"ב.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T22:12:24+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-08T22:12:24+00:00",
+    "last_update_at": "2026-11-09T06:40:15+00:00",
+    "what_is_not_verified": "האם השיחות הדיפלומטיות הופסקו לחלוטין או נמשכות בערוצים עקיפים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133315",
+      "published_at": "2026-11-09T06:40:15+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-iranian-foreign-minister-comments-paused-us-iran-mediation",
+      "published_at": "2026-11-09T05:19:13+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+      "published_at": "2026-11-09T04:02:18+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49423",
+      "published_at": "2026-11-08T22:29:22+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94985",
+      "published_at": "2026-11-08T22:12:24+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11090705-08",
+    "title": "הצהרות טראמפ בריאיון בנושא הגרעין והעימות",
+    "summary": "טראמפ טען בריאיון כי אין בכוונתו להסלים את הלחימה, ציין כי חומר הגרעין קבור תחת סלעים והזכיר אפשרות לפעולה עתידית באתר הר המכוש במידת הצורך.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:12:15+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T00:12:15+00:00",
+    "last_update_at": "2026-11-09T06:23:01+00:00",
+    "what_is_not_verified": "מצב מתקני הגרעין והחומר המבוקע בפועל מתחת להריסות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133313",
+      "published_at": "2026-11-09T06:23:01+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21809568",
+      "published_at": "2026-11-09T01:19:56+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21809548",
+      "published_at": "2026-11-09T00:12:15+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11090705-09",
+    "title": "שיחת נתניהו וטראמפ בנושא הגרעין האיראני",
+    "summary": "ראש ממשלת ישראל שוחח עם נשיא ארה\"ב והעלה אזהרה בדבר התקדמות איראן בנושא הנשק הגרעיני.",
+    "axis": "ישראל-ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T04:48:05+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T04:48:05+00:00",
+    "last_update_at": "2026-11-09T04:48:05+00:00",
+    "what_is_not_verified": "התוכן המלא של השיחה ורמת ההתקדמות האיראנית שעלתה בה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21809665",
+      "published_at": "2026-11-09T04:48:05+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11090705-10",
+    "title": "אכיפת סנקציות ושימוש במתקני אחסון נפט בסין",
+    "summary": "מסמך חסוי חשף כי איראן מפעילה מסופי נפט ומתקני אחסון בסין כדי לעקוף את הסנקציות האמריקניות ולאפשר המשך פעילות של מכליות נפט מוחרמות.",
+    "axis": "איראן-סין-ארה\"ב",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T02:48:03+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T02:48:03+00:00",
+    "last_update_at": "2026-11-09T02:48:03+00:00",
+    "what_is_not_verified": "אותנטיות המסמך המודלף במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611090040",
+      "published_at": "2026-11-09T02:48:03+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11090705-11",
+    "title": "תקיפת החות'ים נגד מגדל חברת ארמקו בריאד",
+    "summary": "החות'ים בתימן, הנתמכים בידי איראן, לקחו אחריות על תקיפת בניין רב-קומות של חברת הנפט הסעודית ארמקו בריאד, שגרמה לניפוץ חלונות ללא נפגעים.",
+    "axis": "שלוחות איראן (חות'ים)-המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T08:11:54+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T08:11:54+00:00",
+    "last_update_at": "2026-11-08T08:11:54+00:00",
+    "what_is_not_verified": "סוג החימוש שפגע במבנה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district",
+      "published_at": "2026-11-08T08:11:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת איראן על עצירה מוחלטת של הברחות הנפט ותנועת הספינות הלא מורשות בהורמוז",
+   "דיווח על תוכניות מלחמה אמריקניות הכוללות פלישה קרקעית לדרום איראן או כווית דרך עיראק",
+   "סעיפי המתווה הקטארי המלאים וסכומי הכספים המוקפאים שיופשרו",
+   "מידת הנזק המדויקת שנגרמה בתקיפה האמריקנית באי קשם",
+   "מצב ההנשקה הגרעינית של איראן והיקף החומר המצוי תחת ההריסות באתרים שהותקפו"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.199,
+    "unit": "ILS",
+    "change_pct": 0.86,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-06T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "מניעת השגת נשק גרעיני בידי איראן",
+     "העדפת פתרון דיפלומטי אך דחיית דרישות איראניות מופרזות",
+     "אכיפת מצור כלכלי יבשתי וימי מלא"
+    ],
+    "inferred": [
+     "שאיפה לסיים את העימות הצבאי בשל לחץ ציבורי פנימי לאחר בחירות האמצע",
+     "בלימת ציר הסחר והאספקה בין איראן לשכנותיה"
+    ],
+    "forecast": [
+     "המשך הגברת הלחץ הכלכלי על מעברי הגבול לצד בדיקת ערוצי תיווך מול קטאר",
+     "שמירה על אופציה צבאית מוגבלת נגד אתרים מבוצרים כמו הר המכוש"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "חסימת נתיבי הברחה ומעבר כלי שיט עוינים במצר הורמוז",
+     "אי-כניעה לתכתיבים אמריקניים ודרישה להסרת הסנקציות והפשרת נכסים",
+     "העמקת הקשרים עם רוסיה, סין ומדינות האזור"
+    ],
+    "inferred": [
+     "מינוף השיבושים במצר הורמוז כדי לכפות ויתורים כלכליים על וושינגטון",
+     "עקיפת המצור באמצעות מתקני נפט בסין ונתיבים יבשתיים חלופיים"
+    ],
+    "forecast": [
+     "המשך ניסיונות התשה ימיים ושימוש בשלוחות אזוריות במפרץ",
+     "המתנה להתבהרות המפה הפוליטית בוושינגטון לפני הגעה להבנות"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "התרעה מפני התקדמות איראן בנושא הנשק הגרעיני"
+    ],
+    "inferred": [
+     "מניעת הסכם אמריקאי-איראני חלקי שיותיר בידי איראן יכולות גרעיניות",
+     "דרישה לפעולה נחרצת נגד מתקנים מבוצרים תת-קרקעיים"
+    ],
+    "forecast": [
+     "המשך לחץ מדיני על הממשל בוושינגטון שלא להקל בסנקציות",
+     "היערכות לפעילות עצמאית במקרה של התקדמות לקראת הנשקה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+    "accessed_at": "2026-11-09T07:05:57+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/trump-meet-qatars-prime-minister-iran-diplomacy-faces-hurdles",
+    "accessed_at": "2026-11-09T07:05:57+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district",
+    "accessed_at": "2026-11-09T07:05:57+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611090040",
+    "accessed_at": "2026-11-09T07:05:57+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21809665",
+    "accessed_at": "2026-11-09T07:05:57+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1386448",
+    "accessed_at": "2026-11-09T07:05:57+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-iranian-foreign-minister-comments-paused-us-iran-mediation",
+    "accessed_at": "2026-11-09T07:05:57+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133313",
+    "accessed_at": "2026-11-09T07:05:57+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49423",
+    "accessed_at": "2026-11-09T07:05:57+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94985",
+    "accessed_at": "2026-11-09T07:05:57+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/theheadline/article/f969hl021",
+    "accessed_at": "2026-11-09T07:05:57+00:00"
+   }
+  ]
+ }
+}
