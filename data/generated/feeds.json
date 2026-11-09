@@ -2,13 +2,13 @@
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-11-08",
+   "as_of": "2026-11-09",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-09T03:17:13+00:00",
-  "fetched_at": "2026-11-09T03:17:13+00:00"
+  "checked_at": "2026-11-09T04:17:22+00:00",
+  "fetched_at": "2026-11-09T04:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-09T03:17:23+00:00",
-  "fetched_at": "2026-11-09T03:17:23+00:00"
+  "checked_at": "2026-11-09T04:17:38+00:00",
+  "fetched_at": "2026-11-09T04:17:38+00:00"
  },
  "av_en": {
   "data": [
@@ -77,29 +77,49 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-09T03:17:24+00:00",
-  "fetched_at": "2026-11-09T03:17:24+00:00"
+  "checked_at": "2026-11-09T04:17:38+00:00",
+  "fetched_at": "2026-11-09T04:17:38+00:00"
  },
- "generated_at": "2026-11-09T03:17:24+00:00",
+ "generated_at": "2026-11-09T04:17:38+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "האם יש הזדמנות בוול סטריט אחרי הירידות, ומה יעשו מחר הדואליות?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562408",
-     "date": "2026-11-08T19:00:00+00:00"
+     "title": "המדד האפרורי עקף את הנאסד\"ק לראשונה מ־2022. האם הוא עושה קאמבק?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562485",
+     "date": "2026-11-09T03:35:00+00:00"
     },
     {
-     "title": "המסר של טראמפ לנתניהו אחרי הבחירות: תתקדם עם \"תוכנית השלום\" בעזה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562373",
-     "date": "2026-11-08T19:50:00+00:00"
+     "title": "המו\"מ בין ארה\"ב לאיראן: טראמפ ייפגש היום עם ראש ממשלת קטאר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562506",
+     "date": "2026-11-09T03:24:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "האם יש הזדמנות בוול סטריט אחרי הירידות, ומה יעשו מחר הדואליות?",
+     "title": "מסלול עוקף רגולטור? המכשול הצפוי בעסקת ארקיע־ישראייר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562449",
+     "date": "2026-11-09T03:38:00+00:00"
+    },
+    {
+     "title": "האם יש הזדמנות בוול סטריט אחרי הירידות, ומה יעשו היום הדואליות?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562408",
-     "date": "2026-11-08T19:00:00+00:00"
+     "date": "2026-11-09T03:37:00+00:00"
+    },
+    {
+     "title": "המדד האפרורי עקף את הנאסד\"ק לראשונה מ־2022. האם הוא עושה קאמבק?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562485",
+     "date": "2026-11-09T03:35:00+00:00"
+    },
+    {
+     "title": "\"בגדתי באשתי. אין לי שום תירוץ\": קראו את המכתב המלא של מנכ\"ל אנבידיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562507",
+     "date": "2026-11-09T03:33:00+00:00"
+    },
+    {
+     "title": "דירקטוריון אנבידיה פותח בחקירה לאחר שג'נסן הואנג ניהל רומן עם מרגלת סינית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562505",
+     "date": "2026-11-08T20:16:00+00:00"
     },
     {
      "title": "אמנון שעשוע חוזר למעבדה: מי יקנה ממנו את השליטה בבנק וואן זירו?",
@@ -182,11 +202,6 @@
      "date": "2026-11-08T05:12:00+00:00"
     },
     {
-     "title": "אמנון שעשוע מעמיד למכירה את הבנק הדיגיטלי one zero",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562375",
-     "date": "2026-11-08T05:01:00+00:00"
-    },
-    {
      "title": "זו הייתה אחת ההבטחות הגדולות של אילון מאסק. היא הוכתרה ככישלון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562374",
      "date": "2026-11-08T04:01:00+00:00"
@@ -205,27 +220,12 @@
      "title": "האקדמאית הישראלית מהבכירות בארה\"ב: \"משבר 2008 עלול לקרות שוב\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562255",
      "date": "2026-11-07T19:00:00+00:00"
-    },
-    {
-     "title": "אחרי פריצת המיליארדים: סמנכ\"ל הכספים של בייננס מתפטר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562369",
-     "date": "2026-11-07T18:26:00+00:00"
-    },
-    {
-     "title": "המודיעין האמריקאי: סוכנות הביון הסינית גייסה אשת עסקים המקורבת למנכ”ל אנבידיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562367",
-     "date": "2026-11-07T18:10:00+00:00"
-    },
-    {
-     "title": "מסע הרצח בכיכר המרכזית תועד: מניין ההרוגים עלה ל-6",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562368",
-     "date": "2026-11-07T18:07:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-09T03:17:14+00:00",
-  "fetched_at": "2026-11-09T03:17:14+00:00"
+  "checked_at": "2026-11-09T04:17:23+00:00",
+  "fetched_at": "2026-11-09T04:17:23+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-09T03:17:15+00:00",
-  "fetched_at": "2026-11-09T03:17:15+00:00"
+  "checked_at": "2026-11-09T04:17:24+00:00",
+  "fetched_at": "2026-11-09T04:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2436,8 +2436,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-09T03:17:16+00:00",
-  "fetched_at": "2026-11-09T03:17:16+00:00"
+  "checked_at": "2026-11-09T04:17:25+00:00",
+  "fetched_at": "2026-11-09T04:17:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2537,8 +2537,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-09T03:17:16+00:00",
-  "fetched_at": "2026-11-09T03:17:16+00:00"
+  "checked_at": "2026-11-09T04:17:25+00:00",
+  "fetched_at": "2026-11-09T04:17:25+00:00"
  },
  "ai": {
   "data": {
@@ -2561,14 +2561,14 @@
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 406,
+     "likes": 410,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 181,
+     "likes": 184,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -2582,7 +2582,7 @@
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 211,
+     "likes": 212,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
@@ -2600,18 +2600,18 @@
      "link": "https://huggingface.co/spaces/fendouai/free-ai-humanizer"
     },
     {
-     "title": "Qwen Image 2.1 Realtime",
-     "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
-     "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 208,
-     "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
-    },
-    {
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
      "likes": 69,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
+    },
+    {
+     "title": "Qwen Image 2.1 Realtime",
+     "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
+     "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
+     "likes": 208,
+     "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2630,12 +2630,21 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-09T03:17:23+00:00",
-  "fetched_at": "2026-11-09T03:17:23+00:00"
+  "checked_at": "2026-11-09T04:17:37+00:00",
+  "fetched_at": "2026-11-09T04:17:37+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "10 נק' ושיא דקות לוולף בתבוסה של הנטס לדאלאס",
+     "link": "https://www.one.co.il/Article/538402.html?ref=rss",
+     "date": "2026-11-09T04:04:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני וולף"
+     ]
+    },
     {
      "title": "בתיאום עם קריסטל פאלאס: ענאן חלאילי שוחרר מסגל נבחרת ישראל",
      "link": "https://sports.walla.co.il/item/3875471",
@@ -2646,31 +2655,12 @@
      ]
     },
     {
-     "title": "גלוך נבחר למצטיין, אפילו המבקר הגדול החמיא: \"ביצוע מושלם\"",
-     "link": "https://sports.walla.co.il/item/3875470",
-     "date": "2026-11-08T18:20:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
      "title": "לוהט: שער שני ברצף לתאי עבד במדי ויאדוליד",
      "link": "https://www.one.co.il/Article/538339.html?ref=rss",
      "date": "2026-11-08T18:13:00+00:00",
      "source": "ONE",
      "players": [
       "תאי עבד"
-     ]
-    },
-    {
-     "title": "תאי עבד ואוריין גורן כבשו, הפסד נוסף לברק יצחקי בקפריסין",
-     "link": "https://sports.walla.co.il/item/3875449",
-     "date": "2026-11-08T18:12:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "תאי עבד",
-      "אוריין גורן"
      ]
     },
     {
@@ -2689,33 +2679,6 @@
      "source": "ONE",
      "players": [
       "אוריין גורן"
-     ]
-    },
-    {
-     "title": "3 דקות לחלאילי, פאלאס הפסידה לליברפול וירדה למקום האחרון | צפו",
-     "link": "https://sports.walla.co.il/item/3875383",
-     "date": "2026-11-08T16:55:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "אוסקר גלוך בישל צמד, אבל אייאקס ספגה 2:2 בדקה ה-95",
-     "link": "https://sports.walla.co.il/item/3875437",
-     "date": "2026-11-08T16:27:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "ההוצאה של רוי רביבו עלתה ביוקר: אלצ'ה שוב הפסידה בבית",
-     "link": "https://sports.walla.co.il/item/3875290",
-     "date": "2026-11-08T15:51:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -2755,21 +2718,57 @@
      ]
     },
     {
-     "title": "אוריין גורן מחוץ לסגל ברצלונה למשחק מול אתלטיקו מדריד",
-     "link": "https://sports.walla.co.il/item/3875403",
-     "date": "2026-11-08T11:41:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוריין גורן"
-     ]
-    },
-    {
      "title": "דניאל פרץ בריאיון: \"צור עשה משחקים טובים, זו שאלה למאמן\"",
      "link": "https://sports.walla.co.il/item/3875396",
      "date": "2026-11-08T11:15:00+00:00",
      "source": "וואלה",
      "players": [
       "דניאל פרץ"
+     ]
+    },
+    {
+     "title": "אבדיה התלונן על העומס ה\"מטורף\", בפורטלנד עקצו את וומבי ה\"בכיין\"",
+     "link": "https://sports.walla.co.il/item/3875365",
+     "date": "2026-11-08T09:20:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "הפסד שני רצוף: סן אנטוניו הביסה את פורטלנד ואבדיה",
+     "link": "https://sports.walla.co.il/item/3875337",
+     "date": "2026-11-08T06:37:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "לוקה דונצ'יץ' העביר את דני אבדיה שיעור. פורטלנד תסיק מסקנות?",
+     "link": "https://sports.walla.co.il/item/3875282",
+     "date": "2026-11-07T10:07:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "לצד פתיחת עונה נפלאה, יש לדני אבדיה גם נתונים מדאיגים",
+     "link": "https://sports.walla.co.il/item/3875276",
+     "date": "2026-11-07T08:37:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "כמעט טריפל דאבל: אבדיה ופורטלנד שמטו יתרון 16 ונכנעו לעוד מופע של דונצ'יץ'",
+     "link": "https://sports.walla.co.il/item/3875270",
+     "date": "2026-11-07T07:05:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
      ]
     }
    ],
@@ -2983,11 +2982,16 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-09T03:17:19+00:00",
-  "fetched_at": "2026-11-09T03:17:19+00:00"
+  "checked_at": "2026-11-09T04:17:33+00:00",
+  "fetched_at": "2026-11-09T04:17:33+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "כוח רב-לאומי בדרך לעזה: \"בקרוב נתעורר ונגלה יותר חיילים זרים מצה\"ל\"",
+    "link": "https://www.walla.co.il/news/military/383960472",
+    "date": "2026-11-09T03:33:36+00:00"
+   },
    {
     "title": "בצה\"ל הודפים את הביקורת לאחר השיטפונות בעזה: העברנו לרצועה 91,000 אוהלים חדשים",
     "link": "https://www.walla.co.il/news/military/383960489",
@@ -3007,42 +3011,37 @@
     "title": "13 משפחות נכנסו למבנים מול יריחו; פיקוד המרכז: \"הופתענו ולא ידענו\"",
     "link": "https://www.walla.co.il/news/military/383960364",
     "date": "2026-11-06T17:22:56+00:00"
-   },
-   {
-    "title": "לראשונה מזה עשור: צה״ל במבצע לאיסוף נשק וציוד צבאי מאזרחים",
-    "link": "https://www.walla.co.il/news/military/383960254",
-    "date": "2026-11-05T15:35:27+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-09T03:17:19+00:00",
-  "fetched_at": "2026-11-09T03:17:19+00:00"
+  "checked_at": "2026-11-09T04:17:33+00:00",
+  "fetched_at": "2026-11-09T04:17:33+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-08T20:16:00+00:00",
-    "seen_at": "2026-11-09T03:17:24+00:00",
+    "newest": "2026-11-09T03:45:00+00:00",
+    "seen_at": "2026-11-09T04:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-08T19:00:00+00:00",
-    "seen_at": "2026-11-09T03:17:24+00:00",
+    "newest": "2026-11-09T03:38:00+00:00",
+    "seen_at": "2026-11-09T04:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-08T19:00:00+00:00",
-    "seen_at": "2026-11-09T03:17:24+00:00",
+    "newest": "2026-11-09T03:37:00+00:00",
+    "seen_at": "2026-11-09T04:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-08T09:20:00+00:00",
-    "seen_at": "2026-11-09T03:17:24+00:00",
+    "seen_at": "2026-11-09T04:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
@@ -3054,19 +3053,19 @@
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-08T21:45:00+00:00",
-    "seen_at": "2026-11-09T03:17:24+00:00",
+    "seen_at": "2026-11-09T04:17:38+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-08T22:47:00+00:00",
-    "seen_at": "2026-11-09T03:17:24+00:00",
+    "newest": "2026-11-09T04:11:00+00:00",
+    "seen_at": "2026-11-09T04:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-11-08T17:49:03+00:00",
-    "seen_at": "2026-11-09T03:17:24+00:00",
+    "newest": "2026-11-09T03:33:36+00:00",
+    "seen_at": "2026-11-09T04:17:38+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3078,35 +3077,35 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-05T17:00:00+00:00",
-    "seen_at": "2026-11-09T03:17:24+00:00",
+    "seen_at": "2026-11-09T04:17:38+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-08T20:33:45+00:00",
-    "seen_at": "2026-11-09T03:17:24+00:00",
+    "seen_at": "2026-11-09T04:17:38+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-08T18:36:02+00:00",
-    "seen_at": "2026-11-09T03:17:24+00:00",
+    "seen_at": "2026-11-09T04:17:38+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-08T23:03:22+00:00",
-    "seen_at": "2026-11-09T03:17:24+00:00",
+    "seen_at": "2026-11-09T04:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-08T12:01:35+00:00",
-    "seen_at": "2026-11-09T03:17:24+00:00",
+    "seen_at": "2026-11-09T04:17:38+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-09T03:17:24+00:00"
+  "checked_at": "2026-11-09T04:17:38+00:00"
  },
  "health_news": {
   "data": [
@@ -3262,7 +3261,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-09T03:17:20+00:00",
-  "fetched_at": "2026-11-09T03:17:20+00:00"
+  "checked_at": "2026-11-09T04:17:34+00:00",
+  "fetched_at": "2026-11-09T04:17:34+00:00"
  }
 }
