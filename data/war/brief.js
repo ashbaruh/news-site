@@ -1,248 +1,275 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-09T04:00:00+02:00",
- "generated_at": "2026-11-09T01:40:27+00:00",
+ "slot": "2026-11-09T12:00:00+02:00",
+ "generated_at": "2026-11-09T09:40:20+00:00",
  "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11090140-01",
-     "title": "ארה\"ב הפעילה כוח משימה לשיבוש נתיבי מעבר יבשתיים לאיראן",
-     "summary": "נשיא ארצות הברית הודיע כי כוח משימה ייעודי פועל באופן מלא לשיבוש תנועת סחורות ומעבר יבשתי אל תוך איראן וממנה, לצד מצור ימי.",
-     "axis": "ארה\"ב-איראן",
-     "claim_type": "statement",
+     "id": "IRAN-11090940-01",
+     "title": "שליח סין למזרח התיכון נועד באיראן עם בכיר ביטחוני איראני",
+     "summary": "השליח המיוחד של סין למזרח התיכון קיים שיחות באיראן עם סגן מזכיר המועצה העליונה לביטחון לאומי, והביע נכונות לחיזוק הקשרים הדו-צדדיים.",
+     "axis": "iran",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-08T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-08T22:12:04+00:00",
-     "last_update_at": "2026-11-08T22:12:04+00:00",
-     "what_is_not_verified": "היקף ההשפעה המעשית של כוח המשימה על תנועת הסחורות בפועל",
+     "occurred_at": "2026-11-09T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-09T07:04:08+00:00",
+     "last_update_at": "2026-11-09T08:46:36+00:00",
+     "what_is_not_verified": "תוכן השיחות המלא מעבר להודעת משרד החוץ הסיני לא פורט במלואו",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/china-seeks-build-ties-iran",
+       "published_at": "2026-11-09T08:46:36+00:00"
+      },
+      {
        "source_id": "src_mee",
-       "source_root_id": "or_truth_social",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-launches-task-force-disrupt-land-transit-routes-iran",
-       "published_at": "2026-11-08T22:12:04+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/china-says-it-willing-promote-fresh-progress-bilateral-relations-iran",
+       "published_at": "2026-11-09T07:04:08+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-11090140-02",
-     "title": "רוביו: אין פריצת דרך במגעים מול איראן",
-     "summary": "מזכיר המדינה האמריקאי הצהיר כי השיחות מול איראן אינן רושמות התקדמות בעקבות דרישות בלתי מתקבלות שהציגה טהראן.",
-     "axis": "דיפלומטיה ארה\"ב-איראן",
+     "id": "IRAN-11090940-02",
+     "title": "הצהרת דובר משרד החוץ האיראני על פתיחת מצר הורמוז",
+     "summary": "דובר משרד החוץ של איראן הצהיר כי ההצעה האיראנית לפתוח מחדש את מצר הורמוז תוך יומיים נותרה המתווה ההגיוני ביותר להשבת הביטחון לאזור.",
+     "axis": "iran",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-08T00:00:00+00:00",
+     "occurred_at": "2026-11-09T08:28:29+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-08T22:12:24+00:00",
-     "last_update_at": "2026-11-09T00:49:03+00:00",
-     "what_is_not_verified": "פרטי הדרישות המדויקות שהועלו במסגרת המגעים",
+     "first_reported_at": "2026-11-09T08:28:29+00:00",
+     "last_update_at": "2026-11-09T08:28:29+00:00",
+     "what_is_not_verified": "אין אימות עצמאי להיתכנות או לפרטי התוכנית מעבר לדברי הדובר",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49423",
-       "published_at": "2026-11-08T22:29:22+00:00"
-      },
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/94985",
-       "published_at": "2026-11-08T22:12:24+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/rubio-says-no-breakthrough-us-iran-talks",
-       "published_at": "2026-11-09T00:49:03+00:00"
+       "source_id": "src_irna",
+       "source_root_id": "fh_629921f4ea3c4a21",
+       "url": "https://en.irna.ir/news/86316716/Iran-s-2-day-Hormuz-reopening-proposal-remains-most-rational",
+       "published_at": "2026-11-09T08:28:29+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "בסיס מילואי חיל האוויר הומסטד, פלורידה",
-       "lat": 25.488,
-       "lon": -80.3948
-      }
-     ]
+     "places": []
     },
     {
-     "id": "IRAN-11090140-03",
-     "title": "דיווח על פיצוצים ותקיפות באי קשם בדרום איראן",
-     "summary": "כלי תקשורת רשמיים באיראן דיווחו על סדרת פיצוצים שנשמעו באי קשם, כשלפי סוכנות ידיעות מקומית ייתכן כי הותקפו מטרות באזור.",
-     "axis": "עימות צבאי באיראן",
-     "claim_type": "incident",
+     "id": "IRAN-11090940-03",
+     "title": "שר החוץ של ארה\"ב מדווח על היעדר פריצת דרך מול איראן",
+     "summary": "שר החוץ האמריקאי ציין כי אין התקדמות משמעותית במגעים מול טהראן וכי הדרישות האיראניות אינן מתקבלות על הדעת.",
+     "axis": "iran",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-08T00:00:00+00:00",
+     "occurred_at": "2026-11-09T06:40:15+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-08T20:15:20+00:00",
-     "last_update_at": "2026-11-08T22:19:04+00:00",
-     "what_is_not_verified": "זהות הגורם התוקף וטיב המטרות שנפגעו",
+     "first_reported_at": "2026-11-09T06:40:15+00:00",
+     "last_update_at": "2026-11-09T06:40:15+00:00",
+     "what_is_not_verified": "פרטי ההצעות והערוצים המדויקים שדרכם מתנהלים המגעים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_irna",
-       "url": "https://t.me/abualiexpress/133308",
-       "published_at": "2026-11-08T20:15:20+00:00"
-      },
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_irna",
-       "url": "https://www.iranintl.com/en/202611086475",
-       "published_at": "2026-11-08T22:19:04+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133315",
+       "published_at": "2026-11-09T06:40:15+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "האי קשם, איראן",
-       "lat": 26.7687,
-       "lon": 55.8477
-      }
-     ]
+     "places": []
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-11090140-01",
-     "title": "איתור דירה מבצעית ואמצעי לחימה בסמוך למוצבי או\"ם בדרום לבנון",
-     "summary": "כוחות צה\"ל איתרו דירה מבצעית ומחסן ובהם אמצעי לחימה רבים במבנים אזרחיים, במרחק של כמאתיים מטרים מעמדות או\"ם.",
-     "axis": "ישראל-חזבאללה",
+     "id": "NORTH-11090940-01",
+     "title": "תקיפות אוויריות בדרום לבנון",
+     "summary": "כלי טיס תקפו בעיירות כפר תבנית ואל-קנטרה שבדרום לבנון, לצד גיחות ופעילות נוספת באזור.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-08T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-08T16:39:59+00:00",
-     "last_update_at": "2026-11-08T16:39:59+00:00",
-     "what_is_not_verified": "לא פורטו שמות ספציפיים של הכפרים או היחידות המעורבות",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_idf",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25558",
-       "published_at": "2026-11-08T16:39:59+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דרום לבנון",
-       "lat": 33.2481,
-       "lon": 35.5119
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11090140-02",
-     "title": "יוזמה צרפתית מוצעת להסדר ביטחוני בדרום לבנון",
-     "summary": "צרפת מקדמת הצעה לנסיגה ישראלית מדרום לבנון תמורת ערבויות ביטחוניות ברצועת גבול והרחבת סמכויות משקיפי האו\"ם במקום כוח יוניפי\"ל.",
-     "axis": "דיפלומטיה ישראל-לבנון",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-08T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-08T17:31:58+00:00",
-     "last_update_at": "2026-11-08T17:31:58+00:00",
-     "what_is_not_verified": "האם ההצעה הוגשה רשמית לצדדים ומה עמדת ישראל ולבנון לגביה",
+     "occurred_at": "2026-11-09T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-09T07:50:09+00:00",
+     "last_update_at": "2026-11-09T09:20:21+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק או הנפגעים בתקיפות לא צוינו",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133301",
-       "published_at": "2026-11-08T17:31:58+00:00"
+       "url": "https://t.me/abualiexpress/133329",
+       "published_at": "2026-11-09T07:50:09+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/148252/",
+       "published_at": "2026-11-09T09:20:21+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/148242/",
+       "published_at": "2026-11-09T08:44:03+00:00"
       }
      ],
      "places": [
       {
-       "name": "דרום לבנון",
-       "lat": 33.2481,
-       "lon": 35.5119
+       "name": "כפר תבנית, לבנון",
+       "lat": 33.3519,
+       "lon": 35.5186
+      },
+      {
+       "name": "אל-קנטרה, לבנון",
+       "lat": 33.2589,
+       "lon": 35.459
       }
      ]
+    },
+    {
+     "id": "NORTH-11090940-02",
+     "title": "תושבים בכפרשובא הורשו למסוק זיתים בתיאום מול ישראל",
+     "summary": "תושבים מהכפר כפרשובא בדרום לבנון נכנסו למסוק זיתים בשטח הקו הצהוב בעקבות תיאום שהתבצע מול ישראל.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-09T08:34:19+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-09T08:34:19+00:00",
+     "last_update_at": "2026-11-09T08:34:19+00:00",
+     "what_is_not_verified": "גורמי התיאום הרשמיים המדויקים לא פורטו",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133334",
+       "published_at": "2026-11-09T08:34:19+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "כפרשובא, לבנון",
+       "lat": 33.3277,
+       "lon": 35.6927
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11090940-03",
+     "title": "שר החוץ הירדני הגיע לשיחות תיאום בסוריה",
+     "summary": "שר החוץ של ירדן הגיע לסוריה לצורך השתתפות במושב השלישי של מועצת התיאום הגבוהה בין המדינות לדיון בשיתוף פעולה הדדי.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-09T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-09T08:20:54+00:00",
+     "last_update_at": "2026-11-09T08:20:54+00:00",
+     "what_is_not_verified": "תוכן ההסכמות שיושגו במפגש",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aa.com.tr/en/middle-east/jordanian-foreign-minister-arrives-in-syria-for-high-level-coordination-talks/4116576",
+       "published_at": "2026-11-09T08:20:54+00:00"
+      }
+     ],
+     "places": []
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11090140-01",
-     "title": "תקיפה אוקראינית על בית זיקוק במחוז לנינגרד ברוסיה",
-     "summary": "כוחות אוקראיניים ביצעו תקיפה נגד מתקן זיקוק נפט הממוקם במחוז לנינגרד שבשטח רוסיה.",
-     "axis": "רוסיה-אוקראינה",
+     "id": "UKRAINE-11090940-01",
+     "title": "מתקפת כטב\"מים אוקראינית פגעה בבית זיקוק במחוז לנינגרד",
+     "summary": "כלי טיס בלתי מאוישים פגעו בבית הזיקוק בעיר קירישי שבמחוז לנינגרד ברוסיה וגרמו לשריפה שכובתה, לצד פגיעות שברי יירוט במבנים ומותה של אישה.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-09T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-09T01:28:57+00:00",
-     "last_update_at": "2026-11-09T01:28:57+00:00",
-     "what_is_not_verified": "היקף הנזק והאמצעים ששימשו לתקיפה",
+     "first_reported_at": "2026-11-09T09:08:01+00:00",
+     "last_update_at": "2026-11-09T09:39:52+00:00",
+     "what_is_not_verified": "היקף הנזק התפעולי המדויק למתקן הזיקוק",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49425",
-       "published_at": "2026-11-09T01:28:57+00:00"
+       "url": "https://www.theguardian.com/world/live/2026/nov/09/polands-krakow-attack-ukraine-russia-france-germany-europe-latest-news",
+       "published_at": "2026-11-09T09:39:52+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/11/09/ukrainian-drones-strike-russia-s-leningrad-region-sparking-fire-at-one-of-the-country-s-largest-oil-refineries",
+       "published_at": "2026-11-09T09:08:01+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קירישי, רוסיה",
+       "lat": 59.4503,
+       "lon": 32.0106
+      },
+      {
+       "name": "וסבולוז'סק, רוסיה",
+       "lat": 60.024,
+       "lon": 30.646
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11090940-02",
+     "title": "תקיפה רוסית על מתקני אנרגיה במחוז רובנה",
+     "summary": "כוחות רוסיים תקפו מתקני תשתית אנרגיה, עסקים ואזורי מגורים בצפון מחוז רובנה במהלך הלילה.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-09T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-09T08:12:00+00:00",
+     "last_update_at": "2026-11-09T08:12:00+00:00",
+     "what_is_not_verified": "פירוט מלא של חומרת הנזק לאספקת החשמל במחוז",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061895/",
+       "published_at": "2026-11-09T08:12:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-11090140-02",
-     "title": "אספקת החשמל החיצונית לתחנת הכוח הגרעינית בזפוריז'יה נותקה וחודשה",
-     "summary": "תחנת הכוח בזפוריז'יה נותקה מקו החשמל החיצוני היחיד שלה ונאלצה לפעול על גנרטורי חירום במשך כעשר שעות עד להשבת החיבור.",
-     "axis": "חזית הגרעין והאנרגיה באוקראינה",
-     "claim_type": "incident",
+     "id": "UKRAINE-11090940-03",
+     "title": "האיחוד האירופי יפעיל מנגנון חירום לסיוע בתשתיות באוקראינה",
+     "summary": "נשיא אוקראינה מסר כי האיחוד האירופי יפעיל מנגנון סיוע מיוחד לתמיכה באספקת חשמל, מים וחימום במדינה.",
+     "axis": "ukraine",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-08T00:00:00+00:00",
+     "occurred_at": "2026-11-09T09:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-09T01:09:58+00:00",
-     "last_update_at": "2026-11-09T01:09:58+00:00",
-     "what_is_not_verified": "הסיבה המדויקת לניתוק קו החשמל החיצוני",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/power-to-zaporizhzhia-nuclear-power-plant-cut-restored-iaea-says/",
-       "published_at": "2026-11-09T01:09:58+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "תחנת הכוח הגרעינית זפוריז'יה, אוקראינה",
-       "lat": 47.5126,
-       "lon": 34.5895
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11090140-03",
-     "title": "רוסיה תקפה מתקני תשתית אנרגיה במחוז אודסה",
-     "summary": "מתקפה רוסית נרחבת על תשתיות אנרגיה במחוז אודסה הובילה לניתוקי חשמל בחלקים מהאזור.",
-     "axis": "רוסיה-אוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-08T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-08T19:40:00+00:00",
-     "last_update_at": "2026-11-08T19:40:00+00:00",
-     "what_is_not_verified": "היקף הנפגעים ומידת הנזק המדויקת לתחנות הכוח",
+     "first_reported_at": "2026-11-09T09:00:00+00:00",
+     "last_update_at": "2026-11-09T09:00:00+00:00",
+     "what_is_not_verified": "מועד ההפעלה המדויק וסכומי הסיוע במסגרת המנגנון",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "or_ukrinform",
-       "url": "https://www.ukrinform.net/rubric-ato/4182739-russian-forces-launch-massive-attack-on-odesa-regions-energy-infrastructure.html",
-       "published_at": "2026-11-08T19:40:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-polytics/4182833-eu-to-activate-special-emergency-mechanism-for-ukraine-zelensky.html",
+       "published_at": "2026-11-09T09:00:00+00:00"
       }
      ],
      "places": []
@@ -252,30 +279,24 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-11090140-01",
-     "title": "נזק למבנה של חברת ארמקו בריאד בעקבות מתקפה חות'ית",
-     "summary": "שמשות נופצו במטה של חברת הנפט ארמקו במרכז הפיננסי של ריאד כתוצאה משברי יירוט של ניסיון תקיפה חות'י.",
-     "axis": "תימן-סעודיה",
-     "claim_type": "incident",
+     "id": "YEMEN-11090940-01",
+     "title": "איומי החות'ים על יעדים נוספים בסעודיה לאחר פגיעה בריאד",
+     "summary": "החות'ים איימו בהרחבת הפגיעות נגד יעדי תיירות ומוסדות פיננסיים בסעודיה, לאחר פגיעת טילים במרכז הפיננסי בריאד.",
+     "axis": "yemen",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-08T00:00:00+00:00",
+     "occurred_at": "2026-11-09T09:25:15+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-08T20:03:15+00:00",
-     "last_update_at": "2026-11-08T20:46:28+00:00",
-     "what_is_not_verified": "מספר הטילים ששוגרו בפועל לעבר היעד",
+     "first_reported_at": "2026-11-09T09:25:15+00:00",
+     "last_update_at": "2026-11-09T09:25:15+00:00",
+     "what_is_not_verified": "רמת המוכנות הממשית והיכולת להוציא לפועל את האיומים המוצהרים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
+       "source_id": "src_israelhayom",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/houthi-attack-damages-aramco-building-riyadhs-financial-district",
-       "published_at": "2026-11-08T20:46:28+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/155449",
-       "published_at": "2026-11-08T20:03:15+00:00"
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21811316",
+       "published_at": "2026-11-09T09:25:15+00:00"
       }
      ],
      "places": [
@@ -283,81 +304,6 @@ window.DB.war_brief = {
        "name": "ריאד, סעודיה",
        "lat": 24.6389,
        "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-11090140-02",
-     "title": "הקואליציה בהובלת סעודיה השמידה משגרי טילים בליסטיים בצנעא",
-     "summary": "הקואליציה הודיעה על השמדת שני משגרים של טילים בליסטיים בצנעא, ששימשו לפי טענתה לשיגורים שבוצעו לעבר סעודיה.",
-     "axis": "תימן-סעודיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-08T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-08T18:28:00+00:00",
-     "last_update_at": "2026-11-08T18:58:36+00:00",
-     "what_is_not_verified": "אימות עצמאי להשמדת המשגרים מעבר להודעת הקואליציה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-destroyed-houthi-missile-launchpads-yemens",
-       "published_at": "2026-11-08T18:58:36+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/155445",
-       "published_at": "2026-11-08T18:28:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "צנעא, תימן",
-       "lat": 15.3539,
-       "lon": 44.2059
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-11090140-03",
-     "title": "צבא תימן טוען לפגיעה במאות לוחמים חות'ים במבצע צבאי",
-     "summary": "דובר צבאי של ממשלת תימן מסר כי מאות פעילי התנועה החות'ית נוטרלו או נסוגו במהלך תקיפות אוויריות ומבצעיות במספר חזיתות.",
-     "axis": "מלחמת הפנים בתימן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-08T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-08T16:17:33+00:00",
-     "last_update_at": "2026-11-08T23:05:33+00:00",
-     "what_is_not_verified": "אימות בלתי תלוי של מספרי הנפגעים שמסר הדובר",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-claim-attacks-against-houthi-positions",
-       "published_at": "2026-11-08T23:05:33+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/155439",
-       "published_at": "2026-11-08T16:17:33+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מאריב, תימן",
-       "lat": 15.4579,
-       "lon": 45.323
-      },
-      {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
       }
      ]
     }
