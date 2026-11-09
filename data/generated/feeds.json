@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-09T14:17:10+00:00",
-  "fetched_at": "2026-11-09T14:17:10+00:00"
+  "checked_at": "2026-11-09T15:17:16+00:00",
+  "fetched_at": "2026-11-09T15:17:16+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,25 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-09T14:17:24+00:00",
-  "fetched_at": "2026-11-09T14:17:24+00:00"
+  "checked_at": "2026-11-09T15:17:30+00:00",
+  "fetched_at": "2026-11-09T15:17:30+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Three TV innovations that set the world alight – and two unfortunate flops",
+    "title_he": "שלושה חידושי טלוויזיה שהציתו את העולם - ושני פלופים מצערים",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/tv-home-cinema/televisions/three-tv-innovations-that-set-the-world-alight-and-two-unfortunate-flops",
+    "date": "2026-11-09T14:34:21+00:00"
+   },
+   {
+    "title_en": "Acoustic Energy AE2 40th Anniversary",
+    "title_he": "אנרגיה אקוסטית AE2 40 שנה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/acoustic-energy-ae2-40th-anniversary",
+    "date": "2026-11-09T14:22:14+00:00"
+   },
    {
     "title_en": "The Award-winning earbuds I use every day have fallen to a new low price, with 50% off",
     "title_he": "האוזניות עטורי הפרסים שבהן אני משתמש מדי יום ירדו למחיר נמוך חדש, עם 50% הנחה",
@@ -60,27 +74,13 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wireless-earbuds/huawei-takes-aim-at-sony-and-bose-with-its-affordable-noise-cancelling-wireless-earbuds",
     "date": "2026-11-09T10:00:00+00:00"
-   },
-   {
-    "title_en": "Pro-Ject debuts a new turntable, Sony goes retro, and we test Sonus Faber's £20,000 floorstanders",
-    "title_he": "Pro-Ject מציגה לראשונה פטיפון חדש, סוני עוברת לרטרו, ואנחנו בודקים את משטחי הרצפה של Sonus Faber של 20,000 פאונד",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/pro-ject-debuts-a-new-turntable-sony-goes-retro-and-we-try-out-sonus-fabers-gbp20-000-floorstanders",
-    "date": "2026-11-09T09:00:00+00:00"
-   },
-   {
-    "title_en": "Retro or ANC? Sony and Bose are courting the younger generation with two very different wired headphone designs, and I'm all for it",
-    "title_he": "רטרו או ANC? סוני ובוז מחזרות אחרי הדור הצעיר עם שני עיצובי אוזניות חוטיות שונות מאוד, ואני בעד זה",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/retro-or-anc-sony-and-bose-are-courting-the-younger-generation-with-two-very-different-wired-headphone-designs-and-im-all-for-it",
-    "date": "2026-11-08T23:03:22+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-09T14:17:24+00:00",
-  "fetched_at": "2026-11-09T14:17:24+00:00"
+  "checked_at": "2026-11-09T15:17:32+00:00",
+  "fetched_at": "2026-11-09T15:17:32+00:00"
  },
- "generated_at": "2026-11-09T14:17:24+00:00",
+ "generated_at": "2026-11-09T15:17:32+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,24 +92,39 @@
     {
      "title": "דיווח באיראן: \"המנהיג העליון הורה לסיים את מצב \"לא מלחמה ולא שלום\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562506",
-     "date": "2026-11-09T14:01:00+00:00"
+     "date": "2026-11-09T14:45:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "תדהר ושופרסל יקימו מגדל בן 30 קומות בשכונת תלפיות בירושלים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562593",
+     "date": "2026-11-09T15:10:00+00:00"
+    },
+    {
+     "title": "לקראת נעילה בתל אביב: העליות מתחזקות, הדולר נופל ל-3.15 שקלים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562489",
+     "date": "2026-11-09T14:56:00+00:00"
+    },
+    {
+     "title": "העליות בוול סטריט מתחזקות; אנבידיה נופלת, מחירי הנפט יורדים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562500",
+     "date": "2026-11-09T14:55:00+00:00"
+    },
+    {
+     "title": "מאנדיי עקפה את התחזיות, אך המניה צונחת במסחר. אלו הסיבות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562521",
+     "date": "2026-11-09T14:46:00+00:00"
+    },
+    {
+     "title": "בפעם השנייה בתוך חמישה חודשים: תקלה עיכבה את פרסום שער הדולר היציג",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562578",
+     "date": "2026-11-09T14:41:00+00:00"
+    },
+    {
      "title": "שיחת המשקיעים ששווה מעל 2 מיליארד שקל: מאחורי המהפך במניית נקסט ויז'ן",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562566",
      "date": "2026-11-09T14:09:00+00:00"
-    },
-    {
-     "title": "עליות בחוזים בוול סטריט; אנבידיה נופלת ביותר מ-5% במסחר המוקדם",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562500",
-     "date": "2026-11-09T13:50:00+00:00"
-    },
-    {
-     "title": "העליות בת\"א מתחזקות בהובלת סקטור הביומד; נקסט ויז'ן טסה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562489",
-     "date": "2026-11-09T13:18:00+00:00"
     },
     {
      "title": "צרפת מאשימה: חשבונות ישראליים ליבו ברשת את מהומות המהגרים",
@@ -130,11 +145,6 @@
      "title": "הזהב השחור של איראן מצא בית חדש",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562549",
      "date": "2026-11-09T11:58:00+00:00"
-    },
-    {
-     "title": "דיפלומט נכנסת לאמריקה הלטינית: רוכשת שתי חברות ב-45 מיליון דולר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562555",
-     "date": "2026-11-09T11:54:00+00:00"
     },
     {
      "title": "המפגש בטאיפיי, מיליארדי הדולרים והחשד לריגול סיני: כך הסתבך מנכ\"ל אנבידיה",
@@ -167,19 +177,9 @@
      "date": "2026-11-09T08:58:00+00:00"
     },
     {
-     "title": "ויקטורי מבקשת היתר מרשות התחרות לרכוש 30% מקרפור",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562525",
-     "date": "2026-11-09T08:53:00+00:00"
-    },
-    {
      "title": "איך מונעים מהתנודות החדות בשווקים לשבש את העתיד הפיננסי שלכם?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562397",
      "date": "2026-11-09T08:17:00+00:00"
-    },
-    {
-     "title": "מאנדיי עקפה את התחזיות, המנכ\"לים מזכירים \"אתגרים תפעוליים בטווח הקרוב\" בשל המהלך האסטרטגי לכיוון AI",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562521",
-     "date": "2026-11-09T08:13:00+00:00"
     },
     {
      "title": "דריסת רגל סינית: קטאר לקחה הלוואת ענק כדי להתמודד עם משבר הנפט",
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-09T14:17:11+00:00",
-  "fetched_at": "2026-11-09T14:17:11+00:00"
+  "checked_at": "2026-11-09T15:17:17+00:00",
+  "fetched_at": "2026-11-09T15:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-09T14:17:11+00:00",
-  "fetched_at": "2026-11-09T14:17:11+00:00"
+  "checked_at": "2026-11-09T15:17:19+00:00",
+  "fetched_at": "2026-11-09T15:17:19+00:00"
  },
  "tv": {
   "data": [
@@ -2429,8 +2429,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-09T14:17:13+00:00",
-  "fetched_at": "2026-11-09T14:17:13+00:00"
+  "checked_at": "2026-11-09T15:17:20+00:00",
+  "fetched_at": "2026-11-09T15:17:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2530,8 +2530,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-09T14:17:13+00:00",
-  "fetched_at": "2026-11-09T14:17:13+00:00"
+  "checked_at": "2026-11-09T15:17:20+00:00",
+  "fetched_at": "2026-11-09T15:17:20+00:00"
  },
  "ai": {
   "data": {
@@ -2554,28 +2554,28 @@
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 444,
+     "likes": 445,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 203,
+     "likes": 205,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1437,
+     "likes": 1438,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 219,
+     "likes": 220,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
@@ -2623,8 +2623,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-09T14:17:23+00:00",
-  "fetched_at": "2026-11-09T14:17:23+00:00"
+  "checked_at": "2026-11-09T15:17:29+00:00",
+  "fetched_at": "2026-11-09T15:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2976,8 +2976,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-09T14:17:16+00:00",
-  "fetched_at": "2026-11-09T14:17:16+00:00"
+  "checked_at": "2026-11-09T15:17:24+00:00",
+  "fetched_at": "2026-11-09T15:17:24+00:00"
  },
  "idf": {
   "data": [
@@ -3008,58 +3008,58 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-09T14:17:16+00:00",
-  "fetched_at": "2026-11-09T14:17:16+00:00"
+  "checked_at": "2026-11-09T15:17:25+00:00",
+  "fetched_at": "2026-11-09T15:17:25+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-09T14:14:00+00:00",
-    "seen_at": "2026-11-09T14:17:24+00:00",
+    "newest": "2026-11-09T15:10:00+00:00",
+    "seen_at": "2026-11-09T15:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-09T14:09:00+00:00",
-    "seen_at": "2026-11-09T14:17:24+00:00",
+    "newest": "2026-11-09T15:10:00+00:00",
+    "seen_at": "2026-11-09T15:17:32+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-09T13:50:00+00:00",
-    "seen_at": "2026-11-09T14:17:24+00:00",
+    "newest": "2026-11-09T14:55:00+00:00",
+    "seen_at": "2026-11-09T15:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-08T09:20:00+00:00",
-    "seen_at": "2026-11-09T14:17:24+00:00",
+    "seen_at": "2026-11-09T15:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-09T14:13:00+00:00",
-    "seen_at": "2026-11-09T14:17:24+00:00",
+    "newest": "2026-11-09T15:17:00+00:00",
+    "seen_at": "2026-11-09T15:17:32+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-09T13:56:00+00:00",
-    "seen_at": "2026-11-09T14:17:24+00:00",
+    "newest": "2026-11-09T15:48:00+00:00",
+    "seen_at": "2026-11-09T15:17:32+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-09T14:00:00+00:00",
-    "seen_at": "2026-11-09T14:17:24+00:00",
+    "newest": "2026-11-09T14:40:00+00:00",
+    "seen_at": "2026-11-09T15:17:32+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-09T13:58:59+00:00",
-    "seen_at": "2026-11-09T14:17:24+00:00",
+    "seen_at": "2026-11-09T15:17:32+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3071,35 +3071,35 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-05T17:00:00+00:00",
-    "seen_at": "2026-11-09T14:17:24+00:00",
+    "seen_at": "2026-11-09T15:17:32+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-09T14:00:43+00:00",
-    "seen_at": "2026-11-09T14:17:24+00:00",
+    "seen_at": "2026-11-09T15:17:32+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-09T12:30:57+00:00",
-    "seen_at": "2026-11-09T14:17:24+00:00",
+    "seen_at": "2026-11-09T15:17:32+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-09T11:41:09+00:00",
-    "seen_at": "2026-11-09T14:17:24+00:00",
+    "newest": "2026-11-09T14:34:21+00:00",
+    "seen_at": "2026-11-09T15:17:32+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-09T11:57:49+00:00",
-    "seen_at": "2026-11-09T14:17:24+00:00",
+    "seen_at": "2026-11-09T15:17:32+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-09T14:17:24+00:00"
+  "checked_at": "2026-11-09T15:17:32+00:00"
  },
  "health_news": {
   "data": [
@@ -3255,7 +3255,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-09T14:17:17+00:00",
-  "fetched_at": "2026-11-09T14:17:17+00:00"
+  "checked_at": "2026-11-09T15:17:26+00:00",
+  "fetched_at": "2026-11-09T15:17:26+00:00"
  }
 }
