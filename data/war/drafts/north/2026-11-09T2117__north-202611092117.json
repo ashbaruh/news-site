@@ -1,0 +1,442 @@
+{
+ "status": "draft",
+ "received_sha256_12": "ba1e0b38c298",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "verified": 1,
+   "shared_root": 3,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-09T21:17:12+00:00",
+  "window": {
+   "from": "2026-11-08T21:17:12+00:00",
+   "to": "2026-11-09T21:17:12+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202611092117"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בפעילות צבאית ישראלית מתמשכת בדרום לבנון ובגבול סוריה, הכוללת הפגזות, תקיפות מהאוויר ופעולות חיכוך מקומיות. במקביל, סוריה פועלת לשיקום מעמדה האזורי והכלכלי באמצעות פתיחה מחודשת של מעברי גבול עם לבנון, הידוק הקשרים עם ירדן וקידום הבנות ביטחוניות מול סעודיה וטורקיה. במישור האזרחי המקומי נרשמים תיאומים מוגבלים לצורכי חקלאות באזורי החיכוך בדרום לבנון.",
+  "fronts": [
+   {
+    "name": "דרום לבנון וישראל",
+    "status": "לחימה בעצימות מוגבלת, תקיפות ישראליות יומיומיות לצד תיאומים נקודתיים לחקלאים"
+   },
+   {
+    "name": "דרום סוריה וישראל",
+    "status": "חיכוך בגבול הכולל ירי צה\"ל לעבר מטרות ואנשי תקשורת באזור קוניטרה"
+   },
+   {
+    "name": "גבול לבנון - סוריה",
+    "status": "הסדרה ופתיחה מחדש של מעברי גבול אזרחיים ומסחריים לאחר הרס ממושך"
+   },
+   {
+    "name": "הציר הסורי - אזורי (ירדן, סעודיה, טורקיה)",
+    "status": "התקרבות מדינית, חתימה על הסכמי סחר ומגעים להסכמי הגנה אזוריים"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11092117-01",
+    "title": "המשך תקיפות ופעילות כוחות צה\"ל ברחבי דרום לבנון",
+    "summary": "הצבא הישראלי ביצע שורת הפגזות ארטילריות, תקיפות מהאוויר, ירי מקלעים כבד, פיצוצים יזומים והריסת מבנים במספר כפרים ואזורים בדרום לבנון.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T07:50:09+00:00",
+    "last_update_at": "2026-11-09T17:59:55+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק ומספר הנפגעים מפעולות אלו אינם מצוינים בפרסומים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_a5e7ff28c18ff8c7",
+      "url": "https://english.almanar.com.lb/article/148507/",
+      "published_at": "2026-11-09T17:59:55+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_f36905f59c1eb3a5",
+      "url": "https://english.almanar.com.lb/article/148457/",
+      "published_at": "2026-11-09T16:12:15+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_a5e7ff28c18ff8c7",
+      "url": "https://english.almanar.com.lb/article/148432/",
+      "published_at": "2026-11-09T16:04:25+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_a5eb566a7e2ccc72",
+      "url": "https://english.almanar.com.lb/article/148422/",
+      "published_at": "2026-11-09T15:01:22+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_a5e7ff28c18ff8c7",
+      "url": "https://t.me/abualiexpress/133329",
+      "published_at": "2026-11-09T07:50:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בית יהון, לבנון",
+      "lat": 33.1582,
+      "lon": 35.4212
+     },
+     {
+      "name": "כפר תבנית, לבנון",
+      "lat": 33.35,
+      "lon": 35.5111
+     },
+     {
+      "name": "אל-חיאם, לבנון",
+      "lat": 33.3272,
+      "lon": 35.609
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11092117-02",
+    "title": "ירי של כוחות צבא ישראליים לעבר עיתונאים בדרום סוריה",
+    "summary": "כוחות צה\"ל פתחו באש לעבר צוותי תקשורת שסיקרו באזור הכפר בריקה במחוז קוניטרה, וכתוצאה מכך נפצעו שני אזרחים סורים.",
+    "axis": "ישראל - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T14:06:42+00:00",
+    "last_update_at": "2026-11-09T18:28:42+00:00",
+    "what_is_not_verified": "זהות הפצועים המדויקת ומצבם הרפואי אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/2-syrians-wounded-by-israeli-army-fire-in-southern-syria/4117869",
+      "published_at": "2026-11-09T18:28:42+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/-israeli-forces-open-fire-on-journalists-in-southern-syria/4117454",
+      "published_at": "2026-11-09T14:06:42+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בריקה, סוריה",
+      "lat": 33.0348,
+      "lon": 35.8977
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11092117-03",
+    "title": "תיאום מסיק זיתים בקו הצהוב בדרום לבנון",
+    "summary": "תושבי כפר שובא הורשו להיכנס לשטח הכפר המצוי בעומק הקו הצהוב כדי למסוק זיתים, לאחר ביצוע תיאום מול ישראל.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T08:34:19+00:00",
+    "last_update_at": "2026-11-09T08:34:19+00:00",
+    "what_is_not_verified": "אופן ביצוע התיאום והגורם המתווך המדויק אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133334",
+      "published_at": "2026-11-09T08:34:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפר שובא, לבנון",
+      "lat": 33.3277,
+      "lon": 35.6927
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11092117-04",
+    "title": "פתיחה מחדש של מעבר הגבול עבודיה-דבוסיה בין לבנון לסוריה",
+    "summary": "מעבר הגבול המרכזי בין לבנון לסוריה נפתח מחדש לתנועת נוסעים ומסחר לאחר שהיה סגור כמעט שנתיים בעקבות תקיפות ישראליות שגרמו להרס במקום.",
+    "axis": "סוריה - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T15:02:00+00:00",
+    "last_update_at": "2026-11-09T15:02:00+00:00",
+    "what_is_not_verified": "אין פרטים על היקף התנועה המסחרית שנרשמה בפועל ביום הפתיחה הראשון.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_6f8125479ec7bf07",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/967128/lebanon-syria-border-crossing-reopens-after-israeli-strikes-as-both-co/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967128",
+      "published_at": "2026-11-09T15:02:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11092117-05",
+    "title": "ביקור שר החוץ הירדני בדמשק וחתימה על הסכמי שיתוף פעולה",
+    "summary": "שרי החוץ של סוריה וירדן נפגשו בדמשק וחתמו על אחד עשר הסכמי שיתוף פעולה כלכליים ותשתיתיים, תוך הסדרת פיצויים בעקבות תקיפות אוויריות ירדניות במחוז דרעא בחודש הקודם.",
+    "axis": "סוריה - ירדן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T08:20:54+00:00",
+    "last_update_at": "2026-11-09T17:18:32+00:00",
+    "what_is_not_verified": "גובה הפיצויים הכספיים שיועברו למשפחות הנפגעים אינו מפורט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/syria-jordan-focus-economic-ties-amid-fallout-october-attacks",
+      "published_at": "2026-11-09T17:18:32+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/jordan-fm-signs-cooperation-deals-syria-after-deadly-strikes",
+      "published_at": "2026-11-09T12:06:02+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/middleeastnews/967114/syria-jordan-seek-to-mend-ties-after-deadly-airstrikes-sign-cooperatio/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967114",
+      "published_at": "2026-11-09T11:02:48+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-jordan-sign-11-cooperation-documents-including-rail-link-deal/4116576",
+      "published_at": "2026-11-09T08:20:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     },
+     {
+      "name": "דרעא, סוריה",
+      "lat": 32.6228,
+      "lon": 36.1068
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11092117-06",
+    "title": "מגעים להצטרפות סוריה להסכם הגנה משותף והסכם צבאי עם סעודיה",
+    "summary": "נמסר כי דמשק נערכת להצטרף להסכם ההגנה של מכה יחד עם טורקיה, סעודיה ופקיסטן, לצד אישור סורי רשמי על חתימת הסכם שיתוף פעולה צבאי עם ריאד והכחשת כוונה לשלוח חיילים לתימן.",
+    "axis": "סוריה - טורקיה - מדינות ערב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T10:09:57+00:00",
+    "last_update_at": "2026-11-09T19:29:07+00:00",
+    "what_is_not_verified": "האם התקבלה החלטה סופית להצטרף להסכם מכה נותר שנוי במחלוקת בין מקורות שונים, ודמשק טרם פרסמה הודעה רשמית בעניין.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/syria-denies-sending-troops-fight-houthis-return-saudi-loans",
+      "published_at": "2026-11-09T19:29:07+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/148492/",
+      "published_at": "2026-11-09T16:37:54+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-denies-it-has-forces-fighting-yemen",
+      "published_at": "2026-11-09T13:28:36+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-denies-sending-troops-to-yemen-says-military-deal-with-saudi-arabia-excludes-deployment/4117347",
+      "published_at": "2026-11-09T13:06:02+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49428",
+      "published_at": "2026-11-09T11:46:09+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/middleeastnews/967103/syrian-fm-says-country-has-no-troops-in-yemen-wont-send-any/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967103",
+      "published_at": "2026-11-09T10:09:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11092117-07",
+    "title": "ביקור צפוי של שגריר ארצות הברית באו\"ם בלבנון",
+    "summary": "שגריר ארצות הברית באו\"ם מייק וולץ צפוי להגיע לביקור רשמי בלבנון במהלך השבוע הבא.",
+    "axis": "לבנון - ארצות הברית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T14:20:21+00:00",
+    "last_update_at": "2026-11-09T14:20:21+00:00",
+    "what_is_not_verified": "המועד המדויק ולוח הפגישות הרשמי אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/967155/us-ambassador-to-un-mike-waltz-to-visit-lebanon-next-week-lbci-sources/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967155",
+      "published_at": "2026-11-09T14:20:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "ההחלטה הסופית של דמשק בנוגע להצטרפות להסכם ההגנה המשותף של מכה",
+   "טענות על פריסת חיילים סורים בתימן ובסעודיה לצורך לחימה בחות'ים",
+   "מספר הנפגעים והיקף הנזק המדויק מתקיפות צה\"ל בדרום לבנון",
+   "זהותם המלאה של הפצועים מירי צה\"ל לעבר עיתונאים במחוז קוניטרה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1707,
+    "unit": "ILS",
+    "change_pct": -0.88,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "סוריה",
+    "declared": [
+     "שיקום יכולות הצבא והמוסדות האזרחיים באמצעות מומחיות סעודית",
+     "הרחבת קשרי המסחר והתשתיות עם ירדן ולבנון",
+     "הכחשת כל כוונה לשלוח כוחות צבאיים לתימן"
+    ],
+    "inferred": [
+     "שבירת הבידוד המדיני והידוק הבריתות עם הציר הסוני בהובלת סעודיה וטורקיה",
+     "השגת מקורות מימון והשקעות זרות לשיקום המדינה לאחר שנות עימות"
+    ],
+    "forecast": [
+     "המשך מיסוד ההסכמים הכלכליים עם שכנותיה והעמקת התיאום הביטחוני האזורי"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [],
+    "inferred": [
+     "שימור חופש הפעולה הצבאי ופגיעה בתשתיות עוינות בדרום לבנון ובדרום סוריה",
+     "מניעת התבססות גורמים חמושים בסמוך לקו הגבול והגנה על מרחב החיץ"
+    ],
+    "forecast": [
+     "המשך פעילות הסיכול וההפגזות לצד אישור נקודתי לפעילות אזרחית מתואמת"
+    ]
+   },
+   {
+    "actor": "לבנון",
+    "declared": [
+     "חידוש התנועה והמסחר דרך מעברי הגבול עם סוריה",
+     "קידום רפורמות פיננסיות מול קרן המטבע הבינלאומית"
+    ],
+    "inferred": [
+     "ניסיון להקל על המשבר הכלכלי הפנימי באמצעות פתיחת עורקי סחר אזוריים"
+    ],
+    "forecast": [
+     "פתיחת מעברי גבול נוספים עם סוריה בחודשים הקרובים, לרבות מעבר אל-ערידה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/148492/",
+    "accessed_at": "2026-11-09T21:17:12+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/syria-denies-sending-troops-fight-houthis-return-saudi-loans",
+    "accessed_at": "2026-11-09T21:17:12+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syria-denies-sending-troops-to-yemen-says-military-deal-with-saudi-arabia-excludes-deployment/4117347",
+    "accessed_at": "2026-11-09T21:17:12+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/967155/us-ambassador-to-un-mike-waltz-to-visit-lebanon-next-week-lbci-sources/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967155",
+    "accessed_at": "2026-11-09T21:17:12+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-denies-it-has-forces-fighting-yemen",
+    "accessed_at": "2026-11-09T21:17:12+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/jordan-fm-signs-cooperation-deals-syria-after-deadly-strikes",
+    "accessed_at": "2026-11-09T21:17:12+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133334",
+    "accessed_at": "2026-11-09T21:17:12+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49428",
+    "accessed_at": "2026-11-09T21:17:12+00:00"
+   }
+  ]
+ }
+}

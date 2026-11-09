@@ -1,0 +1,378 @@
+{
+ "status": "draft",
+ "received_sha256_12": "193c710fb387",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 3,
+   "initial": 5
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-09T21:13:29+00:00",
+  "window": {
+   "from": "2026-11-08T21:13:29+00:00",
+   "to": "2026-11-09T21:13:29+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202611092113"
+  },
+  "summary": "הלחימה בזירה התימנית מסלימה באופן חד עם חידוש חילופי המהלומות הישירים בין תנועת החות'ים לבין סעודיה וכוחות הממשלה התימנית. במקביל לתקיפות עומק הדדיות של טילים לעבר יעדים בסעודיה ותקיפות אוויריות בריכוזי שלטון ותשתיות טילים בתימן, נרשמת הסלמה בקרבות הקרקעיים ובאיומים על נתיבי השיט בים האדום. הממשלה התימנית נאלצת לפעול תחת אילוצי ביטחון חמורים בעדן בעוד סעודיה בוחנת חיזוק מערכיה מול האיום המתגבר.",
+  "fronts": [
+   {
+    "name": "חזית סעודיה - חות'ים",
+    "status": "הסלמה הכוללת ירי טילים לעבר ריאד ותשתיות נפט מול תקיפות אוויריות סעודיות נרחבות בתימן"
+   },
+   {
+    "name": "חזית פנים-תימנית (ממשלה מוכרת נגד חות'ים)",
+    "status": "קרבות עזים במוקדי חיכוך, תקיפות טילים על מוסדות שלטון בעדן ומצור מתמשך על תעז"
+   },
+   {
+    "name": "נתיבי השיט בים האדום",
+    "status": "איום מתמשך על ספינות מסחר וקריאות בינלאומיות להגברת אמצעי המיגון"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11092113-01",
+    "title": "מתקפת טילים חות'ית לעבר ריאד ופגיעה במבנה חברת ארמקו",
+    "summary": "סעודיה יירטה טילים ששוגרו על ידי החות'ים לעבר הבירה ואזורים נוספים, כאשר שברי יירוט או פגיעה ישירה גרמו נזק למבנה של חברת ארמקו במרכז הפיננסי של ריאד.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T21:37:36+00:00",
+    "last_update_at": "2026-11-09T10:41:55+00:00",
+    "what_is_not_verified": "קיימת סתירה מסוימת בדיווחים האם הנזק נגרם משברי יירוט בלבד או מפגיעה ישירה של טיל במבנה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_9dbbc5a541220a1a",
+      "url": "https://www.france24.com/en/video/20261109-saudi-arabia-intercepts-houthi-missiles-as-riyadh-s-aramco-building-damaged",
+      "published_at": "2026-11-09T10:41:55+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_9dbbc5a541220a1a",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-08T21:37:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11092113-02",
+    "title": "תקיפות הקואליציה בהובלת סעודיה נגד מתקני טילים של החות'ים",
+    "summary": "הקואליציה בהובלת סעודיה הודיעה כי השמידה מפעל לייצור והרכבת רכיבי טילים בליסטיים, מפעל כימי להפקת דלק טילים ומעבדת אלקטרוניקה של החות'ים.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T15:22:14+00:00",
+    "last_update_at": "2026-11-09T19:00:46+00:00",
+    "what_is_not_verified": "מיקומם המדויק של המתקנים שהותקפו לא צוין בהודעת הקואליציה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_7e24f19e7b6ddb46",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-destroyed-houthi-missile-facilities",
+      "published_at": "2026-11-09T19:00:46+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_7e24f19e7b6ddb46",
+      "url": "https://www.newarab.com/news/trump-meet-qatar-pm-no-imminent-deal-end-iran-war",
+      "published_at": "2026-11-09T15:22:14+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11092113-03",
+    "title": "תקיפות אוויריות במחוז צנעא ונפגעים רבים",
+    "summary": "גורמי תקשורת המזוהים עם החות'ים דיווחו על לפחות ארבעים הרוגים ועשרות פצועים, בעיקר נשים וילדים, בתקיפות אוויריות סעודיות בנפת בני חושיש במחוז צנעא, לצד תקיפות בצפון המדינה.",
+    "axis": "הלחימה הפנימית בתימן / סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T11:10:04+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T11:10:04+00:00",
+    "last_update_at": "2026-11-09T11:10:04+00:00",
+    "what_is_not_verified": "מספרי הנפגעים והטענה לפגיעה בצוותי הצלה נמסרו על ידי גורמי תעמולה חות'יים בלבד ולא אומתו עצמאית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-airstrikes-kill-40-yemen-mostly-women-and-children",
+      "published_at": "2026-11-09T11:10:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בני חושיש, תימן",
+      "lat": 15.4547,
+      "lon": 44.3782
+     },
+     {
+      "name": "סעדה, תימן",
+      "lat": 16.9409,
+      "lon": 43.763
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11092113-04",
+    "title": "שיבוש פעילות ממשלת תימן בעדן עקב ירי טילים חות'י",
+    "summary": "ממשלת תימן המוכרת בינלאומית השעתה את ישיבות הממשלה המלאות בעיר עדן בעקבות מתקפות טילים בליסטיים מצד החות'ים על מוסדות שלטון ומתחם ארמון הנשיאות.",
+    "axis": "הלחימה הפנימית בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T11:10:04+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T11:10:04+00:00",
+    "last_update_at": "2026-11-09T11:10:04+00:00",
+    "what_is_not_verified": "היקף אמצעי האבטחה החלופיים שננקטו אינו מפורט במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-airstrikes-kill-40-yemen-mostly-women-and-children",
+      "published_at": "2026-11-09T11:10:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11092113-05",
+    "title": "התקדמות כוחות הממשלה בלחימה והתגברות תקיפות גבול חות'יות",
+    "summary": "כוחות ממשלת תימן דיווחו על התקדמות בחזיתות מרכזיות, במקביל להתחדשות ועלייה בתקיפות חוצות גבול מצד החות'ים ועימותים כבדים.",
+    "axis": "הלחימה הפנימית בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T18:37:03+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T18:37:03+00:00",
+    "last_update_at": "2026-11-09T18:37:03+00:00",
+    "what_is_not_verified": "ההישגים הטריטוריאליים והיקף ההתקדמות מבוססים על טענות כוחות הממשלה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/9/yemen-government-forces-claim-new-advances-as-houthi-border-attacks-resume?traffic_source=rss",
+      "published_at": "2026-11-09T18:37:03+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11092113-06",
+    "title": "הכחשה סורית בדבר שליחת כוחות להילחם נגד החות'ים עבור סעודיה",
+    "summary": "משרד החוץ של סוריה הכחיש בתוקף דיווחים לפיהם דמשק שולחת או מתכננת לשלוח כוחות ולוחמים לסעודיה או לתימן בתמורה לסיוע כלכלי והלוואות.",
+    "axis": "סעודיה - תימן / מעורבות אזורית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T12:01:52+00:00",
+    "last_update_at": "2026-11-09T19:29:07+00:00",
+    "what_is_not_verified": "קיימת סתירה חזיתית בין דיווחי מקורות מודיעין ופקידים הטוענים לפריסת יועצים ותוכנית לשליחת כוחות סוריים, לבין ההכחשה הרשמית של דמשק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_bcab6507a065cf1f",
+      "url": "https://www.al-monitor.com/originals/2026/11/syria-denies-sending-troops-fight-houthis-return-saudi-loans",
+      "published_at": "2026-11-09T19:29:07+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_bcab6507a065cf1f",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-denies-it-has-forces-fighting-yemen",
+      "published_at": "2026-11-09T13:28:36+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_bcab6507a065cf1f",
+      "url": "https://www.newarab.com/news/saudi-arabia-turns-syrian-help-fighting-houthis-grows",
+      "published_at": "2026-11-09T12:01:52+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11092113-07",
+    "title": "אזהרת ארגון הימאות הבינלאומי מפגיעה בספנות בים האדום",
+    "summary": "ארגון הימאות הבינלאומי קרא להגברת ההגנה על כלי שיט מסחריים וצוותיהם על רקע המשך המתקפות הימיות באזור הים האדום והמזרח התיכון.",
+    "axis": "הים האדום",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T18:06:22+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T18:06:22+00:00",
+    "last_update_at": "2026-11-09T18:06:22+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_gcaptain",
+      "source_root_id": "fh_8d09b753976f301b",
+      "url": "https://gcaptain.com/imo-warns-of-mounting-human-toll-as-attacks-on-commercial-shipping-continue/",
+      "published_at": "2026-11-09T18:06:22+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11092113-08",
+    "title": "עצרת סולידריות במארב בדרישה להסרת המצור החות'י מעל תעז",
+    "summary": "במחוז מארב התקיימה עצרת סולידריות שקראה לקהילה הבינלאומית לנקוט צעדים דחופים להסרת המצור שהחות'ים מטילים על העיר תעז.",
+    "axis": "הלחימה הפנימית בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T15:42:36+00:00",
+    "last_update_at": "2026-11-09T15:42:36+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155496",
+      "published_at": "2026-11-09T15:42:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מארב, תימן",
+      "lat": 15.4579,
+      "lon": 45.323
+     },
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על הגעת כוחות מיוחדים או יועצים צבאיים מסוריה לסעודיה להשתתפות בלחימה, שהוכחשו רשמית בידי דמשק",
+   "מספרי ההרוגים והפצועים בתקיפות האוויריות בנפת בני חושיש ובסעדה שפורסמו על ידי כלי תקשורת חות'יים",
+   "הדיווחים של כוחות ממשלת תימן על היקף ההתקדמות הטריטוריאלית בחזיתות השונות",
+   "היקף הנזק המדויק שנגרם למתקני ייצור הטילים והדלק של החות'ים בתקיפות הקואליציה"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1707,
+    "unit": "ILS",
+    "change_pct": -0.88,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית (אנצאר אללה)",
+    "declared": [
+     "המשך פגיעה ביעדים בעומק סעודיה וערעור פעילות הממשלה התימנית הנתמכת בידיה",
+     "תקיפת ספינות מסחר במסגרת המאבק האזורי"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי וצבאי על ריאד כדי להרתיעה מהמשך המערכה",
+     "שימור עליונות צבאית בתימן באמצעות המשך ייצור עצמי של טילים"
+    ],
+    "forecast": [
+     "המשך שיגורי כטב\"מים וטילים לעבר תשתיות אנרגיה וערים בסעודיה לצד ניסיונות לפגוע בנמלים וסמלי שלטון בדרום תימן"
+    ]
+   },
+   {
+    "actor": "הקואליציה בהובלת סעודיה וממשלת תימן",
+    "declared": [
+     "השמדת מערכי הייצור וההרכבה של טילים בליסטיים חות'יים",
+     "הגנה על מרחב הגבול והסרת איומים ביטחוניים מעל ריאד ותשתיות חיוניות"
+    ],
+    "inferred": [
+     "בלימת ההתעצמות הצבאית של החות'ים ופגיעה ישירה בשרשרת האספקה והייצור של אמצעי הלחימה",
+     "חיפוש אחר סיוע צבאי חיצוני ועיבוי כוחות קרקעיים בגבול הדרומי של הממלכה"
+    ],
+    "forecast": [
+     "הגברת קצב הסיכולים האוויריים של יעדי טילים במקביל לתגבור מערכי ההגנה האווירית סביב נכסים אסטרטגיים בסעודיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/9/yemen-government-forces-claim-new-advances-as-houthi-border-attacks-resume?traffic_source=rss",
+    "accessed_at": "2026-11-09T21:13:29+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/syria-denies-sending-troops-fight-houthis-return-saudi-loans",
+    "accessed_at": "2026-11-09T21:13:29+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-09T21:13:29+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/video/20261109-saudi-arabia-intercepts-houthi-missiles-as-riyadh-s-aramco-building-damaged",
+    "accessed_at": "2026-11-09T21:13:29+00:00"
+   },
+   {
+    "source_id": "src_gcaptain",
+    "url": "https://gcaptain.com/imo-warns-of-mounting-human-toll-as-attacks-on-commercial-shipping-continue/",
+    "accessed_at": "2026-11-09T21:13:29+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-denies-it-has-forces-fighting-yemen",
+    "accessed_at": "2026-11-09T21:13:29+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-arabia-turns-syrian-help-fighting-houthis-grows",
+    "accessed_at": "2026-11-09T21:13:29+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155496",
+    "accessed_at": "2026-11-09T21:13:29+00:00"
+   }
+  ]
+ }
+}

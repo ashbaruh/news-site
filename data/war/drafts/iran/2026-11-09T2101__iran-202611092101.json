@@ -1,0 +1,546 @@
+{
+ "status": "draft",
+ "received_sha256_12": "d32c7a1b3450",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 5,
+   "assessment": 2,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-09T21:01:35+00:00",
+  "window": {
+   "from": "2026-11-08T21:01:35+00:00",
+   "to": "2026-11-09T21:01:35+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611092101"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל מתאפיין במתיחות צבאית גבוהה לצד ניסיונות תיווך אזוריים של מדינות המפרץ. וושינגטון מאיימת בחידוש התקיפות הצבאיות חרף מגעים לפתרון מדיני, בעוד צה\"ל נערך לאפשרות של מתקפת פתע איראנית. במקביל נרשמת החרפה בעימות החשאי בזירות הסייבר, התעמולה והפעלת השלוחות במרחב.",
+  "fronts": [
+   {
+    "name": "החזית הישירה: ארצות הברית - איראן",
+    "status": "איומים צבאיים הדדיים במקביל למגעים דיפלומטיים סביב מצר הורמוז והגרעין"
+   },
+   {
+    "name": "החזית הישראלית: ישראל - איראן",
+    "status": "דריכות צבאית למתקפה, פעילות מניעה מול חדירת תעמולה ומהלכי מודיעין אזוריים"
+   },
+   {
+    "name": "חזית המפרץ ומצר הורמוז",
+    "status": "חשש מאי-ודאות ממושכת, לחץ דיפלומטי של קטאר וסעודיה ומצור ימי אמריקני"
+   },
+   {
+    "name": "החזית העיראקית",
+    "status": "אזהרות ממשלתיות מפני הצטרפות מיליציות פרו-איראניות ועימות בשטח המדינה"
+   },
+   {
+    "name": "חזית הסייבר הבינלאומית",
+    "status": "האשמות אירופיות על חבלה במערכות קירור אזרחיות לצד איומי סייבר בישראל"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11092101-01",
+    "title": "נשיא ארצות הברית מצהיר על מוכנות לתקיפות צבאיות מול איראן לצד רצון מתווכות בהסדר",
+    "summary": "דונלד טראמפ מסר כי קטאר וסעודיה מעוניינות בהסדר שלום בעימות עם איראן, אך ארצות הברית ערוכה לחדש תקיפות צבאיות בכל עת במידת הצורך.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T20:28:23+00:00",
+    "last_update_at": "2026-11-09T20:46:30+00:00",
+    "what_is_not_verified": "ההיתכנות המעשית של חידוש התקיפות ולוחות הזמנים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/trump-tells-reuters-qatar-saudi-arabia-want-peaceful-iran-deal-us-ready-strikes",
+      "published_at": "2026-11-09T20:46:30+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-us-ready-strike-iran-if-necessary-reuters-reports",
+      "published_at": "2026-11-09T20:32:47+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21817327",
+      "published_at": "2026-11-09T20:28:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארצות הברית",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11092101-02",
+    "title": "פגישת נשיא ארצות הברית וראש ממשלת קטאר על המשא ומתן עם איראן",
+    "summary": "ראש ממשלת קטאר נפגש עם נשיא ארצות הברית לשיחה שנמשכה ארבעים וחמש דקות והתמקדה במגעים ובניסיונות להביא לסיום המלחמה מול איראן.",
+    "axis": "ארצות הברית - קטאר - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T18:30:45+00:00",
+    "last_update_at": "2026-11-09T18:48:00+00:00",
+    "what_is_not_verified": "תוכן השיחות המדויק ומעמד ההבנות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/qatar-pm-meets-with-trump-for-talks-on-ending-war-on-iran?traffic_source=rss",
+      "published_at": "2026-11-09T18:48:00+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-qatari-prime-minister-discuss-iran-negotiations-45-minute",
+      "published_at": "2026-11-09T18:30:45+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11092101-03",
+    "title": "הצגת מתווה למשא ומתן בין ארצות הברית לאיראן סביב פיקוח גרעיני והסרת מצור",
+    "summary": "מתווכים מקדמים מתווה הכולל פתיחה של מצר הורמוז, החזרת פיקוח גרעיני והגבלת העשרה תמורת הסרה חלקית של מצור והפשרת נכסים בהיקף מיליארדי דולרים.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T19:37:01+00:00",
+    "last_update_at": "2026-11-09T20:28:23+00:00",
+    "what_is_not_verified": "פרטי המתווה הסופיים והסכמת הצדדים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21817327",
+      "published_at": "2026-11-09T20:28:23+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383960710",
+      "published_at": "2026-11-09T19:37:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11092101-04",
+    "title": "משלחת ביטחונית רוסית בכירה נחתה בישראל והמשיכה לאיחוד האמירויות",
+    "summary": "משלחת בראשות ראש המודיעין הצבאי הרוסי הגיעה בטיסה צבאית לישראל ונפגשה עם בכירי מערכת הביטחון על רקע המתיחות עם איראן, בטרם המריאה לאבו דאבי.",
+    "axis": "ישראל - רוסיה - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T20:09:38+00:00",
+    "last_update_at": "2026-11-09T20:09:38+00:00",
+    "what_is_not_verified": "תוכן הפגישות ומטרת הביקור הרשמית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49443",
+      "published_at": "2026-11-09T20:09:38+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל התעופה בן גוריון, ישראל",
+      "lat": 32.0027,
+      "lon": 34.8809
+     },
+     {
+      "name": "אבו דאבי, איחוד האמירויות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11092101-05",
+    "title": "צרפת מאשימה רשמית את משמרות המהפכה במתקפות סייבר נגד רשתות קירור",
+    "summary": "משרד החוץ והתביעה בצרפת הודיעו כי גורמי סייבר ממשמרות המהפכה האיראניים שיבשו מקררים במאות חנויות, זימנו את השגריר ופעלו להוצאת צווי מעצר וסנקציות אירופיות.",
+    "axis": "איראן - צרפת",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T16:00:54+00:00",
+    "last_update_at": "2026-11-09T20:20:08+00:00",
+    "what_is_not_verified": "זהות המבצעים בפועל מעבר להאשמות התביעה ומשרד החוץ הצרפתי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T20:20:08+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges",
+      "published_at": "2026-11-09T17:54:40+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/france-says-iran-behind-unprecedented-cyberattacks-fridges",
+      "published_at": "2026-11-09T17:30:33+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-ambassador-summoned-over-alleged-cyberattacks-french-supermarket",
+      "published_at": "2026-11-09T17:10:06+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611097252",
+      "published_at": "2026-11-09T16:55:37+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133362",
+      "published_at": "2026-11-09T16:48:51+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/sy011bokcge",
+      "published_at": "2026-11-09T16:39:10+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/9/france-accuses-iran-of-cyberattack-on-european-fridges?traffic_source=rss",
+      "published_at": "2026-11-09T16:33:33+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1386715",
+      "published_at": "2026-11-09T16:16:06+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21815328",
+      "published_at": "2026-11-09T16:00:54+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11092101-06",
+    "title": "משלחת איראן בווינה מגנה את ראש הסוכנות הבינלאומית לאנרגיה אטומית",
+    "summary": "נציגות איראן טענה לאכיפה בררנית של רפאל גרוסי לאחר שנמנע מגינוי הפצצות על מתקני גרעין איראניים בטענה כי הדבר מחוץ למנדט שלו.",
+    "axis": "איראן - הסוכנות הבינלאומית לאנרגיה אטומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T20:49:14+00:00",
+    "last_update_at": "2026-11-09T20:49:14+00:00",
+    "what_is_not_verified": "היקף הפגיעה במתקנים והחלטות הסוכנות הבינלאומית לאנרגיה אטומית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_011c4eef096ebbc4",
+      "url": "https://en.irna.ir/news/86317340/Iran-criticizes-Grossi-s-double-standard-in-condemning-attack",
+      "published_at": "2026-11-09T20:49:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וינה, אוסטריה",
+      "lat": 48.2084,
+      "lon": 16.3725
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11092101-07",
+    "title": "הפצת עלוני איומים של קבוצת האקרים איראנית בתל אביב",
+    "summary": "שירות הביטחון הכללי ומשטרת ישראל פתחו בחקירה עקב מציאת כרוזים בתיבות דואר בצפון תל אביב מטעם קבוצת ההאקרים חנדלה המאיימים בפגיעה באזרחים אם תחודש הלחימה.",
+    "axis": "איראן - ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T14:04:21+00:00",
+    "last_update_at": "2026-11-09T14:04:21+00:00",
+    "what_is_not_verified": "זהות מפיצי העלונים ומידת הקשר הישיר למשטר האיראני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/byu02rkrge",
+      "published_at": "2026-11-09T14:04:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תל אביב, ישראל",
+      "lat": 32.0853,
+      "lon": 34.7818
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11092101-08",
+    "title": "חילוקי דעות ומתיחות פוליטית בוושינגטון סביב ניהול המלחמה באיראן",
+    "summary": "הוגשה הצעת הדחה נגד שר המלחמה האמריקאי פיט הגסת בעקבות ניהול המלחמה מול איראן, בעוד הנשיא דונלד טראמפ והשר עצמו מגבים את המהלכים הצבאיים.",
+    "axis": "ארצות הברית - פוליטיקה פנימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T19:15:33+00:00",
+    "last_update_at": "2026-11-09T19:51:19+00:00",
+    "what_is_not_verified": "תוצאות ההצבעה הצפויה בבית הנבחרים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21816806",
+      "published_at": "2026-11-09T19:51:19+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133372",
+      "published_at": "2026-11-09T19:15:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארצות הברית",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11092101-09",
+    "title": "דיווח בעיראק על תרחישי מלחמה אמריקניים ואזהרה מפני מעורבות מיליציות",
+    "summary": "ראש ממשלת עיראק דן עם גורמים פוליטיים בתוכניות מלחמה אמריקניות הכוללות תרחישי פלישה דרך עיראק, והזהיר כי הממשלה תעצור פעילי מיליציות שיתערבו בלחימה.",
+    "axis": "ארצות הברית - עיראק - איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T23:13:08+00:00",
+    "last_update_at": "2026-11-08T23:13:08+00:00",
+    "what_is_not_verified": "אמיתות תוכניות המלחמה המוצגות בעיתון אל-מדא",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49424",
+      "published_at": "2026-11-08T23:13:08+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11092101-10",
+    "title": "מזכיר המדינה האמריקאי מותח ביקורת חריפה על דרישות איראן במשא ומתן",
+    "summary": "מרקו רוביו טען כי דרישותיה של איראן במשא ומתן בלתי מתקבלות על הדעת ושערורייתיות, וציין כי השיחות אינן מתקדמות ואינן נושאות פרי.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-08T22:12:24+00:00",
+    "last_update_at": "2026-11-08T22:29:22+00:00",
+    "what_is_not_verified": "האם המשא ומתן הסתיים לחלוטין או נמשך בערוצים חשאיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49423",
+      "published_at": "2026-11-08T22:29:22+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/94985",
+      "published_at": "2026-11-08T22:12:24+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "קיומן ותוכנן של תוכניות פלישה אמריקניות דרך עיראק",
+   "התקיימות פגישה עתידית בקטאר בין ואנס לרזאאי בשבוע הבא",
+   "תוכן השיחות של ראש המודיעין הצבאי הרוסי בישראל ובאבו דאבי",
+   "מעורבות ישירה של משמרות המהפכה בחלוקת כרוזים בתל אביב"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1707,
+    "unit": "ILS",
+    "change_pct": -0.88,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "מניעת נשק גרעיני מאיראן ומוכנות לחידוש תקיפות צבאיות בכל עת",
+     "פתיחת מצר הורמוז והשבת הפיקוח הבינלאומי על מתקני הגרעין"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי וצבאי כבד כדי לאלץ את טהרן להסדר בתנאים נוחים",
+     "צמצום הסכנה להסלמה אזורית כוללת לאחר תוצאות בחירות האמצע"
+    ],
+    "forecast": [
+     "המשך שימוש באיומי תקיפה לצד ערוצי הידברות בתיווך קטארי ומפרצי",
+     "החרפת הצעדים נגד נתיבי אספקה ורשתות השפעה איראניות"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "מתן מענה צבאי מיידי, תקיף ובעוצמה חסרת תקדים לכל רמת איום",
+     "גינוי פעולות הסוכנות הבינלאומית לאנרגיה אטומית כחד-צדדיות"
+    ],
+    "inferred": [
+     "השגת שחרור נכסים מוקפאים והסרת המצור הכלכלי והימי",
+     "הרתעת ארצות הברית וישראל באמצעות לוחמת סייבר והפעלת זירות משניות"
+    ],
+    "forecast": [
+     "שמירה על כוננות התקפית גבוהה לצד ניהול מגעים עקיפים",
+     "המשך פעילות חשאית ושימוש בשלוחות אזוריות בעיראק ובסביבתה"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מוכנות ודריכות גבוהה במערכת הביטחון לכל אפשרות של מתקפת פתע"
+    ],
+    "inferred": [
+     "מניעת הישגים מדיניים או כלכליים מאיראן שאינם כוללים בלימה גרעינית מלאה",
+     "תיאום הדוק עם גורמים בינלאומיים למניעת התבססות איומים בגבולותיה"
+    ],
+    "forecast": [
+     "המשך היערכות ביטחונית מסוכלת מול איומי שלוחות וסייבר",
+     "שימור חופש הפעולה הצבאי והמודיעיני מול הציר האיראני"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/9/france-accuses-iran-of-cyberattack-on-european-fridges?traffic_source=rss",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/france-says-iran-behind-unprecedented-cyberattacks-fridges",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611097252",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86317340/Iran-criticizes-Grossi-s-double-standard-in-condemning-attack",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21816806",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1386715",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-ambassador-summoned-over-alleged-cyberattacks-french-supermarket",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133372",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49423",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/94985",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383960710",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/byu02rkrge",
+    "accessed_at": "2026-11-09T21:01:35+00:00"
+   }
+  ]
+ }
+}

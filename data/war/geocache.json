@@ -1,4 +1,5 @@
 {
+"abboudieh, lebanon": null,
 "abdin, syria": [
 32.7805,
 35.8247
@@ -489,7 +490,15 @@
 50.5956,
 36.5873
 ],
+"ben gurion airport, israel": [
+32.0027,
+34.8809
+],
 "berdiansk, ukraine": [
+46.7557,
+36.7888
+],
+"berdyansk, ukraine": [
 46.7557,
 36.7888
 ],
@@ -687,6 +696,7 @@
 34.2008
 ],
 "cyprus": null,
+"dabbousieh, syria": null,
 "dahieh, beirut, lebanon": null,
 "dahiyeh, beirut, lebanon": null,
 "dahr al-baidar, lebanon": [
@@ -1152,6 +1162,14 @@
 33.2827,
 35.5588
 ],
+"kafr shouba, lebanon": [
+33.3277,
+35.6927
+],
+"kafr tibnit, lebanon": [
+33.35,
+35.5111
+],
 "kafra, lebanon": [
 33.1805,
 35.354
@@ -1186,6 +1204,10 @@
 "kamensk-shakhtinsky, russia": [
 48.3211,
 40.2651
+],
+"kamianske, ukraine": [
+48.5168,
+34.6069
 ],
 "kapotnya, russia": [
 55.6367,
