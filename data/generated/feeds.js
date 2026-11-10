@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-10T21:17:20+00:00",
-  "fetched_at": "2026-11-10T21:17:20+00:00"
+  "checked_at": "2026-11-10T22:17:29+00:00",
+  "fetched_at": "2026-11-10T22:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-10T21:17:34+00:00",
-  "fetched_at": "2026-11-10T21:17:34+00:00"
+  "checked_at": "2026-11-10T22:17:42+00:00",
+  "fetched_at": "2026-11-10T22:17:42+00:00"
  },
  "av_en": {
   "data": [
@@ -57,17 +57,17 @@ window.DB.generated = {
     "date": "2026-11-10T16:20:13+00:00"
    },
    {
-    "title_en": "Leica’s upgraded premium 4K projector promises versatility and a bright display “even in ambient light”",
-    "title_he": "מקרן הפרימיום 4K המשודרג של לייקה מבטיח צדדיות ותצוגה בהירה \"אפילו באור הסביבה\"",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/tv-home-cinema/projectors/leicas-upgraded-premium-4k-projector-promises-versatility-and-a-bright-display-even-in-ambient-light",
-    "date": "2026-11-10T14:00:00+00:00"
-   },
-   {
     "title_en": "Meet the Dolby Atmos soundbar that looks like a cushion",
     "title_he": "הכירו את הסאונד - בר Dolby Atmos שנראה כמו כרית",
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/tv-home-cinema/soundbars/this-dolby-atmos-soundbar-is-designed-to-fit-in-with-your-homeware-but-i-see-a-problem",
+    "date": "2026-11-10T14:00:00+00:00"
+   },
+   {
+    "title_en": "Leica’s upgraded premium 4K projector promises versatility and a bright display “even in ambient light”",
+    "title_he": "מקרן הפרימיום 4K המשודרג של לייקה מבטיח צדדיות ותצוגה בהירה \"אפילו באור הסביבה\"",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/tv-home-cinema/projectors/leicas-upgraded-premium-4k-projector-promises-versatility-and-a-bright-display-even-in-ambient-light",
     "date": "2026-11-10T14:00:00+00:00"
    },
    {
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-10T21:17:34+00:00",
-  "fetched_at": "2026-11-10T21:17:34+00:00"
+  "checked_at": "2026-11-10T22:17:42+00:00",
+  "fetched_at": "2026-11-10T22:17:42+00:00"
  },
- "generated_at": "2026-11-10T21:17:34+00:00",
+ "generated_at": "2026-11-10T22:17:42+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-10T21:17:21+00:00",
-  "fetched_at": "2026-11-10T21:17:21+00:00"
+  "checked_at": "2026-11-10T22:17:30+00:00",
+  "fetched_at": "2026-11-10T22:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,60 +1871,11 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-10T21:17:22+00:00",
-  "fetched_at": "2026-11-10T21:17:22+00:00"
+  "checked_at": "2026-11-10T22:17:31+00:00",
+  "fetched_at": "2026-11-10T22:17:31+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-11-10",
-    "time": "05:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "גולדן סטייט ווריירס - ניו אורלינס פליקנס"
-   },
-   {
-    "date": "2026-11-10",
-    "time": "17:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "אליצור יבנה - מ.כ עוטף דרום"
-   },
-   {
-    "date": "2026-11-10",
-    "time": "19:00",
-    "channel": "ספורט 1",
-    "sport": "כדורסל",
-    "title": "בלקן - פאוק סלוניקי"
-   },
-   {
-    "date": "2026-11-10",
-    "time": "19:30",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "הפועל חולון - ראסטה וכטה"
-   },
-   {
-    "date": "2026-11-10",
-    "time": "21:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "ספרטק סובוטיצה - שולה"
-   },
-   {
-    "date": "2026-11-10",
-    "time": "21:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "בילבאו - אלבה ברלין"
-   },
-   {
-    "date": "2026-11-10",
-    "time": "21:30",
-    "channel": "ספורט 1",
-    "sport": "כדורסל",
-    "title": "לונדון ליונס - ונציה"
-   },
    {
     "date": "2026-11-11",
     "time": "02:00",
@@ -2533,11 +2484,18 @@ window.DB.generated = {
     "channel": "ספורט 4",
     "sport": "כדורגל",
     "title": "גרמניה - הולנד"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "21:45",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "ישראל - אוסטריה"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-10T21:17:24+00:00",
-  "fetched_at": "2026-11-10T21:17:24+00:00"
+  "checked_at": "2026-11-10T22:17:33+00:00",
+  "fetched_at": "2026-11-10T22:17:33+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2627,8 +2585,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-10T21:17:24+00:00",
-  "fetched_at": "2026-11-10T21:17:24+00:00"
+  "checked_at": "2026-11-10T22:17:33+00:00",
+  "fetched_at": "2026-11-10T22:17:33+00:00"
  },
  "ai": {
   "data": {
@@ -2661,14 +2619,14 @@ window.DB.generated = {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 520,
+     "likes": 522,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Image to Video",
      "desc_en": "Make videos from text or photos — free, no GPU queue",
      "desc_he": "יצירת סרטונים מטקסט או מתמונות — בחינם, ללא תור GPU",
-     "likes": 521,
+     "likes": 561,
      "link": "https://huggingface.co/spaces/thea2026/image-to-video"
     },
     {
@@ -2682,7 +2640,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1478,
+     "likes": 1480,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2703,22 +2661,15 @@ window.DB.generated = {
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 89,
+     "likes": 90,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 345,
+     "likes": 346,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
-    },
-    {
-     "title": "Qwen Image 2.1 Realtime",
-     "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
-     "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 222,
-     "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
      "title": "LFM3 Omni 2B WebGPU",
@@ -2726,12 +2677,19 @@ window.DB.generated = {
      "desc_he": "הפעל LFM3-Omni -2B באופן מקומי בדפדפן ב-WebGPU",
      "likes": 150,
      "link": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
+    },
+    {
+     "title": "Qwen 2511 + Flux.2 Klein",
+     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
+     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
+     "likes": 389,
+     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-10T21:17:33+00:00",
-  "fetched_at": "2026-11-10T21:17:33+00:00"
+  "checked_at": "2026-11-10T22:17:41+00:00",
+  "fetched_at": "2026-11-10T22:17:41+00:00"
  },
  "abroad": {
   "data": {
@@ -3075,8 +3033,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-10T21:17:27+00:00",
-  "fetched_at": "2026-11-10T21:17:27+00:00"
+  "checked_at": "2026-11-10T22:17:36+00:00",
+  "fetched_at": "2026-11-10T22:17:36+00:00"
  },
  "idf": {
   "data": [
@@ -3107,8 +3065,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-10T21:17:28+00:00",
-  "fetched_at": "2026-11-10T21:17:28+00:00"
+  "checked_at": "2026-11-10T22:17:37+00:00",
+  "fetched_at": "2026-11-10T22:17:37+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3116,89 +3074,89 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-10T21:00:00+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-10T21:00:00+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-10T21:00:00+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-10T15:07:00+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-10T19:27:00+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-10T21:27:00+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "newest": "2026-11-10T22:53:00+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-10T20:42:00+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "newest": "2026-11-10T21:47:00+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-10T19:31:12+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-10T16:03:47+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-10T19:00:00+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-10T15:00:37+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-09T12:30:57+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-10T16:20:13+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-10T14:32:16+00:00",
-    "seen_at": "2026-11-10T21:17:34+00:00",
+    "seen_at": "2026-11-10T22:17:42+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-10T21:17:34+00:00"
+  "checked_at": "2026-11-10T22:17:42+00:00"
  },
  "health_news": {
   "data": [
@@ -3354,7 +3312,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-10T21:17:29+00:00",
-  "fetched_at": "2026-11-10T21:17:29+00:00"
+  "checked_at": "2026-11-10T22:17:37+00:00",
+  "fetched_at": "2026-11-10T22:17:37+00:00"
  }
 };
