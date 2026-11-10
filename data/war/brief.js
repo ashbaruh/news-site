@@ -1,326 +1,248 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-10T04:00:00+02:00",
- "generated_at": "2026-11-10T01:40:21+00:00",
+ "slot": "2026-11-10T12:00:00+02:00",
+ "generated_at": "2026-11-10T10:10:11+00:00",
  "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11100140-01",
-     "title": "הצהרת טראמפ על המומנטום לסיום המלחמה מול איראן",
-     "summary": "נשיא ארצות הברית טען כי העימות הצבאי מול איראן הסתיים בפועל לאחר שיחות עם ראש ממשלת קטר, אך הדגיש כי הכוחות דרוכים לפעולה במקרה הצורך.",
-     "axis": "ארצות הברית - איראן",
-     "claim_type": "statement",
+     "id": "IRAN-11101010-01",
+     "title": "קנדה החזירה סנקציות על גופים איראניים",
+     "summary": "ממשלת קנדה הטילה מחדש סנקציות על אחד עשר גופים באיראן בשל מעורבות בתוכניות הגרעין והטילים.",
+     "axis": "סנקציות נגד איראן",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-09T22:46:48+00:00",
-     "last_update_at": "2026-11-10T01:00:00+00:00",
-     "what_is_not_verified": "הערכת הנשיא על סיום המלחמה בפועל ומוכנות איראן להפסקת אש אינן מאומתות ונסתרות על ידי בכירים איראנים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/trump-signals-positive-momentum-with-iran-after-meeting-qatari-pm?traffic_source=rss",
-       "published_at": "2026-11-10T01:00:00+00:00"
-      },
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202611102662",
-       "published_at": "2026-11-10T00:56:10+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/trump-says-us-military-action-against-iran-not-necessary-point",
-       "published_at": "2026-11-09T22:46:48+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "וושינגטון די. סי., ארה\"ב",
-       "lat": 38.8951,
-       "lon": -77.0364
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11100140-02",
-     "title": "הכחשה איראנית לדיווחים על שיחות עם וושינגטון",
-     "summary": "מזכיר המועצה העליונה לביטחון לאומי של איראן דחה דיווחים על קיום מגעים או שיחות מתוכננות עם גורמים אמריקאים.",
-     "axis": "ארצות הברית - איראן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-09T22:36:42+00:00",
-     "last_update_at": "2026-11-10T00:56:10+00:00",
+     "first_reported_at": "2026-11-10T09:49:18+00:00",
+     "last_update_at": "2026-11-10T09:49:18+00:00",
      "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-senior-official-stop-manufacturing-fake-news-about-imaginary",
-       "published_at": "2026-11-09T22:36:42+00:00"
-      },
-      {
        "source_id": "src_iranintl",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202611102662",
-       "published_at": "2026-11-10T00:56:10+00:00"
+       "url": "https://www.iranintl.com/en/202611105926",
+       "published_at": "2026-11-10T09:49:18+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-11100140-03",
-     "title": "צרפת מאשימה את משמרות המהפכה במתקפת סייבר",
-     "summary": "שר החוץ הצרפתי הטיל על משמרות המהפכה האיראניים את האחריות למתקפת סייבר שפגעה ברשת מרכולים במדינה באוקטובר.",
-     "axis": "צרפת - איראן",
-     "claim_type": "statement",
+     "id": "IRAN-11101010-02",
+     "title": "צרפת זימנה את שגריר איראן עקב מתקפת סייבר",
+     "summary": "משרד החוץ הצרפתי זימן את נציג איראן בעקבות פגיעת סייבר במערכות קירור של מרכולים ואזהרה מתגובה.",
+     "axis": "עימות דיפלומטי צרפת-איראן",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-10T01:01:47+00:00",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-10T01:01:47+00:00",
-     "last_update_at": "2026-11-10T01:01:47+00:00",
-     "what_is_not_verified": "אחריותה הממשית של איראן לתקיפה",
+     "first_reported_at": "2026-11-10T08:31:39+00:00",
+     "last_update_at": "2026-11-10T09:46:29+00:00",
+     "what_is_not_verified": "האחריות הממשית של משמרות המהפכה למתקפה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
+       "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
-       "published_at": "2026-11-10T01:01:47+00:00"
+       "url": "https://www.al-monitor.com/originals/2026/11/france-summons-iran-envoy-over-supermarket-fridge-hack-warns-response",
+       "published_at": "2026-11-10T09:46:29+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/france-vows-tough-response-freezer-cyberattack-blamed-iran",
+       "published_at": "2026-11-10T08:31:39+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "פריז, צרפת",
+       "lat": 48.8535,
+       "lon": 2.3484
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11101010-03",
+     "title": "פינוי כלי טיס צבאיים של ארצות הברית מבריטניה",
+     "summary": "מטוסי תדלוק ומפציצים אמריקאיים פונו מבסיסים בבריטניה בעקבות התרעות על איומים הקשורים לאיראן.",
+     "axis": "כוננות צבאית של ארצות הברית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-10T06:45:15+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-10T06:45:15+00:00",
+     "last_update_at": "2026-11-10T06:45:15+00:00",
+     "what_is_not_verified": "פרטי התקרית הביטחונית המדויקת ומעורבות איראן",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133383",
+       "published_at": "2026-11-10T06:45:15+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "בסיס מילדנהול, בריטניה",
+       "lat": 52.3627,
+       "lon": 0.4855
+      },
+      {
+       "name": "בסיס פיירפורד, בריטניה",
+       "lat": 51.6851,
+       "lon": -1.7865
+      }
+     ]
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-11100140-01",
-     "title": "פיצוץ במפעל פלדה במערב טורקיה",
-     "summary": "אסון תעשייתי כתוצאה מקריסת מנוף לתוך כבשן במפעל פלדה סמוך לאיזמיר גבה את חייהם של 16 עובדים וגרם לפציעת נוספים.",
-     "axis": "אירועי פנים בטורקיה",
+     "id": "NORTH-11101010-01",
+     "title": "תיעוד פעילות כלי טיס מעל הדאחיה",
+     "summary": "כלי טיס מאויש מרחוק של צה\"ל נצפה בפעילות בשמי הפרבר הדרומי של ביירות.",
+     "axis": "פעילות צבאית בלבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-09T09:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-09T18:46:47+00:00",
-     "last_update_at": "2026-11-09T22:03:09+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/turkey-steel-factory-blast-kills-16-probe-launched",
-       "published_at": "2026-11-09T22:03:09+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/11/9/explosion-at-turkish-steel-plant-kills-at-least-16-people?traffic_source=rss",
-       "published_at": "2026-11-09T19:58:40+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/steel-plant-blast-kills-16-western-turkey",
-       "published_at": "2026-11-09T18:46:47+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אליאגה, איזמיר, טורקיה",
-       "lat": 38.8034,
-       "lon": 26.9714
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11100140-02",
-     "title": "סוריה מכחישה שליחת חיילים לתימן",
-     "summary": "שר החוץ הסורי דחה טענות שלפיהן ארצו פורסת כוחות צבאיים בתימן או בסעודיה במסגרת עסקאות סיוע כספי.",
-     "axis": "סוריה - תימן - סעודיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-09T16:37:54+00:00",
-     "last_update_at": "2026-11-09T19:29:07+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/syria-denies-sending-troops-fight-houthis-return-saudi-loans",
-       "published_at": "2026-11-09T19:29:07+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/148492/",
-       "published_at": "2026-11-09T16:37:54+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דמשק, סוריה",
-       "lat": 33.5131,
-       "lon": 36.3096
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11100140-03",
-     "title": "תקיפות ארטילריות ואוויריות בדרום לבנון",
-     "summary": "כלי טיס וארטילריה של צה\"ל תקפו יעדים במספר עיירות ואזורים בדרום לבנון, בהם פאתי תלוסה ובית יהון.",
-     "axis": "ישראל - לבנון",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-09T16:04:25+00:00",
-     "last_update_at": "2026-11-09T17:59:55+00:00",
-     "what_is_not_verified": "היקף הנזקים והנפגעים בתקיפות לא צוין",
+     "first_reported_at": "2026-11-10T09:33:36+00:00",
+     "last_update_at": "2026-11-10T09:33:36+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almanar",
-       "source_root_id": "fh_a5e7ff28c18ff8c7",
-       "url": "https://english.almanar.com.lb/article/148507/",
-       "published_at": "2026-11-09T17:59:55+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_f36905f59c1eb3a5",
-       "url": "https://english.almanar.com.lb/article/148457/",
-       "published_at": "2026-11-09T16:12:15+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_a5e7ff28c18ff8c7",
-       "url": "https://english.almanar.com.lb/article/148432/",
-       "published_at": "2026-11-09T16:04:25+00:00"
+       "source_root_id": "fh_b2b222060fa94469",
+       "url": "https://english.almanar.com.lb/article/148712/",
+       "published_at": "2026-11-10T09:33:36+00:00"
       }
      ],
-     "places": [
+     "places": []
+    },
+    {
+     "id": "NORTH-11101010-02",
+     "title": "דיווח כוח יוניפי\"ל על תקיפות בדרום לבנון",
+     "summary": "משקיפי האו\"ם תיעדו שש תקיפות מן האוויר ומאות שיגורי ארטילריה שביצע צה\"ל במהלך ארבעה ימים.",
+     "axis": "לחימה בדרום לבנון",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-10T03:49:29+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-10T03:49:29+00:00",
+     "last_update_at": "2026-11-10T03:49:29+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
       {
-       "name": "בית יהון, לבנון",
-       "lat": 33.1582,
-       "lon": 35.4212
+       "source_id": "src_anadolu",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aa.com.tr/en/middle-east/un-peacekeepers-report-signs-of-sustained-israeli-presence-in-south-lebanon/4118108",
+       "published_at": "2026-11-10T03:49:29+00:00"
       }
-     ]
+     ],
+     "places": []
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11100140-01",
-     "title": "היערכות לשיחות משולשות באיחוד האמירויות",
-     "summary": "משלחות רשמיות מרוסיה, מאוקראינה ומארצות הברית הגיעו למפרץ כדי לקיים שיחות משא ומתן סגורות בנוגע למלחמה.",
-     "axis": "משא ומתן אוקראינה - רוסיה",
+     "id": "UKRAINE-11101010-01",
+     "title": "פתיחת שיחות תלת-צדדיות באבו דאבי",
+     "summary": "משלחות רשמיות מאוקראינה, רוסיה וארצות הברית החלו במשא ומתן במטרה לבחון את סיום המלחמה.",
+     "axis": "משא ומתן מדיני",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-09T20:03:34+00:00",
-     "last_update_at": "2026-11-10T00:09:49+00:00",
-     "what_is_not_verified": "עמדות הצדדים ומידת הגמישות בשיחות",
+     "first_reported_at": "2026-11-10T08:44:00+00:00",
+     "last_update_at": "2026-11-10T10:05:43+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49442",
-       "published_at": "2026-11-09T20:03:34+00:00"
+       "source_id": "src_meduza",
+       "source_root_id": "fh_17839dfeb51efca8",
+       "url": "https://meduza.io/en/news/2026/11/10/russia-ukraine-and-u-s-begin-trilateral-peace-talks-in-abu-dhabi",
+       "published_at": "2026-11-10T10:05:43+00:00"
       },
       {
-       "source_id": "src_bbc",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-11-10T00:09:49+00:00"
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_17839dfeb51efca8",
+       "url": "https://www.ukrinform.net/rubric-polytics/4183246-trilateral-talks-begin-in-abu-dhabi-umerov.html",
+       "published_at": "2026-11-10T09:29:43+00:00"
       },
       {
-       "source_id": "src_tass",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/politics/2215131",
-       "published_at": "2026-11-09T22:23:01+00:00"
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_17839dfeb51efca8",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062092/",
+       "published_at": "2026-11-10T08:44:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "אבו דאבי, איחוד האמירויות",
+       "name": "אבו דאבי, איחוד האמירויות הערביות",
        "lat": 24.4538,
        "lon": 54.3774
       }
      ]
     },
     {
-     "id": "UKRAINE-11100140-02",
-     "title": "פגיעה רוסית בתחנת הכוח טריפיליה",
-     "summary": "חברת האנרגיה הממשלתית של אוקראינה דיווחה על השלכות כבדות בעקבות תקיפה צבאית רוסית שפגעה בתחנה התרמית.",
-     "axis": "המערכה באוקראינה",
+     "id": "UKRAINE-11101010-02",
+     "title": "מתקפת טילים וכטב\"מים רוסית נרחבת באוקראינה",
+     "summary": "כוחות רוסיה שיגרו טיל בליסטי ולמעלה ממאה ושישים כטב\"מים וגרמו להרוגים ולפצועים רבים.",
+     "axis": "תקיפות והפגזות באוקראינה",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-09T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-09T23:50:44+00:00",
-     "last_update_at": "2026-11-09T23:50:44+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק בתחנת הכוח נמצא עדיין בבדיקה",
+     "first_reported_at": "2026-11-10T10:03:22+00:00",
+     "last_update_at": "2026-11-10T10:03:22+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/energy-company-warns-of-extremely-serious-consequences-after-russian-forces-strike-trypillia-thermal-power-plant/",
-       "published_at": "2026-11-09T23:50:44+00:00"
+       "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-39-including-a-1-year-old-across-ukraine-over-past-day/",
+       "published_at": "2026-11-10T10:03:22+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "טריפיליה, אוקראינה",
-       "lat": 50.1148,
-       "lon": 30.7768
-      }
-     ]
+     "places": []
     },
     {
-     "id": "UKRAINE-11100140-03",
-     "title": "סגירת עיתון נובאיה גזטה במוסקבה",
-     "summary": "כלי התקשורת העצמאי הרוסי הודיע על סגירתו הסופית לאחר שלושים ושלוש שנות פעילות בעקבות לחצים מצד השלטונות ופינוי משרדיו.",
-     "axis": "פנים רוסיה",
+     "id": "UKRAINE-11101010-03",
+     "title": "ליטא מעכבת משלוחי תבואה מרוסיה ומבלארוס לבדיקה",
+     "summary": "שלטונות ליטא הודיעו כי יעצרו מטעני דגנים בנמל קלייפדה לצורך בדיקת מקורם מחשש שנבזזו משטחי אוקראינה.",
+     "axis": "סנקציות ופיקוח סחר",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-10T00:38:43+00:00",
-     "last_update_at": "2026-11-10T00:38:43+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "occurred_at": "2026-11-10T08:42:07+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-10T08:42:07+00:00",
+     "last_update_at": "2026-11-10T08:42:07+00:00",
+     "what_is_not_verified": "משך הזמן המדויק שיידרש לבדיקות המעבדה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/feature/2026/11/10/novaya-gazeta-closes-after-33-years-under-state-pressure-as-staff-take-down-portraits-of-six-murdered-colleagues-and-leave-their-moscow-office-to-cries-of-thank-you",
-       "published_at": "2026-11-10T00:38:43+00:00"
+       "url": "https://meduza.io/en/news/2026/11/10/lithuania-to-inspect-grain-shipments-from-russia-and-belarus-for-crops-from-occupied-ukraine-potentially-delaying-exports-by-months",
+       "published_at": "2026-11-10T08:42:07+00:00"
       }
      ],
      "places": [
       {
-       "name": "מוסקבה, רוסיה",
-       "lat": 55.7505,
-       "lon": 37.6175
+       "name": "קלייפדה, ליטא",
+       "lat": 55.7128,
+       "lon": 21.135
       }
      ]
     }
@@ -329,19 +251,25 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-11100140-01",
-     "title": "יירוט טילים שנורו לעבר ריאד",
-     "summary": "הקואליציה בראשות סעודיה הודיעה על יירוט והשמדה של שני טילים ששיגרו החות'ים לעבר הבירה הסעודית.",
-     "axis": "החות'ים - סעודיה",
+     "id": "YEMEN-11101010-01",
+     "title": "יירוט טילים וכטב\"ם ששוגרו לעבר סעודיה",
+     "summary": "כוחות הקואליציה יירטו שני טילים שכוונו לבירה ריאד, טיל נוסף לדרום הממלכה וכלי טיס עוין במזרחה.",
+     "axis": "תקיפות החות'ים ויירוטים בסעודיה",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-10T01:10:05+00:00",
-     "last_update_at": "2026-11-10T01:21:13+00:00",
+     "first_reported_at": "2026-11-10T01:11:25+00:00",
+     "last_update_at": "2026-11-10T07:46:47+00:00",
      "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/saudi-led-coalition-reports-houthi-missile-drone-interceptions-saba-reports-saudi",
+       "published_at": "2026-11-10T07:46:47+00:00"
+      },
       {
        "source_id": "src_saba_aden",
        "source_root_id": "or_unknown_origin",
@@ -349,71 +277,89 @@ window.DB.war_brief = {
        "published_at": "2026-11-10T01:21:13+00:00"
       },
       {
-       "source_id": "src_mee",
+       "source_id": "src_saba_aden",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-houthi-missiles-launched-towards-riyadh-destroyed-saudi-led",
-       "published_at": "2026-11-10T01:10:05+00:00"
+       "url": "https://www.sabanew.net/viewstory/155516",
+       "published_at": "2026-11-10T01:11:25+00:00"
       }
      ],
      "places": [
       {
-       "name": "ריאד, סעודיה",
+       "name": "ריאד, ערב הסעודית",
        "lat": 24.6389,
        "lon": 46.716
       }
      ]
     },
     {
-     "id": "YEMEN-11100140-02",
-     "title": "יירוט טיל בליסטי בדרום סעודיה",
-     "summary": "מערכות ההגנה האווירית של הקואליציה יירטו והשמידו טיל בליסטי ששוגר על ידי כוחות החות'ים לעבר האזור הדרומי של הממלכה.",
-     "axis": "החות'ים - סעודיה",
+     "id": "YEMEN-11101010-02",
+     "title": "פגיעה במתקן של חברת אראמקו בריאד",
+     "summary": "סגן מושל מחוז ריאד ביקר במבנה מנהלי של חברת הנפט שנפגע בעקבות מתקפה של החות'ים.",
+     "axis": "פגיעה בתשתיות סעודיות",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-10T00:31:27+00:00",
-     "last_update_at": "2026-11-10T01:11:25+00:00",
+     "first_reported_at": "2026-11-10T04:46:56+00:00",
+     "last_update_at": "2026-11-10T08:06:01+00:00",
      "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_saba_aden",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/155516",
-       "published_at": "2026-11-10T01:11:25+00:00"
+       "url": "https://t.me/abualiexpress/133389",
+       "published_at": "2026-11-10T08:06:01+00:00"
       },
       {
-       "source_id": "src_mee",
+       "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepted-houthi-missile-1",
-       "published_at": "2026-11-10T00:31:27+00:00"
+       "url": "https://www.al-monitor.com/originals/2026/11/saudi-official-inspects-aramco-riyadh-office-after-houthi-attack",
+       "published_at": "2026-11-10T04:46:56+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "ריאד, ערב הסעודית",
+       "lat": 24.6389,
+       "lon": 46.716
+      }
+     ]
     },
     {
-     "id": "YEMEN-11100140-03",
-     "title": "תקיפת מתקני ייצור טילים של החות'ים",
-     "summary": "הקואליציה בראשות סעודיה הודיעה כי השמידה מפעלים להרכבת רכיבי טילים בליסטיים ומתקן כימי של המיליציה החות'ית.",
-     "axis": "הקואליציה בראשות סעודיה - החות'ים",
+     "id": "YEMEN-11101010-03",
+     "title": "תקיפה סעודית על מתקן גז בצנעא",
+     "summary": "כוחות סעודיים ביצעו תקיפה נגד מתקן גז הממוקם בבירת תימן.",
+     "axis": "פעילות הקואליציה בתימן",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-09T19:00:46+00:00",
-     "last_update_at": "2026-11-09T19:00:46+00:00",
-     "what_is_not_verified": "מיקומם המדויק של המתקנים שהושמדו לא צוין בהודעה",
+     "first_reported_at": "2026-11-10T02:42:59+00:00",
+     "last_update_at": "2026-11-10T07:46:47+00:00",
+     "what_is_not_verified": "היקף הנזק והנפגעים בתקיפה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-destroyed-houthi-missile-facilities",
-       "published_at": "2026-11-09T19:00:46+00:00"
+       "url": "https://t.me/alexmehacarmel/49451",
+       "published_at": "2026-11-10T02:42:59+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/saudi-led-coalition-reports-houthi-missile-drone-interceptions-saba-reports-saudi",
+       "published_at": "2026-11-10T07:46:47+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "צנעא, תימן",
+       "lat": 15.3539,
+       "lon": 44.2059
+      }
+     ]
     }
    ]
   }
