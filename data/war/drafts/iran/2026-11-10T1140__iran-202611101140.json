@@ -1,0 +1,374 @@
+{
+ "status": "draft",
+ "received_sha256_12": "455e0be91318",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 4,
+   "verified": 1,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-10T11:40:26+00:00",
+  "window": {
+   "from": "2026-11-09T11:40:26+00:00",
+   "to": "2026-11-10T11:40:26+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611101140"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל מתנהל במקביל למגעים דיפלומטיים בתיווך קטאר וגורמים אזוריים. בעוד שארצות הברית מאותתת כי תרחיש של מתקפות נוספות אינו סביר כרגע אך שומרת על כוננות, איראן ממשיכה בהפגנת כוח צבאית ובאיומים ימיים במצר הורמוז, לצד חיכוך גובר עם אירופה בעקבות מתקפות סייבר.",
+  "fronts": [
+   {
+    "name": "החזית הימית (מצר הורמוז)",
+    "status": "פעיל ומתוח עם דיווחים על תקיפות מכליות"
+   },
+   {
+    "name": "החזית הדיפלומטית-תיווכי",
+    "status": "פעיל סביב מגעים בוושינגטון, פריז וקטאר"
+   },
+   {
+    "name": "חזית הסייבר ואירופה",
+    "status": "הסלמה בעקבות האשמות צרפתיות נגד איראן"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11101140-01",
+    "title": "קטאר מדווחת על תגובות חיוביות לתווכה מול ארה\"ב ואיראן",
+    "summary": "משרד החוץ הקטארי מוסר כי ארצות הברית ואיראן הגיבו בחיוב למאמצי התיווך וממשיכות במגעים לסיום המשבר.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T11:01:38+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-10T11:01:38+00:00",
+    "last_update_at": "2026-11-10T11:29:02+00:00",
+    "what_is_not_verified": "טיב התגובות המדויק וההסכמות שגיבשו הצדדים לא מאומתים מעבר להצהרה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_ca1d63a739591593",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-says-us-and-iran-have-responded-positively-mediation",
+      "published_at": "2026-11-10T11:29:02+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_ca1d63a739591593",
+      "url": "https://www.maariv.co.il/breaking-news/article-1386975",
+      "published_at": "2026-11-10T11:01:38+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11101140-02",
+    "title": "צרפת תפעל לסנקציות נגד איראן בעקבות מתקפת סייבר על מקררים מסחריים",
+    "summary": "צרפת מאשימה את משמרות המהפכה באיראן בביצוע מתקפת סייבר שפגעה במאות מקררים מסחריים באוקטובר, ומקדמת סנקציות באיחוד האירופי.",
+    "axis": "איראן מול אירופה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T17:54:40+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T17:54:40+00:00",
+    "last_update_at": "2026-11-10T11:11:18+00:00",
+    "what_is_not_verified": "אחריותה הישירה המלאה של איראן נטענת על ידי צרפת אך טעונה הוכחה נוספת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_6813360db90cdfb8",
+      "url": "https://t.me/alexmehacarmel/49454",
+      "published_at": "2026-11-10T11:11:18+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_6813360db90cdfb8",
+      "url": "https://www.aljazeera.com/news/2026/11/10/france-summons-irans-ambassador-over-supermarket-fridge-sabotage?traffic_source=rss",
+      "published_at": "2026-11-10T10:51:02+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_ce6abcbd262d0504",
+      "url": "https://www.iranintl.com/en/202611105429",
+      "published_at": "2026-11-10T10:30:19+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_6813360db90cdfb8",
+      "url": "https://www.al-monitor.com/originals/2026/11/france-summons-iran-envoy-over-supermarket-fridge-hack-warns-response",
+      "published_at": "2026-11-10T09:46:29+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_6813360db90cdfb8",
+      "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T20:20:08+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_00744bf5f2edea99",
+      "url": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges",
+      "published_at": "2026-11-09T17:54:40+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11101140-03",
+    "title": "משמרות המהפכה מדווחים על פגיעה בשתי מכליות נפט במצר הורמוז",
+    "summary": "משמרות המהפכה באיראן טוענים כי שתי מכליות נפט נפגעו במצר הורמוז בשל מעבר בנתיב אסור, באחת מהן אירעה התפוצצות ממכשה ימית ובשנייה תקלה ותבערה.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-10T10:15:13+00:00",
+    "last_update_at": "2026-11-10T11:08:15+00:00",
+    "what_is_not_verified": "נסיבות האירוע המדויקות והדיווח על נוכחות קרב של ארה\"ב מבוססים על הודעת משמרות המהפכה בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_70668c69e3db6bc4",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-says-two-oil-tankers-catch-fire-strait-hormuz",
+      "published_at": "2026-11-10T11:08:15+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_70668c69e3db6bc4",
+      "url": "https://www.ynet.co.il/news/article/hjfm8uxagl",
+      "published_at": "2026-11-10T10:15:13+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11101140-04",
+    "title": "איראן חשפה עיר טילים תת-קרקעית חדשה",
+    "summary": "משמרות המהפכה באיראן חשפו בטקס רשמי עיר טילים תת-קרקעית חדשה של חיל האוויר והחלל.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T10:55:15+00:00",
+    "last_update_at": "2026-11-10T10:55:15+00:00",
+    "what_is_not_verified": "היכולות המבצעיות המדויקות של האתר אינן מאומתות עצמאית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133401",
+      "published_at": "2026-11-10T10:55:15+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11101140-05",
+    "title": "ארה\"ב פינתה מטוסים מבסיס חיל האוויר המלכותי מילדנהול בבריטניה",
+    "summary": "הצבא האמריקאי העביר מטוסי תדלוק וכלי טיס נוספים מבסיס מילדנהול בבריטניה לגרמניה וליעדים אחרים עקב איום מאיראן.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-10T05:23:43+00:00",
+    "last_update_at": "2026-11-10T10:08:05+00:00",
+    "what_is_not_verified": "טיב האיום המדויק שהוביל לפינוי אינו מפורט במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611107338",
+      "published_at": "2026-11-10T10:08:05+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/10/us-moves-aircraft-from-second-uk-base-over-threat-from-iran?traffic_source=rss",
+      "published_at": "2026-11-10T08:08:24+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133383",
+      "published_at": "2026-11-10T06:45:15+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/ryxmwmgrfl",
+      "published_at": "2026-11-10T05:23:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס מילדנהול, בריטניה",
+      "lat": 52.3627,
+      "lon": 0.4855
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11101140-06",
+    "title": "רה\"מ קטאר משתתף בשיחות ה-G7 בפריז בנושא משבר איראן",
+    "summary": "ראש ממשלת קטאר הגיע לפריז לעדכן את שרי החוץ של ה-G7 וסעודיה על שיחותיו בוושינגטון עם נשיא ארה\"ב בנוגע לסיום המלחמה מול איראן.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-10T09:45:40+00:00",
+    "last_update_at": "2026-11-10T10:30:58+00:00",
+    "what_is_not_verified": "פרטי ההבנות המלאים טרם פורסמו רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_e4000468c8942526",
+      "url": "https://www.al-monitor.com/originals/2026/11/qatar-pm-joins-g7-talks-iran-after-trump-meeting-paris",
+      "published_at": "2026-11-10T10:30:58+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_e4000468c8942526",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-pm-brief-g7-and-saudi-arabia-iran-war-after-trump-talks",
+      "published_at": "2026-11-10T09:45:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פריז, צרפת",
+      "lat": 48.8535,
+      "lon": 2.3484
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טיב האיומים המדויקים שהביאו לפינוי הבסיסים האמריקאיים בבריטניה",
+   "היקף הנזק המדויק ותנועת המכליות במצר הורמוז מעבר להודעת משמרות המהפכה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1707,
+    "unit": "ILS",
+    "change_pct": -0.88,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "להפגין עצמאות בייצור טילים",
+     "להזהיר ספינות ממעבר בנתיבים לא מורשים בהורמוז"
+    ],
+    "inferred": [
+     "לנסות להניא את ארה\"ב וישראל מהמשך תקיפות באמצעות הצגת יכולות תת-קרקעיות",
+     "להפעיל לחץ כלכלי וימי"
+    ],
+    "forecast": [
+     "המשך פיתוח אמצעי לחימה מקומיים",
+     "תגובה דיפלומטית מעורבת לצד המשך שימוש בשלוחים או פעולות סייבר"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "לשמור על כוננות גבוהה למרות סיכוי נמוך כרגע לתקיפות נוספות",
+     "למנוע מאיראן להשיג נשק גרעיני"
+    ],
+    "inferred": [
+     "להעדיף מיצוי ערוצי תיווך ומצור ימי על פני הרחבת העימות הצבאי הישיר",
+     "לשמור על ביטחון הכוחות באזור בעקבות התראות איום"
+    ],
+    "forecast": [
+     "בחינת התקדמות המו\"ל הדיפלומטי",
+     "המשך שמירת נוכחות צבאית מרתיעה במפרץ"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [],
+    "inferred": [
+     "היערכות מתמשכת לאפשרות של הסלמה פתאומית מול איראן",
+     "הפעלת לחץ מדיני להמשך מניעת התגרענות איראנית"
+    ],
+    "forecast": [
+     "המשך דריכות גבוהה במערכת הביטחון מול תרחישי הפתעה איראניים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/10/us-moves-aircraft-from-second-uk-base-over-threat-from-iran?traffic_source=rss",
+    "accessed_at": "2026-11-10T11:40:26+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/qatar-pm-joins-g7-talks-iran-after-trump-meeting-paris",
+    "accessed_at": "2026-11-10T11:40:26+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-10T11:40:26+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges",
+    "accessed_at": "2026-11-10T11:40:26+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611107338",
+    "accessed_at": "2026-11-10T11:40:26+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1386975",
+    "accessed_at": "2026-11-10T11:40:26+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-pm-brief-g7-and-saudi-arabia-iran-war-after-trump-talks",
+    "accessed_at": "2026-11-10T11:40:26+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133383",
+    "accessed_at": "2026-11-10T11:40:26+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49454",
+    "accessed_at": "2026-11-10T11:40:26+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/ryxmwmgrfl",
+    "accessed_at": "2026-11-10T11:40:26+00:00"
+   }
+  ]
+ }
+}

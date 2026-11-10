@@ -1,0 +1,304 @@
+{
+ "status": "draft",
+ "received_sha256_12": "27ba7397eeb2",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 2,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-10T11:54:36+00:00",
+  "window": {
+   "from": "2026-11-09T11:54:36+00:00",
+   "to": "2026-11-10T11:54:36+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611101154"
+  },
+  "summary": "הלחימה בזירת תימן נמשכת ביתר שאת, כאשר החות'ים משגרים טילים וכטב\"מים לעבר מתקנים אסטרטגיים וערי בירה בסעודיה, ובתגובה מבצעת הקואליציה בהובלת סעודיה תקיפות אוויריות נרחבות בשטחי תימן. במקביל, הממשלה המוכרת בתימן מתמודדת עם שיבושים מנהליתיים בעדן עקב ירי החות'ים, ומתגבשים שיתופי פעולה אזוריים נוספים להגנה על גבולות סעודיה.",
+  "fronts": [
+   {
+    "name": "סעודיה - תימן",
+    "status": "פעיל ומתעצם עם תקיפות הדדיות"
+   },
+   {
+    "name": "דרום תימן ועדן",
+    "status": "פעיל תחת שיבושים ממשלתיים עקב ירי"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11101154-01",
+    "title": "יירוט טילים וכטב\"מים בסעודיה",
+    "summary": "הקואליציה בהובלת סעודיה יירטה והשמידה טילים ורחפנים ששיגרו החות'ים לעבר ריאד, האזור הדרומי והמחוז המזרחי בסעודיה, ונזק נגרם למבנה של חברת אראמכו בריאד.",
+    "axis": "סעודיה והקואליציה מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T10:41:55+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-09T10:41:55+00:00",
+    "last_update_at": "2026-11-10T11:29:02+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק בכלל האתרים אינו מאומת לחלוטין מעבר לתיעודים ולדיווחים הרשמיים.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-says-us-and-iran-have-responded-positively-mediation",
+      "published_at": "2026-11-10T11:29:02+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-665",
+      "published_at": "2026-11-10T07:56:53+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/saudi-led-coalition-reports-houthi-missile-drone-interceptions-saba-reports-saudi",
+      "published_at": "2026-11-10T07:46:47+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/saudi-official-inspects-aramco-riyadh-office-after-houthi-attack",
+      "published_at": "2026-11-10T04:46:56+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155517",
+      "published_at": "2026-11-10T01:21:13+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155516",
+      "published_at": "2026-11-10T01:11:25+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/trump-sees-positive-momentum-iran-deal-after-qatar-talks",
+      "published_at": "2026-11-09T15:22:14+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/video/20261109-saudi-arabia-intercepts-houthi-missiles-as-riyadh-s-aramco-building-damaged",
+      "published_at": "2026-11-09T10:41:55+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11101154-02",
+    "title": "תקיפות אוויריות של סעודיה והקואליציה בתימן",
+    "summary": "הקואליציה בהובלת סעודיה ביצעה תקיפות אוויריות נרחבות בתימן, בין היתר בצנעא ובמחוזות נוספים, כולל פגיעה במפעלים ומטרות צבאיות של החות'ים.",
+    "axis": "סעודיה והקואליציה מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T11:10:04+00:00",
+    "last_update_at": "2026-11-10T07:25:44+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק והנזק המלא באתרים שהותקפו אינם מאומתים ממקור בלתי תלוי.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/trump-claims-war-effectively-over-iran-presses-conditions",
+      "published_at": "2026-11-10T07:25:44+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49451",
+      "published_at": "2026-11-10T02:42:59+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/trump-sees-positive-momentum-iran-deal-after-qatar-talks",
+      "published_at": "2026-11-09T15:22:14+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-airstrikes-kill-40-yemen-mostly-women-and-children",
+      "published_at": "2026-11-09T11:10:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     },
+     {
+      "name": "באני חושייש, תימן",
+      "lat": 15.4547,
+      "lon": 44.3782
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11101154-03",
+    "title": "השעיית ישיבות הממשלה בתימן עקב ירי טילים",
+    "summary": "המשלה המוכרת בינלאומית של תימן השעתה את ישיבות הקבינט המלאות בעדן בעקבות מתקפות טילים על ארמון הנשיאות.",
+    "axis": "ממשלת תימן מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-10-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T11:10:04+00:00",
+    "last_update_at": "2026-11-09T11:54:36+00:00",
+    "what_is_not_verified": "לוח הזמנים המלא לחידוש הישיבות אינו מאומת.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-airstrikes-kill-40-yemen-mostly-women-and-children",
+      "published_at": "2026-11-09T11:10:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11101154-04",
+    "title": "הכנות להצבת כוחות סוריים בסעודיה",
+    "summary": "גורמים שונים דיווחו כי סוריה מתכוננת לשלוח כוחות מיוחדים ויועצים צבאיים לסעודיה לצורך פריסה לאורך הגבול.",
+    "axis": "סעודיה מול החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-09T12:01:52+00:00",
+    "last_update_at": "2026-11-09T12:01:52+00:00",
+    "what_is_not_verified": "היקף הכוחות המדויק ומועד ההגעה טרם אומתו באופן רשמי על ידי סעודיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-turns-syrian-help-fighting-houthis-grows",
+      "published_at": "2026-11-09T12:01:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים המדויק בתקיפות האוויריות בצנעא ובסעודיה",
+   "המועד המדויק של פריסת הכוחות הסוריים בסעודיה",
+   "היקף הנזק המלא במתקני חברת אראמכו בריאד"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1707,
+    "unit": "ILS",
+    "change_pct": -0.88,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-09T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה בתשתיות ובמתקנים חיוניים בסעודיה",
+     "תגובה על פעולות צבאיות נגדן"
+    ],
+    "inferred": [
+     "ערעור היציבות הכלכלית והביטחונית בסעודיה",
+     "הפעלת לחץ על הממשלה המוכרת בתימן"
+    ],
+    "forecast": [
+     "המשך שיגור טילים וכטב\"מים לעבר יעדים בסעודיה",
+     "הגנה על מעוזיהם בתימן מפני תקיפות הקואליציה"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "הגנה על הביטחון והיציבות של הממלכה",
+     "השמדת יכולות ייצור הטילים והכטב\"מים של החות'ים"
+    ],
+    "inferred": [
+     "בלימת ההשפעה של החות'ים והגנה על מתקני אנרגיה קריטיים",
+     "גיוס תמיכה ושיתופי פעולה אזוריים לחיזוק ההגנה הגבולית"
+    ],
+    "forecast": [
+     "המשך התקיפות האוויריות נגד מטרות חות'יות בתימן",
+     "הגברת אמצעי ההגנה האווירית והידוק שיתופי הפעולה הביטחוניים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/saudi-official-inspects-aramco-riyadh-office-after-houthi-attack",
+    "accessed_at": "2026-11-10T11:54:36+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/video/20261109-saudi-arabia-intercepts-houthi-missiles-as-riyadh-s-aramco-building-damaged",
+    "accessed_at": "2026-11-10T11:54:36+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-665",
+    "accessed_at": "2026-11-10T11:54:36+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-arabia-turns-syrian-help-fighting-houthis-grows",
+    "accessed_at": "2026-11-10T11:54:36+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155516",
+    "accessed_at": "2026-11-10T11:54:36+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49451",
+    "accessed_at": "2026-11-10T11:54:36+00:00"
+   }
+  ]
+ }
+}
