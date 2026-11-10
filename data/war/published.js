@@ -983,335 +983,248 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-11-09T2107__ukraine-202611092107.json",
+  "draft": "drafts/ukraine/2026-11-10T1052__ukraine-202611101052.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-11-09T21:07:34+00:00",
+   "generated_at": "2026-11-10T10:52:12+00:00",
    "window": {
-    "from": "2026-11-08T21:07:34+00:00",
-    "to": "2026-11-09T21:07:34+00:00"
+    "from": "2026-11-09T10:52:12+00:00",
+    "to": "2026-11-10T10:52:12+00:00"
    },
    "model": {
-    "name": "gemini-3.8-flash",
-    "run_id": "ukraine-202611092107"
+    "name": "gemini-3.5-flash-lite",
+    "run_id": "ukraine-202611101052"
    },
-   "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בתקיפות רוסיות נמשכות על תשתיות האנרגיה האוקראיניות ובפגיעות כטב\"מים, מולן מגיבה אוקראינה בתקיפות עומק על בסיסי מזל\"טים ומפעלי ייצור צבאיים ברוסיה ובשטחים הכבושים. במקביל נערכים הצדדים לחידוש המשא ומתן המדיני בסבב שיחות משולש באבו דאבי בתיווך אמריקאי, לצד מחלוקות באיחוד האירופי סביב המשך מימון הסיוע לקייב.",
+   "summary": "הלחימה בין רוסיה לאוקראינה נמשכת במקביל למגעים דיפלומטיים מרכזיים, הכוללים את פתיחתם של סבבי שיחות משולשים באבו דאבי בתיווך אמריקאי. רוסיה ממשיכה לבצע תקיפות אוויריות נרחבות נגד תשתיות האנרגיה ואזורים אזרחיים באוקראינה, בעוד אוקראינה ממשיכה בתקיפות נגד מטרות בתוך שטחי רוסיה ומקבלת סיוע צבאי בינלאומי מתמשך.",
    "fronts": [
     {
-     "name": "מחוז זפוריז'יה (ברדיאנסק)",
-     "status": "פגיעות עומק של צבא אוקראינה נגד מתקני יחידות הרחפנים של צבא רוסיה"
+     "name": "החזית המזרחית והדרומית באוקראינה",
+     "status": "פעילה עם חילופי אש ותקיפות אוויריות"
     },
     {
-     "name": "עורף התשתיות באוקראינה (דניפרו, קמיאנסקה, קייב)",
-     "status": "פגיעות רוסיות קשות ברשת החשמל ושיבושי אספקה רחבים"
+     "name": "תשתיות האנרגיה האוקראיניות",
+     "status": "תחת מתקפות רוסיות והפסקות חשמל יזומות"
     },
     {
-     "name": "מחוזות חרקוב וחרסון",
-     "status": "תקיפות כטב\"מים רוסיים נגד מטרות וכלי רכב"
-    },
-    {
-     "name": "עומק רוסיה (מחוז לנינגרד)",
-     "status": "תקיפה אוקראינית נגד מתקן ביטחוני לייצור רכיבי טילים בליסטיים"
+     "name": "מתקפות עומק בשטח רוסיה",
+     "status": "פעילות באמצעות כלי טיס בלתי מאוישים"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-11092107-01",
-     "title": "תקיפה אוקראינית על בסיס רחפנים רוסי בברדיאנסק הכבושה",
-     "summary": "כוחות אוקראיניים ביצעו מתקפה משולבת באמצעות כטב\"מים על בסיס יחידת הרחפנים הרוסית 'רוביקון' בעיר ברדיאנסק שבמחוז זפוריז'יה, כ-107 ק\"מ מעבר לקו החזית.",
-     "axis": "זפוריז'יה",
+     "id": "UKRAINE-11101052-01",
+     "title": "תקיפות אוויריות על תשתית אנרגיה ואזורים באוקראינה",
+     "summary": "כוחות רוסיים תקפו עשרה מחוזות באוקראינה באמצעות טילים וכלי טיס בלתי מאוישים, ופגעו בחמש תחנות משנה מרכזיות המעבירות חשמל.",
+     "axis": "רוסיה-אוקראינה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-07T00:00:00+00:00",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-09T17:29:00+00:00",
-     "last_update_at": "2026-11-09T20:24:20+00:00",
-     "what_is_not_verified": "היקף הנפגעים והאבדות בקרב המפעילים הרוסים בבסיס",
+     "first_reported_at": "2026-11-10T09:50:00+00:00",
+     "last_update_at": "2026-11-10T10:41:31+00:00",
+     "what_is_not_verified": "מספר הנפגעים והנזקים המדויקים מעבר למה שדווח רשמית.",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
+       "published_at": "2026-11-10T10:41:31+00:00"
+      },
+      {
        "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/ukrainian-forces-strike-elite-russian-rubicon-drone-unit-in-occupied-territory/",
-       "published_at": "2026-11-09T20:24:20+00:00"
+       "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-39-including-a-1-year-old-across-ukraine-over-past-day/",
+       "published_at": "2026-11-10T10:03:22+00:00"
       },
       {
        "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8062021/",
-       "published_at": "2026-11-09T17:29:00+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062112/",
+       "published_at": "2026-11-10T09:50:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "ברדיאנסק, אוקראינה",
-       "lat": 46.7557,
-       "lon": 36.7888
+       "name": "פולטבה",
+       "lat": 49.5897,
+       "lon": 34.5508
+      },
+      {
+       "name": "דניפרופטרובסק",
+       "lat": 48.468,
+       "lon": 35.0418
+      },
+      {
+       "name": "ויניצה",
+       "lat": 49.232,
+       "lon": 28.468
       }
      ]
     },
     {
-     "id": "UKRAINE-11092107-02",
-     "title": "היערכות לשיחות משולשות באבו דאבי בהשתתפות ארה\"ב, רוסיה ואוקראינה",
-     "summary": "משלחות מרוסיה, אוקראינה וארה\"ב מגיעות לאיחוד האמירויות לשיחות סגורות בנושאי ערבויות ביטחון, חילופי שבויים והפחתת הסלמה, במקביל למגעים עם נציגים אירופים.",
-     "axis": "משא ומתן דיפלומטי",
-     "claim_type": "statement",
+     "id": "UKRAINE-11101052-02",
+     "title": "תחילת שיחות שלום משולשות באבו דאבי",
+     "summary": "נציגים מרוסיה, אוקראינה וארצות הברית החלו בסבב שיחות משולש באבו דאבי במטרה לדון בסיום הסכסוך, ערבויות ביטחוניות וסוגיות טריטוריאליות.",
+     "axis": "רוסיה-אוקראינה",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-09T01:44:46+00:00",
-     "last_update_at": "2026-11-09T20:07:08+00:00",
-     "what_is_not_verified": "מידת מעורבותם בפועל של נציגי אירופה ונאט\"ו בתוך הדיונים",
+     "first_reported_at": "2026-11-10T09:29:00+00:00",
+     "last_update_at": "2026-11-10T10:40:55+00:00",
+     "what_is_not_verified": "התוצאות הסופיות של השיחות וההסכמות שיושגו.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tass",
        "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/world/2215057",
-       "published_at": "2026-11-09T20:07:08+00:00"
+       "url": "https://tass.com/world/2215435",
+       "published_at": "2026-11-10T10:40:55+00:00"
       },
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49442",
-       "published_at": "2026-11-09T20:03:34+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-polytics/4183080-budanov-humanitarian-issues-to-be-major-focus-of-abu-dhabi-talks.html",
-       "published_at": "2026-11-09T18:40:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8062026/",
-       "published_at": "2026-11-09T18:02:00+00:00"
+       "url": "https://meduza.io/en/news/2026/11/10/russia-ukraine-and-u-s-begin-trilateral-peace-talks-in-abu-dhabi",
+       "published_at": "2026-11-10T10:05:43+00:00"
       },
       {
        "source_id": "src_ukrinform",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-polytics/4183060-kushner-and-witkoff-to-meet-european-representatives-ahead-of-abu-dhabi-talks.html",
-       "published_at": "2026-11-09T17:40:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8062017/",
-       "published_at": "2026-11-09T16:58:00+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/nov/09/ukraine-war-briefing-post-war-security-guarantees-a-key-focus-in-upcoming-abu-dhabi-talks-says-rubio",
-       "published_at": "2026-11-09T01:44:46+00:00"
+       "url": "https://www.ukrinform.net/rubric-polytics/4183246-trilateral-talks-begin-in-abu-dhabi-umerov.html",
+       "published_at": "2026-11-10T09:29:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "אבו דאבי, איחוד האמירויות",
+       "name": "אבו דאבי",
        "lat": 24.4538,
        "lon": 54.3774
       }
      ]
     },
     {
-     "id": "UKRAINE-11092107-03",
-     "title": "פגיעות ברשת החשמל והאנרגיה במחוז דניפרופטרובסק ובקייב",
-     "summary": "תקיפות רוסיות על מתקני אנרגיה הובילו לשיבושים נרחבים באספקת החשמל בערים דניפרו, קמיאנסקה וקייב, וצוותים פועלים לתיקון הנזקים.",
-     "axis": "עורף אוקראינה",
+     "id": "UKRAINE-11101052-03",
+     "title": "פגישת מתאמים מערביים ואוקראינים לקראת השיחות",
+     "summary": "נציגים מארצות הברית, אוקראינה ומדינות אירופה נפגשו לתאם עמדות לקראת השיחות המדיניות באבו דאבי.",
+     "axis": "רוסיה-אוקראינה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-09T12:00:00+00:00",
-     "last_update_at": "2026-11-09T20:37:00+00:00",
-     "what_is_not_verified": "משך הזמן המדויק שיידרש להשבת זרם החשמל במלואו",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-10T10:00:00+00:00",
+     "last_update_at": "2026-11-10T10:00:00+00:00",
+     "what_is_not_verified": "פרטי ההסכמות החסויים מהפגישה המקדימה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_77602bd7b34a1863",
-       "url": "https://www.ukrinform.net/rubric-ato/4183116-electricity-situation-remains-particularly-difficult-in-kyiv-and-dnipro-shmyhal.html",
-       "published_at": "2026-11-09T20:37:00+00:00"
-      },
-      {
        "source_id": "src_pravda_ua",
-       "source_root_id": "fh_77602bd7b34a1863",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8062040/",
-       "published_at": "2026-11-09T19:34:00+00:00"
-      },
-      {
-       "source_id": "src_un_news",
-       "source_root_id": "fh_77602bd7b34a1863",
-       "url": "https://news.un.org/feed/view/en/story/2026/11/1168761",
-       "published_at": "2026-11-09T12:00:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062115/",
+       "published_at": "2026-11-10T10:00:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "דניפרו, אוקראינה",
-       "lat": 51.5567,
-       "lon": 30.6122
-      },
-      {
-       "name": "קמיאנסקה, אוקראינה",
-       "lat": 48.5168,
-       "lon": 34.6069
-      },
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "אבו דאבי",
+       "lat": 24.4538,
+       "lon": 54.3774
       }
      ]
     },
     {
-     "id": "UKRAINE-11092107-04",
-     "title": "פגיעות כטב\"מים רוסיים בכלי רכב אזרחיים בחרסון ובחרקוב",
-     "summary": "כטב\"מים רוסיים פגעו בשני כלי רכב, האחד במחוז חרסון שבו נפצעו שלושה בני אדם, והשני ברובע קייבסקי בעיר חרקוב שבו נפצע אדם אחד.",
-     "axis": "חרסון וחרקוב",
+     "id": "UKRAINE-11101052-04",
+     "title": "פגישת שר החוץ האוקראיני עם מזכיר המדינה האמריקאי בפריז",
+     "summary": "שר החוץ של אוקראינה אנדריי סיביהא נפגש עם מזכיר המדינה מרקו רוביו בפריז לדיון במאמצי השלום המדיניים וחיזוק ההגנה האווירית.",
+     "axis": "רוסיה-אוקראינה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-09T17:48:00+00:00",
-     "last_update_at": "2026-11-09T19:59:00+00:00",
-     "what_is_not_verified": "מצבם הרפואי המדויק של הפצועים",
+     "first_reported_at": "2026-11-10T08:13:00+00:00",
+     "last_update_at": "2026-11-10T09:51:00+00:00",
+     "what_is_not_verified": "לא ידוע על פרטים לא מאומתים בדיווח זה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4183102-russian-drone-strikes-car-in-kherson-region-injuring-three-people.html",
-       "published_at": "2026-11-09T19:59:00+00:00"
-      },
-      {
        "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8062024/",
-       "published_at": "2026-11-09T17:48:00+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062113/",
+       "published_at": "2026-11-10T09:51:00+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-polytics/4183215-sybiha-meets-rubio-on-sidelines-of-g7-meeting-in-paris.html",
+       "published_at": "2026-11-10T08:13:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "חרקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
+       "name": "פריז",
+       "lat": 48.8535,
+       "lon": 2.3484
       }
      ]
     },
     {
-     "id": "UKRAINE-11092107-05",
-     "title": "הארכת משימת האימונים של האיחוד האירופי לחיילים אוקראינים",
-     "summary": "מועצת האיחוד האירופי החליטה להאריך את מנדט משימת הסיוע הצבאי בשנתיים נוספות עם תקציב של כ-300 מיליון אירו והקמת נציגות ישירה באוקראינה.",
-     "axis": "סיוע בינלאומי",
-     "claim_type": "statement",
+     "id": "UKRAINE-11101052-05",
+     "title": "תקיפת מתקן תעשייתי במחוז נובגורוד ברוסיה",
+     "summary": "כלי טיס בלתי מאוישים פגעו במתקן תעשייתי וגרמו נזק ברוסיה, לפי דיווח של מושל המחוז.",
+     "axis": "רוסיה-אוקראינה",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-09T18:05:00+00:00",
-     "last_update_at": "2026-11-09T18:05:00+00:00",
-     "what_is_not_verified": "מועד הפתיחה המדויק של הנציגות החדשה בתוך אוקראינה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8062027/",
-       "published_at": "2026-11-09T18:05:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11092107-06",
-     "title": "גרמניה מאיימת לבלום את תקציב האיחוד האירופי בשל סיוע לאוקראינה",
-     "summary": "קנצלר גרמניה פרידריך מרץ הודיע כי יבלום את אישור תקציב האיחוד לשנים 2028–2034 אלא אם הונגריה, סלובקיה, בולגריה וצ'כיה יתחייבו להמשך מימון אוקראינה.",
-     "axis": "סיוע בינלאומי וסנקציות",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-09T18:00:00+00:00",
-     "last_update_at": "2026-11-09T19:44:01+00:00",
-     "what_is_not_verified": "האם המדינות המסתייגות ישנו את עמדתן בעקבות האיום",
+     "first_reported_at": "2026-11-10T08:25:21+00:00",
+     "last_update_at": "2026-11-10T08:25:21+00:00",
+     "what_is_not_verified": "זהות המפעל המדויקת לפי הגורמים הרשמיים, והטענות הלא רשמיות לפגיעה במפעל תיקון מטוסים ספציפי.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/11/09/german-chancellor-merz-threatens-to-block-eu-budget-unless-four-holdouts-hungary-slovakia-bulgaria-and-the-czech-republic-commit-to-funding-ukraine",
-       "published_at": "2026-11-09T19:44:01+00:00"
-      },
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-polytics/4183064-merz-threatens-to-block-eu-budget-unless-agreement-is-reached-on-ukraine-funding-ft.html",
-       "published_at": "2026-11-09T18:00:00+00:00"
+       "url": "https://meduza.io/en/news/2026/11/10/ukrainian-drones-reportedly-strike-aircraft-repair-plant-in-russia-s-novgorod-region-governor-confirms-damage-to-industrial-facility",
+       "published_at": "2026-11-10T08:25:21+00:00"
       }
      ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11092107-07",
-     "title": "הרחבת הסנקציות הקנדיות על גופים ואנשים ברוסיה",
-     "summary": "קנדה הרחיבה את העיצומים נגד רוסיה והטילה הגבלות על 38 גופים ו-24 אישים המעורבים בפיתוח טכנולוגיית טילים בליסטיים ובפעילות סייבר.",
-     "axis": "סנקציות",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-09T14:17:54+00:00",
-     "last_update_at": "2026-11-09T14:17:54+00:00",
-     "what_is_not_verified": "רשימת הגופים והאישים המלאה",
-     "is_new_in_window": true,
-     "reports": [
+     "places": [
       {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/live/2026/nov/09/polands-krakow-attack-ukraine-russia-france-germany-europe-latest-news",
-       "published_at": "2026-11-09T14:17:54+00:00"
+       "name": "נובגורוד",
+       "lat": 58.561,
+       "lon": 31.2809
       }
-     ],
-     "places": []
+     ]
     },
     {
-     "id": "UKRAINE-11092107-08",
-     "title": "תקיפה אוקראינית על מפעל לייצור דלק טילים במחוז לנינגרד",
-     "summary": "כוחות אוקראיניים פגעו במפעל מורוזוב במחוז לנינגרד ברוסיה, המייצר מנועי דלק מוצק עבור טילי איסקנדר-אם.",
-     "axis": "עומק רוסיה",
+     "id": "UKRAINE-11101052-06",
+     "title": "החלטת האיחוד האירופי לכונן נוכחות צבאית רשמית באוקראינה",
+     "summary": "האיחוד האירופי החליט להקים לראשונה נוכחות צבאית רשמית במסגרת משימת הסיוע הצבאי.",
+     "axis": "רוסיה-אוקראינה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-09T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-09T17:29:00+00:00",
-     "last_update_at": "2026-11-09T18:34:24+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק שנגרם לפס הייצור במפעל",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-10T10:28:18+00:00",
+     "last_update_at": "2026-11-10T10:28:18+00:00",
+     "what_is_not_verified": "היקף פריסת הכוחות בפועל בשטח.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_kyivind",
+       "source_id": "src_tass",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/ukraine-war-latest-russia-suffers-record-daily-losses-for-2nd-time-in-a-month/",
-       "published_at": "2026-11-09T18:34:24+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8062021/",
-       "published_at": "2026-11-09T17:29:00+00:00"
+       "url": "https://tass.com/world/2215417",
+       "published_at": "2026-11-10T10:28:18+00:00"
       }
      ],
      "places": []
     }
    ],
    "not_verified": [
-    "טענות על שימוש בסרטוני בינה מלאכותית שהוצגו לפוטין כדי לזייף הישגים צבאיים בשטח",
-    "נתוני ההדלפה לפיהם נהרגו יותר מ-400 אלף חיילים רוסים מאז תחילת הפלישה",
-    "טענות שגריר רוסיה באו\"ם בדבר קיומה של רשת בתי כלא תת-קרקעיים אוקראיניים לשבויי מלחמה",
-    "האשמות שרת החוץ של לטביה בדבר ביצוע רצח עם על ידי רוסיה"
+    "הטענות על שימוש של גנרלים רוסים בסרטוני בינה מלאכותית מזויפים כדי לדווח לפוטין על הצלחות שקריות.",
+    "הדלפות נתוני האבדות של רוסיה דרך גורמי פריצה שטרם אומתו רשמית בידי גורם בלתי תלוי מוסמך.",
+    "היקף הנזק המדויק במתקן התעשייתי במחוז נובגורוד."
    ],
    "map": {
     "confidence": "high",
@@ -1333,129 +1246,108 @@ window.DB.war_published = {
     {
      "actor": "אוקראינה",
      "declared": [
-      "השגת ערבויות ביטחוניות ממשיות ומחייבות למניעת תוקפנות עתידית",
-      "קידום ומימוש עסקאות חילופי שבויים",
-      "הבטחת סיוע פיננסי וצבאי ארוך טווח ממדינות המערב והאיחוד האירופי"
+      "השגת ערבויות ביטחוניות אמינות לטווח ארוך",
+      "הפסקת הלחימה ושיקום כלכלי",
+      "שמירה על שלמות טריטוריאלית וריבונות"
      ],
      "inferred": [
-      "פגיעה ביכולות המערך האווירי והרחפנים של רוסיה הרחק מקווי המגע",
-      "שימור רציפות אספקת האנרגיה בעורף אל מול לחץ צבאי רוסי כבד"
+      "ניצול ההצלחות בשדה הקרב לחיזוק עמדת המיקוח בשיחות",
+      "הרחבת הסיוע הצבאי והכלכלי ממדינות המערב"
      ],
      "forecast": [
-      "המשך התמקדות בשיחות אבו דאבי בערוץ ההומניטרי וחילופי שבויים ללא פריצת דרך מדינית מהירה",
-      "המשך תקיפות ממוקדות בעומק השטח הרוסי על יעדי תעשייה ביטחונית"
+      "המשך מאמצים להשגת הגנה אווירית מתקדמת",
+      "הישענות על תמיכה דיפלומטית אמריקאית ואירופית בשיחות"
      ]
     },
     {
      "actor": "רוסיה",
      "declared": [
-      "עמידה על יעדי המבצע הצבאי המקוריים ותנאי השלום שהציבה ללא שינוי",
-      "דרישה שחיזוק ביטחון אוקראינה לא יבוא על חשבון ביטחונה של רוסיה",
-      "התנגדות לצירוף נציגים אירופים לשולחן השיחות המרכזי"
+      "השגת יעדי המבצע הצבאי",
+      "מניעת חיזוק צבאי של אוקראינה באופן שיפגע בביטחונה של רוסיה"
      ],
      "inferred": [
-      "הפעלת לחץ שחיקה ממושך על האוכלוסייה והכלכלה האוקראינית דרך הרס מתקני אנרגיה",
-      "שאיפה לכפות הסדר הכולל שינויי גבולות לטובתה"
+      "פגיעה שיטתית בתשתיות האנרגיה של אוקראינה כדי לשבור את עמידתה בחורף",
+      "ניסיון להשיג הישגים טריטוריאליים בשטח"
      ],
      "forecast": [
-      "המשך מתקפות אוויריות ממוקדות לעבר מתקני תשתית אוקראיניים לקראת החורף",
-      "התבצרות בעמדות המשא ומתן במטרה למנוע ערבויות ביטחון מערביות לקייב"
+      "המשך לחץ צבאי לצד השתתפות בשיחות המדיניות באבו דאבי"
      ]
     },
     {
      "actor": "ארצות הברית",
      "declared": [
-      "תיווך בין מוסקבה לקייב להשגת הסכם שלום וגיבוש ארכיטקטורת ביטחון",
-      "קריאה להפסקת תקיפות הדדיות ופעולות תגמול"
+      "השגת סיום סופי של מלחמת רוסיה-אוקראינה",
+      "תיווך בשיחות להשגת שלום בר-קיימא"
      ],
      "inferred": [
-      "רצון להביא לסיום מהיר של המלחמה, ייתכן תוך פשרות טריטוריאליות מצד אוקראינה",
-      "שילוב מבוקר של בעלות הברית מאירופה בתהליך לאחר השיחות המשולשות"
+      "יצירת מסגרת ביטחונית חדשה שתמנע הסלמה עתידית בין רוסיה לאירופה"
      ],
      "forecast": [
-      "המשך הובלת ערוץ המשא ומתן באבו דאבי תוך הפעלת לחץ על שני הצדדים להימנע מהסלמה"
+      "המשך ניהול מגעים דיפלומטיים אינטנסיביים בין הצדדים"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/live/2026/nov/09/polands-krakow-attack-ukraine-russia-france-germany-europe-latest-news",
-     "accessed_at": "2026-11-09T21:07:34+00:00"
+     "url": "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
+     "accessed_at": "2026-11-10T10:52:12+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/ukraine-war-latest-russia-suffers-record-daily-losses-for-2nd-time-in-a-month/",
-     "accessed_at": "2026-11-09T21:07:34+00:00"
+     "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-39-including-a-1-year-old-across-ukraine-over-past-day/",
+     "accessed_at": "2026-11-10T10:52:12+00:00"
     },
     {
      "source_id": "src_meduza",
-     "url": "https://meduza.io/en/news/2026/11/09/german-chancellor-merz-threatens-to-block-eu-budget-unless-four-holdouts-hungary-slovakia-bulgaria-and-the-czech-republic-commit-to-funding-ukraine",
-     "accessed_at": "2026-11-09T21:07:34+00:00"
+     "url": "https://meduza.io/en/news/2026/11/10/ukrainian-drones-reportedly-strike-aircraft-repair-plant-in-russia-s-novgorod-region-governor-confirms-damage-to-industrial-facility",
+     "accessed_at": "2026-11-10T10:52:12+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8062021/",
-     "accessed_at": "2026-11-09T21:07:34+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062113/",
+     "accessed_at": "2026-11-10T10:52:12+00:00"
     },
     {
      "source_id": "src_tass",
-     "url": "https://tass.com/world/2215057",
-     "accessed_at": "2026-11-09T21:07:34+00:00"
-    },
-    {
-     "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49442",
-     "accessed_at": "2026-11-09T21:07:34+00:00"
+     "url": "https://tass.com/world/2215417",
+     "accessed_at": "2026-11-10T10:52:12+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-polytics/4183064-merz-threatens-to-block-eu-budget-unless-agreement-is-reached-on-ukraine-funding-ft.html",
-     "accessed_at": "2026-11-09T21:07:34+00:00"
-    },
-    {
-     "source_id": "src_un_news",
-     "url": "https://news.un.org/feed/view/en/story/2026/11/1168761",
-     "accessed_at": "2026-11-09T21:07:34+00:00"
+     "url": "https://www.ukrinform.net/rubric-polytics/4183215-sybiha-meets-rubio-on-sidelines-of-g7-meeting-in-paris.html",
+     "accessed_at": "2026-11-10T10:52:12+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-09T00:40:33+00:00",
+  "previous_generated_at": "2026-11-09T21:07:34+00:00",
   "changes": {
-   "UKRAINE-11092107-01": {
+   "UKRAINE-11101052-01": {
     "kind": "new"
    },
-   "UKRAINE-11092107-02": {
+   "UKRAINE-11101052-02": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "היערכות למשא ומתן דיפלומטי באבו דאבי",
+    "prev": "היערכות לשיחות משולשות באבו דאבי בהשתתפות ארה\"ב, רוסיה ואוקראינה",
     "score": 1.0
    },
-   "UKRAINE-11092107-03": {
+   "UKRAINE-11101052-03": {
+    "kind": "new"
+   },
+   "UKRAINE-11101052-04": {
+    "kind": "new"
+   },
+   "UKRAINE-11101052-05": {
+    "kind": "new"
+   },
+   "UKRAINE-11101052-06": {
     "kind": "same",
     "from": "shared_root",
-    "to": "shared_root",
-    "prev": "מתקפות רוסיות על תשתיות אנרגיה וחשמל באוקראינה",
-    "score": 0.817
-   },
-   "UKRAINE-11092107-04": {
-    "kind": "possible",
-    "prev": "פגיעה בעמדות פיקוד ושליטה על כטב\"מים רוסיים",
-    "score": 0.467
-   },
-   "UKRAINE-11092107-05": {
-    "kind": "new"
-   },
-   "UKRAINE-11092107-06": {
-    "kind": "new"
-   },
-   "UKRAINE-11092107-07": {
-    "kind": "new"
-   },
-   "UKRAINE-11092107-08": {
-    "kind": "new"
+    "to": "initial",
+    "prev": "גרמניה מאיימת לבלום את תקציב האיחוד האירופי בשל סיוע לאוקראינה",
+    "score": 0.65
    }
   }
  },
