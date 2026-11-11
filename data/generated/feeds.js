@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-11T19:17:22+00:00",
-  "fetched_at": "2026-11-11T19:17:22+00:00"
+  "checked_at": "2026-11-11T20:17:27+00:00",
+  "fetched_at": "2026-11-11T20:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T19:17:32+00:00",
-  "fetched_at": "2026-11-11T19:17:32+00:00"
+  "checked_at": "2026-11-11T20:17:43+00:00",
+  "fetched_at": "2026-11-11T20:17:43+00:00"
  },
  "av_en": {
   "data": [
@@ -58,8 +58,8 @@ window.DB.generated = {
    },
    {
     "title_en": "Google Pixel 11 Pro",
-    "title_he": null,
-    "translated_by": null,
+    "title_he": "גוגל פיקסל 11 פרו",
+    "translated_by": "google",
     "link": "https://www.whathifi.com/smartphones-tablets/smartphones/google-pixel-11-pro",
     "date": "2026-11-11T16:23:31+00:00"
    },
@@ -79,39 +79,44 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T19:17:34+00:00",
-  "fetched_at": "2026-11-11T19:17:34+00:00"
+  "checked_at": "2026-11-11T20:17:44+00:00",
+  "fetched_at": "2026-11-11T20:17:44+00:00"
  },
- "generated_at": "2026-11-11T19:17:34+00:00",
+ "generated_at": "2026-11-11T20:17:44+00:00",
  "globes": {
   "data": {
    "top": [
+    {
+     "title": "מהנדסת שוויתרה על קריירה, והאחראית למעיל העור האיקוני: לורי הואנג יוצאת מהצללים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563118",
+     "date": "2026-11-11T17:53:00+00:00"
+    },
+    {
+     "title": "איזנקוט לנתניהו: \"גלה איפוק וזהירות ממהלכים מסוכנים\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562908",
+     "date": "2026-11-11T20:12:00+00:00"
+    }
+   ],
+   "market": [
+    {
+     "title": "עליות חדות בוול סטריט: קורוויב מזנקת ב-25%, אנבידיה מתאוששת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562761",
+     "date": "2026-11-11T19:00:00+00:00"
+    },
     {
      "title": "עורך הדין שהרשיע מאפיונרים: החוקר שיבדוק את פרשת הרומן של מנכ\"ל אנבידיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563064",
      "date": "2026-11-11T19:00:00+00:00"
     },
     {
-     "title": "איזנקוט לנתניהו: \"גלה איפוק וזהירות ממהלכים מסוכנים\"",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562908",
-     "date": "2026-11-11T18:26:00+00:00"
-    }
-   ],
-   "market": [
-    {
      "title": "מנכ\"ל טבע: \"העתיד נראה מבטיח במיוחד; מסתכלים גם על רכישות גדולות יותר\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563125",
      "date": "2026-11-11T18:46:00+00:00"
     },
     {
-     "title": "ויתרה על קריירה לטובת בעלה, הלבישה אותו במעיל עור איקוני: לורי הואנג נאלצת לצאת מהצללים",
+     "title": "מהנדסת שוויתרה על קריירה, והאחראית למעיל העור האיקוני: לורי הואנג יוצאת מהצללים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563118",
      "date": "2026-11-11T17:53:00+00:00"
-    },
-    {
-     "title": "עליות חדות בוול סטריט: קורוויב מזנקת ב-25%, אנבידיה מתאוששת",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562761",
-     "date": "2026-11-11T17:40:00+00:00"
     },
     {
      "title": "האם אייל רביד באמת יכול להשתלט על קרפור?",
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "לחסוך אלפי שקלים בחמישה צעדים: ההטבות שכדאי לנצל עד סוף דצמבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562795",
      "date": "2026-11-11T03:46:00+00:00"
-    },
-    {
-     "title": "בעקבות האינפלציה הגבוהה, וול סטריט קטעה יומיים של עליות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562654",
-     "date": "2026-11-10T21:00:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T19:17:23+00:00",
-  "fetched_at": "2026-11-11T19:17:23+00:00"
+  "checked_at": "2026-11-11T20:17:30+00:00",
+  "fetched_at": "2026-11-11T20:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T19:17:24+00:00",
-  "fetched_at": "2026-11-11T19:17:24+00:00"
+  "checked_at": "2026-11-11T20:17:31+00:00",
+  "fetched_at": "2026-11-11T20:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2494,8 +2494,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T19:17:25+00:00",
-  "fetched_at": "2026-11-11T19:17:25+00:00"
+  "checked_at": "2026-11-11T20:17:32+00:00",
+  "fetched_at": "2026-11-11T20:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2585,8 +2585,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-11T19:17:25+00:00",
-  "fetched_at": "2026-11-11T19:17:25+00:00"
+  "checked_at": "2026-11-11T20:17:32+00:00",
+  "fetched_at": "2026-11-11T20:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2599,18 +2599,19 @@ window.DB.generated = {
      "title": "אנת'רופיק הולכת על הראש של אקסל עם פיצ'ר חדש של Claude"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-     "date": "2026-11-10T16:03:47+00:00",
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+     "date": "2026-11-10T13:00:00+00:00",
      "launch": true,
-     "title_en": "Gemini 4 Carbon is now available",
-     "title_he": "Gemini 4 Carbon זמין כעת",
+     "title_en": "Google Cloud launches Gemini for healthcare.",
+     "title_he": "Google Cloud משיק את Gemini עבור שירותי בריאות.",
      "translated_by": "google"
     }
    ],
-   "candidates": 19,
+   "candidates": 15,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2624,7 +2625,7 @@ window.DB.generated = {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 285,
+     "likes": 286,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -2652,7 +2653,7 @@ window.DB.generated = {
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 101,
+     "likes": 102,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
     },
     {
@@ -2686,12 +2687,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T19:17:31+00:00",
-  "fetched_at": "2026-11-11T19:17:31+00:00"
+  "checked_at": "2026-11-11T20:17:42+00:00",
+  "fetched_at": "2026-11-11T20:17:42+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "אופיר שמואלי ותומר תירוש זכו במדליית ארד",
+     "link": "https://www.one.co.il/Article/538648.html?ref=rss",
+     "date": "2026-11-11T19:18:00+00:00",
+     "source": "ONE",
+     "players": [
+      "עופרי ארד"
+     ]
+    },
     {
      "title": "סולומון סובל מכאבי גב, קניקובסקי ואזולאי מתחרים על ההרכב",
      "link": "https://sports.walla.co.il/item/3875885",
@@ -2818,15 +2828,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "מאמנו של ענאן חלאילי על סף פיטורים. תומאס פרנק יגיע?",
-     "link": "https://sports.walla.co.il/item/3875541",
-     "date": "2026-11-09T09:39:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
      ]
     }
    ],
@@ -3040,8 +3041,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T19:17:28+00:00",
-  "fetched_at": "2026-11-11T19:17:28+00:00"
+  "checked_at": "2026-11-11T20:17:35+00:00",
+  "fetched_at": "2026-11-11T20:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -3071,60 +3072,59 @@ window.DB.generated = {
     "date": "2026-11-09T03:57:00+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-11T19:17:28+00:00",
-  "fetched_at": "2026-11-11T18:17:24+00:00"
+  "ok": true,
+  "checked_at": "2026-11-11T20:17:36+00:00",
+  "fetched_at": "2026-11-11T20:17:36+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-11T19:00:00+00:00",
-    "seen_at": "2026-11-11T19:17:34+00:00",
+    "newest": "2026-11-11T20:12:00+00:00",
+    "seen_at": "2026-11-11T20:17:44+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-11T18:46:00+00:00",
-    "seen_at": "2026-11-11T19:17:34+00:00",
+    "newest": "2026-11-11T19:00:00+00:00",
+    "seen_at": "2026-11-11T20:17:44+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-11T19:00:00+00:00",
-    "seen_at": "2026-11-11T19:17:34+00:00",
+    "seen_at": "2026-11-11T20:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-11T12:30:00+00:00",
-    "seen_at": "2026-11-11T19:17:34+00:00",
+    "seen_at": "2026-11-11T20:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-11T19:54:00+00:00",
-    "seen_at": "2026-11-11T19:17:34+00:00",
+    "newest": "2026-11-11T21:12:00+00:00",
+    "seen_at": "2026-11-11T20:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-11T18:25:00+00:00",
-    "seen_at": "2026-11-11T19:17:34+00:00",
+    "seen_at": "2026-11-11T20:17:44+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-11T19:01:00+00:00",
-    "seen_at": "2026-11-11T19:17:34+00:00",
+    "newest": "2026-11-11T20:05:00+00:00",
+    "seen_at": "2026-11-11T20:17:44+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-11T17:43:19+00:00",
-    "seen_at": "2026-11-11T18:17:31+00:00",
+    "seen_at": "2026-11-11T20:17:44+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3136,35 +3136,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-11T18:00:00+00:00",
-    "seen_at": "2026-11-11T19:17:34+00:00",
+    "seen_at": "2026-11-11T20:17:44+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-11T14:00:29+00:00",
-    "seen_at": "2026-11-11T19:17:34+00:00",
+    "seen_at": "2026-11-11T20:17:44+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-11T16:30:25+00:00",
-    "seen_at": "2026-11-11T19:17:34+00:00",
+    "seen_at": "2026-11-11T20:17:44+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-11T16:33:36+00:00",
-    "seen_at": "2026-11-11T19:17:34+00:00",
+    "seen_at": "2026-11-11T20:17:44+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-11T07:56:34+00:00",
-    "seen_at": "2026-11-11T19:17:34+00:00",
+    "seen_at": "2026-11-11T20:17:44+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-11T19:17:34+00:00"
+  "checked_at": "2026-11-11T20:17:44+00:00"
  },
  "health_news": {
   "data": [
@@ -3320,7 +3320,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T19:17:28+00:00",
-  "fetched_at": "2026-11-11T19:17:28+00:00"
+  "checked_at": "2026-11-11T20:17:37+00:00",
+  "fetched_at": "2026-11-11T20:17:37+00:00"
  }
 };
