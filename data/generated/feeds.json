@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-11T07:17:14+00:00",
-  "fetched_at": "2026-11-11T07:17:14+00:00"
+  "checked_at": "2026-11-11T08:17:19+00:00",
+  "fetched_at": "2026-11-11T08:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T07:17:23+00:00",
-  "fetched_at": "2026-11-11T07:17:23+00:00"
+  "checked_at": "2026-11-11T08:17:33+00:00",
+  "fetched_at": "2026-11-11T08:17:33+00:00"
  },
  "av_en": {
   "data": [
@@ -77,17 +77,17 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T07:17:23+00:00",
-  "fetched_at": "2026-11-11T07:17:23+00:00"
+  "checked_at": "2026-11-11T08:17:33+00:00",
+  "fetched_at": "2026-11-11T08:17:33+00:00"
  },
- "generated_at": "2026-11-11T07:17:23+00:00",
+ "generated_at": "2026-11-11T08:17:33+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "טלטלה בשווקים בעוד חודש בדיוק מהיום: האזהרה של משקיע העל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562909",
-     "date": "2026-11-11T07:00:00+00:00"
+     "title": "המרות מט\"ח והעברות כספים תחילה: רבולוט קיבלה רישיון ומכניסה את המערכת לדריכות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562823",
+     "date": "2026-11-11T08:01:00+00:00"
     },
     {
      "title": "ארה\"ב מפנה מטוסים, החשש: איראן מסמנת עוד יעדים באירופה",
@@ -96,6 +96,21 @@
     }
    ],
    "market": [
+    {
+     "title": "יציבות בפתיחה בתל אביב; מניית הבורסה צונחת במעל 7% אחרי הדוחות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562842",
+     "date": "2026-11-11T08:07:00+00:00"
+    },
+    {
+     "title": "המרות מט\"ח והעברות כספים תחילה: רבולוט קיבלה רישיון ומכניסה את המערכת לדריכות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562823",
+     "date": "2026-11-11T08:01:00+00:00"
+    },
+    {
+     "title": "בנק דיסקונט נכנס לשוק הקריפטו: יאפשר מסחר בביטקוין ובאת'ריום דרך האפליקציה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562915",
+     "date": "2026-11-11T07:26:00+00:00"
+    },
     {
      "title": "חברת יחסי הציבור לסקנדלים: פרשת הואנג מסתעפת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562914",
@@ -112,11 +127,6 @@
      "date": "2026-11-11T06:41:00+00:00"
     },
     {
-     "title": "מניית ה-AI שזינקה ב-17% אחרי הדוחות: חמישה דברים לקראת יום המסחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562842",
-     "date": "2026-11-11T06:33:00+00:00"
-    },
-    {
      "title": "מצב השווקים: מניות השבבים מקפיצות את סיאול, תשואת האג\"ח לעשור בארה\"ב שוב מעל 5%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562761",
      "date": "2026-11-11T05:02:00+00:00"
@@ -130,11 +140,6 @@
      "title": "טיל השיוט החדש של רפאל: עם ראש קרב שיכול לחמוק ממערכות הגנה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562905",
      "date": "2026-11-11T04:00:00+00:00"
-    },
-    {
-     "title": "המרות מט\"ח והעברות כספים תחילה: רבולוט קיבלה רישיון להקים בנק חדש בישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562823",
-     "date": "2026-11-11T03:53:00+00:00"
     },
     {
      "title": "עם גב מהמוסדיים ו־100 מיליון שקל במזומן, כך מתכנן אייל רביד לרכוש את קרפור",
@@ -197,11 +202,6 @@
      "date": "2026-11-10T15:30:00+00:00"
     },
     {
-     "title": "לאחר שאיבדה 98% מהשווי בשיא: תביעת הענק שמאיימת על אבן קיסר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562762",
-     "date": "2026-11-10T14:34:00+00:00"
-    },
-    {
      "title": "שני הבנקאים הבכירים שנאבקים על הובלת כלכלת גוש האירו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562589",
      "date": "2026-11-10T13:57:00+00:00"
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T07:17:15+00:00",
-  "fetched_at": "2026-11-11T07:17:15+00:00"
+  "checked_at": "2026-11-11T08:17:21+00:00",
+  "fetched_at": "2026-11-11T08:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T07:17:15+00:00",
-  "fetched_at": "2026-11-11T07:17:15+00:00"
+  "checked_at": "2026-11-11T08:17:21+00:00",
+  "fetched_at": "2026-11-11T08:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2492,8 +2492,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T07:17:17+00:00",
-  "fetched_at": "2026-11-11T07:17:17+00:00"
+  "checked_at": "2026-11-11T08:17:23+00:00",
+  "fetched_at": "2026-11-11T08:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2583,20 +2583,18 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-11T07:17:17+00:00",
-  "fetched_at": "2026-11-11T07:17:17+00:00"
+  "checked_at": "2026-11-11T08:17:23+00:00",
+  "fetched_at": "2026-11-11T08:17:23+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-     "date": "2026-11-10T16:03:47+00:00",
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/anthropic-claude-sheets-whiteboards-microsoft-office/",
+     "date": "2026-11-11T08:00:57+00:00",
      "launch": true,
-     "title_en": "Gemini 4 Carbon is now available",
-     "title_he": "Gemini 4 Carbon זמין כעת",
-     "translated_by": "google"
+     "title": "אנת'רופיק הולכת על הראש של אקסל עם פיצ'ר חדש של Claude"
     },
     {
      "source": "Google",
@@ -2608,30 +2606,31 @@
      "translated_by": "google"
     }
    ],
-   "candidates": 13,
+   "candidates": 11,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 538,
+     "likes": 539,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Image to Video",
      "desc_en": "Make videos from text or photos — free, no GPU queue",
      "desc_he": "יצירת סרטונים מטקסט או מתמונות — בחינם, ללא תור GPU",
-     "likes": 807,
+     "likes": 833,
      "link": "https://huggingface.co/spaces/thea2026/image-to-video"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 276,
+     "likes": 277,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -2659,7 +2658,7 @@
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 95,
+     "likes": 96,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
     },
     {
@@ -2686,17 +2685,44 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T07:17:23+00:00",
-  "fetched_at": "2026-11-11T07:17:23+00:00"
+  "checked_at": "2026-11-11T08:17:31+00:00",
+  "fetched_at": "2026-11-11T08:17:31+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
+     "title": "גם דני אבדיה נדהם מלילארד: \"אני מרוויח מזה\"",
+     "link": "https://sports.walla.co.il/item/3875810",
+     "date": "2026-11-11T08:19:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
      "title": "אבדיה הצטיין עם 24 נקודות, פורטלנד חגגה מול אוקלהומה סיטי",
      "link": "https://sports.walla.co.il/item/3875800",
      "date": "2026-11-11T07:09:00+00:00",
      "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"מדהים לראות כמה מהר אבדיה עובר את המגרש\"",
+     "link": "https://www.one.co.il/Article/538588.html?ref=rss",
+     "date": "2026-11-11T07:04:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "אבדיה: אנחנו מסוגלים להכל, לא מפחדים מאף אחד",
+     "link": "https://www.one.co.il/Article/538585.html?ref=rss",
+     "date": "2026-11-11T06:52:00+00:00",
+     "source": "ONE",
      "players": [
       "דני אבדיה"
      ]
@@ -2801,33 +2827,6 @@
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "\"הטוב בליגה\": המספרים שמוכיחים את גדולתו של אוסקר גלוך",
-     "link": "https://sports.walla.co.il/item/3875487",
-     "date": "2026-11-09T06:03:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "אבדיה התלונן על העומס ה\"מטורף\", בפורטלנד עקצו את וומבי ה\"בכיין\"",
-     "link": "https://sports.walla.co.il/item/3875365",
-     "date": "2026-11-08T09:20:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "הפסד שני רצוף: סן אנטוניו הביסה את פורטלנד ואבדיה",
-     "link": "https://sports.walla.co.il/item/3875337",
-     "date": "2026-11-08T06:37:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -3041,8 +3040,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T07:17:19+00:00",
-  "fetched_at": "2026-11-11T07:17:19+00:00"
+  "checked_at": "2026-11-11T08:17:26+00:00",
+  "fetched_at": "2026-11-11T08:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -3073,58 +3072,58 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T07:17:19+00:00",
-  "fetched_at": "2026-11-11T07:17:19+00:00"
+  "checked_at": "2026-11-11T08:17:27+00:00",
+  "fetched_at": "2026-11-11T08:17:27+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-11T07:13:00+00:00",
-    "seen_at": "2026-11-11T07:17:23+00:00",
+    "newest": "2026-11-11T08:07:00+00:00",
+    "seen_at": "2026-11-11T08:17:33+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-11T07:00:00+00:00",
-    "seen_at": "2026-11-11T07:17:23+00:00",
+    "newest": "2026-11-11T08:07:00+00:00",
+    "seen_at": "2026-11-11T08:17:33+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-11T07:02:00+00:00",
-    "seen_at": "2026-11-11T07:17:23+00:00",
+    "seen_at": "2026-11-11T08:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
-    "newest": "2026-11-11T07:09:00+00:00",
-    "seen_at": "2026-11-11T07:17:23+00:00",
+    "newest": "2026-11-11T08:19:00+00:00",
+    "seen_at": "2026-11-11T08:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-11T06:10:00+00:00",
-    "seen_at": "2026-11-11T07:17:23+00:00",
+    "seen_at": "2026-11-11T08:17:33+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-11T08:00:00+00:00",
-    "seen_at": "2026-11-11T07:17:23+00:00",
+    "newest": "2026-11-11T08:23:00+00:00",
+    "seen_at": "2026-11-11T08:17:33+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-11T06:52:00+00:00",
-    "seen_at": "2026-11-11T07:17:23+00:00",
+    "newest": "2026-11-11T07:22:00+00:00",
+    "seen_at": "2026-11-11T08:17:33+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-11T03:50:00+00:00",
-    "seen_at": "2026-11-11T07:17:23+00:00",
+    "seen_at": "2026-11-11T08:17:33+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3136,38 +3135,43 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-10T19:00:00+00:00",
-    "seen_at": "2026-11-11T07:17:23+00:00",
+    "seen_at": "2026-11-11T08:17:33+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-10T15:00:37+00:00",
-    "seen_at": "2026-11-11T07:17:23+00:00",
+    "newest": "2026-11-11T08:00:57+00:00",
+    "seen_at": "2026-11-11T08:17:33+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-09T12:30:57+00:00",
-    "seen_at": "2026-11-11T07:17:23+00:00",
+    "seen_at": "2026-11-11T08:17:33+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-10T16:20:13+00:00",
-    "seen_at": "2026-11-11T07:17:23+00:00",
+    "seen_at": "2026-11-11T08:17:33+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
-    "newest": "2026-11-10T14:32:16+00:00",
-    "seen_at": "2026-11-11T07:17:23+00:00",
+    "newest": "2026-11-11T07:56:34+00:00",
+    "seen_at": "2026-11-11T08:17:33+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-11T07:17:23+00:00"
+  "checked_at": "2026-11-11T08:17:33+00:00"
  },
  "health_news": {
   "data": [
+   {
+    "title": "בבוקר מנהל את שיבא, אחר כך מפקח עליו? הבעיה במינוי של קרייס",
+    "link": "https://www.walla.co.il/healthy/health-news/383960873",
+    "date": "2026-11-11T07:56:34+00:00"
+   },
    {
     "title": "מ־AI בפענוח בדיקות ועד צנתורים: כנס הקרדיולוגיה ICI ייערך בתל אביב",
     "link": "https://www.walla.co.il/healthy/health-news/383960855",
@@ -3312,15 +3316,10 @@
     "title": "ד\"ר מאיה רוזמן: לבבות דקל בשימורים: מה נשאר מהערך התזונתי?",
     "link": "https://www.walla.co.il/healthy/health-news/3872810",
     "date": "2026-10-19T07:26:00+00:00"
-   },
-   {
-    "title": "לא רק ממוגרפיה: מה את יכולה לעשות כדי להפחית את הסיכון לסרטן השד?",
-    "link": "https://www.walla.co.il/healthy/health-news/3872630",
-    "date": "2026-10-19T07:07:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T07:17:20+00:00",
-  "fetched_at": "2026-11-11T07:17:20+00:00"
+  "checked_at": "2026-11-11T08:17:28+00:00",
+  "fetched_at": "2026-11-11T08:17:28+00:00"
  }
 }
