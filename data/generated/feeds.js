@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-11T09:17:28+00:00",
-  "fetched_at": "2026-11-11T09:17:28+00:00"
+  "checked_at": "2026-11-11T10:17:28+00:00",
+  "fetched_at": "2026-11-11T10:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T09:17:41+00:00",
-  "fetched_at": "2026-11-11T09:17:41+00:00"
+  "checked_at": "2026-11-11T10:17:41+00:00",
+  "fetched_at": "2026-11-11T10:17:41+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Cambridge Audio brings room correction technology to its L/R active speakers",
+    "title_he": "Cambridge Audio מביאה את טכנולוגיית תיקון החדרים לרמקולים הפעילים L/R שלה",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/cambridge-audio-brings-room-correction-to-its-l-r-x-and-l-r-m-speakers",
+    "date": "2026-11-11T10:00:00+00:00"
+   },
    {
     "title_en": "This classic 1970s David Bowie film now has a 50th anniversary special edition 4K Blu-ray",
     "title_he": "לסרט הקלאסי הזה של דיוויד בואי משנות ה-70 יש עכשיו מהדורה מיוחדת ל-50 שנה 4K Blu-ray",
@@ -69,39 +76,47 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/tv-home-cinema/soundbars/this-dolby-atmos-soundbar-is-designed-to-fit-in-with-your-homeware-but-i-see-a-problem",
     "date": "2026-11-10T14:00:00+00:00"
-   },
-   {
-    "title_en": "Sony’s PlayStation Pulse Elevate speakers delayed indefinitely due to production issue",
-    "title_he": "הרמקולים של Sony ב-PlayStation Pulse Elevate מתעכבים ללא הגבלת זמן עקב בעיית ייצור",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/speakers/wireless-speakers/sonys-playstation-pulse-elevate-speakers-delayed-indefinitely-due-to-production-issue",
-    "date": "2026-11-10T12:19:38+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T09:17:42+00:00",
-  "fetched_at": "2026-11-11T09:17:42+00:00"
+  "checked_at": "2026-11-11T10:17:44+00:00",
+  "fetched_at": "2026-11-11T10:17:44+00:00"
  },
- "generated_at": "2026-11-11T09:17:42+00:00",
+ "generated_at": "2026-11-11T10:17:44+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "המרות מט\"ח והעברות כספים תחילה: רבולוט קיבלה רישיון ומכניסה את המערכת לדריכות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562823",
-     "date": "2026-11-11T08:01:00+00:00"
+     "title": "לסגור חצי מהחברות הממשלתיות: התוכנית הסודית של רשות החברות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562831",
+     "date": "2026-11-11T09:35:00+00:00"
     },
     {
      "title": "ארה\"ב מפנה מטוסים, החשש: איראן מסמנת עוד יעדים באירופה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562908",
-     "date": "2026-11-11T07:13:00+00:00"
+     "date": "2026-11-11T09:14:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "מגמה מעורבת בתל אביב; מניית הבורסה צונחת ביותר מ-6% אחרי הדוחות",
+     "title": "מניית ה-AI שהמריאה ב-17% אחרי הדוחות ומזניקה את החוזים על הנאסד\"ק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562923",
+     "date": "2026-11-11T09:34:00+00:00"
+    },
+    {
+     "title": "\"כדור שלג לא מובן\": מדוע איבדה המניה הביטחונית של תומר אבנון 50% בשבוע",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562839",
+     "date": "2026-11-11T09:30:00+00:00"
+    },
+    {
+     "title": "צמיחה בהכנסות, זינוק ברווח הנקי והשלמת המהפך ב-yes: בזק מסכמת רבעון חזק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562927",
+     "date": "2026-11-11T09:25:00+00:00"
+    },
+    {
+     "title": "מגמה מעורבת בתל אביב; מניית הבורסה צונחת אחרי הדוחות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562842",
-     "date": "2026-11-11T08:35:00+00:00"
+     "date": "2026-11-11T09:24:00+00:00"
     },
     {
      "title": "מגמה חיובית באירופה; החוזים על הנאסד\"ק מזנקים בכ-1.5%",
@@ -114,7 +129,7 @@ window.DB.generated = {
      "date": "2026-11-11T08:01:00+00:00"
     },
     {
-     "title": "בנק דיסקונט נכנס לשוק הקריפטו: יאפשר מסחר בביטקוין ובאת'ריום דרך האפליקציה",
+     "title": "צעד חדש במערכת הבנקאית: דיסקונט יאפשר מסחר ישיר בקריפטו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562915",
      "date": "2026-11-11T07:26:00+00:00"
     },
@@ -184,29 +199,9 @@ window.DB.generated = {
      "date": "2026-11-10T16:44:00+00:00"
     },
     {
-     "title": "פאניקה באייפקס? זהבית כהן דורשת \"להפסיק מיידית\" עסקה של היורש שלה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562846",
-     "date": "2026-11-10T16:20:00+00:00"
-    },
-    {
-     "title": "האינפלציה בארה\"ב הפתיעה לרעה. האם היא תרחיק את הורדת הריבית בישראל?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562858",
-     "date": "2026-11-10T15:59:00+00:00"
-    },
-    {
-     "title": "לראשונה מאז חתימת העסקה - באלטשולר שחם מתחילים להפריד כוחות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562794",
-     "date": "2026-11-10T15:37:00+00:00"
-    },
-    {
      "title": "הבורסה בתל אביב ננעלה בעליות חדות, בהובלת מניות הביטוח והבנקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562659",
      "date": "2026-11-10T15:30:00+00:00"
-    },
-    {
-     "title": "שני הבנקאים הבכירים שנאבקים על הובלת כלכלת גוש האירו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562589",
-     "date": "2026-11-10T13:57:00+00:00"
     },
     {
      "title": "דיווח: כך פעלה רשת הברחות השבבים של אנבידיה שהקימה המרגלת הסינית עם קרובי משפחתה",
@@ -222,12 +217,17 @@ window.DB.generated = {
      "title": "הקשר בין הואנג למרגלת הסינית: פרטים חדשים על מעורבות אנבידיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562725",
      "date": "2026-11-10T09:54:00+00:00"
+    },
+    {
+     "title": "\"לא ידעתי שהיא מרגלת\": טראמפ חושף מה סיפר לו מנכ\"ל אנבידיה על הרומן",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001562680",
+     "date": "2026-11-10T04:23:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T09:17:29+00:00",
-  "fetched_at": "2026-11-11T09:17:29+00:00"
+  "checked_at": "2026-11-11T10:17:29+00:00",
+  "fetched_at": "2026-11-11T10:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -570,7 +570,7 @@ window.DB.generated = {
     "home": "הפועל פ\"ת",
     "away": "מכבי נתניה",
     "round": "מחזור 6",
-    "score": "1-1",
+    "score": "0-3",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T09:17:30+00:00",
-  "fetched_at": "2026-11-11T09:17:30+00:00"
+  "checked_at": "2026-11-11T10:17:30+00:00",
+  "fetched_at": "2026-11-11T10:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2494,8 +2494,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T09:17:32+00:00",
-  "fetched_at": "2026-11-11T09:17:32+00:00"
+  "checked_at": "2026-11-11T10:17:32+00:00",
+  "fetched_at": "2026-11-11T10:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2585,8 +2585,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-11T09:17:32+00:00",
-  "fetched_at": "2026-11-11T09:17:32+00:00"
+  "checked_at": "2026-11-11T10:17:32+00:00",
+  "fetched_at": "2026-11-11T10:17:32+00:00"
  },
  "ai": {
   "data": {
@@ -2608,44 +2608,44 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 15,
+   "candidates": 16,
    "failed_sources": [
     "Anthropic"
    ],
    "tools": [
     {
-     "title": "The Ultimate MoE Training Handbook",
-     "desc_en": "A hands-on guide to training Mixture-of-Experts models",
-     "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 544,
-     "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
-    },
-    {
      "title": "Image to Video",
      "desc_en": "Make videos from text or photos — free, no GPU queue",
      "desc_he": "יצירת סרטונים מטקסט או מתמונות — בחינם, ללא תור GPU",
-     "likes": 869,
+     "likes": 888,
      "link": "https://huggingface.co/spaces/thea2026/image-to-video"
+    },
+    {
+     "title": "The Ultimate MoE Training Handbook",
+     "desc_en": "A hands-on guide to training Mixture-of-Experts models",
+     "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
+     "likes": 545,
+     "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 278,
+     "likes": 280,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1499,
+     "likes": 1502,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "AI Text Humanizer",
      "desc_en": "Cliché-removal rules; protects code, numbers, quotes.",
      "desc_he": "כללי הסרת קלישה; מגן על קוד, מספרים, ציטוטים.",
-     "likes": 229,
+     "likes": 230,
      "link": "https://huggingface.co/spaces/fendouai/free-ai-humanizer"
     },
     {
@@ -2659,7 +2659,7 @@ window.DB.generated = {
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 96,
+     "likes": 97,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
     },
     {
@@ -2686,8 +2686,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T09:17:40+00:00",
-  "fetched_at": "2026-11-11T09:17:40+00:00"
+  "checked_at": "2026-11-11T10:17:40+00:00",
+  "fetched_at": "2026-11-11T10:17:40+00:00"
  },
  "abroad": {
   "data": {
@@ -3040,8 +3040,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T09:17:36+00:00",
-  "fetched_at": "2026-11-11T09:17:36+00:00"
+  "checked_at": "2026-11-11T10:17:35+00:00",
+  "fetched_at": "2026-11-11T10:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -3072,98 +3072,98 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T09:17:36+00:00",
-  "fetched_at": "2026-11-11T09:17:36+00:00"
+  "checked_at": "2026-11-11T10:17:36+00:00",
+  "fetched_at": "2026-11-11T10:17:36+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-11T08:58:00+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "newest": "2026-11-11T10:14:00+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-11T08:35:00+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "newest": "2026-11-11T09:34:00+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-11T08:30:00+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "newest": "2026-11-11T09:34:00+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-11T08:19:00+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-11T09:27:00+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "newest": "2026-11-11T10:53:00+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-11T09:41:00+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "newest": "2026-11-11T10:20:00+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-11T09:10:00+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "newest": "2026-11-11T09:49:00+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-11T03:50:00+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-10T16:03:47+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-11T09:00:00+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-11T09:07:24+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "newest": "2026-11-11T09:42:36+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-09T12:30:57+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-10T16:20:13+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "newest": "2026-11-11T10:00:00+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-11T07:56:34+00:00",
-    "seen_at": "2026-11-11T09:17:42+00:00",
+    "seen_at": "2026-11-11T10:17:44+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-11T09:17:42+00:00"
+  "checked_at": "2026-11-11T10:17:44+00:00"
  },
  "health_news": {
   "data": [
@@ -3319,7 +3319,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T09:17:37+00:00",
-  "fetched_at": "2026-11-11T09:17:37+00:00"
+  "checked_at": "2026-11-11T10:17:36+00:00",
+  "fetched_at": "2026-11-11T10:17:36+00:00"
  }
 };
