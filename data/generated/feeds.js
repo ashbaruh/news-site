@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-11T15:17:13+00:00",
-  "fetched_at": "2026-11-11T15:17:13+00:00"
+  "checked_at": "2026-11-11T15:18:21+00:00",
+  "fetched_at": "2026-11-11T15:18:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T15:17:24+00:00",
-  "fetched_at": "2026-11-11T15:17:24+00:00"
+  "checked_at": "2026-11-11T15:18:34+00:00",
+  "fetched_at": "2026-11-11T15:18:34+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T15:17:26+00:00",
-  "fetched_at": "2026-11-11T15:17:26+00:00"
+  "checked_at": "2026-11-11T15:18:35+00:00",
+  "fetched_at": "2026-11-11T15:18:35+00:00"
  },
- "generated_at": "2026-11-11T15:17:26+00:00",
+ "generated_at": "2026-11-11T15:18:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T15:17:14+00:00",
-  "fetched_at": "2026-11-11T15:17:14+00:00"
+  "checked_at": "2026-11-11T15:18:22+00:00",
+  "fetched_at": "2026-11-11T15:18:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T15:17:14+00:00",
-  "fetched_at": "2026-11-11T15:17:14+00:00"
+  "checked_at": "2026-11-11T15:18:23+00:00",
+  "fetched_at": "2026-11-11T15:18:23+00:00"
  },
  "tv": {
   "data": [
@@ -2494,8 +2494,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T15:17:17+00:00",
-  "fetched_at": "2026-11-11T15:17:17+00:00"
+  "checked_at": "2026-11-11T15:18:25+00:00",
+  "fetched_at": "2026-11-11T15:18:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2585,8 +2585,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-11T15:17:17+00:00",
-  "fetched_at": "2026-11-11T15:17:17+00:00"
+  "checked_at": "2026-11-11T15:18:25+00:00",
+  "fetched_at": "2026-11-11T15:18:25+00:00"
  },
  "ai": {
   "data": {
@@ -2617,7 +2617,7 @@ window.DB.generated = {
      "title": "Image to Video",
      "desc_en": "Make videos from text or photos — free, no GPU queue",
      "desc_he": "יצירת סרטונים מטקסט או מתמונות — בחינם, ללא תור GPU",
-     "likes": 1081,
+     "likes": 1082,
      "link": "https://huggingface.co/spaces/thea2026/image-to-video"
     },
     {
@@ -2686,8 +2686,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T15:17:23+00:00",
-  "fetched_at": "2026-11-11T15:17:23+00:00"
+  "checked_at": "2026-11-11T15:18:33+00:00",
+  "fetched_at": "2026-11-11T15:18:33+00:00"
  },
  "abroad": {
   "data": {
@@ -3040,8 +3040,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T15:17:19+00:00",
-  "fetched_at": "2026-11-11T15:17:19+00:00"
+  "checked_at": "2026-11-11T15:18:29+00:00",
+  "fetched_at": "2026-11-11T15:18:29+00:00"
  },
  "idf": {
   "data": [
@@ -3071,8 +3071,9 @@ window.DB.generated = {
     "date": "2026-11-09T03:57:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-11T15:17:20+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-11T15:18:29+00:00",
   "fetched_at": "2026-11-11T15:17:20+00:00"
  },
  "feed_health": {
@@ -3081,43 +3082,43 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-11T15:06:00+00:00",
-    "seen_at": "2026-11-11T15:17:26+00:00",
+    "seen_at": "2026-11-11T15:18:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-11T12:40:00+00:00",
-    "seen_at": "2026-11-11T15:17:26+00:00",
+    "seen_at": "2026-11-11T15:18:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-11T15:03:00+00:00",
-    "seen_at": "2026-11-11T15:17:26+00:00",
+    "seen_at": "2026-11-11T15:18:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-11T12:30:00+00:00",
-    "seen_at": "2026-11-11T15:17:26+00:00",
+    "seen_at": "2026-11-11T15:18:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-11T16:05:00+00:00",
-    "seen_at": "2026-11-11T15:17:26+00:00",
+    "seen_at": "2026-11-11T15:18:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-11T15:30:00+00:00",
-    "seen_at": "2026-11-11T15:17:26+00:00",
+    "seen_at": "2026-11-11T15:18:35+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-11T14:48:00+00:00",
-    "seen_at": "2026-11-11T15:17:26+00:00",
+    "seen_at": "2026-11-11T15:18:35+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3129,41 +3130,41 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-11T15:00:15+00:00",
-    "seen_at": "2026-11-11T15:17:26+00:00",
+    "seen_at": "2026-11-11T15:18:35+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-11T09:00:00+00:00",
-    "seen_at": "2026-11-11T15:17:26+00:00",
+    "seen_at": "2026-11-11T15:18:35+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-11T14:00:29+00:00",
-    "seen_at": "2026-11-11T15:17:26+00:00",
+    "seen_at": "2026-11-11T15:18:35+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-09T12:30:57+00:00",
-    "seen_at": "2026-11-11T15:17:26+00:00",
+    "seen_at": "2026-11-11T15:18:35+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-11T14:56:40+00:00",
-    "seen_at": "2026-11-11T15:17:26+00:00",
+    "seen_at": "2026-11-11T15:18:35+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-11T07:56:34+00:00",
-    "seen_at": "2026-11-11T15:17:26+00:00",
+    "seen_at": "2026-11-11T15:18:35+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-11T15:17:26+00:00"
+  "checked_at": "2026-11-11T15:18:35+00:00"
  },
  "health_news": {
   "data": [
@@ -3319,7 +3320,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T15:17:20+00:00",
-  "fetched_at": "2026-11-11T15:17:20+00:00"
+  "checked_at": "2026-11-11T15:18:30+00:00",
+  "fetched_at": "2026-11-11T15:18:30+00:00"
  }
 };
