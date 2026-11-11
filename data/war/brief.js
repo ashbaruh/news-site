@@ -1,77 +1,94 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-10T18:00:00+02:00",
- "generated_at": "2026-11-10T16:10:20+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-11-11T04:00:00+02:00",
+ "generated_at": "2026-11-11T01:40:18+00:00",
+ "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11101610-01",
-     "title": "חשיפת טיל שיוט בסרטון איראני",
-     "summary": "בסרטון המציג עיר טילים תת-קרקעית באיראן תועד טיל שיוט שזהותו אינה מוכרת.",
-     "axis": "iran",
+     "id": "IRAN-11110140-01",
+     "title": "כתב אישום בארה\"ב נגד פעילי משמרות המהפכה על תכנון פיגוע בבסיס בריטי",
+     "summary": "משרד המשפטים האמריקאי הגיש אישומים נגד שלושה פעילי משמרות המהפכה בחשד לתכנון פגיעה בבסיס חיל האוויר הבריטי פיירפורד שבו מוצבים כוחות אמריקאיים.",
+     "axis": "סנקציות וסיכול פעולות איראניות",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-10T15:28:13+00:00",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-10T15:28:13+00:00",
-     "last_update_at": "2026-11-10T15:28:13+00:00",
-     "what_is_not_verified": "המאפיינים הטכניים של הטיל אינם ידועים.",
+     "first_reported_at": "2026-11-10T22:30:23+00:00",
+     "last_update_at": "2026-11-11T00:00:38+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202611104351",
+       "published_at": "2026-11-11T00:00:38+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/us-charges-three-iranian-operatives-over-uk-airbase-plot",
+       "published_at": "2026-11-10T22:30:23+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "בסיס חיל האוויר פיירפורד, בריטניה",
+       "lat": 51.6851,
+       "lon": -1.7865
+      },
+      {
+       "name": "ניו יורק, ארצות הברית",
+       "lat": 40.7127,
+       "lon": -74.006
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11110140-02",
+     "title": "השתלטות על דליקה באסדת גז בשדה דרום פארס באיראן",
+     "summary": "כוחות כיבוי השתלטו על שריפה שפרצה באסדה בשדה הגז האיראני דרום פארס, כאשר נבדקים חשדות לדליפת גז או לתקלה תפעולית.",
+     "axis": "תשתיות אנרגיה באיראן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-10T23:38:02+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-10T23:38:02+00:00",
+     "last_update_at": "2026-11-10T23:38:02+00:00",
+     "what_is_not_verified": "הגורם המדויק לפרוץ האש אינו מאומת",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/2026/11/10/fire-contained-on-platform-in-irans-south-pars-gas-field?traffic_source=rss",
+       "published_at": "2026-11-10T23:38:02+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11110140-03",
+     "title": "צרפת מאשימה מפקדים במשמרות המהפכה במתקפות סייבר נגד אתרים מסחריים",
+     "summary": "דוח ממשלתי בצרפת זיהה שלושה בכירים במשמרות המהפכה האיראניים כאחראים למתקפות סייבר ששיבשו מערכות קירור במאות אתרים מסחריים במדינה.",
+     "axis": "עימות סייבר מול איראן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-10T20:10:08+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-10T20:10:08+00:00",
+     "last_update_at": "2026-11-10T20:10:08+00:00",
+     "what_is_not_verified": "תגובת איראן הרשמית להאשמות לא נמסרה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49461",
-       "published_at": "2026-11-10T15:28:13+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11101610-02",
-     "title": "הכחשת איראן את מעורבותה במתקפת הסייבר בצרפת",
-     "summary": "משרד החוץ של איראן דחה מכל וכל את הטענות הצרפתיות על מעורבות במתקפת סייבר.",
-     "axis": "iran",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-10T15:42:39+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-10T15:42:39+00:00",
-     "last_update_at": "2026-11-10T15:42:39+00:00",
-     "what_is_not_verified": "האמת מאחורי האשמות הסייבר אינה מאומתת באופן עצמאי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "fh_c26278c794838961",
-       "url": "https://en.irna.ir/news/86318293/Iran-strongly-rejects-France-s-baseless-cyberattack-allegations",
-       "published_at": "2026-11-10T15:42:39+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11101610-03",
-     "title": "איראן מכחישה תכנון פגישה עם סגן נשיא ארצות הברית",
-     "summary": "שר החוץ האיראני הגדיר כחסרות שחר את הדיווחים על פגישה מתוכננת בין בכיר איראני לסגן נשיא ארצות הברית.",
-     "axis": "iran",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-10T16:01:10+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-10T16:01:10+00:00",
-     "last_update_at": "2026-11-10T16:01:10+00:00",
-     "what_is_not_verified": "האם התקיימו מגעים מאחורי הקלעים אינו מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-denies-reports-rezaei-meeting-us-vice-president-jd-vance",
-       "published_at": "2026-11-10T16:01:10+00:00"
+       "url": "https://t.me/alexmehacarmel/49475",
+       "published_at": "2026-11-10T20:10:08+00:00"
       }
      ],
      "places": []
@@ -81,19 +98,25 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-11101610-01",
-     "title": "אזרח ישראלי חצה את הגבול ללבנון והוחזר",
-     "summary": "אזרח ישראלי שחצה לשטח לבנון אותר בידי כוח או\"ם והוחזר לשטח ישראל דרך מעבר ראש הנקרה.",
-     "axis": "north",
+     "id": "NORTH-11110140-01",
+     "title": "אזרח ישראלי חצה את הגבול ללבנון והוחזר לישראל",
+     "summary": "אזרח ישראלי חצה את מעבר ראש הנקרה לשטח לבנון ללא אישור, נתפס בידי כוח או\"ם והועבר לידי צה\"ל ומשטרת ישראל.",
+     "axis": "גבול ישראל-לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-10T15:36:09+00:00",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-11-10T15:36:09+00:00",
-     "last_update_at": "2026-11-10T15:36:09+00:00",
-     "what_is_not_verified": "נסיבות חציית הגבול המדויקות עדיין מתוחקרות.",
+     "last_update_at": "2026-11-10T15:38:04+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133431",
+       "published_at": "2026-11-10T15:38:04+00:00"
+      },
       {
        "source_id": "src_tg_idf",
        "source_root_id": "or_unknown_origin",
@@ -110,54 +133,72 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "NORTH-11101610-02",
-     "title": "הקמת מחסומים ופעילות כוחות זרים בקוניטרה",
-     "summary": "כוחות זרים תועדו באזורים חדשים במרחב קוניטרה תוך הקמת מחסומים ובדיקת עוברי אורח.",
-     "axis": "north",
+     "id": "NORTH-11110140-02",
+     "title": "סיור של יוניפי\"ל הותקף בירי בדרום לבנון והשיב באש",
+     "summary": "סיור של כוח יוניפי\"ל ספג ירי של כ-12 קליעים סמוך לוואדי ג'ילו בדרום לבנון, ירה לעבר מקור הירי ולא דווח על נפגעים בקרב אנשיו.",
+     "axis": "דרום לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-10T12:41:09+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-10T12:41:09+00:00",
-     "last_update_at": "2026-11-10T12:41:09+00:00",
-     "what_is_not_verified": "היקף הכוחות המלא ומטרתם המדויקת אינם מפורטים מעבר לדיווח.",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-10T16:43:29+00:00",
+     "last_update_at": "2026-11-10T22:03:50+00:00",
+     "what_is_not_verified": "זהות היורים לעבר הסיור אינה מאומתת",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
+       "source_id": "src_aljazeera",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/148792/",
-       "published_at": "2026-11-10T12:41:09+00:00"
+       "url": "https://www.aljazeera.com/news/2026/11/10/unifil-patrol-comes-under-fire-in-southern-lebanon?traffic_source=rss",
+       "published_at": "2026-11-10T22:03:50+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-peacekeepers-say-came-under-fire-southern-lebanon",
+       "published_at": "2026-11-10T20:56:16+00:00"
+      },
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/967342/unifil-patrol-comes-under-gunfire-near-south-lebanons-wadi-jilou-no-pe/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967342",
+       "published_at": "2026-11-10T16:43:29+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-11101610-03",
-     "title": "דיוני כלכלה משותפים בין סוריה לירדן",
-     "summary": "נציגי סוריה וירדן קיימו שיחות על הקמת עיר כלכלית משותפת לאורך הגבול המשותף.",
-     "axis": "north",
+     "id": "NORTH-11110140-03",
+     "title": "חבר פרלמנט עיראקי לשעבר נהרג בביירות",
+     "summary": "חבר הפרלמנט העיראקי לשעבר, אחמד אל-עלוואני, נמצא מת בביירות ונפתחה חקירה לבירור נסיבות מותו.",
+     "axis": "לבנון וזירה פנימית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-10T12:43:47+00:00",
+     "occurred_at": "2026-11-10T21:12:31+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-10T12:43:47+00:00",
-     "last_update_at": "2026-11-10T12:43:47+00:00",
-     "what_is_not_verified": "האם הפרויקט אכן יצא לפועל ולוחות הזמנים אינם מאומתים.",
+     "first_reported_at": "2026-11-10T21:12:31+00:00",
+     "last_update_at": "2026-11-10T23:14:56+00:00",
+     "what_is_not_verified": "נסיבות המוות וזהות האחראים אינן מאומתות",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_newarab",
+       "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/syria-and-jordan-discuss-building-joint-economic-border-city",
-       "published_at": "2026-11-10T12:43:47+00:00"
+       "url": "https://www.aa.com.tr/en/middle-east/former-iraqi-lawmaker-killed-in-beirut-probe-launched/4119598",
+       "published_at": "2026-11-10T23:14:56+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/ex-iraqi-mp-ahmed-alwani-found-dead-lebanon-what-know",
+       "published_at": "2026-11-10T21:12:31+00:00"
       }
      ],
      "places": [
       {
-       "name": "דמשק, סוריה",
-       "lat": 33.5131,
-       "lon": 36.3096
+       "name": "ביירות, לבנון",
+       "lat": 33.8892,
+       "lon": 35.5026
       }
      ]
     }
@@ -166,24 +207,99 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11101610-01",
-     "title": "פתיחת סבב שיחות באבו דאבי",
-     "summary": "התקיים יום השיחות הראשון באבו דאבי בהשתתפות נציגי אוקראינה, רוסיה וארצות הברית.",
-     "axis": "ukraine",
+     "id": "UKRAINE-11110140-01",
+     "title": "תקיפת כטב\"מים אוקראינית בנמל אוסט-לוגה במחוז לנינגרד שברוסיה",
+     "summary": "כטב\"מים אוקראיניים תקפו את נמל אוסט-לוגה בים הבלטי הממוקם במחוז לנינגרד ברוסיה.",
+     "axis": "תקיפות בעומק רוסיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-10T13:02:31+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-10T13:02:31+00:00",
-     "last_update_at": "2026-11-10T13:02:31+00:00",
-     "what_is_not_verified": "ההסכמות המעשיות טרם גובשו סופית.",
+     "occurred_at": "2026-11-11T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-11T00:24:31+00:00",
+     "last_update_at": "2026-11-11T00:59:32+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49458",
-       "published_at": "2026-11-10T13:02:31+00:00"
+       "url": "https://t.me/alexmehacarmel/49482",
+       "published_at": "2026-11-11T00:24:31+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/ukraine-reportedly-strikes-ust-luga-baltic-sea-port-as-drones-attack-regions-across-russia/",
+       "published_at": "2026-11-11T00:59:32+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אוסט-לוגה, רוסיה",
+       "lat": 59.6592,
+       "lon": 28.2695
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11110140-02",
+     "title": "מעצר חייל צבא ארה\"ב בבריטניה בחשד לריגול עבור רוסיה",
+     "summary": "משטרת בריטניה עצרה חייל בכיר בצבא ארצות הברית באזור גלוסטר בחשד לפעילות ריגול למען המודיעין הרוסי.",
+     "axis": "ריגול ומודיעין רוסי",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-10T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-10T21:29:56+00:00",
+     "last_update_at": "2026-11-10T21:29:56+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_fbi",
+       "url": "https://meduza.io/en/news/2026/11/11/british-police-arrest-senior-u-s-army-soldier-near-gloucester-on-suspicion-of-spying-for-russia",
+       "published_at": "2026-11-10T21:29:56+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "גלוסטר, בריטניה",
+       "lat": 51.8654,
+       "lon": -2.2458
+      },
+      {
+       "name": "לונדון, בריטניה",
+       "lat": 51.5074,
+       "lon": -0.1278
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11110140-03",
+     "title": "העברת הצעות להפסקת אש בתחום האנרגיה והימאות בשיחות אבו דאבי",
+     "summary": "אוקראינה העבירה לשותפותיה במפגש המשולש באבו דאבי הצעות להפסקת אש בתחומי האנרגיה והתווך הימי, וממתינה לתשובת רוסיה.",
+     "axis": "משא ומתן דיפלומטי",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-10T18:39:57+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-10T18:39:57+00:00",
+     "last_update_at": "2026-11-11T01:08:22+00:00",
+     "what_is_not_verified": "תגובת רוסיה להצעות טרם נמסרה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49472",
+       "published_at": "2026-11-10T18:39:57+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-war-briefing-zelenskyy-says-putin-lives-in-a-different-reality-as-abu-dhabi-talks-get-under-way",
+       "published_at": "2026-11-11T01:08:22+00:00"
       }
      ],
      "places": [
@@ -193,69 +309,23 @@ window.DB.war_brief = {
        "lon": 54.3774
       }
      ]
-    },
-    {
-     "id": "UKRAINE-11101610-02",
-     "title": "הכרזת דנמרק על סיוע צבאי חדש",
-     "summary": "ממשלת דנמרק הכריזה על חבילת סיוע צבאי חדשה לאוקראינה בהיקף של מאות מיליוני אירו.",
-     "axis": "ukraine",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-10T15:34:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-10T15:34:00+00:00",
-     "last_update_at": "2026-11-10T15:34:00+00:00",
-     "what_is_not_verified": "מועד ההספקה המדויק של כל פריטי הציוד אינו מפורט.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_d350a1b5ad291406",
-       "url": "https://www.ukrinform.net/rubric-polytics/4183428-denmark-pledges-643-million-in-military-aid-to-ukraine.html",
-       "published_at": "2026-11-10T15:34:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11101610-03",
-     "title": "פגיעה בשרתים ברוסיה בעקבות תקיפות",
-     "summary": "חברת יאנדקס הודתה כי חלק מנתוני הלקוחות בענן אינם ניתנים לשחזור לאחר פגיעה בתשתיות הנתונים.",
-     "axis": "ukraine",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-10T15:19:21+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-10T15:19:21+00:00",
-     "last_update_at": "2026-11-10T15:19:21+00:00",
-     "what_is_not_verified": "ההיקף המלא של הנזק הכלכלי ארוך הטווח אינו מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "fh_9ef6d15d253f3dd9",
-       "url": "https://meduza.io/en/news/2026/11/10/yandex-admits-it-cannot-restore-nearly-3-of-customer-data-in-yandex-cloud-after-ukrainian-attacks",
-       "published_at": "2026-11-10T15:19:21+00:00"
-      }
-     ],
-     "places": []
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-11101610-01",
-     "title": "הכחשת מעורבות סורית בתימן",
-     "summary": "גורמים רשמיים בדמשק הכחישו דיווחים על פריסת אלפי חיילים לסיוע לכוחות סעודיה נגד החות'ים, והבהירו כי התיאום מוגבל לאימונים ולייעוץ צבאי.",
-     "axis": "תימן והחות'ים",
+     "id": "YEMEN-11110140-01",
+     "title": "סוריה מכחישה שליחת כוחות לתימן לסיוע מול החות'ים",
+     "summary": "גורמים רשמיים בסוריה הכחישו דיווחים לפיהם נשלחו אלפי חיילים לסייע לצבא סעודיה בלחימה נגד החות'ים בתימן, וציינו כי התיאום מוגבל להדרכה ולייעוץ.",
+     "axis": "מעורבות אזורית במלחמת תימן",
      "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-11-10T15:34:45+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-11-10T15:34:45+00:00",
      "last_update_at": "2026-11-10T15:34:45+00:00",
-     "what_is_not_verified": "נכונות הדיווחים המוקדמים על פריסת אלפי חיילים סורים בתימן לא מאומתת.",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
@@ -265,76 +335,7 @@ window.DB.war_brief = {
        "published_at": "2026-11-10T15:34:45+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "דמשק",
-       "lat": 33.5131,
-       "lon": 36.3096
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-11101610-02",
-     "title": "הצהרת החות'ים על תקיפות בריאד ומתקני נפט",
-     "summary": "דובר צבאי מטעם החות'ים טען כי הארגון תקף את נמל התעופה ריאד, תחנות שאיבה בצינור הנפט, מרכז פיננסי ואתר של ארמקו.",
-     "axis": "תימן והחות'ים",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-10T14:53:01+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-10T14:53:01+00:00",
-     "last_update_at": "2026-11-10T14:53:01+00:00",
-     "what_is_not_verified": "ביצוע בפועל של התקיפות והנזק שנגרם אינם מאומתים ממקור בלתי תלוי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-targeted-riyadh-airport-and-saudi-oil-infrastructure",
-       "published_at": "2026-11-10T14:53:01+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד",
-       "lat": 24.6389,
-       "lon": 46.716
-      },
-      {
-       "name": "אבקיק",
-       "lat": 25.9356,
-       "lon": 49.6683
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-11101610-03",
-     "title": "ביקורת איטלקית על אבטחת הים האדום",
-     "summary": "שר ההגנה של איטליה טען כי מדינות אירופה לא נקטו צעדים ממשיים לחיזוק הגנת הספינות בים האדום ולא נענו לקריאות לתגבר את המשימה הימית.",
-     "axis": "תימן והחות'ים",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-10T14:46:51+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-10T14:46:51+00:00",
-     "last_update_at": "2026-11-10T14:46:51+00:00",
-     "what_is_not_verified": "טענות שר ההגנה לגבי תגובת שאר מדינות אירופה אינן מאומתות מצד גורמים אירופיים אחרים במסמך.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/italy-says-eu-nations-failed-commit-red-sea-security",
-       "published_at": "2026-11-10T14:46:51+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "רומא",
-       "lat": 41.8933,
-       "lon": 12.4829
-      }
-     ]
+     "places": []
     }
    ]
   }
