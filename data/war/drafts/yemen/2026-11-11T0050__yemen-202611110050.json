@@ -1,0 +1,223 @@
+{
+ "status": "draft",
+ "received_sha256_12": "f4f6c484a909",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-11T00:50:45+00:00",
+  "window": {
+   "from": "2026-11-10T00:50:45+00:00",
+   "to": "2026-11-11T00:50:45+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611110050"
+  },
+  "summary": "בזירת תימן והחות'ים נמשכת הלחימה הפעילה הכוללת תקיפות מהאוויר ושיגורי טילים בין החות'ים לבין סעודיה, לצד עימותים קרקעיים מקומיים. מעורבות זו מתבטאת בתקיפות הדדיות על תשתיות וערים כמו צנעא וריאד, בזמן שהממשלה המוכרת בתימן והחות'ים ממשיכים במאבקם.",
+  "fronts": [
+   {
+    "name": "חזית תימן-סעודיה",
+    "status": "פעילה עם תקיפות אוויריות ושיגורי טילים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11110050-01",
+    "title": "הרוגה ופצוע מירי מיליציות חותיות בתימן",
+    "summary": "מיליציות חותיות הרגו ילדה ופצעו אזרח בדרום ובמערב תעז.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T18:45:49+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T18:45:49+00:00",
+    "last_update_at": "2026-11-10T18:45:49+00:00",
+    "what_is_not_verified": "לא צוינו פרטים נוספים על זהות הפצועים מעבר למדווח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155572",
+      "published_at": "2026-11-10T18:45:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11110050-02",
+    "title": "תקיפות אוויריות בצנעא ויירוט טילים בריאד",
+    "summary": "החות'ים דיווחו על תקיפות אוויריות בכמה אתרים בצנעא, בעוד הרשויות בסעודיה מסרו שהגנה אווירית השמידה שני טילים ששוגרו לעבר ריאד.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T07:25:44+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T07:25:44+00:00",
+    "last_update_at": "2026-11-10T07:25:44+00:00",
+    "what_is_not_verified": "היקף הנזק המלא בצנעא אינו מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/trump-claims-war-effectively-over-iran-presses-conditions",
+      "published_at": "2026-11-10T07:25:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     },
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11110050-03",
+    "title": "פגיעה במגדלי אראמכו בריאד",
+    "summary": "תועד נזק שגרמו החות'ים למגדלי חברת אראמכו בריאד בירת סעודיה.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T08:06:01+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T08:06:01+00:00",
+    "last_update_at": "2026-11-10T08:06:01+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק אינו מפורט מעבר לתיעוד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133389",
+      "published_at": "2026-11-10T08:06:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11110050-04",
+    "title": "תקיפת מתקן גז בצנעא",
+    "summary": "ערב הסעודית תקפה מתקן גז בצנעא.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T02:42:59+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T02:42:59+00:00",
+    "last_update_at": "2026-11-10T02:42:59+00:00",
+    "what_is_not_verified": "תוצאות התקיפה המלאות אינן מפורטות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49451",
+      "published_at": "2026-11-10T02:42:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף הנזק המדויק במתקני אראמכו ובצנעא אינו מאומת לחלוטין",
+   "פרטי הפעילות הקרקעית המדויקים בתעז אינם מאומתים במלואם"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1663,
+    "unit": "ILS",
+    "change_pct": -0.14,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-10T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה בתשתיות ובמטרות בתוך סעודיה"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי על סעודיה ובעלות בריתה",
+     "שימור יכולות הלחימה והירי למרות התקיפות נגדם"
+    ],
+    "forecast": [
+     "המשך שיגורים ותקיפות לעבר יעדים בסעודיה"
+    ]
+   },
+   {
+    "actor": "ערב הסעודית",
+    "declared": [
+     "הגנה על שטחי הממלכה ויירוט איומים"
+    ],
+    "inferred": [
+     "פגיעה ביכולות הצבאיות ובתשתיות של החות'ים בתימן באמצעות תקיפות אוויריות"
+    ],
+    "forecast": [
+     "המשך תגובות צבאיות ותקיפות נגד יעדי חות'ים כמו צנעא"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/trump-claims-war-effectively-over-iran-presses-conditions",
+    "accessed_at": "2026-11-11T00:50:45+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155572",
+    "accessed_at": "2026-11-11T00:50:45+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133389",
+    "accessed_at": "2026-11-11T00:50:45+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49451",
+    "accessed_at": "2026-11-11T00:50:45+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,379 @@
+{
+ "status": "draft",
+ "received_sha256_12": "05caf5be5a6e",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "verified": 1,
+   "initial": 7,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-11T00:50:00+00:00",
+  "window": {
+   "from": "2026-11-10T00:50:00+00:00",
+   "to": "2026-11-11T00:50:00+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611110050"
+  },
+  "summary": "הלחימה באוקראינה נמשכת במתכונת של מלחמת התשה עם קרבות קשים בקו החזית ותקיפות אוויריות הדדיות, הכוללות פגיעות בתשתיות אנרגיה ועורף. במקביל למגעים דיפלומטיים ותלת-צדדיים המתקיימים באיחוד האמירויות, מתגלעים חילוקי דעות בינלאומיים בנוגע להיקף הסיוע, אספקת טילים ומנגנוני ביטחון עתידיים.",
+  "fronts": [
+   {
+    "name": "חזית המזרח (דונצק / קושטנטיניבקה)",
+    "status": "לחימה פעילה וניסיונות הבקעה רוסיים"
+   },
+   {
+    "name": "חזית הדרום (אודסה / חרסון / דניפרו)",
+    "status": "תקיפות אוויריות והפצצות הדדיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11110050-01",
+    "title": "הצבעה באו\"ם על החלטה נגד האדרה נאצית",
+    "summary": "53 מדינות התנגדו להחלטה נגד האדרה נאצית ו-117 תמכו בה.",
+    "axis": "דיפלומטיה",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:34:48+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T00:34:48+00:00",
+    "last_update_at": "2026-11-11T00:34:48+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_src_tass",
+      "url": "https://tass.com/politics/2215801",
+      "published_at": "2026-11-11T00:34:48+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11110050-02",
+    "title": "תקיפה אוקראינית על נמל אוסט לוגה",
+    "summary": "כוחות אוקראיניים תקפו את נמל אוסט לוגה במחוז לנינגרד.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:24:31+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T00:24:31+00:00",
+    "last_update_at": "2026-11-11T00:24:31+00:00",
+    "what_is_not_verified": "נזקי התקיפה אינם מפורטים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://t.me/alexmehacarmel/49482",
+      "published_at": "2026-11-11T00:24:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אוסט לוגה, רוסיה",
+      "lat": 59.6592,
+      "lon": 28.2695
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11110050-03",
+    "title": "נפגעים אזרחיים בהפצצות בדונצק",
+    "summary": "שלושה אזרחים, ביניהם מתבגר, נפצעו בהתקפות אוקראיניות על הרפובליקה העממית של דונצק במהלך היממה האחרונה, שכללו 31 מתקפות הפגזה.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:10:02+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T00:10:02+00:00",
+    "last_update_at": "2026-11-11T00:10:02+00:00",
+    "what_is_not_verified": "זהות המותקפים המלאה והיקף הנזק המדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_src_tass",
+      "url": "https://tass.com/emergencies/2215799",
+      "published_at": "2026-11-11T00:10:02+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11110050-04",
+    "title": "מעצר חשודה בהכוונת תקיפות בדניפרו",
+    "summary": "שירות הביטחון של אוקראינה עצר תושבת מקומית בדניפרו בחשד שהכוונת תקיפות רוסיות על תשתיות אנרגיה ולוגיסטיקה בוצעה בהוראת שירות הביטחון הפדרלי של רוסיה.",
+    "axis": "עורף ומודיעין",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T23:30:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T23:30:00+00:00",
+    "last_update_at": "2026-11-10T23:30:00+00:00",
+    "what_is_not_verified": "חומרת האישומים המשפטיים טרם הוכחה בבית משפט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_02beef4f62f9db5c",
+      "url": "https://www.ukrinform.net/rubric-crime/4183155-ssu-detains-dnipro-resident-suspected-of-directing-russian-strikes.html",
+      "published_at": "2026-11-10T23:30:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דניפרו, אוקראינה",
+      "lat": 51.5567,
+      "lon": 30.6122
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11110050-05",
+    "title": "תקיפה אוקראינית על נמל רחפנים בשדה התעופה דונצק",
+    "summary": "כוחות אוקראיניים תקפו נמל רחפנים בשדה התעופה הכבוש בדונצק.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T21:46:53+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T21:46:53+00:00",
+    "last_update_at": "2026-11-10T21:46:53+00:00",
+    "what_is_not_verified": "היקף ההרס המדויק במקום",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_480fce6cb6816a5d",
+      "url": "https://kyivindependent.com/ukraine-strikes-drone-port-at-occupied-donetsk-airport/",
+      "published_at": "2026-11-10T21:46:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "שדה התעופה דונצק, אוקראינה",
+      "lat": 48.0714,
+      "lon": 37.7408
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11110050-06",
+    "title": "מעצר חייל צבא ארה\"ב בבריטניה בחשד לריגול",
+    "summary": "משטרת בריטניה עצרה חייל בכיר בצבא ארה\"ב ליד גלוסטר בחשד שעבד עבור מודיעין רוסיה.",
+    "axis": "עורף ומודיעין",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T21:29:56+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T21:29:56+00:00",
+    "last_update_at": "2026-11-10T21:29:56+00:00",
+    "what_is_not_verified": "אמיתות החשדות והאם הועבר מידע בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_src_meduza",
+      "url": "https://meduza.io/en/news/2026/11/11/british-police-arrest-senior-u-s-army-soldier-near-gloucester-on-suspicion-of-spying-for-russia",
+      "published_at": "2026-11-10T21:29:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "גלוסטר, בריטניה",
+      "lat": 51.8654,
+      "lon": -2.2458
+     },
+     {
+      "name": "לונדון, בריטניה",
+      "lat": 51.5074,
+      "lon": -0.1278
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11110050-07",
+    "title": "פגיעת כטב\"מ בבניין מגורים בסמולנסק",
+    "summary": "כטב\"מ אוקראיני פגע בבניין מגורים בסמולנסק.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T21:11:27+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T21:11:27+00:00",
+    "last_update_at": "2026-11-10T21:11:27+00:00",
+    "what_is_not_verified": "מספר הנפגעים והנזק המדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://t.me/alexmehacarmel/49477",
+      "published_at": "2026-11-10T21:11:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סמולנסק, רוסיה",
+      "lat": 54.7814,
+      "lon": 32.0461
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11110050-08",
+    "title": "מתקפה רוסית בדרום מחוז אודסה",
+    "summary": "תקיפה רוסית בדרום מחוז אודסה גרמה למותו של גבר בן 69 ולפציעת אישה בת 70, וכן לנזק לתשתיות ולבניין מגורים.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T18:32:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T18:32:00+00:00",
+    "last_update_at": "2026-11-10T19:59:00+00:00",
+    "what_is_not_verified": "היקף הנזק המלא לכלל המבנים שנפגעו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_oleh_kiper_odesa_oblast_military_adminis",
+      "url": "https://www.ukrinform.net/rubric-ato/4183538-russian-forces-strike-southern-odesa-region-killing-one-injuring-another.html",
+      "published_at": "2026-11-10T19:59:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_oleh_kiper_odesa_oblast_military_adminis",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062218/",
+      "published_at": "2026-11-10T18:32:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11110050-09",
+    "title": "תקיפת רחפני FPV על עובדי עירייה בקראמטורסק",
+    "summary": "רחפני FPV רוסיים תקפו פעמיים רכב של חברת שירות עירונית בקראמטורסק, הרגו שני עובדים ופצעו קשה עובד נוסף.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T18:16:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T18:16:00+00:00",
+    "last_update_at": "2026-11-10T18:16:00+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_oleksandr_honcharenko_kramatorsk_city_mi",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062215/",
+      "published_at": "2026-11-10T18:16:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קראמטורסק, אוקראינה",
+      "lat": 48.7389,
+      "lon": 37.5844
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "ההיתכנות והפרטים המדויקים של עסקת חילופי שבויים בהיקף של אלפים באבו דאבי",
+   "קיומה הרשמי ותוכנה המלא של רשימת הגבלת מחולות מדינות 'לא ידידותיות' במכון הממלכתי לתרבות ברוסיה",
+   "ההערכות המדויקות לגבי אחוז הפגיעה ביכולות הזיקוק של רוסיה בעקבות התקיפות"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1214,
+    "unit": "USD",
+    "change_pct": 0.19,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-10T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "השגת ערבויות ביטחון מקובלות",
+     "הסדרת הפסקת אש בתחום האנרגיה ובזירה הימית",
+     "השגת סיוע צבאי מהיר ומערכות הגנה אווירית"
+    ],
+    "inferred": [
+     "שחיקת היכולות הכלכליות והאנרגטיות של רוסיה באמצעות תקיפות ארוכות טווח",
+     "חיזוק עמדת המיקוח לקראת משא ומתן באמצעות הצלחות בשדה הקרב"
+    ],
+    "forecast": [
+     "המשך מאמצים לקבלת מטוסי קרב ומערכות הגנה מתקדמות ממדינות המערב",
+     "לחץ מתמשך על שותפות בינלאומיות לשמירת הסנקציות"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "השגת יעדי המבצע הצבאי המיוחד",
+     "ערעור התשתיות הכלכליות והדמוגרפיות של אוקראינה באמצעות מלחמת ערים"
+    ],
+    "inferred": [
+     "ניצול מלחמת ההתשה להשגת יתרון בשטח לאור עייפות אפשרית של הצדדים",
+     "סיכול גיבוש חבילות סיוע מערביות לאוקראינה"
+    ],
+    "forecast": [
+     "המשך התקיפות על מתקני אנרגיה ואספקה באוקראינה לקראת עונת החורף",
+     "ניהול משא ומתן זהה מול ארה\"ב תוך ניסיון למנוע מעורבות אירופית ישירה בתנאים שאינם מקובלים עליה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-strikes-drone-port-at-occupied-donetsk-airport/",
+    "accessed_at": "2026-11-11T00:50:00+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/11/british-police-arrest-senior-u-s-army-soldier-near-gloucester-on-suspicion-of-spying-for-russia",
+    "accessed_at": "2026-11-11T00:50:00+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062215/",
+    "accessed_at": "2026-11-11T00:50:00+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/emergencies/2215799",
+    "accessed_at": "2026-11-11T00:50:00+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49477",
+    "accessed_at": "2026-11-11T00:50:00+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4183538-russian-forces-strike-southern-odesa-region-killing-one-injuring-another.html",
+    "accessed_at": "2026-11-11T00:50:00+00:00"
+   }
+  ]
+ }
+}

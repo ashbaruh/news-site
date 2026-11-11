@@ -1,0 +1,350 @@
+{
+ "status": "draft",
+ "received_sha256_12": "6b5873971cca",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 5
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-11T00:40:26+00:00",
+  "window": {
+   "from": "2026-11-10T00:40:26+00:00",
+   "to": "2026-11-11T00:40:26+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611110040"
+  },
+  "summary": "הזירה מתאפיינת ברגיעה צבאית יחסית ובהצהרות אמריקאיות על סיום קרוב של העימות הישיר, לצד הפעלת לחץ כלכלי חסר תקדים וסנקציות על איראן. במקביל, נמשכת פעילות חשאית ענפה של רשתות טרור וסייבר איראניות מול יעדים מערביים, יחד עם חיכוך גובר סביב תשתיות אנרגיה בעיראק.",
+  "fronts": [
+   {
+    "name": "החזית האמריקאית-איראנית הישירה",
+    "status": "רגיעה צבאית מדווחת לצד לחץ כלכלי ודיפלומטי"
+   },
+   {
+    "name": "חזית הטרור והסייבר באירופה ובארה\"ב",
+    "status": "פעילה, כולל סיכול פיגועים וחשיפת חוליות"
+   },
+   {
+    "name": "הזירה האזורית בעיראק ובמפרץ",
+    "status": "מתיחות סביב מיליציות פרו-איראניות ותשתיות אנרגיה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11110040-01",
+    "title": "סיכול רשת טרור ותכנון פיגועים בארה\"ב ובאירופה",
+    "summary": "כתבי אישום בארה\"ב חושפים שפעילי משמרות המהפכה תכננו כ-20 פיגועים נגד יהודים ויעדים בארה\"ב ובאירופה, כולל תכנון תקיפת בסיס ובית כנסת.",
+    "axis": "ציר איראן-שלוחות מול ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T21:13:56+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T21:13:56+00:00",
+    "last_update_at": "2026-11-11T00:18:35+00:00",
+    "what_is_not_verified": "פרטי התוכניות המלאים מעבר לכתבי האישום.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21826034",
+      "published_at": "2026-11-11T00:18:35+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611104351",
+      "published_at": "2026-11-11T00:00:38+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-charges-three-iranian-operatives-over-uk-airbase-plot",
+      "published_at": "2026-11-10T22:30:23+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-backed-militant-helped-plot-attack-uks-fairford-base-us-jail-justice",
+      "published_at": "2026-11-10T21:46:31+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21825896",
+      "published_at": "2026-11-10T21:30:47+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-charges-three-iranian-operatives-over-uk-air-base-plot",
+      "published_at": "2026-11-10T21:13:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס פיירפורד, בריטניה",
+      "lat": 51.6851,
+      "lon": -1.7865
+     },
+     {
+      "name": "ניו יורק, ארה\"ב",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11110040-02",
+    "title": "שריפה במתקן הגז שדה פארס הדרומי באיראן",
+    "summary": "שריפה פרצה באחת מפלטפורמות הגז בשדה פארס הדרומי באיראן ודלקה, אך השלטונות דיווחו כי היא טופלה וכובתה.",
+    "axis": "הזירה הפנימית והכלכלית באיראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T21:52:16+00:00",
+    "last_update_at": "2026-11-10T23:38:02+00:00",
+    "what_is_not_verified": "סיבת השריפה המדויקת (דליפה או תאונה תפעולית).",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_fars_news_agency",
+      "url": "https://www.aljazeera.com/news/2026/11/10/fire-contained-on-platform-in-irans-south-pars-gas-field?traffic_source=rss",
+      "published_at": "2026-11-10T23:38:02+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_fars_news_agency",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-breaks-out-platform-irans-south-pars-field",
+      "published_at": "2026-11-10T22:23:29+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_fars_news_agency",
+      "url": "https://en.irna.ir/news/86318479/Fire-on-South-Pars-Phase-14-gas-platform-contained",
+      "published_at": "2026-11-10T21:52:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "שדה פארס הדרומי, איראן",
+      "lat": 27.4845,
+      "lon": 52.6595
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11110040-03",
+    "title": "האשמת איראן במתקפת סייבר על מקררים בצרפת",
+    "summary": "שירות המודיעין הצרפתי האשים בכירים במשמרות המהפכה באחריות למתקפת סייבר ששיבשה מערכות קירור באתרי מסחר בצרפת.",
+    "axis": "ציר איראן מול אירופה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T13:45:13+00:00",
+    "last_update_at": "2026-11-10T20:10:11+00:00",
+    "what_is_not_verified": "תגובת איראן הרשמית שמכחישה את המעורבות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_fdd_french_intelligence",
+      "url": "https://www.fdd.org/in_the_news/france-blames-irgc-for-supermarket-fridge-cyberattack/",
+      "published_at": "2026-11-10T20:10:11+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_fdd_french_intelligence",
+      "url": "https://t.me/alexmehacarmel/49475",
+      "published_at": "2026-11-10T20:10:08+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_fdd_french_intelligence",
+      "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-10T13:45:13+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11110040-04",
+    "title": "מניעת נחיתת מטוס נבחרת הכדורגל של איראן בעיראק עקב סנקציות",
+    "summary": "התעופה האזרחית בעיראק מנעה ממטוס שהוביל את נבחרת איראן לנחות בבצרה בשל סנקציות אמריקאיות על חברות תעופה איראניות.",
+    "axis": "ציר איראן-עיראק-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T20:23:03+00:00",
+    "last_update_at": "2026-11-10T21:46:31+00:00",
+    "what_is_not_verified": "פרטים נוספים מעבר לדיווח פקידי נמל התעופה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_basra_airport_officials_and_reuters",
+      "url": "https://www.al-monitor.com/originals/2026/11/iraq-bars-plane-carrying-irans-soccer-team-landing-basra-over-us-sanctions",
+      "published_at": "2026-11-10T21:46:31+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_basra_airport_officials_and_reuters",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/iraq-blocks-iranian-football-teams-plane-from-landing-over-us-sanctions?traffic_source=rss",
+      "published_at": "2026-11-10T20:23:03+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בצרה, עיראק",
+      "lat": 30.4952,
+      "lon": 47.8091
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11110040-05",
+    "title": "מתקפת כטב\"ם על שדה הגז כור מור בכורדיסטן העיראקית",
+    "summary": "שדה הגז כור מור בצפון עיראק הותקף באמצעות כטב\"ם חשוד, מה שגרם לשריפה שכובתה.",
+    "axis": "ציר השלוחות באזור עיראק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-08T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T17:56:38+00:00",
+    "last_update_at": "2026-11-10T18:15:14+00:00",
+    "what_is_not_verified": "זהות המבצעים הישירה של התקיפה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_dana_gas_rudaw",
+      "url": "https://www.fdd.org/analysis/attack-targets-khor-mor-gas-field-in-iraqi-kurdistan/",
+      "published_at": "2026-11-10T18:15:14+00:00"
+     },
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "or_dana_gas_rudaw",
+      "url": "https://www.longwarjournal.org/archives/2026/11/attack-targets-khor-mor-gas-field-in-iraqi-kurdistan.php",
+      "published_at": "2026-11-10T17:56:38+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות על תכנון מדויק של כ-20 פיגועים ספציפיים באירופה ובארה\"ב מעבר למה שצוין בכתבי האישום",
+   "הסיבה המדויקת לפרוץ השריפה במתקן הגז בפארס הדרומי",
+   "זהותם המדויקת של האחראים לתקיפת שדה הגז כור מור בעיראק"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1663,
+    "unit": "ILS",
+    "change_pct": -0.14,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-10T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארה\"ב וישראל",
+    "declared": [
+     "מניעת השגת נשק גרעיני על ידי איראן",
+     "בלימת ההשפעה האיראנית והתוקפנות באזור"
+    ],
+    "inferred": [
+     "המשך לחץ כלכלי כבד כדי לייתר את הצורך בפעולות צבאיות נרחבות",
+     "סיכול מוקדם של תשתיות טרור איראניות במערב"
+    ],
+    "forecast": [
+     "שימור רגיעה צבאית יחסית כל עוד נשמר הלחץ הכלכלי",
+     "הגברת האכיפה נגד רשתות הריגול והטרור האיראניות בחו\"ל"
+    ]
+   },
+   {
+    "actor": "איראן ושלוחותיה",
+    "declared": [
+     "דרישה להסרת הסנקציות ולקבלת פיצויים כלכליים",
+     "עמידה על תנאים מקדימים לכל דיאלוג עתידי עם וושינגטון"
+    ],
+    "inferred": [
+     "המשך הפעלת רשתות חשאיות ושלוחים לתקיפת יעדים מערביים כיצרת מנוף לחץ",
+     "התאמת היערכות צבאית והפקת לקחים מסבבים קודמים"
+    ],
+    "forecast": [
+     "המשך מאמצי התחמשות ושיפור יכולות טילים וסייבר",
+     "ניסיון לעקוף סנקציות כלכליות באמצעות שיתופי פעולה אזוריים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/iraq-blocks-iranian-football-teams-plane-from-landing-over-us-sanctions?traffic_source=rss",
+    "accessed_at": "2026-11-11T00:40:26+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/iraq-bars-plane-carrying-irans-soccer-team-landing-basra-over-us-sanctions",
+    "accessed_at": "2026-11-11T00:40:26+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-11T00:40:26+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/attack-targets-khor-mor-gas-field-in-iraqi-kurdistan/",
+    "accessed_at": "2026-11-11T00:40:26+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611104351",
+    "accessed_at": "2026-11-11T00:40:26+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86318479/Fire-on-South-Pars-Phase-14-gas-platform-contained",
+    "accessed_at": "2026-11-11T00:40:26+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21825896",
+    "accessed_at": "2026-11-11T00:40:26+00:00"
+   },
+   {
+    "source_id": "src_lwj",
+    "url": "https://www.longwarjournal.org/archives/2026/11/attack-targets-khor-mor-gas-field-in-iraqi-kurdistan.php",
+    "accessed_at": "2026-11-11T00:40:26+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-breaks-out-platform-irans-south-pars-field",
+    "accessed_at": "2026-11-11T00:40:26+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49475",
+    "accessed_at": "2026-11-11T00:40:26+00:00"
+   }
+  ]
+ }
+}

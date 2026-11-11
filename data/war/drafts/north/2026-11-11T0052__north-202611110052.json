@@ -1,0 +1,350 @@
+{
+ "status": "draft",
+ "received_sha256_12": "2e52fe59637a",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "verified": 2,
+   "shared_root": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-11T00:52:04+00:00",
+  "window": {
+   "from": "2026-11-10T00:52:04+00:00",
+   "to": "2026-11-11T00:52:04+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611110052"
+  },
+  "summary": "בגזרה הצפונית מתנהלת מתיחות מתמשכת סביב לבנון וסוריה הכוללת תקריות ירי לעבר כוחות בינלאומיים, פעילות צבאית ישראלית מקומית והמשך קמפיינים אזרחיים ופוליטיים של חיזבאללה לצד היערכות דיפלומטית בינלאומית ליום שאחרי סיום מנדט יוניפי\"ל. במקביל, שיתופי פעולה כלכליים ואזוריים בין סוריה למדינות שכנות כמו ירדן מקודמים לצד חששות ביטחוניים מורכבים.",
+  "fronts": [
+   {
+    "name": "חזית לבנון-ישראל",
+    "status": "פעיל במתכונת של תקריות נקודתיות, הפרות ריבונות, וירי לעבר כוחות או\"ם למרות הפסקת האש"
+   },
+   {
+    "name": "חזית סוריה-ישראל",
+    "status": "פעיל עם נוכחות ופעילות פולשנית של כוחות קרקעיים בשטחי קוניטרה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11110052-01",
+    "title": "ירי לעבר סיור יוניפי\"ל בדרום לבנון",
+    "summary": "כוח שמירת השלום של האו\"ם דיווח כי סיור שלו נפגע מירי של כעשרים קליעים באזור דרום לבנון, והכוח השיב באש עד שהירי נפסק ללא נפגעים.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T16:43:29+00:00",
+    "last_update_at": "2026-11-10T22:03:50+00:00",
+    "what_is_not_verified": "זהות התוקפים לא זוהתה בידי כוח האו\"ם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_68882c9f1e7f316b",
+      "url": "https://www.aljazeera.com/news/2026/11/10/unifil-patrol-comes-under-fire-in-southern-lebanon?traffic_source=rss",
+      "published_at": "2026-11-10T22:03:50+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_df25b5246d0ce361",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-peacekeepers-say-came-under-fire-southern-lebanon",
+      "published_at": "2026-11-10T20:56:16+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_bd51567c13b5e665",
+      "url": "https://www.aa.com.tr/en/middle-east/un-peacekeepers-come-under-fire-in-southern-lebanon-mission-says/4119542",
+      "published_at": "2026-11-10T20:42:28+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_f18dc47784ed33f4",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/967342/unifil-patrol-comes-under-gunfire-near-south-lebanons-wadi-jilou-no-pe/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967342",
+      "published_at": "2026-11-10T16:43:29+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11110052-02",
+    "title": "אזרח ישראלי חצה את הגבול ללבנון ונכנס לעמדת או\"ם",
+    "summary": "אזרח ישראלי חצה את הגבול באזור ראש הנקרה, נכנס לעמדת יוניפי\"ל ואותר זמן קצר לאחר מכן על ידי כוח או\"ם שהעביר אותו לצה\"ל.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T15:03:10+00:00",
+    "last_update_at": "2026-11-10T19:31:12+00:00",
+    "what_is_not_verified": "הנסיבות המדויקות שהביאו את האזרח לחצות את הגבול",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "fh_36e1b85a0b363f04",
+      "url": "https://www.walla.co.il/news/military/383960909",
+      "published_at": "2026-11-10T19:31:12+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_36e1b85a0b363f04",
+      "url": "https://t.me/abualiexpress/133431",
+      "published_at": "2026-11-10T15:38:04+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "fh_36e1b85a0b363f04",
+      "url": "https://t.me/idf_telegram/25571",
+      "published_at": "2026-11-10T15:36:09+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "fh_36e1b85a0b363f04",
+      "url": "https://t.me/lelotsenzura/95001",
+      "published_at": "2026-11-10T15:03:10+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11110052-03",
+    "title": "רצח פוליטיקאי עיראקי בביירות",
+    "summary": "גופתו של חבר הפרלמנט העיראקי לשעבר אחמד אל-עלוואני נמצאה בדירה בביירות לאחר שנחנק למוות, ומנגנוני הביטחון פתחו בחקירה ועצרו חשודים.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-10T19:42:19+00:00",
+    "last_update_at": "2026-11-10T23:14:56+00:00",
+    "what_is_not_verified": "הזהות המלאה של כל המעורבים ברצח והמניע הישיר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_f825a0a3eaddadcf",
+      "url": "https://www.aa.com.tr/en/middle-east/former-iraqi-lawmaker-killed-in-beirut-probe-launched/4119598",
+      "published_at": "2026-11-10T23:14:56+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_f825a0a3eaddadcf",
+      "url": "https://www.ynet.co.il/news/article/bymhybbafe",
+      "published_at": "2026-11-10T21:30:53+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_f825a0a3eaddadcf",
+      "url": "https://www.al-monitor.com/originals/2026/11/ex-iraqi-mp-ahmed-alwani-found-dead-lebanon-what-know",
+      "published_at": "2026-11-10T21:12:31+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_f825a0a3eaddadcf",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21825473",
+      "published_at": "2026-11-10T19:42:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11110052-04",
+    "title": "פעילות כוחות צבא ישראל במרחב קוניטרה בסוריה",
+    "summary": "כוחות צבא ישראל ביצעו פלישות והקימו מחסומים זמניים באזורים שונים במרחב קוניטרה בסוריה לצורך בידוק עוברי דרך.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-10T12:41:09+00:00",
+    "last_update_at": "2026-11-10T12:41:09+00:00",
+    "what_is_not_verified": "משך השהות המדויק והיקף הכוחות המלא בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/148792/",
+      "published_at": "2026-11-10T12:41:09+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11110052-05",
+    "title": "טיסות כטב\"ם בשמי ביירות",
+    "summary": "כטב\"ם ישראלי תועד כשהוא מסתובב מעל שמי ביירות ופרוורי הדרום כהפרה של ריבונות לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-10T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-10T12:38:18+00:00",
+    "last_update_at": "2026-11-10T12:38:18+00:00",
+    "what_is_not_verified": "יעדי הטיסה המדויקים של כלי הטיס",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_3dc673e97f18b406",
+      "url": "https://english.almanar.com.lb/article/148852/",
+      "published_at": "2026-11-10T12:38:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "זהות התוקפים שירותו אש לעבר סיור יוניפי\"ל בוואדי ג'ילו",
+   "ההחלטות המדויקות לגבי מבנה הביטחון שיחליף את יוניפי\"ל לאחר תום המנדט",
+   "היקף הפעילות המלא של כוחות צבא ישראל בעומק השטחים הסוריים בקוניטרה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1663,
+    "unit": "ILS",
+    "change_pct": -0.14,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-10T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת הפרות ריבונות בגבול לבנון",
+     "סיכול תשתיות טרור ופגיעה במקורות מימון של ציר ההתנגדות"
+    ],
+    "inferred": [
+     "שמירה על חופש פעולה מבצעי בדרום לבנון ובמרחב הגבול הסורי",
+     "מניעת התבססות מחודשת של חיזבאללה באזורים הסמוכים לגבול"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית מוגבלת או סיכולים ממוקדים בגזרה לפי הצורך",
+     "התמודדות עם ריק ביטחוני עתידי בלבנון אם יפונה כוח יוניפי\"ל"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "חלוקת מענקי סיוע לתושבים שנפגעו באזורים שונים בלבנון במסגרת קמפיין התחייבות",
+     "תמיכה באוכלוסייה המקומית והבלטת חולשת הרשויות הרשמיות בטיפול בנפגעים"
+    ],
+    "inferred": [
+     "שימור מעמדו כמגן הקהילה השיעית והאוכלוסייה בדרום לבנון ובביירות",
+     "חיזוק ההשפעה האזרחית במקביל למאבק הצבאי והמדיני"
+    ],
+    "forecast": [
+     "המשך חלוקת סיוע וקידום קמפיינים ציבוריים להשפעה פוליטית בלבנון",
+     "היערכות להסלמה נוספת מול ישראל בגזרה הצפונית"
+    ]
+   },
+   {
+    "actor": "ממשלת לבנון",
+    "declared": [
+     "חיזוק הריבונות הלאומית ומוסדות המדינה",
+     "הכנת שדה התעופה בקלייעת לתחילת טיסות ניסוי ופעילות מסחרית"
+    ],
+    "inferred": [
+     "ניסיון לייצב את הכלכלה ולשמור על תפקוד הצבא למרות לחצים פוליטיים וביטחוניים פנימיים וחיצוניים",
+     "הימנעות מעימות ישיר עם חיזבאללה תוך דרישה לאכיפת החוק סביב כוחות האו\"ם"
+    ],
+    "forecast": [
+     "המשך מאמצים לגיבוש הסדרים בינלאומיים למניעת ואקום ביטחוני לאחר סיום מנדט יוניפי\"ל",
+     "פתיחת נמל התעופה בקלייעת לקראת סוף חודש נובמבר כמתוכנן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/10/unifil-patrol-comes-under-fire-in-southern-lebanon?traffic_source=rss",
+    "accessed_at": "2026-11-11T00:52:04+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/148852/",
+    "accessed_at": "2026-11-11T00:52:04+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/ex-iraqi-mp-ahmed-alwani-found-dead-lebanon-what-know",
+    "accessed_at": "2026-11-11T00:52:04+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/former-iraqi-lawmaker-killed-in-beirut-probe-launched/4119598",
+    "accessed_at": "2026-11-11T00:52:04+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21825473",
+    "accessed_at": "2026-11-11T00:52:04+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/967342/unifil-patrol-comes-under-gunfire-near-south-lebanons-wadi-jilou-no-pe/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967342",
+    "accessed_at": "2026-11-11T00:52:04+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-peacekeepers-say-came-under-fire-southern-lebanon",
+    "accessed_at": "2026-11-11T00:52:04+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133431",
+    "accessed_at": "2026-11-11T00:52:04+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25571",
+    "accessed_at": "2026-11-11T00:52:04+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95001",
+    "accessed_at": "2026-11-11T00:52:04+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383960909",
+    "accessed_at": "2026-11-11T00:52:04+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/bymhybbafe",
+    "accessed_at": "2026-11-11T00:52:04+00:00"
+   }
+  ]
+ }
+}
