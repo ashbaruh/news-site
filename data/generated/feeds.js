@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-11T07:12:42+00:00",
-  "fetched_at": "2026-11-11T07:12:42+00:00"
+  "checked_at": "2026-11-11T07:17:14+00:00",
+  "fetched_at": "2026-11-11T07:17:14+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T07:12:55+00:00",
-  "fetched_at": "2026-11-11T07:12:55+00:00"
+  "checked_at": "2026-11-11T07:17:23+00:00",
+  "fetched_at": "2026-11-11T07:17:23+00:00"
  },
  "av_en": {
   "data": [
@@ -57,17 +57,17 @@ window.DB.generated = {
     "date": "2026-11-10T16:20:13+00:00"
    },
    {
-    "title_en": "Meet the Dolby Atmos soundbar that looks like a cushion",
-    "title_he": "הכירו את הסאונד - בר Dolby Atmos שנראה כמו כרית",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/this-dolby-atmos-soundbar-is-designed-to-fit-in-with-your-homeware-but-i-see-a-problem",
-    "date": "2026-11-10T14:00:00+00:00"
-   },
-   {
     "title_en": "Leica’s upgraded premium 4K projector promises versatility and a bright display “even in ambient light”",
     "title_he": "מקרן הפרימיום 4K המשודרג של לייקה מבטיח צדדיות ותצוגה בהירה \"אפילו באור הסביבה\"",
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/tv-home-cinema/projectors/leicas-upgraded-premium-4k-projector-promises-versatility-and-a-bright-display-even-in-ambient-light",
+    "date": "2026-11-10T14:00:00+00:00"
+   },
+   {
+    "title_en": "Meet the Dolby Atmos soundbar that looks like a cushion",
+    "title_he": "הכירו את הסאונד - בר Dolby Atmos שנראה כמו כרית",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/this-dolby-atmos-soundbar-is-designed-to-fit-in-with-your-homeware-but-i-see-a-problem",
     "date": "2026-11-10T14:00:00+00:00"
    },
    {
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T07:12:55+00:00",
-  "fetched_at": "2026-11-11T07:12:55+00:00"
+  "checked_at": "2026-11-11T07:17:23+00:00",
+  "fetched_at": "2026-11-11T07:17:23+00:00"
  },
- "generated_at": "2026-11-11T07:12:55+00:00",
+ "generated_at": "2026-11-11T07:17:23+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "ארה\"ב מפנה מטוסים, החשש: איראן מסמנת עוד יעדים באירופה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562908",
-     "date": "2026-11-11T05:30:00+00:00"
+     "date": "2026-11-11T07:13:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T07:12:43+00:00",
-  "fetched_at": "2026-11-11T07:12:43+00:00"
+  "checked_at": "2026-11-11T07:17:15+00:00",
+  "fetched_at": "2026-11-11T07:17:15+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T07:12:44+00:00",
-  "fetched_at": "2026-11-11T07:12:44+00:00"
+  "checked_at": "2026-11-11T07:17:15+00:00",
+  "fetched_at": "2026-11-11T07:17:15+00:00"
  },
  "tv": {
   "data": [
@@ -1986,6 +1986,13 @@ window.DB.generated = {
     "time": "21:00",
     "channel": "ספורט 5+",
     "sport": "כדורגל",
+    "title": "בנין - הרפובליקה המרכז אפריקאית"
+   },
+   {
+    "date": "2026-11-12",
+    "time": "21:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
     "title": "קמרון - נמיביה"
    },
    {
@@ -2043,13 +2050,6 @@ window.DB.generated = {
     "channel": "ספורט 3",
     "sport": "כדורגל",
     "title": "צ'כיה - ספרד"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "22:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "בנין - הרפובליקה המרכז אפריקאית"
    },
    {
     "date": "2026-11-12",
@@ -2494,8 +2494,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T07:12:46+00:00",
-  "fetched_at": "2026-11-11T07:12:46+00:00"
+  "checked_at": "2026-11-11T07:17:17+00:00",
+  "fetched_at": "2026-11-11T07:17:17+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2585,12 +2585,21 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-11T07:12:46+00:00",
-  "fetched_at": "2026-11-11T07:12:46+00:00"
+  "checked_at": "2026-11-11T07:17:17+00:00",
+  "fetched_at": "2026-11-11T07:17:17+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+     "date": "2026-11-10T16:03:47+00:00",
+     "launch": true,
+     "title_en": "Gemini 4 Carbon is now available",
+     "title_he": "Gemini 4 Carbon זמין כעת",
+     "translated_by": "google"
+    },
     {
      "source": "Google",
      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
@@ -2599,21 +2608,11 @@ window.DB.generated = {
      "title_en": "Google Cloud launches Gemini for healthcare.",
      "title_he": "Google Cloud משיק את Gemini עבור שירותי בריאות.",
      "translated_by": "google"
-    },
-    {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/introducing-businesses-chatgpt",
-     "date": "2026-11-10T10:00:00+00:00",
-     "launch": true,
-     "title_en": "Introducing Businesses in ChatGPT",
-     "title_he": "חדש: עסקים ב-ChatGPT",
-     "translated_by": "mymemory"
     }
    ],
-   "candidates": 10,
+   "candidates": 13,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
@@ -2627,7 +2626,7 @@ window.DB.generated = {
      "title": "Image to Video",
      "desc_en": "Make videos from text or photos — free, no GPU queue",
      "desc_he": "יצירת סרטונים מטקסט או מתמונות — בחינם, ללא תור GPU",
-     "likes": 805,
+     "likes": 807,
      "link": "https://huggingface.co/spaces/thea2026/image-to-video"
     },
     {
@@ -2689,8 +2688,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T07:12:53+00:00",
-  "fetched_at": "2026-11-11T07:12:53+00:00"
+  "checked_at": "2026-11-11T07:17:23+00:00",
+  "fetched_at": "2026-11-11T07:17:23+00:00"
  },
  "abroad": {
   "data": {
@@ -3044,8 +3043,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T07:12:49+00:00",
-  "fetched_at": "2026-11-11T07:12:49+00:00"
+  "checked_at": "2026-11-11T07:17:19+00:00",
+  "fetched_at": "2026-11-11T07:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -3075,100 +3074,99 @@ window.DB.generated = {
     "date": "2026-11-09T03:57:00+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-11T07:12:49+00:00",
-  "fetched_at": "2026-11-11T06:17:39+00:00"
+  "ok": true,
+  "checked_at": "2026-11-11T07:17:19+00:00",
+  "fetched_at": "2026-11-11T07:17:19+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-11T07:02:00+00:00",
-    "seen_at": "2026-11-11T07:12:55+00:00",
+    "newest": "2026-11-11T07:13:00+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-11T07:00:00+00:00",
-    "seen_at": "2026-11-11T07:12:55+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-11T07:02:00+00:00",
-    "seen_at": "2026-11-11T07:12:55+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-11T07:09:00+00:00",
-    "seen_at": "2026-11-11T07:12:55+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-11T06:10:00+00:00",
-    "seen_at": "2026-11-11T07:12:55+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-11T08:00:00+00:00",
-    "seen_at": "2026-11-11T07:12:55+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-11T06:52:00+00:00",
-    "seen_at": "2026-11-11T07:12:55+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-11T03:50:00+00:00",
-    "seen_at": "2026-11-11T06:17:44+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-10T16:03:47+00:00",
-    "seen_at": "2026-11-11T06:17:44+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-10T19:00:00+00:00",
-    "seen_at": "2026-11-11T07:12:55+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-10T15:00:37+00:00",
-    "seen_at": "2026-11-11T07:12:55+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-09T12:30:57+00:00",
-    "seen_at": "2026-11-11T07:12:55+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-10T16:20:13+00:00",
-    "seen_at": "2026-11-11T07:12:55+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-10T14:32:16+00:00",
-    "seen_at": "2026-11-11T07:12:55+00:00",
+    "seen_at": "2026-11-11T07:17:23+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-11T07:12:55+00:00"
+  "checked_at": "2026-11-11T07:17:23+00:00"
  },
  "health_news": {
   "data": [
@@ -3324,7 +3322,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T07:12:50+00:00",
-  "fetched_at": "2026-11-11T07:12:50+00:00"
+  "checked_at": "2026-11-11T07:17:20+00:00",
+  "fetched_at": "2026-11-11T07:17:20+00:00"
  }
 };
