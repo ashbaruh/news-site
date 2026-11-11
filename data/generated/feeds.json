@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-11T13:17:20+00:00",
-  "fetched_at": "2026-11-11T13:17:20+00:00"
+  "checked_at": "2026-11-11T14:17:27+00:00",
+  "fetched_at": "2026-11-11T14:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T13:17:30+00:00",
-  "fetched_at": "2026-11-11T13:17:30+00:00"
+  "checked_at": "2026-11-11T14:17:35+00:00",
+  "fetched_at": "2026-11-11T14:17:35+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Watching this blockbuster made me wonder if we have a volume problem in cinemas – but do you agree?",
+    "title_he": "הצפייה בשובר הקופות הזה גרמה לי לתהות אם יש לנו בעיית נפח בבתי הקולנוע – אבל האם אתה מסכים?",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/av/watching-this-blockbuster-made-me-wonder-if-we-have-a-volume-problem-in-cinemas-but-do-you-agree",
+    "date": "2026-11-11T14:04:50+00:00"
+   },
    {
     "title_en": "This five-star turntable is easy to use, has stupendous sound and is at a new low price – but only until midnight",
     "title_he": "פטיפון חמישה כוכבים זה קל לשימוש, יש לו צליל מדהים והוא במחיר נמוך חדש – אבל רק עד חצות",
@@ -67,20 +74,13 @@
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/speakers/hi-fi-speakers/cambridge-audio-brings-room-correction-to-its-l-r-x-and-l-r-m-speakers",
     "date": "2026-11-11T10:00:00+00:00"
-   },
-   {
-    "title_en": "This classic 1970s David Bowie film now has a 50th anniversary special edition 4K Blu-ray",
-    "title_he": "לסרט הקלאסי הזה של דיוויד בואי משנות ה-70 יש עכשיו מהדורה מיוחדת ל-50 שנה 4K Blu-ray",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/blu-ray-players/this-classic-1970s-david-bowie-film-now-has-a-50th-anniversary-special-edition-4k-blu-ray",
-    "date": "2026-11-10T16:20:13+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T13:17:31+00:00",
-  "fetched_at": "2026-11-11T13:17:31+00:00"
+  "checked_at": "2026-11-11T14:17:37+00:00",
+  "fetched_at": "2026-11-11T14:17:37+00:00"
  },
- "generated_at": "2026-11-11T13:17:31+00:00",
+ "generated_at": "2026-11-11T14:17:37+00:00",
  "globes": {
   "data": {
    "top": [
@@ -112,7 +112,7 @@
      "date": "2026-11-11T12:27:00+00:00"
     },
     {
-     "title": "בתי החולים באירופה הבאים בתור? הסכנה במתקפות הסייבר האיראניות",
+     "title": "האקדמאי ששמח על מות חיילים ישראלים - ולא יורשה להיכנס לבריטניה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562938",
      "date": "2026-11-11T12:26:00+00:00"
     },
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T13:17:21+00:00",
-  "fetched_at": "2026-11-11T13:17:21+00:00"
+  "checked_at": "2026-11-11T14:17:28+00:00",
+  "fetched_at": "2026-11-11T14:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T13:17:22+00:00",
-  "fetched_at": "2026-11-11T13:17:22+00:00"
+  "checked_at": "2026-11-11T14:17:29+00:00",
+  "fetched_at": "2026-11-11T14:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2492,8 +2492,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T13:17:23+00:00",
-  "fetched_at": "2026-11-11T13:17:23+00:00"
+  "checked_at": "2026-11-11T14:17:30+00:00",
+  "fetched_at": "2026-11-11T14:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2583,19 +2583,12 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-11T13:17:23+00:00",
-  "fetched_at": "2026-11-11T13:17:23+00:00"
+  "checked_at": "2026-11-11T14:17:30+00:00",
+  "fetched_at": "2026-11-11T14:17:30+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/anthropic-claude-sheets-whiteboards-microsoft-office/",
-     "date": "2026-11-11T08:00:57+00:00",
-     "launch": true,
-     "title": "אנת'רופיק הולכת על הראש של אקסל עם פיצ'ר חדש של Claude"
-    },
     {
      "source": "Google DeepMind",
      "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
@@ -2604,25 +2597,35 @@
      "title_en": "Gemini 4 Carbon is now available",
      "title_he": "Gemini 4 Carbon זמין כעת",
      "translated_by": "google"
+    },
+    {
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+     "date": "2026-11-10T13:00:00+00:00",
+     "launch": true,
+     "title_en": "Google Cloud launches Gemini for healthcare.",
+     "title_he": "Google Cloud משיק את Gemini עבור שירותי בריאות.",
+     "translated_by": "google"
     }
    ],
-   "candidates": 16,
+   "candidates": 13,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "גיקטיים"
    ],
    "tools": [
     {
      "title": "Image to Video",
      "desc_en": "Make videos from text or photos — free, no GPU queue",
      "desc_he": "יצירת סרטונים מטקסט או מתמונות — בחינם, ללא תור GPU",
-     "likes": 999,
+     "likes": 1056,
      "link": "https://huggingface.co/spaces/thea2026/image-to-video"
     },
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 550,
+     "likes": 551,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
@@ -2636,7 +2639,7 @@
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1511,
+     "likes": 1513,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2657,14 +2660,14 @@
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 99,
+     "likes": 100,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
     },
     {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 349,
+     "likes": 350,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
@@ -2684,8 +2687,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T13:17:29+00:00",
-  "fetched_at": "2026-11-11T13:17:29+00:00"
+  "checked_at": "2026-11-11T14:17:34+00:00",
+  "fetched_at": "2026-11-11T14:17:34+00:00"
  },
  "abroad": {
   "data": {
@@ -3038,8 +3041,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-11T13:17:25+00:00",
-  "fetched_at": "2026-11-11T13:17:25+00:00"
+  "checked_at": "2026-11-11T14:17:33+00:00",
+  "fetched_at": "2026-11-11T14:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -3069,8 +3072,9 @@
     "date": "2026-11-09T03:57:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-11T13:17:26+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-11T14:17:33+00:00",
   "fetched_at": "2026-11-11T13:17:26+00:00"
  },
  "feed_health": {
@@ -3078,44 +3082,44 @@
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-11T13:08:00+00:00",
-    "seen_at": "2026-11-11T13:17:31+00:00",
+    "newest": "2026-11-11T14:00:00+00:00",
+    "seen_at": "2026-11-11T14:17:37+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-11T12:40:00+00:00",
-    "seen_at": "2026-11-11T13:17:31+00:00",
+    "seen_at": "2026-11-11T14:17:37+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-11T12:40:00+00:00",
-    "seen_at": "2026-11-11T13:17:31+00:00",
+    "newest": "2026-11-11T13:44:00+00:00",
+    "seen_at": "2026-11-11T14:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-11T12:30:00+00:00",
-    "seen_at": "2026-11-11T13:17:31+00:00",
+    "seen_at": "2026-11-11T14:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-11T11:13:00+00:00",
-    "seen_at": "2026-11-11T13:17:31+00:00",
+    "seen_at": "2026-11-11T14:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-11T14:00:00+00:00",
-    "seen_at": "2026-11-11T13:17:31+00:00",
+    "newest": "2026-11-11T14:47:00+00:00",
+    "seen_at": "2026-11-11T14:17:37+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-11T13:07:00+00:00",
-    "seen_at": "2026-11-11T13:17:31+00:00",
+    "newest": "2026-11-11T13:58:00+00:00",
+    "seen_at": "2026-11-11T14:17:37+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3127,13 +3131,13 @@
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-10T16:03:47+00:00",
-    "seen_at": "2026-11-11T13:17:31+00:00",
+    "seen_at": "2026-11-11T14:17:37+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-11T09:00:00+00:00",
-    "seen_at": "2026-11-11T13:17:31+00:00",
+    "seen_at": "2026-11-11T14:17:37+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3145,23 +3149,23 @@
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-09T12:30:57+00:00",
-    "seen_at": "2026-11-11T13:17:31+00:00",
+    "seen_at": "2026-11-11T14:17:37+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-11T12:53:02+00:00",
-    "seen_at": "2026-11-11T13:17:31+00:00",
+    "newest": "2026-11-11T14:04:50+00:00",
+    "seen_at": "2026-11-11T14:17:37+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-11T07:56:34+00:00",
-    "seen_at": "2026-11-11T13:17:31+00:00",
+    "seen_at": "2026-11-11T14:17:37+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-11T13:17:31+00:00"
+  "checked_at": "2026-11-11T14:17:37+00:00"
  },
  "health_news": {
   "data": [
@@ -3317,7 +3321,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-11T13:17:26+00:00",
-  "fetched_at": "2026-11-11T13:17:26+00:00"
+  "checked_at": "2026-11-11T14:17:33+00:00",
+  "fetched_at": "2026-11-11T14:17:33+00:00"
  }
 }
