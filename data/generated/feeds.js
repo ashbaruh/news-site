@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-12T02:17:18+00:00",
-  "fetched_at": "2026-11-12T02:17:18+00:00"
+  "checked_at": "2026-11-12T03:17:15+00:00",
+  "fetched_at": "2026-11-12T03:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T02:17:33+00:00",
-  "fetched_at": "2026-11-12T02:17:33+00:00"
+  "checked_at": "2026-11-12T03:17:22+00:00",
+  "fetched_at": "2026-11-12T03:17:22+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T02:17:34+00:00",
-  "fetched_at": "2026-11-12T02:17:34+00:00"
+  "checked_at": "2026-11-12T03:17:22+00:00",
+  "fetched_at": "2026-11-12T03:17:22+00:00"
  },
- "generated_at": "2026-11-12T02:17:34+00:00",
+ "generated_at": "2026-11-12T03:17:22+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מהנדסת שוויתרה על קריירה, והאחראית למעיל העור האיקוני: לורי הואנג יוצאת מהצללים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563118",
-     "date": "2026-11-11T17:53:00+00:00"
+     "title": "דיווח דרמטי: דירקטוריון אנבידיה נערך להדיח את המנכ״ל; רומן חדש נחשף",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563130",
+     "date": "2026-11-12T02:26:00+00:00"
     },
     {
      "title": "איזנקוט לנתניהו: \"גלה איפוק וזהירות ממהלכים מסוכנים\"",
@@ -98,6 +98,21 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "הדחת מנכ\"ל אנבידיה עשויה להוביל לתרחיש אימה בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563132",
+     "date": "2026-11-12T03:08:00+00:00"
+    },
+    {
+     "title": "דילמת הירושה באנבידיה: מי יוכל להחליף את המנכ\"ל הוותיק?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563131",
+     "date": "2026-11-12T02:57:00+00:00"
+    },
+    {
+     "title": "דיווח דרמטי: דירקטוריון אנבידיה נערך להדיח את המנכ״ל; רומן חדש נחשף",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563130",
+     "date": "2026-11-12T02:26:00+00:00"
+    },
     {
      "title": "מניית ה-AI שהמריאה אחרי הדוחות והקפיצה את נאסד\"ק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562923",
@@ -144,11 +159,6 @@ window.DB.generated = {
      "date": "2026-11-11T15:15:00+00:00"
     },
     {
-     "title": "נאייקס עקפה את תחזיות הרווח ברבעון השלישי, והרווח של דלתא מותגים נחתך בחדות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562931",
-     "date": "2026-11-11T13:19:00+00:00"
-    },
-    {
      "title": "מכה לאבן קיסר: הפרשת ענק הובילה להערת עסק חי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562957",
      "date": "2026-11-11T12:27:00+00:00"
@@ -179,11 +189,6 @@ window.DB.generated = {
      "date": "2026-11-11T11:46:00+00:00"
     },
     {
-     "title": "השבוע של צחי אבו: קונה קרקע בבאר שבע ומוכר מחצית מתחנת כוח עתידית",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562837",
-     "date": "2026-11-11T10:37:00+00:00"
-    },
-    {
      "title": "צמיחה בהכנסות, זינוק ברווח הנקי והשלמת המהפך ב-yes: בזק מסכמת רבעון חזק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562927",
      "date": "2026-11-11T09:25:00+00:00"
@@ -204,21 +209,6 @@ window.DB.generated = {
      "date": "2026-11-11T07:00:00+00:00"
     },
     {
-     "title": "מנכ\"ל אנבידיה חזר למשרד אחרי חשיפת הרומן. מה הוא אמר לעובדים?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562907",
-     "date": "2026-11-11T04:07:00+00:00"
-    },
-    {
-     "title": "טיל השיוט החדש של רפאל: עם ראש קרב שיכול לחמוק ממערכות הגנה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562905",
-     "date": "2026-11-11T04:00:00+00:00"
-    },
-    {
-     "title": "בשבדיה ביטלו ובגרמניה הפחיתו: ישראל צועדת נגד מגמת מיסוי הטיסות באירופה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562803",
-     "date": "2026-11-11T03:48:00+00:00"
-    },
-    {
      "title": "לחסוך אלפי שקלים בחמישה צעדים: ההטבות שכדאי לנצל עד סוף דצמבר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562795",
      "date": "2026-11-11T03:46:00+00:00"
@@ -226,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T02:17:19+00:00",
-  "fetched_at": "2026-11-12T02:17:19+00:00"
+  "checked_at": "2026-11-12T03:17:16+00:00",
+  "fetched_at": "2026-11-12T03:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T02:17:20+00:00",
-  "fetched_at": "2026-11-12T02:17:20+00:00"
+  "checked_at": "2026-11-12T03:17:17+00:00",
+  "fetched_at": "2026-11-12T03:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2438,8 +2428,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T02:17:20+00:00",
-  "fetched_at": "2026-11-12T02:17:20+00:00"
+  "checked_at": "2026-11-12T03:17:18+00:00",
+  "fetched_at": "2026-11-12T03:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2529,18 +2519,20 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-12T02:17:20+00:00",
-  "fetched_at": "2026-11-12T02:17:20+00:00"
+  "checked_at": "2026-11-12T03:17:18+00:00",
+  "fetched_at": "2026-11-12T03:17:18+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/anthropic-claude-sheets-whiteboards-microsoft-office/",
-     "date": "2026-11-11T08:00:57+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+     "date": "2026-11-10T16:03:47+00:00",
      "launch": true,
-     "title": "אנת'רופיק הולכת על הראש של אקסל עם פיצ'ר חדש של Claude"
+     "title_en": "Gemini 4 Carbon is now available",
+     "title_he": "Gemini 4 Carbon זמין כעת",
+     "translated_by": "google"
     },
     {
      "source": "Google",
@@ -2552,24 +2544,24 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 15,
+   "candidates": 16,
    "failed_sources": [
     "Anthropic",
-    "Google DeepMind"
+    "גיקטיים"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 569,
+     "likes": 571,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 293,
+     "likes": 295,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -2583,7 +2575,7 @@ window.DB.generated = {
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 249,
+     "likes": 250,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
@@ -2618,7 +2610,7 @@ window.DB.generated = {
      "title": "Qwen Image 2.1 Realtime",
      "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
-     "likes": 226,
+     "likes": 227,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
@@ -2631,8 +2623,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T02:17:32+00:00",
-  "fetched_at": "2026-11-12T02:17:32+00:00"
+  "checked_at": "2026-11-12T03:17:21+00:00",
+  "fetched_at": "2026-11-12T03:17:21+00:00"
  },
  "abroad": {
   "data": {
@@ -2985,8 +2977,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T02:17:23+00:00",
-  "fetched_at": "2026-11-12T02:17:23+00:00"
+  "checked_at": "2026-11-12T03:17:20+00:00",
+  "fetched_at": "2026-11-12T03:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -3017,70 +3009,70 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T02:17:24+00:00",
-  "fetched_at": "2026-11-12T02:17:24+00:00"
+  "checked_at": "2026-11-12T03:17:21+00:00",
+  "fetched_at": "2026-11-12T03:17:21+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-11T21:04:00+00:00",
-    "seen_at": "2026-11-12T02:17:34+00:00",
+    "newest": "2026-11-12T03:08:00+00:00",
+    "seen_at": "2026-11-12T03:17:22+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-11T21:04:00+00:00",
-    "seen_at": "2026-11-12T02:17:34+00:00",
+    "newest": "2026-11-12T03:08:00+00:00",
+    "seen_at": "2026-11-12T03:17:22+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-11T21:04:00+00:00",
-    "seen_at": "2026-11-12T02:17:34+00:00",
+    "newest": "2026-11-12T03:08:00+00:00",
+    "seen_at": "2026-11-12T03:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-11T12:30:00+00:00",
-    "seen_at": "2026-11-12T02:17:34+00:00",
+    "seen_at": "2026-11-12T03:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-11T21:20:00+00:00",
-    "seen_at": "2026-11-12T02:17:34+00:00",
+    "seen_at": "2026-11-12T03:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-11T18:25:00+00:00",
-    "seen_at": "2026-11-12T02:17:34+00:00",
+    "seen_at": "2026-11-12T03:17:22+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-11T22:15:00+00:00",
-    "seen_at": "2026-11-12T02:17:34+00:00",
+    "seen_at": "2026-11-12T03:17:22+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-11T17:43:19+00:00",
-    "seen_at": "2026-11-12T02:17:34+00:00",
+    "seen_at": "2026-11-12T03:17:22+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-11T15:00:15+00:00",
-    "seen_at": "2026-11-12T01:17:41+00:00",
+    "seen_at": "2026-11-12T03:17:22+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-11T18:00:00+00:00",
-    "seen_at": "2026-11-12T02:17:34+00:00",
+    "seen_at": "2026-11-12T03:17:22+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3092,13 +3084,13 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-11T16:30:25+00:00",
-    "seen_at": "2026-11-12T02:17:34+00:00",
+    "seen_at": "2026-11-12T03:17:22+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-11T16:33:36+00:00",
-    "seen_at": "2026-11-12T02:17:34+00:00",
+    "seen_at": "2026-11-12T03:17:22+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3108,7 +3100,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-11-12T02:17:34+00:00"
+  "checked_at": "2026-11-12T03:17:22+00:00"
  },
  "health_news": {
   "data": [
@@ -3263,8 +3255,9 @@ window.DB.generated = {
     "date": "2026-10-19T07:26:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-12T02:17:24+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-12T03:17:21+00:00",
   "fetched_at": "2026-11-12T02:17:24+00:00"
  }
 };
