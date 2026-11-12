@@ -508,6 +508,10 @@
 ],
 "bekaa, lebanon": null,
 "belgorod oblast, russia": null,
+"belgorod region, russia": [
+50.5966,
+36.5879
+],
 "belgorod, russia": [
 50.5956,
 36.5873
@@ -895,6 +899,7 @@
 50.0799,
 29.9163
 ],
+"finland": null,
 "florida, united states": [
 18.3756,
 -66.5602
@@ -1453,6 +1458,10 @@
 49.0929,
 33.4308
 ],
+"kremlin, russia": [
+54.1951,
+37.6203
+],
 "kropyvnytskyi, ukraine": [
 48.5106,
 32.2656
@@ -1606,6 +1615,10 @@
 "lysychansk, ukraine": [
 48.9173,
 38.4286
+],
+"ma'rib, yemen": [
+15.4579,
+45.323
 ],
 "maariya, syria": [
 32.7646,
@@ -2646,6 +2659,7 @@
 "umm al quwain, uae": null,
 "umm al-zaytun, syria": null,
 "united arab emirates": null,
+"united kingdom": null,
 "ust-luga, russia": [
 59.6592,
 28.2695

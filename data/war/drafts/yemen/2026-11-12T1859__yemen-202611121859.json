@@ -1,0 +1,243 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a72458995128",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 2,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-12T18:59:42+00:00",
+  "window": {
+   "from": "2026-11-11T18:59:42+00:00",
+   "to": "2026-11-12T18:59:42+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611121859"
+  },
+  "summary": "הזירה בתימן כוללת המשך עימותים קרקעיים מול החות'ים לצד תקיפות בלתי פוסקות מצידם לעבר תשתיות נפט וערים בסעודיה. במקביל, סעודיה פועלת בזירה הדיפלומטית הבינלאומית להגדרת החות'ים כארגון טרור, בעוד הקואליציה ממשיכה ביירוט איומים אוויריים.",
+  "fronts": [
+   {
+    "name": "חזית תימן הפנימית",
+    "status": "פעיל עם עימותים צבאיים וקרבות קרקעיים"
+   },
+   {
+    "name": "החזית הסעודית-חות'ית",
+    "status": "פעיל עם שיגורי טילים וכטב\"מים מתמשכים ויירוטים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11121859-01",
+    "title": "תקיפת מתקני נפט בסעודיה על ידי החות'ים",
+    "summary": "החות'ים טענו שתקפו את צינור הנפט המזרחי-מערבי ומתקן נפט בינבוע, ואילו הקואליציה בראשות סעודיה דיווחה על יירוט טילים וכטב\"מים לעבר יעדים במדינה.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T17:35:54+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-11T17:35:54+00:00",
+    "last_update_at": "2026-11-12T18:14:10+00:00",
+    "what_is_not_verified": "האם התקיפות בפועל פגעו במתקני הנפט בסעודיה והאמת לגבי יעדי הטילים המוצהרים",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/trump-says-no-need-iran-deal-four-tankers-hit-hormuz",
+      "published_at": "2026-11-12T18:14:10+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-they-attacked-pumping-station-saudi-arabias-east-west",
+      "published_at": "2026-11-12T17:33:04+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-deny-targeting-mecca-amid-saudi-missile-interceptions",
+      "published_at": "2026-11-12T13:06:43+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/trump-downplays-iran-deal-prospects-israel-kills-10-gaza",
+      "published_at": "2026-11-12T07:22:27+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/ghalibaf-says-iran-seeks-deal-after-rubio-downplays-war",
+      "published_at": "2026-11-11T17:35:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ינבוע, סעודיה",
+      "lat": 24.089,
+      "lon": 38.0687
+     },
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11121859-02",
+    "title": "לחימה ועימותים באזור מאריב ותעז",
+    "summary": "התקיימו עימותים וקרבות שונים שכללו פעילות צבאית באזור מאריב וכן פגזים ופעולות באזור תעז.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-12T15:09:01+00:00",
+    "last_update_at": "2026-11-12T15:55:10+00:00",
+    "what_is_not_verified": "היקף הנפגעים והנזק המדויק בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155701",
+      "published_at": "2026-11-12T15:55:10+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49527",
+      "published_at": "2026-11-12T15:38:44+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155696",
+      "published_at": "2026-11-12T15:09:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מאריב, תימן",
+      "lat": 15.4579,
+      "lon": 45.323
+     },
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11121859-03",
+    "title": "לחץ דיפלומטי סעודי לסיווג החות'ים כארגון טרור",
+    "summary": "סעודיה מפעילה לחץ על האיחוד האירופי להגדיר את תנועת החות'ים כארגון טרור, סוגיה שמעוררת חשש פאן-אירופי לגבי תהליך השלום העתידי.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-12T16:47:36+00:00",
+    "last_update_at": "2026-11-12T16:47:36+00:00",
+    "what_is_not_verified": "האם האיחוד האירופי ייענה לבקשת סעודיה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/saudi-arabia-puts-pressure-eu-label-yemens-houthis-terrorist-group",
+      "published_at": "2026-11-12T16:47:36+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "הטענות ההדדיות על פגיעה במתקני אנרגיה סעודיים כמו מתקן ינבוע או צינור הנפט",
+   "האם החות'ים כוונו לאזור מכה או שברי טילים שנפלו שם הגיעו מיירוטים",
+   "נתוני הנפגעים והתוצאות המדויקות של העימותים בתעז ובמאריב"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2032,
+    "unit": "ILS",
+    "change_pct": 1.0,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-12T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "תקיפת תשתיות הנפט והמתקנים הצבאיים של סעודיה"
+    ],
+    "inferred": [
+     "שיבוש הכלכלה וייצוא הנפט של סעודיה",
+     "הפעלת לחץ אזורי באמצעות פגיעה בעומק סעודיה"
+    ],
+    "forecast": [
+     "המשך שיגור איומים אוויריים לעבר סעודיה",
+     "שמירה על נוכחות צבאית אקטיבית בחזיתות הפנימיות בתימן"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "הגנה על שטחי הממלכה ויירוט איומים אוויריים",
+     "דחיפה בינלאומית להגדרת החות'ים כארגון טרור"
+    ],
+    "inferred": [
+     "בלימת הפעילות הצבאית של החות'ים והגנה על מתקני האנרגיה החיוניים"
+    ],
+    "forecast": [
+     "המשך התקיפות האוויריות נגד מעוזי החות'ים",
+     "הגברת המאמצים הדיפלומטיים לבידוד החות'ים בזירה העולמית"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/saudi-arabia-puts-pressure-eu-label-yemens-houthis-terrorist-group",
+    "accessed_at": "2026-11-12T18:59:42+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-they-attacked-pumping-station-saudi-arabias-east-west",
+    "accessed_at": "2026-11-12T18:59:42+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/ghalibaf-says-iran-seeks-deal-after-rubio-downplays-war",
+    "accessed_at": "2026-11-12T18:59:42+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155696",
+    "accessed_at": "2026-11-12T18:59:42+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49527",
+    "accessed_at": "2026-11-12T18:59:42+00:00"
+   }
+  ]
+ }
+}

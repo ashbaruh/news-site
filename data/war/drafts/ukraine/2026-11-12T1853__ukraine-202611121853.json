@@ -1,0 +1,475 @@
+{
+ "status": "draft",
+ "received_sha256_12": "69ff2e689b1a",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 1,
+   "verified": 2,
+   "initial": 7
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-12T18:53:26+00:00",
+  "window": {
+   "from": "2026-11-11T18:53:26+00:00",
+   "to": "2026-11-12T18:53:26+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611121853"
+  },
+  "summary": "הלחימה באוקראינה ממשיכה להתאפיין בקיפאון חלקי בחזיתות לצד תקיפות אוויריות הדדיות, שימוש בכטב\"מים ומצוקת תשתיות אנרגיה באוקראינה. במקביל, מתקיימים מאמצים דיפלומטיים אינטנסיביים ושיחות תלת-צדדיות בהשתתפות שליחי ארה\"ב ורוסיה, בעוד אירופה דנה במעמדה במגעים ובסנקציות נוספות על מוסקבה.",
+  "fronts": [
+   {
+    "name": "חזית דונצק",
+    "status": "פעילה עם קרבות בלימה והתקדמות איטית"
+   },
+   {
+    "name": "חזית זפוריז'יה",
+    "status": "פעילה, כולל תקיפות על תשתיות וצוותי חילוץ"
+   },
+   {
+    "name": "מרחב התשתיות והעורף האוקראיני",
+    "status": "תחת מתקפות כטב\"מים וטילים ומצוקת הפסקות חשמל"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11121853-01",
+    "title": "פגישת שליחי ארה\"ב עם נשיא רוסיה במוסקבה",
+    "summary": "שליחי נשיא ארה\"ב סטיב ויטקוף וג'ארד קושנר נפגשו עם נשיא רוסיה ולדימיר פוטין בקרמלין במוסקבה, ודנו בדרכים להשגת הסדר ארוך טווח באוקראינה.",
+    "axis": "משא ומתן ודיפלומטיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T12:17:45+00:00",
+    "last_update_at": "2026-11-12T18:31:07+00:00",
+    "what_is_not_verified": "הפרטים המדויקים מתוך תוכן השיחות הסגורות מעבר להצהרות הכלליות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_kremlin_aide",
+      "url": "https://tass.com/politics/2217423",
+      "published_at": "2026-11-12T18:31:07+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_kremlin_aide",
+      "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-12T18:28:59+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_kremlin_aide",
+      "url": "https://www.theguardian.com/world/2026/nov/12/vladimir-putin-russia-target-foreign-troops-ukraine-elon-musk-starlink",
+      "published_at": "2026-11-12T17:26:51+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_kremlin_aide",
+      "url": "https://t.me/abualiexpress/133557",
+      "published_at": "2026-11-12T16:45:10+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_kremlin_aide",
+      "url": "https://meduza.io/en/news/2026/11/12/after-meeting-with-putin-witkoff-says-new-round-of-peace-talks-agreed-with-european-representatives-set-to-participate",
+      "published_at": "2026-11-12T16:32:46+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_kremlin_aide",
+      "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks",
+      "published_at": "2026-11-12T14:42:16+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_kremlin_aide",
+      "url": "https://t.me/alexmehacarmel/49519",
+      "published_at": "2026-11-12T12:17:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     },
+     {
+      "name": "הקרמלין, רוסיה",
+      "lat": 54.1951,
+      "lon": 37.6203
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11121853-02",
+    "title": "יירוט כטב\"מים וטילים אוקראיני",
+    "summary": "ההגנה האווירית של אוקראינה דיווחה על ניטרול של 124 כטב\"מים ושני טילי רוסיים מסוג S8000 Banderol/Dan-T.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T17:16:00+00:00",
+    "last_update_at": "2026-11-12T18:31:00+00:00",
+    "what_is_not_verified": "הנתונים המדויקים אינם ניתנים לאימות עצמאי מלא מלבד הודעות הצבא האוקראיני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_aaed5a9d27a3cb9d",
+      "url": "https://www.ukrinform.net/rubric-ato/4184063-air-defense-neutralizes-124-russian-drones-two-s8000-banderoldant-missiles-on-nov-12.html",
+      "published_at": "2026-11-12T18:31:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_a80e76b4bea76901",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062587/",
+      "published_at": "2026-11-12T17:16:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11121853-03",
+    "title": "גילוי שברי כטב\"ם במולדובה",
+    "summary": "משטרת מולדובה מצאה שברי כטב\"ם בכרם סמוך לגבול אוקראינה, שעות ספורות לאחר דיווחים על מתקפת כטב\"מים באזור אודסה.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T17:50:41+00:00",
+    "last_update_at": "2026-11-12T17:50:41+00:00",
+    "what_is_not_verified": "שיוך מדויק של שברי הכטב\"ם למתקפה ספציפית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_moldovan_police",
+      "url": "https://kyivindependent.com/moldovan-police-find-drone-fragments-in-vineyard-near-ukrainian-border/",
+      "published_at": "2026-11-12T17:50:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11121853-04",
+    "title": "אימוץ החלטה בפרלמנט האירופי בעניין ילדים אוקראינים",
+    "summary": "הפרלמנט האירופי אימץ רזולוציה שדורשת מרוסיה להחזיר לאלתר את כל הילדים האוקראינים שהועברו בכוח או גורשו.",
+    "axis": "משא ומתן ודיפלומטיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T17:30:00+00:00",
+    "last_update_at": "2026-11-12T17:30:00+00:00",
+    "what_is_not_verified": "לא מצוין מנגנון מעשי אכיפה להחזרת הילדים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_129b3a1c35fc8f4c",
+      "url": "https://www.ukrinform.net/rubric-polytics/4184031-european-parliament-calls-on-russia-to-return-ukrainian-children.html",
+      "published_at": "2026-11-12T17:30:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11121853-05",
+    "title": "הגבלת כניסת ספורטאים רוסים לפינלנד",
+    "summary": "ממשלת פינלנד החליטה להחמיר את תנאי מתן הוויזות ולהגביל כניסת ספורטאים רוסים למדינה על רקע המלחמה באוקראינה.",
+    "axis": "סנקציות ומדיניות כלכלית-מדינית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T17:12:50+00:00",
+    "last_update_at": "2026-11-12T17:23:51+00:00",
+    "what_is_not_verified": "ההשפעת המדויקת של המהלך על תחרויות עתידיות מעבר למוצהר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_b200f4726991fdb3",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/finland-bars-russian-athletes-ukraine",
+      "published_at": "2026-11-12T17:23:51+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_9f2a21000fe61372",
+      "url": "https://meduza.io/en/news/2026/11/12/days-before-major-winter-tournaments-finland-narrows-a-visa-exception-for-russian-athletes-including-those-competing-as-neutrals",
+      "published_at": "2026-11-12T17:12:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הלסינקי, פינלנד",
+      "lat": 60.1666,
+      "lon": 24.9435
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11121853-06",
+    "title": "פינוי פצוע שדה באוויר באמצעות רחפן",
+    "summary": "חיילים אוקראינים מהגדד ה-475 ביצעו פינוי של חייל פצוע באמצעות רחפן משא מדגם StarGate של חברת SkyFall.",
+    "axis": "חזית הלחימה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T17:19:00+00:00",
+    "last_update_at": "2026-11-12T17:19:00+00:00",
+    "what_is_not_verified": "היקף הצלחת טכנולוגיה זו בכלל גזרות הלחימה אינו מאומת מעבר למקרים הספציפיים שדווחו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_drone_manufacturer_skyfall_475th_separat",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062589/",
+      "published_at": "2026-11-12T17:19:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11121853-07",
+    "title": "הטלת סנקציות חדשות מצד בריטניה על חברות אנרגיה רוסיות",
+    "summary": "בריטניה הכריזה על חבילת סנקציות חדשה המכוונת נגד כל עשרת יצרניות הנפט המובילות ברוסיה.",
+    "axis": "סנקציות ומדיניות כלכלית-מדינית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T17:04:30+00:00",
+    "last_update_at": "2026-11-12T17:04:30+00:00",
+    "what_is_not_verified": "האפקטיביות הכלכלית המלאה של הסנקציות לטווח הארוך.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_32c160e6ac1126e9",
+      "url": "https://kyivindependent.com/uk-says-its-1st-country-to-target-all-of-russias-top-10-oil-producers-with-latest-round-of-sanctions/",
+      "published_at": "2026-11-12T17:04:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11121853-08",
+    "title": "דיווחים אוקראיניים על הגבלות מכוונות בשירות Starshield",
+    "summary": "בכירים באוקראינה הביעו חשש שארצות הברית הגבילה במתכוון את מהירות פעילות Starshield כדי להפעיל לחץ פוליטי במסגרת שיחות השלום.",
+    "axis": "סיוע צבאי וטכנולוגי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-12T16:54:00+00:00",
+    "last_update_at": "2026-11-12T16:54:00+00:00",
+    "what_is_not_verified": "הסיבה המדויקת להגבלות המהירות והאם נעשו במכוון מצד ארה\"ב.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_financial_times_ukrainian_senior_officia",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062582/",
+      "published_at": "2026-11-12T16:54:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11121853-09",
+    "title": "תקיפה על צוותי חילוץ בקומישובחא",
+    "summary": "כוחות רוסיים תקפו פעמיים צוותי חילוץ ביישוב קומישובחא שבמחוז זפוריז'יה במהלך פעולות חיפוש.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T16:48:00+00:00",
+    "last_update_at": "2026-11-12T16:48:00+00:00",
+    "what_is_not_verified": "פרטים מלאים על נפגעים באירוע הספציפי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_ukrinform",
+      "url": "https://www.ukrinform.net/rubric-ato/4183957-russian-forces-attack-rescue-workers-in-komyshuvakha-again.html",
+      "published_at": "2026-11-12T16:48:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קומישובחא, אוקראינה",
+      "lat": 48.6403,
+      "lon": 37.4558
+     },
+     {
+      "name": "זפוריז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11121853-10",
+    "title": "הרוגה ופצועה במתקפת כטב\"ם במחוז בלגורוד",
+    "summary": "ילדה בת 12 נהרגה ואמה נפצעה כתוצאה מפגיעת כטב\"ם אוקראיני ברכב במחוז בלגורוד ברוסיה.",
+    "axis": "תקיפות והגנה אווירית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T15:13:37+00:00",
+    "last_update_at": "2026-11-12T15:13:37+00:00",
+    "what_is_not_verified": "הפרטים המבצעיים המלאים של השיגור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_tass",
+      "url": "https://tass.com/emergencies/2217277",
+      "published_at": "2026-11-12T15:13:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז בלגורוד, רוסיה",
+      "lat": 50.5966,
+      "lon": 36.5879
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת צבא אוקראינה על הסטת טילי \"אורשניק\" באמצעות מערכת Lima Quant",
+   "הסיבות המדויקות להגבלת מהירות שירות Starshield מטעם ארה\"ב",
+   "היקף ההשפעה המדויק של פתרונות טכנולוגיים כמו רחפני הפינוי StarGate בכלל החזיתות"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1081,
+    "unit": "USD",
+    "change_pct": -0.41,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-12T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "השגת שליטה מלאה בארבעת המחוזות האוקראיניים שצורפו",
+     "סירוב לרכך דרישות טריטוריאליות בהסכמים"
+    ],
+    "inferred": [
+     "שחיקת המורל האזרחי והכלכלה באוקראינה באמצעות פגיעה בתשתיות אנרגיה בחורף",
+     "ניצול נקודות חולשה צבאיות כדי למנוע פריצת קיפאון מצד אוקראינה"
+    ],
+    "forecast": [
+     "המשך לחץ צבאי והסлаמות באזורי הלחימה בחודשי החורף",
+     "ניסיון להגיע להסכמות מדיניות בתנאים נוחים למוסקבה מול ארה\"ב"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "החזרת כלל הילדים שגורשו או הועברו לרוסיה",
+     "קבלת ערבויות ביטחוניות באמצעות הצטרפות עתידית לאיחוד האירופי"
+    ],
+    "inferred": [
+     "גיוס תמיכה מערבית נרחבת ומדידות נוספות (כמו תיווך ומתווה אירופי) כדי לחזק את עמדת המיקוח שלה",
+     "שימור יכולות הגנה אווירית ותקיפה ארוכת טווח למרות קשיי אנרגיה ואספקה"
+    ],
+    "forecast": [
+     "המשך מאמצי הלחימה תוך היערכות לאתגרי החורף והפסקות החשמל",
+     "שילוב נציגים אירופיים בסבבי המשא ומתן העתידיים"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "קידום פתרון דיפלומטי ארוך טווח לסיום הסכסוך באמצעות שליחים מיוחדים"
+    ],
+    "inferred": [
+     "הפעלת מנופי לחץ שונים על הצדדים (כולל היבטים טכנולוגיים) כדי להאיץ הגעה למתווה הפוגה",
+     "שילוב אינטרסים אמריקאיים מול רוסיה וסין בדיונים עתידיים"
+    ],
+    "forecast": [
+     "קיום סבבי שיחות נוספים בהשתתפות משולשת וגורמים אירופיים",
+     "ניסיון לייצב את המגעים להפסקת אש חלקית או כוללת"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-12T18:53:26+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/sport/2026/nov/12/finland-bars-russian-athletes-ukraine",
+    "accessed_at": "2026-11-12T18:53:26+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/uk-says-its-1st-country-to-target-all-of-russias-top-10-oil-producers-with-latest-round-of-sanctions/",
+    "accessed_at": "2026-11-12T18:53:26+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/12/days-before-major-winter-tournaments-finland-narrows-a-visa-exception-for-russian-athletes-including-those-competing-as-neutrals",
+    "accessed_at": "2026-11-12T18:53:26+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062582/",
+    "accessed_at": "2026-11-12T18:53:26+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/emergencies/2217277",
+    "accessed_at": "2026-11-12T18:53:26+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133557",
+    "accessed_at": "2026-11-12T18:53:26+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49519",
+    "accessed_at": "2026-11-12T18:53:26+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4183957-russian-forces-attack-rescue-workers-in-komyshuvakha-again.html",
+    "accessed_at": "2026-11-12T18:53:26+00:00"
+   }
+  ]
+ }
+}
