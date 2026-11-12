@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-12T14:17:18+00:00",
-  "fetched_at": "2026-11-12T14:17:18+00:00"
+  "checked_at": "2026-11-12T15:17:22+00:00",
+  "fetched_at": "2026-11-12T15:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T14:17:33+00:00",
-  "fetched_at": "2026-11-12T14:17:33+00:00"
+  "checked_at": "2026-11-12T15:17:36+00:00",
+  "fetched_at": "2026-11-12T15:17:36+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Apple TV has just added this much-needed feature to make streaming more accessible",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/streaming-entertainment/tv-streaming-services/apple-tv-has-just-added-this-much-needed-feature-to-make-streaming-more-accessible",
+    "date": "2026-11-12T14:39:14+00:00"
+   },
    {
     "title_en": "Apple TV 4K (2026)",
     "title_he": null,
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/headphones/wired-earbuds/noble-audios-new-premium-wireless-earbuds-pack-three-different-drivers-into-their-design",
     "date": "2026-11-12T11:04:05+00:00"
-   },
-   {
-    "title_en": "Seven sensational turntables prove that vinyl is stronger than ever at What Hi-Fi? Awards 2026",
-    "title_he": "שבעה פטיפונים סנסציוניים מוכיחים שוויניל חזק מאי פעם באיזה Hi-Fi? פרסים 2026",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/turntables/seven-sensational-turntables-prove-that-vinyl-is-stronger-than-ever-at-what-hi-fi-awards-2026",
-    "date": "2026-11-12T10:47:57+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T14:17:37+00:00",
-  "fetched_at": "2026-11-12T14:17:37+00:00"
+  "checked_at": "2026-11-12T15:17:38+00:00",
+  "fetched_at": "2026-11-12T15:17:38+00:00"
  },
- "generated_at": "2026-11-12T14:17:37+00:00",
+ "generated_at": "2026-11-12T15:17:38+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,14 +99,64 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "וול סטריט בדרך לירידות חדות: אנבידיה צונחת על רקע עזיבת ג'נסן הואנג",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563101",
-     "date": "2026-11-12T14:13:00+00:00"
+     "title": "\"מתחילה את היום עם ישראל\": הכירו את מנכ\"לית אנבידיה הזמנית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563217",
+     "date": "2026-11-12T15:06:00+00:00"
     },
     {
-     "title": "תל אביב עברה לירידות בעקבות דברי טראמפ והתפטרות מנכ\"ל אנבידיה",
+     "title": "אונדס צומחת בעקבות הרכישות בישראל, אבל עדיין מפסידה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563238",
+     "date": "2026-11-12T14:56:00+00:00"
+    },
+    {
+     "title": "ההתפטרות של מנכ\"ל אנבידיה עלולה להוביל לתרחיש אימה בשווקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563132",
+     "date": "2026-11-12T14:56:00+00:00"
+    },
+    {
+     "title": "מגמה מעורבת בתל אביב בעקבות דברי טראמפ והתפטרות מנכ\"ל אנבידיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563097",
-     "date": "2026-11-12T14:11:00+00:00"
+     "date": "2026-11-12T14:52:00+00:00"
+    },
+    {
+     "title": "ירידות בוול סטריט: אנבידיה נופלת, איבדה מעל 2 טריליון דולר בשווי מהשיא",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563101",
+     "date": "2026-11-12T14:50:00+00:00"
+    },
+    {
+     "title": "פרו-ישראלי כפי שאיש לא היה לפניו: חשש בישראל אחרי עזיבת מנכ\"ל אנבידיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563152",
+     "date": "2026-11-12T14:48:00+00:00"
+    },
+    {
+     "title": "הסמנכ\"לית הוותיקה והשמות המפתיעים: דילמת הירושה של אנבידיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563131",
+     "date": "2026-11-12T14:43:00+00:00"
+    },
+    {
+     "title": "כך תדעו איך הפנסיה שלכם תושפע מנפילת אנבידיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563160",
+     "date": "2026-11-12T14:41:00+00:00"
+    },
+    {
+     "title": "בשוק כבר מסמנים את שתי המניות שירוויחו בגדול מהמפלה של ג'נסן הואנג",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563151",
+     "date": "2026-11-12T14:39:00+00:00"
+    },
+    {
+     "title": "קבוצת משקיעים רוכשת את השליטה בארקיע",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563241",
+     "date": "2026-11-12T14:23:00+00:00"
+    },
+    {
+     "title": "עם מאה מיילים ביום ו-60 כפופים: זו הפכה לנקודת התורפה הגדולה ביותר של אנבידיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563170",
+     "date": "2026-11-12T14:17:00+00:00"
+    },
+    {
+     "title": "טראמפ דחק את ואנס מהערוץ מול איראן והציב אותו בחזית המאבק בדמוקרטים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563208",
+     "date": "2026-11-12T14:16:00+00:00"
     },
     {
      "title": "רעידת אדמה באנבידיה: 33 שנה אחרי שהקים את החברה ג'נסן הואנג עוזב את תפקיד המנכ”ל",
@@ -114,14 +164,9 @@ window.DB.generated = {
      "date": "2026-11-12T13:53:00+00:00"
     },
     {
-     "title": "\"מצדדים בחמאס\": בארה\"ב דורשים מהולנד לחזור בה מהחרם על ישראל",
+     "title": "13 מדינות בארה\"ב מאיימות על הולנד - והכל בגלל ישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563166",
      "date": "2026-11-12T11:37:00+00:00"
-    },
-    {
-     "title": "עם מאה מיילים ביום ו-60 כפופים: זו הפכה לנקודת התורפה הגדולה ביותר של אנבידיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563170",
-     "date": "2026-11-12T11:20:00+00:00"
     },
     {
      "title": "המפץ בגמל: הכשרה מאשרת את חשיפת גלובס - מגישה בקשה לרשות שוק ההון",
@@ -149,24 +194,9 @@ window.DB.generated = {
      "date": "2026-11-12T09:13:00+00:00"
     },
     {
-     "title": "בשוק כבר מסמנים את שתי המניות שירוויחו בגדול מהמפלה של ג'נסן הואנג",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563151",
-     "date": "2026-11-12T09:12:00+00:00"
-    },
-    {
-     "title": "כך תדעו איך הפנסיה שלכם תושפע מנפילת אנבידיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563160",
-     "date": "2026-11-12T09:03:00+00:00"
-    },
-    {
      "title": "מדיסקונט לביטוח ישיר: אסף אלדר ימונה למנכ\"ל החברה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563154",
      "date": "2026-11-12T07:50:00+00:00"
-    },
-    {
-     "title": "פרו-ישראלי כפי שאיש לא היה לפניו: חשש בישראל מהדחת מנכ\"ל אנבידיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563152",
-     "date": "2026-11-12T07:41:00+00:00"
     },
     {
      "title": "זה עשוי להיות הרומן היקר \"בתולדות האנושות\"",
@@ -187,47 +217,12 @@ window.DB.generated = {
      "title": "מגיבוי להדחה דרמטית בתוך שלושה ימים: איך תתקבל ההחלטה הגורלית באנבידיה?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563139",
      "date": "2026-11-12T06:19:00+00:00"
-    },
-    {
-     "title": "דיווח דרמטי: דירקטוריון אנבידיה נערך להדיח את המנכ\"ל והמייסד ג'נסן הואנג",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563130",
-     "date": "2026-11-12T04:52:00+00:00"
-    },
-    {
-     "title": "בפולימרקט מתמחרים: מה הסיכויים להדחת מנכ\"ל אנבידיה?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563135",
-     "date": "2026-11-12T04:42:00+00:00"
-    },
-    {
-     "title": "כשהמניות יורדות והריבית נשחקת: איפה ניתן להרוויח יותר מאשר בקרנות כספיות?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563090",
-     "date": "2026-11-12T04:09:00+00:00"
-    },
-    {
-     "title": "המשרות והתנאים: רבולוט בבליץ גיוסים בישראל לקראת הקמת הבנק החדש",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563048",
-     "date": "2026-11-12T03:54:00+00:00"
-    },
-    {
-     "title": "סוף עידן ביקנעם: היזמת שמוכרת את החברה מנאסד\"ק אחרי 30 שנה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563076",
-     "date": "2026-11-12T03:51:00+00:00"
-    },
-    {
-     "title": "הדחת מנכ\"ל אנבידיה עלולה להוביל לתרחיש אימה בשווקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563132",
-     "date": "2026-11-12T03:08:00+00:00"
-    },
-    {
-     "title": "הסמנכ\"לית הוותיקה והשמות המפתיעים: דילמת הירושה של אנבידיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563131",
-     "date": "2026-11-12T02:57:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T14:17:19+00:00",
-  "fetched_at": "2026-11-12T14:17:19+00:00"
+  "checked_at": "2026-11-12T15:17:24+00:00",
+  "fetched_at": "2026-11-12T15:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T14:17:20+00:00",
-  "fetched_at": "2026-11-12T14:17:20+00:00"
+  "checked_at": "2026-11-12T15:17:24+00:00",
+  "fetched_at": "2026-11-12T15:17:24+00:00"
  },
  "tv": {
   "data": [
@@ -2417,6 +2412,27 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-16",
+    "time": "15:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "זימבבואה - גינאה המשוונית"
+   },
+   {
+    "date": "2026-11-16",
+    "time": "15:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "נמיביה - קמרון"
+   },
+   {
+    "date": "2026-11-16",
+    "time": "15:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "סודן - סנגל"
+   },
+   {
+    "date": "2026-11-16",
     "time": "17:00",
     "channel": "ספורט 2",
     "sport": "כדורגל",
@@ -2428,6 +2444,20 @@ window.DB.generated = {
     "channel": "ספורט 1",
     "sport": "כדורגל",
     "title": "איי פארו - מולדובה"
+   },
+   {
+    "date": "2026-11-16",
+    "time": "17:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "סומליה - גאנה"
+   },
+   {
+    "date": "2026-11-16",
+    "time": "18:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "אריתראה - גינאה"
    },
    {
     "date": "2026-11-16",
@@ -2452,6 +2482,27 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-16",
+    "time": "19:55",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "הפועל גליל עליון - הפועל עירוני אילת"
+   },
+   {
+    "date": "2026-11-16",
+    "time": "20:05",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "הפועל חולון - הפועל העמק"
+   },
+   {
+    "date": "2026-11-16",
+    "time": "20:15",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "מכבי ראשון לציון - הפועל ב\"ש/דימונה"
+   },
+   {
+    "date": "2026-11-16",
     "time": "21:45",
     "channel": "ספורט 2",
     "sport": "כדורגל",
@@ -2466,15 +2517,176 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-17",
+    "time": "02:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "בוסטון סלטיקס - אורלנדו מג'יק"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "03:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "מינסוטה טימברוולבס - פורטלנד טריילבלייזרס"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "14:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "ישראל עד 19 - איטליה עד 19"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "15:00",
+    "channel": "5 סטארס",
+    "sport": "כדורגל",
+    "title": "מלאווי - מצרים"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "15:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "טנזניה - ניגריה"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "18:00",
+    "channel": "5 גולד",
+    "sport": "כדורגל",
+    "title": "גמביה - חוף השנהב"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "18:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "קניה - דרום אפריקה"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "18:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "בי.סי דובאי - אנאדולו אפס"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "19:30",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "בני הרצליה - טלקום בון"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "20:00",
+    "channel": "5 גולד",
+    "sport": "כדורסל",
+    "title": "פנרבחצ'ה - ליון-וילרבאן"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "21:05",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "מכבי תל אביב - אולימפיאקוס"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "21:30",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "באסקוניה - הפועל תל אביב"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "21:45",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "פרטיזן בלגרד - ולנסיה"
+   },
+   {
+    "date": "2026-11-17",
     "time": "21:45",
     "channel": "ספורט 5",
     "sport": "כדורגל",
     "title": "ישראל - אוסטריה"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "22:00",
+    "channel": "5 גולד",
+    "sport": "כדורגל",
+    "title": "ניז'ר - מרוקו"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "23:00",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "ארגנטינה - קוסטה ריקה"
+   },
+   {
+    "date": "2026-11-18",
+    "time": "03:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "סן אנטוניו ספרס - דטרויט פיסטונס"
+   },
+   {
+    "date": "2026-11-18",
+    "time": "03:00",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "מינסוטה טימברוולבס - פורטלנד טריילבלייזרס"
+   },
+   {
+    "date": "2026-11-18",
+    "time": "06:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "לוס אנג'לס לייקרס - שארלוט הורנטס"
+   },
+   {
+    "date": "2026-11-18",
+    "time": "19:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "גלאטסראיי - לגיה ורשה"
+   },
+   {
+    "date": "2026-11-18",
+    "time": "19:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "בשיקטאש - ריאל מדריד"
+   },
+   {
+    "date": "2026-11-18",
+    "time": "19:40",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "הפועל חיפה - עירוני נהריה"
+   },
+   {
+    "date": "2026-11-18",
+    "time": "21:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "ציבונה זאגרב - שטרסבורג"
+   },
+   {
+    "date": "2026-11-18",
+    "time": "21:30",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "אוניקאחה מלאגה - פרדוביצה"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T14:17:22+00:00",
-  "fetched_at": "2026-11-12T14:17:22+00:00"
+  "checked_at": "2026-11-12T15:17:27+00:00",
+  "fetched_at": "2026-11-12T15:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2564,8 +2776,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-12T14:17:22+00:00",
-  "fetched_at": "2026-11-12T14:17:22+00:00"
+  "checked_at": "2026-11-12T15:17:27+00:00",
+  "fetched_at": "2026-11-12T15:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -2578,39 +2790,40 @@ window.DB.generated = {
      "title": "איך Claude Code Desktop כמעט הדליף את כל המידע מהמחשב שלכם"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-     "date": "2026-11-10T16:03:47+00:00",
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+     "date": "2026-11-10T13:00:00+00:00",
      "launch": true,
-     "title_en": "Gemini 4 Carbon is now available",
-     "title_he": "Gemini 4 Carbon זמין כעת",
+     "title_en": "Google Cloud launches Gemini for healthcare.",
+     "title_he": "Google Cloud משיק את Gemini עבור שירותי בריאות.",
      "translated_by": "google"
     }
    ],
-   "candidates": 18,
+   "candidates": 14,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 578,
+     "likes": 579,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 309,
+     "likes": 313,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1546,
+     "likes": 1547,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2624,14 +2837,14 @@ window.DB.generated = {
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 116,
+     "likes": 117,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
     },
     {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 49,
+     "likes": 50,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
@@ -2645,8 +2858,15 @@ window.DB.generated = {
      "title": "minimax h3 turbo + lora's",
      "desc_en": "Video generation with a synchronized soundtrack",
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 351,
+     "likes": 352,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
+    },
+    {
+     "title": "Pixel Search",
+     "desc_en": "Instant semantic search over pixel art, in your browser",
+     "desc_he": "חיפוש סמנטי מיידי על פני פיקסלים, בדפדפן שלך",
+     "likes": 49,
+     "link": "https://huggingface.co/spaces/cfahlgren1/pixel-search"
     },
     {
      "title": "Qwen Image 2.1 Realtime",
@@ -2654,23 +2874,25 @@ window.DB.generated = {
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
      "likes": 229,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
-    },
-    {
-     "title": "Pixel Search",
-     "desc_en": "Instant semantic search over pixel art, in your browser",
-     "desc_he": "חיפוש סמנטי מיידי על פני פיקסלים, בדפדפן שלך",
-     "likes": 48,
-     "link": "https://huggingface.co/spaces/cfahlgren1/pixel-search"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T14:17:31+00:00",
-  "fetched_at": "2026-11-12T14:17:31+00:00"
+  "checked_at": "2026-11-12T15:17:35+00:00",
+  "fetched_at": "2026-11-12T15:17:35+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "רביבו ישנה את התוכניות? השאלות הגדולות בהרכב נבחרת ישראל",
+     "link": "https://sports.walla.co.il/item/3876043",
+     "date": "2026-11-12T16:15:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
     {
      "title": "המאמן של ענאן חלאילי פוטר, ויש כבר מועמד מוביל לתפקיד",
      "link": "https://sports.walla.co.il/item/3875624",
@@ -2795,15 +3017,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "הנטס התפוצצו, 10 נקודות ו-11 ריבאונדים לוולף",
-     "link": "https://www.one.co.il/Article/538660.html?ref=rss",
-     "date": "2026-11-12T04:02:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני וולף"
      ]
     }
    ],
@@ -3017,8 +3230,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T14:17:26+00:00",
-  "fetched_at": "2026-11-12T14:17:26+00:00"
+  "checked_at": "2026-11-12T15:17:30+00:00",
+  "fetched_at": "2026-11-12T15:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -3049,58 +3262,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T14:17:26+00:00",
-  "fetched_at": "2026-11-12T14:17:26+00:00"
+  "checked_at": "2026-11-12T15:17:31+00:00",
+  "fetched_at": "2026-11-12T15:17:31+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-12T14:13:00+00:00",
-    "seen_at": "2026-11-12T14:17:37+00:00",
+    "newest": "2026-11-12T15:06:00+00:00",
+    "seen_at": "2026-11-12T15:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-12T14:13:00+00:00",
-    "seen_at": "2026-11-12T14:17:37+00:00",
+    "newest": "2026-11-12T15:06:00+00:00",
+    "seen_at": "2026-11-12T15:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-12T14:13:00+00:00",
-    "seen_at": "2026-11-12T14:17:37+00:00",
+    "newest": "2026-11-12T14:56:00+00:00",
+    "seen_at": "2026-11-12T15:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-12T11:53:00+00:00",
-    "seen_at": "2026-11-12T14:17:37+00:00",
+    "seen_at": "2026-11-12T15:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-12T14:54:00+00:00",
-    "seen_at": "2026-11-12T14:17:37+00:00",
+    "newest": "2026-11-12T15:43:00+00:00",
+    "seen_at": "2026-11-12T15:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-12T14:00:00+00:00",
-    "seen_at": "2026-11-12T14:17:37+00:00",
+    "newest": "2026-11-12T16:15:00+00:00",
+    "seen_at": "2026-11-12T15:17:38+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-12T13:53:00+00:00",
-    "seen_at": "2026-11-12T14:17:37+00:00",
+    "newest": "2026-11-12T15:03:00+00:00",
+    "seen_at": "2026-11-12T15:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-12T06:33:03+00:00",
-    "seen_at": "2026-11-12T14:17:37+00:00",
+    "seen_at": "2026-11-12T15:17:38+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3112,35 +3325,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-11T18:00:00+00:00",
-    "seen_at": "2026-11-12T14:17:37+00:00",
+    "seen_at": "2026-11-12T15:17:38+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-12T14:03:17+00:00",
-    "seen_at": "2026-11-12T14:17:37+00:00",
+    "seen_at": "2026-11-12T15:17:38+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-11T16:30:25+00:00",
-    "seen_at": "2026-11-12T14:17:37+00:00",
+    "seen_at": "2026-11-12T15:17:38+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-12T14:00:00+00:00",
-    "seen_at": "2026-11-12T14:17:37+00:00",
+    "newest": "2026-11-12T14:39:14+00:00",
+    "seen_at": "2026-11-12T15:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-12T12:13:59+00:00",
-    "seen_at": "2026-11-12T14:17:37+00:00",
+    "seen_at": "2026-11-12T15:17:38+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-12T14:17:37+00:00"
+  "checked_at": "2026-11-12T15:17:38+00:00"
  },
  "health_news": {
   "data": [
@@ -3296,7 +3509,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T14:17:27+00:00",
-  "fetched_at": "2026-11-12T14:17:27+00:00"
+  "checked_at": "2026-11-12T15:17:31+00:00",
+  "fetched_at": "2026-11-12T15:17:31+00:00"
  }
 };
