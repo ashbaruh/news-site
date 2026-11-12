@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-12T11:17:19+00:00",
-  "fetched_at": "2026-11-12T11:17:19+00:00"
+  "checked_at": "2026-11-12T11:53:55+00:00",
+  "fetched_at": "2026-11-12T11:53:55+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T11:17:29+00:00",
-  "fetched_at": "2026-11-12T11:17:29+00:00"
+  "checked_at": "2026-11-12T11:54:08+00:00",
+  "fetched_at": "2026-11-12T11:54:08+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "This turntable tracks the record groove using light, plays vinyl upside down",
+    "title_he": "פטיפון זה עוקב אחר חריץ התקליטים באמצעות אור, מנגן ויניל הפוך",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/turntables/this-turntable-reads-the-record-groove-using-light-plays-vinyl-upside-down",
+    "date": "2026-11-12T11:31:15+00:00"
+   },
    {
     "title_en": "Noble Audio’s new premium wireless earbuds pack three different drivers into their design",
     "title_he": "אוזניות הפרימיום האלחוטיות החדשות של Noble Audio מכילות שלושה דרייברים שונים בעיצוב שלהן",
@@ -67,27 +74,20 @@
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/speakers/looking-for-a-top-dolby-atmos-soundbar-these-are-all-the-soundbars-to-which-our-experts-gave-a-2026-what-hi-fi-award",
     "date": "2026-11-11T16:33:36+00:00"
-   },
-   {
-    "title_en": "Google Pixel 11 Pro",
-    "title_he": "גוגל פיקסל 11 פרו",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/smartphones-tablets/smartphones/google-pixel-11-pro",
-    "date": "2026-11-11T16:23:31+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T11:17:31+00:00",
-  "fetched_at": "2026-11-12T11:17:31+00:00"
+  "checked_at": "2026-11-12T11:54:09+00:00",
+  "fetched_at": "2026-11-12T11:54:09+00:00"
  },
- "generated_at": "2026-11-12T11:17:31+00:00",
+ "generated_at": "2026-11-12T11:54:09+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "בשוק כבר מסמנים את שתי המניות שירוויחו בגדול מהמפלה של ג'נסן הואנג",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563151",
-     "date": "2026-11-12T09:12:00+00:00"
+     "title": "הסופר האמריקאי שראיין את ג'נסן הואנג ועובדיו: \"אין לו יורש מיועד, וזה הולך להיות בעייתי מאוד\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563170",
+     "date": "2026-11-12T11:20:00+00:00"
     },
     {
      "title": "איזנקוט ונתניהו יקיימו היום פגישת עדכון מדיני ביטחוני בלשכת ראש הממשלה",
@@ -96,6 +96,16 @@
     }
    ],
    "market": [
+    {
+     "title": "בדרך לעקוף את סין? טייוואן מעוניינת להיכנס לתחבורה הציבורית בישראל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563174",
+     "date": "2026-11-12T11:33:00+00:00"
+    },
+    {
+     "title": "הסופר האמריקאי שראיין את ג'נסן הואנג ועובדיו: \"אין לו יורש מיועד, וזה הולך להיות בעייתי מאוד\"",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563170",
+     "date": "2026-11-12T11:20:00+00:00"
+    },
     {
      "title": "המפץ בגמל: הכשרה מאשרת את חשיפת גלובס - מגישה בקשה לרשות שוק ההון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563169",
@@ -177,11 +187,6 @@
      "date": "2026-11-12T06:19:00+00:00"
     },
     {
-     "title": "אסון בניו יורק: בניין קרס בברוקלין, מאמצים רבים לחלץ לכודים מההריסות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563138",
-     "date": "2026-11-12T05:35:00+00:00"
-    },
-    {
      "title": "דיווח דרמטי: דירקטוריון אנבידיה נערך להדיח את המנכ\"ל והמייסד ג'נסן הואנג",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563130",
      "date": "2026-11-12T04:52:00+00:00"
@@ -215,17 +220,12 @@
      "title": "הסמנכ\"לית הוותיקה והשמות המפתיעים: דילמת הירושה של אנבידיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563131",
      "date": "2026-11-12T02:57:00+00:00"
-    },
-    {
-     "title": "וול סטריט ננעלה בעליות חדות: קורוויב ומניות השבבים הציתו מחדש את ראלי ה-AI",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562761",
-     "date": "2026-11-11T21:00:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T11:17:20+00:00",
-  "fetched_at": "2026-11-12T11:17:20+00:00"
+  "checked_at": "2026-11-12T11:53:56+00:00",
+  "fetched_at": "2026-11-12T11:53:56+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T11:17:22+00:00",
-  "fetched_at": "2026-11-12T11:17:22+00:00"
+  "checked_at": "2026-11-12T11:53:57+00:00",
+  "fetched_at": "2026-11-12T11:53:57+00:00"
  },
  "tv": {
   "data": [
@@ -2471,8 +2471,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T11:17:22+00:00",
-  "fetched_at": "2026-11-12T11:17:22+00:00"
+  "checked_at": "2026-11-12T11:53:58+00:00",
+  "fetched_at": "2026-11-12T11:53:58+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2562,8 +2562,8 @@
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-12T11:17:22+00:00",
-  "fetched_at": "2026-11-12T11:17:22+00:00"
+  "checked_at": "2026-11-12T11:53:58+00:00",
+  "fetched_at": "2026-11-12T11:53:58+00:00"
  },
  "ai": {
   "data": {
@@ -2576,39 +2576,40 @@
      "title": "איך Claude Code Desktop כמעט הדליף את כל המידע מהמחשב שלכם"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-     "date": "2026-11-10T16:03:47+00:00",
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+     "date": "2026-11-10T13:00:00+00:00",
      "launch": true,
-     "title_en": "Gemini 4 Carbon is now available",
-     "title_he": "Gemini 4 Carbon זמין כעת",
+     "title_en": "Google Cloud launches Gemini for healthcare.",
+     "title_he": "Google Cloud משיק את Gemini עבור שירותי בריאות.",
      "translated_by": "google"
     }
    ],
-   "candidates": 20,
+   "candidates": 16,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 574,
+     "likes": 575,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 303,
+     "likes": 306,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1544,
+     "likes": 1545,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2622,7 +2623,7 @@
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 112,
+     "likes": 113,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
     },
     {
@@ -2663,8 +2664,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T11:17:29+00:00",
-  "fetched_at": "2026-11-12T11:17:29+00:00"
+  "checked_at": "2026-11-12T11:54:08+00:00",
+  "fetched_at": "2026-11-12T11:54:08+00:00"
  },
  "abroad": {
   "data": {
@@ -2760,6 +2761,15 @@
      ]
     },
     {
+     "title": "בן שמעון תירגל את ההרכב לקוסובו, רביבו ייעדר",
+     "link": "https://www.one.co.il/Article/538665.html?ref=rss",
+     "date": "2026-11-12T05:37:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
      "title": "ענק: 28 נקודות לאבדיה בניצחון נוסף על הת'אנדר",
      "link": "https://www.one.co.il/Article/538664.html?ref=rss",
      "date": "2026-11-12T05:31:00+00:00",
@@ -2793,15 +2803,6 @@
      "source": "וואלה",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "\"לב טהור\": לילארד מחמיא לדני אבדיה, ובארה\"ב מתרגשים מפורטלנד",
-     "link": "https://sports.walla.co.il/item/3875849",
-     "date": "2026-11-11T12:30:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -3015,8 +3016,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T11:17:25+00:00",
-  "fetched_at": "2026-11-12T11:17:25+00:00"
+  "checked_at": "2026-11-12T11:54:02+00:00",
+  "fetched_at": "2026-11-12T11:54:02+00:00"
  },
  "idf": {
   "data": [
@@ -3046,8 +3047,9 @@
     "date": "2026-11-09T19:37:01+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-12T11:17:25+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-12T11:54:02+00:00",
   "fetched_at": "2026-11-12T11:17:25+00:00"
  },
  "feed_health": {
@@ -3055,44 +3057,44 @@
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-12T11:00:00+00:00",
-    "seen_at": "2026-11-12T11:17:31+00:00",
+    "newest": "2026-11-12T11:39:00+00:00",
+    "seen_at": "2026-11-12T11:54:09+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-12T10:46:00+00:00",
-    "seen_at": "2026-11-12T11:17:31+00:00",
+    "seen_at": "2026-11-12T11:54:09+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-12T10:35:00+00:00",
-    "seen_at": "2026-11-12T11:17:31+00:00",
+    "newest": "2026-11-12T11:33:00+00:00",
+    "seen_at": "2026-11-12T11:54:09+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-12T11:53:00+00:00",
-    "seen_at": "2026-11-12T11:17:31+00:00",
+    "seen_at": "2026-11-12T11:54:09+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-12T11:44:00+00:00",
-    "seen_at": "2026-11-12T11:17:31+00:00",
+    "newest": "2026-11-12T12:26:00+00:00",
+    "seen_at": "2026-11-12T11:54:09+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-12T12:10:00+00:00",
-    "seen_at": "2026-11-12T11:17:31+00:00",
+    "seen_at": "2026-11-12T11:54:09+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-12T10:26:00+00:00",
-    "seen_at": "2026-11-12T11:17:31+00:00",
+    "newest": "2026-11-12T11:21:00+00:00",
+    "seen_at": "2026-11-12T11:54:09+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3110,35 +3112,35 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-11T18:00:00+00:00",
-    "seen_at": "2026-11-12T11:17:31+00:00",
+    "seen_at": "2026-11-12T11:54:09+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-12T08:58:03+00:00",
-    "seen_at": "2026-11-12T11:17:31+00:00",
+    "newest": "2026-11-12T11:46:41+00:00",
+    "seen_at": "2026-11-12T11:54:09+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-11T16:30:25+00:00",
-    "seen_at": "2026-11-12T11:17:31+00:00",
+    "seen_at": "2026-11-12T11:54:09+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-12T11:04:05+00:00",
-    "seen_at": "2026-11-12T11:17:31+00:00",
+    "newest": "2026-11-12T11:31:15+00:00",
+    "seen_at": "2026-11-12T11:54:09+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-11T07:56:34+00:00",
-    "seen_at": "2026-11-12T11:17:31+00:00",
+    "seen_at": "2026-11-12T11:54:09+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-12T11:17:31+00:00"
+  "checked_at": "2026-11-12T11:54:09+00:00"
  },
  "health_news": {
   "data": [
@@ -3294,7 +3296,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T11:17:26+00:00",
-  "fetched_at": "2026-11-12T11:17:26+00:00"
+  "checked_at": "2026-11-12T11:54:03+00:00",
+  "fetched_at": "2026-11-12T11:54:03+00:00"
  }
 }
