@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-12T21:17:26+00:00",
-  "fetched_at": "2026-11-12T21:17:26+00:00"
+  "checked_at": "2026-11-12T23:17:17+00:00",
+  "fetched_at": "2026-11-12T23:17:17+00:00"
  },
  "animals": {
   "data": [
@@ -44,45 +44,45 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T21:17:40+00:00",
-  "fetched_at": "2026-11-12T21:17:40+00:00"
+  "checked_at": "2026-11-12T23:17:30+00:00",
+  "fetched_at": "2026-11-12T23:17:30+00:00"
  },
  "av_en": {
   "data": [
    {
-    "title_en": "How to watch Australia vs England ODI series 2026: Live stream cricket for free from anywhere",
-    "title_he": "איך לצפות בסדרת אוסטרליה נגד אנגליה ODI 2026: קריקט בשידור חי בחינם מכל מקום",
+    "title_en": "Outstanding Contribution 2026",
+    "title_he": "תרומה יוצאת דופן 2026",
     "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/australia-vs-england-odi-series-2026",
-    "date": "2026-11-12T21:00:00+00:00"
+    "link": "https://www.whathifi.com/hi-fi/turntables/outstanding-contribution-2026",
+    "date": "2026-11-12T22:30:45+00:00"
    },
    {
-    "title_en": "Apple TV has just added this much-needed feature to make streaming more accessible",
-    "title_he": "Apple TV הוסיפה זה עתה את התכונה הנחוצה הזו כדי להפוך את הסטרימינג לנגיש יותר",
+    "title_en": "Temptation 2026",
+    "title_he": "פיתוי 2026",
     "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/tv-streaming-services/apple-tv-has-just-added-this-much-needed-feature-to-make-streaming-more-accessible",
-    "date": "2026-11-12T14:39:14+00:00"
+    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/temptation-2026",
+    "date": "2026-11-12T22:30:41+00:00"
    },
    {
-    "title_en": "Apple TV 4K (2026)",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/apple-tv-4k-2026",
-    "date": "2026-11-12T14:00:00+00:00"
+    "title_en": "The What Hi-Fi? Awards 2026 Product of the Year winners have been revealed!",
+    "title_he": "איזה Hi-Fi? זוכי מוצר השנה של 2026 נחשפו!",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/av/the-what-hi-fi-awards-2026-product-of-the-year-winners-have-been-revealed",
+    "date": "2026-11-12T22:27:15+00:00"
    },
    {
-    "title_en": "This turntable tracks the record groove using light, plays vinyl upside down",
-    "title_he": "פטיפון זה עוקב אחר חריץ התקליטים באמצעות אור, מנגן ויניל הפוך",
+    "title_en": "Hall of Fame 2026",
+    "title_he": "היכל התהילה 2026",
     "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/turntables/this-turntable-reads-the-record-groove-using-light-plays-vinyl-upside-down",
-    "date": "2026-11-12T11:31:15+00:00"
+    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/hall-of-fame-2026",
+    "date": "2026-11-12T22:26:52+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T21:17:43+00:00",
-  "fetched_at": "2026-11-12T21:17:43+00:00"
+  "checked_at": "2026-11-12T23:17:34+00:00",
+  "fetched_at": "2026-11-12T23:17:34+00:00"
  },
- "generated_at": "2026-11-12T21:17:43+00:00",
+ "generated_at": "2026-11-12T23:17:34+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T21:17:28+00:00",
-  "fetched_at": "2026-11-12T21:17:28+00:00"
+  "checked_at": "2026-11-12T23:17:18+00:00",
+  "fetched_at": "2026-11-12T23:17:18+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,137 +1871,11 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T21:17:29+00:00",
-  "fetched_at": "2026-11-12T21:17:29+00:00"
+  "checked_at": "2026-11-12T23:17:19+00:00",
+  "fetched_at": "2026-11-12T23:17:19+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-11-12",
-    "time": "02:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "ניו יורק ניקס - קליבלנד קאבלירס"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "05:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "פורטלנד טריילבלייזרס - אוקלהומה סיטי"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "17:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "גאנה - סומליה"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "18:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "גינאה המשוונית - זימבבואה"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "19:00",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "טורקיה - בלגיה"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "19:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "ארמניה - קפריסין"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "21:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "חוף השנהב - גמביה"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "21:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "בנין - הרפובליקה המרכז אפריקאית"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "21:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "קמרון - נמיביה"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "21:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "סנגל - סודן"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "21:05",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "מכבי תל אביב - הפועל תל אביב"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "21:15",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "אולימפיאקוס - בי.סי דובאי"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "21:30",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "ולנסיה - באיירן מינכן"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "21:30",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "אולימפיה מילאנו - ז'לגיריס קובנה"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "21:45",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "איטליה - צרפת"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "21:45",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "אנגליה - קרואטיה"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "21:45",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "צ'כיה - ספרד"
-   },
-   {
-    "date": "2026-11-12",
-    "time": "22:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורסל",
-    "title": "ריאל מדריד - הכוכב האדום בלגרד"
-   },
    {
     "date": "2026-11-13",
     "time": "02:00",
@@ -2348,13 +2222,6 @@ window.DB.generated = {
    {
     "date": "2026-11-15",
     "time": "19:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורסל",
-    "title": "עירוני קריית אתא - מכבי אשדוד"
-   },
-   {
-    "date": "2026-11-15",
-    "time": "19:00",
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "פינלנד - סן מרינו"
@@ -2365,6 +2232,13 @@ window.DB.generated = {
     "channel": "ספורט 6",
     "sport": "כדורגל",
     "title": "בלארוס - אלבניה"
+   },
+   {
+    "date": "2026-11-15",
+    "time": "19:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "עירוני קריית אתא - מכבי אשדוד"
    },
    {
     "date": "2026-11-15",
@@ -2687,11 +2561,67 @@ window.DB.generated = {
     "channel": "ספורט 5+ לייב",
     "sport": "כדורסל",
     "title": "אוניקאחה מלאגה - פרדוביצה"
+   },
+   {
+    "date": "2026-11-19",
+    "time": "02:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "מיאמי היט - מילווקי באקס"
+   },
+   {
+    "date": "2026-11-19",
+    "time": "04:30",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "דאלאס מאבריקס - גולדן סטייט ווריירס"
+   },
+   {
+    "date": "2026-11-19",
+    "time": "19:15",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "מכבי תל אביב - בי.סי דובאי"
+   },
+   {
+    "date": "2026-11-19",
+    "time": "20:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "ז'לגיריס קובנה - פנאתינאיקוס"
+   },
+   {
+    "date": "2026-11-19",
+    "time": "21:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורסל",
+    "title": "באיירן מינכן - באסקוניה"
+   },
+   {
+    "date": "2026-11-19",
+    "time": "21:30",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "אולימפיה מילאנו - פנרבחצ'ה"
+   },
+   {
+    "date": "2026-11-19",
+    "time": "21:45",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "פאריס באסקטבול - הפועל תל אביב"
+   },
+   {
+    "date": "2026-11-19",
+    "time": "22:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "ולנסיה - וירטוס בולוניה"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T21:17:30+00:00",
-  "fetched_at": "2026-11-12T21:17:30+00:00"
+  "checked_at": "2026-11-12T23:17:20+00:00",
+  "fetched_at": "2026-11-12T23:17:20+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2781,8 +2711,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-12T21:17:30+00:00",
-  "fetched_at": "2026-11-12T21:17:30+00:00"
+  "checked_at": "2026-11-12T23:17:20+00:00",
+  "fetched_at": "2026-11-12T23:17:20+00:00"
  },
  "ai": {
   "data": {
@@ -2813,7 +2743,7 @@ window.DB.generated = {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 585,
+     "likes": 587,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
@@ -2827,7 +2757,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1555,
+     "likes": 1557,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2848,22 +2778,15 @@ window.DB.generated = {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 55,
+     "likes": 56,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
      "title": "Pixel Search",
      "desc_en": "Instant semantic search over pixel art, in your browser",
      "desc_he": "חיפוש סמנטי מיידי על פני פיקסלים, בדפדפן שלך",
-     "likes": 52,
+     "likes": 53,
      "link": "https://huggingface.co/spaces/cfahlgren1/pixel-search"
-    },
-    {
-     "title": "Qwen 2511 + Flux.2 Klein",
-     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
-     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 398,
-     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2871,6 +2794,13 @@ window.DB.generated = {
      "desc_he": "הפקת וידאו עם פסקול מסונכרן",
      "likes": 354,
      "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
+    },
+    {
+     "title": "Qwen 2511 + Flux.2 Klein",
+     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
+     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
+     "likes": 400,
+     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "Qwen Image 2.1 Realtime",
@@ -2882,8 +2812,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T21:17:39+00:00",
-  "fetched_at": "2026-11-12T21:17:39+00:00"
+  "checked_at": "2026-11-12T23:17:29+00:00",
+  "fetched_at": "2026-11-12T23:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2907,12 +2837,30 @@ window.DB.generated = {
      ]
     },
     {
+     "title": "\"רביבו ביסס את מקומו בהרכב ומשפיע על אלצ'ה\"",
+     "link": "https://www.one.co.il/Article/538720.html?ref=rss",
+     "date": "2026-11-12T15:33:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
      "title": "המאמן של ענאן חלאילי פוטר, ויש כבר מועמד מוביל לתפקיד",
      "link": "https://sports.walla.co.il/item/3875624",
      "date": "2026-11-12T13:29:00+00:00",
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "רביבו: אנחנו צריכים אפילו עוד שחקנים באירופה",
+     "link": "https://www.one.co.il/Article/538704.html?ref=rss",
+     "date": "2026-11-12T12:41:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
      ]
     },
     {
@@ -2931,6 +2879,15 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
+     ]
+    },
+    {
+     "title": "מג'די חלאילי במו\"מ לאימון הפועל טירת כרמל",
+     "link": "https://www.one.co.il/Article/538691.html?ref=rss",
+     "date": "2026-11-12T09:41:00+00:00",
+     "source": "ONE",
+     "players": [
+      "ענאן חלאילי"
      ]
     },
     {
@@ -2961,6 +2918,15 @@ window.DB.generated = {
      ]
     },
     {
+     "title": "\"אבדיה התפוצץ\": 52 נק' בשני משחקים מול הת'אנדר",
+     "link": "https://www.one.co.il/Article/538666.html?ref=rss",
+     "date": "2026-11-12T05:57:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
      "title": "דני וולף ממשיך לפרוח: דאבל-דאבל נוסף בניצחון הענק",
      "link": "https://sports.walla.co.il/item/3875938",
      "date": "2026-11-12T05:53:00+00:00",
@@ -2970,57 +2936,21 @@ window.DB.generated = {
      ]
     },
     {
+     "title": "בן שמעון תירגל את ההרכב לקוסובו, רביבו ייעדר",
+     "link": "https://www.one.co.il/Article/538665.html?ref=rss",
+     "date": "2026-11-12T05:37:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
      "title": "סולומון סובל מכאבי גב, קניקובסקי ואזולאי מתחרים על ההרכב",
      "link": "https://sports.walla.co.il/item/3875885",
      "date": "2026-11-11T16:23:00+00:00",
      "source": "וואלה",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "\"לב טהור\": לילארד מחמיא לדני אבדיה, ובארה\"ב מתרגשים מפורטלנד",
-     "link": "https://sports.walla.co.il/item/3875849",
-     "date": "2026-11-11T12:30:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "גם דני אבדיה נדהם מלילארד: \"אני מרוויח מזה\"",
-     "link": "https://sports.walla.co.il/item/3875810",
-     "date": "2026-11-11T08:19:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "אבדיה הצטיין עם 24 נקודות, פורטלנד חגגה מול אוקלהומה סיטי",
-     "link": "https://sports.walla.co.il/item/3875800",
-     "date": "2026-11-11T07:09:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"דני אבדיה בדרך הבטוחה להיבחר לאחת מחמישיות העונה ב-NBA\"",
-     "link": "https://sports.walla.co.il/item/3875738",
-     "date": "2026-11-10T15:07:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "הפסיד לדונצ'יץ' גם את הפרס: אבדיה היה מועמד לשחקן השבוע",
-     "link": "https://sports.walla.co.il/item/3875639",
-     "date": "2026-11-09T21:39:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -3234,8 +3164,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T21:17:34+00:00",
-  "fetched_at": "2026-11-12T21:17:34+00:00"
+  "checked_at": "2026-11-12T23:17:23+00:00",
+  "fetched_at": "2026-11-12T23:17:23+00:00"
  },
  "idf": {
   "data": [
@@ -3266,8 +3196,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T21:17:35+00:00",
-  "fetched_at": "2026-11-12T21:17:35+00:00"
+  "checked_at": "2026-11-12T23:17:24+00:00",
+  "fetched_at": "2026-11-12T23:17:24+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3275,89 +3205,89 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-12T21:00:00+00:00",
-    "seen_at": "2026-11-12T21:17:43+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-12T21:05:00+00:00",
-    "seen_at": "2026-11-12T21:17:43+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-12T19:55:00+00:00",
-    "seen_at": "2026-11-12T21:17:43+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-12T11:53:00+00:00",
-    "seen_at": "2026-11-12T21:17:43+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-12T20:45:00+00:00",
-    "seen_at": "2026-11-12T21:17:43+00:00",
+    "newest": "2026-11-12T22:40:00+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-12T20:53:00+00:00",
-    "seen_at": "2026-11-12T21:17:43+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-12T19:49:00+00:00",
-    "seen_at": "2026-11-12T20:17:37+00:00",
+    "newest": "2026-11-12T22:07:00+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-12T19:30:13+00:00",
-    "seen_at": "2026-11-12T21:17:43+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-12T18:00:50+00:00",
-    "seen_at": "2026-11-12T21:17:43+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-12T18:00:00+00:00",
-    "seen_at": "2026-11-12T21:17:43+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-12T17:49:10+00:00",
-    "seen_at": "2026-11-12T21:17:43+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-11T16:30:25+00:00",
-    "seen_at": "2026-11-12T21:17:43+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-12T21:00:00+00:00",
-    "seen_at": "2026-11-12T21:17:43+00:00",
+    "newest": "2026-11-12T22:30:45+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-12T12:13:59+00:00",
-    "seen_at": "2026-11-12T21:17:43+00:00",
+    "seen_at": "2026-11-12T23:17:34+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-12T21:17:43+00:00"
+  "checked_at": "2026-11-12T23:17:34+00:00"
  },
  "health_news": {
   "data": [
@@ -3513,7 +3443,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T21:17:35+00:00",
-  "fetched_at": "2026-11-12T21:17:35+00:00"
+  "checked_at": "2026-11-12T23:17:24+00:00",
+  "fetched_at": "2026-11-12T23:17:24+00:00"
  }
 };
