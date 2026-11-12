@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-12T06:17:20+00:00",
-  "fetched_at": "2026-11-12T06:17:20+00:00"
+  "checked_at": "2026-11-12T07:17:23+00:00",
+  "fetched_at": "2026-11-12T07:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T06:17:36+00:00",
-  "fetched_at": "2026-11-12T06:17:36+00:00"
+  "checked_at": "2026-11-12T07:17:57+00:00",
+  "fetched_at": "2026-11-12T07:17:57+00:00"
  },
  "av_en": {
   "data": [
@@ -79,29 +79,39 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T06:17:36+00:00",
-  "fetched_at": "2026-11-12T06:17:36+00:00"
+  "checked_at": "2026-11-12T07:17:58+00:00",
+  "fetched_at": "2026-11-12T07:17:58+00:00"
  },
- "generated_at": "2026-11-12T06:17:36+00:00",
+ "generated_at": "2026-11-12T07:17:58+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "דיווח דרמטי: דירקטוריון אנבידיה נערך להדיח את המנכ\"ל והמייסד ג'נסן הואנג",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563130",
-     "date": "2026-11-12T04:52:00+00:00"
+     "title": "מגיבוי להדחה דרמטית בתוך שלושה ימים: איך תתקבל ההחלטה הגורלית באנבידיה?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563139",
+     "date": "2026-11-12T06:19:00+00:00"
     },
     {
-     "title": "צה\"ל החל לתחקר את מהלכי המלחמה",
+     "title": "התקפה חריגה על בית חולים בעזה: היעד - מח\"ט ח'אן יונס",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563134",
      "date": "2026-11-12T05:10:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "הבינלאומי: ראש החטיבה הקמעונאית רון גריסרו יפרוש מהבנק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563144",
+     "date": "2026-11-12T06:34:00+00:00"
+    },
+    {
+     "title": "חמישה דברים שכדאי לדעת לקראת יום המסחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563097",
+     "date": "2026-11-12T06:25:00+00:00"
+    },
+    {
      "title": "מגיבוי להדחה דרמטית בתוך שלושה ימים: איך תתקבל ההחלטה הגורלית באנבידיה?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563139",
-     "date": "2026-11-12T05:51:00+00:00"
+     "date": "2026-11-12T06:19:00+00:00"
     },
     {
      "title": "אסון בניו יורק: בניין קרס בברוקלין, מאמצים רבים לחלץ לכודים מההריסות",
@@ -149,12 +159,12 @@ window.DB.generated = {
      "date": "2026-11-12T03:51:00+00:00"
     },
     {
-     "title": "הדחת מנכ\"ל אנבידיה עשויה להוביל לתרחיש אימה בשווקים",
+     "title": "הדחת מנכ\"ל אנבידיה עלולה להוביל לתרחיש אימה בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563132",
      "date": "2026-11-12T03:08:00+00:00"
     },
     {
-     "title": "דילמת הירושה באנבידיה: מי יוכל להחליף את המנכ\"ל הוותיק?",
+     "title": "הסמנכ\"לית הוותיקה והשמות המפתיעים: דילמת הירושה של אנבידיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563131",
      "date": "2026-11-12T02:57:00+00:00"
     },
@@ -184,11 +194,6 @@ window.DB.generated = {
      "date": "2026-11-11T17:53:00+00:00"
     },
     {
-     "title": "האם אייל רביד באמת יכול להשתלט על קרפור?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563068",
-     "date": "2026-11-11T17:08:00+00:00"
-    },
-    {
      "title": "ת\"א 35 איבד יותר מ-1% בנעילה; מניית הבורסה מחקה מיליארד שקל ביום",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001562842",
      "date": "2026-11-11T15:33:00+00:00"
@@ -216,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T06:17:21+00:00",
-  "fetched_at": "2026-11-12T06:17:21+00:00"
+  "checked_at": "2026-11-12T07:17:24+00:00",
+  "fetched_at": "2026-11-12T07:17:24+00:00"
  },
  "ifa": {
   "data": [
@@ -1861,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T06:17:22+00:00",
-  "fetched_at": "2026-11-12T06:17:22+00:00"
+  "checked_at": "2026-11-12T07:17:25+00:00",
+  "fetched_at": "2026-11-12T07:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2086,6 +2091,13 @@ window.DB.generated = {
    {
     "date": "2026-11-13",
     "time": "21:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "מצרים - מלאווי"
+   },
+   {
+    "date": "2026-11-13",
+    "time": "21:00",
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
     "title": "מאלי - רואנדה"
@@ -2131,13 +2143,6 @@ window.DB.generated = {
     "channel": "ספורט 5+",
     "sport": "כדורגל",
     "title": "מרוקו - ניז'ר"
-   },
-   {
-    "date": "2026-11-13",
-    "time": "22:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "מצרים - מלאווי"
    },
    {
     "date": "2026-11-14",
@@ -2281,10 +2286,17 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-15",
-    "time": "00:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "באנפילד - בוקה ג'וניורס"
+    "time": "03:00",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "מיאמי היט - דטרויט פיסטונס"
+   },
+   {
+    "date": "2026-11-15",
+    "time": "03:00",
+    "channel": "5 סטארס",
+    "sport": "כדורסל",
+    "title": "ממפיס גריזליס - ברוקלין נטס"
    },
    {
     "date": "2026-11-15",
@@ -2306,6 +2318,13 @@ window.DB.generated = {
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "קפריסין - מונטנגרו"
+   },
+   {
+    "date": "2026-11-15",
+    "time": "17:30",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "באיירן מינכן - מידלדויטשר"
    },
    {
     "date": "2026-11-15",
@@ -2337,13 +2356,6 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-15",
-    "time": "19:15",
-    "channel": "ספורט 4",
-    "sport": "כדורסל",
-    "title": "אודינה - אולימפיה מילאנו"
-   },
-   {
-    "date": "2026-11-15",
     "time": "19:30",
     "channel": "ספורט 1",
     "sport": "כדורסל",
@@ -2358,6 +2370,20 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-15",
+    "time": "20:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "פילדלפיה 76 - אינדיאנה פייסרס"
+   },
+   {
+    "date": "2026-11-15",
+    "time": "20:15",
+    "channel": "ספורט 5",
+    "sport": "כדורסל",
+    "title": "מכבי רמת גן - עירוני נס ציונה"
+   },
+   {
+    "date": "2026-11-15",
     "time": "21:45",
     "channel": "ספורט 2",
     "sport": "כדורגל",
@@ -2369,6 +2395,13 @@ window.DB.generated = {
     "channel": "ספורט 4",
     "sport": "כדורגל",
     "title": "ספרד - אנגליה"
+   },
+   {
+    "date": "2026-11-15",
+    "time": "23:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "פיניקס סאנס - לוס אנג'לס לייקרס"
    },
    {
     "date": "2026-11-16",
@@ -2428,8 +2461,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T06:17:24+00:00",
-  "fetched_at": "2026-11-12T06:17:24+00:00"
+  "checked_at": "2026-11-12T07:17:26+00:00",
+  "fetched_at": "2026-11-12T07:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2519,53 +2552,57 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-12T06:17:24+00:00",
-  "fetched_at": "2026-11-12T06:17:24+00:00"
+  "checked_at": "2026-11-12T07:17:26+00:00",
+  "fetched_at": "2026-11-12T07:17:26+00:00"
  },
  "ai": {
   "data": {
    "news": [
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/anthropic-claude-sheets-whiteboards-microsoft-office/",
-     "date": "2026-11-11T08:00:57+00:00",
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+     "date": "2026-11-10T13:00:00+00:00",
      "launch": true,
-     "title": "אנת'רופיק הולכת על הראש של אקסל עם פיצ'ר חדש של Claude"
+     "title_en": "Google Cloud launches Gemini for healthcare.",
+     "title_he": "Google Cloud משיק את Gemini עבור שירותי בריאות.",
+     "translated_by": "google"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-     "date": "2026-11-10T16:03:47+00:00",
+     "source": "OpenAI",
+     "link": "https://openai.com/index/introducing-businesses-chatgpt",
+     "date": "2026-11-10T10:00:00+00:00",
      "launch": true,
-     "title_en": "Gemini 4 Carbon is now available",
-     "title_he": "Gemini 4 Carbon זמין כעת",
-     "translated_by": "google"
+     "title_en": "Introducing Businesses in ChatGPT",
+     "title_he": "חדש: עסקים ב-ChatGPT",
+     "translated_by": "mymemory"
     }
    ],
-   "candidates": 19,
+   "candidates": 12,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind",
+    "גיקטיים"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 572,
+     "likes": 573,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 296,
+     "likes": 298,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1538,
+     "likes": 1539,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2579,7 +2616,7 @@ window.DB.generated = {
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 109,
+     "likes": 110,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
     },
     {
@@ -2597,18 +2634,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
+     "title": "MiniMax-H3-Image",
+     "desc_en": "Text-to-image and multi-image editing in 6 steps",
+     "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
+     "likes": 44,
+     "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
+    },
+    {
      "title": "Qwen Image 2.1 Realtime",
      "desc_en": "Real-time t2i & editing with a Qwen-Image-2.1 2-step LoRA",
      "desc_he": "t2i ועריכה בזמן אמת עם Qwen-Image-2.1 LoRA דו-שלבי",
      "likes": 228,
      "link": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
-    },
-    {
-     "title": "LFM3 Omni 2B WebGPU",
-     "desc_en": "Run LFM3-Omni-2B locally in the browser on WebGPU",
-     "desc_he": "הפעל LFM3-Omni -2B באופן מקומי בדפדפן ב-WebGPU",
-     "likes": 156,
-     "link": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
     },
     {
      "title": "Ava",
@@ -2620,17 +2657,35 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T06:17:34+00:00",
-  "fetched_at": "2026-11-12T06:17:34+00:00"
+  "checked_at": "2026-11-12T07:17:56+00:00",
+  "fetched_at": "2026-11-12T07:17:56+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
+     "title": "פורטלנד יכולה להיות \"קבוצת פלייאוף מסוכנת\", וגם דני אבדיה עבר מהפך",
+     "link": "https://sports.walla.co.il/item/3875952",
+     "date": "2026-11-12T08:07:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
      "title": "דני אבדיה שוב הצטיין, פורטלנד שוב ניצחה את אוקלהומה סיטי",
      "link": "https://sports.walla.co.il/item/3875940",
      "date": "2026-11-12T06:31:00+00:00",
      "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"הרוגע של אבדיה בסיטואציות האלה הולך ומשתפר\"",
+     "link": "https://www.one.co.il/Article/538668.html?ref=rss",
+     "date": "2026-11-12T06:24:00+00:00",
+     "source": "ONE",
      "players": [
       "דני אבדיה"
      ]
@@ -2699,30 +2754,12 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "קארצב: משוכנע שסין זה המקום הטוב ביותר עבורי",
-     "link": "https://www.one.co.il/Article/538631.html?ref=rss",
-     "date": "2026-11-11T15:14:00+00:00",
-     "source": "ONE",
-     "players": [
-      "עדן קארצב"
-     ]
-    },
-    {
      "title": "\"לב טהור\": לילארד מחמיא לדני אבדיה, ובארה\"ב מתרגשים מפורטלנד",
      "link": "https://sports.walla.co.il/item/3875849",
      "date": "2026-11-11T12:30:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "ליאל עבדה לוהט, עתידו ייחרץ עד 1 בדצמבר",
-     "link": "https://www.one.co.il/Article/538614.html?ref=rss",
-     "date": "2026-11-11T11:37:00+00:00",
-     "source": "ONE",
-     "players": [
-      "ליאל עבדה"
      ]
     },
     {
@@ -2973,11 +3010,16 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T06:17:27+00:00",
-  "fetched_at": "2026-11-12T06:17:27+00:00"
+  "checked_at": "2026-11-12T07:17:29+00:00",
+  "fetched_at": "2026-11-12T07:17:29+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "לקח חלק בחטיפה ב-7 באוקטובר: מח\"ט חמאס בחאן יונס היעד לתקיפה בביה\"ח בעזה",
+    "link": "https://www.walla.co.il/news/military/383961116",
+    "date": "2026-11-12T06:33:03+00:00"
+   },
    {
     "title": "צה\"ל תקף בבית החולים נאצר בחאן יונס - היעד: מח\"ט חאן יונס",
     "link": "https://www.walla.co.il/news/military/383961109",
@@ -2997,66 +3039,61 @@ window.DB.generated = {
     "title": "בצל המו\"מ האמריקני מול טהרן, בצה\"ל נערכים למתקפת פתע איראנית",
     "link": "https://www.walla.co.il/news/military/383960710",
     "date": "2026-11-09T19:37:01+00:00"
-   },
-   {
-    "title": "אליפות צה\"ל למפקדים חזרה: מפקד פיקוד הצפון רפי מילוא ניצח במקצה הניווט",
-    "link": "https://www.walla.co.il/news/military/383960690",
-    "date": "2026-11-09T13:58:59+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T06:17:27+00:00",
-  "fetched_at": "2026-11-12T06:17:27+00:00"
+  "checked_at": "2026-11-12T07:17:29+00:00",
+  "fetched_at": "2026-11-12T07:17:29+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-12T05:51:00+00:00",
-    "seen_at": "2026-11-12T06:17:36+00:00",
+    "newest": "2026-11-12T06:54:00+00:00",
+    "seen_at": "2026-11-12T07:17:58+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-12T05:03:00+00:00",
-    "seen_at": "2026-11-12T06:17:36+00:00",
+    "newest": "2026-11-12T06:34:00+00:00",
+    "seen_at": "2026-11-12T07:17:58+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-12T05:51:00+00:00",
-    "seen_at": "2026-11-12T06:17:36+00:00",
+    "newest": "2026-11-12T06:19:00+00:00",
+    "seen_at": "2026-11-12T07:17:58+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
-    "newest": "2026-11-12T06:31:00+00:00",
-    "seen_at": "2026-11-12T06:17:36+00:00",
+    "newest": "2026-11-12T08:07:00+00:00",
+    "seen_at": "2026-11-12T07:17:58+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-11T21:20:00+00:00",
-    "seen_at": "2026-11-12T06:17:36+00:00",
+    "seen_at": "2026-11-12T07:17:58+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-11T18:25:00+00:00",
-    "seen_at": "2026-11-12T06:17:36+00:00",
+    "newest": "2026-11-12T07:58:00+00:00",
+    "seen_at": "2026-11-12T07:17:58+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-12T05:57:00+00:00",
-    "seen_at": "2026-11-12T06:17:36+00:00",
+    "newest": "2026-11-12T07:01:00+00:00",
+    "seen_at": "2026-11-12T07:17:58+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-11-12T05:37:24+00:00",
-    "seen_at": "2026-11-12T06:17:36+00:00",
+    "newest": "2026-11-12T06:33:03+00:00",
+    "seen_at": "2026-11-12T07:17:58+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3068,7 +3105,7 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-11T18:00:00+00:00",
-    "seen_at": "2026-11-12T06:17:36+00:00",
+    "seen_at": "2026-11-12T07:17:58+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3080,23 +3117,23 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-11T16:30:25+00:00",
-    "seen_at": "2026-11-12T06:17:36+00:00",
+    "seen_at": "2026-11-12T07:17:58+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-11T16:33:36+00:00",
-    "seen_at": "2026-11-12T06:17:36+00:00",
+    "seen_at": "2026-11-12T07:17:58+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-11T07:56:34+00:00",
-    "seen_at": "2026-11-12T06:17:36+00:00",
+    "seen_at": "2026-11-12T07:17:58+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-12T06:17:36+00:00"
+  "checked_at": "2026-11-12T07:17:58+00:00"
  },
  "health_news": {
   "data": [
@@ -3252,7 +3289,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T06:17:28+00:00",
-  "fetched_at": "2026-11-12T06:17:28+00:00"
+  "checked_at": "2026-11-12T07:17:30+00:00",
+  "fetched_at": "2026-11-12T07:17:30+00:00"
  }
 };
