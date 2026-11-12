@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-12T13:17:20+00:00",
-  "fetched_at": "2026-11-12T13:17:20+00:00"
+  "checked_at": "2026-11-12T14:17:18+00:00",
+  "fetched_at": "2026-11-12T14:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T13:17:32+00:00",
-  "fetched_at": "2026-11-12T13:17:32+00:00"
+  "checked_at": "2026-11-12T14:17:33+00:00",
+  "fetched_at": "2026-11-12T14:17:33+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Apple TV 4K (2026)",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/apple-tv-4k-2026",
+    "date": "2026-11-12T14:00:00+00:00"
+   },
    {
     "title_en": "This turntable tracks the record groove using light, plays vinyl upside down",
     "title_he": "פטיפון זה עוקב אחר חריץ התקליטים באמצעות אור, מנגן ויניל הפוך",
@@ -69,54 +76,47 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/turntables/seven-sensational-turntables-prove-that-vinyl-is-stronger-than-ever-at-what-hi-fi-awards-2026",
     "date": "2026-11-12T10:47:57+00:00"
-   },
-   {
-    "title_en": "Looking for a top Dolby Atmos soundbar? These are all the soundbars to which our experts gave a 2026 What Hi-Fi? Award",
-    "title_he": "מחפשים סאונדבר Dolby Atmos מעולה? אלה כל הסאונד ברים שקיבלו מהמומחים שלנו את פרס What Hi-Fi? לשנת 2026",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/speakers/looking-for-a-top-dolby-atmos-soundbar-these-are-all-the-soundbars-to-which-our-experts-gave-a-2026-what-hi-fi-award",
-    "date": "2026-11-11T16:33:36+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T13:17:32+00:00",
-  "fetched_at": "2026-11-12T13:17:32+00:00"
+  "checked_at": "2026-11-12T14:17:37+00:00",
+  "fetched_at": "2026-11-12T14:17:37+00:00"
  },
- "generated_at": "2026-11-12T13:17:32+00:00",
+ "generated_at": "2026-11-12T14:17:37+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "עם מאה מיילים ביום ו-60 כפופים: זו הפכה לנקודת התורפה הגדולה ביותר של אנבידיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563170",
-     "date": "2026-11-12T11:20:00+00:00"
+     "title": "רעידת אדמה באנבידיה: 33 שנה אחרי שהקים את החברה ג'נסן הואנג עוזב את תפקיד המנכ”ל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563140",
+     "date": "2026-11-12T13:53:00+00:00"
     },
     {
-     "title": "איזנקוט ונתניהו יקיימו היום פגישת עדכון מדיני ביטחוני בלשכת ראש הממשלה",
+     "title": "טראמפ: \"לא צריך הסכם עם איראן, הימים האלה חלפו - יש לנו את הכסף והמצר שלהם\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563134",
-     "date": "2026-11-12T12:27:00+00:00"
+     "date": "2026-11-12T13:29:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "עליות בתל אביב בהובלת מניות הבנקים; נקסט ויז'ן קופצת",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563097",
-     "date": "2026-11-12T13:05:00+00:00"
+     "title": "וול סטריט בדרך לירידות חדות: אנבידיה צונחת על רקע עזיבת ג'נסן הואנג",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563101",
+     "date": "2026-11-12T14:13:00+00:00"
     },
     {
-     "title": "מניית אנבידיה מתרסקת בכ-8% במסחר המוקדם; המתחרות עולות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563101",
-     "date": "2026-11-12T12:27:00+00:00"
+     "title": "תל אביב עברה לירידות בעקבות דברי טראמפ והתפטרות מנכ\"ל אנבידיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563097",
+     "date": "2026-11-12T14:11:00+00:00"
+    },
+    {
+     "title": "רעידת אדמה באנבידיה: 33 שנה אחרי שהקים את החברה ג'נסן הואנג עוזב את תפקיד המנכ”ל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563140",
+     "date": "2026-11-12T13:53:00+00:00"
     },
     {
      "title": "\"מצדדים בחמאס\": בארה\"ב דורשים מהולנד לחזור בה מהחרם על ישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563166",
      "date": "2026-11-12T11:37:00+00:00"
-    },
-    {
-     "title": "בדרך לעקוף את סין? טייוואן מעוניינת להיכנס לתחבורה הציבורית בישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563174",
-     "date": "2026-11-12T11:33:00+00:00"
     },
     {
      "title": "עם מאה מיילים ביום ו-60 כפופים: זו הפכה לנקודת התורפה הגדולה ביותר של אנבידיה",
@@ -154,14 +154,9 @@ window.DB.generated = {
      "date": "2026-11-12T09:12:00+00:00"
     },
     {
-     "title": "חברת הביטוח שמחזיקה בהכי הרבה מניות אנבידיה",
+     "title": "כך תדעו איך הפנסיה שלכם תושפע מנפילת אנבידיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563160",
      "date": "2026-11-12T09:03:00+00:00"
-    },
-    {
-     "title": "אפי נכסים מכרה רק 4 דירות בלנדמרק ברבעון, אך הרווח הנקי טיפס ב-15%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563153",
-     "date": "2026-11-12T08:15:00+00:00"
     },
     {
      "title": "מדיסקונט לביטוח ישיר: אסף אלדר ימונה למנכ\"ל החברה",
@@ -222,12 +217,17 @@ window.DB.generated = {
      "title": "הדחת מנכ\"ל אנבידיה עלולה להוביל לתרחיש אימה בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563132",
      "date": "2026-11-12T03:08:00+00:00"
+    },
+    {
+     "title": "הסמנכ\"לית הוותיקה והשמות המפתיעים: דילמת הירושה של אנבידיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563131",
+     "date": "2026-11-12T02:57:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T13:17:21+00:00",
-  "fetched_at": "2026-11-12T13:17:21+00:00"
+  "checked_at": "2026-11-12T14:17:19+00:00",
+  "fetched_at": "2026-11-12T14:17:19+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T13:17:22+00:00",
-  "fetched_at": "2026-11-12T13:17:22+00:00"
+  "checked_at": "2026-11-12T14:17:20+00:00",
+  "fetched_at": "2026-11-12T14:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -2473,8 +2473,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T13:17:23+00:00",
-  "fetched_at": "2026-11-12T13:17:23+00:00"
+  "checked_at": "2026-11-12T14:17:22+00:00",
+  "fetched_at": "2026-11-12T14:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2564,8 +2564,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-12T13:17:23+00:00",
-  "fetched_at": "2026-11-12T13:17:23+00:00"
+  "checked_at": "2026-11-12T14:17:22+00:00",
+  "fetched_at": "2026-11-12T14:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2603,29 +2603,36 @@ window.DB.generated = {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 308,
+     "likes": 309,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1545,
+     "likes": 1546,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 253,
+     "likes": 254,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 114,
+     "likes": 116,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
+    },
+    {
+     "title": "MiniMax-H3-Image",
+     "desc_en": "Text-to-image and multi-image editing in 6 steps",
+     "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
+     "likes": 49,
+     "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
      "title": "Qwen 2511 + Flux.2 Klein",
@@ -2633,13 +2640,6 @@ window.DB.generated = {
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
      "likes": 397,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
-    },
-    {
-     "title": "MiniMax-H3-Image",
-     "desc_en": "Text-to-image and multi-image editing in 6 steps",
-     "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 48,
-     "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
      "title": "minimax h3 turbo + lora's",
@@ -2665,8 +2665,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T13:17:31+00:00",
-  "fetched_at": "2026-11-12T13:17:31+00:00"
+  "checked_at": "2026-11-12T14:17:31+00:00",
+  "fetched_at": "2026-11-12T14:17:31+00:00"
  },
  "abroad": {
   "data": {
@@ -3017,8 +3017,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-12T13:17:26+00:00",
-  "fetched_at": "2026-11-12T13:17:26+00:00"
+  "checked_at": "2026-11-12T14:17:26+00:00",
+  "fetched_at": "2026-11-12T14:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -3049,98 +3049,98 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T13:17:26+00:00",
-  "fetched_at": "2026-11-12T13:17:26+00:00"
+  "checked_at": "2026-11-12T14:17:26+00:00",
+  "fetched_at": "2026-11-12T14:17:26+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-12T13:09:00+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "newest": "2026-11-12T14:13:00+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-12T13:05:00+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "newest": "2026-11-12T14:13:00+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-12T12:27:00+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "newest": "2026-11-12T14:13:00+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-12T11:53:00+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-12T13:44:00+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "newest": "2026-11-12T14:54:00+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-12T14:00:00+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-12T13:08:00+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "newest": "2026-11-12T13:53:00+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-12T06:33:03+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-11T15:00:15+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-11T18:00:00+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-12T11:46:41+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "newest": "2026-11-12T14:03:17+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-11T16:30:25+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-12T11:31:15+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "newest": "2026-11-12T14:00:00+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-12T12:13:59+00:00",
-    "seen_at": "2026-11-12T13:17:32+00:00",
+    "seen_at": "2026-11-12T14:17:37+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-12T13:17:32+00:00"
+  "checked_at": "2026-11-12T14:17:37+00:00"
  },
  "health_news": {
   "data": [
@@ -3296,7 +3296,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-12T13:17:27+00:00",
-  "fetched_at": "2026-11-12T13:17:27+00:00"
+  "checked_at": "2026-11-12T14:17:27+00:00",
+  "fetched_at": "2026-11-12T14:17:27+00:00"
  }
 };
