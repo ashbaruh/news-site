@@ -1,77 +1,77 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-12T04:00:00+02:00",
- "generated_at": "2026-11-12T01:40:12+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-11-12T12:00:00+02:00",
+ "generated_at": "2026-11-12T10:40:13+00:00",
+ "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11120140-01",
-     "title": "סירוב איראני להוצאת חומר מועשר",
-     "summary": "איראן הודיעה לרוסיה על סירובה המוחלט להוציא חומר מועשר משטחה וכי הוא יישאר בשליטתה.",
-     "axis": "iran",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T15:59:55+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-11T15:59:55+00:00",
-     "last_update_at": "2026-11-11T15:59:55+00:00",
-     "what_is_not_verified": "האם רוסיה הגיבה באופן רשמי לדברים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/95014",
-       "published_at": "2026-11-11T15:59:55+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11120140-02",
-     "title": "עזיבת שר האוצר האמריקאי",
-     "summary": "שר האוצר האמריקאי סקוט בסנט עבר להתגורר בבסיס צבאי עקב חשש מהתנקשות איראנית.",
+     "id": "IRAN-11121040-01",
+     "title": "פיצוץ שתי מכליות נפט במצר הורמוז",
+     "summary": "זרוע הים של משמרות המהפכה הודיעה כי שתי מכליות נפט התפוצצו במצר הורמוז.",
      "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T15:06:01+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T15:06:01+00:00",
-     "last_update_at": "2026-11-11T15:06:01+00:00",
-     "what_is_not_verified": "פרטים מדויקים על התוכניות האיראניות",
+     "occurred_at": "2026-11-12T07:52:28+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-12T07:52:28+00:00",
+     "last_update_at": "2026-11-12T07:52:28+00:00",
+     "what_is_not_verified": "נסיבות הפיצוץ והזהות המדויקת של המכליות לא פורטו מעבר להודעת משמרות המהפכה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
+       "source_id": "src_irna",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133488",
-       "published_at": "2026-11-11T15:06:01+00:00"
+       "url": "https://en.irna.ir/news/86319751/IRGC-Two-defiant-oil-tankers-explode-in-Strait-of-Hormuz",
+       "published_at": "2026-11-12T07:52:28+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-11120140-03",
-     "title": "יירוט כלי שיט במצרי הורמוז",
-     "summary": "פיקוד מרכז של ארה\"ב דיווח כי הסט מאז חודש יולי 150 כלי שיט שניסו לשבור את המצור על איראן.",
+     "id": "IRAN-11121040-02",
+     "title": "הצבת שבעה תנאים איראניים לקיום משא ומתן",
+     "summary": "מפקד ארגון הבסיג' הצהיר כי איראן תקבע את המתכונת של כל משא ומתן רק לאחר מילוי וקבלת שבעה תנאים שהציבה.",
      "axis": "iran",
-     "claim_type": "data",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T19:20:44+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T19:20:44+00:00",
-     "last_update_at": "2026-11-11T19:20:44+00:00",
-     "what_is_not_verified": "לא מאומת מעבר לכך",
+     "occurred_at": "2026-11-12T08:13:20+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-12T08:13:20+00:00",
+     "last_update_at": "2026-11-12T08:13:20+00:00",
+     "what_is_not_verified": "פרטי שבעת התנאים המלאים לא פורטו בטקסט.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
+       "source_id": "src_irna",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133505",
-       "published_at": "2026-11-11T19:20:44+00:00"
+       "url": "https://en.irna.ir/news/86319771/Iran-to-decide-on-negotiations-after-seven-conditions-are-met",
+       "published_at": "2026-11-12T08:13:20+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11121040-03",
+     "title": "עדכון רשימת המטרות האיראנית ללא מגבלות גאוגרפיות",
+     "summary": "סגן הרמטכ\"ל האיראני הודיע על עדכון רשימת המטרות הצבאיות במקרה של לחימה מחודשת, לרבות הסרת מגבלות גאוגרפיות על תקיפות תגמול.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-12T07:41:48+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-12T07:41:48+00:00",
+     "last_update_at": "2026-11-12T07:41:48+00:00",
+     "what_is_not_verified": "פירוט המטרות המדויק לא נמסר.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-667",
+       "published_at": "2026-11-12T07:41:48+00:00"
       }
      ],
      "places": []
@@ -81,107 +81,114 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-11120140-01",
-     "title": "תקיפות צה\"ל בדרום לבנון",
-     "summary": "צה\"ל תקף בכפרים אלמנצורי וחדאת'א במהלך נאום מזכ\"ל חזבאללה.",
+     "id": "NORTH-11121040-01",
+     "title": "תקיפות והפעלת כטב\"מים בדרום לבנון",
+     "summary": "כוחות צה\"ל ביצעו ירי ארטילרי ואש מקלעים בדרום לבנון, ושלושה רחפני תקיפה התפוצצו בסמוך לבתים בכפר מַיְפַדוּן.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T17:58:28+00:00",
+     "occurred_at": "2026-11-12T08:21:46+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-11T17:58:28+00:00",
-     "last_update_at": "2026-11-11T17:58:28+00:00",
-     "what_is_not_verified": "תוצאות התקיפות והנזק",
+     "first_reported_at": "2026-11-12T08:21:46+00:00",
+     "last_update_at": "2026-11-12T09:03:34+00:00",
+     "what_is_not_verified": "היקף הנזק או הנפגעים בכפר לא צוין.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133500",
-       "published_at": "2026-11-11T17:58:28+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אלמנצורי, לבנון",
-       "lat": 33.1737,
-       "lon": 35.2111
+       "source_id": "src_almanar",
+       "source_root_id": "fh_523e080310ace341",
+       "url": "https://english.almanar.com.lb/article/149832/",
+       "published_at": "2026-11-12T09:03:34+00:00"
       },
       {
-       "name": "חדאת'א, לבנון",
-       "lat": 33.1561,
-       "lon": 35.3912
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11120140-02",
-     "title": "אזהרת האו\"ם לגבי ביטחון תזונתי בלבנון",
-     "summary": "האו\"ם הთריע כי יותר ממיליון בני אדם בלבנון מתמודדים עם חוסר ביטחון תזונתי חמור.",
-     "axis": "north",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T18:57:49+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T18:57:49+00:00",
-     "last_update_at": "2026-11-11T18:57:49+00:00",
-     "what_is_not_verified": "נתונים פרטניים מעבר להצהרת האו\"ם",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_4249f10c3044979f",
-       "url": "https://www.newarab.com/news/more-one-million-lebanon-face-acute-food-insecurity",
-       "published_at": "2026-11-11T18:57:49+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "fh_b9e54d23cb8f50bb",
+       "url": "https://english.almanar.com.lb/article/149812/",
+       "published_at": "2026-11-12T08:21:46+00:00"
       }
      ],
      "places": [
       {
-       "name": "לבנון",
-       "lat": 40.3757,
-       "lon": -76.4626
+       "name": "מיפדון, לבנון",
+       "lat": 33.3451,
+       "lon": 35.4741
       }
      ]
     },
     {
-     "id": "NORTH-11120140-03",
-     "title": "פעילות כוחות ישראליים בדרום סוריה",
-     "summary": "כוחות ישראליים תפסו תושב ונכנסו למספר אזורים במחוז קוניטרה.",
+     "id": "NORTH-11121040-02",
+     "title": "פעולת הריסה ישראלית באל-קנטרה",
+     "summary": "כתב בדרום לבנון דיווח כי כוחות צה\"ל ביצעו פעולת הריסה באזור אל-קנטרה.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T23:11:00+00:00",
+     "occurred_at": "2026-11-12T10:29:25+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-11T23:11:00+00:00",
-     "last_update_at": "2026-11-11T23:11:00+00:00",
-     "what_is_not_verified": "מצבו של התושב שנעצר",
+     "first_reported_at": "2026-11-12T10:29:25+00:00",
+     "last_update_at": "2026-11-12T10:29:25+00:00",
+     "what_is_not_verified": "היקף ומהות ההריסה לא פורטו.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-abduct-villager-launch-fresh-incursion-into-southern-syria/4121542",
-       "published_at": "2026-11-11T23:11:00+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "fh_685a58bebb23e34c",
+       "url": "https://english.almanar.com.lb/article/149877/",
+       "published_at": "2026-11-12T10:29:25+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "אל-קנטרה, לבנון",
+       "lat": 33.2589,
+       "lon": 35.459
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11121040-03",
+     "title": "פגישת נשיא לבנון עם בנו של נשיא טורקיה",
+     "summary": "נשיא לבנון ג'וזף עאון נועד בבעבדא עם בילאל ארדואן, שהביע תמיכה בריבונות לבנון ובצבא שלה להרחבת שליטת המדינה.",
+     "axis": "north",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-12T06:54:44+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-12T06:54:44+00:00",
+     "last_update_at": "2026-11-12T06:54:44+00:00",
+     "what_is_not_verified": "ההסכמות המעשיות שהושגו בפגישה מעבר להצהרות הכלליות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "or_lbci",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/967590/president-aoun-calls-for-stronger-lebanon-turkey-ties-as-bilal-erdogan/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967590",
+       "published_at": "2026-11-12T06:54:44+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "בעבדא, לבנון",
+       "lat": 33.8336,
+       "lon": 35.5446
+      }
+     ]
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11120140-01",
-     "title": "מתקפת טילי איסקנדר על קייב",
-     "summary": "טילים בליסטיים שוגרו לעבר הבירה האוקראינית קייב.",
+     "id": "UKRAINE-11121040-01",
+     "title": "מתקפת טילים וכטב\"מים נרחבת על אוקראינה",
+     "summary": "כוחות רוסיים שיגרו טילי איסקנדר, טילים בליסטיים, טילי שיוט ו-123 כטב\"מים ארוכי טווח על מטרות באוקראינה, במתקפה שהביאה לעשרה הרוגים ועשרות פצועים.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T23:27:06+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T23:27:06+00:00",
-     "last_update_at": "2026-11-12T01:29:10+00:00",
-     "what_is_not_verified": "היעדים המדויקים שנפגעו",
+     "occurred_at": "2026-11-12T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-12T01:29:10+00:00",
+     "last_update_at": "2026-11-12T10:07:22+00:00",
+     "what_is_not_verified": "ההתפלגות המלאה של הנפגעים לפי מחוזות אינה מפורטת.",
      "is_new_in_window": true,
      "reports": [
       {
@@ -193,8 +200,8 @@ window.DB.war_brief = {
       {
        "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russia-attacks-kyiv-with-ballistic-missiles-hours-after-peace-talks-end/",
-       "published_at": "2026-11-11T23:27:06+00:00"
+       "url": "https://kyivindependent.com/russian-attacks-kill-10-injure-40-across-ukraine-over-past-day-as-peace-talks-end/",
+       "published_at": "2026-11-12T10:07:22+00:00"
       }
      ],
      "places": [
@@ -206,163 +213,122 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "UKRAINE-11120140-02",
-     "title": "הסכמה על חילופי שבויים",
-     "summary": "הוסכם על ביצוע עסקת חילופי שבויים בהיקף נרחב בתום שיחות אבו דאבי.",
+     "id": "UKRAINE-11121040-02",
+     "title": "הרוגים בתקיפה כפולה על צוותי כיבוי במחוז קייב",
+     "summary": "שני לוחמי אש של שירותי החירום נהרגו ושלושה בני אדם נפצעו בתקיפה רוסית כפולה בעיר יהוטין בעת שכיבו שרפה.",
      "axis": "ukraine",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T19:15:44+00:00",
+     "occurred_at": "2026-11-11T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-11T19:15:44+00:00",
-     "last_update_at": "2026-11-11T19:15:44+00:00",
-     "what_is_not_verified": "מועד מדויק לביצוע ההחלפה בפועל",
+     "first_reported_at": "2026-11-12T09:36:00+00:00",
+     "last_update_at": "2026-11-12T09:36:00+00:00",
+     "what_is_not_verified": "זהות אחד הפצועים שאינו מחלץ לא פורטה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_kyivind",
+       "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
-       "published_at": "2026-11-11T19:15:44+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062474/",
+       "published_at": "2026-11-12T09:36:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "אבו דאבי, איחוד האמירויות",
-       "lat": 24.4538,
-       "lon": 54.3774
+       "name": "יהוטין, אוקראינה",
+       "lat": 50.2759,
+       "lon": 31.7635
       }
      ]
     },
     {
-     "id": "UKRAINE-11120140-03",
-     "title": "מתקפת רחפנים על בית זיקוק באומסק",
-     "summary": "מתקפת רחפנים נמשכה שעות רבות נגד בית הזיקוק הגדול בסיביר.",
+     "id": "UKRAINE-11121040-03",
+     "title": "הגבלות מהירות מערכת סטארשילד בחזית",
+     "summary": "נשיא אוקראינה ולודימיר זלנסקי דיווח על שיבושים שיטתיים ומגבלת מהירות שהוטלה על תקשורת הלוויינים סטארשילד לאורך קו החזית.",
      "axis": "ukraine",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T15:14:11+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-11T15:14:11+00:00",
-     "last_update_at": "2026-11-11T22:41:46+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק שנגרם למתקן",
+     "occurred_at": "2026-11-12T09:13:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-12T09:13:00+00:00",
+     "last_update_at": "2026-11-12T10:37:18+00:00",
+     "what_is_not_verified": "סיבת ההגבלה המדויקת והגורם הטכני מאחוריה עדיין בבירור מול ארה\"ב.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49497",
-       "published_at": "2026-11-11T15:14:11+00:00"
+       "url": "https://www.theguardian.com/world/live/2026/nov/12/us-envoys-in-moscow-meeting-putin-abu-dhabi-trilateral-ukraine-ceasefire-talks-latest-news-updates",
+       "published_at": "2026-11-12T10:37:18+00:00"
       },
       {
-       "source_id": "src_kyivind",
+       "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russias-largest-oil-refinery-slammed-by-drones-in-8-hr-attack-2-500-km-from-ukraine/",
-       "published_at": "2026-11-11T22:41:46+00:00"
+       "url": "https://meduza.io/en/news/2026/11/12/zelensky-says-starshield-again-being-restricted-at-the-front",
+       "published_at": "2026-11-12T09:45:05+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062470/",
+       "published_at": "2026-11-12T09:13:00+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "אומסק, רוסיה",
-       "lat": 54.9914,
-       "lon": 73.3715
-      }
-     ]
+     "places": []
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-11120140-01",
-     "title": "יירוט טילים בליסטיים מעל אזור מכה",
-     "summary": "ההגנה האווירית של סעודיה ירטה והשמידה טילים בליסטיים וכטב\"מים ששוגרו מתימן לעבר מכה ואזורים נוספים.",
+     "id": "YEMEN-11121040-01",
+     "title": "יירוט טילי שיוט ששוגרו לעבר סעודיה",
+     "summary": "במהלך הלחימה באזור תימן דיווחה סעודיה כי יירטה טילי שיוט ששוגרו לעברה.",
      "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T20:06:03+00:00",
+     "occurred_at": "2026-11-12T07:22:27+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-11T20:06:03+00:00",
-     "last_update_at": "2026-11-11T21:48:16+00:00",
-     "what_is_not_verified": "היקף נפגעים מדויק מנפילת הרסיסים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/saudi-arabia-intercepts-houthi-missiles-drones-group-denies-targeting-mecca",
-       "published_at": "2026-11-11T21:48:16+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/155636",
-       "published_at": "2026-11-11T20:06:03+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מכה, סעודיה",
-       "lat": 21.4208,
-       "lon": 39.8269
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-11120140-02",
-     "title": "הכרזת החות'ים על תקיפת מרכז פיקוד בסעודיה",
-     "summary": "דובר הצבא החות'י טען כי הארגון פגע במרכז פיקוד ומבצעים סעודי באזור עדן באמצעות טילים בליסטיים.",
-     "axis": "yemen",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T23:03:27+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-11T23:03:27+00:00",
-     "last_update_at": "2026-11-11T23:03:27+00:00",
-     "what_is_not_verified": "האם התקיפה פגעה ביעד בהצלחה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attack-saudi-command-centre-yemen",
-       "published_at": "2026-11-11T23:03:27+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "עדן, תימן",
-       "lat": 12.7896,
-       "lon": 45.0285
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-11120140-03",
-     "title": "תקיפת מערכות ניווט ימי בעומאן",
-     "summary": "מקורות אישרו כי איראן תקפה מערכות ניווט ימי באי דידמאר בעומאן סמוך למצר הורמוז.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T22:58:58+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-11T22:58:58+00:00",
-     "last_update_at": "2026-11-11T22:58:58+00:00",
-     "what_is_not_verified": "האם מערכות הניווט הושמדו לחלוטין",
+     "first_reported_at": "2026-11-12T07:22:27+00:00",
+     "last_update_at": "2026-11-12T07:22:27+00:00",
+     "what_is_not_verified": "מיקום היירוט המדויק ומספר הטילים ששוגרו לא פורטו.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_newarab",
+       "source_root_id": "or_the_new_arab",
+       "url": "https://www.newarab.com/news/iran-touts-new-missile-city-israel-continues-bomb-gaza",
+       "published_at": "2026-11-12T07:22:27+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-11121040-02",
+     "title": "הכחשת החות'ים על תקיפה לעבר מכה",
+     "summary": "בזמן החרפת הלחימה הכחישו החות'ים דיווחים שלפיהם שיגרו מתקפה שכוונה לעבר העיר מכה.",
+     "axis": "yemen",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-12T04:41:17+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-12T04:41:17+00:00",
+     "last_update_at": "2026-11-12T04:41:17+00:00",
+     "what_is_not_verified": "מהות הטענות המקוריות בנוגע לתקיפה על מכה אינה מפורטת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/iran-attacks-didamar-island-shipping-navigation-systems-oman",
-       "published_at": "2026-11-11T22:58:58+00:00"
+       "url": "https://www.aljazeera.com/news/2026/11/12/fighting-intensifies-in-yemen-as-houthis-deny-targeting-mecca?traffic_source=rss",
+       "published_at": "2026-11-12T04:41:17+00:00"
       }
      ],
      "places": [
       {
-       "name": "האי דידמאר, עומאן",
-       "lat": 26.4815,
-       "lon": 56.5381
+       "name": "מכה, ערב הסעודית",
+       "lat": 21.4208,
+       "lon": 39.8269
       }
      ]
     }
