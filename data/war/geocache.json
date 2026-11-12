@@ -117,6 +117,10 @@
 13.9881,
 45.5729
 ],
+"al-buraiqa, yemen": [
+12.7906,
+44.8929
+],
 "al-dhabab, yemen": null,
 "al-dhale, yemen": null,
 "al-eis, syria": null,
@@ -185,6 +189,7 @@
 34.6058,
 36.2389
 ],
+"al-samadaniyah al-sharqiya, syria": null,
 "al-sanamayn, syria": [
 33.0732,
 36.1834
@@ -247,6 +252,10 @@
 32.854
 ],
 "annopolye, ukraine": null,
+"antalya, turkey": [
+36.8866,
+30.703
+],
 "antwerp, belgium": [
 51.2211,
 4.3997
@@ -829,6 +838,10 @@
 "dubai, uae": [
 25.0743,
 55.1886
+],
+"dublin, ireland": [
+53.3494,
+-6.2606
 ],
 "duqm, oman": [
 19.623,
@@ -1691,6 +1704,7 @@
 12.6518,
 43.4278
 ],
+"mazraat al-fityan, syria": null,
 "mecca, saudi arabia": [
 21.4208,
 39.8269

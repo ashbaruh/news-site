@@ -1,0 +1,493 @@
+{
+ "status": "draft",
+ "received_sha256_12": "da6657a36a7e",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "shared_root": 5,
+   "initial": 3,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-12T00:44:50+00:00",
+  "window": {
+   "from": "2026-11-11T00:44:50+00:00",
+   "to": "2026-11-12T00:44:50+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202611120044"
+  },
+  "summary": "העימות בין אוקראינה לרוסיה ממשיך להתאפיין בלחימה בעצימות גבוהה ובמהלומות ארוכות טווח נגד תשתיות עורפיות של שני הצדדים. במקביל לתקיפות טילים וכטב\"מים על קייב, אודסה ומתקני נפט בעומק רוסיה, נערכו שיחות משולשות בהשתתפות ארצות הברית שהניבו הסכם על חילופי שבויים. עם זאת, המחלוקות הטריטוריאליות והמבוי הסתום בנושאי ביטחון כולל מותירים את השגת הפסקת האש ללא פריצת דרך.",
+  "fronts": [
+   {
+    "name": "דונבאס",
+    "status": "עמדות קשיחות בנוגע לשליטה ולדרישות נסיגה טריטוריאליות"
+   },
+   {
+    "name": "זפורוז'יה ודרום אוקראינה",
+    "status": "פעילות התקפית מלווה בלכידת לוחמים זרים ותקיפות מונחות"
+   },
+   {
+    "name": "עורף רוסיה (סיביר ואזור סנקט פטרבורג)",
+    "status": "מתקפות כטב\"מים אוקראיניות נרחבות נגד בתי זיקוק ונמלים"
+   },
+   {
+    "name": "עורף אוקראינה (קייב ואודסה)",
+    "status": "תקיפות מתמשכות בטילים בליסטיים ובכטב\"מים סילוניים על יעדים אזרחיים ותשתיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11120044-01",
+    "title": "מתקפת כטב\"מים אוקראינית נרחבת על אומסק ובית הזיקוק בסיביר",
+    "summary": "כוחות אוקראינה ביצעו תקיפה ממושכת באמצעות כטב\"מים לעבר העיר אומסק שבסיביר, כ-2,500 ק\"מ מגבול אוקראינה. דווח על שריפה בבית הזיקוק המקומי ועל פגיעה אפשרית בתחנת כוח, לצד ביטול אירועי תרבות והתרעות שנמשכו שעות.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T15:14:11+00:00",
+    "last_update_at": "2026-11-11T22:41:46+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק למתקני האנרגיה בבית הזיקוק ובתחנת הכוח טרם אומת רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://kyivindependent.com/russias-largest-oil-refinery-slammed-by-drones-in-8-hr-attack-2-500-km-from-ukraine/",
+      "published_at": "2026-11-11T22:41:46+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://meduza.io/en/news/2026/11/11/russia-s-omsk-under-drone-alert-for-seven-hours-amid-ukrainian-attack-governor-urges-residents-to-stay-indoors",
+      "published_at": "2026-11-11T18:08:49+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://t.me/alexmehacarmel/49502",
+      "published_at": "2026-11-11T16:49:20+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://t.me/alexmehacarmel/49497",
+      "published_at": "2026-11-11T15:14:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אומסק, רוסיה",
+      "lat": 54.9914,
+      "lon": 73.3715
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11120044-02",
+    "title": "סיום שיחות אבו דאבי והסכמה על עסקת חילופי שבויים",
+    "summary": "השיחות המשולשות בין רוסיה, אוקראינה וארצות הברית באבו דאבי ננעלו בהסכמה על עסקת חילופי שבויים נרחבת ודיון בערבויות ביטחוניות, אולם ללא פריצת דרך בסוגיית השטחים ובמערך הביטחון האירופי.",
+    "axis": "משא ומתן מדיני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T12:28:23+00:00",
+    "last_update_at": "2026-11-11T19:15:44+00:00",
+    "what_is_not_verified": "מספר השבויים שישוחררו ומועד הביצוע המדויק לא פורטו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_36c7f00febacb791",
+      "url": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+      "published_at": "2026-11-11T19:15:44+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_36c7f00febacb791",
+      "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-11T18:04:58+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_36c7f00febacb791",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062404/",
+      "published_at": "2026-11-11T17:47:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_36c7f00febacb791",
+      "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-talks-in-abu-dhabi-bring-progress-on-prisoners-but-not-on-peace",
+      "published_at": "2026-11-11T17:03:43+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_36c7f00febacb791",
+      "url": "https://meduza.io/en/feature/2026/11/11/russia-ukraine-peace-talks-conclude-in-abu-dhabi-with-prisoner-exchange-agreement-but-no-breakthrough-on-territory",
+      "published_at": "2026-11-11T13:10:29+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_36c7f00febacb791",
+      "url": "https://meduza.io/en/news/2026/11/11/ukrainian-negotiator-says-peace-talks-with-russia-could-produce-a-deal-before-the-new-year",
+      "published_at": "2026-11-11T12:28:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אבו דאבי, איחוד האמירויות הערביות",
+      "lat": 24.4538,
+      "lon": 54.3774
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11120044-03",
+    "title": "תקיפת טילים בליסטיים רוסית על קייב",
+    "summary": "צבא רוסיה שיגר טילים בליסטיים לעבר עיר הבירה קייב שעות ספורות לאחר סיום סבב השיחות באבו דאבי.",
+    "axis": "מערכי עורף באוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T23:27:06+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-11T23:27:06+00:00",
+    "last_update_at": "2026-11-11T23:27:06+00:00",
+    "what_is_not_verified": "פרטי המטרות המדויקות והנזקים בקייב טרם פורסמו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://kyivindependent.com/russia-attacks-kyiv-with-ballistic-missiles-hours-after-peace-talks-end/",
+      "published_at": "2026-11-11T23:27:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11120044-04",
+    "title": "פגיעת כטב\"ם סילוני רוסי בשוק בצ'ורנומורסק",
+    "summary": "פגיעת כלי טיס מונחה בעל הנעת סילון בשוק מרכזי בצ'ורנומורסק שבמחוז אודסה גרמה למותם של ארבעה בני אדם ולפציעתם של לפחות תשעה נוספים, לצד פגיעה במבני מגורים וברכבים.",
+    "axis": "דרום אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T17:27:00+00:00",
+    "last_update_at": "2026-11-11T17:27:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_78cb47b0dfd0bdb9",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062304/",
+      "published_at": "2026-11-11T17:27:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צ'ורנומורסק, אוקראינה",
+      "lat": 46.3013,
+      "lon": 30.6549
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11120044-05",
+    "title": "הפלת מסוקים רוסיים באש כוחותיהם במחוז לנינגרד",
+    "summary": "בלוגרים צבאיים רוסיים דיווחו על הפלת עד שלושה מסוקי קרב רוסיים באש כוחותיהם ומותם של שבעה אנשי צוות בעת ניסיון ליירט מתקפת כטב\"מים אוקראינית מעל אזור לנינגרד ואוסט-לוגה.",
+    "axis": "צפון-מערב רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T12:45:08+00:00",
+    "last_update_at": "2026-11-11T18:56:06+00:00",
+    "what_is_not_verified": "האובדן המדויק של המסוקים ונסיבות מות הטייסים לא אושרו רשמית בידי הרשויות הרוסיות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49508",
+      "published_at": "2026-11-11T18:56:06+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/11/russian-pro-war-military-bloggers-report-pilots-killed-during-ukrainian-drone-attack-on-leningrad-region",
+      "published_at": "2026-11-11T12:45:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אוסט-לוגה, רוסיה",
+      "lat": 59.6592,
+      "lon": 28.2695
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11120044-06",
+    "title": "הסכמת שגרירי האיחוד האירופי על חבילת סנקציות חדשה נגד רוסיה",
+    "summary": "נציגי מדינות האיחוד האירופי אישרו עקרונית הטלת סנקציות על 145 ישויות ויחידים, כולל 50 בנקים רוסיים, חברות הקשורות לצי הצללים של הנפט וגורמים הפועלים בתחום הסייבר והלוחמה ההיברידית.",
+    "axis": "הזירה הבינלאומית והכלכלית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T17:33:00+00:00",
+    "last_update_at": "2026-11-11T17:33:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062400/",
+      "published_at": "2026-11-11T17:33:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בריסל, בלגיה",
+      "lat": 50.8467,
+      "lon": 4.3525
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11120044-07",
+    "title": "לכידת שבוי מלחמה מאינדונזיה בשורות צבא רוסיה",
+    "summary": "אוקראינה הודיעה על לכידתו של אזרח אינדונזי שלחם בשורות צבא רוסיה במחוז זפורוז'יה שבדרום המדינה, לאחר שיחידתו הותקפה על ידי כטב\"מים.",
+    "axis": "דרום אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T05:33:27+00:00",
+    "last_update_at": "2026-11-11T19:03:34+00:00",
+    "what_is_not_verified": "היקף הגיוס של אזרחים זרים נוספים מאינדונזיה וממדינות אחרות אינו מאומת מעבר לנתוני הפרויקט האוקראיני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_i_want_to_live",
+      "url": "https://kyivindependent.com/ukraine-captures-first-indonesian-prisoner-of-war-as-russia-steps-up-foreign-recruitment/",
+      "published_at": "2026-11-11T19:03:34+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_i_want_to_live",
+      "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-indonesian-pow-prisoner-of-war-russia",
+      "published_at": "2026-11-11T05:33:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפורוז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11120044-08",
+    "title": "מותו של שגריר רוסיה בארצות הברית",
+    "summary": "משרד החוץ של רוסיה הודיע על מותו הפתאומי של השגריר בוושינגטון, אלכסנדר דרצ'ייב, בגיל 66.",
+    "axis": "דיפלומטיה בין-מעצמתית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T16:39:57+00:00",
+    "last_update_at": "2026-11-11T16:54:18+00:00",
+    "what_is_not_verified": "סיבת ומנגנון המוות לא פורסמו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hyocvzgcme",
+      "published_at": "2026-11-11T16:54:18+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/article/21832201",
+      "published_at": "2026-11-11T16:39:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארצות הברית",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11120044-09",
+    "title": "נסיעת שליחי ארצות הברית לפגישות במוסקבה ובדבלין",
+    "summary": "השליחים סטיב ויטקוף וג'ארד קושנר מתכננים להיפגש במוסקבה עם ולדימיר פוטין ולאחר מכן בדבלין עם וולודימיר זלנסקי כדי לעדכן על תוצאות שיחות אבו דאבי.",
+    "axis": "משא ומתן מדיני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T14:30:54+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-11T14:30:54+00:00",
+    "last_update_at": "2026-11-11T17:56:29+00:00",
+    "what_is_not_verified": "תוכן ההצעות שיוצגו בפגישות והסכמות עתידיות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_ce05bfe71b2aacd1",
+      "url": "https://kyivindependent.com/zelensky-arrives-in-dublin-for-european-political-community-summit-expects-a-debrief-from-witkoff-kushner/",
+      "published_at": "2026-11-11T17:56:29+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_36c7f00febacb791",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062404/",
+      "published_at": "2026-11-11T17:47:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_ce05bfe71b2aacd1",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062401/",
+      "published_at": "2026-11-11T17:41:00+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_ce05bfe71b2aacd1",
+      "url": "https://meduza.io/en/news/2026/11/11/they-re-bringing-something-kushner-and-witkoff-to-meet-putin-in-moscow-day-after-abu-dhabi-peace-talks",
+      "published_at": "2026-11-11T14:30:54+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     },
+     {
+      "name": "דבלין, אירלנד",
+      "lat": 53.3494,
+      "lon": -6.2606
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות בלוגרים צבאיים על הפלת שלושה מסוקים רוסיים באש כוחותיהם ליד לנינגרד",
+   "היקף הנזק המדויק לבית הזיקוק באומסק ולתחנת הכוח בעיר",
+   "מספרם הכולל של אזרחים זרים שלוחמים או נהרגו בשירות צבא רוסיה",
+   "נסיבות וסיבת המוות של השגריר הרוסי אלכסנדר דרצ'ייב",
+   "טענת רוסיה בנוגע לקיומה של רשת בתי כלא ועינויים באוקראינה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1127,
+    "unit": "USD",
+    "change_pct": -0.78,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-11T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "השגת שחרור של שבויים במסגרת עסקאות חילופין",
+     "התקדמות במסלול ההצטרפות לאיחוד האירופי וקבלת ערבויות ביטחון",
+     "סירוב מוחלט לדרישות לנסיגה משטחי דונבאס"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות הזיקוק והאנרגיה של רוסיה כדי לייצר לחץ כלכלי ומבצעי",
+     "רצון להגיע למסגרת הסדרה לפני סוף השנה תוך שימור תמיכת המערב"
+    ],
+    "forecast": [
+     "המשך שיגור כטב\"מים לעומק השטח הרוסי במקביל למגעים עם שליחי הממשל האמריקני"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "השגת ניצחון והחזרת כל השטחים הנתבעים על ידה בטרם חתימה על הסכם שלום",
+     "הגעה להבנות בעניין מערך הביטחון האירופי ודרישות ביטחוניות מול אוקראינה"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי כבד על תשתיות האנרגיה והמרכזים העירוניים באוקראינה לקראת המשך השיחות",
+     "שימור ערוצי ההידברות הדיפלומטיים מול ארצות הברית כדי למקסם הישגים מדיניים"
+    ],
+    "forecast": [
+     "המשך תקיפות הטילים על ערי אוקראינה תוך בחינת תנאי הפסקת אש בתחומי האנרגיה והים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-12T00:44:50+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-indonesian-pow-prisoner-of-war-russia",
+    "accessed_at": "2026-11-12T00:44:50+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/article/21832201",
+    "accessed_at": "2026-11-12T00:44:50+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/zelensky-arrives-in-dublin-for-european-political-community-summit-expects-a-debrief-from-witkoff-kushner/",
+    "accessed_at": "2026-11-12T00:44:50+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/11/they-re-bringing-something-kushner-and-witkoff-to-meet-putin-in-moscow-day-after-abu-dhabi-peace-talks",
+    "accessed_at": "2026-11-12T00:44:50+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062401/",
+    "accessed_at": "2026-11-12T00:44:50+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49508",
+    "accessed_at": "2026-11-12T00:44:50+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hyocvzgcme",
+    "accessed_at": "2026-11-12T00:44:50+00:00"
+   }
+  ]
+ }
+}

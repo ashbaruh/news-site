@@ -1,0 +1,450 @@
+{
+ "status": "draft",
+ "received_sha256_12": "7e83539f366a",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 5,
+   "initial": 3,
+   "assessment": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-12T00:40:37+00:00",
+  "window": {
+   "from": "2026-11-11T00:40:37+00:00",
+   "to": "2026-11-12T00:40:37+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611120040"
+  },
+  "summary": "המתיחות בין ישראל וארצות הברית לבין איראן נמשכת ברקע מצור כלכלי-ימי ואיומים הדדיים בהסלמה צבאית. ישראל מגבירה מוכנות למתקפה אפשרית, בעוד בכירים בטהראן מאיימים בתקיפת בסיסים מערביים וסגירת מצר הורמוז אם תחודש הלחימה. במקביל מתקיימים גישושים והעברת תנאים למשא ומתן להפסקת העימות, לצד סנקציות ולחץ כלכלי מתמשך.",
+  "fronts": [
+   {
+    "name": "חזית ישראל-איראן",
+    "status": "כוננות והיערכות מוגברת לתקיפות צבאיות הדדיות"
+   },
+   {
+    "name": "חזית ארה\"ב-איראן (מצר הורמוז והמפרץ)",
+    "status": "אכיפת מצור ימי וסנקציות לצד מגעים מדיניים וחילופי איומים"
+   },
+   {
+    "name": "חזית תוכנית הגרעין האיראנית",
+    "status": "עמידה איראנית על שימור החומר המועשר וסירוב להוצאתו"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11120040-01",
+    "title": "הנחיה לצה\"ל להגביר היערכות לאפשרות תקיפה באיראן",
+    "summary": "הקבינט הביטחוני הורה לצבא להגביר את המוכנות לתקיפה אפשרית באיראן, בעוד טהראן מזהירה מתגובה נרחבת אם תותקף.",
+    "axis": "ישראל-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-11T21:48:29+00:00",
+    "last_update_at": "2026-11-12T00:00:44+00:00",
+    "what_is_not_verified": "אין אימות עצמאי להחלטת הקבינט שכן הדיווחים נשענים על דיווחים בתקשורת הישראלית ללא הודעה רשמית שצורפה במלואה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/12/iran-war-live-tehran-warns-of-wider-retaliation-israel-kills-in-gaza?traffic_source=rss",
+      "published_at": "2026-11-12T00:00:44+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-orders-israeli-army-prepare-possible-attack-iran",
+      "published_at": "2026-11-11T21:48:29+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11120040-02",
+    "title": "דובר משרד החוץ האיראני מאשים את ארצות הברית בהפצת מידע כוזב",
+    "summary": "אסמאעיל בקאעי טען כי וושינגטון מנהלת קמפיין כוזב כדי להציג את עצמה כקורבן טרור, וייחס לה פעולות תוקפנות והתנקשות בבכירים ומדענים איראנים.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T23:24:17+00:00",
+    "last_update_at": "2026-11-11T23:24:17+00:00",
+    "what_is_not_verified": "האשמות איראן בנוגע לפעולות המיוחסות לארה\"ב ולישראל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_52a519fa935b5af3",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-accuses-us-spreading-disinformation-about-iranian-terrorism",
+      "published_at": "2026-11-11T23:24:17+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11120040-03",
+    "title": "אזהרת בכיר הביטחון האיראני מוחסן רזאי מפני תקיפת בסיסים מערביים",
+    "summary": "מוחסן רזאי איים כי אם ארצות הברית תפתח במלחמה מחדש נגד איראן, כל בסיס צבאי שייקח חלק בתקיפה, מאסיה ועד אירופה, יהווה מטרה לתקיפות קטלניות.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T22:13:51+00:00",
+    "last_update_at": "2026-11-11T22:35:57+00:00",
+    "what_is_not_verified": "כוונות הפעולה המעשיות והיכולת לפגוע בבסיסים באירופה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_c19bda78001159c0",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-security-chief-warns-western-bases-will-be-targets-retaliation",
+      "published_at": "2026-11-11T22:35:57+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_c19bda78001159c0",
+      "url": "https://www.maariv.co.il/breaking-news/article-1387564",
+      "published_at": "2026-11-11T22:13:51+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11120040-04",
+    "title": "דיווחים על בחינת שיחות ישירות בין ואנס לרזאי",
+    "summary": "גורמים מדווחים כי טראמפ הסמיך את סגנו ואנס לנהל משא ומתן מול איראן, ונבחנת פגישה בדוחא עם מוחסן רזאי, על רקע מחלוקות ודרישות איראניות להסרת מצור.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-11T20:50:25+00:00",
+    "last_update_at": "2026-11-11T22:54:49+00:00",
+    "what_is_not_verified": "קיומה של פגישה מתוכננת לא אומת, ובפרט כאשר רזאי מכחיש כל משא ומתן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/symstlfcze",
+      "published_at": "2026-11-11T22:54:49+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21834887",
+      "published_at": "2026-11-11T20:50:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דוחא, קטאר",
+      "lat": 25.2856,
+      "lon": 51.5264
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11120040-05",
+    "title": "הצהרת יו\"ר הפרלמנט האיראני קאליבאף על תנאי המשא ומתן ומצר הורמוז",
+    "summary": "מוחמד באקר קאליבאף ציין כי מצר הורמוז לא ישוב למצבו שלפני המלחמה, וכי טהראן הגישה לארה\"ב שבעה תנאים וממתינה לתשובתה הרשמית.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-11T20:36:48+00:00",
+    "last_update_at": "2026-11-11T21:03:40+00:00",
+    "what_is_not_verified": "תוכן שבעת התנאים המלאים והאם הועברו בערוץ רשמי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
+      "published_at": "2026-11-11T21:03:40+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86319535/Ghalibaf-Ball-in-US-court-Iran-determined-to-end-state-of-no",
+      "published_at": "2026-11-11T20:36:48+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11120040-06",
+    "title": "פיקוד מרכז של צבא ארה\"ב מדווח על אכיפת המצור הימי על איראן",
+    "summary": "לפי פיקוד מרכז האמריקאי, מאז יולי הוסטו 150 כלי שיט שניסו להפר את המצור על איראן, נמנע ייצוא נפט איראני בהיקף נרחב, ואולצו מעברים מאובטחים במצר הורמוז.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-11T19:20:44+00:00",
+    "last_update_at": "2026-11-11T19:20:44+00:00",
+    "what_is_not_verified": "נתוני יירוט הספינות והיקפי הנפט המדויקים מבוססים על הודעת הצבא האמריקני בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133505",
+      "published_at": "2026-11-11T19:20:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11120040-07",
+    "title": "נשיא איראן דורש פיצויים בינלאומיים בגין נזקי תקיפות ארה\"ב וישראל",
+    "summary": "בוועידת האקלים באנטליה דרש מסעוד פזשכיאן לקבוע מנגנון שיחייב פיצויים על נזקים סביבתיים שנגרמו בשל התקיפות האמריקניות והישראליות באיראן.",
+    "axis": "ישראל-ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T17:28:14+00:00",
+    "last_update_at": "2026-11-11T17:47:51+00:00",
+    "what_is_not_verified": "היקף הנזק הסביבתי הנטען.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-tells-cop31-it-wants-compensation-environmental-damage-us-israeli-strikes",
+      "published_at": "2026-11-11T17:47:51+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86319460/President-Pezeshkian-urges-global-accountability-over-environmental",
+      "published_at": "2026-11-11T17:28:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אנטליה, טורקיה",
+      "lat": 36.8866,
+      "lon": 30.703
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11120040-08",
+    "title": "סירוב איראני להוצאת חומר מועשר משטחה",
+    "summary": "… שהיא מסרבת להוציא חומר מועשר מתחומיה ושכל החומר יישאר בשליטתה.",
+    "axis": "איראן-גרעין",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-11T15:59:55+00:00",
+    "last_update_at": "2026-11-11T15:59:55+00:00",
+    "what_is_not_verified": "לא פורסמה הודעה רשמית ישירה של המועצה העליונה בטקסט מעבר לציטוט בטלגרם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95014",
+      "published_at": "2026-11-11T15:59:55+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11120040-09",
+    "title": "מעבר שר האוצר האמריקני לבסיס צבאי בשל איומים איראניים",
+    "summary": "שר האוצר של ארה\"ב סקוט בסנט עבר להתגורר בבסיס צבאי עקב התרעות מודיעיניות על כוונות איראניות לפגוע בחייו.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-11T09:11:30+00:00",
+    "last_update_at": "2026-11-11T15:06:01+00:00",
+    "what_is_not_verified": "פרטי המזימה המודיעינית המדויקת להתנקשות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133488",
+      "published_at": "2026-11-11T15:06:01+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats",
+      "published_at": "2026-11-11T09:11:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11120040-10",
+    "title": "ביטול חוזה גז של חברה פולנית עם קטאר עקב התקיפות האיראניות",
+    "summary": "חברת האנרגיה הפולנית ביטלה חוזה אספקת גז נוזלי ארוך טווח עם קטאר עקב שיבושים ביצוא שנגרמו מתקיפות איראניות במפרץ.",
+    "axis": "מפרץ-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T14:28:46+00:00",
+    "last_update_at": "2026-11-11T14:28:46+00:00",
+    "what_is_not_verified": "מידת הפגיעה המדויקת בתשתיות הגז הקטאריות שהובילה לביטול.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49496",
+      "published_at": "2026-11-11T14:28:46+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "בחינת פגישה ישירה בין ג'יי די ואנס למוחסן רזאי בדוחא",
+   "טענות על שימוש בגורמים על-טבעיים לאיתור בכירים",
+   "פרטי תוכניות ההתנקשות בשר האוצר האמריקני ובכירים נוספים",
+   "היקף הנזק הסביבתי של תקיפות צבאיות באיראן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1716,
+    "unit": "ILS",
+    "change_pct": 0.17,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-11T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הסרת המצור הכלכלי ושחרור נכסים כתנאי לשיחות",
+     "סירוב להוצאת חומר גרעיני מועשר משטחה",
+     "פגיעה בכל בסיס צבאי שישמש לתקיפה נגדה"
+    ],
+    "inferred": [
+     "שימור יכולות הגרעין וההרתעה הצבאית",
+     "מניעת חידוש מתקפה ישראלית-אמריקנית רחבה",
+     "שיקום הכלכלה באמצעות פתיחת נתיבי מסחר"
+    ],
+    "forecast": [
+     "המשך איומים על השיט במצר הורמוז לצד העברת דרישות להסדר",
+     "התבצרות בעמדות בנושא הגרעין למרות לחצי הסנקציות"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "היערכות צבאית לאפשרות של תקיפה באיראן",
+     "מניעת השגת נשק גרעיני בידי המשטר האיראני"
+    ],
+    "inferred": [
+     "דחיפה לסיכול תוכנית הגרעין לפני הגעה להסדר דיפלומטי",
+     "הפעלת לחץ מרבי על הממשל האמריקאי לתמיכה בפעולה צבאית"
+    ],
+    "forecast": [
+     "המשך אימונים והיערכות מבצעית לקראת החלטות מדיניות",
+     "התנגדות עזה להסכמים דיפלומטיים שאינם כוללים פירוק מלא"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "חניקת הכלכלה האיראנית באמצעות סנקציות ומצור ימי",
+     "מניעת נשק גרעיני מאיראן לצד בחינת אפיקים דיפלומטיים"
+    ],
+    "inferred": [
+     "השגת הסכם בתנאים אמריקניים תוך הימנעות מהרחבת המלחמה",
+     "אבטחת נתיבי השיט והנפט במפרץ תוך בידוד טהראן"
+    ],
+    "forecast": [
+     "המשך אכיפת המצור הימי והסנקציות הכלכליות",
+     "בחינת ערוצי משא ומתן עקיפים או ישירים להסדרת המצב"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
+    "accessed_at": "2026-11-12T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/iran-tells-cop31-it-wants-compensation-environmental-damage-us-israeli-strikes",
+    "accessed_at": "2026-11-12T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats",
+    "accessed_at": "2026-11-12T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86319460/President-Pezeshkian-urges-global-accountability-over-environmental",
+    "accessed_at": "2026-11-12T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21834887",
+    "accessed_at": "2026-11-12T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1387564",
+    "accessed_at": "2026-11-12T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-security-chief-warns-western-bases-will-be-targets-retaliation",
+    "accessed_at": "2026-11-12T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133488",
+    "accessed_at": "2026-11-12T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49496",
+    "accessed_at": "2026-11-12T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95014",
+    "accessed_at": "2026-11-12T00:40:37+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/symstlfcze",
+    "accessed_at": "2026-11-12T00:40:37+00:00"
+   }
+  ]
+ }
+}

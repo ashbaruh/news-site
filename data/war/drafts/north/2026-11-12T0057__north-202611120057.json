@@ -1,0 +1,311 @@
+{
+ "status": "draft",
+ "received_sha256_12": "143abc705853",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 2,
+   "shared_root": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-12T00:57:53+00:00",
+  "window": {
+   "from": "2026-11-11T00:57:53+00:00",
+   "to": "2026-11-12T00:57:53+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611120057"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת במתיחות צבאית ומדינית נמשכת, שבה חיזבאללה דוחה כל כוונה להתפרק מנשקו תחת לחץ צבאי ודורש מהממשלה הלבנונית להסוות מגעים עם ישראל. במקביל, צה\"ל ממשיך בפעילות מבצעית בדרום לבנון ובדרום סוריה, בעוד ארגונים בינלאומיים מתריעים על החמרה במשבר ההומניטרי והתזונתי בלבנון.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילה מבצעית ודיפלומטית"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "פעילות צבאית מקומית של צה\"ל"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11120057-01",
+    "title": "תקיפות צה\"ל בדרום לבנון בזמן נאום מזכ\"ל חיזבאללה",
+    "summary": "צה\"ל תקף בכפרים בדרום לבנון במקביל לנאומו של מזכ\"ל חיזבאללה נעים קאסם.",
+    "axis": "חזית לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T17:58:28+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T17:58:28+00:00",
+    "last_update_at": "2026-11-11T17:58:28+00:00",
+    "what_is_not_verified": "פרטים מדויקים על תוצאות התקיפות וסוגי המטרות לא צוינו במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133500",
+      "published_at": "2026-11-11T17:58:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אלמנצורי",
+      "lat": 33.1737,
+      "lon": 35.2111
+     },
+     {
+      "name": "חדאת'א",
+      "lat": 33.1561,
+      "lon": 35.3912
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11120057-02",
+    "title": "חדירת כוחות צה\"ל והשחתת שטח בדרום סוריה",
+    "summary": "כוחות צה\"ל נכנסו למחוז קוניטרה בסוריה, עצרו תושב והפעילו אמצעים שהציתו שטחים חקלאיים.",
+    "axis": "חזית סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T09:24:07+00:00",
+    "last_update_at": "2026-11-11T23:11:00+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והסיבות המדויקות לפעולה מדווחים מצד גורמים סוריים בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-abduct-villager-launch-fresh-incursion-into-southern-syria/4121542",
+      "published_at": "2026-11-11T23:11:00+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-launch-fresh-incursions-into-syrias-quneitra-set-farmland-ablaze/4119963",
+      "published_at": "2026-11-11T09:24:07+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11120057-03",
+    "title": "נאום מזכ\"ל חיזבאללה נעים קאסם",
+    "summary": "מזכ\"ל חיזבאללה הצהיר כי הארגון לא יתפרק מנשקו תחת אש, קרא לממשלת לבנון לסגת מהסכם המסגרת, וטען כי תבוסת יריביו מהווה הזדמנות.",
+    "axis": "חזית לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-11T18:19:44+00:00",
+    "last_update_at": "2026-11-12T00:06:50+00:00",
+    "what_is_not_verified": "מידת היישום בפועל של דרישותיו מהממשלה הלבנונית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/12/us-election-results-could-be-positive-for-lebanon-hezbollah-chief-says?traffic_source=rss",
+      "published_at": "2026-11-12T00:06:50+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-chief-says-trumps-midterm-defeat-opportunity",
+      "published_at": "2026-11-11T22:12:39+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/149587/",
+      "published_at": "2026-11-11T21:26:09+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21833418",
+      "published_at": "2026-11-11T18:19:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לבנון",
+      "lat": 40.3757,
+      "lon": -76.4626
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11120057-04",
+    "title": "אזהרת האו\"ם מפני משבר ביטחון תזונתי חמור בלבנון",
+    "summary": "גופי האו\"ם ומשרד החקלאות הלבנוני הזהירו כי למעלה ממיליון איש בלבנון מתמודדים עם חוסר ביטחון תזונתי חריף בעקבות העימותים הבלתי פוסקים.",
+    "axis": "חזית לבנון",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-11T18:43:40+00:00",
+    "last_update_at": "2026-11-11T18:57:49+00:00",
+    "what_is_not_verified": "ההערכות העתידיות לגבי מספר הנפגעים המדויק מאמצע השנה הבאה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_4249f10c3044979f",
+      "url": "https://www.newarab.com/news/more-one-million-lebanon-face-acute-food-insecurity",
+      "published_at": "2026-11-11T18:57:49+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_f59456834babf420",
+      "url": "https://www.aljazeera.com/news/2026/11/11/one-million-people-in-lebanon-facing-acute-food-insecurity-un-says?traffic_source=rss",
+      "published_at": "2026-11-11T18:43:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לבנון",
+      "lat": 40.3757,
+      "lon": -76.4626
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11120057-05",
+    "title": "דיונים מדיניים בנפרד על תפקיד יוניפי\"ל ונוכחות ביטחונית בדרום לבנון",
+    "summary": "גורמים ישראליים ואמריקאיים דנו בשינוי או מניעת המשך פעילות כוח יוניפי\"ל בדרום לבנון, לצד התנגדות ישראלית ליוזמות אירופיות להקמת כוח צבאי חדש באזור.",
+    "axis": "חזית לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-11T14:50:00+00:00",
+    "last_update_at": "2026-11-11T14:50:00+00:00",
+    "what_is_not_verified": "האם יושגו הסכמות בינלאומיות בפועל לשינוי מנדט הכוח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/967471/israel-seeks-to-reshape-unifils-role-in-lebanon-as-tensions-with-iran/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967471",
+      "published_at": "2026-11-11T14:50:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארה\"ב",
+      "lat": 40.7127,
+      "lon": -74.006
+     },
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "האשמות על מבצע השפעה רשתית זרה בבחירות בישראל שיוחסו לגורמים שונים.",
+   "טענות על מעורבות פיננסית של גורמים זרים בקרב גופים פוליטיים או חברתיים."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.1716,
+    "unit": "ILS",
+    "change_pct": 0.17,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-11T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "אי פירוק נשק הארגון כל עוד נמשכת הלחימה או הכיבוש",
+     "הפסקת התוקפנות הישראלית ונסיגת צה\"ל כתנאי להבנות עתידיות"
+    ],
+    "inferred": [
+     "שימור התשתיות האזרחיות והצבאיות של הארגון בתוך המדינה הלבנונית",
+     "ניצול שינויים פוליטיים חיצוניים בארה\"ב לחיזוק הלגיטימציה של ההתנגדות"
+    ],
+    "forecast": [
+     "המשך סירוב להסכמים מדיניים הכוללים ויתור על הנשק",
+     "הגברת הלחץ הפוליטי על ממשלת לבנון לדחות תכניות פירוק"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות איומים בצפון והרחקת כוחות עוינים מהגבול"
+    ],
+    "inferred": [
+     "שאיפה לשנות את המבנה והאכיפה הבינלאומית בדרום לבנון, כולל פעילות יוניפי\"ל",
+     "שימור חופש הפעולה המבצעי בלבנון ובסוריה"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדות נגד תשתיות ופעילים בגבול הצפון",
+     "המשך לחץ דיפלומטי על שותפות בינלאומיות לשינוי המצב הביטחוני בדרום לבנון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/11/one-million-people-in-lebanon-facing-acute-food-insecurity-un-says?traffic_source=rss",
+    "accessed_at": "2026-11-12T00:57:53+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/149587/",
+    "accessed_at": "2026-11-12T00:57:53+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-launch-fresh-incursions-into-syrias-quneitra-set-farmland-ablaze/4119963",
+    "accessed_at": "2026-11-12T00:57:53+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21833418",
+    "accessed_at": "2026-11-12T00:57:53+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/967471/israel-seeks-to-reshape-unifils-role-in-lebanon-as-tensions-with-iran/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967471",
+    "accessed_at": "2026-11-12T00:57:53+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-chief-says-trumps-midterm-defeat-opportunity",
+    "accessed_at": "2026-11-12T00:57:53+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/more-one-million-lebanon-face-acute-food-insecurity",
+    "accessed_at": "2026-11-12T00:57:53+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133500",
+    "accessed_at": "2026-11-12T00:57:53+00:00"
+   }
+  ]
+ }
+}
