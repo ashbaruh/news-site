@@ -1,0 +1,233 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9013fff21623",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 5
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-13T00:50:27+00:00",
+  "window": {
+   "from": "2026-11-12T00:50:27+00:00",
+   "to": "2026-11-13T00:50:27+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611130050"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בלחימה מתמשכת בדרום לבנון, הכוללת תקיפות של צה\"ל לצד עיסוק פוליטי ומשפטי בלבנון במעמד השטחים הכבושים ובנוכחות זרה. במקביל, מתנהל שיח דיפלומטי וכלכלי בין לבנון לטורקיה תוך חיכוך פוליטי פנימי בביירות סביב מידת ההשפעה של איראן על קבלת ההחלטות במדינה.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11130050-01",
+    "title": "אישור חוק איסור עסקאות נדל\"ן באזורים כבושים בלבנון",
+    "summary": "הפרלמנט הלבנוני אישר בהצבעה תיקונים לטיוטת חוק האוסרת על עסקאות נדל\"ן ומכירת קרקעות באזורים הכבושים בידי הצבא הישראלי.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T22:54:58+00:00",
+    "last_update_at": "2026-11-12T22:54:58+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_15dced32988c4eea",
+      "url": "https://english.almanar.com.lb/article/150182/",
+      "published_at": "2026-11-12T22:54:58+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11130050-02",
+    "title": "תקיפות צה\"ל בדרום לבנון",
+    "summary": "הצבא הישראלי תקף באזור רכס עלי א-טאהר, כפר תבנית וקנטרה שבדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-12T12:44:17+00:00",
+    "last_update_at": "2026-11-12T12:44:17+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133535",
+      "published_at": "2026-11-12T12:44:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפר תבנית",
+      "lat": 33.3519,
+      "lon": 35.5186
+     },
+     {
+      "name": "קנטרה",
+      "lat": 33.2735,
+      "lon": 35.4591
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11130050-03",
+    "title": "דיונים רשמיים בין נשיא לבנון לבנו של נשיא טורקיה",
+    "summary": "נשיא לבנון אירח את בלו ארדואן בבארבא. נשיא לבנון הביע ציפייה לשיתוף פעולה עם טורקיה, בעוד בלו ארדואן הצהיר על תמיכת ארצו במאמצי לבנון להרחיב את ריבונות המדינה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T06:54:44+00:00",
+    "last_update_at": "2026-11-12T06:54:44+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_6e183e6046ff3f89",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/967590/president-aoun-calls-for-stronger-lebanon-turkey-ties-as-bilal-erdogan/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967590",
+      "published_at": "2026-11-12T06:54:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בארבא",
+      "lat": 33.8336,
+      "lon": 35.5446
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11130050-04",
+    "title": "עימות מילולי בפרלמנט הלבנוני סביב עמדת איראן",
+    "summary": "ראש מפלגת הכתאיב סמי ג'ומאייל מחה בפרלמנט על דבריו של יו\"ר הפרלמנט האיראני על חזית משותפת, ויו\"ר הפרלמנט נבי ברי השיב כי לבנון חופשית להחליט.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T06:26:48+00:00",
+    "last_update_at": "2026-11-12T06:26:48+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_eb63e4da3a1155ee",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/967570/sami-gemayel-challenges-iranian-parliament-speakers-remarks-berri-resp/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967570",
+      "published_at": "2026-11-12T06:26:48+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11130050-05",
+    "title": "הקמת גדודי תקיפה בזרוע היבשה הישראלית",
+    "summary": "זרוע היבשה בישראל החלה להקים גדודי תקיפה ייעודיים לקראת תמרון עתידי בעזה ובלבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T03:48:07+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-12T03:48:07+00:00",
+    "last_update_at": "2026-11-12T03:48:07+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "fh_b0fb4ef83a46c544",
+      "url": "https://www.walla.co.il/news/military/383960981",
+      "published_at": "2026-11-12T03:48:07+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "פרטי התכנון המדויקים של גדודי התקיפה החדשים בזרוע היבשה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2032,
+    "unit": "ILS",
+    "change_pct": 1.0,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-12T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הכנה למבצעים אפשריים והיערכות ביטחונית בגזרה"
+    ],
+    "inferred": [
+     "בניית כוח יבשתי מותאם לתמרון בלבנון ופגיעה בתשתיות חיזבאללה"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית ולחימה בעצימות משתנה בדרום לבנון"
+    ]
+   },
+   {
+    "actor": "לבנון",
+    "declared": [
+     "הגנה על ריבונות המדינה ואיסור עסקאות נדל\"ן באזורים הכבושים",
+     "חיזוק קשרים ושיתופי פעולה כלכליים ומדיניים עם טורקיה"
+    ],
+    "inferred": [
+     "ניסיון לאזן בין השפעות חיצוניות (איראן, טורקיה) לבין שמירה על עצמאות מוסדות המדינה"
+    ],
+    "forecast": [
+     "המשך ניסיונות החקיקה והדיפלומטיה להשבת ריבונות וגיוס סיוע לשיקום"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/150182/",
+    "accessed_at": "2026-11-13T00:50:27+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/967570/sami-gemayel-challenges-iranian-parliament-speakers-remarks-berri-resp/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967570",
+    "accessed_at": "2026-11-13T00:50:27+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133535",
+    "accessed_at": "2026-11-13T00:50:27+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383960981",
+    "accessed_at": "2026-11-13T00:50:27+00:00"
+   }
+  ]
+ }
+}

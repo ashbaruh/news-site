@@ -257,319 +257,307 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-11-12T0040__iran-202611120040.json",
+  "draft": "drafts/iran/2026-11-13T0040__iran-202611130040.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-11-12T00:40:37+00:00",
+   "generated_at": "2026-11-13T00:40:30+00:00",
    "window": {
-    "from": "2026-11-11T00:40:37+00:00",
-    "to": "2026-11-12T00:40:37+00:00"
+    "from": "2026-11-12T00:40:30+00:00",
+    "to": "2026-11-13T00:40:30+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "iran-202611120040"
+    "run_id": "iran-202611130040"
    },
-   "summary": "המתיחות בין ישראל וארצות הברית לבין איראן נמשכת ברקע מצור כלכלי-ימי ואיומים הדדיים בהסלמה צבאית. ישראל מגבירה מוכנות למתקפה אפשרית, בעוד בכירים בטהראן מאיימים בתקיפת בסיסים מערביים וסגירת מצר הורמוז אם תחודש הלחימה. במקביל מתקיימים גישושים והעברת תנאים למשא ומתן להפסקת העימות, לצד סנקציות ולחץ כלכלי מתמשך.",
+   "summary": "העימות הצבאי והכלכלי בין איראן לבין ארצות הברית וישראל נמשך תוך חילופי מהלומות ואיומים הדדיים בזירה הימית והאווירית. ארצות הברית מאותתת על הקשחת עמדות ושלילת משא ומתן תוך הפעלת לחץ במצר הורמוז ותקיפות נקודתיות, בעוד איראן מתריעה מפני שיתוף פעולה אזורי ומציגה יכולות טילים. במקביל, ישראל מגבירה את מוכנותה המבצעית לתקיפה מול יכולות הגרעין והטילים, לצד מחלוקות פוליטיות פנימיות בנוגע לתזמון המבצע.",
    "fronts": [
     {
-     "name": "חזית ישראל-איראן",
-     "status": "כוננות והיערכות מוגברת לתקיפות צבאיות הדדיות"
+     "name": "מצר הורמוז והמפרץ",
+     "status": "פגיעות במכליות נפט, זיהום נרחב ומצור כלכלי אמריקני"
     },
     {
-     "name": "חזית ארה\"ב-איראן (מצר הורמוז והמפרץ)",
-     "status": "אכיפת מצור ימי וסנקציות לצד מגעים מדיניים וחילופי איומים"
+     "name": "דרום איראן",
+     "status": "דיווחים על תקיפות מטרות צבאיות בסירכ ובבסיסי משמרות המהפכה"
     },
     {
-     "name": "חזית תוכנית הגרעין האיראנית",
-     "status": "עמידה איראנית על שימור החומר המועשר וסירוב להוצאתו"
+     "name": "הזירה המדינית והביטחונית בישראל",
+     "status": "היערכות לתקיפת תשתיות הטילים והגרעין ודיונים פוליטיים פנימיים"
+    },
+    {
+     "name": "ארה\"ב מול איראן",
+     "status": "הקפאת ערוצי מו\"מ, איומים במתקפות והעברת בכירים אמריקנים לבסיסים מאובטחים"
     }
    ],
    "events": [
     {
-     "id": "IRAN-11120040-01",
-     "title": "הנחיה לצה\"ל להגביר היערכות לאפשרות תקיפה באיראן",
-     "summary": "הקבינט הביטחוני הורה לצבא להגביר את המוכנות לתקיפה אפשרית באיראן, בעוד טהראן מזהירה מתגובה נרחבת אם תותקף.",
-     "axis": "ישראל-איראן",
+     "id": "IRAN-11130040-01",
+     "title": "הצהרות טראמפ על שלילת הצורך בהסכם עם איראן והסטת סגנו משיחות",
+     "summary": "הנשיא טראמפ הודיע כי ארצות הברית אינה זקוקה עוד להסכם מול איראן, תוך אזכור שליטה בכספים איראניים ובמצר הורמוז, והעביר את סגנו ואנס לעסוק בסוגיות פנים.",
+     "axis": "ארצות הברית - איראן",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T21:48:29+00:00",
-     "last_update_at": "2026-11-12T00:00:44+00:00",
-     "what_is_not_verified": "אין אימות עצמאי להחלטת הקבינט שכן הדיווחים נשענים על דיווחים בתקשורת הישראלית ללא הודעה רשמית שצורפה במלואה.",
+     "occurred_at": "2026-11-12T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-12T13:32:54+00:00",
+     "last_update_at": "2026-11-12T21:12:51+00:00",
+     "what_is_not_verified": "אין אימות עצמאי לגבי מעמדו המדויק של ואנס במשא ומתן מעבר לפרסומים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/11/12/iran-war-live-tehran-warns-of-wider-retaliation-israel-kills-in-gaza?traffic_source=rss",
-       "published_at": "2026-11-12T00:00:44+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-sidelines-vance-iran-talks-says-no-need-negotiate",
+       "published_at": "2026-11-12T21:12:51+00:00"
+      },
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202611129077",
+       "published_at": "2026-11-12T21:08:00+00:00"
+      },
+      {
+       "source_id": "src_fdd",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.fdd.org/in_the_news/trump-removes-vance-from-iran-talks-as-u-s-launches-strikes-on-irgc-bases/",
+       "published_at": "2026-11-12T20:12:33+00:00"
+      },
+      {
+       "source_id": "src_fdd",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.fdd.org/in_the_news/trump-says-no-iran-deal-needed/",
+       "published_at": "2026-11-12T19:17:10+00:00"
+      },
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/lelotsenzura/95022",
+       "published_at": "2026-11-12T13:32:54+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11130040-02",
+     "title": "דיווחים על פגיעה ותקיפה באזור סירכ במחוז הורמוזגאן",
+     "summary": "מקורות רשמיים ותקשורתיים באיראן דיווחו על תקיפה צבאית של גורם עוין באזור סירכ שבדרום המדינה, ובישראל יוחסה הפעולה לארצות הברית.",
+     "axis": "ארצות הברית - איראן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-12T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-12T17:50:48+00:00",
+     "last_update_at": "2026-11-12T20:31:32+00:00",
+     "what_is_not_verified": "היקף הנזק והנפגעים, וזהות הגורם התוקף באופן רשמי",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21842708",
+       "published_at": "2026-11-12T20:31:32+00:00"
       },
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-orders-israeli-army-prepare-possible-attack-iran",
-       "published_at": "2026-11-11T21:48:29+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11120040-02",
-     "title": "דובר משרד החוץ האיראני מאשים את ארצות הברית בהפצת מידע כוזב",
-     "summary": "אסמאעיל בקאעי טען כי וושינגטון מנהלת קמפיין כוזב כדי להציג את עצמה כקורבן טרור, וייחס לה פעולות תוקפנות והתנקשות בבכירים ומדענים איראנים.",
-     "axis": "ארה\"ב-איראן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-11T23:24:17+00:00",
-     "last_update_at": "2026-11-11T23:24:17+00:00",
-     "what_is_not_verified": "האשמות איראן בנוגע לפעולות המיוחסות לארה\"ב ולישראל.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_52a519fa935b5af3",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-accuses-us-spreading-disinformation-about-iranian-terrorism",
-       "published_at": "2026-11-11T23:24:17+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11120040-03",
-     "title": "אזהרת בכיר הביטחון האיראני מוחסן רזאי מפני תקיפת בסיסים מערביים",
-     "summary": "מוחסן רזאי איים כי אם ארצות הברית תפתח במלחמה מחדש נגד איראן, כל בסיס צבאי שייקח חלק בתקיפה, מאסיה ועד אירופה, יהווה מטרה לתקיפות קטלניות.",
-     "axis": "ארה\"ב-איראן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-11T22:13:51+00:00",
-     "last_update_at": "2026-11-11T22:35:57+00:00",
-     "what_is_not_verified": "כוונות הפעולה המעשיות והיכולת לפגוע בבסיסים באירופה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_c19bda78001159c0",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-security-chief-warns-western-bases-will-be-targets-retaliation",
-       "published_at": "2026-11-11T22:35:57+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/southern-irans-sirik-attacked-report-says",
+       "published_at": "2026-11-12T19:45:45+00:00"
       },
       {
        "source_id": "src_maariv",
-       "source_root_id": "fh_c19bda78001159c0",
-       "url": "https://www.maariv.co.il/breaking-news/article-1387564",
-       "published_at": "2026-11-11T22:13:51+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.maariv.co.il/breaking-news/article-1387923",
+       "published_at": "2026-11-12T19:31:20+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133566",
+       "published_at": "2026-11-12T19:19:21+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/h16dmu7azg",
+       "published_at": "2026-11-12T17:50:48+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סירכ, איראן",
+       "lat": 26.5177,
+       "lon": 57.1018
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11130040-03",
+     "title": "הזהרת משרד החוץ האיראני מפני סיוע למערכה האמריקנית",
+     "summary": "דובר משרד החוץ של איראן התריע בפני מדינות זרות שלא להעניק סיוע צבאי, ימי או לוגיסטי למערכה האמריקנית נגד איראן, ואיים כי הדבר ייחשב שותפות לתוקפנות.",
+     "axis": "איראן - ארצות הברית",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-12T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-12T19:13:25+00:00",
+     "last_update_at": "2026-11-12T21:20:51+00:00",
+     "what_is_not_verified": "השלכות מעשיות או פעולות תגובה שנקטה איראן בעקבות האזהרה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_240c958b1488e392",
+       "url": "https://en.irna.ir/news/86320269/Iran-warns-foreign-governments-against-involvement-in-US-aggression",
+       "published_at": "2026-11-12T21:20:51+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_240c958b1488e392",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tehran-warns-countries-against-backing-us-war-iran",
+       "published_at": "2026-11-12T19:13:25+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11130040-04",
+     "title": "הצגת טילים בליסטיים בטהראן ובבנדר עבאס",
+     "summary": "באיראן הוצגו טילים בליסטיים מדגמים שונים לקהל בבירה טהראן ובעיר הנמל בנדר עבאס לציון יום השנה למותו של מייסד תוכנית הטילים.",
+     "axis": "איראן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-12T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-12T20:26:15+00:00",
+     "last_update_at": "2026-11-12T20:26:15+00:00",
+     "what_is_not_verified": "אין פירוט מדויק של יכולות הטילים שהוצגו",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133569",
+       "published_at": "2026-11-12T20:26:15+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
+      },
+      {
+       "name": "בנדר עבאס, איראן",
+       "lat": 27.1842,
+       "lon": 56.2893
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11130040-05",
+     "title": "העברת בכירים בממשל האמריקני למתקנים צבאיים עקב איומים",
+     "summary": "בכירים בצמרת הממשל בארצות הברית הועברו לשהייה בבסיסים צבאיים מחשש לפגיעה ישירה מצד איראן.",
+     "axis": "ארצות הברית - איראן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-12T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-12T20:08:10+00:00",
+     "last_update_at": "2026-11-12T20:08:10+00:00",
+     "what_is_not_verified": "רשימת כל הבכירים והבסיסים הספציפיים שבהם הם שוהים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21842796",
+       "published_at": "2026-11-12T20:08:10+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-11120040-04",
-     "title": "דיווחים על בחינת שיחות ישירות בין ואנס לרזאי",
-     "summary": "גורמים מדווחים כי טראמפ הסמיך את סגנו ואנס לנהל משא ומתן מול איראן, ונבחנת פגישה בדוחא עם מוחסן רזאי, על רקע מחלוקות ודרישות איראניות להסרת מצור.",
-     "axis": "ארה\"ב-איראן",
+     "id": "IRAN-11130040-06",
+     "title": "פגיעה במכליות נפט וזיהום נרחב במצר הורמוז",
+     "summary": "במהלך העימות הימי פגעו מוקשים וטילים במכליות נפט במצר הורמוז, דבר שגרם לכתמי נפט משמעותיים ולנזק סביבתי שנצפה מהחלל.",
+     "axis": "ארצות הברית - איראן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-12T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-12T03:00:07+00:00",
+     "last_update_at": "2026-11-12T03:00:07+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק לחי הימי והמספר המלא של המכליות שנפגעו",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
+       "published_at": "2026-11-12T03:00:07+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11130040-07",
+     "title": "דריכות בישראל ופגישות עדכון לקראת החלטות צבאיות מול איראן",
+     "summary": "בישראל נערכים לאפשרות של מהלכים צבאיים נגד מתקני הגרעין והטילים באיראן על רקע דיונים במערכת הביטחון ופגישות תדרוך פוליטיות בין ראש הממשלה לאופוזיציה.",
+     "axis": "ישראל - איראן",
      "claim_type": "assessment",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
+     "occurred_at": "2026-11-12T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-11T20:50:25+00:00",
-     "last_update_at": "2026-11-11T22:54:49+00:00",
-     "what_is_not_verified": "קיומה של פגישה מתוכננת לא אומת, ובפרט כאשר רזאי מכחיש כל משא ומתן.",
+     "first_reported_at": "2026-11-12T15:51:39+00:00",
+     "last_update_at": "2026-11-13T00:32:20+00:00",
+     "what_is_not_verified": "עיתוי הפעולה הישראלית והאם תינתן תמיכה אמריקנית מלאה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ynet",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/symstlfcze",
-       "published_at": "2026-11-11T22:54:49+00:00"
+       "url": "https://www.ynet.co.il/news/article/yokra14957610",
+       "published_at": "2026-11-13T00:32:20+00:00"
       },
       {
        "source_id": "src_israelhayom",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21834887",
-       "published_at": "2026-11-11T20:50:25+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דוחא, קטאר",
-       "lat": 25.2856,
-       "lon": 51.5264
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11120040-05",
-     "title": "הצהרת יו\"ר הפרלמנט האיראני קאליבאף על תנאי המשא ומתן ומצר הורמוז",
-     "summary": "מוחמד באקר קאליבאף ציין כי מצר הורמוז לא ישוב למצבו שלפני המלחמה, וכי טהראן הגישה לארה\"ב שבעה תנאים וממתינה לתשובתה הרשמית.",
-     "axis": "ארה\"ב-איראן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T20:36:48+00:00",
-     "last_update_at": "2026-11-11T21:03:40+00:00",
-     "what_is_not_verified": "תוכן שבעת התנאים המלאים והאם הועברו בערוץ רשמי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
-       "published_at": "2026-11-11T21:03:40+00:00"
+       "url": "https://www.israelhayom.co.il/news/geopolitics/article/21842284",
+       "published_at": "2026-11-12T20:42:26+00:00"
       },
       {
-       "source_id": "src_irna",
+       "source_id": "src_ynet",
        "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86319535/Ghalibaf-Ball-in-US-court-Iran-determined-to-end-state-of-no",
-       "published_at": "2026-11-11T20:36:48+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11120040-06",
-     "title": "פיקוד מרכז של צבא ארה\"ב מדווח על אכיפת המצור הימי על איראן",
-     "summary": "לפי פיקוד מרכז האמריקאי, מאז יולי הוסטו 150 כלי שיט שניסו להפר את המצור על איראן, נמנע ייצוא נפט איראני בהיקף נרחב, ואולצו מעברים מאובטחים במצר הורמוז.",
-     "axis": "ארה\"ב-איראן",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T19:20:44+00:00",
-     "last_update_at": "2026-11-11T19:20:44+00:00",
-     "what_is_not_verified": "נתוני יירוט הספינות והיקפי הנפט המדויקים מבוססים על הודעת הצבא האמריקני בלבד.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133505",
-       "published_at": "2026-11-11T19:20:44+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11120040-07",
-     "title": "נשיא איראן דורש פיצויים בינלאומיים בגין נזקי תקיפות ארה\"ב וישראל",
-     "summary": "בוועידת האקלים באנטליה דרש מסעוד פזשכיאן לקבוע מנגנון שיחייב פיצויים על נזקים סביבתיים שנגרמו בשל התקיפות האמריקניות והישראליות באיראן.",
-     "axis": "ישראל-ארה\"ב-איראן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-11T17:28:14+00:00",
-     "last_update_at": "2026-11-11T17:47:51+00:00",
-     "what_is_not_verified": "היקף הנזק הסביבתי הנטען.",
-     "is_new_in_window": true,
-     "reports": [
+       "url": "https://www.ynet.co.il/news/article/sywoliqaml",
+       "published_at": "2026-11-12T16:08:32+00:00"
+      },
       {
        "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/iran-tells-cop31-it-wants-compensation-environmental-damage-us-israeli-strikes",
-       "published_at": "2026-11-11T17:47:51+00:00"
-      },
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86319460/President-Pezeshkian-urges-global-accountability-over-environmental",
-       "published_at": "2026-11-11T17:28:14+00:00"
+       "url": "https://www.al-monitor.com/originals/2026/11/eisenkot-meets-netanyahu-bid-avoid-iran-strikes",
+       "published_at": "2026-11-12T15:51:39+00:00"
       }
      ],
      "places": [
       {
-       "name": "אנטליה, טורקיה",
-       "lat": 36.8866,
-       "lon": 30.703
+       "name": "ירושלים, ישראל",
+       "lat": 31.7788,
+       "lon": 35.2258
       }
      ]
-    },
-    {
-     "id": "IRAN-11120040-08",
-     "title": "סירוב איראני להוצאת חומר מועשר משטחה",
-     "summary": "… שהיא מסרבת להוציא חומר מועשר מתחומיה ושכל החומר יישאר בשליטתה.",
-     "axis": "איראן-גרעין",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T15:59:55+00:00",
-     "last_update_at": "2026-11-11T15:59:55+00:00",
-     "what_is_not_verified": "לא פורסמה הודעה רשמית ישירה של המועצה העליונה בטקסט מעבר לציטוט בטלגרם.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/95014",
-       "published_at": "2026-11-11T15:59:55+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11120040-09",
-     "title": "מעבר שר האוצר האמריקני לבסיס צבאי בשל איומים איראניים",
-     "summary": "שר האוצר של ארה\"ב סקוט בסנט עבר להתגורר בבסיס צבאי עקב התרעות מודיעיניות על כוונות איראניות לפגוע בחייו.",
-     "axis": "ארה\"ב-איראן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T09:11:30+00:00",
-     "last_update_at": "2026-11-11T15:06:01+00:00",
-     "what_is_not_verified": "פרטי המזימה המודיעינית המדויקת להתנקשות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133488",
-       "published_at": "2026-11-11T15:06:01+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats",
-       "published_at": "2026-11-11T09:11:30+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11120040-10",
-     "title": "ביטול חוזה גז של חברה פולנית עם קטאר עקב התקיפות האיראניות",
-     "summary": "חברת האנרגיה הפולנית ביטלה חוזה אספקת גז נוזלי ארוך טווח עם קטאר עקב שיבושים ביצוא שנגרמו מתקיפות איראניות במפרץ.",
-     "axis": "מפרץ-איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-11T14:28:46+00:00",
-     "last_update_at": "2026-11-11T14:28:46+00:00",
-     "what_is_not_verified": "מידת הפגיעה המדויקת בתשתיות הגז הקטאריות שהובילה לביטול.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49496",
-       "published_at": "2026-11-11T14:28:46+00:00"
-      }
-     ],
-     "places": []
     }
    ],
    "not_verified": [
-    "בחינת פגישה ישירה בין ג'יי די ואנס למוחסן רזאי בדוחא",
-    "טענות על שימוש בגורמים על-טבעיים לאיתור בכירים",
-    "פרטי תוכניות ההתנקשות בשר האוצר האמריקני ובכירים נוספים",
-    "היקף הנזק הסביבתי של תקיפות צבאיות באיראן"
+    "זהות התוקף והיקף הנזק הממשי בתקיפה המדווחת בסירכ",
+    "מידת המוכנות של ישראל לצאת למבצע צבאי ללא תמיכה אמריקנית פעילה",
+    "ההשפעה המדויקת של לחץ מדינות המפרץ על השהיית התקיפות של טראמפ",
+    "טענות בנוגע לשינוי אסטרטגי פנימי במוסד הישראלי שנשענות על דיווח זר"
    ],
    "map": {
     "confidence": "medium",
@@ -580,152 +568,150 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.1716,
+     "value": 3.2032,
      "unit": "ILS",
-     "change_pct": 0.17,
+     "change_pct": 1.0,
      "source_id": "src_ecb",
-     "as_of": "2026-11-11T15:00:00+00:00"
+     "as_of": "2026-11-12T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "איראן",
+     "actor": "ארצות הברית",
      "declared": [
-      "הסרת המצור הכלכלי ושחרור נכסים כתנאי לשיחות",
-      "סירוב להוצאת חומר גרעיני מועשר משטחה",
-      "פגיעה בכל בסיס צבאי שישמש לתקיפה נגדה"
+      "שלילת הצורך בהסכם עם איראן",
+      "שליטה במצר הורמוז ובכספים איראניים",
+      "הגנה על בעלות ברית ונכונות לתקוף אם המצב יחמיר"
      ],
      "inferred": [
-      "שימור יכולות הגרעין וההרתעה הצבאית",
-      "מניעת חידוש מתקפה ישראלית-אמריקנית רחבה",
-      "שיקום הכלכלה באמצעות פתיחת נתיבי מסחר"
+      "הפעלת מנופי לחץ מקסימליים להחלשת השלטון בטהראן",
+      "הרחקת גורמים מתונים מניהול המגעים כדי לכפות כניעה או תקיפה"
      ],
      "forecast": [
-      "המשך איומים על השיט במצר הורמוז לצד העברת דרישות להסדר",
-      "התבצרות בעמדות בנושא הגרעין למרות לחצי הסנקציות"
+      "המשך הגבלות השיט והחרפת העיצומים לצד אפשרות להרחבת תקיפות נקודתיות"
+     ]
+    },
+    {
+     "actor": "איראן",
+     "declared": [
+      "אזהרת מדינות זרות מפני סיוע למאמץ המלחמתי האמריקני",
+      "דחיית האשמות על פעילות ריגול באירופה",
+      "הצגת מוכנות והרתעה באמצעות מערכי טילים בליסטיים"
+     ],
+     "inferred": [
+      "ניסיון להרתיע את מדינות המפרץ ממתן גישה צבאית לכוחות זרים",
+      "המשך שיקום ושימור מערך הטילים לצורכי הישרדות ומענה לתקיפות"
+     ],
+     "forecast": [
+      "איראן תמשיך לאיים על נתיבי שיט ועל בסיסים אזוריים אם תחודש האש בעוצמה גבוהה"
      ]
     },
     {
      "actor": "ישראל",
      "declared": [
-      "היערכות צבאית לאפשרות של תקיפה באיראן",
-      "מניעת השגת נשק גרעיני בידי המשטר האיראני"
+      "מוכנות של מערכת הביטחון לכלל התרחישים המבצעיים",
+      "צורך בפגיעה משמעותית ביכולות הטילים והגרעין של איראן"
      ],
      "inferred": [
-      "דחיפה לסיכול תוכנית הגרעין לפני הגעה להסדר דיפלומטי",
-      "הפעלת לחץ מרבי על הממשל האמריקאי לתמיכה בפעולה צבאית"
+      "העדפה לפעול בתיאום מלא עם ארצות הברית תוך שמירה על אופציה חד-צדדית",
+      "חשש מפני דחיית המערכה והתעצמות איראנית מחודשת"
      ],
      "forecast": [
-      "המשך אימונים והיערכות מבצעית לקראת החלטות מדיניות",
-      "התנגדות עזה להסכמים דיפלומטיים שאינם כוללים פירוק מלא"
-     ]
-    },
-    {
-     "actor": "ארצות הברית",
-     "declared": [
-      "חניקת הכלכלה האיראנית באמצעות סנקציות ומצור ימי",
-      "מניעת נשק גרעיני מאיראן לצד בחינת אפיקים דיפלומטיים"
-     ],
-     "inferred": [
-      "השגת הסכם בתנאים אמריקניים תוך הימנעות מהרחבת המלחמה",
-      "אבטחת נתיבי השיט והנפט במפרץ תוך בידוד טהראן"
-     ],
-     "forecast": [
-      "המשך אכיפת המצור הימי והסנקציות הכלכליות",
-      "בחינת ערוצי משא ומתן עקיפים או ישירים להסדרת המצב"
+      "המשך לחץ מדיני וביטחוני להוצאת תקיפה משותפת לפועל או היערכות לפעולה עצמאית"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
-     "accessed_at": "2026-11-12T00:40:37+00:00"
+     "source_id": "src_almonitor",
+     "url": "https://www.al-monitor.com/originals/2026/11/eisenkot-meets-netanyahu-bid-avoid-iran-strikes",
+     "accessed_at": "2026-11-13T00:40:30+00:00"
     },
     {
-     "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/11/iran-tells-cop31-it-wants-compensation-environmental-damage-us-israeli-strikes",
-     "accessed_at": "2026-11-12T00:40:37+00:00"
+     "source_id": "src_fdd",
+     "url": "https://www.fdd.org/in_the_news/trump-says-no-iran-deal-needed/",
+     "accessed_at": "2026-11-13T00:40:30+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats",
-     "accessed_at": "2026-11-12T00:40:37+00:00"
+     "url": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
+     "accessed_at": "2026-11-13T00:40:30+00:00"
+    },
+    {
+     "source_id": "src_iranintl",
+     "url": "https://www.iranintl.com/en/202611129077",
+     "accessed_at": "2026-11-13T00:40:30+00:00"
     },
     {
      "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86319460/President-Pezeshkian-urges-global-accountability-over-environmental",
-     "accessed_at": "2026-11-12T00:40:37+00:00"
+     "url": "https://en.irna.ir/news/86320269/Iran-warns-foreign-governments-against-involvement-in-US-aggression",
+     "accessed_at": "2026-11-13T00:40:30+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21834887",
-     "accessed_at": "2026-11-12T00:40:37+00:00"
+     "url": "https://www.israelhayom.co.il/news/geopolitics/article/21842284",
+     "accessed_at": "2026-11-13T00:40:30+00:00"
     },
     {
      "source_id": "src_maariv",
-     "url": "https://www.maariv.co.il/breaking-news/article-1387564",
-     "accessed_at": "2026-11-12T00:40:37+00:00"
+     "url": "https://www.maariv.co.il/breaking-news/article-1387923",
+     "accessed_at": "2026-11-13T00:40:30+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-security-chief-warns-western-bases-will-be-targets-retaliation",
-     "accessed_at": "2026-11-12T00:40:37+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tehran-warns-countries-against-backing-us-war-iran",
+     "accessed_at": "2026-11-13T00:40:30+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/133488",
-     "accessed_at": "2026-11-12T00:40:37+00:00"
-    },
-    {
-     "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49496",
-     "accessed_at": "2026-11-12T00:40:37+00:00"
+     "url": "https://t.me/abualiexpress/133569",
+     "accessed_at": "2026-11-13T00:40:30+00:00"
     },
     {
      "source_id": "src_tg_lelotsenzura",
-     "url": "https://t.me/lelotsenzura/95014",
-     "accessed_at": "2026-11-12T00:40:37+00:00"
+     "url": "https://t.me/lelotsenzura/95022",
+     "accessed_at": "2026-11-13T00:40:30+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/symstlfcze",
-     "accessed_at": "2026-11-12T00:40:37+00:00"
+     "url": "https://www.ynet.co.il/news/article/sywoliqaml",
+     "accessed_at": "2026-11-13T00:40:30+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-11T00:40:26+00:00",
+  "previous_generated_at": "2026-11-12T00:40:37+00:00",
   "changes": {
-   "IRAN-11120040-01": {
+   "IRAN-11130040-01": {
     "kind": "new"
    },
-   "IRAN-11120040-02": {
+   "IRAN-11130040-02": {
     "kind": "new"
    },
-   "IRAN-11120040-03": {
+   "IRAN-11130040-03": {
+    "kind": "same",
+    "from": "initial",
+    "to": "shared_root",
+    "prev": "דובר משרד החוץ האיראני מאשים את ארצות הברית בהפצת מידע כוזב",
+    "score": 0.65
+   },
+   "IRAN-11130040-04": {
     "kind": "new"
    },
-   "IRAN-11120040-04": {
-    "kind": "new"
+   "IRAN-11130040-05": {
+    "kind": "possible",
+    "prev": "מעבר שר האוצר האמריקני לבסיס צבאי בשל איומים איראניים",
+    "score": 0.467
    },
-   "IRAN-11120040-05": {
-    "kind": "new"
+   "IRAN-11130040-06": {
+    "kind": "possible",
+    "prev": "הצהרת יו\"ר הפרלמנט האיראני קאליבאף על תנאי המשא ומתן ומצר הורמוז",
+    "score": 0.467
    },
-   "IRAN-11120040-06": {
-    "kind": "new"
-   },
-   "IRAN-11120040-07": {
-    "kind": "new"
-   },
-   "IRAN-11120040-08": {
-    "kind": "new"
-   },
-   "IRAN-11120040-09": {
-    "kind": "new"
-   },
-   "IRAN-11120040-10": {
-    "kind": "new"
+   "IRAN-11130040-07": {
+    "kind": "possible",
+    "prev": "נשיא איראן דורש פיצויים בינלאומיים בגין נזקי תקיפות ארה\"ב וישראל",
+    "score": 0.467
    }
   }
  },
@@ -1244,214 +1230,162 @@ window.DB.war_published = {
   }
  },
  "north": {
-  "draft": "drafts/north/2026-11-12T0057__north-202611120057.json",
+  "draft": "drafts/north/2026-11-13T0050__north-202611130050.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-11-12T00:57:53+00:00",
+   "generated_at": "2026-11-13T00:50:27+00:00",
    "window": {
-    "from": "2026-11-11T00:57:53+00:00",
-    "to": "2026-11-12T00:57:53+00:00"
+    "from": "2026-11-12T00:50:27+00:00",
+    "to": "2026-11-13T00:50:27+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "north-202611120057"
+    "run_id": "north-202611130050"
    },
-   "summary": "הגזרה הצפונית מתאפיינת במתיחות צבאית ומדינית נמשכת, שבה חיזבאללה דוחה כל כוונה להתפרק מנשקו תחת לחץ צבאי ודורש מהממשלה הלבנונית להסוות מגעים עם ישראל. במקביל, צה\"ל ממשיך בפעילות מבצעית בדרום לבנון ובדרום סוריה, בעוד ארגונים בינלאומיים מתריעים על החמרה במשבר ההומניטרי והתזונתי בלבנון.",
+   "summary": "הגזרה הצפונית מתאפיינת בלחימה מתמשכת בדרום לבנון, הכוללת תקיפות של צה\"ל לצד עיסוק פוליטי ומשפטי בלבנון במעמד השטחים הכבושים ובנוכחות זרה. במקביל, מתנהל שיח דיפלומטי וכלכלי בין לבנון לטורקיה תוך חיכוך פוליטי פנימי בביירות סביב מידת ההשפעה של איראן על קבלת ההחלטות במדינה.",
    "fronts": [
     {
      "name": "החזית הלבנונית",
-     "status": "פעילה מבצעית ודיפלומטית"
-    },
-    {
-     "name": "החזית הסורית",
-     "status": "פעילות צבאית מקומית של צה\"ל"
+     "status": "פעילה"
     }
    ],
    "events": [
     {
-     "id": "NORTH-11120057-01",
-     "title": "תקיפות צה\"ל בדרום לבנון בזמן נאום מזכ\"ל חיזבאללה",
-     "summary": "צה\"ל תקף בכפרים בדרום לבנון במקביל לנאומו של מזכ\"ל חיזבאללה נעים קאסם.",
-     "axis": "חזית לבנון",
+     "id": "NORTH-11130050-01",
+     "title": "אישור חוק איסור עסקאות נדל\"ן באזורים כבושים בלבנון",
+     "summary": "הפרלמנט הלבנוני אישר בהצבעה תיקונים לטיוטת חוק האוסרת על עסקאות נדל\"ן ומכירת קרקעות באזורים הכבושים בידי הצבא הישראלי.",
+     "axis": "הגזרה הצפונית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T17:58:28+00:00",
+     "occurred_at": "2026-11-12T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-11T17:58:28+00:00",
-     "last_update_at": "2026-11-11T17:58:28+00:00",
-     "what_is_not_verified": "פרטים מדויקים על תוצאות התקיפות וסוגי המטרות לא צוינו במלואם.",
+     "first_reported_at": "2026-11-12T22:54:58+00:00",
+     "last_update_at": "2026-11-12T22:54:58+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133500",
-       "published_at": "2026-11-11T17:58:28+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אלמנצורי",
-       "lat": 33.1737,
-       "lon": 35.2111
-      },
-      {
-       "name": "חדאת'א",
-       "lat": 33.1561,
-       "lon": 35.3912
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11120057-02",
-     "title": "חדירת כוחות צה\"ל והשחתת שטח בדרום סוריה",
-     "summary": "כוחות צה\"ל נכנסו למחוז קוניטרה בסוריה, עצרו תושב והפעילו אמצעים שהציתו שטחים חקלאיים.",
-     "axis": "חזית סוריה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-11T09:24:07+00:00",
-     "last_update_at": "2026-11-11T23:11:00+00:00",
-     "what_is_not_verified": "היקף הנזק המלא והסיבות המדויקות לפעולה מדווחים מצד גורמים סוריים בלבד.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-abduct-villager-launch-fresh-incursion-into-southern-syria/4121542",
-       "published_at": "2026-11-11T23:11:00+00:00"
-      },
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-launch-fresh-incursions-into-syrias-quneitra-set-farmland-ablaze/4119963",
-       "published_at": "2026-11-11T09:24:07+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "fh_15dced32988c4eea",
+       "url": "https://english.almanar.com.lb/article/150182/",
+       "published_at": "2026-11-12T22:54:58+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-11120057-03",
-     "title": "נאום מזכ\"ל חיזבאללה נעים קאסם",
-     "summary": "מזכ\"ל חיזבאללה הצהיר כי הארגון לא יתפרק מנשקו תחת אש, קרא לממשלת לבנון לסגת מהסכם המסגרת, וטען כי תבוסת יריביו מהווה הזדמנות.",
-     "axis": "חזית לבנון",
-     "claim_type": "statement",
+     "id": "NORTH-11130050-02",
+     "title": "תקיפות צה\"ל בדרום לבנון",
+     "summary": "הצבא הישראלי תקף באזור רכס עלי א-טאהר, כפר תבנית וקנטרה שבדרום לבנון.",
+     "axis": "הגזרה הצפונית",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
+     "occurred_at": "2026-11-12T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-12T12:44:17+00:00",
+     "last_update_at": "2026-11-12T12:44:17+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133535",
+       "published_at": "2026-11-12T12:44:17+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "כפר תבנית",
+       "lat": 33.3519,
+       "lon": 35.5186
+      },
+      {
+       "name": "קנטרה",
+       "lat": 33.2735,
+       "lon": 35.4591
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11130050-03",
+     "title": "דיונים רשמיים בין נשיא לבנון לבנו של נשיא טורקיה",
+     "summary": "נשיא לבנון אירח את בלו ארדואן בבארבא. נשיא לבנון הביע ציפייה לשיתוף פעולה עם טורקיה, בעוד בלו ארדואן הצהיר על תמיכת ארצו במאמצי לבנון להרחיב את ריבונות המדינה.",
+     "axis": "הגזרה הצפונית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-12T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-11T18:19:44+00:00",
-     "last_update_at": "2026-11-12T00:06:50+00:00",
-     "what_is_not_verified": "מידת היישום בפועל של דרישותיו מהממשלה הלבנונית.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/11/12/us-election-results-could-be-positive-for-lebanon-hezbollah-chief-says?traffic_source=rss",
-       "published_at": "2026-11-12T00:06:50+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-chief-says-trumps-midterm-defeat-opportunity",
-       "published_at": "2026-11-11T22:12:39+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/149587/",
-       "published_at": "2026-11-11T21:26:09+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21833418",
-       "published_at": "2026-11-11T18:19:44+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "לבנון",
-       "lat": 40.3757,
-       "lon": -76.4626
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11120057-04",
-     "title": "אזהרת האו\"ם מפני משבר ביטחון תזונתי חמור בלבנון",
-     "summary": "גופי האו\"ם ומשרד החקלאות הלבנוני הזהירו כי למעלה ממיליון איש בלבנון מתמודדים עם חוסר ביטחון תזונתי חריף בעקבות העימותים הבלתי פוסקים.",
-     "axis": "חזית לבנון",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T18:43:40+00:00",
-     "last_update_at": "2026-11-11T18:57:49+00:00",
-     "what_is_not_verified": "ההערכות העתידיות לגבי מספר הנפגעים המדויק מאמצע השנה הבאה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_4249f10c3044979f",
-       "url": "https://www.newarab.com/news/more-one-million-lebanon-face-acute-food-insecurity",
-       "published_at": "2026-11-11T18:57:49+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "fh_f59456834babf420",
-       "url": "https://www.aljazeera.com/news/2026/11/11/one-million-people-in-lebanon-facing-acute-food-insecurity-un-says?traffic_source=rss",
-       "published_at": "2026-11-11T18:43:40+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "לבנון",
-       "lat": 40.3757,
-       "lon": -76.4626
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11120057-05",
-     "title": "דיונים מדיניים בנפרד על תפקיד יוניפי\"ל ונוכחות ביטחונית בדרום לבנון",
-     "summary": "גורמים ישראליים ואמריקאיים דנו בשינוי או מניעת המשך פעילות כוח יוניפי\"ל בדרום לבנון, לצד התנגדות ישראלית ליוזמות אירופיות להקמת כוח צבאי חדש באזור.",
-     "axis": "חזית לבנון",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T14:50:00+00:00",
-     "last_update_at": "2026-11-11T14:50:00+00:00",
-     "what_is_not_verified": "האם יושגו הסכמות בינלאומיות בפועל לשינוי מנדט הכוח.",
+     "first_reported_at": "2026-11-12T06:54:44+00:00",
+     "last_update_at": "2026-11-12T06:54:44+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/967471/israel-seeks-to-reshape-unifils-role-in-lebanon-as-tensions-with-iran/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967471",
-       "published_at": "2026-11-11T14:50:00+00:00"
+       "source_root_id": "fh_6e183e6046ff3f89",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/967590/president-aoun-calls-for-stronger-lebanon-turkey-ties-as-bilal-erdogan/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967590",
+       "published_at": "2026-11-12T06:54:44+00:00"
       }
      ],
      "places": [
       {
-       "name": "ניו יורק, ארה\"ב",
-       "lat": 40.7127,
-       "lon": -74.006
-      },
-      {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
+       "name": "בארבא",
+       "lat": 33.8336,
+       "lon": 35.5446
       }
      ]
+    },
+    {
+     "id": "NORTH-11130050-04",
+     "title": "עימות מילולי בפרלמנט הלבנוני סביב עמדת איראן",
+     "summary": "ראש מפלגת הכתאיב סמי ג'ומאייל מחה בפרלמנט על דבריו של יו\"ר הפרלמנט האיראני על חזית משותפת, ויו\"ר הפרלמנט נבי ברי השיב כי לבנון חופשית להחליט.",
+     "axis": "הגזרה הצפונית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-12T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-12T06:26:48+00:00",
+     "last_update_at": "2026-11-12T06:26:48+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "fh_eb63e4da3a1155ee",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/967570/sami-gemayel-challenges-iranian-parliament-speakers-remarks-berri-resp/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967570",
+       "published_at": "2026-11-12T06:26:48+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-11130050-05",
+     "title": "הקמת גדודי תקיפה בזרוע היבשה הישראלית",
+     "summary": "זרוע היבשה בישראל החלה להקים גדודי תקיפה ייעודיים לקראת תמרון עתידי בעזה ובלבנון.",
+     "axis": "הגזרה הצפונית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-12T03:48:07+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-12T03:48:07+00:00",
+     "last_update_at": "2026-11-12T03:48:07+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_walla",
+       "source_root_id": "fh_b0fb4ef83a46c544",
+       "url": "https://www.walla.co.il/news/military/383960981",
+       "published_at": "2026-11-12T03:48:07+00:00"
+      }
+     ],
+     "places": []
     }
    ],
    "not_verified": [
-    "האשמות על מבצע השפעה רשתית זרה בבחירות בישראל שיוחסו לגורמים שונים.",
-    "טענות על מעורבות פיננסית של גורמים זרים בקרב גופים פוליטיים או חברתיים."
+    "פרטי התכנון המדויקים של גדודי התקיפה החדשים בזרוע היבשה"
    ],
    "map": {
     "confidence": "medium",
@@ -1462,112 +1396,86 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.1716,
+     "value": 3.2032,
      "unit": "ILS",
-     "change_pct": 0.17,
+     "change_pct": 1.0,
      "source_id": "src_ecb",
-     "as_of": "2026-11-11T15:00:00+00:00"
+     "as_of": "2026-11-12T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "חיזבאללה",
+     "actor": "ישראל",
      "declared": [
-      "אי פירוק נשק הארגון כל עוד נמשכת הלחימה או הכיבוש",
-      "הפסקת התוקפנות הישראלית ונסיגת צה\"ל כתנאי להבנות עתידיות"
+      "הכנה למבצעים אפשריים והיערכות ביטחונית בגזרה"
      ],
      "inferred": [
-      "שימור התשתיות האזרחיות והצבאיות של הארגון בתוך המדינה הלבנונית",
-      "ניצול שינויים פוליטיים חיצוניים בארה\"ב לחיזוק הלגיטימציה של ההתנגדות"
+      "בניית כוח יבשתי מותאם לתמרון בלבנון ופגיעה בתשתיות חיזבאללה"
      ],
      "forecast": [
-      "המשך סירוב להסכמים מדיניים הכוללים ויתור על הנשק",
-      "הגברת הלחץ הפוליטי על ממשלת לבנון לדחות תכניות פירוק"
+      "המשך פעילות צבאית ולחימה בעצימות משתנה בדרום לבנון"
      ]
     },
     {
-     "actor": "ישראל",
+     "actor": "לבנון",
      "declared": [
-      "מניעת התבססות איומים בצפון והרחקת כוחות עוינים מהגבול"
+      "הגנה על ריבונות המדינה ואיסור עסקאות נדל\"ן באזורים הכבושים",
+      "חיזוק קשרים ושיתופי פעולה כלכליים ומדיניים עם טורקיה"
      ],
      "inferred": [
-      "שאיפה לשנות את המבנה והאכיפה הבינלאומית בדרום לבנון, כולל פעילות יוניפי\"ל",
-      "שימור חופש הפעולה המבצעי בלבנון ובסוריה"
+      "ניסיון לאזן בין השפעות חיצוניות (איראן, טורקיה) לבין שמירה על עצמאות מוסדות המדינה"
      ],
      "forecast": [
-      "המשך תקיפות ממוקדות נגד תשתיות ופעילים בגבול הצפון",
-      "המשך לחץ דיפלומטי על שותפות בינלאומיות לשינוי המצב הביטחוני בדרום לבנון"
+      "המשך ניסיונות החקיקה והדיפלומטיה להשבת ריבונות וגיוס סיוע לשיקום"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/11/one-million-people-in-lebanon-facing-acute-food-insecurity-un-says?traffic_source=rss",
-     "accessed_at": "2026-11-12T00:57:53+00:00"
-    },
-    {
      "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/149587/",
-     "accessed_at": "2026-11-12T00:57:53+00:00"
-    },
-    {
-     "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-launch-fresh-incursions-into-syrias-quneitra-set-farmland-ablaze/4119963",
-     "accessed_at": "2026-11-12T00:57:53+00:00"
-    },
-    {
-     "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21833418",
-     "accessed_at": "2026-11-12T00:57:53+00:00"
+     "url": "https://english.almanar.com.lb/article/150182/",
+     "accessed_at": "2026-11-13T00:50:27+00:00"
     },
     {
      "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/967471/israel-seeks-to-reshape-unifils-role-in-lebanon-as-tensions-with-iran/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967471",
-     "accessed_at": "2026-11-12T00:57:53+00:00"
-    },
-    {
-     "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-chief-says-trumps-midterm-defeat-opportunity",
-     "accessed_at": "2026-11-12T00:57:53+00:00"
-    },
-    {
-     "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/more-one-million-lebanon-face-acute-food-insecurity",
-     "accessed_at": "2026-11-12T00:57:53+00:00"
+     "url": "https://www.lbcgroup.tv/news/lebanon-news/967570/sami-gemayel-challenges-iranian-parliament-speakers-remarks-berri-resp/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967570",
+     "accessed_at": "2026-11-13T00:50:27+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/133500",
-     "accessed_at": "2026-11-12T00:57:53+00:00"
+     "url": "https://t.me/abualiexpress/133535",
+     "accessed_at": "2026-11-13T00:50:27+00:00"
+    },
+    {
+     "source_id": "src_walla",
+     "url": "https://www.walla.co.il/news/military/383960981",
+     "accessed_at": "2026-11-13T00:50:27+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-11T00:52:04+00:00",
+  "previous_generated_at": "2026-11-12T00:57:53+00:00",
   "changes": {
-   "NORTH-11120057-01": {
+   "NORTH-11130050-01": {
     "kind": "new"
    },
-   "NORTH-11120057-02": {
-    "kind": "possible",
-    "prev": "פעילות כוחות צבא ישראל במרחב קוניטרה בסוריה",
-    "score": 0.467
-   },
-   "NORTH-11120057-03": {
-    "kind": "new"
-   },
-   "NORTH-11120057-04": {
-    "kind": "possible",
-    "prev": "אזרח ישראלי חצה את הגבול ללבנון ונכנס לעמדת או\"ם",
-    "score": 0.467
-   },
-   "NORTH-11120057-05": {
-    "kind": "down",
-    "from": "verified",
+   "NORTH-11130050-02": {
+    "kind": "same",
+    "from": "initial",
     "to": "initial",
-    "prev": "ירי לעבר סיור יוניפי\"ל בדרום לבנון",
+    "prev": "תקיפות צה\"ל בדרום לבנון בזמן נאום מזכ\"ל חיזבאללה",
     "score": 0.65
+   },
+   "NORTH-11130050-03": {
+    "kind": "possible",
+    "prev": "דיונים מדיניים בנפרד על תפקיד יוניפי\"ל ונוכחות ביטחונית בדרום לבנון",
+    "score": 0.467
+   },
+   "NORTH-11130050-04": {
+    "kind": "new"
+   },
+   "NORTH-11130050-05": {
+    "kind": "new"
    }
   }
  }
