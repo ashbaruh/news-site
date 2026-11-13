@@ -1,230 +1,218 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-13T12:00:00+02:00",
- "generated_at": "2026-11-13T09:40:09+00:00",
- "model": "gemini-3.8-flash",
+ "slot": "2026-11-13T18:00:00+02:00",
+ "generated_at": "2026-11-13T19:10:37+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11130940-01",
-     "title": "איראן טוענת שתקפה מכ\"ם אמריקאי בבחריין",
-     "summary": "משמרות המהפכה הודיעו כי פגעו במכ\"ם התרעה מוקדמת של ארצות הברית בבחריין בתגובה לפגיעה במגדל תקשורת בדרום איראן.",
-     "axis": "עימות צבאי ישיר בין איראן לארה\"ב במפרץ",
-     "claim_type": "statement",
+     "id": "IRAN-11131910-01",
+     "title": "הקמת צינור נפט באמירויות",
+     "summary": "חברת הנפט הלאומית של אבו דאבי מקימה צינור נפט יבשתי שני כדי לצמצם את התלות במצר הורמוז ולהכפיל את קיבולת הולכת הנפט.",
+     "axis": "iran",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-13T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-13T08:03:07+00:00",
-     "last_update_at": "2026-11-13T09:24:28+00:00",
-     "what_is_not_verified": "אין אימות אמריקאי או עצמאי לפגיעה בפועל במכ\"ם או להרס שלו.",
+     "occurred_at": "2026-11-13T13:10:51+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-13T13:10:51+00:00",
+     "last_update_at": "2026-11-13T13:10:51+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133583",
-       "published_at": "2026-11-13T09:24:28+00:00"
-      },
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202611137770",
-       "published_at": "2026-11-13T08:26:09+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-668",
-       "published_at": "2026-11-13T08:03:07+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_src_tg_carmel",
+       "url": "https://t.me/alexmehacarmel/49549",
+       "published_at": "2026-11-13T13:10:51+00:00"
       }
      ],
      "places": [
       {
-       "name": "סיריכ, איראן",
-       "lat": 26.5177,
-       "lon": 57.1018
+       "name": "פוג'יירה, איחוד האמירויות",
+       "lat": 25.1245,
+       "lon": 56.3355
       }
      ]
     },
     {
-     "id": "IRAN-11130940-02",
-     "title": "מכלית גז התפוצצה ממוקש ימי במצר הורמוז",
-     "summary": "חיל הים של משמרות המהפכה מסר כי מכלית גז נוזלי נפגעה ממוקש ימי והתפוצצה במזרח מצר הורמוז לאחר שלטענתו התעלמה מאזהרות.",
-     "axis": "פעילות ימית וביטחון השיט במצר הורמוז",
+     "id": "IRAN-11131910-02",
+     "title": "פתיחת מרכז אימונים צבאי לנשים באיראן",
+     "summary": "משטר האייתוללות פתח מרכז הכשרה צבאי חדש לנשים המכונה ג'אנפאדה.",
+     "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "occurred_at": "2026-11-13T12:40:16+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-13T07:17:33+00:00",
-     "last_update_at": "2026-11-13T08:28:56+00:00",
-     "what_is_not_verified": "אין אימות עצמאי לנסיבות הפיצוץ ולזהות כלי השיט הנפגע.",
+     "first_reported_at": "2026-11-13T12:40:16+00:00",
+     "last_update_at": "2026-11-13T12:40:16+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_irna",
-       "source_root_id": "fh_724eb6b85e912075",
-       "url": "https://en.irna.ir/news/86320447/Liquefied-gas-carrier-explodes-after-striking-naval-mine-in-Strait",
-       "published_at": "2026-11-13T08:28:56+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_724eb6b85e912075",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-navy-says-tanker-explodes-after-hitting-sea-mine-hormuz-strait",
-       "published_at": "2026-11-13T07:17:33+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_src_tg_carmel",
+       "url": "https://t.me/alexmehacarmel/49548",
+       "published_at": "2026-11-13T12:40:16+00:00"
       }
      ],
      "places": []
+    },
+    {
+     "id": "IRAN-11131910-03",
+     "title": "דוח סבא\"א על מתקן באספהאן",
+     "summary": "דוח חסוי של סבא\"א מצביע על חשש כבד סביב מתקן להעשרת אורניום באספהאן שאליו מסרבת איראן לאפשר גישה לפקחים.",
+     "axis": "iran",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T10:41:29+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-13T10:41:29+00:00",
+     "last_update_at": "2026-11-13T10:41:29+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/lelotsenzura/95024",
+       "published_at": "2026-11-13T10:41:29+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אספהאן, איראן",
+       "lat": 32.6708,
+       "lon": 51.665
+      }
+     ]
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-11130940-01",
-     "title": "התגברות תקיפות וירי ארטילרי בדרום לבנון",
-     "summary": "כוחות ישראליים הגבירו את התקיפות והתנועות הצבאיות במספר אזורים בדרום לבנון תוך שימוש בירי ארטילרי ומקלעים כבדים.",
-     "axis": "לחימה בגבול הצפון ודרום לבנון",
+     "id": "NORTH-11131910-01",
+     "title": "תפיסת מחסן אמצעי לחימה בביירות",
+     "summary": "הצבא הלבנוני פשט על מחסן נשק ותחמושת בפרברים הדרומיים של ביירות ועצר חשוד אחד.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-13T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-13T08:53:12+00:00",
-     "last_update_at": "2026-11-13T08:53:12+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק ומספר הנפגעים אינם מפורטים.",
+     "occurred_at": "2026-11-13T18:12:09+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T18:12:09+00:00",
+     "last_update_at": "2026-11-13T18:17:07+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_c90528ba0e35c3a6",
-       "url": "https://english.almanar.com.lb/article/150287/",
-       "published_at": "2026-11-13T08:53:12+00:00"
+       "source_id": "src_anadolu",
+       "source_root_id": "fh_f78f6d25f0f36489",
+       "url": "https://www.aa.com.tr/en/middle-east/lebanese-army-seizes-weapons-depot-in-beiruts-southern-suburbs/4124664",
+       "published_at": "2026-11-13T18:17:07+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_2771f216c577f62a",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-army-says-it-seized-arms-depot-beiruts-southern-suburbs",
+       "published_at": "2026-11-13T18:12:09+00:00"
       }
      ],
      "places": [
       {
-       "name": "מייס אל-ג'בל, לבנון",
-       "lat": 33.1756,
-       "lon": 35.5099
-      },
-      {
-       "name": "עיתרון, לבנון",
-       "lat": 33.1164,
-       "lon": 35.4715
+       "name": "ביירות, לבנון",
+       "lat": 33.8892,
+       "lon": 35.5026
       }
      ]
     },
     {
-     "id": "NORTH-11130940-02",
-     "title": "פעילות כטב\"מים ישראליים מעל הדאחייה בביירות",
-     "summary": "כתב שטח דיווח על פעילות של כלי טיס בלתי מאוישים ישראליים בשמי הפרבר הדרומי של ביירות.",
-     "axis": "פעילות אווירית של צה\"ל בלבנון",
+     "id": "NORTH-11131910-02",
+     "title": "תקיפות אוויריות בדרום לבנון",
+     "summary": "הצבא הישראלי תקף מהאוויר את העיירה כפר טבנית וביצע הפצצה נוספת באזור טלוסה.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-13T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-13T08:37:54+00:00",
-     "last_update_at": "2026-11-13T08:37:54+00:00",
-     "what_is_not_verified": "מטרת הפעילות ומשכה אינן מאומתות.",
+     "occurred_at": "2026-11-13T17:58:48+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T17:58:48+00:00",
+     "last_update_at": "2026-11-13T17:58:48+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almanar",
-       "source_root_id": "fh_4e40eed6e2b5ad65",
-       "url": "https://english.almanar.com.lb/article/150277/",
-       "published_at": "2026-11-13T08:37:54+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/150452/",
+       "published_at": "2026-11-13T17:58:48+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "טלוסה, לבנון",
+       "lat": 33.2284,
+       "lon": 35.4885
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11131910-03",
+     "title": "טיסה ישירה ראשונה ממינכן לדמשק",
+     "summary": "חברת התעופה הסורית ביצעה טיסה ישירה ראשונה מנמל התעופה במינכן לדמשק במסגרת הרחבת היעדים.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T17:10:35+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T17:10:35+00:00",
+     "last_update_at": "2026-11-13T17:10:35+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/syrian-airlines-flies-its-first-direct-munich-damascus-flight",
+       "published_at": "2026-11-13T17:10:35+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
+      },
+      {
+       "name": "מינכן, גרמניה",
+       "lat": 48.1371,
+       "lon": 11.5754
+      }
+     ]
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11130940-01",
-     "title": "מתקפת כטב\"מים אוקראינית הציתה שרפה בבית זיקוק בוולגוגרד",
-     "summary": "פגיעת שברי כלי טיס בלתי מאוישים גרמה לשרפה במתקן תעשייתי בוולגוגרד ולמותם של ארבעה עובדים ולפציעת שניים.",
-     "axis": "תקיפות עומק אוקראיניות בשטח רוסיה",
+     "id": "UKRAINE-11131910-01",
+     "title": "תקיפת מכונית תופת במוסקבה",
+     "summary": "מכונית תופת התפוצצה בדרום מוסקבה ופצעה קשה בכיר לשעבר בממשלת אוקראינה.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "occurred_at": "2026-11-13T14:18:57+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-13T08:20:41+00:00",
-     "last_update_at": "2026-11-13T08:20:41+00:00",
-     "what_is_not_verified": "אין אימות עצמאי מעבר להודעת המושל המקומי וערוצי המעקב.",
+     "first_reported_at": "2026-11-13T14:18:57+00:00",
+     "last_update_at": "2026-11-13T14:18:57+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/11/13/ukrainian-drone-attack-sparks-fire-at-volgograd-oil-refinery-killing-four-lines-form-at-gas-stations-across-city",
-       "published_at": "2026-11-13T08:20:41+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "וולגוגרד, רוסיה",
-       "lat": 48.7082,
-       "lon": 44.5153
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11130940-02",
-     "title": "פגיעה רוסית לילית במבנה רפואי בקייב",
-     "summary": "מתקפה לילית של כוחות רוסיים גרמה להרס חלקי של קומה במוסד רפואי ולפציעתם של שלושה מטופלים.",
-     "axis": "תקיפות אוויריות רוסיות באוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-13T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-13T08:30:00+00:00",
-     "last_update_at": "2026-11-13T08:30:00+00:00",
-     "what_is_not_verified": "סוג החימוש שפגע במבנה אינו מפורט.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4184199-russian-overnight-attack-partially-destroys-second-floor-of-kyiv-hospital-injures-three-patients.html",
-       "published_at": "2026-11-13T08:30:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11130940-03",
-     "title": "רכב של עוזר לשעבר לראש ממשלת אוקראינה התפוצץ במוסקבה",
-     "summary": "מכונית שבה נהג סרגיי זבורוטני, לשעבר עוזרו של ראש ממשלת אוקראינה הנמלט מיקולה אזארוב, התפוצצה בדרום מוסקבה.",
-     "axis": "אירועים ביטחוניים בעומק רוסיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-13T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-13T08:46:00+00:00",
-     "last_update_at": "2026-11-13T09:04:09+00:00",
-     "what_is_not_verified": "מצב הפציעה המדויק של הנהג וסיבת הפיצוץ המלאה נחקרים ואינם מאומתים סופית.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/feature/2026/11/13/a-car-exploded-in-moscow-telegram-channels-say-it-belongs-to-sergei-zavorotny-former-spokesman-for-ukrainian-ex-prime-minister-mykola-azarov",
-       "published_at": "2026-11-13T09:04:09+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062667/",
-       "published_at": "2026-11-13T08:46:00+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_src_tg_carmel",
+       "url": "https://t.me/alexmehacarmel/49552",
+       "published_at": "2026-11-13T14:18:57+00:00"
       }
      ],
      "places": [
@@ -234,11 +222,170 @@ window.DB.war_brief = {
        "lon": 37.6175
       }
      ]
+    },
+    {
+     "id": "UKRAINE-11131910-02",
+     "title": "פניית פינלנד לאוקראינה בעקבות תקיפה",
+     "summary": "שר ההגנה הפיני שוחח עם הצד האוקראיני בעקבות תקיפת כלי שיט רוסי במפרץ פינלנד באמצעות כטב\"ם.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T15:04:19+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T15:04:19+00:00",
+     "last_update_at": "2026-11-13T15:04:19+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49554",
+       "published_at": "2026-11-13T15:04:19+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "הלסינקי, פינלנד",
+       "lat": 60.1666,
+       "lon": 24.9435
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11131910-03",
+     "title": "פגיעה רוסית בזפוריז'יה",
+     "summary": "מספר הפצועים כתוצאה מתקיפה רוסית במחוז זפוריז'יה עלה ל-50 בני אדם, בהם שמונה ילדים.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T18:10:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T18:10:00+00:00",
+     "last_update_at": "2026-11-13T18:10:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_c1cdac8f81d9c2a2",
+       "url": "https://www.ukrinform.net/rubric-ato/4184479-russian-strike-on-zaporizhzhia-injury-toll-rises-to-50-including-eight-children.html",
+       "published_at": "2026-11-13T18:10:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "זפוריז'יה, אוקראינה",
+       "lat": 47.8508,
+       "lon": 35.1183
+      }
+     ]
+    }
+   ]
+  },
+  "yemen": {
+   "events": [
+    {
+     "id": "YEMEN-11131910-01",
+     "title": "דרישת האו\"ם להחזרת גופת עובד שנרצח במעצר החות'ים",
+     "summary": "ראש זכויות האדם של האו\"ם דרש מהחות'ים להחזיר את גופתו של עובד סיוע תימני שמסר את נפשו לאחר שנתיים במעצרם.",
+     "axis": "yemen",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T17:34:32+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-13T17:34:32+00:00",
+     "last_update_at": "2026-11-13T17:47:08+00:00",
+     "what_is_not_verified": "סיבת המוות המדויקת טרם הובהרה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/un-rights-chief-demands-houthis-return-body-yemeni-staff-member",
+       "published_at": "2026-11-13T17:47:08+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-rights-chief-demands-houthis-return-body-staff-member-who-died",
+       "published_at": "2026-11-13T17:34:32+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ז'נבה, שוויץ",
+       "lat": 46.2018,
+       "lon": 6.1466
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-11131910-02",
+     "title": "התקדמות החות'ים וביצור הגנות עדן",
+     "summary": "כוחות ממשלת תימן מתבצרים בפתחי מחוז עדן בעקבות התקדמות של הכוחות החות'ים באזור.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T17:24:41+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-13T17:24:41+00:00",
+     "last_update_at": "2026-11-13T17:24:41+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_afp",
+       "url": "https://www.newarab.com/news/yemen-govt-forces-fortify-aden-defences-houthis-advance",
+       "published_at": "2026-11-13T17:24:41+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "עדן, תימן",
+       "lat": 12.7896,
+       "lon": 45.0285
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-11131910-03",
+     "title": "קריאת צרפת להגברת הלחץ על החות'ים",
+     "summary": "משרד החוץ הצרפתי קרא להפעיל לחץ מוגבר על החות'ים בתימן כדי לעצור את התקיפות שהם מבצעים באזור ובסעודיה.",
+     "axis": "yemen",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T14:47:06+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-13T14:47:06+00:00",
+     "last_update_at": "2026-11-13T16:54:12+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/france-calls-more-pressure-houthis-end-attacks-saudi-arabia",
+       "published_at": "2026-11-13T16:54:12+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/france-favours-adding-pressure-yemens-houthis-foreign-ministry-spokesperson-says",
+       "published_at": "2026-11-13T14:47:06+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "פריז, צרפת",
+       "lat": 48.8535,
+       "lon": 2.3484
+      }
+     ]
     }
    ]
   }
  },
- "skipped": {
-  "yemen": "אין ידיעות"
- }
+ "skipped": {}
 };
