@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-13T12:17:29+00:00",
-  "fetched_at": "2026-11-13T12:17:29+00:00"
+  "checked_at": "2026-11-13T13:17:20+00:00",
+  "fetched_at": "2026-11-13T13:17:20+00:00"
  },
  "animals": {
   "data": [
@@ -44,45 +44,45 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-13T12:17:41+00:00",
-  "fetched_at": "2026-11-13T12:17:41+00:00"
+  "checked_at": "2026-11-13T13:17:29+00:00",
+  "fetched_at": "2026-11-13T13:17:29+00:00"
  },
  "av_en": {
   "data": [
    {
-    "title_en": "JBL Bar 1300MK2",
-    "title_he": "JBL בר 1300MK2",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/jbl-bar-1300mk2-soundbar",
-    "date": "2026-11-13T11:16:10+00:00"
+    "title_en": "How to watch France vs South Africa: live stream Nations Championship 2026 match for free from anywhere",
+    "title_he": "איך לצפות בצרפת נגד דרום אפריקה: שידור חי של משחק גביע אפריקה לאומות 2026 בחינם מכל מקום",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/france-vs-south-africa-nations-championship-2026-free",
+    "date": "2026-11-13T13:00:00+00:00"
    },
    {
-    "title_en": "Innovation 2026",
-    "title_he": "חדשנות 2026",
+    "title_en": "Don’t start GTA 6 without this upgrade to your set-up – the best gaming TVs and immersive soundbars for the biggest game of the decade",
+    "title_he": "אל תתחילו לשחק ב-GTA 6 בלי השדרוג הזה למערכת שלכם – טלוויזיות הגיימינג הטובות ביותר וסאונדברים סוחפים לחוויית המשחק הגדולה ביותר של העשור",
     "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/innovation-2026",
-    "date": "2026-11-13T10:14:28+00:00"
+    "link": "https://www.whathifi.com/speakers/dont-start-gta-6-without-this-upgrade-to-your-set-up-the-best-gaming-tvs-and-immersive-soundbars-for-the-biggest-game-of-the-decade",
+    "date": "2026-11-13T12:57:18+00:00"
    },
    {
-    "title_en": "We induct our reference ATC SCM50 speakers into the What Hi-Fi? Hall of Fame 2026 for their years of service",
-    "title_he": "אנחנו מכניסים את רמקולי ה-ATC SCM50 שלנו להיכל התהילה של What Hi-Fi? היכל התהילה 2026 על שנות שירותם",
+    "title_en": "Pro-Ject's Heinz Lichtenegger wins What Hi-Fi?'s Outstanding Contribution Award for 2026",
+    "title_he": "היינץ ליכטנגר מ-Pro-Ject זוכה בפרס התרומה המצוינת של What Hi-Fi? לשנת 2026",
     "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/we-induct-our-reference-atc-scm50-speakers-into-the-what-hi-fi-hall-of-fame-2026-for-their-years-of-service",
-    "date": "2026-11-13T10:00:00+00:00"
+    "link": "https://www.whathifi.com/hi-fi/pro-jects-heinz-lichtenegger-wins-what-hi-fi-s-outstanding-contribution-award-for-2026",
+    "date": "2026-11-13T12:29:03+00:00"
    },
    {
-    "title_en": "Sibling rivalry: we listen to both of Acoustic Energy's 40th-anniversary speakers to find out how they compare",
-    "title_he": "יריבות בין אחים: אנחנו מקשיבים לשני הרמקולים של Acoustic Energy לרגל יום השנה ה-40 שלהם כדי לגלות איך הם משווים",
+    "title_en": "I've tested this year's top UST projectors – and it's good and bad news for cinephiles",
+    "title_he": "בדקתי את המקרנים המובילים מסוג UST של השנה – ויש חדשות טובות ורעות לחובבי הקולנוע",
     "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/speakers/sibling-rivalry-we-listen-to-both-of-acoustic-energys-40th-anniversary-speakers-to-find-out-how-they-compare",
-    "date": "2026-11-13T09:30:00+00:00"
+    "link": "https://www.whathifi.com/tv-home-cinema/projectors/ive-tested-this-years-top-ust-projectors-and-its-good-and-bad-news-for-cinephiles",
+    "date": "2026-11-13T12:25:57+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-13T12:17:41+00:00",
-  "fetched_at": "2026-11-13T12:17:41+00:00"
+  "checked_at": "2026-11-13T13:17:38+00:00",
+  "fetched_at": "2026-11-13T13:17:38+00:00"
  },
- "generated_at": "2026-11-13T12:17:41+00:00",
+ "generated_at": "2026-11-13T13:17:38+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,9 +99,24 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "בורסת תל אביב נצבעה אדום אבל מניה אחת בולטת בעליות",
+     "title": "בזק מבקשת לחלק אופציות של 10 מיליון שקל לשני מנהלים בכירים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563338",
+     "date": "2026-11-13T12:11:00+00:00"
+    },
+    {
+     "title": "ת״א ננעלה בירידות, אבל מניה אחת הצליחה לזנק",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563287",
-     "date": "2026-11-13T10:25:00+00:00"
+     "date": "2026-11-13T12:00:00+00:00"
+    },
+    {
+     "title": "עובדי ארקיע מנסים לבלום את העסקה: ינסו להביא משקיע חדש בתוך שלושה ימים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563337",
+     "date": "2026-11-13T10:33:00+00:00"
+    },
+    {
+     "title": "אין צפי לתיקון: למה התקלה במיקרוסופט עדיין לא נפתרה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563336",
+     "date": "2026-11-13T08:58:00+00:00"
     },
     {
      "title": "הרוכשים של ארקיע: הכרישה והיזמים שספרו אקזיטים של מיליונים",
@@ -207,22 +222,12 @@ window.DB.generated = {
      "title": "13 מדינות בארה\"ב מאיימות על הולנד - והכל בגלל ישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563166",
      "date": "2026-11-12T11:37:00+00:00"
-    },
-    {
-     "title": "המפץ בגמל: הכשרה מאשרת את חשיפת גלובס - מגישה בקשה לרשות שוק ההון",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563169",
-     "date": "2026-11-12T10:46:00+00:00"
-    },
-    {
-     "title": "יפית גריאני נפגשה אתמול עם מנכ\"ל האוצר. על הפרק: דחיית מכירת כאל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563163",
-     "date": "2026-11-12T09:30:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-13T12:17:30+00:00",
-  "fetched_at": "2026-11-13T12:17:30+00:00"
+  "checked_at": "2026-11-13T13:17:21+00:00",
+  "fetched_at": "2026-11-13T13:17:21+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-13T12:17:31+00:00",
-  "fetched_at": "2026-11-13T12:17:31+00:00"
+  "checked_at": "2026-11-13T13:17:21+00:00",
+  "fetched_at": "2026-11-13T13:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2664,8 +2669,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-13T12:17:33+00:00",
-  "fetched_at": "2026-11-13T12:17:33+00:00"
+  "checked_at": "2026-11-13T13:17:23+00:00",
+  "fetched_at": "2026-11-13T13:17:23+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2755,8 +2760,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-13T12:17:33+00:00",
-  "fetched_at": "2026-11-13T12:17:33+00:00"
+  "checked_at": "2026-11-13T13:17:23+00:00",
+  "fetched_at": "2026-11-13T13:17:23+00:00"
  },
  "ai": {
   "data": {
@@ -2769,18 +2774,19 @@ window.DB.generated = {
      "title": "איך Claude Code Desktop כמעט הדליף את כל המידע מהמחשב שלכם"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-     "date": "2026-11-12T18:00:50+00:00",
+     "source": "Google",
+     "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+     "date": "2026-11-12T18:00:00+00:00",
      "launch": true,
-     "title_en": "Introducing Gemini 4 Hydrogen",
-     "title_he": "הכירו את Gemini 4 מימן",
+     "title_en": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+     "title_he": "חיפוש Google מקבל שדרוג משמעותי עם Gemini 4 Hydrogen",
      "translated_by": "google"
     }
    ],
-   "candidates": 14,
+   "candidates": 11,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2794,14 +2800,14 @@ window.DB.generated = {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 336,
+     "likes": 337,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1570,
+     "likes": 1574,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2822,7 +2828,7 @@ window.DB.generated = {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 64,
+     "likes": 65,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
@@ -2856,8 +2862,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-13T12:17:40+00:00",
-  "fetched_at": "2026-11-13T12:17:40+00:00"
+  "checked_at": "2026-11-13T13:17:29+00:00",
+  "fetched_at": "2026-11-13T13:17:29+00:00"
  },
  "abroad": {
   "data": {
@@ -2915,16 +2921,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "רביבו יעבור צילום, סולומון קיבל הוקרה מיוחדת",
-     "link": "https://www.one.co.il/Article/538746.html?ref=rss",
-     "date": "2026-11-13T05:53:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון",
-      "רועי רביבו"
      ]
     },
     {
@@ -2997,6 +2993,15 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
+     ]
+    },
+    {
+     "title": "דני וולף ממשיך לפרוח: דאבל-דאבל נוסף בניצחון הענק",
+     "link": "https://sports.walla.co.il/item/3875938",
+     "date": "2026-11-12T05:53:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני וולף"
      ]
     }
    ],
@@ -3210,8 +3215,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-13T12:17:36+00:00",
-  "fetched_at": "2026-11-13T12:17:36+00:00"
+  "checked_at": "2026-11-13T13:17:26+00:00",
+  "fetched_at": "2026-11-13T13:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -3243,7 +3248,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-13T12:17:36+00:00",
+  "checked_at": "2026-11-13T13:17:27+00:00",
   "fetched_at": "2026-11-13T11:17:35+00:00"
  },
  "feed_health": {
@@ -3252,43 +3257,43 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-13T12:00:00+00:00",
-    "seen_at": "2026-11-13T12:17:41+00:00",
+    "seen_at": "2026-11-13T13:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-13T10:25:00+00:00",
-    "seen_at": "2026-11-13T12:17:41+00:00",
+    "newest": "2026-11-13T12:11:00+00:00",
+    "seen_at": "2026-11-13T13:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-13T08:18:00+00:00",
-    "seen_at": "2026-11-13T12:17:41+00:00",
+    "newest": "2026-11-13T08:58:00+00:00",
+    "seen_at": "2026-11-13T13:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-12T11:53:00+00:00",
-    "seen_at": "2026-11-13T12:17:41+00:00",
+    "seen_at": "2026-11-13T13:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-13T11:36:00+00:00",
-    "seen_at": "2026-11-13T12:17:41+00:00",
+    "newest": "2026-11-13T13:08:00+00:00",
+    "seen_at": "2026-11-13T13:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-13T12:30:00+00:00",
-    "seen_at": "2026-11-13T12:17:41+00:00",
+    "seen_at": "2026-11-13T13:17:38+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-13T12:07:00+00:00",
-    "seen_at": "2026-11-13T12:17:41+00:00",
+    "newest": "2026-11-13T13:03:00+00:00",
+    "seen_at": "2026-11-13T13:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3306,25 +3311,25 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-12T18:00:00+00:00",
-    "seen_at": "2026-11-13T12:17:41+00:00",
+    "seen_at": "2026-11-13T13:17:38+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-13T09:52:43+00:00",
-    "seen_at": "2026-11-13T12:17:41+00:00",
+    "newest": "2026-11-13T13:12:04+00:00",
+    "seen_at": "2026-11-13T13:17:38+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-11T16:30:25+00:00",
-    "seen_at": "2026-11-13T12:17:41+00:00",
+    "seen_at": "2026-11-13T13:17:38+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-13T11:16:10+00:00",
-    "seen_at": "2026-11-13T12:17:41+00:00",
+    "newest": "2026-11-13T13:00:00+00:00",
+    "seen_at": "2026-11-13T13:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3334,7 +3339,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-11-13T12:17:41+00:00"
+  "checked_at": "2026-11-13T13:17:38+00:00"
  },
  "health_news": {
   "data": [
@@ -3489,8 +3494,9 @@ window.DB.generated = {
     "date": "2026-10-19T10:31:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-13T12:17:37+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-13T13:17:27+00:00",
   "fetched_at": "2026-11-13T12:17:37+00:00"
  }
 };
