@@ -257,307 +257,174 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-11-13T0040__iran-202611130040.json",
+  "draft": "drafts/iran/2026-11-13T1800__iran-202611131800.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-11-13T00:40:30+00:00",
+   "generated_at": "2026-11-13T18:00:28+00:00",
    "window": {
-    "from": "2026-11-12T00:40:30+00:00",
-    "to": "2026-11-13T00:40:30+00:00"
+    "from": "2026-11-12T18:00:28+00:00",
+    "to": "2026-11-13T18:00:28+00:00"
    },
    "model": {
-    "name": "gemini-3.8-flash",
-    "run_id": "iran-202611130040"
+    "name": "gemini-3.5-flash-lite",
+    "run_id": "iran-202611131800"
    },
-   "summary": "העימות הצבאי והכלכלי בין איראן לבין ארצות הברית וישראל נמשך תוך חילופי מהלומות ואיומים הדדיים בזירה הימית והאווירית. ארצות הברית מאותתת על הקשחת עמדות ושלילת משא ומתן תוך הפעלת לחץ במצר הורמוז ותקיפות נקודתיות, בעוד איראן מתריעה מפני שיתוף פעולה אזורי ומציגה יכולות טילים. במקביל, ישראל מגבירה את מוכנותה המבצעית לתקיפה מול יכולות הגרעין והטילים, לצד מחלוקות פוליטיות פנימיות בנוגע לתזמון המבצע.",
+   "summary": "העימות בין איראן לבין ארצות הברית וישראל מתנהל במקביל ללחצים דיפלומטיים, כאשר וושינגטון שוקלת להגביר את הסנקציות ודוחה הסכמים חדשים, בעוד טהרן ממשיכה בפעולות צבאיות ישירות ועקיפות, כולל שיגור כטב\"מים ופעילות סייבר התקפית. במקביל, מדינות המפרץ חוששות מהסלמה אזורית רחבה ופועלות לעקוף נתיבי שיוט מאוימים.",
    "fronts": [
     {
-     "name": "מצר הורמוז והמפרץ",
-     "status": "פגיעות במכליות נפט, זיהום נרחב ומצור כלכלי אמריקני"
+     "name": "החזית הישירה איראן-ארה\"ב במפרץ",
+     "status": "פעיל עם חילופי מהלומות ויירוטים"
     },
     {
-     "name": "דרום איראן",
-     "status": "דיווחים על תקיפות מטרות צבאיות בסירכ ובבסיסי משמרות המהפכה"
+     "name": "חזית הסייבר והמודיעין באירופה",
+     "status": "פעיל הכולל סיכול ריגול ותקיפות סייבר"
     },
     {
-     "name": "הזירה המדינית והביטחונית בישראל",
-     "status": "היערכות לתקיפת תשתיות הטילים והגרעין ודיונים פוליטיים פנימיים"
-    },
-    {
-     "name": "ארה\"ב מול איראן",
-     "status": "הקפאת ערוצי מו\"מ, איומים במתקפות והעברת בכירים אמריקנים לבסיסים מאובטחים"
+     "name": "חזית הכלכלה והאנרגיה במפרץ",
+     "status": "מתיחות סביב נתיבי שיט ותשתיות נפט"
     }
    ],
    "events": [
     {
-     "id": "IRAN-11130040-01",
-     "title": "הצהרות טראמפ על שלילת הצורך בהסכם עם איראן והסטת סגנו משיחות",
-     "summary": "הנשיא טראמפ הודיע כי ארצות הברית אינה זקוקה עוד להסכם מול איראן, תוך אזכור שליטה בכספים איראניים ובמצר הורמוז, והעביר את סגנו ואנס לעסוק בסוגיות פנים.",
-     "axis": "ארצות הברית - איראן",
-     "claim_type": "statement",
+     "id": "IRAN-11131800-01",
+     "title": "תקיפת כטב\"מים איראניים לעבר בחריין וירוטם",
+     "summary": "משמרות המהפכה שיגרו שני כטב\"מים לעבר בחריין, והם יורטו על ידי כוחות ארצות הברית.",
+     "axis": "איראן מול ארה\"ב ובחריין",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-12T00:00:00+00:00",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-12T13:32:54+00:00",
-     "last_update_at": "2026-11-12T21:12:51+00:00",
-     "what_is_not_verified": "אין אימות עצמאי לגבי מעמדו המדויק של ואנס במשא ומתן מעבר לפרסומים",
+     "first_reported_at": "2026-11-13T13:41:22+00:00",
+     "last_update_at": "2026-11-13T14:23:23+00:00",
+     "what_is_not_verified": "טענת משמרות המהפכה כי פגעו במערכת מכ\"ם אמריקאית בבחריין.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-sidelines-vance-iran-talks-says-no-need-negotiate",
-       "published_at": "2026-11-12T21:12:51+00:00"
+       "source_root_id": "fh_c749a0bc305879d3",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-it-shot-down-two-iranian-drones-heading-towards-bahrain",
+       "published_at": "2026-11-13T14:23:23+00:00"
       },
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202611129077",
-       "published_at": "2026-11-12T21:08:00+00:00"
-      },
-      {
-       "source_id": "src_fdd",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.fdd.org/in_the_news/trump-removes-vance-from-iran-talks-as-u-s-launches-strikes-on-irgc-bases/",
-       "published_at": "2026-11-12T20:12:33+00:00"
-      },
-      {
-       "source_id": "src_fdd",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.fdd.org/in_the_news/trump-says-no-iran-deal-needed/",
-       "published_at": "2026-11-12T19:17:10+00:00"
-      },
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/95022",
-       "published_at": "2026-11-12T13:32:54+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11130040-02",
-     "title": "דיווחים על פגיעה ותקיפה באזור סירכ במחוז הורמוזגאן",
-     "summary": "מקורות רשמיים ותקשורתיים באיראן דיווחו על תקיפה צבאית של גורם עוין באזור סירכ שבדרום המדינה, ובישראל יוחסה הפעולה לארצות הברית.",
-     "axis": "ארצות הברית - איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-12T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-12T17:50:48+00:00",
-     "last_update_at": "2026-11-12T20:31:32+00:00",
-     "what_is_not_verified": "היקף הנזק והנפגעים, וזהות הגורם התוקף באופן רשמי",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21842708",
-       "published_at": "2026-11-12T20:31:32+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/southern-irans-sirik-attacked-report-says",
-       "published_at": "2026-11-12T19:45:45+00:00"
-      },
-      {
-       "source_id": "src_maariv",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.maariv.co.il/breaking-news/article-1387923",
-       "published_at": "2026-11-12T19:31:20+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133566",
-       "published_at": "2026-11-12T19:19:21+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/h16dmu7azg",
-       "published_at": "2026-11-12T17:50:48+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "סירכ, איראן",
-       "lat": 26.5177,
-       "lon": 57.1018
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11130040-03",
-     "title": "הזהרת משרד החוץ האיראני מפני סיוע למערכה האמריקנית",
-     "summary": "דובר משרד החוץ של איראן התריע בפני מדינות זרות שלא להעניק סיוע צבאי, ימי או לוגיסטי למערכה האמריקנית נגד איראן, ואיים כי הדבר ייחשב שותפות לתוקפנות.",
-     "axis": "איראן - ארצות הברית",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-12T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-12T19:13:25+00:00",
-     "last_update_at": "2026-11-12T21:20:51+00:00",
-     "what_is_not_verified": "השלכות מעשיות או פעולות תגובה שנקטה איראן בעקבות האזהרה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "fh_240c958b1488e392",
-       "url": "https://en.irna.ir/news/86320269/Iran-warns-foreign-governments-against-involvement-in-US-aggression",
-       "published_at": "2026-11-12T21:20:51+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_240c958b1488e392",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tehran-warns-countries-against-backing-us-war-iran",
-       "published_at": "2026-11-12T19:13:25+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "טהראן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11130040-04",
-     "title": "הצגת טילים בליסטיים בטהראן ובבנדר עבאס",
-     "summary": "באיראן הוצגו טילים בליסטיים מדגמים שונים לקהל בבירה טהראן ובעיר הנמל בנדר עבאס לציון יום השנה למותו של מייסד תוכנית הטילים.",
-     "axis": "איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-12T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-12T20:26:15+00:00",
-     "last_update_at": "2026-11-12T20:26:15+00:00",
-     "what_is_not_verified": "אין פירוט מדויק של יכולות הטילים שהוצגו",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133569",
-       "published_at": "2026-11-12T20:26:15+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "טהראן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      },
-      {
-       "name": "בנדר עבאס, איראן",
-       "lat": 27.1842,
-       "lon": 56.2893
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11130040-05",
-     "title": "העברת בכירים בממשל האמריקני למתקנים צבאיים עקב איומים",
-     "summary": "בכירים בצמרת הממשל בארצות הברית הועברו לשהייה בבסיסים צבאיים מחשש לפגיעה ישירה מצד איראן.",
-     "axis": "ארצות הברית - איראן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-12T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-12T20:08:10+00:00",
-     "last_update_at": "2026-11-12T20:08:10+00:00",
-     "what_is_not_verified": "רשימת כל הבכירים והבסיסים הספציפיים שבהם הם שוהים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21842796",
-       "published_at": "2026-11-12T20:08:10+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11130040-06",
-     "title": "פגיעה במכליות נפט וזיהום נרחב במצר הורמוז",
-     "summary": "במהלך העימות הימי פגעו מוקשים וטילים במכליות נפט במצר הורמוז, דבר שגרם לכתמי נפט משמעותיים ולנזק סביבתי שנצפה מהחלל.",
-     "axis": "ארצות הברית - איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-12T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-12T03:00:07+00:00",
-     "last_update_at": "2026-11-12T03:00:07+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק לחי הימי והמספר המלא של המכליות שנפגעו",
-     "is_new_in_window": true,
-     "reports": [
       {
        "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
-       "published_at": "2026-11-12T03:00:07+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11130040-07",
-     "title": "דריכות בישראל ופגישות עדכון לקראת החלטות צבאיות מול איראן",
-     "summary": "בישראל נערכים לאפשרות של מהלכים צבאיים נגד מתקני הגרעין והטילים באיראן על רקע דיונים במערכת הביטחון ופגישות תדרוך פוליטיות בין ראש הממשלה לאופוזיציה.",
-     "axis": "ישראל - איראן",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-12T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-12T15:51:39+00:00",
-     "last_update_at": "2026-11-13T00:32:20+00:00",
-     "what_is_not_verified": "עיתוי הפעולה הישראלית והאם תינתן תמיכה אמריקנית מלאה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/yokra14957610",
-       "published_at": "2026-11-13T00:32:20+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/geopolitics/article/21842284",
-       "published_at": "2026-11-12T20:42:26+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/sywoliqaml",
-       "published_at": "2026-11-12T16:08:32+00:00"
+       "source_root_id": "fh_c749a0bc305879d3",
+       "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+       "published_at": "2026-11-13T13:52:11+00:00"
       },
       {
        "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/eisenkot-meets-netanyahu-bid-avoid-iran-strikes",
-       "published_at": "2026-11-12T15:51:39+00:00"
+       "source_root_id": "fh_c749a0bc305879d3",
+       "url": "https://www.al-monitor.com/originals/2026/11/irans-irgc-claims-attack-us-target-bahrain-what-know",
+       "published_at": "2026-11-13T13:41:22+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11131800-02",
+     "title": "הרשעת מרגלים בשירות איראן בבריטניה",
+     "summary": "שתי דמויות הורשעו בבריטניה בסיוע למודיעין האיראני במעקב אחר עיתונאים מתנגדי משטר.",
+     "axis": "איראן מול אופוזיציה ומדינות המערב",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-12T19:15:30+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-12T19:15:30+00:00",
+     "last_update_at": "2026-11-13T14:28:45+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "fh_71eb818622337e6e",
+       "url": "https://www.iranintl.com/en/202611135399",
+       "published_at": "2026-11-13T14:28:45+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "fh_2a0679db36c4cf3b",
+       "url": "https://www.ynet.co.il/news/article/symsxw4cfx",
+       "published_at": "2026-11-13T11:11:11+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "fh_71eb818622337e6e",
+       "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21843838",
+       "published_at": "2026-11-13T06:03:13+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_33af20556b73ff89",
+       "url": "https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists",
+       "published_at": "2026-11-12T19:15:30+00:00"
       }
      ],
      "places": [
       {
-       "name": "ירושלים, ישראל",
-       "lat": 31.7788,
-       "lon": 35.2258
+       "name": "לונדון, בריטניה",
+       "lat": 51.5074,
+       "lon": -0.1278
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11131800-03",
+     "title": "מתקפת סייבר איראנית על תשתיות קירור בצרפת",
+     "summary": "צרפת האשימה רשמית יחידה של משמרות המהפכה באחריות למתקפת סייבר שפעה במפעלים ומרכולים.",
+     "axis": "איראן מול אירופה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-09T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T15:48:55+00:00",
+     "last_update_at": "2026-11-13T15:48:55+00:00",
+     "what_is_not_verified": "הקשר המדויק בין קבוצת ההאקרים לחזיתות שונות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_fdd",
+       "source_root_id": "fh_0f10a21ecbc735d1",
+       "url": "https://www.fdd.org/analysis/france-is-latest-victim-of-iranian-cyber-sabotage-first-unleashed-on-israel/",
+       "published_at": "2026-11-13T15:48:55+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11131800-04",
+     "title": "פיצוץ בכלי שיט במצר הורמוז",
+     "summary": "דווח על פיצוץ בכלי שיט שהוביל גז במצר הורמוז לפי טענות משמרות המהפכה.",
+     "axis": "איראן מול מעבר ימי במפרץ",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T06:49:26+00:00",
+     "last_update_at": "2026-11-13T06:49:26+00:00",
+     "what_is_not_verified": "נסיבות הפיצוץ המדויקות ומצב כלי השיט.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21844062",
+       "published_at": "2026-11-13T06:49:26+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
       }
      ]
     }
    ],
    "not_verified": [
-    "זהות התוקף והיקף הנזק הממשי בתקיפה המדווחת בסירכ",
-    "מידת המוכנות של ישראל לצאת למבצע צבאי ללא תמיכה אמריקנית פעילה",
-    "ההשפעה המדויקת של לחץ מדינות המפרץ על השהיית התקיפות של טראמפ",
-    "טענות בנוגע לשינוי אסטרטגי פנימי במוסד הישראלי שנשענות על דיווח זר"
+    "טענת איראן על פגיעה במערכת מכ\"ם אמריקאית בבחריין",
+    "היקף השיקום המדויק של יכולות הטילים הבליסטיים של איראן",
+    "תוכניותיהם המבצעיות העתידיות של הממשל האמריקאי וישראל"
    ],
    "map": {
     "confidence": "medium",
@@ -568,149 +435,113 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.2032,
+     "value": 3.2107,
      "unit": "ILS",
-     "change_pct": 1.0,
+     "change_pct": 0.23,
      "source_id": "src_ecb",
-     "as_of": "2026-11-12T15:00:00+00:00"
+     "as_of": "2026-11-13T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "ארצות הברית",
+     "actor": "איראן",
      "declared": [
-      "שלילת הצורך בהסכם עם איראן",
-      "שליטה במצר הורמוז ובכספים איראניים",
-      "הגנה על בעלות ברית ונכונות לתקוף אם המצב יחמיר"
+      "להגיב לתקיפות אמריקאיות ולפגוע באינטרסים שלהן",
+      "להפגין עוצמה צבאית ויכולת הסבת נזק"
      ],
      "inferred": [
-      "הפעלת מנופי לחץ מקסימליים להחלשת השלטון בטהראן",
-      "הרחקת גורמים מתונים מניהול המגעים כדי לכפות כניעה או תקיפה"
+      "לערער את הביטחון של מדינות המפרץ המארחות כוחות זרים",
+      "להמשיך בפיתוח יכולות צבאיות וגרעיניות בסתר"
      ],
      "forecast": [
-      "המשך הגבלות השיט והחרפת העיצומים לצד אפשרות להרחבת תקיפות נקודתיות"
+      "המשך פעילות חבלנית באמצעות שלוחות וסייבר",
+      "שימור מתח נמוך עד בינוני במצר הורמוז"
      ]
     },
     {
-     "actor": "איראן",
+     "actor": "ארצות הברית",
      "declared": [
-      "אזהרת מדינות זרות מפני סיוע למאמץ המלחמתי האמריקני",
-      "דחיית האשמות על פעילות ריגול באירופה",
-      "הצגת מוכנות והרתעה באמצעות מערכי טילים בליסטיים"
+      "להפעיל לחץ כלכלי ודיפלומטי מוגבר על משטר האייתוללות",
+      "לבלום תקיפות ואיומים נגד בנות בריתה במפרץ"
      ],
      "inferred": [
-      "ניסיון להרתיע את מדינות המפרץ ממתן גישה צבאית לכוחות זרים",
-      "המשך שיקום ושימור מערך הטילים לצורכי הישרדות ומענה לתקיפות"
+      "למנוע הידרדרות למלחמה כוללת רחבה שתפגע בכלכלה",
+      "להגביל את השפעת המיליציות הנתמכות בידי איראן בעיראק"
      ],
      "forecast": [
-      "איראן תמשיך לאיים על נתיבי שיט ועל בסיסים אזוריים אם תחודש האש בעוצמה גבוהה"
+      "הגברת הסנקציות והימנעות מהסכם מהיר",
+      "שמירה על נוכחות צבאית הגנתית במפרץ"
      ]
     },
     {
      "actor": "ישראל",
      "declared": [
-      "מוכנות של מערכת הביטחון לכלל התרחישים המבצעיים",
-      "צורך בפגיעה משמעותית ביכולות הטילים והגרעין של איראן"
+      "לבלום את התעצמותה של איראן ומניעת נשק גרעיני",
+      "התגוננות מפני איומים אזוריים"
      ],
      "inferred": [
-      "העדפה לפעול בתיאום מלא עם ארצות הברית תוך שמירה על אופציה חד-צדדית",
-      "חשש מפני דחיית המערכה והתעצמות איראנית מחודשת"
+      "שכנוע הממשל האמריקאי לשוב למערכה רחבה נגד איראן",
+      "היערכות לתרחישי קיצון של מתקפת פתע איראנית"
      ],
      "forecast": [
-      "המשך לחץ מדיני וביטחוני להוצאת תקיפה משותפת לפועל או היערכות לפעולה עצמאית"
+      "המשך לחץ מדיני ומודיעיני על וושינגטון",
+      "שמירה על דריכות גבוהה מול שלוחות איראן"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/11/eisenkot-meets-netanyahu-bid-avoid-iran-strikes",
-     "accessed_at": "2026-11-13T00:40:30+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/11/irans-irgc-claims-attack-us-target-bahrain-what-know",
+     "accessed_at": "2026-11-13T18:00:28+00:00"
     },
     {
      "source_id": "src_fdd",
-     "url": "https://www.fdd.org/in_the_news/trump-says-no-iran-deal-needed/",
-     "accessed_at": "2026-11-13T00:40:30+00:00"
+     "url": "https://www.fdd.org/analysis/france-is-latest-victim-of-iranian-cyber-sabotage-first-unleashed-on-israel/",
+     "accessed_at": "2026-11-13T18:00:28+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
-     "accessed_at": "2026-11-13T00:40:30+00:00"
+     "url": "https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists",
+     "accessed_at": "2026-11-13T18:00:28+00:00"
     },
     {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202611129077",
-     "accessed_at": "2026-11-13T00:40:30+00:00"
-    },
-    {
-     "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86320269/Iran-warns-foreign-governments-against-involvement-in-US-aggression",
-     "accessed_at": "2026-11-13T00:40:30+00:00"
+     "url": "https://www.iranintl.com/en/202611135399",
+     "accessed_at": "2026-11-13T18:00:28+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/geopolitics/article/21842284",
-     "accessed_at": "2026-11-13T00:40:30+00:00"
-    },
-    {
-     "source_id": "src_maariv",
-     "url": "https://www.maariv.co.il/breaking-news/article-1387923",
-     "accessed_at": "2026-11-13T00:40:30+00:00"
+     "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21844062",
+     "accessed_at": "2026-11-13T18:00:28+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tehran-warns-countries-against-backing-us-war-iran",
-     "accessed_at": "2026-11-13T00:40:30+00:00"
-    },
-    {
-     "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/133569",
-     "accessed_at": "2026-11-13T00:40:30+00:00"
-    },
-    {
-     "source_id": "src_tg_lelotsenzura",
-     "url": "https://t.me/lelotsenzura/95022",
-     "accessed_at": "2026-11-13T00:40:30+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-it-shot-down-two-iranian-drones-heading-towards-bahrain",
+     "accessed_at": "2026-11-13T18:00:28+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/sywoliqaml",
-     "accessed_at": "2026-11-13T00:40:30+00:00"
+     "url": "https://www.ynet.co.il/news/article/symsxw4cfx",
+     "accessed_at": "2026-11-13T18:00:28+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-12T00:40:37+00:00",
+  "previous_generated_at": "2026-11-13T00:40:30+00:00",
   "changes": {
-   "IRAN-11130040-01": {
+   "IRAN-11131800-01": {
     "kind": "new"
    },
-   "IRAN-11130040-02": {
+   "IRAN-11131800-02": {
     "kind": "new"
    },
-   "IRAN-11130040-03": {
-    "kind": "same",
-    "from": "initial",
-    "to": "shared_root",
-    "prev": "דובר משרד החוץ האיראני מאשים את ארצות הברית בהפצת מידע כוזב",
-    "score": 0.65
-   },
-   "IRAN-11130040-04": {
+   "IRAN-11131800-03": {
     "kind": "new"
    },
-   "IRAN-11130040-05": {
+   "IRAN-11131800-04": {
     "kind": "possible",
-    "prev": "מעבר שר האוצר האמריקני לבסיס צבאי בשל איומים איראניים",
-    "score": 0.467
-   },
-   "IRAN-11130040-06": {
-    "kind": "possible",
-    "prev": "הצהרת יו\"ר הפרלמנט האיראני קאליבאף על תנאי המשא ומתן ומצר הורמוז",
-    "score": 0.467
-   },
-   "IRAN-11130040-07": {
-    "kind": "possible",
-    "prev": "נשיא איראן דורש פיצויים בינלאומיים בגין נזקי תקיפות ארה\"ב וישראל",
+    "prev": "פגיעה במכליות נפט וזיהום נרחב במצר הורמוז",
     "score": 0.467
    }
   }

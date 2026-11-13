@@ -1,0 +1,235 @@
+{
+ "status": "draft",
+ "received_sha256_12": "fc7a9eecfcfe",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 2,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-13T18:05:05+00:00",
+  "window": {
+   "from": "2026-11-12T18:05:05+00:00",
+   "to": "2026-11-13T18:05:05+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611131805"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בהמשך תקיפות של ישראל בדרום לבנון ובפעילות כטב\"מים מעל ביירות, לצד היערכות בינלאומית אמריקאית-אירופית למנגנוני פיקוח חדשים בדרום לבנון לקראת פקיעת המנדט של יוניפי\"ל. במקביל, בצבא לבנון מבצעים פעולות אכיפה פנימיות לאיתור אמצעי לחימה, ובסוריה נמשכים אירועים ביטחוניים נקודתיים לצד פעילות תעופה אזרחית מתחדשת.",
+  "fronts": [
+   {
+    "name": "החזית הישראלית-לבנונית",
+    "status": "פעילה עם תקיפות אוויריות וטיסות כטב\"מים"
+   },
+   {
+    "name": "הזירה הפנימית בלבנון",
+    "status": "מתיחות פוליטית ופעילות מבצעית של הצבא נגד מחסני נשק"
+   },
+   {
+    "name": "הזירה הסורית",
+    "status": "תקריות ביטחוניות מקומיות במזרח המדינה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11131805-01",
+    "title": "תקיפות אוויריות וירי ארטילרי בדרום לבנון",
+    "summary": "האויב הישראלי ביצע תקיפה אוויריות והפצצות בכפר טבנית ותאלוסה, וכן הפגיז חמש עיירות נוספות בדרום לבנון בזמן שכטב\"מים טסים בגובה נמוך מעל ביירות.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T09:55:40+00:00",
+    "last_update_at": "2026-11-13T17:58:48+00:00",
+    "what_is_not_verified": "פרטים מלאים על נפגעים או נזק לא אומתו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_261e583bab3cf94d",
+      "url": "https://english.almanar.com.lb/article/150452/",
+      "published_at": "2026-11-13T17:58:48+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_261e583bab3cf94d",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-shell-5-southern-lebanon-towns-as-drones-fly-low-over-beirut/4123873",
+      "published_at": "2026-11-13T09:55:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תאלוסה, לבנון",
+      "lat": 33.2284,
+      "lon": 35.4885
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11131805-02",
+    "title": "טיסות כטב\"מים מעל ביירות",
+    "summary": "נוכחות מתמשכת וטיסות של כטב\"מים ישראליים מעל שמי ביירות יוצרות לחץ פסיכולוגי ותחושת חוסר ביטחון בקרב התושבים.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-13T09:55:40+00:00",
+    "last_update_at": "2026-11-13T14:33:17+00:00",
+    "what_is_not_verified": "היעדים המדויקים של הפעילות אינם מפורטים מעבר לאיסוף מודיעין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_18fc3c30bffd6e04",
+      "url": "https://english.almanar.com.lb/article/150422/",
+      "published_at": "2026-11-13T14:33:17+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_18fc3c30bffd6e04",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-shell-5-southern-lebanon-towns-as-drones-fly-low-over-beirut/4123873",
+      "published_at": "2026-11-13T09:55:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11131805-03",
+    "title": "תפיסת מחסן אמצעי לחימה בדאחייה של ביירות",
+    "summary": "הכוחות של צבא לבנון פשטו על מחסן נשק באזור משלפייה ותפסו כמות גדולת של נשק ותחצות צבאית, לצד מעצר אזרח לבנוני.",
+    "axis": "לבנון פנים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T12:16:21+00:00",
+    "last_update_at": "2026-11-13T12:16:21+00:00",
+    "what_is_not_verified": "לא צוין בטקסט לאיזה גורם שייך הנשק מעבר לחשוד שנעצר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_a81a4047f1457cc3",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/967862/lebanese-army-seizes-large-weapons-cache-in-beiruts-southern-suburbs/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967862",
+      "published_at": "2026-11-13T12:16:21+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11131805-04",
+    "title": "חייל סורי נהרג מאש חמושים בסוריה",
+    "summary": "חייל סורי נהרג ושנים נוספים נפצעו כתוצאה מתקיפה של חמושים בלתי מזוהים בעיירה ג'דיד בכארה במזרח סוריה.",
+    "axis": "סוריה פנים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T12:36:18+00:00",
+    "last_update_at": "2026-11-13T12:36:18+00:00",
+    "what_is_not_verified": "זהות החמושים אינה ידועה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_65e5ceb747cc7319",
+      "url": "https://www.aa.com.tr/en/middle-east/syrian-soldier-killed-2-others-injured-in-attack-by-unidentified-gunmen-in-deir-ez-zor/4124102",
+      "published_at": "2026-11-13T12:36:18+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "המגעים האמריקאיים והאירופיים להקמת מנגנון פיקוח דמוי MFO בלבנון לאחר תקופת יוניפי\"ל",
+   "ההערכות והדיונים על הסכמים עתידיים לניהול המצב בגבול"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2107,
+    "unit": "ILS",
+    "change_pct": 0.23,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [],
+    "inferred": [
+     "פגעה וממשיכה לפגוע בתשתיות ובפעילות צבאית בדרום לבנון",
+     "שמירה על עליונות מודיעינית ואווירית באמצעות טיסות כטב\"מים"
+    ],
+    "forecast": [
+     "המשך התקיפות כל עוד נשמרים איומים בגבול הצפון",
+     "מעקב אחר פתרונות בינלאומיים עתידיים לאזור חיץ"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "גינוי תקיפות של ישראל ומדינות אחרות",
+     "סולידריות עם ההתנגדות בפלסטין"
+    ],
+    "inferred": [
+     "שמירה על נוכחות בשטח למרות לחצים פנימיים וחיצוניים"
+    ],
+    "forecast": [
+     "המשך מאבק תעמולתי והתנגדות למדיניות ישראל"
+    ]
+   },
+   {
+    "actor": "צבא לבנון",
+    "declared": [
+     "אכיפת החוק ותפיסת אמצעי לחימה בלתי חוקיים",
+     "היערכות לקיחת האחריות הביטחונית בדרום"
+    ],
+    "inferred": [
+     "ניסיון להרחיב את השליטה הממלכתית מול גורמים חמושים"
+    ],
+    "forecast": [
+     "הגברת פשיטות לאיתור אמצעי לחימה נוספים במרחבים השונים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/150422/",
+    "accessed_at": "2026-11-13T18:05:05+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syrian-soldier-killed-2-others-injured-in-attack-by-unidentified-gunmen-in-deir-ez-zor/4124102",
+    "accessed_at": "2026-11-13T18:05:05+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/967862/lebanese-army-seizes-large-weapons-cache-in-beiruts-southern-suburbs/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967862",
+    "accessed_at": "2026-11-13T18:05:05+00:00"
+   }
+  ]
+ }
+}

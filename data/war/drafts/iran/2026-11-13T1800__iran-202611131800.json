@@ -1,0 +1,282 @@
+{
+ "status": "draft",
+ "received_sha256_12": "0c18aa6880b6",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 1,
+   "verified": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-13T18:00:28+00:00",
+  "window": {
+   "from": "2026-11-12T18:00:28+00:00",
+   "to": "2026-11-13T18:00:28+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611131800"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל מתנהל במקביל ללחצים דיפלומטיים, כאשר וושינגטון שוקלת להגביר את הסנקציות ודוחה הסכמים חדשים, בעוד טהרן ממשיכה בפעולות צבאיות ישירות ועקיפות, כולל שיגור כטב\"מים ופעילות סייבר התקפית. במקביל, מדינות המפרץ חוששות מהסלמה אזורית רחבה ופועלות לעקוף נתיבי שיוט מאוימים.",
+  "fronts": [
+   {
+    "name": "החזית הישירה איראן-ארה\"ב במפרץ",
+    "status": "פעיל עם חילופי מהלומות ויירוטים"
+   },
+   {
+    "name": "חזית הסייבר והמודיעין באירופה",
+    "status": "פעיל הכולל סיכול ריגול ותקיפות סייבר"
+   },
+   {
+    "name": "חזית הכלכלה והאנרגיה במפרץ",
+    "status": "מתיחות סביב נתיבי שיט ותשתיות נפט"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11131800-01",
+    "title": "תקיפת כטב\"מים איראניים לעבר בחריין וירוטם",
+    "summary": "משמרות המהפכה שיגרו שני כטב\"מים לעבר בחריין, והם יורטו על ידי כוחות ארצות הברית.",
+    "axis": "איראן מול ארה\"ב ובחריין",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T13:41:22+00:00",
+    "last_update_at": "2026-11-13T14:23:23+00:00",
+    "what_is_not_verified": "טענת משמרות המהפכה כי פגעו במערכת מכ\"ם אמריקאית בבחריין.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_c749a0bc305879d3",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-it-shot-down-two-iranian-drones-heading-towards-bahrain",
+      "published_at": "2026-11-13T14:23:23+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_c749a0bc305879d3",
+      "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+      "published_at": "2026-11-13T13:52:11+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_c749a0bc305879d3",
+      "url": "https://www.al-monitor.com/originals/2026/11/irans-irgc-claims-attack-us-target-bahrain-what-know",
+      "published_at": "2026-11-13T13:41:22+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11131800-02",
+    "title": "הרשעת מרגלים בשירות איראן בבריטניה",
+    "summary": "שתי דמויות הורשעו בבריטניה בסיוע למודיעין האיראני במעקב אחר עיתונאים מתנגדי משטר.",
+    "axis": "איראן מול אופוזיציה ומדינות המערב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T19:15:30+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T19:15:30+00:00",
+    "last_update_at": "2026-11-13T14:28:45+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_71eb818622337e6e",
+      "url": "https://www.iranintl.com/en/202611135399",
+      "published_at": "2026-11-13T14:28:45+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_2a0679db36c4cf3b",
+      "url": "https://www.ynet.co.il/news/article/symsxw4cfx",
+      "published_at": "2026-11-13T11:11:11+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_71eb818622337e6e",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21843838",
+      "published_at": "2026-11-13T06:03:13+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_33af20556b73ff89",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists",
+      "published_at": "2026-11-12T19:15:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לונדון, בריטניה",
+      "lat": 51.5074,
+      "lon": -0.1278
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11131800-03",
+    "title": "מתקפת סייבר איראנית על תשתיות קירור בצרפת",
+    "summary": "צרפת האשימה רשמית יחידה של משמרות המהפכה באחריות למתקפת סייבר שפעה במפעלים ומרכולים.",
+    "axis": "איראן מול אירופה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T15:48:55+00:00",
+    "last_update_at": "2026-11-13T15:48:55+00:00",
+    "what_is_not_verified": "הקשר המדויק בין קבוצת ההאקרים לחזיתות שונות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "fh_0f10a21ecbc735d1",
+      "url": "https://www.fdd.org/analysis/france-is-latest-victim-of-iranian-cyber-sabotage-first-unleashed-on-israel/",
+      "published_at": "2026-11-13T15:48:55+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11131800-04",
+    "title": "פיצוץ בכלי שיט במצר הורמוז",
+    "summary": "דווח על פיצוץ בכלי שיט שהוביל גז במצר הורמוז לפי טענות משמרות המהפכה.",
+    "axis": "איראן מול מעבר ימי במפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T06:49:26+00:00",
+    "last_update_at": "2026-11-13T06:49:26+00:00",
+    "what_is_not_verified": "נסיבות הפיצוץ המדויקות ומצב כלי השיט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21844062",
+      "published_at": "2026-11-13T06:49:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת איראן על פגיעה במערכת מכ\"ם אמריקאית בבחריין",
+   "היקף השיקום המדויק של יכולות הטילים הבליסטיים של איראן",
+   "תוכניותיהם המבצעיות העתידיות של הממשל האמריקאי וישראל"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2107,
+    "unit": "ILS",
+    "change_pct": 0.23,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "להגיב לתקיפות אמריקאיות ולפגוע באינטרסים שלהן",
+     "להפגין עוצמה צבאית ויכולת הסבת נזק"
+    ],
+    "inferred": [
+     "לערער את הביטחון של מדינות המפרץ המארחות כוחות זרים",
+     "להמשיך בפיתוח יכולות צבאיות וגרעיניות בסתר"
+    ],
+    "forecast": [
+     "המשך פעילות חבלנית באמצעות שלוחות וסייבר",
+     "שימור מתח נמוך עד בינוני במצר הורמוז"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "להפעיל לחץ כלכלי ודיפלומטי מוגבר על משטר האייתוללות",
+     "לבלום תקיפות ואיומים נגד בנות בריתה במפרץ"
+    ],
+    "inferred": [
+     "למנוע הידרדרות למלחמה כוללת רחבה שתפגע בכלכלה",
+     "להגביל את השפעת המיליציות הנתמכות בידי איראן בעיראק"
+    ],
+    "forecast": [
+     "הגברת הסנקציות והימנעות מהסכם מהיר",
+     "שמירה על נוכחות צבאית הגנתית במפרץ"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "לבלום את התעצמותה של איראן ומניעת נשק גרעיני",
+     "התגוננות מפני איומים אזוריים"
+    ],
+    "inferred": [
+     "שכנוע הממשל האמריקאי לשוב למערכה רחבה נגד איראן",
+     "היערכות לתרחישי קיצון של מתקפת פתע איראנית"
+    ],
+    "forecast": [
+     "המשך לחץ מדיני ומודיעיני על וושינגטון",
+     "שמירה על דריכות גבוהה מול שלוחות איראן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/irans-irgc-claims-attack-us-target-bahrain-what-know",
+    "accessed_at": "2026-11-13T18:00:28+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/france-is-latest-victim-of-iranian-cyber-sabotage-first-unleashed-on-israel/",
+    "accessed_at": "2026-11-13T18:00:28+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists",
+    "accessed_at": "2026-11-13T18:00:28+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611135399",
+    "accessed_at": "2026-11-13T18:00:28+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21844062",
+    "accessed_at": "2026-11-13T18:00:28+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-it-shot-down-two-iranian-drones-heading-towards-bahrain",
+    "accessed_at": "2026-11-13T18:00:28+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/symsxw4cfx",
+    "accessed_at": "2026-11-13T18:00:28+00:00"
+   }
+  ]
+ }
+}
