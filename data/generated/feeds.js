@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-13T09:17:26+00:00",
-  "fetched_at": "2026-11-13T09:17:26+00:00"
+  "checked_at": "2026-11-13T10:17:16+00:00",
+  "fetched_at": "2026-11-13T10:17:16+00:00"
  },
  "animals": {
   "data": [
@@ -44,57 +44,57 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-13T09:17:35+00:00",
-  "fetched_at": "2026-11-13T09:17:35+00:00"
+  "checked_at": "2026-11-13T10:17:26+00:00",
+  "fetched_at": "2026-11-13T10:17:26+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Innovation 2026",
+    "title_he": "חדשנות 2026",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/innovation-2026",
+    "date": "2026-11-13T10:14:28+00:00"
+   },
+   {
+    "title_en": "We induct our reference ATC SCM50 speakers into the What Hi-Fi? Hall of Fame 2026 for their years of service",
+    "title_he": "אנחנו מכניסים את רמקולי ה-ATC SCM50 שלנו להיכל התהילה של What Hi-Fi? היכל התהילה 2026 על שנות שירותם",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/we-induct-our-reference-atc-scm50-speakers-into-the-what-hi-fi-hall-of-fame-2026-for-their-years-of-service",
+    "date": "2026-11-13T10:00:00+00:00"
+   },
+   {
+    "title_en": "Sibling rivalry: we listen to both of Acoustic Energy's 40th-anniversary speakers to find out how they compare",
+    "title_he": "יריבות בין אחים: אנחנו מקשיבים לשני הרמקולים של Acoustic Energy לרגל יום השנה ה-40 שלהם כדי לגלות איך הם משווים",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/speakers/sibling-rivalry-we-listen-to-both-of-acoustic-energys-40th-anniversary-speakers-to-find-out-how-they-compare",
+    "date": "2026-11-13T09:30:00+00:00"
+   },
    {
     "title_en": "Outstanding Contribution 2026",
     "title_he": "תרומה יוצאת דופן 2026",
     "translated_by": "google",
     "link": "https://www.whathifi.com/hi-fi/turntables/outstanding-contribution-2026",
     "date": "2026-11-12T22:30:45+00:00"
-   },
-   {
-    "title_en": "Temptation 2026",
-    "title_he": "פיתוי 2026",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/temptation-2026",
-    "date": "2026-11-12T22:30:41+00:00"
-   },
-   {
-    "title_en": "The What Hi-Fi? Awards 2026 Product of the Year winners have been revealed!",
-    "title_he": "איזה Hi-Fi? זוכי מוצר השנה של 2026 נחשפו!",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/av/the-what-hi-fi-awards-2026-product-of-the-year-winners-have-been-revealed",
-    "date": "2026-11-12T22:27:15+00:00"
-   },
-   {
-    "title_en": "Hall of Fame 2026",
-    "title_he": "היכל התהילה 2026",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/speakers/hi-fi-speakers/hall-of-fame-2026",
-    "date": "2026-11-12T22:26:52+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-13T09:17:35+00:00",
-  "fetched_at": "2026-11-13T09:17:35+00:00"
+  "checked_at": "2026-11-13T10:17:30+00:00",
+  "fetched_at": "2026-11-13T10:17:30+00:00"
  },
- "generated_at": "2026-11-13T09:17:35+00:00",
+ "generated_at": "2026-11-13T10:17:30+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "לא שמות נוצצים אבל עם רקורד בהבראת חברות: הדמויות מאחורי קבוצת המשקיעים בארקיע",
+     "title": "הרוכשים של ארקיע: הכרישה והיזמים שספרו אקזיטים של מיליונים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563327",
      "date": "2026-11-13T08:30:00+00:00"
     },
     {
      "title": "לראשונה מספטמבר: איראן טוענת שתקפה מכ\"ם אמריקני בבחרין",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563333",
-     "date": "2026-11-13T07:49:00+00:00"
+     "date": "2026-11-13T09:25:00+00:00"
     }
    ],
    "market": [
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-13T09:17:27+00:00",
-  "fetched_at": "2026-11-13T09:17:27+00:00"
+  "checked_at": "2026-11-13T10:17:17+00:00",
+  "fetched_at": "2026-11-13T10:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-13T09:17:28+00:00",
-  "fetched_at": "2026-11-13T09:17:28+00:00"
+  "checked_at": "2026-11-13T10:17:17+00:00",
+  "fetched_at": "2026-11-13T10:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2664,8 +2664,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-13T09:17:28+00:00",
-  "fetched_at": "2026-11-13T09:17:28+00:00"
+  "checked_at": "2026-11-13T10:17:19+00:00",
+  "fetched_at": "2026-11-13T10:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2755,8 +2755,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-13T09:17:28+00:00",
-  "fetched_at": "2026-11-13T09:17:28+00:00"
+  "checked_at": "2026-11-13T10:17:19+00:00",
+  "fetched_at": "2026-11-13T10:17:19+00:00"
  },
  "ai": {
   "data": {
@@ -2778,7 +2778,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 12,
+   "candidates": 11,
    "failed_sources": [
     "Anthropic",
     "Google DeepMind"
@@ -2802,28 +2802,28 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1568,
+     "likes": 1570,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "Idol",
      "desc_en": "One image to a 3D object (Gaussian splats)",
      "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 257,
+     "likes": 258,
      "link": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 126,
+     "likes": 127,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
     },
     {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 62,
+     "likes": 63,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
@@ -2857,8 +2857,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-13T09:17:35+00:00",
-  "fetched_at": "2026-11-13T09:17:35+00:00"
+  "checked_at": "2026-11-13T10:17:25+00:00",
+  "fetched_at": "2026-11-13T10:17:25+00:00"
  },
  "abroad": {
   "data": {
@@ -3210,8 +3210,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-13T09:17:31+00:00",
-  "fetched_at": "2026-11-13T09:17:31+00:00"
+  "checked_at": "2026-11-13T10:17:22+00:00",
+  "fetched_at": "2026-11-13T10:17:22+00:00"
  },
  "idf": {
   "data": [
@@ -3241,8 +3241,9 @@ window.DB.generated = {
     "date": "2026-11-09T19:37:01+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-13T09:17:31+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-13T10:17:22+00:00",
   "fetched_at": "2026-11-13T09:17:31+00:00"
  },
  "feed_health": {
@@ -3250,44 +3251,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-13T08:30:00+00:00",
-    "seen_at": "2026-11-13T09:17:35+00:00",
+    "newest": "2026-11-13T09:41:00+00:00",
+    "seen_at": "2026-11-13T10:17:30+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-13T08:30:00+00:00",
-    "seen_at": "2026-11-13T09:17:35+00:00",
+    "seen_at": "2026-11-13T10:17:30+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-13T08:18:00+00:00",
-    "seen_at": "2026-11-13T09:17:35+00:00",
+    "seen_at": "2026-11-13T10:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-12T11:53:00+00:00",
-    "seen_at": "2026-11-13T09:17:35+00:00",
+    "seen_at": "2026-11-13T10:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-13T10:05:00+00:00",
-    "seen_at": "2026-11-13T09:17:35+00:00",
+    "newest": "2026-11-13T10:41:00+00:00",
+    "seen_at": "2026-11-13T10:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-13T09:02:00+00:00",
-    "seen_at": "2026-11-13T09:17:35+00:00",
+    "seen_at": "2026-11-13T10:17:30+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-13T09:11:00+00:00",
-    "seen_at": "2026-11-13T09:17:35+00:00",
+    "newest": "2026-11-13T09:45:00+00:00",
+    "seen_at": "2026-11-13T10:17:30+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3305,25 +3306,25 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-12T18:00:00+00:00",
-    "seen_at": "2026-11-13T09:17:35+00:00",
+    "seen_at": "2026-11-13T10:17:30+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-13T08:03:32+00:00",
-    "seen_at": "2026-11-13T09:17:35+00:00",
+    "newest": "2026-11-13T09:52:43+00:00",
+    "seen_at": "2026-11-13T10:17:30+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-11T16:30:25+00:00",
-    "seen_at": "2026-11-13T09:17:35+00:00",
+    "seen_at": "2026-11-13T10:17:30+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-13T08:00:00+00:00",
-    "seen_at": "2026-11-13T09:17:35+00:00",
+    "newest": "2026-11-13T10:14:28+00:00",
+    "seen_at": "2026-11-13T10:17:30+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3333,7 +3334,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-11-13T09:17:35+00:00"
+  "checked_at": "2026-11-13T10:17:30+00:00"
  },
  "health_news": {
   "data": [
@@ -3488,8 +3489,9 @@ window.DB.generated = {
     "date": "2026-10-19T10:31:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-13T09:17:32+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-13T10:17:22+00:00",
   "fetched_at": "2026-11-13T09:17:32+00:00"
  }
 };
