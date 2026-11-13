@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13T16:20:37+00:00",
+ "at": "2026-11-13T16:47:58+00:00",
  "ok": false,
- "msg": "הבינה נכשלה — העדכון הקודם נשאר: gemini-3.8-flash צורה 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | gemini-3.8-flash צורה 1: HTTP 429: [GenerateRequestsPerDayPerProjectPerModel-FreeTier] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-li"
+ "msg": "אין ידיעות חדשות באף זירה — העדכון הקודם נשאר: iran: הבינה החזירה רשימה ריקה; north: הבינה החזירה רשימה ריקה; ukraine: הבינה החזירה רשימה ריקה; yemen: הבינה החזירה רשימה ריקה"
 }
