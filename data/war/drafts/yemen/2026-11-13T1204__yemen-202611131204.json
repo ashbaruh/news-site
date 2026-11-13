@@ -1,0 +1,203 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4c675ba906d8",
+ "preview": {
+  "events": 2,
+  "levels": {
+   "initial": 1,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-13T12:04:39+00:00",
+  "window": {
+   "from": "2026-11-12T12:04:39+00:00",
+   "to": "2026-11-13T12:04:39+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611131204"
+  },
+  "summary": "הלחימה בזירת תימן וסעודיה מתנהלת במקביל לעימותים קרקעיים ממושכים במחוזות כגון תעז ומרמאב, לצד גל תקיפות אוויריות ושיגורי טילים וכטב\"מים מצד החות'ים לעבר תשתיות אזרחיות ונפט בסעודיה. במקביל, הקואליציה בהובלת סעודיה ממשיכה ביירוט התקיפות ופועלת בזירה הדיפלומטית להגברת הלחץ הבינלאומי והטלת סנקציות על החות'ים.",
+  "fronts": [
+   {
+    "name": "חזית תימן הפנימית (תעז ומרמאב)",
+    "status": "פעיל"
+   },
+   {
+    "name": "החזית מול סעודיה (תשתיות נפט ויירוטים)",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11131204-01",
+    "title": "התנגשויות ותקיפות באזור תעז",
+    "summary": "כוחות ממשלת תימן דיווחו על הדפת מתקפה חות'ית נרחבת בחזית אל-אקצרוד שבדרום-מזרח מחוז תעז, לצד תקיפות אוויריות על קווי אספקה וכנסים באל-שמאיטיין ובאל-מקאטירה. משרד ענייני המצור בתעז תיעד נפגעים בימים האחרונים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T11:59:10+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-13T11:59:10+00:00",
+    "last_update_at": "2026-11-13T11:59:10+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק ופרטי הקרבות המלאים מעבר להודעות הרשמיות והדיווחים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_al_jazeera",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-forces-say-they-repelled-large-scale-houthi-attack-taiz",
+      "published_at": "2026-11-13T11:59:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11131204-02",
+    "title": "תקיפות של החות'ים לעבר תשתיות נפט ואתרים צבאיים בסעודיה ויירוט כטב\"מים",
+    "summary": "החות'ים דיווחו כי תקפו באמצעות טילים וכטב\"מים מתקני נפט ומטרות צבאיות בסעודיה, בהם קו הצינור מזרח-מערב, מתקן נפט בינבוע ואתרים בריאד. הקואליציה בהובלת סעודיה הודיעה כי ייירטה והשמידה כטב\"מים וטילים באזור ריאד ובמחוז אלשרקיה.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-12T13:06:43+00:00",
+    "last_update_at": "2026-11-12T19:06:40+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק בכל האתרים והאם כל הטילים והכטב\"מים אכן כוונו ליעדים שנטענו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_yahya_saree_x_post_saudi_led_coalition",
+      "url": "https://www.newarab.com/news/yemens-houthis-claim-attacks-saudi-oil-military-sites",
+      "published_at": "2026-11-12T19:06:40+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_yahya_saree_x_post_saudi_led_coalition",
+      "url": "https://www.newarab.com/news/houthis-deny-targeting-mecca-amid-saudi-missile-interceptions",
+      "published_at": "2026-11-12T13:06:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ינבוע",
+      "lat": 24.089,
+      "lon": 38.0687
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "ה",
+   "ה",
+   "צ",
+   "ה",
+   "ר",
+   "ו",
+   "ת",
+   "ה",
+   "ה",
+   "ד",
+   "ד",
+   "י",
+   "ו",
+   "ת",
+   "ש",
+   "ל",
+   "ה",
+   "ח",
+   "ו",
+   "ת",
+   "'",
+   "י",
+   "ם",
+   "ו",
+   "ש",
+   "ל",
+   "ה",
+   "ק",
+   "ו",
+   "א",
+   "ל",
+   "י",
+   "צ",
+   "י",
+   "ה"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2032,
+    "unit": "ILS",
+    "change_pct": 1.0,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-12T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה בתשתיות הנפט, האנרגיה והמתקנים הצבאיים של סעודיה בתגובה למצור"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי ופוליטי על סעודיה ועל הקהילה הבינלאומית",
+     "שימור השפעה צבאית אזורית"
+    ],
+    "forecast": [
+     "המשך שיגור כטב\"מים וטילים לעבר יעדים בסעודיה",
+     "שמירה על רמת עימות גבוהה בזירה הפנימית בתימן"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "הגנה על שטחי הממלכה, תשתיות האנרגיה והאתרים הקדושים",
+     "דחיפה לדירוג החות'ים כארגון טרור בינלאומי"
+    ],
+    "inferred": [
+     "הרחבת יכולות ההגנה והתקיפה הבליסטית להתמודדות עם האיום החות'י",
+     "בלימת ההשפעה האיראנית בתימן"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית ליירוט איומים",
+     "הגברת הלחץ הדיפלומטי על גופים אירופיים ואחרים להכרה בחות'ים כארגון טרור"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-forces-say-they-repelled-large-scale-houthi-attack-taiz",
+    "accessed_at": "2026-11-13T12:04:39+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/houthis-deny-targeting-mecca-amid-saudi-missile-interceptions",
+    "accessed_at": "2026-11-13T12:04:39+00:00"
+   }
+  ]
+ }
+}

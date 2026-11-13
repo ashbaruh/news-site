@@ -1,0 +1,590 @@
+{
+ "status": "draft",
+ "received_sha256_12": "627bc65a5512",
+ "preview": {
+  "events": 13,
+  "levels": {
+   "shared_root": 7,
+   "initial": 5,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-13T11:40:27+00:00",
+  "window": {
+   "from": "2026-11-12T11:40:27+00:00",
+   "to": "2026-11-13T11:40:27+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611131140"
+  },
+  "summary": "הלחימה בין רוסיה ואוקראינה נמשכת ביתאת מתקפות כטב\"מים רחבות היקף של שורת כוחות, תקיפות על מתקני אנרגיה ותשתיות רפואיות ואזרחיות, לצד מאמצים דיפלומטיים מואצים בהשתתפות נציגים אמריקאיים ואירופיים לקхראת גיבוש סבב משא ומתן עתידי והפסקת אש.",
+  "fronts": [
+   {
+    "name": "החזית המזרחית והדרומית-מזרחית",
+    "status": "פעיל עם תקיפות הדדיות"
+   },
+   {
+    "name": "העורף הרוסי ותשתיות האנרגיה",
+    "status": "תחת מתקפות כטב\"מים אוקראיניות תכופות"
+   },
+   {
+    "name": "החזית הדיפלומטית",
+    "status": "מתקיימים מגעים לשילוב אירופה והרחבת השיחות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11131140-01",
+    "title": "הסכמה על הרחבת השיחות וצירוף נציגים אירופיים",
+    "summary": "הוסכם להרחיב את סבב השיחות הבא בין רוסיה ואוקראינה כך שיכלול מדינות אירופיות ונציגי האיחוד האירופי.",
+    "axis": "דיפלומטיה ומשא ומתן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T16:45:10+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T16:45:10+00:00",
+    "last_update_at": "2026-11-13T11:38:16+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_guardian_live_updates",
+      "url": "https://www.theguardian.com/world/live/2026/nov/13/eu-leaders-negotiations-ukraine-russia-dublin-ai-summit-kushner-witkoff-latest-news-updates",
+      "published_at": "2026-11-13T11:38:16+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_guardian_live_updates",
+      "url": "https://tass.com/politics/2217793",
+      "published_at": "2026-11-13T11:31:41+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_guardian_live_updates",
+      "url": "https://tass.com/politics/2217785",
+      "published_at": "2026-11-13T11:22:24+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_guardian_live_updates",
+      "url": "https://meduza.io/en/news/2026/11/13/kushner-says-ukraine-and-russia-are-preparing-what-could-be-the-war-s-largest-prisoner-swap",
+      "published_at": "2026-11-13T11:04:57+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_guardian_live_updates",
+      "url": "https://www.theguardian.com/world/2026/nov/13/ukraine-war-briefing-europe-to-join-negotiations-says-kushner-as-putin-warns-against-peace-keepers",
+      "published_at": "2026-11-13T03:38:51+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_guardian_live_updates",
+      "url": "https://t.me/alexmehacarmel/49542",
+      "published_at": "2026-11-13T00:53:49+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_guardian_live_updates",
+      "url": "https://t.me/abualiexpress/133557",
+      "published_at": "2026-11-12T16:45:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דבלין, אירלנד",
+      "lat": 53.3494,
+      "lon": -6.2606
+     },
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11131140-02",
+    "title": "תקיפה רוסית על בית חולים בקייב",
+    "summary": "כוחות רוסיים תקפו מבנה רפואי במרכז קייב באמצעות כטב\"ם, מה שגרם לפציעת שלושה בני אדם ולהרס חלקי של הקומה השנייה.",
+    "axis": "תקיפות אוויריות ופגיעה בתשתיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T03:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T05:35:14+00:00",
+    "last_update_at": "2026-11-13T11:24:30+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_volodymyr_zelenskyy_ukraine_reports",
+      "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails",
+      "published_at": "2026-11-13T11:24:30+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_volodymyr_zelenskyy_ukraine_reports",
+      "url": "https://kyivindependent.com/3-injured-dozens-evacuated-after-russian-drone-damages-kyiv-medical-facility-in-overnight-attack/",
+      "published_at": "2026-11-13T05:35:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11131140-03",
+    "title": "המשך חיזוק הגבול עם בלרוס",
+    "summary": "אוקראינה ממשיכה לבצע עבודות הנדסיות וחיזוקים ברמה גבוהה לאורך גבולה עם בלרוס.",
+    "axis": "החזית הצפונית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-13T11:12:00+00:00",
+    "last_update_at": "2026-11-13T11:12:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_1e4a5a78aea43946",
+      "url": "https://www.ukrinform.net/rubric-ato/4184301-ukraine-continues-fortifying-border-with-belarus-amid-persistent-threat-sbgs-spox.html",
+      "published_at": "2026-11-13T11:12:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11131140-04",
+    "title": "הכנות להחלפת שבויים רחבת היקף",
+    "summary": "ארצות הברית פועלת יחד עם הצדדים לארגן את עסקת חילופי השבויים הגדולה ביותר מאז תחילת המלחמה.",
+    "axis": "דיפלומטיה והומניטרי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-13T03:38:51+00:00",
+    "last_update_at": "2026-11-13T11:04:57+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_jared_kushner",
+      "url": "https://meduza.io/en/news/2026/11/13/kushner-says-ukraine-and-russia-are-preparing-what-could-be-the-war-s-largest-prisoner-swap",
+      "published_at": "2026-11-13T11:04:57+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_jared_kushner",
+      "url": "https://www.theguardian.com/world/2026/nov/13/ukraine-war-briefing-europe-to-join-negotiations-says-kushner-as-putin-warns-against-peace-keepers",
+      "published_at": "2026-11-13T03:38:51+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דבלין, אירלנד",
+      "lat": 53.3494,
+      "lon": -6.2606
+     },
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11131140-05",
+    "title": "פגיעה בבניין מגורים ומתקן תעשייתי בזפוריז'יה",
+    "summary": "מתקפות רוסיות פגעו במתקן תעשייתי ובבניין מגורים בן חמש קומות בזפוריז'יה, וגרמו להרג של שני בני אדם ולפציעת לפחות שמונה.",
+    "axis": "החזית הדרומית-מזרחית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T10:19:00+00:00",
+    "last_update_at": "2026-11-13T10:55:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_6224eb8d579a5290",
+      "url": "https://www.ukrinform.net/rubric-ato/4184290-russian-forces-strike-apartment-building-in-zaporizhzhia-four-injured-including-children.html",
+      "published_at": "2026-11-13T10:55:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_6224eb8d579a5290",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062677/",
+      "published_at": "2026-11-13T10:19:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפוריז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11131140-06",
+    "title": "פיצוץ מכונית במוסקבה",
+    "summary": "סרגיי זבורוטני, לשעבר יועץ פוליטי באוקראינה, נפצע באורח קשה בפיצוץ מטען חבלה שהוצמד לרכבו במוסקבה.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T09:04:09+00:00",
+    "last_update_at": "2026-11-13T10:51:52+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_investigative_committee",
+      "url": "https://tass.com/emergencies/2217745",
+      "published_at": "2026-11-13T10:51:52+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_investigative_committee",
+      "url": "https://kyivindependent.com/car-explosion-in-moscow-reportedly-injures-ex-azarov-press-secretary/",
+      "published_at": "2026-11-13T09:56:45+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_investigative_committee",
+      "url": "https://meduza.io/en/feature/2026/11/13/a-car-exploded-in-moscow-telegram-channels-say-it-belongs-to-sergei-zavorotny-former-spokesman-for-ukrainian-ex-prime-minister-mykola-azarov",
+      "published_at": "2026-11-13T09:04:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11131140-07",
+    "title": "תקיפת כטב\"מים אוקראינית במחוז סמרה",
+    "summary": "כטב\"ם אוקראיני תקף מתקן תעשייתי במחוז סמרה ברוסיה, וגרם למותם של ארבעה אזרחים.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T10:50:09+00:00",
+    "last_update_at": "2026-11-13T10:50:09+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_governor_vyacheslav_fedorishchev",
+      "url": "https://tass.com/emergencies/2217743",
+      "published_at": "2026-11-13T10:50:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז סמרה, רוסיה",
+      "lat": 53.2029,
+      "lon": 50.1091
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11131140-08",
+    "title": "מתקפות כטב\"מים נרחבות של רוסיה על אוקראינה",
+    "summary": "כוחות רוסיים שיגרו עשרות רבות של כטב\"מים ארוכי טווח וכטב\"מי הדמיה לעבר שטחי אוקראינה במהלך הלילה.",
+    "axis": "תקיפות אוויריות",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T10:48:39+00:00",
+    "last_update_at": "2026-11-13T10:48:39+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_ukraine_s_air_force",
+      "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-61-across-ukraine-over-past-day-spark-fire-at-kyiv-hospital/",
+      "published_at": "2026-11-13T10:48:39+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11131140-09",
+    "title": "השעיית פעילות במפעלים אוקראיניים עקב תקיפות",
+    "summary": "חברת החקלאות האוקראינית Kernel השעתה את הפעילות בכל מפעלי עיבוד שמן הצמחים שלה בעקבות תקיפות רוסיות.",
+    "axis": "פגיעה בתשתיות כלכליות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-13T10:00:00+00:00",
+    "last_update_at": "2026-11-13T10:00:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_kernel_company",
+      "url": "https://www.ukrinform.net/rubric-economy/4184262-kernel-suspends-operations-at-all-its-oilseed-processing-plant-following-russian-attacks.html",
+      "published_at": "2026-11-13T10:00:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11131140-10",
+    "title": "פיצוץ חפץ לא מזוהה במחוז חרקוב",
+    "summary": "אישה נהרגה ובתה נפצעה כתוצאה מהפעלת התקן לא מזוהה סמוך לכפר במחוז חרקוב.",
+    "axis": "החזית המזרחית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T09:40:00+00:00",
+    "last_update_at": "2026-11-13T09:40:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_oleh_syniehubov_head_of_kharkiv_oblast_m",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062675/",
+      "published_at": "2026-11-13T09:40:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11131140-11",
+    "title": "תקיפת כטב\"מים על בית הזיקוק בוולגוגרד",
+    "summary": "כטב\"מים אוקראיניים תקפו את מחוז וולגוגרד וגרמו לדליקה בבית הזיקוק לנפט, שהביאה למותם של ארבעה עובדים ולשיבושים בתחנות הדלק.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T21:38:07+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-12T21:38:07+00:00",
+    "last_update_at": "2026-11-13T08:20:41+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_andrey_bocharov_regional_governor",
+      "url": "https://meduza.io/en/news/2026/11/13/ukrainian-drone-attack-sparks-fire-at-volgograd-oil-refinery-killing-four-lines-form-at-gas-stations-across-city",
+      "published_at": "2026-11-13T08:20:41+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_andrey_bocharov_regional_governor",
+      "url": "https://t.me/alexmehacarmel/49539",
+      "published_at": "2026-11-12T21:38:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וולגוגרד, רוסיה",
+      "lat": 48.7082,
+      "lon": 44.5153
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11131140-12",
+    "title": "שיבושים בטיסות עקב כטב\"מים באזורי רוסיה",
+    "summary": "הפעלת פרוטוקולי חירום (\"שטיח\") בעקבות תקיפות כטב\"מים הובילה לעיכובים וביטולים נרחבים בטיסות ובפעילות שדות תעופה סביב מוסקבה.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T08:20:41+00:00",
+    "last_update_at": "2026-11-13T10:16:24+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_meduza_reader_account_moscow_airports",
+      "url": "https://meduza.io/en/feature/2026/11/13/ukrainian-drone-attacks-have-turned-russian-airports-into-a-nightmare-of-endless-delays-overcrowded-terminals-and-no-information-one-traveler-recounts-a-night-of-chaos",
+      "published_at": "2026-11-13T10:16:24+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_meduza_reader_account_moscow_airports",
+      "url": "https://meduza.io/en/news/2026/11/13/ukrainian-drone-attack-sparks-fire-at-volgograd-oil-refinery-killing-four-lines-form-at-gas-stations-across-city",
+      "published_at": "2026-11-13T08:20:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11131140-13",
+    "title": "איסור כניסת ספורטאים רוסים ובלארוסים לנורווגיה",
+    "summary": "ממשלת נורווגיה החליטה למנוע כסרפורטאים מקצועיים מרוסיה ומבלארוס להיכנס למדינה לתחרויות כל עוד נמשכת המלחמה.",
+    "axis": "סנקציות ומדיניות בינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-12T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-12T21:00:12+00:00",
+    "last_update_at": "2026-11-12T21:00:12+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_norwegian_government_statement",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/finland-bars-russian-athletes-ukraine",
+      "published_at": "2026-11-12T21:00:12+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות אוקראיניות על הסתת עשרות טילי שיוט וכטב\"מים באמצעות מערכת הלוחמה האלקטרונית Lima Quant",
+   "ההערכות והנתונים המדויקים על מספר האבדות של הצבא הרוסי כפי שמפרסם המטכ\"ל האוקראיני",
+   "זהותם המדויקת של שכירי החרב מהמזרח התיכון בשורות הצבא הרוסי"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1081,
+    "unit": "USD",
+    "change_pct": -0.41,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-12T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "להביא לסיום המלחמה באמצעות השגת הפסקת אש והסכמים מדיניים",
+     "להבטיח השתתפות של נציגים אירופיים בשיחות השלום",
+     "לשחזר גישה מלאה למערכות תקשורת כמו Starshield"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות כלכליות ואנרגטיות ברוסיה כדי להפעיל לחץ על המשטר",
+     "המשך קבלת סיוע צבאי בינלאומי מתקדם כדי לשמור על יכולת העמידה בשדה הקרב"
+    ],
+    "forecast": [
+     "המשך שימוש בתקיפות כטב\"מים עמוק בתוך רוסיה",
+     "שילוב גורמים אירופיים בסבב השיחות הקרוב"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "שמירה על עמדות קשיחות בנוגע לדרישות הטריטוריאליות ושליטה מלאה באזורים שסיפחה",
+     "התנגדות להצבת כוחות שמירת שלום זרים באוקראינה",
+     "המשך ניהול השיחות סביב המבנה הביטחוני באירופה מנקודת מבט רוסית"
+    ],
+    "inferred": [
+     "ניסיון להתיש את התשתיות האזרחיות והאנרגטיות של אוקראינה באמצעות מתקפות כטב\"מים מסיביות",
+     "בחינת עמדות הממשל האמריקאי והמעורבות האירופית במשא ומתן"
+    ],
+    "forecast": [
+     "המשך התקיפות האוויריות על ערי אוקראינה ומתקניה הקריטיים",
+     "התעקשות על תנאיה הטריטוריאליים בסבב השיחות הבא"
+    ]
+   },
+   {
+    "actor": "ארצות הברית והמתווכים",
+    "declared": [
+     "קידום סבב שיחות חדש שיכלול את רוסיה, אוקראינה ומדינות אירופה",
+     "השגת עסקאות הומניטריות רחבות היקף כגון חילופי שבויים"
+    ],
+    "inferred": [
+     "ניסיון לגשר על הפערים החדים בין דרישות מוסקבה לעמדות קייב ואירופה",
+     "בחינת פתרונות אפשריים להסדרה פוסט-מלחחתית באירופה"
+    ],
+    "forecast": [
+     "ארגון סבב משא ומתן משולש המשלב נציגים אירופיים",
+     "המשך הלחץ על הצדדים להגעה להבנות הומניטריות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/sport/2026/nov/12/finland-bars-russian-athletes-ukraine",
+    "accessed_at": "2026-11-13T11:40:27+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-61-across-ukraine-over-past-day-spark-fire-at-kyiv-hospital/",
+    "accessed_at": "2026-11-13T11:40:27+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/13/ukrainian-drone-attack-sparks-fire-at-volgograd-oil-refinery-killing-four-lines-form-at-gas-stations-across-city",
+    "accessed_at": "2026-11-13T11:40:27+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062675/",
+    "accessed_at": "2026-11-13T11:40:27+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/emergencies/2217743",
+    "accessed_at": "2026-11-13T11:40:27+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133557",
+    "accessed_at": "2026-11-13T11:40:27+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49539",
+    "accessed_at": "2026-11-13T11:40:27+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-economy/4184262-kernel-suspends-operations-at-all-its-oilseed-processing-plant-following-russian-attacks.html",
+    "accessed_at": "2026-11-13T11:40:27+00:00"
+   }
+  ]
+ }
+}
