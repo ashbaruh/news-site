@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-13T16:29:02+00:00",
-  "fetched_at": "2026-11-13T16:29:02+00:00"
+  "checked_at": "2026-11-13T17:17:11+00:00",
+  "fetched_at": "2026-11-13T17:17:11+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-13T16:29:15+00:00",
-  "fetched_at": "2026-11-13T16:29:15+00:00"
+  "checked_at": "2026-11-13T17:17:20+00:00",
+  "fetched_at": "2026-11-13T17:17:20+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Get the award-winners for the lowest prices guaranteed at Richer Sounds",
+    "title_he": "קבלו את המוצרים עטורי הפרסים במחירים הנמוכים ביותר המובטחים ב-Richer Sounds",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/tech-events/get-the-award-winners-for-the-lowest-prices-guaranteed-at-richer-sounds",
+    "date": "2026-11-13T16:36:15+00:00"
+   },
    {
     "title_en": "£38k home cinema systems, Rockaoke and meeting more than a few hi-fi legends: our team reveal their fondest What Hi-Fi? moments",
     "title_he": "מערכות קולנוע ביתי בשווי 38 אלף ליש\"ט, רוקאוקה ומפגשים עם לא מעט אגדות היי-פיי: הצוות שלנו חושף את הרגעים האהובים עליו ב-What Hi-Fi?",
@@ -69,27 +76,20 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/headphones/wired-headphones/klipsch-promises-stratospheric-sound-and-sky-high-comfort-from-its-latest-duo-of-high-end-wired-headphones",
     "date": "2026-11-13T14:00:00+00:00"
-   },
-   {
-    "title_en": "Onkyo's premium headphone amplifier touts flagship performance in a desk-friendly package",
-    "title_he": "מגבר האוזניות הפרימיום של Onkyo מתהדר בביצועים מובילים באריזה ידידותית לשולחן העבודה",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/hi-fi/headphone-amplifiers/onkyos-premium-headphone-amplifier-touts-flagship-performance-in-a-desk-friendly-package",
-    "date": "2026-11-13T14:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-13T16:29:15+00:00",
-  "fetched_at": "2026-11-13T16:29:15+00:00"
+  "checked_at": "2026-11-13T17:17:22+00:00",
+  "fetched_at": "2026-11-13T17:17:22+00:00"
  },
- "generated_at": "2026-11-13T16:29:15+00:00",
+ "generated_at": "2026-11-13T17:17:22+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "\"אני רוצה שכל קנייה של הישראלים תתחיל אצלנו. משלוחי אוכל? זו רק ההתחלה\": מנכ\"ל וולט בראיון ראשון",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001562878",
-     "date": "2026-11-13T13:28:00+00:00"
+     "title": "מניות השבבים מעיבות על וול סטריט, אנבידיה שוב יורדת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563339",
+     "date": "2026-11-13T17:00:00+00:00"
     },
     {
      "title": "על רקע לחצי נתניהו לחדש את המלחמה באיראן: ראש המוסד מבקר בוושינגטון",
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-13T16:29:03+00:00",
-  "fetched_at": "2026-11-13T16:29:03+00:00"
+  "checked_at": "2026-11-13T17:17:12+00:00",
+  "fetched_at": "2026-11-13T17:17:12+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-13T16:29:04+00:00",
-  "fetched_at": "2026-11-13T16:29:04+00:00"
+  "checked_at": "2026-11-13T17:17:13+00:00",
+  "fetched_at": "2026-11-13T17:17:13+00:00"
  },
  "tv": {
   "data": [
@@ -2664,8 +2664,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-13T16:29:05+00:00",
-  "fetched_at": "2026-11-13T16:29:05+00:00"
+  "checked_at": "2026-11-13T17:17:14+00:00",
+  "fetched_at": "2026-11-13T17:17:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2755,8 +2755,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-13T16:29:05+00:00",
-  "fetched_at": "2026-11-13T16:29:05+00:00"
+  "checked_at": "2026-11-13T17:17:14+00:00",
+  "fetched_at": "2026-11-13T17:17:14+00:00"
  },
  "ai": {
   "data": {
@@ -2778,9 +2778,10 @@ window.DB.generated = {
      "translated_by": "mymemory"
     }
    ],
-   "candidates": 13,
+   "candidates": 11,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2801,7 +2802,7 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה עם הנחיה טקסט",
-     "likes": 1576,
+     "likes": 1578,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
@@ -2815,14 +2816,14 @@ window.DB.generated = {
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 133,
+     "likes": 134,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
     },
     {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 70,
+     "likes": 71,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
@@ -2836,7 +2837,7 @@ window.DB.generated = {
      "title": "Ava",
      "desc_en": "Talk face to face with LFM3-Omni, running in your browser",
      "desc_he": "שוחחו פנים אל פנים עם LFM3-Omni, הפועל בדפדפן שלכם",
-     "likes": 102,
+     "likes": 103,
      "link": "https://huggingface.co/spaces/townbox/ava"
     },
     {
@@ -2856,8 +2857,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-13T16:29:14+00:00",
-  "fetched_at": "2026-11-13T16:29:14+00:00"
+  "checked_at": "2026-11-13T17:17:20+00:00",
+  "fetched_at": "2026-11-13T17:17:20+00:00"
  },
  "abroad": {
   "data": {
@@ -3200,8 +3201,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-13T16:29:08+00:00",
-  "fetched_at": "2026-11-13T16:29:08+00:00"
+  "checked_at": "2026-11-13T17:17:16+00:00",
+  "fetched_at": "2026-11-13T17:17:16+00:00"
  },
  "idf": {
   "data": [
@@ -3232,58 +3233,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-13T16:29:09+00:00",
-  "fetched_at": "2026-11-13T16:29:09+00:00"
+  "checked_at": "2026-11-13T17:17:17+00:00",
+  "fetched_at": "2026-11-13T17:17:17+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-13T15:59:00+00:00",
-    "seen_at": "2026-11-13T16:29:15+00:00",
+    "newest": "2026-11-13T17:00:00+00:00",
+    "seen_at": "2026-11-13T17:17:22+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-13T14:31:00+00:00",
-    "seen_at": "2026-11-13T16:29:15+00:00",
+    "seen_at": "2026-11-13T17:17:22+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-13T15:04:00+00:00",
-    "seen_at": "2026-11-13T16:29:15+00:00",
+    "newest": "2026-11-13T17:00:00+00:00",
+    "seen_at": "2026-11-13T17:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-12T11:53:00+00:00",
-    "seen_at": "2026-11-13T16:29:15+00:00",
+    "seen_at": "2026-11-13T17:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-13T15:48:00+00:00",
-    "seen_at": "2026-11-13T16:29:15+00:00",
+    "newest": "2026-11-13T17:46:00+00:00",
+    "seen_at": "2026-11-13T17:17:22+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-13T16:37:00+00:00",
-    "seen_at": "2026-11-13T16:29:15+00:00",
+    "seen_at": "2026-11-13T17:17:22+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-13T16:04:00+00:00",
-    "seen_at": "2026-11-13T16:29:15+00:00",
+    "newest": "2026-11-13T16:39:00+00:00",
+    "seen_at": "2026-11-13T17:17:22+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-13T09:29:24+00:00",
-    "seen_at": "2026-11-13T16:29:15+00:00",
+    "seen_at": "2026-11-13T17:17:22+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3295,25 +3296,25 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-12T18:00:00+00:00",
-    "seen_at": "2026-11-13T16:29:15+00:00",
+    "seen_at": "2026-11-13T17:17:22+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-13T15:26:23+00:00",
-    "seen_at": "2026-11-13T16:29:15+00:00",
+    "seen_at": "2026-11-13T17:17:22+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-11T16:30:25+00:00",
-    "seen_at": "2026-11-13T16:29:15+00:00",
+    "seen_at": "2026-11-13T17:17:22+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-13T15:35:28+00:00",
-    "seen_at": "2026-11-13T16:29:15+00:00",
+    "newest": "2026-11-13T16:36:15+00:00",
+    "seen_at": "2026-11-13T17:17:22+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3323,7 +3324,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-11-13T16:29:15+00:00"
+  "checked_at": "2026-11-13T17:17:22+00:00"
  },
  "health_news": {
   "data": [
@@ -3478,8 +3479,9 @@ window.DB.generated = {
     "date": "2026-10-19T10:31:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-13T16:29:10+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-13T17:17:17+00:00",
   "fetched_at": "2026-11-13T16:29:10+00:00"
  }
 };
