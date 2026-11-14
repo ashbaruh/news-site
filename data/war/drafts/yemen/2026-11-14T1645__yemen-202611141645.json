@@ -1,0 +1,237 @@
+{
+ "status": "draft",
+ "received_sha256_12": "d38fcda5eb1c",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 3,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-14T16:45:13+00:00",
+  "window": {
+   "from": "2026-11-13T16:45:13+00:00",
+   "to": "2026-11-14T16:45:13+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611141645"
+  },
+  "summary": "הלחימה בתימן מתנהלת בעצימות גבוהה בין כוחות הממשלה המוכרת והקואליציה בראשות סעודיה לבין המיליציה החות'ית. החות'ים מקדמים התקדמות קרקעית באזור אל-מצריבה הסמוך לעדן וממשיכים להפעיל לחץ וירי במחוזות תעז וסעדה, בעוד סעודיה מיירטת כטב\"מים בשטחה ומתבצרת מפני איומים מתקרבים.",
+  "fronts": [
+   {
+    "name": "חזית מחוז עדן ואל-מצריבה",
+    "status": "פעיל ומתקדם"
+   },
+   {
+    "name": "חזית תעז וסעדה",
+    "status": "פעיל"
+   },
+   {
+    "name": "זירת מצר באב אל-מנדב והים האדום",
+    "status": "מתוח ותחת איום שיט"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11141645-01",
+    "title": "תקיפות אוויריות וירי ארטילרי של הקואליציה בראשות סעודיה",
+    "summary": "הקואליציה בראשות סעודיה ביצעה תקיפות אוויריות והפגזות ארטילריות בדרום העיר סעדה ובכפרים במחוז רזיה",
+    "axis": "סעודיה והקואליציה מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T07:56:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T07:56:57+00:00",
+    "last_update_at": "2026-11-14T07:56:57+00:00",
+    "what_is_not_verified": "לא מאומת ממקור ראשון של הקואליציה אלא צוטט מערוץ אל-מסיחה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-led-coalition-forces-target-saada-razih-yemen",
+      "published_at": "2026-11-14T07:56:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סעדה, תימן",
+      "lat": 16.9409,
+      "lon": 43.763
+     },
+     {
+      "name": "רזיה, תימן",
+      "lat": 16.1544,
+      "lon": 43.4244
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11141645-02",
+    "title": "יירוט שני כלי טיס בלתי מאוישים סעודי",
+    "summary": "הקואליציה בראשות סעודיה הודיעה כי יירו והשמידו שני כלי טיס בלתי מאוישים ששוגרו לעבר ריאד והאזור הדרומי",
+    "axis": "סעודיה והקואליציה מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T08:41:39+00:00",
+    "last_update_at": "2026-11-14T13:44:46+00:00",
+    "what_is_not_verified": "הפרטים מבוססים על הודעת הקואליציה ללא אימות עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_c7e0913d421e3571",
+      "url": "https://www.sabanew.net/viewstory/155776",
+      "published_at": "2026-11-14T13:44:46+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_c7e0913d421e3571",
+      "url": "https://www.newarab.com/news/trump-says-may-hold-iran-attacks-barring-new-provocations",
+      "published_at": "2026-11-14T08:41:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11141645-03",
+    "title": "פעולות צבאיות והתקדמות חות'ית סמוך לעדן",
+    "summary": "כוחות הממשלה מתבצרים בפאתי מחוז עדן בעוד כוחות חות'ים מתקדמים מזרחה ותופסים שטח הררי ונקודות שלטון במחוז אל-מצריבה ואל-עארה",
+    "axis": "הממשלה המוכרת מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T17:24:41+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-13T17:24:41+00:00",
+    "last_update_at": "2026-11-13T17:24:41+00:00",
+    "what_is_not_verified": "היקף ההתקדמות המלא וההפסדים אינם מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemen-govt-forces-fortify-aden-defences-houthis-advance",
+      "published_at": "2026-11-13T17:24:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11141645-04",
+    "title": "פציעת אזרחית מירי צלף",
+    "summary": "אשה נפצעה מירי של צלף חות'י בדרום מזרח תעז",
+    "axis": "הממשלה המוכרת מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T12:50:34+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T12:50:34+00:00",
+    "last_update_at": "2026-11-14T12:50:34+00:00",
+    "what_is_not_verified": "פרטי האירוע המלאים מבוסס מקומי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155772",
+      "published_at": "2026-11-14T12:50:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על היקף התקיפות המדויק של כוחות הממשלה לפי דיווחים רשמיים",
+   "מספר הנפגעים המדויק בכל עימות מקומי"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2107,
+    "unit": "ILS",
+    "change_pct": 0.23,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "המשך פעילות נגד יעדים של הקואליציה ופגיעה בנתיבי שיט התומכים בישראל או בקואליציה"
+    ],
+    "inferred": [
+     "הרחבת השליטה הטריטוריאלית באזורים אסטרטגיים לעבר מפרץ עדן ומחוז עדן",
+     "ביסוס אחיזה סביב נתיבי הסחר הימיים בבאב אל-מנדב"
+    ],
+    "forecast": [
+     "המשך ניסיונות התקדמות לעבר מעוזי הממשלה בדרום תימן",
+     "המשך שיגור כטב\"מים וטילים לעבר סעודיה ויעדים ימיים לפי ההתפתחויות"
+    ]
+   },
+   {
+    "actor": "הקואליציה בראשות סעודיה וממשלת תימן",
+    "declared": [
+     "הגנה על המקומות הקדושים וריבונות המדינה",
+     "בלימת ההתקדמות החות'ית והשבת השליטה באזורים שאבדו"
+    ],
+    "inferred": [
+     "בניית קווי הגנה היקפיים סביב אזור עדן למניעת נפילת הבירה הזמנית",
+     "שימור לחץ צבאי באמצעות תקיפות אוויריות ופעילות קרקעית"
+    ],
+    "forecast": [
+     "חיזוק הביצורים סביב מתקנים אסטרטגיים בעדן",
+     "המשך תגובות צבאיות מוגבלות נגד ריכוזי כוח חות'יים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-led-coalition-forces-target-saada-razih-yemen",
+    "accessed_at": "2026-11-14T16:45:13+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/yemen-govt-forces-fortify-aden-defences-houthis-advance",
+    "accessed_at": "2026-11-14T16:45:13+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155772",
+    "accessed_at": "2026-11-14T16:45:13+00:00"
+   }
+  ]
+ }
+}

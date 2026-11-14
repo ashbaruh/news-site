@@ -1,0 +1,362 @@
+{
+ "status": "draft",
+ "received_sha256_12": "70495f4c4058",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 5,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-14T16:42:29+00:00",
+  "window": {
+   "from": "2026-11-13T16:42:29+00:00",
+   "to": "2026-11-14T16:42:29+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611141642"
+  },
+  "summary": "המלחמה בין רוסיה לאוקראינה נמשכת תוך כדי תקיפות אוויריות והתקפות רחפנים הדדיות בעומק שטח רוסיה ובחזיתות השונות באוקראינה. במקביל, מתנהלים מגעים דיפלומטיים בינלאומיים סביב אפשרות לפסגות בין מעצמות ודיונים על עתיד הביטחון באירופה וויתורים טריטורιαליים.",
+  "fronts": [
+   {
+    "name": "החזית המזרחית",
+    "status": "פעילה עם קרבות ולחימה מקומית"
+   },
+   {
+    "name": "החזית הדרומית",
+    "status": "פעילה עם תקיפות כטב\"מים וארטילריה"
+   },
+   {
+    "name": "הים השחור",
+    "status": "פעיל עם תקיפות על כלי שיט ותשתיות ימיות"
+   },
+   {
+    "name": "עומק רוסיה",
+    "status": "פעיל תחת מתקפות רחפנים אוקראיניות על תשתיות אנרגיה"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11141642-01",
+    "title": "פסגה משולשת מתוכננת בין רוסיה, סין וארצות הברית",
+    "summary": "דובר הקרמלין הודיע כי תתקיים פגישה משולשת בין נשיאי רוסיה, סין וארצות הברית בשנג'ן שבסין.",
+    "axis": "דיפלומטיה ומגעים מדיניים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T16:01:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T16:01:00+00:00",
+    "last_update_at": "2026-11-14T16:34:29+00:00",
+    "what_is_not_verified": "האם סוגיית המלחמה באוקראינה תעלה בפגישה המשולשת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49582",
+      "published_at": "2026-11-14T16:34:29+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133635",
+      "published_at": "2026-11-14T16:29:04+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062880/",
+      "published_at": "2026-11-14T16:01:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "שנג'ן, סין",
+      "lat": 22.5446,
+      "lon": 114.0545
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11141642-02",
+    "title": "תקיפת ספינת מששא מול חופי רומניה",
+    "summary": "ספינת מששא נפגעה מכטב\"ם במים הטריטוריאליים של רומניה ליד ספינטו גאורגה.",
+    "axis": "הים השחור",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T16:05:32+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T16:05:32+00:00",
+    "last_update_at": "2026-11-14T16:05:32+00:00",
+    "what_is_not_verified": "קשר בין טיסת מטוס סיור איטלקי לתקיפה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49580",
+      "published_at": "2026-11-14T16:05:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ספינטו גאורגה, רומניה",
+      "lat": 45.866,
+      "lon": 25.7865
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11141642-03",
+    "title": "הרוגים ופצועים בתקיפות באזור זפוריז'יה",
+    "summary": "תקיפות רוסיות בזפוריז'יה ובקוּשוּהוּם גרמו להרוגים ולעשרות פצועים, כולל פגיעה במבנים.",
+    "axis": "החזית הדרומית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T10:43:28+00:00",
+    "last_update_at": "2026-11-14T15:52:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4184708-injury-toll-after-russian-attack-on-zaporizhzhia-rises-to-22.html",
+      "published_at": "2026-11-14T15:52:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062868/",
+      "published_at": "2026-11-14T14:16:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4184669-russians-strike-zaporizhzhia-residential-building-educational-institution-damaged-15-injured.html",
+      "published_at": "2026-11-14T12:19:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/at-least-7-killed-80-injured-in-russian-attacks-across-ukraine-zaporizhzhia-among-worst-hit/",
+      "published_at": "2026-11-14T10:43:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפוריז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     },
+     {
+      "name": "קוּשוּהוּם, אוקראינה",
+      "lat": 47.7154,
+      "lon": 35.2072
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11141642-04",
+    "title": "תקיפת צוללת או כטב\"ם אוקראיני על מתקן נפט ברוסיה",
+    "summary": "שירות הביטחון של אוקראינה תקף באמצעות רחפנים ארוכי טווח את מתקן הצינורות סמרה ברוסיה.",
+    "axis": "עומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T13:29:02+00:00",
+    "last_update_at": "2026-11-14T13:56:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062866/",
+      "published_at": "2026-11-14T13:56:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-hits-key-russian-oil-hub-military-airbase-in-latest-long-range-strikes/",
+      "published_at": "2026-11-14T13:29:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פרוסבט, רוסיה",
+      "lat": 55.5691,
+      "lon": 65.0768
+     },
+     {
+      "name": "סמרה, רוסיה",
+      "lat": 53.1956,
+      "lon": 50.1015
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11141642-05",
+    "title": "בולגריה מפסיקה אספקת נשק ותחמושת לאוקראינה",
+    "summary": "ראש ממשלת בולגריה הודיע כי המדינה מפסיקה לספק נשק ותחמושת ממאגריה הצבאיים לאוקראינה.",
+    "axis": "סיוע צבאי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T12:55:21+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T12:55:21+00:00",
+    "last_update_at": "2026-11-14T13:28:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4184679-bulgaria-halts-arms-and-ammunition-supplies-to-ukraine-from-its-military-stockpiles.html",
+      "published_at": "2026-11-14T13:28:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2218193",
+      "published_at": "2026-11-14T12:55:21+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11141642-06",
+    "title": "הגבלות על מערכת סטארשילד באוקראינה",
+    "summary": "הנשיא זלנסקי האשים את חברת ספייס אקס בהטלת מגבלות מהירות על מערכת הלוויינים הצבאית סטארשילד בשטחי החזית.",
+    "axis": "החזית הטכנולוגית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T02:06:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T02:06:00+00:00",
+    "last_update_at": "2026-11-14T12:30:32+00:00",
+    "what_is_not_verified": "האם המניעים של ספייס אקס פוליטיים או טכניים לחלוטין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/zelensky-says-starshield-restrictions-give-russia-more-room-to-attack-accuses-spacex-of-treating-occupied-territories-as-not-ours/",
+      "published_at": "2026-11-14T12:30:32+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/14/spacex-not-honest-slowing-starshield-elon-musk-volodymyr-zelenskyy",
+      "published_at": "2026-11-14T11:05:33+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/14/ukraine-war-briefing-zelenskyy-says-starshield-restrictions-continue-on-entire-front-line",
+      "published_at": "2026-11-14T02:06:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "דיווחים ברוסיה על הסרת האיסור הלא רשמי על חיסול זלנסקי וצמרת הצבא האוקראיני",
+   "דיווחים בתקשורת הגרמנית על דרישה רוסית לנסיגת פינלנד מנאט\"ו וויתורים טריטוריאליים נרחבים במסגרת שיחות שלום",
+   "הצעה אמריקאית לכאורה לוותר על הדונבאס בתמורה לחברות בנאט\"ו לאוקראינה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1052,
+    "unit": "USD",
+    "change_pct": -0.26,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "שינוי אדריכלות הביטחון באירופה",
+     "בלימת התרחבות נאט\"ו"
+    ],
+    "inferred": [
+     "השתלטות על שטחים נוספים באוקראינה ופגיעה בתשתיות אנרגיה וייצוא",
+     "כפיית הסדר מדיני בתנאים רוסיים דרך משא ומתן עקיף עם מעצמות"
+    ],
+    "forecast": [
+     "המשך לחץ צבאי ותקיפות אוויריות על ערי אוקראינה",
+     "ניצול מפגשים דיפלומטיים בינלאומיים לחיזוק מעמדה"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על ריבונותה והשבת כל שטחי המדינה",
+     "קבלת סיוע צבאי מתקדם הכולל הגנה אווירית ומטוסי קרב"
+    ],
+    "inferred": [
+     "מניעת הגעה להסכמות בינלאומיות מעל ראשה שיכללו ויתורים טריטוריאליים",
+     "שיבוש שרשרת האספקה והאנרגיה הרוסית באמצעות תקיפות עומק"
+    ],
+    "forecast": [
+     "המשך דרישה למעורבות ישירה בכל דיון על עתידה המדיני",
+     "הישענות על סיוע מערבי למרות קשיים נקודתיים באספקת ציוד"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/14/ukraine-war-briefing-zelenskyy-says-starshield-restrictions-continue-on-entire-front-line",
+    "accessed_at": "2026-11-14T16:42:29+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/zelensky-says-starshield-restrictions-give-russia-more-room-to-attack-accuses-spacex-of-treating-occupied-territories-as-not-ours/",
+    "accessed_at": "2026-11-14T16:42:29+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062866/",
+    "accessed_at": "2026-11-14T16:42:29+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2218193",
+    "accessed_at": "2026-11-14T16:42:29+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133635",
+    "accessed_at": "2026-11-14T16:42:29+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49580",
+    "accessed_at": "2026-11-14T16:42:29+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4184679-bulgaria-halts-arms-and-ammunition-supplies-to-ukraine-from-its-military-stockpiles.html",
+    "accessed_at": "2026-11-14T16:42:29+00:00"
+   }
+  ]
+ }
+}
