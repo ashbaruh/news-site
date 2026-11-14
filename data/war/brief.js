@@ -1,168 +1,185 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-14T04:00:00+02:00",
- "generated_at": "2026-11-14T01:40:14+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-11-14T12:00:00+02:00",
+ "generated_at": "2026-11-14T09:40:25+00:00",
+ "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11140140-01",
-     "title": "יירוט כטב\"מים איראניים",
-     "summary": "פיקוד המרכז של ארה\"ב הודיע שכוחותיו יירטו שני כטב\"מים חד-כיווניים ששוגרו לעבר בחריין.",
-     "axis": "iran",
+     "id": "IRAN-11140940-01",
+     "title": "שלוש מכליות נפט נפגעו ממוקשים ימיים במצר הורמוז",
+     "summary": "כוחות חיל הים ומשמרות המהפכה של איראן דיווחו כי שלוש מכליות נפט עלו באש לאחר שנפגעו ממוקשים ימיים באזור מצר הורמוז.",
+     "axis": "עימות ימי במצר הורמוז",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-14T00:32:31+00:00",
+     "occurred_at": "2026-11-14T07:07:28+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-14T00:32:31+00:00",
-     "last_update_at": "2026-11-14T00:32:31+00:00",
-     "what_is_not_verified": "לא מאומת האם הותקף מכ\"ם התראה מוקדמת כפי שטענו משמרות המהפכה.",
+     "first_reported_at": "2026-11-14T07:07:28+00:00",
+     "last_update_at": "2026-11-14T07:15:34+00:00",
+     "what_is_not_verified": "פרטי הפגיעה והנזק המדויקים מבוססים על דיווחי גורמים איראניים בלבד",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_irna",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://en.irna.ir/news/86321078/Violating-oil-tanker-hit-by-mine-east-of-Strait-of-Hormuz",
+       "published_at": "2026-11-14T07:15:34+00:00"
+      },
+      {
        "source_id": "src_mee",
-       "source_root_id": "fh_51c4607ea2f219ce",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-two-iranian-drones-aimed-bahrain-shot-down",
-       "published_at": "2026-11-14T00:32:31+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-three-tankers-hit-mines-hormuz-fire",
+       "published_at": "2026-11-14T07:07:28+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-11140140-02",
-     "title": "חשד לכטב\"ם בבסיס בבריטניה",
-     "summary": "אנשי חיל האוויר האמריקאי בבסיס לייקנהית' בבריטניה הגיבו לפעילות חשודה של כטב\"ם בשטח הבסיס.",
-     "axis": "iran",
-     "claim_type": "incident",
+     "id": "IRAN-11140940-02",
+     "title": "החזרת עובדי רוסאטום לתחנת הכוח הגרעינית בבושהר",
+     "summary": "תאגיד הגרעין הממשלתי הרוסי מתכנן להגדיל את מצבת כוח האדם בתחנת הכוח הגרעינית בבושהר מ-180 ל-300 עובדים כדי לחדש פעילות מתוכננת.",
+     "axis": "פעילות גרעינית ושיתוף פעולה רוסי-איראני",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-13T22:42:20+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-13T22:42:20+00:00",
-     "last_update_at": "2026-11-13T22:42:20+00:00",
-     "what_is_not_verified": "זהות המפעילים של הכטב\"ם אינה מאומתת בטקסט.",
+     "occurred_at": "2026-11-14T07:03:33+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-14T07:03:33+00:00",
+     "last_update_at": "2026-11-14T07:03:33+00:00",
+     "what_is_not_verified": "מועד הביצוע המדויק של הגדלת הצוות טרם אומת מעבר להודעה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_c33fb70d5ab2adb8",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-responds-suspected-drone-activity-over-uk-air-base-used-iran-strikes",
-       "published_at": "2026-11-13T22:42:20+00:00"
+       "source_id": "src_irna",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://en.irna.ir/news/86321053/Rosatom-to-restore-workforce-at-Bushehr-Nuclear-Power-Plant-to",
+       "published_at": "2026-11-14T07:03:33+00:00"
       }
      ],
      "places": [
       {
-       "name": "לייקנהית', בריטניה",
-       "lat": 52.4042,
-       "lon": 0.5566
+       "name": "בושהר",
+       "lat": 28.9311,
+       "lon": 50.8458
       }
      ]
     },
     {
-     "id": "IRAN-11140140-03",
-     "title": "מיזוג בקבוצת מורדים באיראן",
-     "summary": "ארגון המורדים הסאוני אנסאר אל-פורקאן הודיע על הצטרפותו לקואליציית פלגים חמושים הלחמים נגד המשטר האיראני.",
-     "axis": "iran",
-     "claim_type": "statement",
+     "id": "IRAN-11140940-03",
+     "title": "מחאות ותורי ענק עקב מחסור בדלק באיראן",
+     "summary": "ערוץ אופוזיציה דיווח על תורים ארוכים לתחנות דלק באזור כרמאן ועל הפגנות שכללו חסימת כבישים בבנדר עבאס בשל מצוקת דלק.",
+     "axis": "השלכות המצור והמשבר הכלכלי באיראן",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
+     "occurred_at": "2026-11-14T08:53:01+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-13T22:37:29+00:00",
-     "last_update_at": "2026-11-13T22:37:29+00:00",
-     "what_is_not_verified": "היקף ההשפעה המדויק של המיזוג אינו מאומת.",
+     "first_reported_at": "2026-11-14T08:53:01+00:00",
+     "last_update_at": "2026-11-14T08:53:01+00:00",
+     "what_is_not_verified": "הדיווח נסמך על ערוץ אופוזיציה בלבד ולא אומת ממקורות רשמיים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_lwj",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.longwarjournal.org/archives/2026/11/irans-baluch-insurgency-expands-with-new-faction-merger.php",
-       "published_at": "2026-11-13T22:37:29+00:00"
+       "url": "https://t.me/abualiexpress/133619",
+       "published_at": "2026-11-14T08:53:01+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "כרמאן",
+       "lat": 29.5719,
+       "lon": 57.301
+      },
+      {
+       "name": "בנדר עבאס",
+       "lat": 27.1842,
+       "lon": 56.2893
+      }
+     ]
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-11140140-01",
-     "title": "תפיסת מחסן אמצעי לחימה בלבנון",
-     "summary": "הצבא הלבנוני פשט על מחסן אמצעי לחימה בפרבריה הדרומיים של ביירות ועצר חשוד אחד.",
-     "axis": "north",
+     "id": "NORTH-11140940-01",
+     "title": "תקיפה אווירית ישראלית בכפר תבנית בדרום לבנון",
+     "summary": "כתב ערוץ אל-מנאר דיווח על תקיפה מהאוויר שביצעו כוחות ישראליים בכפר תבנית שבדרום לבנון.",
+     "axis": "לחימה בדרום לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-13T18:12:09+00:00",
+     "occurred_at": "2026-11-14T09:12:58+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-13T18:12:09+00:00",
-     "last_update_at": "2026-11-13T18:12:09+00:00",
-     "what_is_not_verified": "פרטים מלאים על רשת ההברחה אינם מאומתים.",
+     "first_reported_at": "2026-11-14T09:12:58+00:00",
+     "last_update_at": "2026-11-14T09:12:58+00:00",
+     "what_is_not_verified": "אין אימות נוסף או פירוט לגבי תוצאות התקיפה מעבר לדיווח הכתב",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_2771f216c577f62a",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-army-says-it-seized-arms-depot-beiruts-southern-suburbs",
-       "published_at": "2026-11-13T18:12:09+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "fh_96fc8c3f18645fb5",
+       "url": "https://english.almanar.com.lb/article/150697/",
+       "published_at": "2026-11-14T09:12:58+00:00"
       }
      ],
      "places": [
       {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
+       "name": "כפר תבנית",
+       "lat": 33.3519,
+       "lon": 35.5186
       }
      ]
     },
     {
-     "id": "NORTH-11140140-02",
-     "title": "הסכם הגנה בין טורקיה לקטר",
-     "summary": "נשיא טורקיה ואמיר קטר חתמו באיסטנבול על הסכם הגנה הדדי להגנה משותפת מפני מתקפות חיצוניות.",
-     "axis": "north",
-     "claim_type": "statement",
+     "id": "NORTH-11140940-02",
+     "title": "ירי ארטילרי לעבר פאתי כפר שובא בדרום לבנון",
+     "summary": "ארטילריה ישראלית הפגיזה את פאתי העיירה כפר שובא בדרום לבנון, על פי דיווח מהשטח.",
+     "axis": "לחימה בדרום לבנון",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "occurred_at": "2026-11-14T07:43:49+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-14T07:43:49+00:00",
+     "last_update_at": "2026-11-14T07:43:49+00:00",
+     "what_is_not_verified": "היקף הנזק או הנפגעים אינו מפורט",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "fh_2a8767fedd602bf0",
+       "url": "https://english.almanar.com.lb/article/150622/",
+       "published_at": "2026-11-14T07:43:49+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "כפר שובא",
+       "lat": 33.3277,
+       "lon": 35.6927
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11140940-03",
+     "title": "טיסות כלי טיס בלתי מאוישים מעל הדאחייה בביירות",
+     "summary": "דווח על פעילות בלתי פוסקת של כלי טיס מאוישים מרחוק ישראליים מעל הפרבר הדרומי של ביירות.",
+     "axis": "פעילות אווירית ישראלית בלבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-14T08:22:50+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-13T20:30:27+00:00",
-     "last_update_at": "2026-11-13T20:30:27+00:00",
-     "what_is_not_verified": "נוסח ההסכם וסעיפיו המבצעיים טרם פורסמו במלואם.",
+     "first_reported_at": "2026-11-14T08:22:50+00:00",
+     "last_update_at": "2026-11-14T08:22:50+00:00",
+     "what_is_not_verified": "משך הפעילות ומטרותיה המדויקות אינם מאומתים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "fh_8e1794492ce7e2d0",
-       "url": "https://www.al-monitor.com/originals/2026/11/turkey-qatar-sign-mutual-defence-agreement",
-       "published_at": "2026-11-13T20:30:27+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "איסטנבול, טורקיה",
-       "lat": 41.0064,
-       "lon": 28.9759
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11140140-03",
-     "title": "הסרת מגבלות כניסה בסוריה",
-     "summary": "השלטונות בסוריה ביטלו את דרישת אישור הכניסה המוקדם לאזרחי ארצות הברית ובריטניה.",
-     "axis": "north",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-13T19:49:13+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-13T19:49:13+00:00",
-     "last_update_at": "2026-11-13T19:49:13+00:00",
-     "what_is_not_verified": "הסיבות המלאות לביטול הזמני אינן מפורטות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "fh_645b75de7e7a7d74",
-       "url": "https://www.aa.com.tr/en/middle-east/syria-lifts-prior-entry-approval-requirement-for-us-british-citizens-after-controversy/4124717",
-       "published_at": "2026-11-13T19:49:13+00:00"
+       "source_id": "src_almanar",
+       "source_root_id": "fh_e1f8e1943da798a6",
+       "url": "https://english.almanar.com.lb/article/150667/",
+       "published_at": "2026-11-14T08:22:50+00:00"
       }
      ],
      "places": []
@@ -172,83 +189,89 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11140140-01",
-     "title": "הארכת כהונת ראש השירות החשוב ברוסיה",
-     "summary": "נשיא רוסיה ולדימיר פוטין האריך בשנה את כהונתו של ראש שירות הביטחון הפדרלי הרוסי, אלכסנדר בורטניקוב.",
-     "axis": "ukraine",
+     "id": "UKRAINE-11140940-01",
+     "title": "פגיעת כטב\"ם בבית בעיר הלוחיב שבמחוז סומי",
+     "summary": "כטב\"ם רוסי פגע במבנה מגורים בהלוחיב וגרם לפציעת אישה ונכדה, ובתקיפה עוקבת נפגע גם שוטר.",
+     "axis": "תקיפות רוסיות על יעדים אזרחיים",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "occurred_at": "2026-11-14T07:45:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-13T16:03:30+00:00",
-     "last_update_at": "2026-11-13T16:03:30+00:00",
-     "what_is_not_verified": "מצבו הבריאותי המדויק של בורטניקוב אינו מאומת ממקור רפואי רשמי.",
+     "first_reported_at": "2026-11-14T07:45:00+00:00",
+     "last_update_at": "2026-11-14T07:45:00+00:00",
+     "what_is_not_verified": "הערכת מצבם של הנפגעים מעבר למידע הרשמי הראשוני",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49556",
-       "published_at": "2026-11-13T16:03:30+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062838/",
+       "published_at": "2026-11-14T07:45:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "הלוחיב",
+       "lat": 51.6783,
+       "lon": 33.9093
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11140940-02",
+     "title": "דרישת סנאטורים דמוקרטים ממאסק לשמר תיעוד לגבי סטארלינק",
+     "summary": "חברי סנאט דמוקרטים פנו למנכ\"ל חברת ספייס-אקס בדרישה לשמור את כלל המסמכים הנוגעים להגבלות שהוטלו על השימוש האוקראיני בשירותי הלוויין.",
+     "axis": "סיוע ותקשורת לוויינית לצבא אוקראינה",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-14T08:45:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-14T08:45:00+00:00",
+     "last_update_at": "2026-11-14T08:47:00+00:00",
+     "what_is_not_verified": "תגובת אילון מאסק או נקיטת צעדים בפועל בעקבות המכתב",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062840/",
+       "published_at": "2026-11-14T08:47:00+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-polytics/4184601-democrats-urge-musk-to-preserve-records-on-starlink-operations-in-ukraine-media.html",
+       "published_at": "2026-11-14T08:45:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-11140140-02",
-     "title": "פניית פינלנד לאוקראינה סביב תקיפה ימית",
-     "summary": "…",
-     "axis": "ukraine",
-     "claim_type": "incident",
+     "id": "UKRAINE-11140940-03",
+     "title": "פרטים על תקיפת קורבטת הטילים הרוסית בים הבלטי",
+     "summary": "סגן מפקד הדיוויזיה האסטונית תיאר פגיעה של מספר כטב\"מים אוקראיניים בספינת הטילים הרוסית נארו-פומינסק במהלך מתקפה בנמל אוסט-לוגה.",
+     "axis": "תקיפות אוקראיניות נגד הצי הרוסי",
+     "claim_type": "assessment",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
+     "occurred_at": "2026-11-14T08:03:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-13T15:04:19+00:00",
-     "last_update_at": "2026-11-13T15:04:19+00:00",
-     "what_is_not_verified": "הנזק המדויק שנגרם לקורבטה הרוסית אינו מאומת לחלוטין.",
+     "first_reported_at": "2026-11-14T08:03:00+00:00",
+     "last_update_at": "2026-11-14T08:03:00+00:00",
+     "what_is_not_verified": "חומרת הנזק הסופי לכלי השיט מעבר לדברי הקצין האסטוני",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49554",
-       "published_at": "2026-11-13T15:04:19+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062839/",
+       "published_at": "2026-11-14T08:03:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "מפרץ פינלנד",
-       "lat": 59.8737,
-       "lon": 26.323
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11140140-03",
-     "title": "איסוף שרידי כטב\"ם בקייב",
-     "summary": "צוותי חילוץ אוקראיניים משו מנהר דנייפר שרידי כטב\"ם רוסי שנפל במהלך מתקפה קודמת.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-13T23:26:00+00:00",
-     "last_update_at": "2026-11-13T23:26:00+00:00",
-     "what_is_not_verified": "אין פירוט על פגיעה במטרות ספציפיות בנקודה זו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_38b23cb3809ed3c2",
-       "url": "https://www.ukrinform.net/rubric-ato/4184176-remains-of-russian-drone-recovered-from-dnipro-river-in-kyiv.html",
-       "published_at": "2026-11-13T23:26:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "אוסט-לוגה",
+       "lat": 59.6592,
+       "lon": 28.2695
       }
      ]
     }
@@ -257,89 +280,42 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-11140140-01",
-     "title": "הכרזת החות'ים על תקיפה בסעודיה",
-     "summary": "החות'ים בתימן טענו שתקפו באמצעות כטב\"מים וטילים בלסטיסטיים את נמל התעופה הבינלאומי על שם המלך ח'אלד בריאד ואת תחנת השאיבה בצינור הנפט.",
-     "axis": "yemen",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-13T20:58:21+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-13T20:58:21+00:00",
-     "last_update_at": "2026-11-13T20:58:21+00:00",
-     "what_is_not_verified": "אמינות הדיווח על פגיעה מוצלחת במטרות הסעודיות לא אומתה מצד סעודיה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-attacked-riyadh-airport-and-saudi-oil-pipeline",
-       "published_at": "2026-11-13T20:58:21+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-11140140-02",
-     "title": "דרישת האו\"ם להשבת גופת איש צוות",
-     "summary": "ראש זכויות האדם של האו\"ם דרש מהחות'ים להחזיר את גופתו של איש צוות תימני שמסר כי מת לאחר שהוחזק במעצרם במשך שנתיים.",
-     "axis": "yemen",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-13T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-13T17:47:08+00:00",
-     "last_update_at": "2026-11-13T17:47:08+00:00",
-     "what_is_not_verified": "סיבת מותו המדויקת של העצור אינה מאומתת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/un-rights-chief-demands-houthis-return-body-yemeni-staff-member",
-       "published_at": "2026-11-13T17:47:08+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ז'נבה, שוויץ",
-       "lat": 46.2018,
-       "lon": 6.1466
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-11140140-03",
-     "title": "ביצורים של כוחות ממשלת תימן ליד עדן",
-     "summary": "כוחות ממשלת תימן המוכרת בינלאומית החלו לבצר עמדות מחוץ למחוז עדן בעקבות התקדמות החות'ים.",
-     "axis": "yemen",
+     "id": "YEMEN-11140940-01",
+     "title": "תקיפות של הקואליציה בהובלת סעודיה בצפון תימן",
+     "summary": "כלי תקשורת של החות'ים דיווחו על תקיפות אוויריות בדרום העיר סעדה ועל ירי ארטילרי לעבר כפרים במחוז ראזח.",
+     "axis": "הלחימה הפנימית והעימות מול הקואליציה בתימן",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-13T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-13T17:24:41+00:00",
-     "last_update_at": "2026-11-13T17:24:41+00:00",
-     "what_is_not_verified": "מלוא היקף השטחים שעברו שליטה אינו מפורט במלואו.",
+     "occurred_at": "2026-11-14T07:56:57+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-14T07:56:57+00:00",
+     "last_update_at": "2026-11-14T08:41:39+00:00",
+     "what_is_not_verified": "מידע על נפגעים ונזק טרם אומת באופן עצמאי מעבר לטענות החות'ים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/yemen-govt-forces-fortify-aden-defences-houthis-advance",
-       "published_at": "2026-11-13T17:24:41+00:00"
+       "url": "https://www.newarab.com/news/three-oil-tankers-hit-mines-hormuz-attacks-n-yemen",
+       "published_at": "2026-11-14T08:41:39+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-led-coalition-forces-target-saada-razih-yemen",
+       "published_at": "2026-11-14T07:56:57+00:00"
       }
      ],
      "places": [
       {
-       "name": "עדן, תימן",
-       "lat": 12.7896,
-       "lon": 45.0285
+       "name": "סעדה",
+       "lat": 16.9409,
+       "lon": 43.763
+      },
+      {
+       "name": "ראזח",
+       "lat": 16.1544,
+       "lon": 43.4244
       }
      ]
     }
