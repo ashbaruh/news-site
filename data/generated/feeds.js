@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-14T02:17:31+00:00",
-  "fetched_at": "2026-11-14T02:17:31+00:00"
+  "checked_at": "2026-11-14T02:28:37+00:00",
+  "fetched_at": "2026-11-14T02:28:37+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-14T02:17:43+00:00",
-  "fetched_at": "2026-11-14T02:17:43+00:00"
+  "checked_at": "2026-11-14T02:28:48+00:00",
+  "fetched_at": "2026-11-14T02:28:48+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-14T02:17:44+00:00",
-  "fetched_at": "2026-11-14T02:17:44+00:00"
+  "checked_at": "2026-11-14T02:28:48+00:00",
+  "fetched_at": "2026-11-14T02:28:48+00:00"
  },
- "generated_at": "2026-11-14T02:17:44+00:00",
+ "generated_at": "2026-11-14T02:28:48+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-14T02:17:33+00:00",
-  "fetched_at": "2026-11-14T02:17:33+00:00"
+  "checked_at": "2026-11-14T02:28:38+00:00",
+  "fetched_at": "2026-11-14T02:28:38+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-14T02:17:34+00:00",
-  "fetched_at": "2026-11-14T02:17:34+00:00"
+  "checked_at": "2026-11-14T02:28:39+00:00",
+  "fetched_at": "2026-11-14T02:28:39+00:00"
  },
  "tv": {
   "data": [
@@ -2718,8 +2718,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-14T02:17:36+00:00",
-  "fetched_at": "2026-11-14T02:17:36+00:00"
+  "checked_at": "2026-11-14T02:28:41+00:00",
+  "fetched_at": "2026-11-14T02:28:41+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2809,12 +2809,19 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-14T02:17:36+00:00",
-  "fetched_at": "2026-11-14T02:17:36+00:00"
+  "checked_at": "2026-11-14T02:28:41+00:00",
+  "fetched_at": "2026-11-14T02:28:41+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/claude-code-desktop-vulnerability-cvss-8-7-high/",
+     "date": "2026-11-12T08:58:03+00:00",
+     "launch": true,
+     "title": "איך Claude Code Desktop כמעט הדליף את כל המידע מהמחשב שלכם"
+    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/introducing-chatgpt-wallet",
@@ -2823,28 +2830,18 @@ window.DB.generated = {
      "title_en": "Introducing ChatGPT Wallet",
      "title_he": "הכירו את ארנק ChatGPT",
      "translated_by": "mymemory"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-     "date": "2026-11-12T18:00:50+00:00",
-     "launch": true,
-     "title_en": "Introducing Gemini 4 Hydrogen",
-     "title_he": "הכירו את Gemini 4 מימן",
-     "translated_by": "google"
     }
    ],
-   "candidates": 8,
+   "candidates": 12,
    "failed_sources": [
-    "Anthropic",
-    "גיקטיים"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 615,
+     "likes": 616,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
@@ -2865,7 +2862,7 @@ window.DB.generated = {
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 143,
+     "likes": 144,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
     },
     {
@@ -2904,17 +2901,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "הפקת וידאו עם פסקול מסונכרן",
-     "likes": 358,
-     "link": "https://huggingface.co/spaces/wank3r/minimax-h3"
+     "title": "Jev Decision Index",
+     "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
+     "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
+     "likes": 920,
+     "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-14T02:17:42+00:00",
-  "fetched_at": "2026-11-14T02:17:42+00:00"
+  "checked_at": "2026-11-14T02:28:47+00:00",
+  "fetched_at": "2026-11-14T02:28:47+00:00"
  },
  "abroad": {
   "data": {
@@ -3257,8 +3254,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-14T02:17:40+00:00",
-  "fetched_at": "2026-11-14T02:17:40+00:00"
+  "checked_at": "2026-11-14T02:28:44+00:00",
+  "fetched_at": "2026-11-14T02:28:44+00:00"
  },
  "idf": {
   "data": [
@@ -3289,8 +3286,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-14T02:17:41+00:00",
-  "fetched_at": "2026-11-14T02:17:41+00:00"
+  "checked_at": "2026-11-14T02:28:44+00:00",
+  "fetched_at": "2026-11-14T02:28:44+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3298,89 +3295,89 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-13T21:26:00+00:00",
-    "seen_at": "2026-11-14T02:17:44+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-13T14:31:00+00:00",
-    "seen_at": "2026-11-14T02:17:44+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-13T21:00:00+00:00",
-    "seen_at": "2026-11-14T02:17:44+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-13T18:13:00+00:00",
-    "seen_at": "2026-11-14T02:17:44+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-13T22:40:00+00:00",
-    "seen_at": "2026-11-14T02:17:44+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-13T16:37:00+00:00",
-    "seen_at": "2026-11-14T02:17:44+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-13T22:00:00+00:00",
-    "seen_at": "2026-11-14T02:17:44+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-13T19:58:52+00:00",
-    "seen_at": "2026-11-14T02:17:44+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-12T18:00:50+00:00",
-    "seen_at": "2026-11-14T02:17:44+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-12T18:00:00+00:00",
-    "seen_at": "2026-11-14T02:17:44+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-13T15:26:23+00:00",
-    "seen_at": "2026-11-14T01:17:25+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-11T16:30:25+00:00",
-    "seen_at": "2026-11-14T02:17:44+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-13T16:36:15+00:00",
-    "seen_at": "2026-11-14T02:17:44+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-12T12:13:59+00:00",
-    "seen_at": "2026-11-14T02:17:44+00:00",
+    "seen_at": "2026-11-14T02:28:48+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-14T02:17:44+00:00"
+  "checked_at": "2026-11-14T02:28:48+00:00"
  },
  "health_news": {
   "data": [
@@ -3536,7 +3533,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-14T02:17:41+00:00",
-  "fetched_at": "2026-11-14T02:17:41+00:00"
+  "checked_at": "2026-11-14T02:28:44+00:00",
+  "fetched_at": "2026-11-14T02:28:44+00:00"
  }
 };
