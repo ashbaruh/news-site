@@ -1,0 +1,480 @@
+{
+ "status": "draft",
+ "received_sha256_12": "8c11aaa9ebaa",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 4,
+   "verified": 3,
+   "initial": 2,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-14T06:56:57+00:00",
+  "window": {
+   "from": "2026-11-13T06:56:57+00:00",
+   "to": "2026-11-14T06:56:57+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611140656"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל מתאפיין בפגיעה קשה בחופש השיט ובמתיחות חריפה סביב מצר הורמוז, שם נרשמו פגיעות מוקשים במכליות וירידה משמעותית בתנועה הימית. במקביל להפעלת לחץ כלכלי כבד שפגע קשות בתפוקת הנפט של איראן, ממשיכה טהראן בפעולות תגמול צבאיות ממוקדות ובסירוב לפיקוח על מתקן העשרה באספהאן. בישראל ובארה\"ב נערכים לאיומים ישירים ולשיקום יכולות הטילים הבליסטיים של משמרות המהפכה, לצד פעילות דיפלומטית ומגעים לקראת פסגות בינלאומיות.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "הסלמה ימית, מיקוש מכליות נפט וצניחה חדה בהיקף התנועה המסחרית"
+   },
+   {
+    "name": "ארה\"ב - איראן",
+    "status": "עימות צבאי ממוקד הכולל תקיפת מכ\"ם בבחריין, איומים על בכירים וסגר ימי"
+   },
+   {
+    "name": "ישראל - איראן",
+    "status": "כוננות ביטחונית גבוהה, הערכות לשיקום ייצור הטילים האיראני ותיאום ימי עם ארה\"ב"
+   },
+   {
+    "name": "החזית הגרעינית",
+    "status": "מתיחות מול סבא\"א בעקבות מניעת גישה למתקן העשרה באספהאן"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11140656-01",
+    "title": "תקרית ביטחונית וחשד לכטב\"מים בבסיס חיל האוויר לייקנהית'",
+    "summary": "התרעות הופעלו וכוחות ביטחון הוקפצו בבסיס לייקנהית' בבריטניה בעקבות חשד לפעילות כלי טיס בלתי מאוישים, ימים ספורים לאחר פינוי כלי טיס אמריקניים מחשש לאיום איראני. האירוע הסתיים ללא נפגעים.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T20:30:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T20:30:40+00:00",
+    "last_update_at": "2026-11-14T06:09:11+00:00",
+    "what_is_not_verified": "זהות מפעילי הכטב\"מים והקשר הוודאי לאיראן אינם מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rkgqhdsafe",
+      "published_at": "2026-11-14T06:09:11+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/other/article/21847591",
+      "published_at": "2026-11-13T21:00:30+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133609",
+      "published_at": "2026-11-13T20:30:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס לייקנהית', בריטניה",
+      "lat": 52.4042,
+      "lon": 0.5566
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11140656-02",
+    "title": "פגיעת מוקשים במכליות נפט במצר הורמוז",
+    "summary": "משמרות המהפכה הודיעו כי מכליות נפט ומכלית גז עלו באש או התפוצצו לאחר שפגעו במוקשים ימיים במצר הורמוז, בטענה שפעלו בנתיב לא מורשה.",
+    "axis": "מצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:25+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T00:00:25+00:00",
+    "last_update_at": "2026-11-14T05:48:36+00:00",
+    "what_is_not_verified": "זהות המכליות המדויקת ומספרן הכולל אינם מאומתים מעבר להודעות האיראניות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_4e4356a7db97ba63",
+      "url": "https://en.irna.ir/news/86320921/Two-offending-oil-tankers-catch-fire-after-hitting-naval-mines",
+      "published_at": "2026-11-14T05:48:36+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_4e4356a7db97ba63",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lng-carrier-explodes-after-hitting-mine-hormuz-irgc-says",
+      "published_at": "2026-11-14T05:04:09+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_4e4356a7db97ba63",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
+      "published_at": "2026-11-14T00:00:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11140656-03",
+    "title": "דו\"ח על מתקפות ימיות ושיבוש התנועה במצר הורמוז",
+    "summary": "ארגון הסחר הימי הבריטי דיווח על תקיפת שבע מכליות לפחות באזור מצר הורמוז בשבוע שקדם ל-11 בנובמבר, לצד ירידה חדה של כ-65 אחוזים בתנועת כלי השיט במצר.",
+    "axis": "מצר הורמוז",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-11T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T05:29:07+00:00",
+    "last_update_at": "2026-11-14T05:29:07+00:00",
+    "what_is_not_verified": "זהות כלל הגורמים התוקפים בכל אחת מהתקריות הימיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_9eaf764b254192d6",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-seven-hormuz-tanker-attacks-recorded-week",
+      "published_at": "2026-11-14T05:29:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     },
+     {
+      "name": "ראס אל-ח'ימה, איחוד האמירויות",
+      "lat": 25.7738,
+      "lon": 55.9382
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11140656-04",
+    "title": "טענת איראן על השמדת מכ\"ם אמריקאי בבחריין",
+    "summary": "משמרות המהפכה הודיעו כי תקפו והשמידו מערכת מכ\"ם התרעה מוקדמת של ארה\"ב בבחריין, בתגובה להפצצת מגדל תקשורת בסירק.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T13:52:11+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T13:52:11+00:00",
+    "last_update_at": "2026-11-13T13:52:11+00:00",
+    "what_is_not_verified": "מידת הנזק בפועל למכ\"ם האמריקאי והאישור מצד ארה\"ב לתקיפה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+      "published_at": "2026-11-13T13:52:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סירק, איראן",
+      "lat": 26.5177,
+      "lon": 57.1018
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11140656-05",
+    "title": "התרעת סבא\"א בנוגע לאתר גרעין בלתי מפוקח באספהאן",
+    "summary": "סבא\"א הביעה דאגה עמוקה מכך שלא התאפשר לפקחיה לבקר במתקן להעשרת אורניום באספהאן, שאיראן דיווחה על קיומו בעבר.",
+    "axis": "גרעין איראני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T10:41:29+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-13T10:41:29+00:00",
+    "last_update_at": "2026-11-13T12:28:28+00:00",
+    "what_is_not_verified": "רמת הפעילות הנוכחית וכמות האורניום שהועשרה במתקן באספהאן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-13T12:28:28+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95024",
+      "published_at": "2026-11-13T10:41:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אספהאן, איראן",
+      "lat": 32.6708,
+      "lon": 51.665
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11140656-06",
+    "title": "איומים איראניים על חיי שר האוצר האמריקני",
+    "summary": "שר האוצר האמריקני סקוט בסנט הודיע כי עבר להתגורר בבסיס צבאי עקב איומים איראניים על חייו, והצהיר כי הממשל ימשיך להגביר את הלחץ הכלכלי על טהראן.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T16:58:19+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-13T16:58:19+00:00",
+    "last_update_at": "2026-11-13T19:15:15+00:00",
+    "what_is_not_verified": "אופי ומהות האיומים המדויקים שהופנו כלפי בסנט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_cnbc",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21847431",
+      "published_at": "2026-11-13T19:15:15+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_cnbc",
+      "url": "https://t.me/abualiexpress/133606",
+      "published_at": "2026-11-13T16:58:19+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11140656-07",
+    "title": "פגישת מפקד הצי החמישי עם מפקד זרוע הים בישראל",
+    "summary": "מפקד הצי החמישי של צבא ארה\"ב סיים ביקור בישראל ונפגש עם מפקד זרוע הים לדיון בתיאום מבצעי, שמירה על נתיבי השיט וביטחון אזורי בלחימה.",
+    "axis": "ישראל - ארה\"ב - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T19:58:52+00:00",
+    "last_update_at": "2026-11-13T19:58:52+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383961304",
+      "published_at": "2026-11-13T19:58:52+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11140656-08",
+    "title": "נפילה חדה בהפקת הנפט האיראנית",
+    "summary": "תפוקת הנפט של איראן לחודש אוקטובר צנחה בכמעט מחצית מרמות טרום המלחמה, לרמה הנמוכה מצורכי הזיקוק המקומיים שלה.",
+    "axis": "כלכלת איראן ועיצומים",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T02:34:04+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T02:34:04+00:00",
+    "last_update_at": "2026-11-14T02:34:04+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611135975",
+      "published_at": "2026-11-14T02:34:04+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11140656-09",
+    "title": "הערכה ישראלית על שיקום ייצור הטילים באיראן",
+    "summary": "גורמי ביטחון בישראל מעריכים כי איראן שיקמה כחמישית מיכולת ייצור הטילים הבליסטיים שלה מאז מבצע שאגת הארי, ומביעים חשש מהסכם מדיני או מהפתעה מבצעית.",
+    "axis": "ישראל - איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T09:29:24+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-13T09:29:24+00:00",
+    "last_update_at": "2026-11-13T09:29:24+00:00",
+    "what_is_not_verified": "רמת הדיוק של ההערכה בדבר שיקום 20% מיכולות הייצור",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383961269",
+      "published_at": "2026-11-13T09:29:24+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11140656-10",
+    "title": "יצוא נפט עיראקי חלופי דרך סוריה בעקבות המתיחות במצר",
+    "summary": "עיראק העבירה כ-1.6 מיליון חביות נפט גולמי דרך סוריה מאז סוף אוקטובר כדי לעקוף שיבושים אפשריים במצר הורמוז.",
+    "axis": "מצר הורמוז",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T20:01:17+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-13T20:01:17+00:00",
+    "last_update_at": "2026-11-13T20:01:17+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49563",
+      "published_at": "2026-11-13T20:01:17+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת משמרות המהפכה על השמדת מכ\"ם התרעה מוקדמת אמריקני בבחריין",
+   "דיווחים על כטב\"ם בלתי מזוהה מעל בסיס חיל האוויר לייקנהית' ושיוכו לאיראן",
+   "רמת שיקום ייצור הטילים הבליסטיים של איראן לכדי עשרים אחוזים",
+   "הדיווח על נסיעת ראש המוסד לוושינגטון לשכנוע הממשל לחדש את המלחמה באיראן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2107,
+    "unit": "ILS",
+    "change_pct": 0.23,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "חיוב ארה\"ב להפסיק לאלתר את התוקפנות והסגר הימי",
+     "מתן ערבויות מוחשיות נגד חידוש המתקפות והסרת צעדים חד-צדדיים",
+     "שמירה על זכויותיה לפי המשפט הבינלאומי ואמנת האו\"ם"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי עולמי דרך פגיעה בנתיבי השיט במצר הורמוז",
+     "שיקום יכולות ייצור הטילים וההרתעה הצבאית מול ישראל וארה\"ב",
+     "שימור מרחב התמרון בתוכנית הגרעין ללא פיקוח הדוק באספהאן"
+    ],
+    "forecast": [
+     "המשך שיבוש נקודתי של תנועת מכליות נפט במפרץ באמצעות מיקוש ואיומים",
+     "תגובות צבאיות מדודות כנגד נוכחות ומתקנים אמריקניים באזור"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "המשך הגברת הלחץ הכלכלי ומבצע הנידוי הכלכלי נגד המשטר האיראני",
+     "אבטחת נתיבי השיט הבינלאומיים במפרץ ואכיפת סגר ימי"
+    ],
+    "inferred": [
+     "בלימת היכולות הגרעיניות והצבאיות של איראן ללא כניסה לעימות כולל בלתי מבוקר",
+     "הגנה על כוחות ומתקנים צבאיים אמריקניים הפרוסים באזור ובאירופה"
+    ],
+    "forecast": [
+     "שמירה על נוכחות ימית הדוקה במפרץ בשיתוף פעולה עם ישראל ובעלות ברית",
+     "העלאת סוגיית המלחמה באיראן לדיון במסגרת שיחות פסגה עם סין ורוסיה"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "שמירת יציבות האזור וביטחון נתיבי השיט בתיאום עם ארה\"ב"
+    ],
+    "inferred": [
+     "מניעת הגעה להסכם מדיני שישאיר בידי איראן יכולות גרעין וייצור טילים",
+     "דחיפת הממשל האמריקני לפעולה תקיפה כנגד משטר האייתוללות"
+    ],
+    "forecast": [
+     "המשך העלאת כוננות ומוכנות מודיעינית ומבצעית מול שיקום מערכי הטילים באיראן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
+    "accessed_at": "2026-11-14T06:56:57+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-14T06:56:57+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+    "accessed_at": "2026-11-14T06:56:57+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611135975",
+    "accessed_at": "2026-11-14T06:56:57+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86320921/Two-offending-oil-tankers-catch-fire-after-hitting-naval-mines",
+    "accessed_at": "2026-11-14T06:56:57+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21847431",
+    "accessed_at": "2026-11-14T06:56:57+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-says-seven-hormuz-tanker-attacks-recorded-week",
+    "accessed_at": "2026-11-14T06:56:57+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133606",
+    "accessed_at": "2026-11-14T06:56:57+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49563",
+    "accessed_at": "2026-11-14T06:56:57+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95024",
+    "accessed_at": "2026-11-14T06:56:57+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383961269",
+    "accessed_at": "2026-11-14T06:56:57+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rkgqhdsafe",
+    "accessed_at": "2026-11-14T06:56:57+00:00"
+   }
+  ]
+ }
+}

@@ -185,6 +185,7 @@
 33.6423,
 35.479
 ],
+"al-qusair, lebanon": null,
 "al-qusayr, lebanon": [
 34.6058,
 36.2389
@@ -449,6 +450,10 @@
 "barashit, lebanon": [
 33.1785,
 35.4372
+],
+"barhalioun, lebanon": [
+34.2589,
+35.8762
 ],
 "bariqa, syria": [
 33.0348,
@@ -1118,6 +1123,7 @@
 41.684,
 -92.0612
 ],
+"iran": null,
 "iraq": null,
 "iraqi kurdistan, iraq": null,
 "irpin, ukraine": [
@@ -2124,6 +2130,10 @@
 51.6851,
 -1.7865
 ],
+"raf lakenheath, uk": [
+52.4042,
+0.5566
+],
 "raf lakenheath, united kingdom": [
 52.4042,
 0.5566
@@ -2149,6 +2159,10 @@
 "ras al-ara, yemen": [
 12.6084,
 43.9158
+],
+"ras al-khaimah, uae": [
+25.7738,
+55.9382
 ],
 "ras isa, yemen": [
 15.1885,
