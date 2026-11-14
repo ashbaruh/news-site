@@ -2,163 +2,192 @@
 window.DB = window.DB || {};
 window.DB.war_published = {
  "yemen": {
-  "draft": "drafts/yemen/2026-11-12T1859__yemen-202611121859.json",
+  "draft": "drafts/yemen/2026-11-14T0045__yemen-202611140045.json",
   "analysis": {
    "contract_version": 1,
    "arena": "yemen",
-   "generated_at": "2026-11-12T18:59:42+00:00",
+   "generated_at": "2026-11-14T00:45:29+00:00",
    "window": {
-    "from": "2026-11-11T18:59:42+00:00",
-    "to": "2026-11-12T18:59:42+00:00"
+    "from": "2026-11-13T00:45:29+00:00",
+    "to": "2026-11-14T00:45:29+00:00"
    },
    "model": {
-    "name": "gemini-3.5-flash-lite",
-    "run_id": "yemen-202611121859"
+    "name": "gemini-3.7-flash",
+    "run_id": "yemen-202611140045"
    },
-   "summary": "הזירה בתימן כוללת המשך עימותים קרקעיים מול החות'ים לצד תקיפות בלתי פוסקות מצידם לעבר תשתיות נפט וערים בסעודיה. במקביל, סעודיה פועלת בזירה הדיפלומטית הבינלאומית להגדרת החות'ים כארגון טרור, בעוד הקואליציה ממשיכה ביירוט איומים אוויריים.",
+   "summary": "בזירה התימנית נרשמת החרפה משמעותית בלחימה הקרקעית והאווירית בין תנועת החות'ים לבין כוחות ממשלת תימן והקואליציה בראשות סעודיה. החות'ים מרחיבים את תקיפותיהם לעומק שטח סעודיה ומפעילים לחץ צבאי גובר על מבואות העיר עדן וסביבות מצר באב אל-מנדב. במקביל, כוחות הממשלה מקימים קווי ביצור סביב עיר הבירה הזמנית ומדווחים על מכות אש נרחבות לבלימת ההתקדמות.",
    "fronts": [
     {
-     "name": "חזית תימן הפנימית",
-     "status": "פעיל עם עימותים צבאיים וקרבות קרקעיים"
+     "name": "מבואות עדן ודרום מערב תימן",
+     "status": "התקדמות חות'ית לעבר רכסים שולטים והקמת מערכי הגנה וביצורים של כוחות הממשלה."
     },
     {
-     "name": "החזית הסעודית-חות'ית",
-     "status": "פעיל עם שיגורי טילים וכטב\"מים מתמשכים ויירוטים"
+     "name": "מצר באב אל-מנדב וחוף ים סוף",
+     "status": "שליטה חות'ית מוגברת בעקבות נסיגת כוחות הממשלה בספטמבר ולחימה מתמשכת."
+    },
+    {
+     "name": "גבול תימן - סעודיה ועומק סעודיה",
+     "status": "חידוש שיגורי כטב\"מים וטילים בליסטיים לעבר נמלי תעופה, מתקני נפט וריכוזי כוחות."
+    },
+    {
+     "name": "תעז, לחג', מארב ואל-ג'וף",
+     "status": "קרבות עזים, חילופי אש, הפגזות ופעילות צלפים לאורך קווי המגע."
     }
    ],
    "events": [
     {
-     "id": "YEMEN-11121859-01",
-     "title": "תקיפת מתקני נפט בסעודיה על ידי החות'ים",
-     "summary": "החות'ים טענו שתקפו את צינור הנפט המזרחי-מערבי ומתקן נפט בינבוע, ואילו הקואליציה בראשות סעודיה דיווחה על יירוט טילים וכטב\"מים לעבר יעדים במדינה.",
-     "axis": "תימן והחות'ים",
-     "claim_type": "incident",
+     "id": "YEMEN-11140045-01",
+     "title": "החות'ים טוענים שביצעו תקיפות של כטב\"מים וטילים נגד יעדים בסעודיה ובתוך תימן",
+     "summary": "הדובר הצבאי של החות'ים מסר כי כוחותיהם שיגרו כטב\"מים לעבר שדה התעופה הבינלאומי בריאד ולעבר תחנת שאיבה של צינור נפט, וכן שיגרו טילים בליסטיים לעבר ריכוזי כוחות באזור ג'אזאן וביעדים שונים בתימן.",
+     "axis": "חות'ים - סעודיה",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T17:35:54+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T17:35:54+00:00",
-     "last_update_at": "2026-11-12T18:14:10+00:00",
-     "what_is_not_verified": "האם התקיפות בפועל פגעו במתקני הנפט בסעודיה והאמת לגבי יעדי הטילים המוצהרים",
-     "is_new_in_window": false,
+     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T20:58:21+00:00",
+     "last_update_at": "2026-11-13T20:58:21+00:00",
+     "what_is_not_verified": "סעודיה לא אישרה את טענות החות'ים בדבר הפגיעות והנזקים הנטענים.",
+     "is_new_in_window": true,
      "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/trump-says-no-need-iran-deal-four-tankers-hit-hormuz",
-       "published_at": "2026-11-12T18:14:10+00:00"
-      },
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-they-attacked-pumping-station-saudi-arabias-east-west",
-       "published_at": "2026-11-12T17:33:04+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthis-deny-targeting-mecca-amid-saudi-missile-interceptions",
-       "published_at": "2026-11-12T13:06:43+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/trump-downplays-iran-deal-prospects-israel-kills-10-gaza",
-       "published_at": "2026-11-12T07:22:27+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/ghalibaf-says-iran-seeks-deal-after-rubio-downplays-war",
-       "published_at": "2026-11-11T17:35:54+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-attacked-riyadh-airport-and-saudi-oil-pipeline",
+       "published_at": "2026-11-13T20:58:21+00:00"
       }
      ],
      "places": [
-      {
-       "name": "ינבוע, סעודיה",
-       "lat": 24.089,
-       "lon": 38.0687
-      },
       {
        "name": "ריאד, סעודיה",
        "lat": 24.6389,
        "lon": 46.716
+      },
+      {
+       "name": "ג'אזאן, סעודיה",
+       "lat": 16.8947,
+       "lon": 42.558
+      },
+      {
+       "name": "עדן, תימן",
+       "lat": 12.7896,
+       "lon": 45.0285
       }
      ]
     },
     {
-     "id": "YEMEN-11121859-02",
-     "title": "לחימה ועימותים באזור מאריב ותעז",
-     "summary": "התקיימו עימותים וקרבות שונים שכללו פעילות צבאית באזור מאריב וכן פגזים ופעולות באזור תעז.",
-     "axis": "תימן והחות'ים",
+     "id": "YEMEN-11140045-02",
+     "title": "כוחות ממשלת תימן מתבצרים במבואות עדן עקב התקדמות החות'ים",
+     "summary": "גורמי צבא תימניים דיווחו על עבודות ביצור נרחבות צפונית ומערבית לעדן, הכוללות חפירת מנהרות והצבת שקי חול, נוכח השתלטות כוחות החות'ים על עמדות שולטות ורכסים בסמוך למצר באב אל-מנדב ולמחוז לחג'.",
+     "axis": "החות'ים - ממשלת תימן",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-12T00:00:00+00:00",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-12T15:09:01+00:00",
-     "last_update_at": "2026-11-12T15:55:10+00:00",
-     "what_is_not_verified": "היקף הנפגעים והנזק המדויק בשטח",
+     "first_reported_at": "2026-11-13T17:24:41+00:00",
+     "last_update_at": "2026-11-13T17:24:41+00:00",
+     "what_is_not_verified": "היקף ההתקדמות המדויק ומספר הנפגעים בקרבות האחרונים בחוף הים האדום.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_saba_aden",
+       "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/155701",
-       "published_at": "2026-11-12T15:55:10+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49527",
-       "published_at": "2026-11-12T15:38:44+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/155696",
-       "published_at": "2026-11-12T15:09:01+00:00"
+       "url": "https://www.newarab.com/news/yemen-govt-forces-fortify-aden-defences-houthis-advance",
+       "published_at": "2026-11-13T17:24:41+00:00"
       }
      ],
      "places": [
       {
-       "name": "מאריב, תימן",
-       "lat": 15.4579,
-       "lon": 45.323
+       "name": "עדן, תימן",
+       "lat": 12.7896,
+       "lon": 45.0285
       },
       {
-       "name": "תעז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
+       "name": "באב אל-מנדב, תימן",
+       "lat": 12.714,
+       "lon": 43.5008
       }
      ]
     },
     {
-     "id": "YEMEN-11121859-03",
-     "title": "לחץ דיפלומטי סעודי לסיווג החות'ים כארגון טרור",
-     "summary": "סעודיה מפעילה לחץ על האיחוד האירופי להגדיר את תנועת החות'ים כארגון טרור, סוגיה שמעוררת חשש פאן-אירופי לגבי תהליך השלום העתידי.",
-     "axis": "תימן והחות'ים",
+     "id": "YEMEN-11140045-03",
+     "title": "נציב זכויות האדם של האו\"ם דורש להשיב את גופת איש צוות שמת בשבי החות'ים",
+     "summary": "הנציב העליון לזכויות אדם דרש מהשלטונות החות'יים להעביר את גופתו של עובד האו\"ם שנפטר בנסיבות לא ברורות לאחר שהוחזק במעצר במשך יותר משנתיים, וקרא לשחרר עשרות אנשי סיוע שעדיין עצורים.",
+     "axis": "החות'ים - קהילה בינלאומית",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-12T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-12T16:47:36+00:00",
-     "last_update_at": "2026-11-12T16:47:36+00:00",
-     "what_is_not_verified": "האם האיחוד האירופי ייענה לבקשת סעודיה",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T17:34:32+00:00",
+     "last_update_at": "2026-11-13T17:47:08+00:00",
+     "what_is_not_verified": "סיבת המוות והנסיבות המדויקות שבהן מת איש הצוות בשבי.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/saudi-arabia-puts-pressure-eu-label-yemens-houthis-terrorist-group",
-       "published_at": "2026-11-12T16:47:36+00:00"
+       "url": "https://www.al-monitor.com/originals/2026/11/un-rights-chief-demands-houthis-return-body-yemeni-staff-member",
+       "published_at": "2026-11-13T17:47:08+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-rights-chief-demands-houthis-return-body-staff-member-who-died",
+       "published_at": "2026-11-13T17:34:32+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-11140045-04",
+     "title": "צבא תימן מדווח על תקיפת מאות מטרות חות'יות ומאות נפגעים",
+     "summary": "גורמי הצבא התימני הודיעו על ביצוע מאות תקיפות נגד ריכוזי כוחות חות'יים, שבהן נהרגו ונפצעו מאות חמושים, בהם מפקדים.",
+     "axis": "החות'ים - ממשלת תימן",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-13T14:15:34+00:00",
+     "last_update_at": "2026-11-13T14:15:34+00:00",
+     "what_is_not_verified": "מספר התקיפות המדויק ומספר הנפגעים לא אומתו באופן בלתי תלוי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_74aa8cf558494285",
+       "url": "https://www.sabanew.net/viewstory/155735",
+       "published_at": "2026-11-13T14:15:34+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-11140045-05",
+     "title": "קריאות בינלאומיות להגברת הלחץ על החות'ים והארכת עיצומי מועצת הביטחון",
+     "summary": "משרד החוץ של צרפת קרא להגביר את הלחץ על החות'ים להפסקת תקיפותיהם באזור, במקביל להחלטת מועצת הביטחון של האו\"ם להאריך בשנה את משטר הסנקציות על תימן.",
+     "axis": "החות'ים - סעודיה",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T16:54:12+00:00",
+     "last_update_at": "2026-11-13T16:54:12+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/france-calls-more-pressure-houthis-end-attacks-saudi-arabia",
+       "published_at": "2026-11-13T16:54:12+00:00"
       }
      ],
      "places": []
     }
    ],
    "not_verified": [
-    "הטענות ההדדיות על פגיעה במתקני אנרגיה סעודיים כמו מתקן ינבוע או צינור הנפט",
-    "האם החות'ים כוונו לאזור מכה או שברי טילים שנפלו שם הגיעו מיירוטים",
-    "נתוני הנפגעים והתוצאות המדויקות של העימותים בתעז ובמאריב"
+    "פגיעה ממשית בשדה התעופה המלכותי בריאד או בצינור הנפט מזרח-מערב של סעודיה.",
+    "היקף הנפגעים והאבידות שצבא תימן טוען שהסב לחות'ים (מאות נפגעים ומאות גיחות).",
+    "הדיווחים של החות'ים על גרימת נפגעים רבים בקרב כוחות תחת פיקוד סעודי בלחג' ואל-ג'וף."
    ],
    "map": {
     "confidence": "low",
@@ -169,90 +198,91 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.2032,
+     "value": 3.2107,
      "unit": "ILS",
-     "change_pct": 1.0,
+     "change_pct": 0.23,
      "source_id": "src_ecb",
-     "as_of": "2026-11-12T15:00:00+00:00"
+     "as_of": "2026-11-13T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "החות'ים",
+     "actor": "התנועה החות'ית",
      "declared": [
-      "תקיפת תשתיות הנפט והמתקנים הצבאיים של סעודיה"
+      "פגיעה במתקנים אסטרטגיים ובשדות תעופה של סעודיה.",
+      "תקיפת בסיסים ומחסני נשק של כוחות הקואליציה בתימן."
      ],
      "inferred": [
-      "שיבוש הכלכלה וייצוא הנפט של סעודיה",
-      "הפעלת לחץ אזורי באמצעות פגיעה בעומק סעודיה"
+      "ביסוס אחיזה מוחלטת בנתיבי השיט בבאב אל-מנדב וניתוק קווי האספקה לעדן.",
+      "הפעלת לחץ כלכלי וצבאי על סעודיה להפסקת התמיכה בממשלת תימן."
      ],
      "forecast": [
-      "המשך שיגור איומים אוויריים לעבר סעודיה",
-      "שמירה על נוכחות צבאית אקטיבית בחזיתות הפנימיות בתימן"
+      "המשך ניסיונות התקדמות לעבר חופי מפרץ עדן ומבואות העיר.",
+      "החרפת שיגורי הכטב\"מים לעבר יעדי תשתית סעודיים להרתעת הקואליציה."
      ]
     },
     {
-     "actor": "סעודיה והקואליציה",
+     "actor": "ממשלת תימן והקואליציה",
      "declared": [
-      "הגנה על שטחי הממלכה ויירוט איומים אוויריים",
-      "דחיפה בינלאומית להגדרת החות'ים כארגון טרור"
+      "הגנה על מרחב עדן ובלימת המתקפות החות'יות באזור תעז ולחג'.",
+      "הפעלת לחץ בינלאומי להטלת עיצומים והגדרת החות'ים כארגון טרור."
      ],
      "inferred": [
-      "בלימת הפעילות הצבאית של החות'ים והגנה על מתקני האנרגיה החיוניים"
+      "מניעת נפילת הבירה הזמנית עדן והימנעות מאיבוד מוחלט של הגישה לים.",
+      "שמירה על תמיכה צבאית וכלכלית בינלאומית ומפרצית מול שחיקת הכוחות."
      ],
      "forecast": [
-      "המשך התקיפות האוויריות נגד מעוזי החות'ים",
-      "הגברת המאמצים הדיפלומטיים לבידוד החות'ים בזירה העולמית"
+      "התבצרות ממושכת במבואות עדן תוך הסתמכות על תקיפות אוויר וסיוע סעודי.",
+      "המשך חוסר היכולת לשוב ולכבוש שטחים שאבדו לאורך חוף ים סוף בטווח הקצר."
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/11/saudi-arabia-puts-pressure-eu-label-yemens-houthis-terrorist-group",
-     "accessed_at": "2026-11-12T18:59:42+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/11/un-rights-chief-demands-houthis-return-body-yemeni-staff-member",
+     "accessed_at": "2026-11-14T00:45:29+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-they-attacked-pumping-station-saudi-arabias-east-west",
-     "accessed_at": "2026-11-12T18:59:42+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/france-calls-more-pressure-houthis-end-attacks-saudi-arabia",
+     "accessed_at": "2026-11-14T00:45:29+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/ghalibaf-says-iran-seeks-deal-after-rubio-downplays-war",
-     "accessed_at": "2026-11-12T18:59:42+00:00"
+     "url": "https://www.newarab.com/news/yemen-govt-forces-fortify-aden-defences-houthis-advance",
+     "accessed_at": "2026-11-14T00:45:29+00:00"
     },
     {
      "source_id": "src_saba_aden",
-     "url": "https://www.sabanew.net/viewstory/155696",
-     "accessed_at": "2026-11-12T18:59:42+00:00"
-    },
-    {
-     "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49527",
-     "accessed_at": "2026-11-12T18:59:42+00:00"
+     "url": "https://www.sabanew.net/viewstory/155735",
+     "accessed_at": "2026-11-14T00:45:29+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-12T00:50:52+00:00",
+  "previous_generated_at": "2026-11-12T18:59:42+00:00",
   "changes": {
-   "YEMEN-11121859-01": {
-    "kind": "possible",
-    "prev": "שיגור טילי שיוט, טילים בליסטיים וכטב\"מים לעבר סעודיה ויירוטם",
-    "score": 0.633
-   },
-   "YEMEN-11121859-02": {
-    "kind": "possible",
-    "prev": "דיון בהסלמה הצבאית ובמצור על תעז",
-    "score": 0.633
-   },
-   "YEMEN-11121859-03": {
+   "YEMEN-11140045-01": {
     "kind": "same",
-    "from": "initial",
+    "from": "shared_root",
     "to": "initial",
-    "prev": "דרישה תימנית להגדרת החות'ים כארגון טרור בליגה הערבית",
-    "score": 0.65
+    "prev": "תקיפת מתקני נפט בסעודיה על ידי החות'ים",
+    "score": 0.817
+   },
+   "YEMEN-11140045-02": {
+    "kind": "new"
+   },
+   "YEMEN-11140045-03": {
+    "kind": "new"
+   },
+   "YEMEN-11140045-04": {
+    "kind": "new"
+   },
+   "YEMEN-11140045-05": {
+    "kind": "possible",
+    "prev": "לחץ דיפלומטי סעודי לסיווג החות'ים כארגון טרור",
+    "score": 0.467
    }
   }
  },
@@ -547,164 +577,221 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-11-12T0044__ukraine-202611120044.json",
+  "draft": "drafts/ukraine/2026-11-14T0040__ukraine-202611140040.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-11-12T00:44:50+00:00",
+   "generated_at": "2026-11-14T00:40:39+00:00",
    "window": {
-    "from": "2026-11-11T00:44:50+00:00",
-    "to": "2026-11-12T00:44:50+00:00"
+    "from": "2026-11-13T00:40:39+00:00",
+    "to": "2026-11-14T00:40:39+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "ukraine-202611120044"
+    "run_id": "ukraine-202611140040"
    },
-   "summary": "העימות בין אוקראינה לרוסיה ממשיך להתאפיין בלחימה בעצימות גבוהה ובמהלומות ארוכות טווח נגד תשתיות עורפיות של שני הצדדים. במקביל לתקיפות טילים וכטב\"מים על קייב, אודסה ומתקני נפט בעומק רוסיה, נערכו שיחות משולשות בהשתתפות ארצות הברית שהניבו הסכם על חילופי שבויים. עם זאת, המחלוקות הטריטוריאליות והמבוי הסתום בנושאי ביטחון כולל מותירים את השגת הפסקת האש ללא פריצת דרך.",
+   "summary": "הלחימה הקרקעית והאווירית בין רוסיה לאוקראינה נמשכת בעוצמה גבוהה, כאשר מוקד הקרבות המרכזי מתרכז בגזרת פוקרובסק לצד תקיפות כטב\"מים וטילים על ערים באוקראינה ופגיעות בכירים בעומק שטח רוסיה. במקביל נרשמת היערכות דיפלומטית רחבה באירופה לקראת הצטרפות לשיחות על הסדר עתידי, חרף מחלוקות עמוקות סביב תנאי הפסקת האש ודרישות הביטחון של מוסקבה. במישור הבינלאומי מסתמנת מתיחות בנושאי חימוש וביטחון אזורי, כולל הגבלות תקציביות על רכש נשק בפולין ותקריות צבאיות במפרץ פינלנד.",
    "fronts": [
     {
-     "name": "דונבאס",
-     "status": "עמדות קשיחות בנוגע לשליטה ולדרישות נסיגה טריטוריאליות"
+     "name": "גזרת פוקרובסק",
+     "status": "לחימה בעצימות גבוהה ביותר עם עשרות מתקפות רוסיות ביממה"
     },
     {
-     "name": "זפורוז'יה ודרום אוקראינה",
-     "status": "פעילות התקפית מלווה בלכידת לוחמים זרים ותקיפות מונחות"
+     "name": "קייב ועורף אוקראינה",
+     "status": "ספיגת מתקפות כטב\"מים רוסיים על מבני ציבור ונהרות הבירה"
     },
     {
-     "name": "עורף רוסיה (סיביר ואזור סנקט פטרבורג)",
-     "status": "מתקפות כטב\"מים אוקראיניות נרחבות נגד בתי זיקוק ונמלים"
+     "name": "זפוריז'יה",
+     "status": "פגיעות בעיר ונפגעים אזרחיים רבים"
     },
     {
-     "name": "עורף אוקראינה (קייב ואודסה)",
-     "status": "תקיפות מתמשכות בטילים בליסטיים ובכטב\"מים סילוניים על יעדים אזרחיים ותשתיות"
+     "name": "מפרץ פינלנד ונמל אוסט-לוגה",
+     "status": "פעילות כטב\"מים אוקראינית נגד כלי שיט צבאיים רוסיים"
+    },
+    {
+     "name": "עומק רוסיה (מוסקבה)",
+     "status": "פגיעות ממוקדות באמצעות פיצוץ מטעני חבלה ברכבים"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-11120044-01",
-     "title": "מתקפת כטב\"מים אוקראינית נרחבת על אומסק ובית הזיקוק בסיביר",
-     "summary": "כוחות אוקראינה ביצעו תקיפה ממושכת באמצעות כטב\"מים לעבר העיר אומסק שבסיביר, כ-2,500 ק\"מ מגבול אוקראינה. דווח על שריפה בבית הזיקוק המקומי ועל פגיעה אפשרית בתחנת כוח, לצד ביטול אירועי תרבות והתרעות שנמשכו שעות.",
-     "axis": "עורף רוסיה",
+     "id": "UKRAINE-11140040-01",
+     "title": "פיצוץ מכונית תופת במוסקבה ופציעת בכיר אוקראיני לשעבר",
+     "summary": "מכונית תופת התפוצצה בדרום מוסקבה ופצעה קשה את סרגיי זבורוטני, לשעבר דוברו ויועצו של ראש ממשלת אוקראינה לשעבר ניקולאי אזרוב. ועדת החקירות פתחה בחקירה.",
+     "axis": "רוסיה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-11T15:14:11+00:00",
-     "last_update_at": "2026-11-11T22:41:46+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק למתקני האנרגיה בבית הזיקוק ובתחנת הכוח טרם אומת רשמית.",
+     "first_reported_at": "2026-11-13T11:54:44+00:00",
+     "last_update_at": "2026-11-13T19:41:51+00:00",
+     "what_is_not_verified": "זהות המבצעים ומעורבות אוקראינה",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
-       "source_root_id": "or_kyiv_independent",
-       "url": "https://kyivindependent.com/russias-largest-oil-refinery-slammed-by-drones-in-8-hr-attack-2-500-km-from-ukraine/",
-       "published_at": "2026-11-11T22:41:46+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_kyiv_independent",
-       "url": "https://meduza.io/en/news/2026/11/11/russia-s-omsk-under-drone-alert-for-seven-hours-amid-ukrainian-attack-governor-urges-residents-to-stay-indoors",
-       "published_at": "2026-11-11T18:08:49+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/ukraine-war-latest-ex-pm-press-secretary-reportedly-injured-in-moscow-car-explosion/",
+       "published_at": "2026-11-13T19:41:51+00:00"
       },
       {
        "source_id": "src_tg_carmel",
-       "source_root_id": "or_kyiv_independent",
-       "url": "https://t.me/alexmehacarmel/49502",
-       "published_at": "2026-11-11T16:49:20+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_kyiv_independent",
-       "url": "https://t.me/alexmehacarmel/49497",
-       "published_at": "2026-11-11T15:14:11+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אומסק, רוסיה",
-       "lat": 54.9914,
-       "lon": 73.3715
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11120044-02",
-     "title": "סיום שיחות אבו דאבי והסכמה על עסקת חילופי שבויים",
-     "summary": "השיחות המשולשות בין רוסיה, אוקראינה וארצות הברית באבו דאבי ננעלו בהסכמה על עסקת חילופי שבויים נרחבת ודיון בערבויות ביטחוניות, אולם ללא פריצת דרך בסוגיית השטחים ובמערך הביטחון האירופי.",
-     "axis": "משא ומתן מדיני",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-11T12:28:23+00:00",
-     "last_update_at": "2026-11-11T19:15:44+00:00",
-     "what_is_not_verified": "מספר השבויים שישוחררו ומועד הביצוע המדויק לא פורטו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "fh_36c7f00febacb791",
-       "url": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
-       "published_at": "2026-11-11T19:15:44+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49552",
+       "published_at": "2026-11-13T14:18:57+00:00"
       },
       {
        "source_id": "src_bbc",
-       "source_root_id": "fh_36c7f00febacb791",
-       "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-11-11T18:04:58+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_36c7f00febacb791",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062404/",
-       "published_at": "2026-11-11T17:47:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-11-13T13:11:23+00:00"
       },
       {
        "source_id": "src_guardian",
-       "source_root_id": "fh_36c7f00febacb791",
-       "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-talks-in-abu-dhabi-bring-progress-on-prisoners-but-not-on-peace",
-       "published_at": "2026-11-11T17:03:43+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/nov/13/car-bomb-attack-moscow-russia",
+       "published_at": "2026-11-13T13:01:44+00:00"
       },
       {
-       "source_id": "src_meduza",
-       "source_root_id": "fh_36c7f00febacb791",
-       "url": "https://meduza.io/en/feature/2026/11/11/russia-ukraine-peace-talks-conclude-in-abu-dhabi-with-prisoner-exchange-agreement-but-no-breakthrough-on-territory",
-       "published_at": "2026-11-11T13:10:29+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "fh_36c7f00febacb791",
-       "url": "https://meduza.io/en/news/2026/11/11/ukrainian-negotiator-says-peace-talks-with-russia-could-produce-a-deal-before-the-new-year",
-       "published_at": "2026-11-11T12:28:23+00:00"
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21845700",
+       "published_at": "2026-11-13T11:54:44+00:00"
       }
      ],
      "places": [
       {
-       "name": "אבו דאבי, איחוד האמירויות הערביות",
-       "lat": 24.4538,
-       "lon": 54.3774
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
       }
      ]
     },
     {
-     "id": "UKRAINE-11120044-03",
-     "title": "תקיפת טילים בליסטיים רוסית על קייב",
-     "summary": "צבא רוסיה שיגר טילים בליסטיים לעבר עיר הבירה קייב שעות ספורות לאחר סיום סבב השיחות באבו דאבי.",
-     "axis": "מערכי עורף באוקראינה",
-     "claim_type": "incident",
+     "id": "UKRAINE-11140040-02",
+     "title": "הסכמה אירופית על משלחת משותפת לשיחות השלום",
+     "summary": "מנהיגי האיחוד האירופי סיכמו על הקמת צוות משותף לשיחות עתידיות בנושא אוקראינה, שיכלול את מוסדות האיחוד ונציגים מחמש מדינות: גרמניה, צרפת, בריטניה, איטליה ופולין.",
+     "axis": "משא ומתן",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T23:27:06+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T23:27:06+00:00",
-     "last_update_at": "2026-11-11T23:27:06+00:00",
-     "what_is_not_verified": "פרטי המטרות המדויקות והנזקים בקייב טרם פורסמו.",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T02:01:35+00:00",
+     "last_update_at": "2026-11-13T20:40:00+00:00",
+     "what_is_not_verified": "מועד ומיקום השיחות העתידיות",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
-       "source_root_id": "or_kyiv_independent",
-       "url": "https://kyivindependent.com/russia-attacks-kyiv-with-ballistic-missiles-hours-after-peace-talks-end/",
-       "published_at": "2026-11-11T23:27:06+00:00"
+       "source_root_id": "fh_ace3d98314224561",
+       "url": "https://kyivindependent.com/european-leaders-agree-on-joint-team-for-ukraine-peace-negotiations-costa-says/",
+       "published_at": "2026-11-13T20:40:00+00:00"
+      },
+      {
+       "source_id": "src_tass",
+       "source_root_id": "fh_ace3d98314224561",
+       "url": "https://tass.com/world/2218035",
+       "published_at": "2026-11-13T19:45:59+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_aa82f9f319c8f641",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062802/",
+       "published_at": "2026-11-13T19:11:00+00:00"
+      },
+      {
+       "source_id": "src_tass",
+       "source_root_id": "fh_5333def1ea916825",
+       "url": "https://tass.com/world/2218029",
+       "published_at": "2026-11-13T19:01:28+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_ca53c44b3651ca38",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062799/",
+       "published_at": "2026-11-13T18:31:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_622dba54397de10c",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062795/",
+       "published_at": "2026-11-13T17:43:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_ace3d98314224561",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062792/",
+       "published_at": "2026-11-13T17:29:00+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_f86bd6c7e9fffb40",
+       "url": "https://www.theguardian.com/world/2026/nov/13/ukraine-war-briefing-europe-to-join-negotiations-says-kushner-as-putin-warns-against-peace-keepers",
+       "published_at": "2026-11-13T03:38:51+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "fh_ace3d98314224561",
+       "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-11-13T02:01:35+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דבלין, אירלנד",
+       "lat": 53.3494,
+       "lon": -6.2606
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11140040-03",
+     "title": "דיווח על דרישות רוסיות במשא ומתן להסדר והכחשת הקרמלין",
+     "summary": "דיווח עיתונאי ייחס לרוסיה דרישות שפינלנד תעזוב את נאט\"ו, פירוז נמלי אודסה וניקולאייב והכרה בשליטה בדונבאס. דובר הקרמלין הכחיש את הטענות מכל וכל.",
+     "axis": "משא ומתן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T13:37:17+00:00",
+     "last_update_at": "2026-11-14T00:11:36+00:00",
+     "what_is_not_verified": "עצם העלאת הדרישות בשיחות לא רשמיות",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/11/14/russia-demands-finland-leave-nato-bild-reports-moscow-denies-it-and-helsinki-is-outraged",
+       "published_at": "2026-11-14T00:11:36+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49550",
+       "published_at": "2026-11-13T13:37:17+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11140040-04",
+     "title": "תקיפת כטב\"ם על בית חולים בקייב",
+     "summary": "כטב\"ם פגע במכון הלאומי לטראומטולוגיה ואורתופדיה במרכז קייב וגרם לפציעת שלושה בני אדם, על רקע קשיים של מערכת סטארשילד בהפלת כלי הטיס.",
+     "axis": "חזית העורף באוקראינה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T03:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T11:24:30+00:00",
+     "last_update_at": "2026-11-13T11:24:30+00:00",
+     "what_is_not_verified": "מידת השפעת מגבלות המהירות של סטארשילד על האירוע",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails",
+       "published_at": "2026-11-13T11:24:30+00:00"
       }
      ],
      "places": [
@@ -716,59 +803,111 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "UKRAINE-11120044-04",
-     "title": "פגיעת כטב\"ם סילוני רוסי בשוק בצ'ורנומורסק",
-     "summary": "פגיעת כלי טיס מונחה בעל הנעת סילון בשוק מרכזי בצ'ורנומורסק שבמחוז אודסה גרמה למותם של ארבעה בני אדם ולפציעתם של לפחות תשעה נוספים, לצד פגיעה במבני מגורים וברכבים.",
-     "axis": "דרום אוקראינה",
+     "id": "UKRAINE-11140040-05",
+     "title": "חילוץ שרידי כטב\"ם מנהר הדנייפרו בקייב",
+     "summary": "צוותי חילוץ משו מנהר הדנייפרו ברובע אובולון שבקייב שרידים של כטב\"ם רוסי שנפל במתקפה שהתרחשה ב-11 בנובמבר.",
+     "axis": "חזית העורף באוקראינה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-11T17:27:00+00:00",
-     "last_update_at": "2026-11-11T17:27:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-11-13T23:26:00+00:00",
+     "last_update_at": "2026-11-13T23:26:00+00:00",
+     "what_is_not_verified": "דגם הכטב\"ם ומטרתו המקורית",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_78cb47b0dfd0bdb9",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062304/",
-       "published_at": "2026-11-11T17:27:00+00:00"
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_38b23cb3809ed3c2",
+       "url": "https://www.ukrinform.net/rubric-ato/4184176-remains-of-russian-drone-recovered-from-dnipro-river-in-kyiv.html",
+       "published_at": "2026-11-13T23:26:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "צ'ורנומורסק, אוקראינה",
-       "lat": 46.3013,
-       "lon": 30.6549
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
       }
      ]
     },
     {
-     "id": "UKRAINE-11120044-05",
-     "title": "הפלת מסוקים רוסיים באש כוחותיהם במחוז לנינגרד",
-     "summary": "בלוגרים צבאיים רוסיים דיווחו על הפלת עד שלושה מסוקי קרב רוסיים באש כוחותיהם ומותם של שבעה אנשי צוות בעת ניסיון ליירט מתקפת כטב\"מים אוקראינית מעל אזור לנינגרד ואוסט-לוגה.",
-     "axis": "צפון-מערב רוסיה",
+     "id": "UKRAINE-11140040-06",
+     "title": "קרבות עזים בקווי החזית ומתקפות בגזרת פוקרובסק",
+     "summary": "במהלך היממה נרשמו 243 התנגשויות קרביות בין כוחות ההגנה של אוקראינה לצבא הרוסי, מתוכן כ-50 מתקפות רוסיות בגזרת פוקרובסק לבדה.",
+     "axis": "דונבאס",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-13T21:58:00+00:00",
+     "last_update_at": "2026-11-13T21:58:00+00:00",
+     "what_is_not_verified": "מספר הנפגעים המדויק בקרבות אלו",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_0e1edc76395735e2",
+       "url": "https://www.ukrinform.net/rubric-ato/4184540-war-update-243-clashes-on-front-line-fiercest-fighting-in-pokrovsk-sector.html",
+       "published_at": "2026-11-13T21:58:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "פוקרובסק, אוקראינה",
+       "lat": 48.2771,
+       "lon": 37.1772
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11140040-07",
+     "title": "פגיעה רוסית בזפוריז'יה עם עשרות פצועים",
+     "summary": "רוסיה תקפה בעיר זפוריז'יה, וכתוצאה מכך נפצעו 50 בני אדם, בהם 8 ילדים.",
+     "axis": "החזית הדרומית",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-11T12:45:08+00:00",
-     "last_update_at": "2026-11-11T18:56:06+00:00",
-     "what_is_not_verified": "האובדן המדויק של המסוקים ונסיבות מות הטייסים לא אושרו רשמית בידי הרשויות הרוסיות.",
+     "first_reported_at": "2026-11-13T19:41:51+00:00",
+     "last_update_at": "2026-11-13T19:41:51+00:00",
+     "what_is_not_verified": "סוג החימוש ששימש לתקיפה",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/ukraine-war-latest-ex-pm-press-secretary-reportedly-injured-in-moscow-car-explosion/",
+       "published_at": "2026-11-13T19:41:51+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "זפוריז'יה, אוקראינה",
+       "lat": 47.8508,
+       "lon": 35.1183
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11140040-08",
+     "title": "פניית פינלנד לאוקראינה בעקבות תקיפת ספינה במפרץ פינלנד",
+     "summary": "שר ההגנה הפיני אישר כי הלסינקי פנתה לקייב והבהירה את רגישות האזור בעקבות פגיעת כטב\"ם אוקראיני בקורבטה רוסית בנמל אוסט-לוגה.",
+     "axis": "הזירה הימית והמדינית",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-13T15:04:19+00:00",
+     "last_update_at": "2026-11-13T15:04:19+00:00",
+     "what_is_not_verified": "חומרת הנזק שנגרמה לקורבטה הרוסית",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49508",
-       "published_at": "2026-11-11T18:56:06+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/11/11/russian-pro-war-military-bloggers-report-pilots-killed-during-ukrainian-drone-attack-on-leningrad-region",
-       "published_at": "2026-11-11T12:45:08+00:00"
+       "url": "https://t.me/alexmehacarmel/49554",
+       "published_at": "2026-11-13T15:04:19+00:00"
       }
      ],
      "places": [
@@ -780,163 +919,33 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "UKRAINE-11120044-06",
-     "title": "הסכמת שגרירי האיחוד האירופי על חבילת סנקציות חדשה נגד רוסיה",
-     "summary": "נציגי מדינות האיחוד האירופי אישרו עקרונית הטלת סנקציות על 145 ישויות ויחידים, כולל 50 בנקים רוסיים, חברות הקשורות לצי הצללים של הנפט וגורמים הפועלים בתחום הסייבר והלוחמה ההיברידית.",
-     "axis": "הזירה הבינלאומית והכלכלית",
+     "id": "UKRAINE-11140040-09",
+     "title": "פולין סירבה לממן נשק אמריקאי לאוקראינה במסגרת קרן ייעודית",
+     "summary": "ראש ממשלת פולין דונלד טוסק הבהיר כי ארצו לא תממן רכישת אמצעי לחימה מתוצרת ארה\"ב עבור אוקראינה במסגרת תוכנית זו, בנימוק של גירעון תקציבי.",
+     "axis": "סיוע צבאי",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
+     "occurred_at": "2026-11-13T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-11T17:33:00+00:00",
-     "last_update_at": "2026-11-11T17:33:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "first_reported_at": "2026-11-13T19:03:00+00:00",
+     "last_update_at": "2026-11-13T19:03:00+00:00",
+     "what_is_not_verified": "ההשפעה המעשית על היקף אספקת החימוש הכולל",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
+       "source_id": "src_tass",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062400/",
-       "published_at": "2026-11-11T17:33:00+00:00"
+       "url": "https://tass.com/world/2218031",
+       "published_at": "2026-11-13T19:03:00+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "בריסל, בלגיה",
-       "lat": 50.8467,
-       "lon": 4.3525
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11120044-07",
-     "title": "לכידת שבוי מלחמה מאינדונזיה בשורות צבא רוסיה",
-     "summary": "אוקראינה הודיעה על לכידתו של אזרח אינדונזי שלחם בשורות צבא רוסיה במחוז זפורוז'יה שבדרום המדינה, לאחר שיחידתו הותקפה על ידי כטב\"מים.",
-     "axis": "דרום אוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-11T05:33:27+00:00",
-     "last_update_at": "2026-11-11T19:03:34+00:00",
-     "what_is_not_verified": "היקף הגיוס של אזרחים זרים נוספים מאינדונזיה וממדינות אחרות אינו מאומת מעבר לנתוני הפרויקט האוקראיני.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_i_want_to_live",
-       "url": "https://kyivindependent.com/ukraine-captures-first-indonesian-prisoner-of-war-as-russia-steps-up-foreign-recruitment/",
-       "published_at": "2026-11-11T19:03:34+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_i_want_to_live",
-       "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-indonesian-pow-prisoner-of-war-russia",
-       "published_at": "2026-11-11T05:33:27+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "זפורוז'יה, אוקראינה",
-       "lat": 47.8508,
-       "lon": 35.1183
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11120044-08",
-     "title": "מותו של שגריר רוסיה בארצות הברית",
-     "summary": "משרד החוץ של רוסיה הודיע על מותו הפתאומי של השגריר בוושינגטון, אלכסנדר דרצ'ייב, בגיל 66.",
-     "axis": "דיפלומטיה בין-מעצמתית",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-11T16:39:57+00:00",
-     "last_update_at": "2026-11-11T16:54:18+00:00",
-     "what_is_not_verified": "סיבת ומנגנון המוות לא פורסמו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/hyocvzgcme",
-       "published_at": "2026-11-11T16:54:18+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/article/21832201",
-       "published_at": "2026-11-11T16:39:57+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "וושינגטון, ארצות הברית",
-       "lat": 38.8951,
-       "lon": -77.0364
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11120044-09",
-     "title": "נסיעת שליחי ארצות הברית לפגישות במוסקבה ובדבלין",
-     "summary": "השליחים סטיב ויטקוף וג'ארד קושנר מתכננים להיפגש במוסקבה עם ולדימיר פוטין ולאחר מכן בדבלין עם וולודימיר זלנסקי כדי לעדכן על תוצאות שיחות אבו דאבי.",
-     "axis": "משא ומתן מדיני",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-11T14:30:54+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-11T14:30:54+00:00",
-     "last_update_at": "2026-11-11T17:56:29+00:00",
-     "what_is_not_verified": "תוכן ההצעות שיוצגו בפגישות והסכמות עתידיות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "fh_ce05bfe71b2aacd1",
-       "url": "https://kyivindependent.com/zelensky-arrives-in-dublin-for-european-political-community-summit-expects-a-debrief-from-witkoff-kushner/",
-       "published_at": "2026-11-11T17:56:29+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_36c7f00febacb791",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062404/",
-       "published_at": "2026-11-11T17:47:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_ce05bfe71b2aacd1",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062401/",
-       "published_at": "2026-11-11T17:41:00+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "fh_ce05bfe71b2aacd1",
-       "url": "https://meduza.io/en/news/2026/11/11/they-re-bringing-something-kushner-and-witkoff-to-meet-putin-in-moscow-day-after-abu-dhabi-peace-talks",
-       "published_at": "2026-11-11T14:30:54+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מוסקבה, רוסיה",
-       "lat": 55.7505,
-       "lon": 37.6175
-      },
-      {
-       "name": "דבלין, אירלנד",
-       "lat": 53.3494,
-       "lon": -6.2606
-      }
-     ]
+     "places": []
     }
    ],
    "not_verified": [
-    "טענות בלוגרים צבאיים על הפלת שלושה מסוקים רוסיים באש כוחותיהם ליד לנינגרד",
-    "היקף הנזק המדויק לבית הזיקוק באומסק ולתחנת הכוח בעיר",
-    "מספרם הכולל של אזרחים זרים שלוחמים או נהרגו בשירות צבא רוסיה",
-    "נסיבות וסיבת המוות של השגריר הרוסי אלכסנדר דרצ'ייב",
-    "טענת רוסיה בנוגע לקיומה של רשת בתי כלא ועינויים באוקראינה"
+    "הטענה שרוסיה דרשה את עזיבת פינלנד את נאט\"ו בשיחות בלתי רשמיות",
+    "מידת האחריות של מודיעין אוקראיני לפיצוץ המכונית במוסקבה",
+    "היקף הנזק המדויק לקורבטה הרוסית נארו-פומינסק במפרץ פינלנד"
    ],
    "map": {
     "confidence": "high",
@@ -947,115 +956,129 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.1127,
+     "value": 1.1052,
      "unit": "USD",
-     "change_pct": -0.78,
+     "change_pct": -0.26,
      "source_id": "src_ecb",
-     "as_of": "2026-11-11T15:00:00+00:00"
+     "as_of": "2026-11-13T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "אוקראינה",
+     "actor": "רוסיה",
      "declared": [
-      "השגת שחרור של שבויים במסגרת עסקאות חילופין",
-      "התקדמות במסלול ההצטרפות לאיחוד האירופי וקבלת ערבויות ביטחון",
-      "סירוב מוחלט לדרישות לנסיגה משטחי דונבאס"
+      "התנגדות לנוכחות כוחות שמירת שלום אירופיים באוקראינה",
+      "סירוב לויתורים טריטוריאליים בשטחים הנתבעים על ידה",
+      "הכחשת דרישות לשינוי מעמד פינלנד בנאט\"ו"
      ],
      "inferred": [
-      "פגיעה בתשתיות הזיקוק והאנרגיה של רוסיה כדי לייצר לחץ כלכלי ומבצעי",
-      "רצון להגיע למסגרת הסדרה לפני סוף השנה תוך שימור תמיכת המערב"
+      "שאיפה להכרה בינלאומית בסיפוח מחוזות אוקראינה ופירוז נמלי הים השחור",
+      "ניסיון להרחיק את האיחוד האירופי ומוסדותיו ממעמד שווה ליד שולחן המשא ומתן"
      ],
      "forecast": [
-      "המשך שיגור כטב\"מים לעומק השטח הרוסי במקביל למגעים עם שליחי הממשל האמריקני"
+      "המשך הלחץ הצבאי בדונבאס לביסוס עובדות בשטח לפני התקדמות לשיחות רשמיות"
      ]
     },
     {
-     "actor": "רוסיה",
+     "actor": "אוקראינה",
      "declared": [
-      "השגת ניצחון והחזרת כל השטחים הנתבעים על ידה בטרם חתימה על הסכם שלום",
-      "הגעה להבנות בעניין מערך הביטחון האירופי ודרישות ביטחוניות מול אוקראינה"
+      "שילוב מדינות אירופה ומוסדות האיחוד האירופי בשיחות להסדר עתידי",
+      "קידום סדר יום הכולל צעדים להפסקת אש והפחתת הסלמה",
+      "המשך פגיעה במטרות לוגיסטיות וצבאיות של רוסיה"
      ],
      "inferred": [
-      "הפעלת לחץ צבאי כבד על תשתיות האנרגיה והמרכזים העירוניים באוקראינה לקראת המשך השיחות",
-      "שימור ערוצי ההידברות הדיפלומטיים מול ארצות הברית כדי למקסם הישגים מדיניים"
+      "הסתמכות על תמיכה אירופית כדי לבלום לחץ לוויתורים טריטוריאליים",
+      "המשך מבצעי חבלה ופגיעה ממוקדת בעומק רוסיה לשם ערעור הביטחון הפנימי שלה"
      ],
      "forecast": [
-      "המשך תקיפות הטילים על ערי אוקראינה תוך בחינת תנאי הפסקת אש בתחומי האנרגיה והים"
+      "המשך קו הגנה נוקשה תוך דרישה לערבויות ביטחון בינלאומיות מחייבות"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_bbc",
-     "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-11-12T00:44:50+00:00"
+     "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+     "accessed_at": "2026-11-14T00:40:39+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-indonesian-pow-prisoner-of-war-russia",
-     "accessed_at": "2026-11-12T00:44:50+00:00"
+     "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails",
+     "accessed_at": "2026-11-14T00:40:39+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/article/21832201",
-     "accessed_at": "2026-11-12T00:44:50+00:00"
+     "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21845700",
+     "accessed_at": "2026-11-14T00:40:39+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/zelensky-arrives-in-dublin-for-european-political-community-summit-expects-a-debrief-from-witkoff-kushner/",
-     "accessed_at": "2026-11-12T00:44:50+00:00"
+     "url": "https://kyivindependent.com/ukraine-war-latest-ex-pm-press-secretary-reportedly-injured-in-moscow-car-explosion/",
+     "accessed_at": "2026-11-14T00:40:39+00:00"
     },
     {
      "source_id": "src_meduza",
-     "url": "https://meduza.io/en/news/2026/11/11/they-re-bringing-something-kushner-and-witkoff-to-meet-putin-in-moscow-day-after-abu-dhabi-peace-talks",
-     "accessed_at": "2026-11-12T00:44:50+00:00"
+     "url": "https://meduza.io/en/news/2026/11/14/russia-demands-finland-leave-nato-bild-reports-moscow-denies-it-and-helsinki-is-outraged",
+     "accessed_at": "2026-11-14T00:40:39+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062401/",
-     "accessed_at": "2026-11-12T00:44:50+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062792/",
+     "accessed_at": "2026-11-14T00:40:39+00:00"
+    },
+    {
+     "source_id": "src_tass",
+     "url": "https://tass.com/world/2218031",
+     "accessed_at": "2026-11-14T00:40:39+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49508",
-     "accessed_at": "2026-11-12T00:44:50+00:00"
+     "url": "https://t.me/alexmehacarmel/49554",
+     "accessed_at": "2026-11-14T00:40:39+00:00"
     },
     {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/hyocvzgcme",
-     "accessed_at": "2026-11-12T00:44:50+00:00"
+     "source_id": "src_ukrinform",
+     "url": "https://www.ukrinform.net/rubric-ato/4184540-war-update-243-clashes-on-front-line-fiercest-fighting-in-pokrovsk-sector.html",
+     "accessed_at": "2026-11-14T00:40:39+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-11T00:50:00+00:00",
+  "previous_generated_at": "2026-11-12T00:44:50+00:00",
   "changes": {
-   "UKRAINE-11120044-01": {
+   "UKRAINE-11140040-01": {
+    "kind": "possible",
+    "prev": "נסיעת שליחי ארצות הברית לפגישות במוסקבה ובדבלין",
+    "score": 0.633
+   },
+   "UKRAINE-11140040-02": {
+    "kind": "possible",
+    "prev": "סיום שיחות אבו דאבי והסכמה על עסקת חילופי שבויים",
+    "score": 0.467
+   },
+   "UKRAINE-11140040-03": {
     "kind": "new"
    },
-   "UKRAINE-11120044-02": {
+   "UKRAINE-11140040-04": {
+    "kind": "same",
+    "from": "initial",
+    "to": "initial",
+    "prev": "תקיפת טילים בליסטיים רוסית על קייב",
+    "score": 0.817
+   },
+   "UKRAINE-11140040-05": {
     "kind": "new"
    },
-   "UKRAINE-11120044-03": {
+   "UKRAINE-11140040-06": {
     "kind": "new"
    },
-   "UKRAINE-11120044-04": {
+   "UKRAINE-11140040-07": {
     "kind": "new"
    },
-   "UKRAINE-11120044-05": {
+   "UKRAINE-11140040-08": {
     "kind": "new"
    },
-   "UKRAINE-11120044-06": {
-    "kind": "new"
-   },
-   "UKRAINE-11120044-07": {
-    "kind": "new"
-   },
-   "UKRAINE-11120044-08": {
-    "kind": "new"
-   },
-   "UKRAINE-11120044-09": {
+   "UKRAINE-11140040-09": {
     "kind": "new"
    }
   }

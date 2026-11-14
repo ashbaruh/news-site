@@ -1,0 +1,270 @@
+{
+ "status": "draft",
+ "received_sha256_12": "54c3088df9e9",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 3,
+   "shared_root": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-14T00:45:29+00:00",
+  "window": {
+   "from": "2026-11-13T00:45:29+00:00",
+   "to": "2026-11-14T00:45:29+00:00"
+  },
+  "model": {
+   "name": "gemini-3.7-flash",
+   "run_id": "yemen-202611140045"
+  },
+  "summary": "בזירה התימנית נרשמת החרפה משמעותית בלחימה הקרקעית והאווירית בין תנועת החות'ים לבין כוחות ממשלת תימן והקואליציה בראשות סעודיה. החות'ים מרחיבים את תקיפותיהם לעומק שטח סעודיה ומפעילים לחץ צבאי גובר על מבואות העיר עדן וסביבות מצר באב אל-מנדב. במקביל, כוחות הממשלה מקימים קווי ביצור סביב עיר הבירה הזמנית ומדווחים על מכות אש נרחבות לבלימת ההתקדמות.",
+  "fronts": [
+   {
+    "name": "מבואות עדן ודרום מערב תימן",
+    "status": "התקדמות חות'ית לעבר רכסים שולטים והקמת מערכי הגנה וביצורים של כוחות הממשלה."
+   },
+   {
+    "name": "מצר באב אל-מנדב וחוף ים סוף",
+    "status": "שליטה חות'ית מוגברת בעקבות נסיגת כוחות הממשלה בספטמבר ולחימה מתמשכת."
+   },
+   {
+    "name": "גבול תימן - סעודיה ועומק סעודיה",
+    "status": "חידוש שיגורי כטב\"מים וטילים בליסטיים לעבר נמלי תעופה, מתקני נפט וריכוזי כוחות."
+   },
+   {
+    "name": "תעז, לחג', מארב ואל-ג'וף",
+    "status": "קרבות עזים, חילופי אש, הפגזות ופעילות צלפים לאורך קווי המגע."
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11140045-01",
+    "title": "החות'ים טוענים שביצעו תקיפות של כטב\"מים וטילים נגד יעדים בסעודיה ובתוך תימן",
+    "summary": "הדובר הצבאי של החות'ים מסר כי כוחותיהם שיגרו כטב\"מים לעבר שדה התעופה הבינלאומי בריאד ולעבר תחנת שאיבה של צינור נפט, וכן שיגרו טילים בליסטיים לעבר ריכוזי כוחות באזור ג'אזאן וביעדים שונים בתימן.",
+    "axis": "חות'ים - סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T20:58:21+00:00",
+    "last_update_at": "2026-11-13T20:58:21+00:00",
+    "what_is_not_verified": "סעודיה לא אישרה את טענות החות'ים בדבר הפגיעות והנזקים הנטענים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-attacked-riyadh-airport-and-saudi-oil-pipeline",
+      "published_at": "2026-11-13T20:58:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ג'אזאן, סעודיה",
+      "lat": 16.8947,
+      "lon": 42.558
+     },
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11140045-02",
+    "title": "כוחות ממשלת תימן מתבצרים במבואות עדן עקב התקדמות החות'ים",
+    "summary": "גורמי צבא תימניים דיווחו על עבודות ביצור נרחבות צפונית ומערבית לעדן, הכוללות חפירת מנהרות והצבת שקי חול, נוכח השתלטות כוחות החות'ים על עמדות שולטות ורכסים בסמוך למצר באב אל-מנדב ולמחוז לחג'.",
+    "axis": "החות'ים - ממשלת תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-13T17:24:41+00:00",
+    "last_update_at": "2026-11-13T17:24:41+00:00",
+    "what_is_not_verified": "היקף ההתקדמות המדויק ומספר הנפגעים בקרבות האחרונים בחוף הים האדום.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemen-govt-forces-fortify-aden-defences-houthis-advance",
+      "published_at": "2026-11-13T17:24:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     },
+     {
+      "name": "באב אל-מנדב, תימן",
+      "lat": 12.714,
+      "lon": 43.5008
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11140045-03",
+    "title": "נציב זכויות האדם של האו\"ם דורש להשיב את גופת איש צוות שמת בשבי החות'ים",
+    "summary": "הנציב העליון לזכויות אדם דרש מהשלטונות החות'יים להעביר את גופתו של עובד האו\"ם שנפטר בנסיבות לא ברורות לאחר שהוחזק במעצר במשך יותר משנתיים, וקרא לשחרר עשרות אנשי סיוע שעדיין עצורים.",
+    "axis": "החות'ים - קהילה בינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T17:34:32+00:00",
+    "last_update_at": "2026-11-13T17:47:08+00:00",
+    "what_is_not_verified": "סיבת המוות והנסיבות המדויקות שבהן מת איש הצוות בשבי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/un-rights-chief-demands-houthis-return-body-yemeni-staff-member",
+      "published_at": "2026-11-13T17:47:08+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-rights-chief-demands-houthis-return-body-staff-member-who-died",
+      "published_at": "2026-11-13T17:34:32+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11140045-04",
+    "title": "צבא תימן מדווח על תקיפת מאות מטרות חות'יות ומאות נפגעים",
+    "summary": "גורמי הצבא התימני הודיעו על ביצוע מאות תקיפות נגד ריכוזי כוחות חות'יים, שבהן נהרגו ונפצעו מאות חמושים, בהם מפקדים.",
+    "axis": "החות'ים - ממשלת תימן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-13T14:15:34+00:00",
+    "last_update_at": "2026-11-13T14:15:34+00:00",
+    "what_is_not_verified": "מספר התקיפות המדויק ומספר הנפגעים לא אומתו באופן בלתי תלוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_74aa8cf558494285",
+      "url": "https://www.sabanew.net/viewstory/155735",
+      "published_at": "2026-11-13T14:15:34+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11140045-05",
+    "title": "קריאות בינלאומיות להגברת הלחץ על החות'ים והארכת עיצומי מועצת הביטחון",
+    "summary": "משרד החוץ של צרפת קרא להגביר את הלחץ על החות'ים להפסקת תקיפותיהם באזור, במקביל להחלטת מועצת הביטחון של האו\"ם להאריך בשנה את משטר הסנקציות על תימן.",
+    "axis": "החות'ים - סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T16:54:12+00:00",
+    "last_update_at": "2026-11-13T16:54:12+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/france-calls-more-pressure-houthis-end-attacks-saudi-arabia",
+      "published_at": "2026-11-13T16:54:12+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "פגיעה ממשית בשדה התעופה המלכותי בריאד או בצינור הנפט מזרח-מערב של סעודיה.",
+   "היקף הנפגעים והאבידות שצבא תימן טוען שהסב לחות'ים (מאות נפגעים ומאות גיחות).",
+   "הדיווחים של החות'ים על גרימת נפגעים רבים בקרב כוחות תחת פיקוד סעודי בלחג' ואל-ג'וף."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2107,
+    "unit": "ILS",
+    "change_pct": 0.23,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית",
+    "declared": [
+     "פגיעה במתקנים אסטרטגיים ובשדות תעופה של סעודיה.",
+     "תקיפת בסיסים ומחסני נשק של כוחות הקואליציה בתימן."
+    ],
+    "inferred": [
+     "ביסוס אחיזה מוחלטת בנתיבי השיט בבאב אל-מנדב וניתוק קווי האספקה לעדן.",
+     "הפעלת לחץ כלכלי וצבאי על סעודיה להפסקת התמיכה בממשלת תימן."
+    ],
+    "forecast": [
+     "המשך ניסיונות התקדמות לעבר חופי מפרץ עדן ומבואות העיר.",
+     "החרפת שיגורי הכטב\"מים לעבר יעדי תשתית סעודיים להרתעת הקואליציה."
+    ]
+   },
+   {
+    "actor": "ממשלת תימן והקואליציה",
+    "declared": [
+     "הגנה על מרחב עדן ובלימת המתקפות החות'יות באזור תעז ולחג'.",
+     "הפעלת לחץ בינלאומי להטלת עיצומים והגדרת החות'ים כארגון טרור."
+    ],
+    "inferred": [
+     "מניעת נפילת הבירה הזמנית עדן והימנעות מאיבוד מוחלט של הגישה לים.",
+     "שמירה על תמיכה צבאית וכלכלית בינלאומית ומפרצית מול שחיקת הכוחות."
+    ],
+    "forecast": [
+     "התבצרות ממושכת במבואות עדן תוך הסתמכות על תקיפות אוויר וסיוע סעודי.",
+     "המשך חוסר היכולת לשוב ולכבוש שטחים שאבדו לאורך חוף ים סוף בטווח הקצר."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/un-rights-chief-demands-houthis-return-body-yemeni-staff-member",
+    "accessed_at": "2026-11-14T00:45:29+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/france-calls-more-pressure-houthis-end-attacks-saudi-arabia",
+    "accessed_at": "2026-11-14T00:45:29+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/yemen-govt-forces-fortify-aden-defences-houthis-advance",
+    "accessed_at": "2026-11-14T00:45:29+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155735",
+    "accessed_at": "2026-11-14T00:45:29+00:00"
+   }
+  ]
+ }
+}

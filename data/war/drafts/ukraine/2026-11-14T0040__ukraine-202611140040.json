@@ -1,0 +1,478 @@
+{
+ "status": "draft",
+ "received_sha256_12": "3a05341615e9",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "shared_root": 2,
+   "verified": 2,
+   "initial": 5
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-14T00:40:39+00:00",
+  "window": {
+   "from": "2026-11-13T00:40:39+00:00",
+   "to": "2026-11-14T00:40:39+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202611140040"
+  },
+  "summary": "הלחימה הקרקעית והאווירית בין רוסיה לאוקראינה נמשכת בעוצמה גבוהה, כאשר מוקד הקרבות המרכזי מתרכז בגזרת פוקרובסק לצד תקיפות כטב\"מים וטילים על ערים באוקראינה ופגיעות בכירים בעומק שטח רוסיה. במקביל נרשמת היערכות דיפלומטית רחבה באירופה לקראת הצטרפות לשיחות על הסדר עתידי, חרף מחלוקות עמוקות סביב תנאי הפסקת האש ודרישות הביטחון של מוסקבה. במישור הבינלאומי מסתמנת מתיחות בנושאי חימוש וביטחון אזורי, כולל הגבלות תקציביות על רכש נשק בפולין ותקריות צבאיות במפרץ פינלנד.",
+  "fronts": [
+   {
+    "name": "גזרת פוקרובסק",
+    "status": "לחימה בעצימות גבוהה ביותר עם עשרות מתקפות רוסיות ביממה"
+   },
+   {
+    "name": "קייב ועורף אוקראינה",
+    "status": "ספיגת מתקפות כטב\"מים רוסיים על מבני ציבור ונהרות הבירה"
+   },
+   {
+    "name": "זפוריז'יה",
+    "status": "פגיעות בעיר ונפגעים אזרחיים רבים"
+   },
+   {
+    "name": "מפרץ פינלנד ונמל אוסט-לוגה",
+    "status": "פעילות כטב\"מים אוקראינית נגד כלי שיט צבאיים רוסיים"
+   },
+   {
+    "name": "עומק רוסיה (מוסקבה)",
+    "status": "פגיעות ממוקדות באמצעות פיצוץ מטעני חבלה ברכבים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11140040-01",
+    "title": "פיצוץ מכונית תופת במוסקבה ופציעת בכיר אוקראיני לשעבר",
+    "summary": "מכונית תופת התפוצצה בדרום מוסקבה ופצעה קשה את סרגיי זבורוטני, לשעבר דוברו ויועצו של ראש ממשלת אוקראינה לשעבר ניקולאי אזרוב. ועדת החקירות פתחה בחקירה.",
+    "axis": "רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T11:54:44+00:00",
+    "last_update_at": "2026-11-13T19:41:51+00:00",
+    "what_is_not_verified": "זהות המבצעים ומעורבות אוקראינה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-ex-pm-press-secretary-reportedly-injured-in-moscow-car-explosion/",
+      "published_at": "2026-11-13T19:41:51+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49552",
+      "published_at": "2026-11-13T14:18:57+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-13T13:11:23+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/13/car-bomb-attack-moscow-russia",
+      "published_at": "2026-11-13T13:01:44+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21845700",
+      "published_at": "2026-11-13T11:54:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11140040-02",
+    "title": "הסכמה אירופית על משלחת משותפת לשיחות השלום",
+    "summary": "מנהיגי האיחוד האירופי סיכמו על הקמת צוות משותף לשיחות עתידיות בנושא אוקראינה, שיכלול את מוסדות האיחוד ונציגים מחמש מדינות: גרמניה, צרפת, בריטניה, איטליה ופולין.",
+    "axis": "משא ומתן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T02:01:35+00:00",
+    "last_update_at": "2026-11-13T20:40:00+00:00",
+    "what_is_not_verified": "מועד ומיקום השיחות העתידיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_ace3d98314224561",
+      "url": "https://kyivindependent.com/european-leaders-agree-on-joint-team-for-ukraine-peace-negotiations-costa-says/",
+      "published_at": "2026-11-13T20:40:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_ace3d98314224561",
+      "url": "https://tass.com/world/2218035",
+      "published_at": "2026-11-13T19:45:59+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_aa82f9f319c8f641",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062802/",
+      "published_at": "2026-11-13T19:11:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_5333def1ea916825",
+      "url": "https://tass.com/world/2218029",
+      "published_at": "2026-11-13T19:01:28+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_ca53c44b3651ca38",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062799/",
+      "published_at": "2026-11-13T18:31:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_622dba54397de10c",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062795/",
+      "published_at": "2026-11-13T17:43:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_ace3d98314224561",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062792/",
+      "published_at": "2026-11-13T17:29:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_f86bd6c7e9fffb40",
+      "url": "https://www.theguardian.com/world/2026/nov/13/ukraine-war-briefing-europe-to-join-negotiations-says-kushner-as-putin-warns-against-peace-keepers",
+      "published_at": "2026-11-13T03:38:51+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_ace3d98314224561",
+      "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-13T02:01:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דבלין, אירלנד",
+      "lat": 53.3494,
+      "lon": -6.2606
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11140040-03",
+    "title": "דיווח על דרישות רוסיות במשא ומתן להסדר והכחשת הקרמלין",
+    "summary": "דיווח עיתונאי ייחס לרוסיה דרישות שפינלנד תעזוב את נאט\"ו, פירוז נמלי אודסה וניקולאייב והכרה בשליטה בדונבאס. דובר הקרמלין הכחיש את הטענות מכל וכל.",
+    "axis": "משא ומתן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T13:37:17+00:00",
+    "last_update_at": "2026-11-14T00:11:36+00:00",
+    "what_is_not_verified": "עצם העלאת הדרישות בשיחות לא רשמיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/14/russia-demands-finland-leave-nato-bild-reports-moscow-denies-it-and-helsinki-is-outraged",
+      "published_at": "2026-11-14T00:11:36+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49550",
+      "published_at": "2026-11-13T13:37:17+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11140040-04",
+    "title": "תקיפת כטב\"ם על בית חולים בקייב",
+    "summary": "כטב\"ם פגע במכון הלאומי לטראומטולוגיה ואורתופדיה במרכז קייב וגרם לפציעת שלושה בני אדם, על רקע קשיים של מערכת סטארשילד בהפלת כלי הטיס.",
+    "axis": "חזית העורף באוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T03:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T11:24:30+00:00",
+    "last_update_at": "2026-11-13T11:24:30+00:00",
+    "what_is_not_verified": "מידת השפעת מגבלות המהירות של סטארשילד על האירוע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails",
+      "published_at": "2026-11-13T11:24:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11140040-05",
+    "title": "חילוץ שרידי כטב\"ם מנהר הדנייפרו בקייב",
+    "summary": "צוותי חילוץ משו מנהר הדנייפרו ברובע אובולון שבקייב שרידים של כטב\"ם רוסי שנפל במתקפה שהתרחשה ב-11 בנובמבר.",
+    "axis": "חזית העורף באוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T23:26:00+00:00",
+    "last_update_at": "2026-11-13T23:26:00+00:00",
+    "what_is_not_verified": "דגם הכטב\"ם ומטרתו המקורית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_38b23cb3809ed3c2",
+      "url": "https://www.ukrinform.net/rubric-ato/4184176-remains-of-russian-drone-recovered-from-dnipro-river-in-kyiv.html",
+      "published_at": "2026-11-13T23:26:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11140040-06",
+    "title": "קרבות עזים בקווי החזית ומתקפות בגזרת פוקרובסק",
+    "summary": "במהלך היממה נרשמו 243 התנגשויות קרביות בין כוחות ההגנה של אוקראינה לצבא הרוסי, מתוכן כ-50 מתקפות רוסיות בגזרת פוקרובסק לבדה.",
+    "axis": "דונבאס",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-13T21:58:00+00:00",
+    "last_update_at": "2026-11-13T21:58:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק בקרבות אלו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_0e1edc76395735e2",
+      "url": "https://www.ukrinform.net/rubric-ato/4184540-war-update-243-clashes-on-front-line-fiercest-fighting-in-pokrovsk-sector.html",
+      "published_at": "2026-11-13T21:58:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פוקרובסק, אוקראינה",
+      "lat": 48.2771,
+      "lon": 37.1772
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11140040-07",
+    "title": "פגיעה רוסית בזפוריז'יה עם עשרות פצועים",
+    "summary": "רוסיה תקפה בעיר זפוריז'יה, וכתוצאה מכך נפצעו 50 בני אדם, בהם 8 ילדים.",
+    "axis": "החזית הדרומית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T19:41:51+00:00",
+    "last_update_at": "2026-11-13T19:41:51+00:00",
+    "what_is_not_verified": "סוג החימוש ששימש לתקיפה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-ex-pm-press-secretary-reportedly-injured-in-moscow-car-explosion/",
+      "published_at": "2026-11-13T19:41:51+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפוריז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11140040-08",
+    "title": "פניית פינלנד לאוקראינה בעקבות תקיפת ספינה במפרץ פינלנד",
+    "summary": "שר ההגנה הפיני אישר כי הלסינקי פנתה לקייב והבהירה את רגישות האזור בעקבות פגיעת כטב\"ם אוקראיני בקורבטה רוסית בנמל אוסט-לוגה.",
+    "axis": "הזירה הימית והמדינית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T15:04:19+00:00",
+    "last_update_at": "2026-11-13T15:04:19+00:00",
+    "what_is_not_verified": "חומרת הנזק שנגרמה לקורבטה הרוסית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49554",
+      "published_at": "2026-11-13T15:04:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אוסט-לוגה, רוסיה",
+      "lat": 59.6592,
+      "lon": 28.2695
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11140040-09",
+    "title": "פולין סירבה לממן נשק אמריקאי לאוקראינה במסגרת קרן ייעודית",
+    "summary": "ראש ממשלת פולין דונלד טוסק הבהיר כי ארצו לא תממן רכישת אמצעי לחימה מתוצרת ארה\"ב עבור אוקראינה במסגרת תוכנית זו, בנימוק של גירעון תקציבי.",
+    "axis": "סיוע צבאי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-13T19:03:00+00:00",
+    "last_update_at": "2026-11-13T19:03:00+00:00",
+    "what_is_not_verified": "ההשפעה המעשית על היקף אספקת החימוש הכולל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2218031",
+      "published_at": "2026-11-13T19:03:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "הטענה שרוסיה דרשה את עזיבת פינלנד את נאט\"ו בשיחות בלתי רשמיות",
+   "מידת האחריות של מודיעין אוקראיני לפיצוץ המכונית במוסקבה",
+   "היקף הנזק המדויק לקורבטה הרוסית נארו-פומינסק במפרץ פינלנד"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1052,
+    "unit": "USD",
+    "change_pct": -0.26,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "התנגדות לנוכחות כוחות שמירת שלום אירופיים באוקראינה",
+     "סירוב לויתורים טריטוריאליים בשטחים הנתבעים על ידה",
+     "הכחשת דרישות לשינוי מעמד פינלנד בנאט\"ו"
+    ],
+    "inferred": [
+     "שאיפה להכרה בינלאומית בסיפוח מחוזות אוקראינה ופירוז נמלי הים השחור",
+     "ניסיון להרחיק את האיחוד האירופי ומוסדותיו ממעמד שווה ליד שולחן המשא ומתן"
+    ],
+    "forecast": [
+     "המשך הלחץ הצבאי בדונבאס לביסוס עובדות בשטח לפני התקדמות לשיחות רשמיות"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "שילוב מדינות אירופה ומוסדות האיחוד האירופי בשיחות להסדר עתידי",
+     "קידום סדר יום הכולל צעדים להפסקת אש והפחתת הסלמה",
+     "המשך פגיעה במטרות לוגיסטיות וצבאיות של רוסיה"
+    ],
+    "inferred": [
+     "הסתמכות על תמיכה אירופית כדי לבלום לחץ לוויתורים טריטוריאליים",
+     "המשך מבצעי חבלה ופגיעה ממוקדת בעומק רוסיה לשם ערעור הביטחון הפנימי שלה"
+    ],
+    "forecast": [
+     "המשך קו הגנה נוקשה תוך דרישה לערבויות ביטחון בינלאומיות מחייבות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-14T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails",
+    "accessed_at": "2026-11-14T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21845700",
+    "accessed_at": "2026-11-14T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-war-latest-ex-pm-press-secretary-reportedly-injured-in-moscow-car-explosion/",
+    "accessed_at": "2026-11-14T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/14/russia-demands-finland-leave-nato-bild-reports-moscow-denies-it-and-helsinki-is-outraged",
+    "accessed_at": "2026-11-14T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062792/",
+    "accessed_at": "2026-11-14T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2218031",
+    "accessed_at": "2026-11-14T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49554",
+    "accessed_at": "2026-11-14T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4184540-war-update-243-clashes-on-front-line-fiercest-fighting-in-pokrovsk-sector.html",
+    "accessed_at": "2026-11-14T00:40:39+00:00"
+   }
+  ]
+ }
+}
