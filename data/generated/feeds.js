@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-14T16:08:02+00:00",
-  "fetched_at": "2026-11-14T16:08:02+00:00"
+  "checked_at": "2026-11-14T16:17:15+00:00",
+  "fetched_at": "2026-11-14T16:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-14T16:08:13+00:00",
-  "fetched_at": "2026-11-14T16:08:13+00:00"
+  "checked_at": "2026-11-14T16:17:28+00:00",
+  "fetched_at": "2026-11-14T16:17:28+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-14T16:08:13+00:00",
-  "fetched_at": "2026-11-14T16:08:13+00:00"
+  "checked_at": "2026-11-14T16:17:28+00:00",
+  "fetched_at": "2026-11-14T16:17:28+00:00"
  },
- "generated_at": "2026-11-14T16:08:13+00:00",
+ "generated_at": "2026-11-14T16:17:28+00:00",
  "globes": {
   "data": {
    "top": [
@@ -98,11 +98,6 @@ window.DB.generated = {
     }
    ],
    "market": [
-    {
-     "title": "מגרמניה ועד אירלנד: הלקחים מהחדירה המהירה של רבולוט לבנקאות האירופית",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563044",
-     "date": "2026-11-14T16:00:00+00:00"
-    },
     {
      "title": "הפילוג הפוליטי בפולין פוגע בהשפעתה בזירה הבינלאומית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563040",
@@ -199,6 +194,11 @@ window.DB.generated = {
      "date": "2026-11-13T07:45:00+00:00"
     },
     {
+     "title": "ההייטקיסטים הכי נוצצים בישראל חוששים: מה יקרה לאופציות של עובדי אנבידיה?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563220",
+     "date": "2026-11-13T07:28:00+00:00"
+    },
+    {
      "title": "כך תדעו איך הפנסיה שלכם תושפע מנפילת אנבידיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563160",
      "date": "2026-11-12T21:05:00+00:00"
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-14T16:08:03+00:00",
-  "fetched_at": "2026-11-14T16:08:03+00:00"
+  "checked_at": "2026-11-14T16:17:16+00:00",
+  "fetched_at": "2026-11-14T16:17:16+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-14T16:08:04+00:00",
-  "fetched_at": "2026-11-14T16:08:04+00:00"
+  "checked_at": "2026-11-14T16:17:17+00:00",
+  "fetched_at": "2026-11-14T16:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -2830,8 +2830,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-14T16:08:07+00:00",
-  "fetched_at": "2026-11-14T16:08:07+00:00"
+  "checked_at": "2026-11-14T16:17:19+00:00",
+  "fetched_at": "2026-11-14T16:17:19+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2921,12 +2921,19 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-14T16:08:07+00:00",
-  "fetched_at": "2026-11-14T16:08:07+00:00"
+  "checked_at": "2026-11-14T16:17:19+00:00",
+  "fetched_at": "2026-11-14T16:17:19+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/claude-code-desktop-vulnerability-cvss-8-7-high/",
+     "date": "2026-11-12T08:58:03+00:00",
+     "launch": true,
+     "title": "איך Claude Code Desktop כמעט הדליף את כל המידע מהמחשב שלכם"
+    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/introducing-chatgpt-wallet",
@@ -2935,22 +2942,12 @@ window.DB.generated = {
      "title_en": "Introducing ChatGPT Wallet",
      "title_he": "הכירו את ארנק ChatGPT",
      "translated_by": "mymemory"
-    },
-    {
-     "source": "Google",
-     "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-     "date": "2026-11-12T18:00:00+00:00",
-     "launch": true,
-     "title_en": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-     "title_he": "חיפוש Google מקבל שדרוג משמעותי עם Gemini 4 Hydrogen",
-     "translated_by": "google"
     }
    ],
-   "candidates": 3,
+   "candidates": 5,
    "failed_sources": [
     "Anthropic",
-    "Google DeepMind",
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -3026,12 +3023,22 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-14T16:08:13+00:00",
-  "fetched_at": "2026-11-14T16:08:13+00:00"
+  "checked_at": "2026-11-14T16:17:27+00:00",
+  "fetched_at": "2026-11-14T16:17:27+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "7 ליהושע, 4 לגלוך ו-5 לעבדה: ציוני הנבחרת",
+     "link": "https://www.one.co.il/Article/538864.html?ref=rss",
+     "date": "2026-11-14T16:12:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוסקר גלוך",
+      "ליאל עבדה"
+     ]
+    },
     {
      "title": "תאי עבד הוחלף בדקה ה-61, הרצף שלו ושל ויאדוליד נעצר",
      "link": "https://sports.walla.co.il/item/3876198",
@@ -3156,16 +3163,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "ללא רביבו וסולומון: ההרכב המסתמן של נבחרת ישראל בקוסובו",
-     "link": "https://sports.walla.co.il/item/3876121",
-     "date": "2026-11-13T15:38:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון",
-      "רועי רביבו"
      ]
     }
    ],
@@ -3369,8 +3366,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-14T16:08:10+00:00",
-  "fetched_at": "2026-11-14T16:08:10+00:00"
+  "checked_at": "2026-11-14T16:17:22+00:00",
+  "fetched_at": "2026-11-14T16:17:22+00:00"
  },
  "idf": {
   "data": [
@@ -3401,8 +3398,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-14T16:08:11+00:00",
-  "fetched_at": "2026-11-14T16:08:11+00:00"
+  "checked_at": "2026-11-14T16:17:23+00:00",
+  "fetched_at": "2026-11-14T16:17:23+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3410,49 +3407,49 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-14T16:00:00+00:00",
-    "seen_at": "2026-11-14T16:08:13+00:00",
+    "seen_at": "2026-11-14T16:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-13T21:00:00+00:00",
-    "seen_at": "2026-11-14T16:08:13+00:00",
+    "seen_at": "2026-11-14T16:17:28+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-14T16:00:00+00:00",
-    "seen_at": "2026-11-14T16:08:13+00:00",
+    "newest": "2026-11-14T15:03:00+00:00",
+    "seen_at": "2026-11-14T16:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-14T11:05:00+00:00",
-    "seen_at": "2026-11-14T16:08:13+00:00",
+    "seen_at": "2026-11-14T16:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-14T16:40:00+00:00",
-    "seen_at": "2026-11-14T16:08:13+00:00",
+    "seen_at": "2026-11-14T16:17:28+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-14T17:02:00+00:00",
-    "seen_at": "2026-11-14T16:08:13+00:00",
+    "seen_at": "2026-11-14T16:17:28+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-14T15:52:00+00:00",
-    "seen_at": "2026-11-14T16:08:13+00:00",
+    "newest": "2026-11-14T16:12:00+00:00",
+    "seen_at": "2026-11-14T16:17:28+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-14T10:57:03+00:00",
-    "seen_at": "2026-11-14T16:08:13+00:00",
+    "seen_at": "2026-11-14T16:17:28+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3464,35 +3461,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-12T18:00:00+00:00",
-    "seen_at": "2026-11-14T16:08:13+00:00",
+    "seen_at": "2026-11-14T16:17:28+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-14T12:03:27+00:00",
-    "seen_at": "2026-11-14T15:17:31+00:00",
+    "newest": "2026-11-14T15:36:50+00:00",
+    "seen_at": "2026-11-14T16:17:28+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-11T16:30:25+00:00",
-    "seen_at": "2026-11-14T16:08:13+00:00",
+    "seen_at": "2026-11-14T16:17:28+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-13T16:36:15+00:00",
-    "seen_at": "2026-11-14T16:08:13+00:00",
+    "seen_at": "2026-11-14T16:17:28+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-12T12:13:59+00:00",
-    "seen_at": "2026-11-14T16:08:13+00:00",
+    "seen_at": "2026-11-14T16:17:28+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-14T16:08:13+00:00"
+  "checked_at": "2026-11-14T16:17:28+00:00"
  },
  "health_news": {
   "data": [
@@ -3648,7 +3645,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-14T16:08:11+00:00",
-  "fetched_at": "2026-11-14T16:08:11+00:00"
+  "checked_at": "2026-11-14T16:17:23+00:00",
+  "fetched_at": "2026-11-14T16:17:23+00:00"
  }
 };
