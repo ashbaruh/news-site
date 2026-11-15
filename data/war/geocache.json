@@ -724,6 +724,10 @@
 44.1767,
 28.6508
 ],
+"constanța, romania": [
+44.1767,
+28.6508
+],
 "corinth, united states": [
 34.9344,
 -88.5223
@@ -1342,6 +1346,10 @@
 "kfarra, lebanon": null,
 "kfartebnit, lebanon": null,
 "khabab, yemen": null,
+"khabb wa ash sha'af, yemen": [
+16.9087,
+45.3491
+],
 "khamis mushait, saudi arabia": [
 18.3,
 42.7333
@@ -1914,6 +1922,10 @@
 "nikopol, ukraine": [
 47.5692,
 34.3917
+],
+"nizhnekamsk, russia": [
+55.6413,
+51.816
 ],
 "northern border, israel": null,
 "norway": null,

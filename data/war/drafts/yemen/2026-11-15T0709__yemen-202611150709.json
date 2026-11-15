@@ -1,0 +1,367 @@
+{
+ "status": "draft",
+ "received_sha256_12": "33cf7cbe6b58",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 3,
+   "initial": 1,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-15T07:09:28+00:00",
+  "window": {
+   "from": "2026-11-14T07:09:28+00:00",
+   "to": "2026-11-15T07:09:28+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202611150709"
+  },
+  "summary": "הזירה מאופיינת בהסלמה הדדית שכוללת שיגור מוגבר של טילים בליסטיים וכלי טיס בלתי מאוישים מצד החות'ים לעבר מטרות בסעודיה, במקביל למערכות הגנה אווירית שמופעלות ליירוטם. במקביל נמשכים עימותים עזים בתוך תימן עצמה, במיוחד במחוזות מאריב, אל-ג'וף ותעז, תוך דיווחים על תקיפות אוויריות נרחבות ונפגעים בקרב אזרחים ולוחמים כאחד. המתיחות משפיעה ישירות על יציבות האזור, על נתיבי הסחר הימיים ועל השיקולים המדיניים והביטחוניים של ארצות הברית ומדינות המפרץ.",
+  "fronts": [
+   {
+    "name": "סעודיה - תימן",
+    "status": "פעילה - שיגורי טילים וכלי טיס בלתי מאוישים חות'יים לעבר ריאד והמחוז המזרחי, לצד יירוטים של הקואליציה"
+   },
+   {
+    "name": "מאריב ואל-ג'וף",
+    "status": "פעילה - התגברות הקרבות הקרקעיים, עקירה המונית של תושבים וטענות להפלת כלי טיס"
+   },
+   {
+    "name": "תעז",
+    "status": "פעילה - הפגזות וירי צלפים לאורך קווי העימות ופגיעה באזרחים"
+   },
+   {
+    "name": "נתיבי השיט בים האדום ומצר באב אל-מנדב",
+    "status": "מתוחה - השפעה ואיום על מעבר כלי שיט כחלק ממאזן הכוחות האזורי"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11150709-01",
+    "title": "יירוט טילים בליסטיים וכלי טיס בלתי מאוישים ששוגרו מסוג חות'י לעבר סעודיה",
+    "summary": "הקואליציה בראשות סעודיה הודיעה על יירוט שני טילים בליסטיים ששוגרו לכיוון ריאד וכן מספר כלי טיס בלתי מאוישים באזור המחוז המזרחי ובדרום הממלכה.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T13:44:46+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T13:44:46+00:00",
+    "last_update_at": "2026-11-15T03:46:26+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לשיעור הפגיעות והיירוטים המדויק מעבר להודעות הקואליציה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province",
+      "published_at": "2026-11-15T03:46:26+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-intercepts-third-drone-houthis-claim-downing",
+      "published_at": "2026-11-15T03:20:34+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bahrains-ministry-interior-issues-hazard-alert-urges-citizens-stay-calm",
+      "published_at": "2026-11-15T02:07:28+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-houthi-ballistic-missiles-shot-down-over-riyadh-coalition-spokesman",
+      "published_at": "2026-11-15T01:49:17+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/coalition-forces-intercept-another-drone-over-saudi-arabias-eastern",
+      "published_at": "2026-11-15T01:02:42+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-drone-shot-down-over-saudi-arabias-eastern-region",
+      "published_at": "2026-11-15T00:36:10+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155776",
+      "published_at": "2026-11-14T13:44:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11150709-02",
+    "title": "טענת החות'ים להפלת כלי טיס של סעודיה במחוז אל-ג'וף",
+    "summary": "דובר הזרוע הצבאית של החות'ים טען כי כוחותיהם הפילו כלי טיס בלתי מאויש חמוש למשימות סיור של סעודיה בשמי מחוז אל-ג'וף.",
+    "axis": "תימן - סעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T03:20:34+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T03:20:34+00:00",
+    "last_update_at": "2026-11-15T03:20:34+00:00",
+    "what_is_not_verified": "הפלת המטוס לא אומתה על ידי מקור רשמי סעודי או תיעוד חזותי מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-intercepts-third-drone-houthis-claim-downing",
+      "published_at": "2026-11-15T03:20:34+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11150709-03",
+    "title": "הסלמת הקרבות במאריב ובאל-ג'וף ועקירת מאות אלפי תושבים",
+    "summary": "נרשמה החרפה בלחימה במחוזות מאריב ואל-ג'וף בתימן, לצד דיווח של סוכנות האו\"ם על עקירת מעל שלוש מאות וארבעים אלף בני אדם מאז אוגוסט.",
+    "axis": "פנים תימן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T02:59:06+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-15T02:59:06+00:00",
+    "last_update_at": "2026-11-15T02:59:06+00:00",
+    "what_is_not_verified": "היקף הנפגעים המדויק ומיקומי הקרבות הספציפיים בחזיתות אלה אינם מפורטים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss",
+      "published_at": "2026-11-15T02:59:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מאריב, תימן",
+      "lat": 15.4579,
+      "lon": 45.323
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11150709-04",
+    "title": "פגיעות באזרחים מירי צלפים, הפגזות ומוקשים בתעז ובאל-ג'וף",
+    "summary": "אזרחים, בהם נשים וילדים, נפצעו מפיצוץ מוקש במחוז אל-ג'וף ומירי צלפים והפגזות של מיליציות החות'ים באזור תעז.",
+    "axis": "פנים תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T12:50:34+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T12:50:34+00:00",
+    "last_update_at": "2026-11-15T03:40:41+00:00",
+    "what_is_not_verified": "אין אימות בלתי תלוי של גורמים רפואיים ניטרליים בשטח לדיווחים הממשלתיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155793",
+      "published_at": "2026-11-15T03:40:41+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155789",
+      "published_at": "2026-11-14T23:04:33+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155772",
+      "published_at": "2026-11-14T12:50:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "ח'ב וא-שעף, תימן",
+      "lat": 16.9087,
+      "lon": 45.3491
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11150709-05",
+    "title": "דיווח צבא תימן על מאות תקיפות ואבדות בקרב החות'ים",
+    "summary": "הכוחות המזוינים של תימן מסרו כי ביצעו מאות גיחות ותקיפות שבהן נהרגו ונפצעו מאות מפקדים ולוחמים של החות'ים.",
+    "axis": "פנים תימן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T14:54:20+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T14:54:20+00:00",
+    "last_update_at": "2026-11-14T14:54:20+00:00",
+    "what_is_not_verified": "מספר הנפגעים וההיקף של מאות הגיחות לא אומתו על ידי מקורות עצמאיים או על ידי החות'ים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/155783",
+      "published_at": "2026-11-14T14:54:20+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11150709-06",
+    "title": "התניית תקיפות ארצות הברית בהימנעות מפעולות חות'יות",
+    "summary": "גורמים בכירים מסרו כי נשיא ארצות הברית שוקל להשהות פעולות צבאיות מול איראן במידה שלא יתרחשו פעולות התגרות חדשות מצדה או מצד החות'ים בתימן.",
+    "axis": "ארצות הברית - תימן - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T11:46:28+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T11:46:28+00:00",
+    "last_update_at": "2026-11-15T03:04:00+00:00",
+    "what_is_not_verified": "ההצהרה נמסרה מפי מקורות עלומי שם ללא הודעה פומבית רשמית של הבית הלבן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-trump-may-not-attack-iran-long-it-doesnt-provoke-us",
+      "published_at": "2026-11-15T03:04:00+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/trump-says-may-hold-iran-attacks-barring-new-provocations-0",
+      "published_at": "2026-11-15T01:24:18+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/trump-tells-advisers-he-may-hold-iran-attacks-barring-new-provocations-sources",
+      "published_at": "2026-11-14T11:46:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארצות הברית",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת החות'ים בדבר הפלת מטוס סיור חמוש סעודי במחוז אל-ג'וף",
+   "מספרי הנפגעים המדויקים והיקף 723 התקיפות שיוחסו לצבא תימן",
+   "מידת הנזק המדויקת שנגרמה כתוצאה משיגורי הטילים והכטב\"מים האחרונים לעבר סעודיה",
+   "הדיווחים מפי מקורות בעילום שם בדבר תנאי הנשיא טראמפ להשהיית תקיפות"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2107,
+    "unit": "ILS",
+    "change_pct": 0.23,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית",
+    "declared": [
+     "המשך תקיפת מטרות בסעודיה, בהן תשתיות נפט, נמלי תעופה ומתקנים צבאיים",
+     "דרישה לפיצויים כספיים בהיקף של מיליארדי דולרים"
+    ],
+    "inferred": [
+     "הפעלת לחץ ישיר על סעודיה להפסקת הלחימה והשגת ויתורים מדיניים וכלכליים",
+     "ביסוס כוח ההרתעה והשליטה בשטחים נרחבים בתימן"
+    ],
+    "forecast": [
+     "המשך שיגורים של טילים וכטב\"מים לעבר יעדים בעומק סעודיה",
+     "הגברת הלחץ הצבאי במוקדי החיכוך היבשתיים בתימן כמו מאריב"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "הגנה על שטח הממלכה ויירוט כלל האיומים האוויריים",
+     "תמיכה בכוחות ממשלת תימן הלגיטימית מול החות'ים"
+    ],
+    "inferred": [
+     "מניעת פגיעה בתשתיות אנרגיה חיוניות ובמרכזים כלכליים",
+     "בלימת התרחבות מלחמה כוללת והימנעות מהסלמה רחבה מול איראן"
+    ],
+    "forecast": [
+     "המשך הפעלת מערכי ההגנה האווירית וביצוע תקיפות ממוקדות בתימן",
+     "מאמצים דיפלומטיים מול ארצות הברית לשמירה על יציבות אזורית"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן",
+    "declared": [
+     "המשך פעולות התקיפה והמערכה הצבאית נגד פעילי וראשי החות'ים"
+    ],
+    "inferred": [
+     "השבת השליטה על אזורים חיוניים ומניעת נפילת מאריב לידי החות'ים"
+    ],
+    "forecast": [
+     "המשך הלוחמה הקרקעית וההפגזות במוקדי הקרבות במאריב, אל-ג'וף ותעז"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss",
+    "accessed_at": "2026-11-15T07:09:28+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/trump-tells-advisers-he-may-hold-iran-attacks-barring-new-provocations-sources",
+    "accessed_at": "2026-11-15T07:09:28+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-trump-may-not-attack-iran-long-it-doesnt-provoke-us",
+    "accessed_at": "2026-11-15T07:09:28+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/trump-says-may-hold-iran-attacks-barring-new-provocations-0",
+    "accessed_at": "2026-11-15T07:09:28+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155783",
+    "accessed_at": "2026-11-15T07:09:28+00:00"
+   }
+  ]
+ }
+}

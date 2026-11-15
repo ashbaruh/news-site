@@ -1,0 +1,577 @@
+{
+ "status": "draft",
+ "received_sha256_12": "179e7e30f1d6",
+ "preview": {
+  "events": 13,
+  "levels": {
+   "initial": 7,
+   "shared_root": 5,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-15T07:05:39+00:00",
+  "window": {
+   "from": "2026-11-14T07:05:39+00:00",
+   "to": "2026-11-15T07:05:39+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202611150705"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת באמצעות חילופי מהלומות ארוכות טווח, הכוללים פגיעות אוקראיניות בתשתיות אנרגיה ותעשייה כימית ברוסיה לצד מתקפות רוסיות על מתקני נמל וחשמל באוקראינה. במקביל למגעים דיפלומטיים לקידום ערוצי שיח בין מוסקבה למערב והעלאת רעיונות להסדר טריטוריאלי מול חברות בנאט\"ו, גובר החשש בקייב ממהלכים בינלאומיים ללא שיתופה. בזירה הצבאית נמשכים מאמצי ההצטיידות וההתמודדות עם מגבלות טכנולוגיות על מערכות כטב\"מים לאורך קו העימות.",
+  "fronts": [
+   {
+    "name": "חזית עומק רוסיה (טטרסטן ורוסטוב)",
+    "status": "פגיעות כטב\"מים בתשתיות פטרוכימיות ובתחנות משנה של חשמל המשרתות את הרכבת"
+   },
+   {
+    "name": "חזית הדרום והים השחור (אודסה, צ'רנומורסק וחופי רומניה)",
+    "status": "תקיפות על נמלים ותשתיות ימיות, ופגיעות כטב\"מים בספינות מסחר"
+   },
+   {
+    "name": "חזית המזרח (דונבאס)",
+    "status": "חילופי אש והפגזות הדדיות, ברקע דיונים מדיניים על עתיד השליטה בחבל"
+   },
+   {
+    "name": "חזית זפוריז'יה",
+    "status": "תקיפות אוויריות ופגיעות במבני מגורים ובתשתיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11150705-01",
+    "title": "תקיפות רוסיות בצ'רנומורסק ועל אוניית משא בים",
+    "summary": "כוחות רוסיים תקפו את הנהלת הנמל ותחנת כוח משנית בצ'רנומורסק, וכן פגעו בספינת משא שהובילה ציוד צבאי ודו-שימושי לנמל אודסה.",
+    "axis": "חזית הדרום / הים השחור",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T06:47:01+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T06:47:01+00:00",
+    "last_update_at": "2026-11-15T06:47:01+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לדיווח על פגיעה באוניית המשא או באופי הציוד שהובילה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2218275",
+      "published_at": "2026-11-15T06:47:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צ'רנומורסק, אוקראינה",
+      "lat": 46.3242,
+      "lon": 30.6523
+     },
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11150705-02",
+    "title": "מתקפת כטב\"מים על טגנרוג ברוסיה",
+    "summary": "מתקפת כטב\"מים אוקראינית פגעה בשתי תחנות משנה של חשמל בעיר טגנרוג שבמחוז רוסטוב. כתוצאה מכך אדם אחד נהרג, ארבעה נפצעו, וקווי חשמל של הרכבת נותקו.",
+    "axis": "עומק רוסיה / מחוז רוסטוב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T01:55:00+00:00",
+    "last_update_at": "2026-11-15T06:03:15+00:00",
+    "what_is_not_verified": "פרטי הפגיעה והנפגעים נשענים על הודעות המושל המקומי וערוצי טלגרם ללא אימות עצמאי נוסף.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2218253",
+      "published_at": "2026-11-15T06:03:15+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/drone-attack-kills-1-injures-4-in-russias-rostov-oblast-governor-says/",
+      "published_at": "2026-11-15T05:55:31+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062911/",
+      "published_at": "2026-11-15T05:51:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49594",
+      "published_at": "2026-11-15T01:56:13+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062910/",
+      "published_at": "2026-11-15T01:55:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טגנרוג, רוסיה",
+      "lat": 47.2155,
+      "lon": 38.9284
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11150705-03",
+    "title": "פגיעת כטב\"ם במפעל פטרוכימי בניז'נקמסק בטטרסטן",
+    "summary": "מתקפת כטב\"מים גרמה לשרפה נרחבת במפעל הפטרוכימי ניז'נקמסקנפטכים בעיר ניז'נקמסק שברפובליקת טטרסטן.",
+    "axis": "עומק רוסיה / טטרסטן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T02:52:48+00:00",
+    "last_update_at": "2026-11-15T05:51:00+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק במפעל אינו מאומת ממקורות רשמיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_exilenova_supernova_falcon_insight_map_a",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062911/",
+      "published_at": "2026-11-15T05:51:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_exilenova_supernova_falcon_insight_map_a",
+      "url": "https://kyivindependent.com/fire-reported-at-industrial-facility-in-russias-tatarstan-amid-drone-attack/",
+      "published_at": "2026-11-15T03:23:36+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_exilenova_supernova_falcon_insight_map_a",
+      "url": "https://t.me/alexmehacarmel/49595",
+      "published_at": "2026-11-15T02:52:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניז'נקמסק, רוסיה",
+      "lat": 55.6413,
+      "lon": 51.816
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11150705-04",
+    "title": "תקיפות רוסיות על זפוריז'יה",
+    "summary": "הכוחות הרוסיים ביצעו שמונה תקיפות על העיר זפוריז'יה, גרמו לפציעתם של חמישה בני אדם ולשרפה בבניין מגורים.",
+    "axis": "חזית זפוריז'יה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T05:38:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T05:38:00+00:00",
+    "last_update_at": "2026-11-15T05:38:00+00:00",
+    "what_is_not_verified": "אין פירוט על סוג החימוש ששימש בתקיפה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_ukrinform",
+      "url": "https://www.ukrinform.net/rubric-ato/4184768-russians-strike-zaporizhzhia-eight-times-injuring-five-people-including-an-elderly-woman.html",
+      "published_at": "2026-11-15T05:38:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפוריז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11150705-05",
+    "title": "הערכת אבדות הצבא הרוסי לפי המטה הכללי האוקראיני",
+    "summary": "המטה הכללי של צבא אוקראינה דיווח כי רוסיה איבדה 2,230 חיילים ביממה האחרונה, וסך אבדותיה מאז תחילת הפלישה עומד על כ-1,622,860 חיילים.",
+    "axis": "חזית כוללת",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-15T04:40:00+00:00",
+    "last_update_at": "2026-11-15T06:17:00+00:00",
+    "what_is_not_verified": "נתוני הנפגעים מבוססים על צד אחד בלבד ואינם מאומתים על ידי צד שלישי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4184778-russian-army-loses-another-2230-soldiers-in-war-against-ukraine-over-past-day.html",
+      "published_at": "2026-11-15T06:17:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062912/",
+      "published_at": "2026-11-15T04:40:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11150705-06",
+    "title": "הצעת ארה\"ב לנסיגה מדונבאס תמורת הצטרפות לנאט\"ו",
+    "summary": "נשיא אוקראינה ולדימיר זלנסקי מסר כי גורמים אמריקנים העלו לראשונה את האפשרות שאוקראינה תיסוג מחלקי דונבאס שאינם בשליטת רוסיה בתמורה לחברות בנאט\"ו; זלנסקי דחה ויתור אך ציין כי יביא זאת למשאל עם תחת ערבויות ביטחוניות ומימון.",
+    "axis": "דיפלומטיה ומשא ומתן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T22:37:25+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T22:37:25+00:00",
+    "last_update_at": "2026-11-15T03:38:18+00:00",
+    "what_is_not_verified": "ממשלת ארה\"ב לא אישרה רשמית את פרטי ההצעה כפי שהוצגו על ידי זלנסקי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/15/ukraine-war-briefing-us-proposes-kyiv-cede-land-to-russia-for-nato-membership-zelenskyy-says",
+      "published_at": "2026-11-15T03:38:18+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-14T22:37:25+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11150705-07",
+    "title": "דיונים על ערוצי שיח בין אירופה לרוסיה",
+    "summary": "השליח קושנר מסר כי הממשל האמריקני מתמקד בקידום שיח ישיר בין מוסקבה לשותפים אירופיים, וכי רעיונות חדשים נבחנים כעת לקראת שיחות משולשות.",
+    "axis": "דיפלומטיה ומשא ומתן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T20:54:56+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T20:54:56+00:00",
+    "last_update_at": "2026-11-14T22:01:53+00:00",
+    "what_is_not_verified": "תוכן הרעיונות החדשים אינו מפורט בטקסט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2218233",
+      "published_at": "2026-11-14T22:01:53+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/us-now-focused-on-facilitating-direct-engagement-between-russia-europe-kushner-says-after-ukraine-peace-talks/",
+      "published_at": "2026-11-14T21:58:47+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2218231",
+      "published_at": "2026-11-14T20:54:56+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11150705-08",
+    "title": "שיחות להחלפת שבויים רחבת היקף בין אוקראינה לרוסיה",
+    "summary": "נציב זכויות האדם האוקראיני ונציבת זכויות האדם הרוסית דנו במנגנונים להחלפת שבויים בהיקף של לפחות 1,000 איש.",
+    "axis": "דיפלומטיה ומשא ומתן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T01:39:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-15T01:39:00+00:00",
+    "last_update_at": "2026-11-15T01:39:00+00:00",
+    "what_is_not_verified": "מועד ומיקום ביצוע ההחלפה לא נקבעו או פורסמו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4184745-lubinets-russian-ombudswoman-discuss-mechanism-for-largescale-prisoner-exchange.html",
+      "published_at": "2026-11-15T01:39:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11150705-09",
+    "title": "היערכות לפסגה משולשת בסין בשולי מפגש APEC",
+    "summary": "הקרמלין אישר כי מתקיימת היערכות לפסגה משולשת בין טראמפ, שי ופוטין בשנג'ן; מנהיגים אירופיים וזלנסקי הביעו חשש מוויתורים על חשבון אוקראינה, בעוד גורמים ציינו כי סוגיית אוקראינה אינה מתוכננת להיות נושא מרכזי בפסגה המשולשת.",
+    "axis": "דיפלומטיה בין-לאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T07:00:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T07:00:40+00:00",
+    "last_update_at": "2026-11-15T06:22:32+00:00",
+    "what_is_not_verified": "קיומה של פגישה דו-צדדית נפרדת בין טראמפ לפוטין טרם אושר רשמית.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/15/anthony-albanese-welcomes-trump-xi-putin-summit-even-as-european-leaders-express-reservations",
+      "published_at": "2026-11-15T06:22:32+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49582",
+      "published_at": "2026-11-14T16:34:29+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133635",
+      "published_at": "2026-11-14T16:29:04+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/14/yalta-trump-xi-putin-china-apec",
+      "published_at": "2026-11-14T07:00:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "שנג'ן, סין",
+      "lat": 22.5446,
+      "lon": 114.0545
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11150705-10",
+    "title": "שיחה בין שרי ההגנה של אוקראינה וקנדה על סיוע צבאי",
+    "summary": "שר ההגנה האוקראיני חמארה שוחח עם מקבילו הקנדי מקגינטי על מימון טילי PAC-3 עבור מערכות פטריוט ועל אספקת תחמושת 20 מ\"מ עבור מטוסי קרב מסוג F-16.",
+    "axis": "סיוע צבאי וקואליציית רמשטיין",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T18:42:00+00:00",
+    "last_update_at": "2026-11-14T18:42:00+00:00",
+    "what_is_not_verified": "לוחות הזמנים המדויקים למשלוח התחמושת לא פורטו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062893/",
+      "published_at": "2026-11-14T18:42:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11150705-11",
+    "title": "טענות אוקראינה להגבלות על מערכת סטארשילד",
+    "summary": "נשיא אוקראינה האשים את חברת SpaceX בהטלת הגבלות מהירות פוליטיות על מערכת הלוויינים סטארשילד, המגבילות כטב\"מים צבאיים למהירות מרבית של 161 קמ\"ש ופוגעות בפעילות לאורך החזית.",
+    "axis": "טכנולוגיה ולוחמה צבאית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T11:05:33+00:00",
+    "last_update_at": "2026-11-14T11:05:33+00:00",
+    "what_is_not_verified": "חברת SpaceX לא הגיבה רשמית לטענות בדבר המניע הפוליטי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/14/spacex-not-honest-slowing-starshield-elon-musk-volodymyr-zelenskyy",
+      "published_at": "2026-11-14T11:05:33+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11150705-12",
+    "title": "דיווח על פגיעה בספינות סוחר ליד חופי רומניה",
+    "summary": "שר ההגנה הרומני אישר כי שלוש ספינות מסחריות נפגעו מכטב\"מים סמוך לחופי הים השחור של רומניה במהלך יומיים, וכי נפתחה חקירה בנושא.",
+    "axis": "חזית הים השחור",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T00:19:21+00:00",
+    "last_update_at": "2026-11-15T00:19:21+00:00",
+    "what_is_not_verified": "זהות המשגרים של הכטב\"מים טרם נקבעה רשמית בחקירה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/three-commercial-ships-struck-by-drones-near-romanias-black-sea-coast-over-two-days/",
+      "published_at": "2026-11-15T00:19:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קונסטנצה, רומניה",
+      "lat": 44.1767,
+      "lon": 28.6508
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11150705-13",
+    "title": "הפגזות אוקראיניות על שטחי דונצק",
+    "summary": "מקורות רוסיים דיווחו כי כוחות אוקראיניים הפגיזו 32 פעמים יעדים באזור דונצק, תקיפות שהביאו למותו של אזרח אחד ולפציעת ארבעה.",
+    "axis": "חזית המזרח / דונבאס",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T23:27:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T23:27:40+00:00",
+    "last_update_at": "2026-11-14T23:27:40+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לנתוני ההפגזות והנפגעים שנמסרו על ידי הרשויות הפרו-רוסיות בדונצק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2218237",
+      "published_at": "2026-11-14T23:27:40+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענת אוקראינה למספר אבדות כוחות רוסיה העומד על יותר מ-1.6 מיליון חיילים.",
+   "הדיווח הרוסי על השמדת אוניית משא הנושאת אספקה צבאית בדרכה לאודסה.",
+   "ההצעה האמריקנית הנטענת לנסיגת אוקראינה מחלקי דונבאס בתמורה לחברות בנאט\"ו.",
+   "הטענה כי הגבלת מהירות התקשורת בסטארשילד נובעת ממניעים פוליטיים של חברת SpaceX.",
+   "הדיווח הבריטי על שדרוג טילי איסקנדר לטובת פגיעה מכוונת בגשרים בקייב."
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1052,
+    "unit": "USD",
+    "change_pct": -0.26,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "שלילת ויתורים טריטוריאליים ללא משאל עם וערבויות ביטחון מקיפות",
+     "השגת חברות מלאה בברית נאט\"ו ומימון שיקום המדינה",
+     "הרחבת הצי האווירי של מטוסי F-16 והסרת מגבלות טכנולוגיות על כטב\"מים"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות הכלכלה והתעשייה הביטחונית בעומק שטח רוסיה כדי להעלות את מחיר המלחמה",
+     "מניעת הגעה להסכמות דיפלומטיות בין מעצמות מעל ראשה של קייב"
+    ],
+    "forecast": [
+     "המשך הסתמכות על תקיפות ארוכות טווח באמצעות ייצור מקומי של כטב\"מים",
+     "התעקשות על כריכת כל הסדר מדיני בהתחייבויות ביטחוניות מערביות קשיחות"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "השגת הסכם כולל על ארכיטקטורת הביטחון באירופה לפני סיום הלחימה",
+     "פגיעה ביעדים צבאיים ובתשתיות אספקה המשרתות את צבא אוקראינה"
+    ],
+    "inferred": [
+     "ניתוק רשת החשמל והאנרגיה של אוקראינה לקראת החורף",
+     "ניצול מגעים רב-צדדיים עם ארה\"ב וסין לקיבוע שליטתה בשטחים שנכבשו"
+    ],
+    "forecast": [
+     "המשך לחץ צבאי באזור דונבאס לצד שיגור טילים לעבר תשתיות קריטיות באוקראינה",
+     "הפעלת מנופי לחץ מדיניים לפתיחת ערוץ הידברות ישיר מול מדינות אירופה"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "קידום מעורבות ישירה בין מוסקבה לשותפים באירופה וגיבוש רעיונות חדשים לפתרון הסכסוך",
+     "בחינת מנגנונים מעשיים למניעת עימותים עתידיים"
+    ],
+    "inferred": [
+     "בחינת פשרות טריטוריאליות כדי להביא לסיום מהיר של המלחמה",
+     "הפרדת סוגיית אוקראינה ממגעים אסטרטגיים רחבים יותר מול סין"
+    ],
+    "forecast": [
+     "הגברת הלחץ על קייב ועל בנות הברית האירופיות להגדיר קווים גמישים יותר למשא ומתן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-15T07:05:39+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/14/spacex-not-honest-slowing-starshield-elon-musk-volodymyr-zelenskyy",
+    "accessed_at": "2026-11-15T07:05:39+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/three-commercial-ships-struck-by-drones-near-romanias-black-sea-coast-over-two-days/",
+    "accessed_at": "2026-11-15T07:05:39+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062893/",
+    "accessed_at": "2026-11-15T07:05:39+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2218237",
+    "accessed_at": "2026-11-15T07:05:39+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133635",
+    "accessed_at": "2026-11-15T07:05:39+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49582",
+    "accessed_at": "2026-11-15T07:05:39+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4184745-lubinets-russian-ombudswoman-discuss-mechanism-for-largescale-prisoner-exchange.html",
+    "accessed_at": "2026-11-15T07:05:39+00:00"
+   }
+  ]
+ }
+}
