@@ -389,185 +389,439 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-11-15T0040__iran-202611150040.json",
+  "draft": "drafts/iran/2026-11-15T1722__iran-202611151722.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-11-15T00:40:22+00:00",
+   "generated_at": "2026-11-15T17:22:41+00:00",
    "window": {
-    "from": "2026-11-14T00:40:22+00:00",
-    "to": "2026-11-15T00:40:22+00:00"
+    "from": "2026-11-14T17:22:41+00:00",
+    "to": "2026-11-15T17:22:41+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "iran-202611150040"
+    "run_id": "iran-202611151722"
    },
-   "summary": "המתיחות בין איראן לבין ארה\"ב וישראל מתעצמת במוקדים ימיים וסביב סוגיית הגרעין. במצר הורמוז נפגעו מיכליות נפט ואיראן הודיעה על יירוט כטב\"ם אמריקני, לצד איומים איראניים בפגיעה בבסיסי ארה\"ב. במקביל, בישראל נערכים לפעולה אפשרית מול התחדשות תוכנית הגרעין האיראנית על רקע היעדר פיקוח בינלאומי, בעוד בארה\"ב מתלבטים האם לתקוף או לפנות לנתיב דיפלומטי בפסגות בינלאומיות.",
+   "summary": "העימות בין איראן לבין ארה\"ב וישראל מתרחב לתקיפות ישירות במפרץ, לצד איומים על חופש השיט והאצת תוכנית הגרעין. טהראן שיגרה כטב\"מים לעבר בסיס אמריקאי בבחריין והפעילה מיקוש ימי במצר הורמוז, בעוד שלוחיה החות'ים מגבירים את הלחץ בים סוף ובסעודיה. במקביל, ישראל מגבירה את התיאום המודיעיני עם הממשל האמריקאי ונערכת להסלמה רב-זירתית נוכח התקדמות הפעילות הגרעינית האיראנית.",
    "fronts": [
     {
-     "name": "מצר הורמוז והמפרץ הפרסי",
-     "status": "הסלמה ימית הכוללת פגיעה במיכליות נפט, איומי מוקשים ויירוט כטב\"ם אמריקני"
+     "name": "מפרץ בחריין",
+     "status": "חידוש תקיפות כטב\"מים איראניות לעבר מתקנים אמריקאיים ויירוטים של צבא בחריין"
     },
     {
-     "name": "חזית הגרעין האיראני",
-     "status": "חשש מאיבוד פיקוח סבא\"א על מתקן העשרה באיספהאן והיערכות ישראלית לפעולה"
+     "name": "מצר הורמוז",
+     "status": "חסימה ואכיפה איראנית אלימה הכוללת פיצוץ מכליות באמצעות מוקשים ימיים"
     },
     {
-     "name": "החזית המדינית והמודיעינית מול ארה\"ב",
-     "status": "התרעות על כוונות פגיעה בבכירים אמריקנים וחילוקי דעות פוליטיים בוושינגטון סביב המשך הלחימה"
+     "name": "הזירה התימנית והים האדום",
+     "status": "התקדמות החות'ים באזור באב אל-מנדב וירי רקטי וכטב\"מים לעבר יעדים בסעודיה"
     },
     {
-     "name": "חזית מדינות המפרץ",
-     "status": "דרישה רשמית לפיצויים כספיים מאיראן על אלפי שיגורי טילים וכטב\"מים"
+     "name": "הציר המודיעיני-מדיני (ישראל-ארה\"ב-איראן)",
+     "status": "היערכות ביטחונית ותיאום מודיעיני מול האצת תוכניות הגרעין והטילים בטהראן"
     }
    ],
    "events": [
     {
-     "id": "IRAN-11150040-01",
-     "title": "פגיעה במיכליות נפט במצר הורמוז",
-     "summary": "חיל הים של משמרות המהפכה טוען כי מספר מיכליות נפט נפגעו ממוקשים ימיים ועלו באש במצר הורמוז עקב שייט בנתיבים אסורים.",
-     "axis": "מצר הורמוז",
+     "id": "IRAN-11151722-01",
+     "title": "מתקפת כטב\"מים איראנית לעבר מתקן מכ\"ם ובסיס אמריקאי בבחריין ויירוטם",
+     "summary": "משמרות המהפכה האיראניים שיגרו כטב\"מים לעבר מתקן מכ\"ם של ההגנה האווירית האמריקאית בבסיס בבחריין. מערכות ההגנה של בחריין יירטו את כלי הטיס, ומדינות באזור כדוגמת סעודיה, מצרים, ירדן וקטר גינו את המתקפה.",
+     "axis": "איראן מול ארה\"ב ומדינות המפרץ",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-14T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-14T12:27:12+00:00",
-     "last_update_at": "2026-11-14T23:46:29+00:00",
-     "what_is_not_verified": "האם מדובר במוקשים ימיים כפי שטוענת איראן או בתקיפות ישירות ומבצע תודעה, ומספרן המדויק של המיכליות שנפגעו",
+     "occurred_at": "2026-11-15T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-15T08:11:35+00:00",
+     "last_update_at": "2026-11-15T16:46:30+00:00",
+     "what_is_not_verified": "מידת הפגיעה המדויקת במכ\"ם והנזק שנגרם בשטח לא אומתו באופן עצמאי מעבר לטענות הצדדים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/irans-navy-says-three-tankers-fire-after-hitting-mines-hormuz",
-       "published_at": "2026-11-14T23:46:29+00:00"
+       "url": "https://www.al-monitor.com/originals/2026/11/anti-houthi-forces-retreat-yemen-iran-strikes-bahrain",
+       "published_at": "2026-11-15T16:46:30+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+       "published_at": "2026-11-15T15:59:04+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
+       "published_at": "2026-11-15T15:29:22+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
+       "published_at": "2026-11-15T13:55:32+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133679",
+       "published_at": "2026-11-15T13:40:04+00:00"
+      },
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/2026/11/15/bahrain-accuses-iran-of-attacking-its-territory-to-settle-score-with-us?traffic_source=rss",
+       "published_at": "2026-11-15T12:36:19+00:00"
+      },
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/iran-targets-us-military-radar-in-bahrain-in-retaliatory-drone-strikes?traffic_source=rss",
+       "published_at": "2026-11-15T12:15:51+00:00"
       },
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-says-two-oil-tankers-hit-mines-strait-hormuz",
-       "published_at": "2026-11-14T22:20:55+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-joins-condemnation-iranian-attacks-bahrain",
+       "published_at": "2026-11-15T11:46:46+00:00"
       },
       {
-       "source_id": "src_maariv",
+       "source_id": "src_france24",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.maariv.co.il/breaking-news/article-1388393",
-       "published_at": "2026-11-14T22:00:53+00:00"
+       "url": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain",
+       "published_at": "2026-11-15T09:57:35+00:00"
       },
       {
-       "source_id": "src_ynet",
+       "source_id": "src_walla",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/hktw00kl0zl",
-       "published_at": "2026-11-14T16:13:25+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-tanker-fire-strait-hormuz-iran-navy",
-       "published_at": "2026-11-14T12:27:12+00:00"
+       "url": "https://www.walla.co.il/news/military/383961449",
+       "published_at": "2026-11-15T08:11:35+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "מנאמה, בחריין",
+       "lat": 26.2235,
+       "lon": 50.5822
+      },
+      {
+       "name": "א-רפאע, בחריין",
+       "lat": 26.1315,
+       "lon": 50.5503
+      }
+     ]
     },
     {
-     "id": "IRAN-11150040-02",
-     "title": "יירוט כלי טיס בלתי מאויש אמריקני מעל האי קשם",
-     "summary": "משמרות המהפכה באיראן הודיעו כי יירטו והפילו כטב\"ם אמריקני מסוג פרדטור מעל האי קשם באמצעות מערכת הגנה אווירית מתקדמת.",
-     "axis": "איראן-ארה\"ב",
+     "id": "IRAN-11151722-02",
+     "title": "פיצוץ וטביעת מכליות נפט ממוקשים ימיים במצר הורמוז",
+     "summary": "הצי ומשמרות המהפכה של איראן טענו כי מכליות נפט עלו באש וטבעו לאחר שפגעו במוקשים ימיים בעת שניסו לחצות נתיב אסור בדרום מצר הורמוז, והזהירו כלי שיט נוספים שלא להפר את ההנחיות.",
+     "axis": "חופש השיט ומצר הורמוז",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-14T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-14T12:33:51+00:00",
-     "last_update_at": "2026-11-14T12:33:51+00:00",
-     "what_is_not_verified": "אין אימות או אישור רשמי מצד צבא ארה\"ב על הפלת הכטב\"ם",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-14T23:46:29+00:00",
+     "last_update_at": "2026-11-15T15:30:14+00:00",
+     "what_is_not_verified": "זהות המכליות שטבעו או ניזוקו ומספרן המדויק (שתיים או שלוש) לא אומתו באופן בלתי תלוי.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-said-it-intercepted-us-mq-1-predator-drone-over-qeshm-island",
-       "published_at": "2026-11-14T12:33:51+00:00"
-      }
-     ],
-     "places": [
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-oil-tankers-ablaze-after-striking-naval-mines-strait-hormuz",
+       "published_at": "2026-11-15T15:30:14+00:00"
+      },
       {
-       "name": "האי קשם, איראן",
-       "lat": 26.7687,
-       "lon": 55.8477
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11150040-03",
-     "title": "העברת מודיעין ישראלי לארה\"ב על כוונות פגיעה בבכירי הבית הלבן",
-     "summary": "המוסד העביר לסוכנות הביון המרכזית בארה\"ב מידע מודיעיני אודות תוכנית איראנית לפגוע בנשיא טראמפ ובבכירי ממשלו, מה שהוביל להגברת אבטחה סביבם.",
-     "axis": "ישראל-איראן-ארה\"ב",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-14T18:03:33+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-14T18:03:33+00:00",
-     "last_update_at": "2026-11-14T18:03:33+00:00",
-     "what_is_not_verified": "דיווח המבוסס על גורמים בכירים ללא הצגת מסמכים או אישור פומבי רשמי",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_israelhayom",
+       "source_id": "src_ynet",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/geopolitics/article/21850141",
-       "published_at": "2026-11-14T18:03:33+00:00"
+       "url": "https://www.ynet.co.il/news/article/rkpkuvwrzg",
+       "published_at": "2026-11-15T13:58:32+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/irans-navy-says-three-tankers-fire-after-hitting-mines-hormuz",
+       "published_at": "2026-11-14T23:46:29+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-11150040-04",
-     "title": "חשש סבא\"א ממתקן העשרה איראני באיספהאן",
-     "summary": "סבא\"א מביעה דאגה בדו\"ח חשאי בנוגע למתקן העשרה באיספהאן שמיקומו המדויק ומצבו אינם ידועים לה, ואינה יכולה לקבוע שלא הוסט ממנו חומר גרעיני.",
-     "axis": "גרעין איראני",
-     "claim_type": "assessment",
+     "id": "IRAN-11151722-03",
+     "title": "הסלמה מול החות'ים בתימן ונסיגת כוחות הנתמכים בידי סעודיה",
+     "summary": "כוחות ממשלת תימן הנתמכים בידי סעודיה נסוגו מאזור מצר באב אל-מנדב לכיוון עדן, בעוד הקואליציה בראשות סעודיה יירטה שני טילים בליסטיים וכטב\"מים ששיגרו החות'ים לעבר ריאד והמחוז המזרחי.",
+     "axis": "תימן והמפרץ",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-14T16:13:25+00:00",
+     "occurred_at": "2026-11-15T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-14T16:13:25+00:00",
-     "last_update_at": "2026-11-14T17:12:55+00:00",
-     "what_is_not_verified": "מיקומו המדויק ומצבו של המתקן ומצב האורניום המועשר שבו",
+     "first_reported_at": "2026-11-15T03:46:26+00:00",
+     "last_update_at": "2026-11-15T16:46:30+00:00",
+     "what_is_not_verified": "היקף הנזק המלא והשליטה המוחלטת בנתיבי השיט בים סוף לא אומתו.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_israelhayom",
+       "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21850341",
-       "published_at": "2026-11-14T17:12:55+00:00"
+       "url": "https://www.al-monitor.com/originals/2026/11/anti-houthi-forces-retreat-yemen-iran-strikes-bahrain",
+       "published_at": "2026-11-15T16:46:30+00:00"
       },
       {
-       "source_id": "src_ynet",
+       "source_id": "src_almonitor",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/hktw00kl0zl",
-       "published_at": "2026-11-14T16:13:25+00:00"
+       "url": "https://www.al-monitor.com/originals/2026/11/yemeni-government-force-retreats-strait-major-setback-war-against-houthis",
+       "published_at": "2026-11-15T08:46:28+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province",
+       "published_at": "2026-11-15T03:46:26+00:00"
       }
      ],
      "places": [
       {
-       "name": "איספהאן, איראן",
-       "lat": 32.6708,
-       "lon": 51.665
+       "name": "מצר באב אל-מנדב, תימן",
+       "lat": 12.6671,
+       "lon": 43.4565
+      },
+      {
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
+      },
+      {
+       "name": "עדן, תימן",
+       "lat": 12.7896,
+       "lon": 45.0285
       }
      ]
     },
     {
-     "id": "IRAN-11150040-05",
-     "title": "איום טלוויזיוני באיראן בטיל מותאם נגד בסיסים באירופה",
-     "summary": "הטלוויזיה הממלכתית של איראן שידרה אזהרה לפיה גרסאות מותאמות של הטיל ח'רמשהר יוכלו לפגוע בבסיסים צבאיים של ארה\"ב באירופה, וציינה במפורש בסיס בבריטניה.",
-     "axis": "איראן-ארה\"ב",
+     "id": "IRAN-11151722-04",
+     "title": "שיחות של ראש המוסד בארה\"ב ועדכון הקבינט בישראל בנושא איראן",
+     "summary": "ראש המוסד שב מביקור בארצות הברית שבו שיתף מידע מודיעיני עם בכירים אמריקאים וראש הסי-אי-איי, והגיע לתדרך את שרי הקבינט המדיני-ביטחוני ואת ראש הממשלה בנוגע לאיראן.",
+     "axis": "תיאום ישראל-ארה\"ב מול איראן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-15T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-15T15:55:01+00:00",
+     "last_update_at": "2026-11-15T16:24:02+00:00",
+     "what_is_not_verified": "תוכן המידע המודיעיני שהועבר ופרטי הדיונים הסגורים אינם מפורטים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_maariv",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.maariv.co.il/breaking-news/article-1388736",
+       "published_at": "2026-11-15T16:24:02+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/geopolitics/article/21857285",
+       "published_at": "2026-11-15T16:16:43+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/sy9qslprfg",
+       "published_at": "2026-11-15T15:55:01+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11151722-05",
+     "title": "התרעת ראש ממשלת ישראל מפני חידוש תוכנית הגרעין האיראנית",
+     "summary": "ראש הממשלה נתניהו הצהיר כי איראן פועלת לחדש את תוכנית הגרעין שלה, העשרת האורניום ופיתוח הנשק, וקרא להקמת ממשלת אחדות לאומית כדי להסיר איום קיומי זה.",
+     "axis": "הגרעין האיראני",
      "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-11-14T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-14T19:04:34+00:00",
+     "first_reported_at": "2026-11-14T17:45:01+00:00",
+     "last_update_at": "2026-11-14T18:27:05+00:00",
+     "what_is_not_verified": "הסטטוס המדויק של חידוש העשרת האורניום המואצת באיראן לא אומת מעבר להצהרה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49585",
+       "published_at": "2026-11-14T18:27:05+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133641",
+       "published_at": "2026-11-14T17:45:01+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11151722-06",
+     "title": "איראן מפתחת מערכת היתוך גרעיני ראשונה מייצור מקומי",
+     "summary": "ראש הארגון לאנרגיה אטומית של איראן הודיע כי המדינה נערכת להפעיל מערכת היתוך גרעיני ראשונה שפותחה כולה באופן מקומי.",
+     "axis": "הגרעין האיראני",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-15T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-15T15:38:50+00:00",
+     "last_update_at": "2026-11-15T15:38:50+00:00",
+     "what_is_not_verified": "היכולת המבצעית והטכנולוגית הממשית של מערכת ההיתוך המוצהרת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://en.irna.ir/news/86322711/Iran-to-launch-first-fully-indigenous-nuclear-fusion-system",
+       "published_at": "2026-11-15T15:38:50+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "טהראן, איראן",
+       "lat": 35.6893,
+       "lon": 51.3896
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11151722-07",
+     "title": "הערכות מודיעין אמריקאיות על מלאי הטילים של איראן",
+     "summary": "הערכות מודיעין בארצות הברית מצביעות על כך שאיראן מחזיקה כ-2,500 טילים וממשיכה לשקם את מחסניה באמצעות רכיבים שנאגרו מראש, למרות פגיעות קודמות במתקני ייצור.",
+     "axis": "מערך הטילים של איראן",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-15T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-15T08:32:48+00:00",
+     "last_update_at": "2026-11-15T08:32:48+00:00",
+     "what_is_not_verified": "המספר המדויק של הטילים התקינים ויכולת הייצור בפועל לא אומתו.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/lelotsenzura/95034",
+       "published_at": "2026-11-15T08:32:48+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11151722-08",
+     "title": "האשמת איראן את ישראל בניסיון יצירת 'דגל כוזב' בסייבר מול צרפת",
+     "summary": "דובר משמרות המהפכה דחה טענות של צרפת על תקיפת סייבר איראנית נגד מערכות קירור במרכולים, וטען כי מדובר במבצע 'דגל כוזב' ישראלי שנועד להסית מדינות באירופה נגד טהראן.",
+     "axis": "סייבר ולוחמה חשאית",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-14T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-15T11:50:59+00:00",
+     "last_update_at": "2026-11-15T11:50:59+00:00",
+     "what_is_not_verified": "זהות מבצעי מתקפת הסייבר על המרכולים בצרפת לא אומתה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-blames-israel-cyber-attack-supermarket-fridges",
+       "published_at": "2026-11-15T11:50:59+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "פריז, צרפת",
+       "lat": 48.8535,
+       "lon": 2.3484
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11151722-09",
+     "title": "פרסום על חטיפת וחיסול קצינים איראנים בידי המוסד בעבר",
+     "summary": "תחקיר עיתונאי חשף כי ישראל חטפה בעבר שני גנרלים איראנים בטורקיה ובסוריה לצורך חקירה בניסיון לאתר מידע על רון ארד, כאשר אחד מהם חוסל וגופתו הושלכה לים והשני שוחרר בדרום אפריקה.",
+     "axis": "מבצעים חשאיים ישראל-איראן",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-15T11:45:24+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-15T11:45:24+00:00",
+     "last_update_at": "2026-11-15T12:03:05+00:00",
+     "what_is_not_verified": "פרטי המבצעים ההיסטוריים, מקום מותם או נסיבות שחרורם מבוססים על הדלפות ומקורות עבר ולא על הודעה ישראלית רשמית.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49598",
+       "published_at": "2026-11-15T12:03:05+00:00"
+      },
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/lelotsenzura/95037",
+       "published_at": "2026-11-15T12:01:33+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21855116",
+       "published_at": "2026-11-15T11:45:24+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "איסטנבול, טורקיה",
+       "lat": 41.0064,
+       "lon": 28.9759
+      },
+      {
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11151722-10",
+     "title": "תרגול היערכות צה\"ל לתרחישי הסלמה ושיבוש קשר מול איראן ושלוחותיה",
+     "summary": "אגף התקשוב בצה\"ל ביצע תרגיל בפיקוד הצפון ובפיקוד הדרום המדמה אובדן קשר ושיבוש מערכות במסגרת היערכות להסלמה מול איראן והצטרפות שלוחותיה לתקיפת העורף הישראלי.",
+     "axis": "היערכות צבאית ישראלית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-15T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-15T07:07:25+00:00",
+     "last_update_at": "2026-11-15T07:07:25+00:00",
+     "what_is_not_verified": "מועד התממשות תרחישי ההסלמה וההיקף של מעורבות השלוחות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_walla",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.walla.co.il/news/military/383961437",
+       "published_at": "2026-11-15T07:07:25+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11151722-11",
+     "title": "טענה איראנית לשינוי ראש קרב בטיל ח'ורמשהר לטווח בסיסים אמריקאיים באירופה",
+     "summary": "הטלוויזיה הממלכתית באיראן דיווחה כי שינוי משקלו של ראש הקרב בטיל הבליסטי ח'ורמשהר יאפשר לפגוע בבסיסים של צבא ארצות הברית המוצבים באירופה.",
+     "axis": "מערך הטילים של איראן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-14T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-14T19:46:06+00:00",
      "last_update_at": "2026-11-14T19:46:06+00:00",
-     "what_is_not_verified": "היכולת המבצעית בפועל של הטיל המותאם להגיע ליעדים אלה",
+     "what_is_not_verified": "ההיתכנות הטכנולוגית המבצעית והטווח האמיתי של הטיל לאחר שינוי המשקל.",
      "is_new_in_window": true,
      "reports": [
       {
@@ -575,104 +829,41 @@ window.DB.war_published = {
        "source_root_id": "or_unknown_origin",
        "url": "https://t.me/abualiexpress/133648",
        "published_at": "2026-11-14T19:46:06+00:00"
-      },
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202611141458",
-       "published_at": "2026-11-14T19:04:34+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "רפא\"ף פיירפורד, בריטניה",
-       "lat": 51.6851,
-       "lon": -1.7865
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11150040-06",
-     "title": "דרישת מדינות המפרץ לפיצויים מאיראן במועצת הביטחון",
-     "summary": "מועצת שיתוף הפעולה של מדינות המפרץ פנתה למועצת הביטחון בדרישה לחייב את איראן לשלם פיצויים על נזקי אלפי טילים וכטב\"מים ששוגרו מאז פברואר, ולהכלילן בכל מו\"מ.",
-     "axis": "איראן-מדינות המפרץ",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-14T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-14T14:34:56+00:00",
-     "last_update_at": "2026-11-14T14:34:56+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49577",
-       "published_at": "2026-11-14T14:34:56+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-11150040-07",
-     "title": "הכחשת משמרות המהפכה לתקיפות סייבר בצרפת והאשמת ישראל",
-     "summary": "דובר משמרות המהפכה דחה את האשמות צרפת לגבי חבלה במערכות קירור במרכולים, וטען כי מדובר בפרובוקציה ישראלית שנועדה להשחיר את איראן באירופה.",
-     "axis": "איראן-אירופה-ישראל",
+     "id": "IRAN-11151722-12",
+     "title": "ביקורת רוסית על הלחץ המערבי בסבא\"א סביב הגרעין האיראני",
+     "summary": "רוסיה מתחה ביקורת על מדינות המערב וטענה כי הן מנצלות את מנגנוני הפיקוח של הסוכנות הבינלאומית לאנרגיה אטומית להפעלת לחץ פוליטי על טהראן, דבר הפוגע בניטרליות הסוכנות.",
+     "axis": "המישור המדיני-בינלאומי",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-14T00:00:00+00:00",
+     "occurred_at": "2026-11-15T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-14T20:08:15+00:00",
-     "last_update_at": "2026-11-14T20:39:02+00:00",
-     "what_is_not_verified": "זהות מבצעי מתקפת הסייבר בצרפת",
+     "first_reported_at": "2026-11-15T16:42:26+00:00",
+     "last_update_at": "2026-11-15T16:42:26+00:00",
+     "what_is_not_verified": "ההשפעה הממשית של עמדת רוסיה על דיוני מועצת הנגידים של סבא\"א.",
      "is_new_in_window": true,
      "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "fh_fcb05e069e954cce",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-denies-role-french-supermarket-cyberattacks",
-       "published_at": "2026-11-14T20:39:02+00:00"
-      },
       {
        "source_id": "src_irna",
-       "source_root_id": "fh_fcb05e069e954cce",
-       "url": "https://en.irna.ir/news/86321812/General-Mohebbi-Rdiculous-claim-of-attack-on-cooling-systems",
-       "published_at": "2026-11-14T20:08:15+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11150040-08",
-     "title": "הדחת מפקדי ספינות מלחמה של צבא ארה\"ב בזירת איראן",
-     "summary": "הצי האמריקני הדיח מפקדים בכירים, בהם מפקדת משחתת שפעלה לתמיכה במבצעים מול איראן ומפקדי צוללת תקיפה גרעינית, בעילה של אובדן אמון ותאונות.",
-     "axis": "איראן-ארה\"ב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-14T16:34:57+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-14T16:34:57+00:00",
-     "last_update_at": "2026-11-14T16:34:57+00:00",
-     "what_is_not_verified": "הקשר הישיר המלא בין ההדחות לבין הפעילות המבצעית מול איראן",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/news/loss-confidence-us-navy-fires-commanders-warships-deployed-against-iran",
-       "published_at": "2026-11-14T16:34:57+00:00"
+       "url": "https://en.irna.ir/news/86322767/Russia-says-Western-pressure-on-Iran-undermines-IAEA-impartiality",
+       "published_at": "2026-11-15T16:42:26+00:00"
       }
      ],
      "places": []
     }
    ],
    "not_verified": [
-    "מספר המיכליות המדויק שנפגעו במצר הורמוז והאם מדובר במוקשים ימיים או בפגיעות ישירות",
-    "טענת איראן בדבר יירוט מוצלח של כטב\"ם אמריקני מעל האי קשם",
-    "מיקומו המדויק ומצבו של מתקן העשרת האורניום האיראני באיספהאן",
-    "מידת המוכנות של טילי ח'רמשהר לפגוע בבסיסים באירופה ובבריטניה",
-    "כוונות ממשיות ומעשיות של איראן להתנקש בנשיא טראמפ ובבכירי ממשלו"
+    "מספר מכליות הנפט שטבעו או נפגעו בפועל במצר הורמוז וזהותן",
+    "מידת הפגיעה הממשית במתקן המכ\"ם האמריקאי בבסיס בבחריין",
+    "רמת ההתקדמות המבצעית של פרויקט ההיתוך הגרעיני המוצהר באיראן",
+    "מספר הטילים המבצעיים המדויק שנותר בידי איראן וקצב הייצור הנוכחי",
+    "מעורבות איראנית ישירה במתקפת הסייבר על מערכות קירור בצרפת",
+    "ההערכות והפרטים המודיעיניים ההיסטוריים שנחשפו לגבי נסיבות מותם או היעלמותם של רון ארד והקצינים האיראנים"
    ],
    "map": {
     "confidence": "medium",
@@ -694,130 +885,172 @@ window.DB.war_published = {
     {
      "actor": "איראן",
      "declared": [
-      "הרתעת כלי שיט ממעבר בנתיבים לא מורשים במצר הורמוז",
-      "יירוט כלי טיס זרים החודרים לתחומה ומניעת משימות סיור",
-      "הכחשת מעורבות בחבלות סייבר באירופה וייחוסן לישראל"
+      "תקיפת יעדים של מדינות המשתפות פעולה צבאית עם ארה\"ב כמענה לגיטימי",
+      "אכיפת איסור מעבר בנתיבים מוגדרים במצר הורמוז",
+      "פיתוח יכולות טכנולוגיות גרעיניות עצמאיות"
      ],
      "inferred": [
-      "הפעלת לחץ כלכלי עולמי באמצעות פגיעה בחופש השיט במצר הורמוז",
-      "קידום תוכנית הגרעין והרחקת פיקוח בינלאומי תוך יצירת מרחב עמימות"
+      "הפעלת לחץ צבאי וכלכלי ישיר על וושינגטון ובעלות בריתה במפרץ באמצעות שיבוש נתיבי סחר",
+      "הרחבת טווח האיום הטילאי כדי להרתיע את המערב מפעולה ישירה"
      ],
      "forecast": [
-      "המשך הגבלות ופגיעות ממוקדות בשיט במצר הורמוז להעלאת מחירי האנרגיה",
-      "האצת השיח הפנימי והמעשי לקראת פריצת דרך בתוכנית הגרעין"
+      "המשך תקיפות ממוקדות באמצעות כטב\"מים ושמירה על הגבלות השיט במצר הורמוז",
+      "המשך קידום אלמנטים בתוכנית הגרעין ושיקום מערכי הטילים"
      ]
     },
     {
      "actor": "ישראל",
      "declared": [
-      "מניעה מוחלטת מאיראן להגיע לנשק גרעיני",
-      "הסרת האיום הקיומי הנשקף מחידוש פרויקט הגרעין"
+      "סיכול תוכנית הגרעין האיראנית ומניעת השגת נשק להשמדה המונית",
+      "הקמת ממשלת אחדות לאומית לצורך התמודדות עם האיומים הביטחוניים"
      ],
      "inferred": [
-      "הכשרת הקרקע המדינית והצבאית לתקיפה עצמאית באיראן ללא תלות בארה\"ב",
-      "הפעלת לחץ מודיעיני ופוליטי על הממשל האמריקני שלא להגיע להסדר עם טהרן"
+      "חיזוק התיאום המבצעי והמודיעיני עם ארצות הברית לקראת אפשרות של פעולה צבאית",
+      "הכנת המערכות הצבאיות והתקשוביות לתרחיש של מלחמה אזורית בכמה חזיתות"
      ],
      "forecast": [
-      "המשך עדכון בנק המטרות והגברת הכוננות לפעולה צבאית באיראן",
-      "העמקת התיאום המודיעיני עם בעלות ברית מערביות נגד כוונות תקיפה איראניות"
+      "הגברת שיתוף המודיעין עם גורמי ביטחון אמריקאיים",
+      "המשך אימונים ותרגולים של כוחות צה\"ל לתרחישי הסלמה ישירים"
      ]
     },
     {
-     "actor": "ארצות הברית",
+     "actor": "ארצות הברית ומדינות המפרץ",
      "declared": [
-      "תגבור מערכות הגנה לישראל והגנה על כוחות אמריקניים במרחב",
-      "בחינת אפשרות להימנע מתקיפות באיראן אם לא יהיו פרובוקציות חדשות"
+      "גינוי תקיפות איראן כהפרה של החוק הבינלאומי ועקרונות השכנות הטובה",
+      "הפעלת מערכות הגנה אוויריות להגנה על המרחב הריבוני והבסיסים"
      ],
      "inferred": [
-      "ניסיון להכיל את העימות מול איראן כדי להתמקד בפסגות בינלאומיות וביחסים מול סין ורוסיה",
-      "מאבק פוליטי פנימי בין חתירה לסיום המלחמה לבין הפעלת לחץ מקסימלי"
+      "שמירה על נוכחות צבאית במפרץ תוך ניסיון למנוע פגיעה בתשתיות אסטרטגיות ובנתיבי אנרגיה",
+      "בלימת ההתפשטות של השלוחות האיראניות בתימן ובאזור באב אל-מנדב"
      ],
      "forecast": [
-      "המשך הימנעות מתקיפה יזומה רחבה באיראן כל עוד לא ייחצו קווים אדומים ישירים",
-      "העלאת סוגיית איראן והפיקוח על הגרעין במסגרת מגעים דיפלומטיים מול המעצמות"
+      "חיזוק מערכי ההגנה האווירית בבחריין ובסעודיה",
+      "המשך יירוט איומים בליסטיים וכטב\"מים בתימן ובמפרץ"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/11/irans-navy-says-three-tankers-fire-after-hitting-mines-hormuz",
-     "accessed_at": "2026-11-15T00:40:22+00:00"
+     "source_id": "src_aljazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/iran-targets-us-military-radar-in-bahrain-in-retaliatory-drone-strikes?traffic_source=rss",
+     "accessed_at": "2026-11-15T17:22:41+00:00"
     },
     {
-     "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202611141458",
-     "accessed_at": "2026-11-15T00:40:22+00:00"
+     "source_id": "src_almonitor",
+     "url": "https://www.al-monitor.com/originals/2026/11/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province",
+     "accessed_at": "2026-11-15T17:22:41+00:00"
+    },
+    {
+     "source_id": "src_france24",
+     "url": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain",
+     "accessed_at": "2026-11-15T17:22:41+00:00"
+    },
+    {
+     "source_id": "src_guardian",
+     "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+     "accessed_at": "2026-11-15T17:22:41+00:00"
     },
     {
      "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86321812/General-Mohebbi-Rdiculous-claim-of-attack-on-cooling-systems",
-     "accessed_at": "2026-11-15T00:40:22+00:00"
+     "url": "https://en.irna.ir/news/86322767/Russia-says-Western-pressure-on-Iran-undermines-IAEA-impartiality",
+     "accessed_at": "2026-11-15T17:22:41+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21850341",
-     "accessed_at": "2026-11-15T00:40:22+00:00"
+     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21855116",
+     "accessed_at": "2026-11-15T17:22:41+00:00"
     },
     {
      "source_id": "src_maariv",
-     "url": "https://www.maariv.co.il/breaking-news/article-1388393",
-     "accessed_at": "2026-11-15T00:40:22+00:00"
+     "url": "https://www.maariv.co.il/breaking-news/article-1388736",
+     "accessed_at": "2026-11-15T17:22:41+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/news/loss-confidence-us-navy-fires-commanders-warships-deployed-against-iran",
-     "accessed_at": "2026-11-15T00:40:22+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-blames-israel-cyber-attack-supermarket-fridges",
+     "accessed_at": "2026-11-15T17:22:41+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
      "url": "https://t.me/abualiexpress/133648",
-     "accessed_at": "2026-11-15T00:40:22+00:00"
+     "accessed_at": "2026-11-15T17:22:41+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49577",
-     "accessed_at": "2026-11-15T00:40:22+00:00"
+     "url": "https://t.me/alexmehacarmel/49598",
+     "accessed_at": "2026-11-15T17:22:41+00:00"
+    },
+    {
+     "source_id": "src_tg_lelotsenzura",
+     "url": "https://t.me/lelotsenzura/95037",
+     "accessed_at": "2026-11-15T17:22:41+00:00"
+    },
+    {
+     "source_id": "src_walla",
+     "url": "https://www.walla.co.il/news/military/383961437",
+     "accessed_at": "2026-11-15T17:22:41+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/hktw00kl0zl",
-     "accessed_at": "2026-11-15T00:40:22+00:00"
+     "url": "https://www.ynet.co.il/news/article/sy9qslprfg",
+     "accessed_at": "2026-11-15T17:22:41+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-14T06:56:57+00:00",
+  "previous_generated_at": "2026-11-15T00:40:22+00:00",
   "changes": {
-   "IRAN-11150040-01": {
+   "IRAN-11151722-01": {
+    "kind": "new"
+   },
+   "IRAN-11151722-02": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "פגיעת מוקשים במכליות נפט במצר הורמוז",
+    "prev": "פגיעה במיכליות נפט במצר הורמוז",
+    "score": 1.0
+   },
+   "IRAN-11151722-03": {
+    "kind": "new"
+   },
+   "IRAN-11151722-04": {
+    "kind": "possible",
+    "prev": "הדחת מפקדי ספינות מלחמה של צבא ארה\"ב בזירת איראן",
+    "score": 0.467
+   },
+   "IRAN-11151722-05": {
+    "kind": "new"
+   },
+   "IRAN-11151722-06": {
+    "kind": "new"
+   },
+   "IRAN-11151722-07": {
+    "kind": "new"
+   },
+   "IRAN-11151722-08": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "initial",
+    "prev": "הכחשת משמרות המהפכה לתקיפות סייבר בצרפת והאשמת ישראל",
     "score": 0.65
    },
-   "IRAN-11150040-02": {
+   "IRAN-11151722-09": {
     "kind": "new"
    },
-   "IRAN-11150040-03": {
+   "IRAN-11151722-10": {
     "kind": "new"
    },
-   "IRAN-11150040-04": {
+   "IRAN-11151722-11": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "initial",
+    "prev": "איום טלוויזיוני באיראן בטיל מותאם נגד בסיסים באירופה",
+    "score": 1.0
+   },
+   "IRAN-11151722-12": {
     "kind": "possible",
-    "prev": "התרעת סבא\"א בנוגע לאתר גרעין בלתי מפוקח באספהאן",
-    "score": 0.633
-   },
-   "IRAN-11150040-05": {
-    "kind": "new"
-   },
-   "IRAN-11150040-06": {
-    "kind": "new"
-   },
-   "IRAN-11150040-07": {
-    "kind": "new"
-   },
-   "IRAN-11150040-08": {
-    "kind": "new"
+    "prev": "חשש סבא\"א ממתקן העשרה איראני באיספהאן",
+    "score": 0.467
    }
   }
  },
@@ -1446,70 +1679,165 @@ window.DB.war_published = {
   }
  },
  "north": {
-  "draft": "drafts/north/2026-11-15T0049__north-202611150049.json",
+  "draft": "drafts/north/2026-11-15T1725__north-202611151725.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-11-15T00:49:07+00:00",
+   "generated_at": "2026-11-15T17:25:38+00:00",
    "window": {
-    "from": "2026-11-14T00:49:07+00:00",
-    "to": "2026-11-15T00:49:07+00:00"
+    "from": "2026-11-14T17:25:38+00:00",
+    "to": "2026-11-15T17:25:38+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "north-202611150049"
+    "run_id": "north-202611151725"
    },
-   "summary": "בגזרה הצפונית נמשכת פעילות צבאית ואיסופית של ישראל בדרום לבנון ובדרום סוריה, הכוללת תקיפות מהאוויר ועבודות הנדסיות במרחב הגבול. במקביל, השלטונות בדמשק ובביירות מתמודדים עם אתגרי פנים מורכבים הכוללים פיגועי תופת, הברחות נשק ומשבר פליטים. ברמה האזורית, טורקיה מחזקת בריתות ביטחוניות בעלות זיקה לסוריה, בעוד גורמים בישראל מתנים הסדרים עתידיים בהרחקת כוחותיה מהזירה.",
+   "summary": "בגזרה הצפונית נמשכת פעילות צבאית קרקעית ואווירית אינטנסיבית של כוחות צה\"ל בדרום לבנון להשמדת תשתיות תת-קרקעיות של חיזבאללה, לצד תקיפות ארטילריות ואוויריות נרחבות. במקביל נרשמת דריכות מדינית בביירות סביב תום מנדט כוח יוניפי\"ל וביקורים דיפלומטיים מערביים וערביים. בסוריה נמשכת אי-היציבות הביטחונית המתבטאת בפיגועי מטענים בפרברי הבירה לצד ניסיונות של השלטון להרחיב תיאום כלכלי ואזורי.",
    "fronts": [
     {
      "name": "דרום לבנון",
-     "status": "חיכוך צבאי מתמשך הכולל תקיפות אוויריות ואיסוף מודיעיני ישראלי מול לחצים להסדרת מנדט יוניפי\"ל ויישום החלטה 1701"
+     "status": "פעילות מבצעית שוטפת של צה\"ל להשמדת תשתיות חיזבאללה, תקיפות באש והפגזות יומיומיות"
     },
     {
-     "name": "דמשק ודרום סוריה",
-     "status": "חוסר יציבות פנימי ופיגועי תופת לצד פעילות קרקעית הנדסית של ישראל בגבול דרעא"
+     "name": "הזירה הפנימית בסוריה",
+     "status": "פיגועי טרור ומטעני חבלה באזור דמשק לצד מאמצי שיקום ותיאום גבולות מול ירדן"
     },
     {
-     "name": "הזירה הפנים-לבנונית",
-     "status": "מאמצי אכיפה של צבא לבנון נגד מחסני נשק בפרברי ביירות ברקע משבר כלכלי ואתגרי פליטים"
-    },
-    {
-     "name": "מעורבות טורקיה בזירה הצפונית",
-     "status": "העמקת תיאום והסכמי הגנה אזוריים הנוגעים לסוריה מול דרישות ישראליות לסילוק כוחותיה מהמרחב הסורי"
+     "name": "הזירה הפוליטית-מדינית בלבנון",
+     "status": "מגעים דיפלומטיים סביב מנדט יוניפי\"ל והסדרים עתידיים בהשתתפות נציגי ארה\"ב וסעודיה"
     }
    ],
    "events": [
     {
-     "id": "NORTH-11150049-01",
-     "title": "פיצוץ מכונית תופת בפרבר של דמשק",
-     "summary": "מטען שהוטמן במכונית התפוצץ בעיר ג'רמאנא שבפרברי דמשק, וגרם למותם של אב ובתו ולפציעת אדם נוסף, בעוד כוחות הביטחון פתחו בחקירה.",
-     "axis": "דמשק ודרום סוריה",
+     "id": "NORTH-11151725-01",
+     "title": "השמדת תוואי תת-קרקעי של חיזבאללה במג'דל זון בדרום לבנון",
+     "summary": "כוחות חטיבה 300 בפיקוד אוגדה 91 ובשיתוף יהל\"ם השמידו תוואי תת-קרקעי באורך של כ-35 מטרים ובו שני חדרי שהייה בכפר מג'דל זון להסרת איומים.",
+     "axis": "ישראל - לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-15T15:05:46+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-15T15:05:46+00:00",
+     "last_update_at": "2026-11-15T15:17:23+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/defense/article/21856851",
+       "published_at": "2026-11-15T15:17:23+00:00"
+      },
+      {
+       "source_id": "src_maariv",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.maariv.co.il/breaking-news/article-1388711",
+       "published_at": "2026-11-15T15:13:13+00:00"
+      },
+      {
+       "source_id": "src_tg_idf",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/idf_telegram/25610",
+       "published_at": "2026-11-15T15:05:46+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "מג'דל זון, לבנון",
+       "lat": 33.1503,
+       "lon": 35.226
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11151725-02",
+     "title": "תקיפות אוויריות, ארטילריה ופיצוצים יזומים של צה\"ל בדרום לבנון",
+     "summary": "כוחות צה\"ל ביצעו תקיפות אוויריות, ירי ארטילרי ופיצוצים יזומים במספר כפרים ואזורים בדרום לבנון, בהם כפרתבנית, אלקנטרה, אל-ח'יאם, ואדי אל-חג'יר וחדאת'א, לצד טיסות מטוסי קרב בגובה נמוך מעל ביירות.",
+     "axis": "ישראל - לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-15T08:57:58+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-15T08:57:58+00:00",
+     "last_update_at": "2026-11-15T12:26:22+00:00",
+     "what_is_not_verified": "פירוט היקף הנפגעים או הנזקים כתוצאה מהתקיפות לא צוין",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/151167/",
+       "published_at": "2026-11-15T12:26:22+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/151127/",
+       "published_at": "2026-11-15T10:41:34+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/151087/",
+       "published_at": "2026-11-15T09:18:00+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133668",
+       "published_at": "2026-11-15T09:00:50+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/151077/",
+       "published_at": "2026-11-15T08:57:58+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אל-ח'יאם, לבנון",
+       "lat": 33.3272,
+       "lon": 35.609
+      },
+      {
+       "name": "ביירות, לבנון",
+       "lat": 33.8892,
+       "lon": 35.5026
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11151725-03",
+     "title": "פיצוץ מכונית תופת בפרבר דמשק",
+     "summary": "מטען שהוטמן במכונית התפוצץ בעיר ג'רמאנא בפרברי דמשק, והביא למותם של שני בני אדם, בהם ילדה, ולפציעתו של אדם נוסף.",
+     "axis": "הזירה הפנימית בסוריה",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-14T00:00:00+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-11-14T18:51:01+00:00",
-     "last_update_at": "2026-11-14T22:43:12+00:00",
-     "what_is_not_verified": "זהות המבצעים המדויקת לא אומתה, אם כי בעבר יוחסו פיגועים דומים לתאי המדינה האסלאמית.",
+     "last_update_at": "2026-11-15T07:52:17+00:00",
+     "what_is_not_verified": "זהות הגורם המבצע אינה ודאית, כוחות הביטחון פתחו בחקירה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child?traffic_source=rss",
-       "published_at": "2026-11-14T22:43:12+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-670",
+       "published_at": "2026-11-15T07:52:17+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/car-bomb-damascus-suburb-kills-two-including-child",
+       "published_at": "2026-11-15T03:45:46+00:00"
       },
       {
        "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
        "url": "https://www.newarab.com/news/car-bomb-near-syria-capital-kills-two-people-including-child",
        "published_at": "2026-11-14T21:14:41+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
-       "published_at": "2026-11-14T19:46:36+00:00"
       },
       {
        "source_id": "src_anadolu",
@@ -1523,92 +1851,39 @@ window.DB.war_published = {
        "name": "ג'רמאנא, סוריה",
        "lat": 33.4864,
        "lon": 36.3483
+      },
+      {
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
       }
      ]
     },
     {
-     "id": "NORTH-11150049-02",
-     "title": "תקיפה אווירית ישראלית בדרום לבנון",
-     "summary": "כלי טיס של חיל האוויר הישראלי ביצע תקיפה בפאתי הכפר קנטרה לכיוון ואדי אל-חג'יר שבדרום לבנון.",
-     "axis": "דרום לבנון",
+     "id": "NORTH-11151725-04",
+     "title": "שריפה במחנה פליטים סורים בבקעת הלבנון",
+     "summary": "דליקה כילתה לחלוטין מחנה פליטים סורים באזור בר אליאס שבמזרח בקעת הלבנון, השמידה 59 אוהלים והותירה כ-500 בני אדם מחוסרי בית, ללא נפגעים בנפש.",
+     "axis": "לבנון - סוריה",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-14T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-14T16:28:21+00:00",
-     "last_update_at": "2026-11-14T16:28:21+00:00",
-     "what_is_not_verified": "היקף הנפגעים או הנזק המדויק בתקיפה לא פורט בדיווח.",
+     "first_reported_at": "2026-11-14T23:12:18+00:00",
+     "last_update_at": "2026-11-15T14:55:40+00:00",
+     "what_is_not_verified": "הסיבה לפרוץ הדליקה במחנה לא צוינה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
-       "source_root_id": "fh_86b7b6be3b90edf4",
-       "url": "https://english.almanar.com.lb/article/150897/",
-       "published_at": "2026-11-14T16:28:21+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קנטרה, לבנון",
-       "lat": 33.2735,
-       "lon": 35.4591
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11150049-03",
-     "title": "פשיטת צבא לבנון על מחסן אמצעי לחימה בפרבר הדרומי של ביירות",
-     "summary": "כוחות צבא לבנון ערכו מבצע ביטחוני מיוחד באזור ע'בירי, פשטו על מחסן אמצעי לחימה, החרימו כמות גדולה של נשק ותחמושת ועצרו חשוד אחד לחקירה.",
-     "axis": "הזירה הפנים-לבנונית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-13T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-14T16:17:37+00:00",
-     "last_update_at": "2026-11-14T16:17:37+00:00",
-     "what_is_not_verified": "ההודעה הרשמית של צבא לבנון לא ציינה לאיזה ארגון השתייכו אמצעי הלחימה שנתפסו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_6fc8f5206f6fae30",
-       "url": "https://www.newarab.com/news/lebanese-army-says-seized-arms-depot-southern-beirut-suburb",
-       "published_at": "2026-11-14T16:17:37+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ע'בירי, לבנון",
-       "lat": 33.8598,
-       "lon": 35.5057
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11150049-04",
-     "title": "שריפה כילתה מחנה פליטים סורים בבקעת הלבנון",
-     "summary": "דליקה שפרצה במחנה פליטים סורים בבר אליאס החריבה עשרות אוהלים והותירה כחמש מאות בני אדם ללא קורת גג, ללא נפגעים בנפש.",
-     "axis": "הזירה הפנים-לבנונית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-14T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-14T12:34:16+00:00",
-     "last_update_at": "2026-11-14T23:12:18+00:00",
-     "what_is_not_verified": "הגורם לפרוץ השריפה במחנה לא צוין.",
-     "is_new_in_window": true,
-     "reports": [
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/flames-engulf-syrian-refugee-camp-in-eastern-lebanon?traffic_source=rss",
+       "published_at": "2026-11-15T14:55:40+00:00"
+      },
       {
        "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
        "url": "https://www.aa.com.tr/en/middle-east/fire-destroys-syrian-refugee-camp-in-lebanon-leaving-nearly-500-homeless/4125459",
        "published_at": "2026-11-14T23:12:18+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/967994/fire-breaks-out-at-syrian-refugee-camp-in-bar-elias-video/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967994",
-       "published_at": "2026-11-14T12:34:16+00:00"
       }
      ],
      "places": [
@@ -1620,79 +1895,84 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "NORTH-11150049-05",
-     "title": "עבודות הנדסיות של צה\"ל לסלילת דרך בדרום סוריה",
-     "summary": "יחידות הנדסה של צה\"ל החלו בעבודות לפינוי שטח ולהקמת דרך חדשה באזור ואדי סיחאן בסמוך לכפר עבידין במערב מחוז דרעא.",
-     "axis": "דמשק ודרום סוריה",
+     "id": "NORTH-11151725-05",
+     "title": "ביטול הגבלות הכניסה לאזרחי ארה\"ב ובריטניה בסוריה",
+     "summary": "הרשויות בסוריה ביטלו את הדרישה שהוטלה זמן קצר קודם לכן לקבלת אישור כניסה מראש עבור אזרחי ארצות הברית ובריטניה, והחזירו את האפשרות לקבלת אשרה עם ההגעה.",
+     "axis": "הזירה הפנימית בסוריה",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-14T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-14T12:59:12+00:00",
-     "last_update_at": "2026-11-14T12:59:12+00:00",
-     "what_is_not_verified": "המידע נסמך על מקור רוסי בלבד וטרם התקבל אישור רשמי מגורמים ישראליים או סוריים.",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-14T18:14:17+00:00",
+     "last_update_at": "2026-11-14T18:14:17+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49576",
-       "published_at": "2026-11-14T12:59:12+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-11150049-06",
-     "title": "הפעלת טייסת כטב\"מים ייעודית של השב\"כ בדרום לבנון",
-     "summary": "טייסת כלי טיס בלתי מאוישים שהוקמה בשירות הביטחון הכללי פועלת באופן מבצעי עצמאי בדרום לבנון, לצד פעילותה ברצועת עזה וביהודה ושומרון.",
-     "axis": "דרום לבנון",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-14T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-14T17:45:43+00:00",
-     "last_update_at": "2026-11-14T17:45:43+00:00",
-     "what_is_not_verified": "היקף הפעילות המדויק וסוגי הכלים המופעלים בזירה הלבנונית נותרו חסויים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/defense/article/21850469",
-       "published_at": "2026-11-14T17:45:43+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-11150049-07",
-     "title": "טורקיה וקטאר חתמו על הסכם הגנה הדדית עם התייחסות לסוריה",
-     "summary": "באיסטנבול נחתם הסכם הגנה משותף בין טורקיה לקטאר הכולל התחייבות לסיוע הדדי במקרה של תקיפה חיצונית ועמדות מתואמות בנושאי ביטחון אזורי וסוריה.",
-     "axis": "מעורבות טורקיה בזירה הצפונית",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-14T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-14T06:55:03+00:00",
-     "last_update_at": "2026-11-14T15:28:52+00:00",
-     "what_is_not_verified": "פרטי התיאום המבצעי המדויקים בסוריה לא פורטו בהצהרה המשותפת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/95030",
-       "published_at": "2026-11-14T15:28:52+00:00"
-      },
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/politics/turkiye-qatar-reaffirm-defense-ties-call-for-diplomacy-on-iran/4124881",
-       "published_at": "2026-11-14T06:55:03+00:00"
+       "url": "https://t.me/alexmehacarmel/49584",
+       "published_at": "2026-11-14T18:14:17+00:00"
       }
      ],
      "places": [
+      {
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11151725-06",
+     "title": "חשיפת תחקיר על פעולות מודיעין של ישראל בסוריה, טורקיה ולבנון בתיק רון ארד",
+     "summary": "תחקיר עיתונאי בארה\"ב חשף כי ישראל חטפה בעבר בכירים איראנים מדמשק ומאיסטנבול כדי להשיג מידע על רון ארד, וכי ההערכות הנוכחיות גורסות שארד מת בלבנון בשנת 1988 ונקבר באזור נבי שית.",
+     "axis": "ישראל - לבנון - סוריה",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-15T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-15T11:16:16+00:00",
+     "last_update_at": "2026-11-15T12:03:05+00:00",
+     "what_is_not_verified": "אמיתות הטענות לגבי גורל הנווט ומעשי החטיפה וההריגה מבוססת על תחקיר עיתונאי וגורמים עלומים ולא אומתה רשמית",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49598",
+       "published_at": "2026-11-15T12:03:05+00:00"
+      },
+      {
+       "source_id": "src_tg_lelotsenzura",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/lelotsenzura/95037",
+       "published_at": "2026-11-15T12:01:33+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21855116",
+       "published_at": "2026-11-15T11:45:24+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/h1uvp3hrzg",
+       "published_at": "2026-11-15T11:16:16+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
+      },
+      {
+       "name": "נבי שית, לבנון",
+       "lat": 33.8887,
+       "lon": 36.1181
+      },
       {
        "name": "איסטנבול, טורקיה",
        "lat": 41.0064,
@@ -1701,24 +1981,82 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "NORTH-11150049-08",
-     "title": "הצהרת נשיא לבנון בנוגע להחלטה 1701 ומנדט יוניפי\"ל",
-     "summary": "נשיא לבנון הדגיש בפני סגנית מזכ\"ל האו\"ם כי חידוש מנדט כוח יוניפי\"ל הוא עדיפות עליונה, וכי החלטה 1701 חייבת להישאר הבסיס החוקי לכל הסדר ביטחוני בדרום המדינה.",
-     "axis": "דרום לבנון",
-     "claim_type": "statement",
+     "id": "NORTH-11151725-07",
+     "title": "חתימת הסכמי שיתוף פעולה בין סוריה לירדן בדמשק",
+     "summary": "ממשלות סוריה וירדן חתמו בדמשק על 11 הסכמים ותזכירי הבנות בתחומי תחבורה, מעברי גבול, תעופה ומזון במסגרת מועצת התיאום העליונה, זמן קצר לאחר תקיפות ירדניות בדרום סוריה.",
+     "axis": "הזירה הפנימית בסוריה",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-14T00:00:00+00:00",
+     "occurred_at": "2026-11-09T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-14T08:16:26+00:00",
-     "last_update_at": "2026-11-14T08:16:26+00:00",
-     "what_is_not_verified": "טרם סוכם מנגנון חלופי רשמי למניעת ואקום ביטחוני במידה והמנדט ישתנה.",
+     "first_reported_at": "2026-11-15T17:20:22+00:00",
+     "last_update_at": "2026-11-15T17:20:22+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_enabbaladi",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.enabbaladi.net/archives/2026/11/syria-and-jordan-from-civilian-airstrike-crisis-to-higher-coordination-council/",
+       "published_at": "2026-11-15T17:20:22+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11151725-08",
+     "title": "פגישת נשיא לבנון עם יועץ שר החוץ הסעודי בבעבדא",
+     "summary": "נשיא לבנון ז'וזף עון נועד בארמון בעבדא עם הנסיך יזיד בן פרחאן, יועצו של שר החוץ הסעודי, לדיון בהתפתחויות האחרונות.",
+     "axis": "ישראל - לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-15T13:20:35+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-15T13:20:35+00:00",
+     "last_update_at": "2026-11-15T13:20:35+00:00",
+     "what_is_not_verified": "תוכן השיחות המדויק מעבר לדיון בהתפתחויות לא פורט",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/967967/aoun-unifils-mandate-must-be-renewed-with-resolution-1701-remaining-th/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967967",
-       "published_at": "2026-11-14T08:16:26+00:00"
+       "source_root_id": "or_lbci",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/968098/president-aoun-meets-saudi-foreign-ministers-adviser-in-baabda/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968098",
+       "published_at": "2026-11-15T13:20:35+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "בעבדא, לבנון",
+       "lat": 33.8336,
+       "lon": 35.5446
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11151725-09",
+     "title": "הגעת שגריר ארה\"ב באו\"ם מייק וולץ ללבנון",
+     "summary": "שגריר ארצות הברית באו\"ם מייק וולץ נחת בלבנון במסגרת ביקור רשמי במדינה.",
+     "axis": "ישראל - לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-15T09:00:07+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-15T09:00:07+00:00",
+     "last_update_at": "2026-11-15T09:00:07+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_lbci",
+       "source_root_id": "or_lbci",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/968069/us-ambassador-to-the-united-nations-mike-waltz-arrives-in-lebanon/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968069",
+       "published_at": "2026-11-15T09:00:07+00:00"
       }
      ],
      "places": [
@@ -1730,40 +2068,34 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "NORTH-11150049-09",
-     "title": "דיווח על מגעים להסדר ביטחוני ישראלי מול סוריה בדרישה לסילוק כוחות זרים",
-     "summary": "פורסם כי בישראל נבחנת אפשרות להסכם ביטחוני מול דמשק שיכלול אזור מפורז בדרום סוריה וחזרה להסכם 1974 למעט מוצב החרמון, לצד דרישה לפינוי כוחות טורקיים ורוסיים מהמדינה.",
-     "axis": "דמשק ודרום סוריה",
-     "claim_type": "assessment",
+     "id": "NORTH-11151725-10",
+     "title": "תרגיל הקמת בית חולים שדה נייד בחטיבת כרמלי",
+     "summary": "חטיבת המילואים כרמלי קיימה אימון הקמה ראשון של בית חולים שדה נייד עם חדר ניתוח, לאחר פעילות מבצעית בעזה, בלבנון ובסוריה.",
+     "axis": "ישראל - לבנון",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-14T04:07:41+00:00",
+     "occurred_at": "2026-11-15T17:02:14+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-14T04:07:41+00:00",
-     "last_update_at": "2026-11-14T04:07:41+00:00",
-     "what_is_not_verified": "המגעים מול גורמים אמריקניים נסמכים על הדלפה בעיתונות הלבנונית ולא אומתו רשמית בירושלים או בדמשק.",
+     "first_reported_at": "2026-11-15T17:02:14+00:00",
+     "last_update_at": "2026-11-15T17:02:14+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_tg_idf",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49572",
-       "published_at": "2026-11-14T04:07:41+00:00"
+       "url": "https://t.me/idf_telegram/25612",
+       "published_at": "2026-11-15T17:02:14+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "הר החרמון, סוריה",
-       "lat": 33.4169,
-       "lon": 35.8564
-      }
-     ]
+     "places": []
     }
    ],
    "not_verified": [
-    "זהות האחראים לפיצוץ מכונית התופת בג'רמאנא שבסוריה טרם נקבעה באופן רשמי.",
-    "הדיווח הרוסי על אודות סלילת ציר חדש בידי כוחות הנדסה של צה\"ל באזור דרעא בסוריה לא אושר בידי ישראל.",
-    "ההשתייכות הארגונית של מחסן הנשק והתחמושת שנתפס בפרבר הדרומי של ביירות לא צוינה בהודעת צבא לבנון.",
-    "הדיווחים על יוזמה ישראלית להסכם ביטחוני מול דמשק והתנייתו בנסיגת כוחות טורקיה נשענים על מקורות תקשורתיים בלבד."
+    "הממצאים והטענות בנוגע לנסיבות מותו או מקום קבורתו של רון ארד בלבנון מבוססים על תחקיר תקשורתי ולא אומתו רשמית",
+    "מידת השיוך של מחסן הנשק שנתפס ברובע הדאחייה על ידי צבא לבנון לארגון חיזבאללה",
+    "זהות האחראים לפיצוץ מכונית התופת בג'רמאנא שבפרברי דמשק",
+    "סיבת השריפה שפרצה במחנה הפליטים בבר אליאס"
    ],
    "map": {
     "confidence": "medium",
@@ -1785,152 +2117,172 @@ window.DB.war_published = {
     {
      "actor": "ישראל",
      "declared": [
-      "סיכול התעצמות ואיומי טרור בקרבת הגבולות הצפוניים.",
-      "שמירה על חופש פעולה ביטחוני עצמאי של גופי המודיעין וצה\"ל."
+      "הסרת איומים במרחב הביטחוני בדרום לבנון",
+      "מניעת פגיעה של חיזבאללה באזרחי ישראל ובכוחות צה\"ל",
+      "מחויבות להסכם הפסקת האש"
      ],
      "inferred": [
-      "יצירת מרחב אבטחה מפורז מנשק כבד בדרום סוריה תוך שימור נקודות תצפית שולטות בחרמון.",
-      "בלימת ההשפעה והנוכחות הצבאית של טורקיה ורוסיה בסוריה."
+      "השמדה שיטתית של תשתיות צבאיות תת-קרקעיות של חיזבאללה סמוך לגבול",
+      "הפעלת לחץ צבאי רציף בדרום לבנון למניעת התבססות מחודשת של חיזבאללה"
      ],
      "forecast": [
-      "המשך פעילות איסוף באמצעות כטב\"מים ותקיפות מדויקות נגד התארגנויות חשודות בדרום לבנון."
+      "צה\"ל ימשיך בפעולות חשיפה והשמדה ממוקדות של מנהרות ומחסני נשק בדרום לבנון",
+      "תימשך הכוננות הלוגיסטית והרפואית של יחידות צה\"ל לאפשרות של הסלמה"
      ]
     },
     {
-     "actor": "לבנון (הממשל וצבא לבנון)",
+     "actor": "חיזבאללה",
      "declared": [
-      "הבטחת הארכת המנדט של כוח יוניפי\"ל ושימור החלטה 1701 כבסיס לכל הסדר ביטחוני.",
-      "הכפפת אמצעי הלחימה במדינה לסמכות בלעדית של מוסדות המדינה."
+      "זכות ההתנגדות להגן על המדינה ולפעול לשחרור אדמות כבושות בכל האמצעים",
+      "קריאה להידברות פנים-לבנונית על בסיס הסכם הטאיף והחוקה",
+      "היעדר התנגדות לקיום משא ומתן עקיף עם ישראל"
      ],
      "inferred": [
-      "ריסון השפעתו הצבאית והעצמאית של חזבאללה ללא גרימת מלחמת אזרחים פנימית.",
-      "הפחתת הסיכון לעימות ישיר עם ישראל במטרה לקדם שיקום כלכלי."
+      "שימור הלגיטימציה של הנשק והמערך הצבאי בזירה הפוליטית בלבנון",
+      "הסוואת תשתיות צבאיות במרחבים אזרחיים ובקרבת עמדות יוניפי\"ל"
      ],
      "forecast": [
-      "המשך פשיטות נקודתיות של הצבא על מצבורי תחמושת לצד הימנעות מעימות חזיתי כולל."
+      "המשך ניסיונות להיאחז פוליטית וצבאית במרחב תוך הדיפת קריאות לפירוק מנשק",
+      "נכונות למהלכים דיפלומטיים עקיפים להבטחת אינטרסים מול ישראל"
      ]
     },
     {
-     "actor": "סוריה (שלטון המעבר)",
+     "actor": "סוריה (הממשל החדש)",
      "declared": [
-      "חקירת אירועי הטרור, השבת היציבות הביטחונית ועידוד כניסת אזרחים זרים ותיירות.",
-      "הפעלת כוחות ביטחון פנים להגנה על ריכוזי אוכלוסייה."
+      "הקמת מרשם נפגעים לאומי כחלק ממהלכי צדק מעברי והכרה בזכויות קורבנות",
+      "הידוק שיתוף הפעולה הכלכלי, התחבורתי והביטחוני עם ירדן"
      ],
      "inferred": [
-      "בלימת התעוררות תאי המדינה האסלאמית לאחר חילופי השלטון בדמשק.",
-      "מניעת חיכוך צבאי ישיר עם ישראל במרחב הגבול הדרומי."
+      "חיזוק המשילות הפנימית והתמודדות עם תאי טרור של המדינה האסלאמית",
+      "עידוד כניסת תיירים ופתיחות בינלאומית באמצעות הקלת נהלי כניסה"
      ],
      "forecast": [
-      "המשך התמודדות מורכבת עם פיגועי חבלה בפרברי הבירה ומאמץ לייצב את מעברי הגבול."
-     ]
-    },
-    {
-     "actor": "טורקיה",
-     "declared": [
-      "חיזוק קשרי ההגנה והסחר עם קטאר וגיבוש עמדות משותפות בנושאי ביטחון אזורי וסוריה.",
-      "התנגדות לפגיעה באוכלוסייה אזרחית במרחב המזרח התיכון."
-     ],
-     "inferred": [
-      "שמירה על אחיזה ומעמד השפעה מכריע בסוריה למרות לחצים מדיניים לנסיגת כוחותיה.",
-      "ביצור מעמדה ככוח אזורי מוביל באמצעות בריתות הגנה הדדיות."
-     ],
-     "forecast": [
-      "סירוב לסגת מהשטחים שבשליטתה בסוריה ללא ערבויות ביטחוניות לאינטרסים שלה."
+      "המשך מאמצים לשיקום מוסדות המדינה והכלכלה מול אתגרי טרור בלתי פוסקים",
+      "העמקת תיאום הגבולות עם מדינות שכנות כדי למנוע חיכוכים צבאיים"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
-     "accessed_at": "2026-11-15T00:49:07+00:00"
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/flames-engulf-syrian-refugee-camp-in-eastern-lebanon?traffic_source=rss",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
     },
     {
      "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/150897/",
-     "accessed_at": "2026-11-15T00:49:07+00:00"
+     "url": "https://english.almanar.com.lb/article/151077/",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
     },
     {
      "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/politics/turkiye-qatar-reaffirm-defense-ties-call-for-diplomacy-on-iran/4124881",
-     "accessed_at": "2026-11-15T00:49:07+00:00"
+     "url": "https://www.aa.com.tr/en/middle-east/fire-destroys-syrian-refugee-camp-in-lebanon-leaving-nearly-500-homeless/4125459",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
+    },
+    {
+     "source_id": "src_enabbaladi",
+     "url": "https://english.enabbaladi.net/archives/2026/11/syria-and-jordan-from-civilian-airstrike-crisis-to-higher-coordination-council/",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/defense/article/21850469",
-     "accessed_at": "2026-11-15T00:49:07+00:00"
+     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21855116",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
     },
     {
      "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/lebanon-news/967967/aoun-unifils-mandate-must-be-renewed-with-resolution-1701-remaining-th/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967967",
-     "accessed_at": "2026-11-15T00:49:07+00:00"
+     "url": "https://www.lbcgroup.tv/news/lebanon-news/968069/us-ambassador-to-the-united-nations-mike-waltz-arrives-in-lebanon/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968069",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
+    },
+    {
+     "source_id": "src_maariv",
+     "url": "https://www.maariv.co.il/breaking-news/article-1388711",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
+    },
+    {
+     "source_id": "src_mee",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/car-bomb-damascus-suburb-kills-two-including-child",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/lebanese-army-says-seized-arms-depot-southern-beirut-suburb",
-     "accessed_at": "2026-11-15T00:49:07+00:00"
+     "url": "https://www.newarab.com/news/car-bomb-near-syria-capital-kills-two-people-including-child",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
+    },
+    {
+     "source_id": "src_tg_abualiexpress",
+     "url": "https://t.me/abualiexpress/133668",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49572",
-     "accessed_at": "2026-11-15T00:49:07+00:00"
+     "url": "https://t.me/alexmehacarmel/49598",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
+    },
+    {
+     "source_id": "src_tg_idf",
+     "url": "https://t.me/idf_telegram/25612",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
     },
     {
      "source_id": "src_tg_lelotsenzura",
-     "url": "https://t.me/lelotsenzura/95030",
-     "accessed_at": "2026-11-15T00:49:07+00:00"
+     "url": "https://t.me/lelotsenzura/95037",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
+    },
+    {
+     "source_id": "src_ynet",
+     "url": "https://www.ynet.co.il/news/article/h1uvp3hrzg",
+     "accessed_at": "2026-11-15T17:25:38+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-14T07:02:45+00:00",
+  "previous_generated_at": "2026-11-15T00:49:07+00:00",
   "changes": {
-   "NORTH-11150049-01": {
-    "kind": "new"
-   },
-   "NORTH-11150049-02": {
-    "kind": "new"
-   },
-   "NORTH-11150049-03": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "initial",
-    "prev": "תפיסת מחסן אמצעי לחימה בפרברי ביירות",
-    "score": 0.65
-   },
-   "NORTH-11150049-04": {
-    "kind": "new"
-   },
-   "NORTH-11150049-05": {
+   "NORTH-11151725-01": {
     "kind": "possible",
-    "prev": "העברת נפט עיראקי דרך שטח סוריה",
+    "prev": "הפעלת טייסת כטב\"מים ייעודית של השב\"כ בדרום לבנון",
     "score": 0.467
    },
-   "NORTH-11150049-06": {
+   "NORTH-11151725-02": {
     "kind": "possible",
-    "prev": "ירי ארטילרי ישראלי לעבר עיירות בדרום לבנון",
-    "score": 0.467
+    "prev": "הצהרת נשיא לבנון בנוגע להחלטה 1701 ומנדט יוניפי\"ל",
+    "score": 0.633
    },
-   "NORTH-11150049-07": {
+   "NORTH-11151725-03": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "חתימת הסכם הגנה הדדי בין טורקיה לקטר",
+    "prev": "פיצוץ מכונית תופת בפרבר של דמשק",
     "score": 1.0
    },
-   "NORTH-11150049-08": {
+   "NORTH-11151725-04": {
     "kind": "same",
     "from": "shared_root",
-    "to": "initial",
-    "prev": "מגעים דיפלומטיים להחלפת כוח יוניפי\"ל בדרום לבנון",
+    "to": "shared_root",
+    "prev": "שריפה כילתה מחנה פליטים סורים בבקעת הלבנון",
+    "score": 1.0
+   },
+   "NORTH-11151725-05": {
+    "kind": "new"
+   },
+   "NORTH-11151725-06": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "assessment",
+    "prev": "טורקיה וקטאר חתמו על הסכם הגנה הדדית עם התייחסות לסוריה",
     "score": 0.817
    },
-   "NORTH-11150049-09": {
-    "kind": "same",
-    "from": "assessment",
-    "to": "assessment",
-    "prev": "דיווח על מתווה ביטחוני בין ישראל לדמשק ביוזמת איזנקוט",
-    "score": 1.0
+   "NORTH-11151725-07": {
+    "kind": "new"
+   },
+   "NORTH-11151725-08": {
+    "kind": "new"
+   },
+   "NORTH-11151725-09": {
+    "kind": "new"
+   },
+   "NORTH-11151725-10": {
+    "kind": "new"
    }
   }
  }

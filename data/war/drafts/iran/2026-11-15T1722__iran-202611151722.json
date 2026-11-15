@@ -1,0 +1,620 @@
+{
+ "status": "draft",
+ "received_sha256_12": "7bf2985a4f19",
+ "preview": {
+  "events": 12,
+  "levels": {
+   "shared_root": 6,
+   "initial": 5,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-15T17:22:41+00:00",
+  "window": {
+   "from": "2026-11-14T17:22:41+00:00",
+   "to": "2026-11-15T17:22:41+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611151722"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל מתרחב לתקיפות ישירות במפרץ, לצד איומים על חופש השיט והאצת תוכנית הגרעין. טהראן שיגרה כטב\"מים לעבר בסיס אמריקאי בבחריין והפעילה מיקוש ימי במצר הורמוז, בעוד שלוחיה החות'ים מגבירים את הלחץ בים סוף ובסעודיה. במקביל, ישראל מגבירה את התיאום המודיעיני עם הממשל האמריקאי ונערכת להסלמה רב-זירתית נוכח התקדמות הפעילות הגרעינית האיראנית.",
+  "fronts": [
+   {
+    "name": "מפרץ בחריין",
+    "status": "חידוש תקיפות כטב\"מים איראניות לעבר מתקנים אמריקאיים ויירוטים של צבא בחריין"
+   },
+   {
+    "name": "מצר הורמוז",
+    "status": "חסימה ואכיפה איראנית אלימה הכוללת פיצוץ מכליות באמצעות מוקשים ימיים"
+   },
+   {
+    "name": "הזירה התימנית והים האדום",
+    "status": "התקדמות החות'ים באזור באב אל-מנדב וירי רקטי וכטב\"מים לעבר יעדים בסעודיה"
+   },
+   {
+    "name": "הציר המודיעיני-מדיני (ישראל-ארה\"ב-איראן)",
+    "status": "היערכות ביטחונית ותיאום מודיעיני מול האצת תוכניות הגרעין והטילים בטהראן"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11151722-01",
+    "title": "מתקפת כטב\"מים איראנית לעבר מתקן מכ\"ם ובסיס אמריקאי בבחריין ויירוטם",
+    "summary": "משמרות המהפכה האיראניים שיגרו כטב\"מים לעבר מתקן מכ\"ם של ההגנה האווירית האמריקאית בבסיס בבחריין. מערכות ההגנה של בחריין יירטו את כלי הטיס, ומדינות באזור כדוגמת סעודיה, מצרים, ירדן וקטר גינו את המתקפה.",
+    "axis": "איראן מול ארה\"ב ומדינות המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T08:11:35+00:00",
+    "last_update_at": "2026-11-15T16:46:30+00:00",
+    "what_is_not_verified": "מידת הפגיעה המדויקת במכ\"ם והנזק שנגרם בשטח לא אומתו באופן עצמאי מעבר לטענות הצדדים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/anti-houthi-forces-retreat-yemen-iran-strikes-bahrain",
+      "published_at": "2026-11-15T16:46:30+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+      "published_at": "2026-11-15T15:59:04+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
+      "published_at": "2026-11-15T15:29:22+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
+      "published_at": "2026-11-15T13:55:32+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133679",
+      "published_at": "2026-11-15T13:40:04+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/15/bahrain-accuses-iran-of-attacking-its-territory-to-settle-score-with-us?traffic_source=rss",
+      "published_at": "2026-11-15T12:36:19+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/iran-targets-us-military-radar-in-bahrain-in-retaliatory-drone-strikes?traffic_source=rss",
+      "published_at": "2026-11-15T12:15:51+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-joins-condemnation-iranian-attacks-bahrain",
+      "published_at": "2026-11-15T11:46:46+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain",
+      "published_at": "2026-11-15T09:57:35+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383961449",
+      "published_at": "2026-11-15T08:11:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מנאמה, בחריין",
+      "lat": 26.2235,
+      "lon": 50.5822
+     },
+     {
+      "name": "א-רפאע, בחריין",
+      "lat": 26.1315,
+      "lon": 50.5503
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11151722-02",
+    "title": "פיצוץ וטביעת מכליות נפט ממוקשים ימיים במצר הורמוז",
+    "summary": "הצי ומשמרות המהפכה של איראן טענו כי מכליות נפט עלו באש וטבעו לאחר שפגעו במוקשים ימיים בעת שניסו לחצות נתיב אסור בדרום מצר הורמוז, והזהירו כלי שיט נוספים שלא להפר את ההנחיות.",
+    "axis": "חופש השיט ומצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T23:46:29+00:00",
+    "last_update_at": "2026-11-15T15:30:14+00:00",
+    "what_is_not_verified": "זהות המכליות שטבעו או ניזוקו ומספרן המדויק (שתיים או שלוש) לא אומתו באופן בלתי תלוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-oil-tankers-ablaze-after-striking-naval-mines-strait-hormuz",
+      "published_at": "2026-11-15T15:30:14+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rkpkuvwrzg",
+      "published_at": "2026-11-15T13:58:32+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/irans-navy-says-three-tankers-fire-after-hitting-mines-hormuz",
+      "published_at": "2026-11-14T23:46:29+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11151722-03",
+    "title": "הסלמה מול החות'ים בתימן ונסיגת כוחות הנתמכים בידי סעודיה",
+    "summary": "כוחות ממשלת תימן הנתמכים בידי סעודיה נסוגו מאזור מצר באב אל-מנדב לכיוון עדן, בעוד הקואליציה בראשות סעודיה יירטה שני טילים בליסטיים וכטב\"מים ששיגרו החות'ים לעבר ריאד והמחוז המזרחי.",
+    "axis": "תימן והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-15T03:46:26+00:00",
+    "last_update_at": "2026-11-15T16:46:30+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והשליטה המוחלטת בנתיבי השיט בים סוף לא אומתו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/anti-houthi-forces-retreat-yemen-iran-strikes-bahrain",
+      "published_at": "2026-11-15T16:46:30+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/yemeni-government-force-retreats-strait-major-setback-war-against-houthis",
+      "published_at": "2026-11-15T08:46:28+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province",
+      "published_at": "2026-11-15T03:46:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר באב אל-מנדב, תימן",
+      "lat": 12.6671,
+      "lon": 43.4565
+     },
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11151722-04",
+    "title": "שיחות של ראש המוסד בארה\"ב ועדכון הקבינט בישראל בנושא איראן",
+    "summary": "ראש המוסד שב מביקור בארצות הברית שבו שיתף מידע מודיעיני עם בכירים אמריקאים וראש הסי-אי-איי, והגיע לתדרך את שרי הקבינט המדיני-ביטחוני ואת ראש הממשלה בנוגע לאיראן.",
+    "axis": "תיאום ישראל-ארה\"ב מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T15:55:01+00:00",
+    "last_update_at": "2026-11-15T16:24:02+00:00",
+    "what_is_not_verified": "תוכן המידע המודיעיני שהועבר ופרטי הדיונים הסגורים אינם מפורטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1388736",
+      "published_at": "2026-11-15T16:24:02+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/geopolitics/article/21857285",
+      "published_at": "2026-11-15T16:16:43+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/sy9qslprfg",
+      "published_at": "2026-11-15T15:55:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11151722-05",
+    "title": "התרעת ראש ממשלת ישראל מפני חידוש תוכנית הגרעין האיראנית",
+    "summary": "ראש הממשלה נתניהו הצהיר כי איראן פועלת לחדש את תוכנית הגרעין שלה, העשרת האורניום ופיתוח הנשק, וקרא להקמת ממשלת אחדות לאומית כדי להסיר איום קיומי זה.",
+    "axis": "הגרעין האיראני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T17:45:01+00:00",
+    "last_update_at": "2026-11-14T18:27:05+00:00",
+    "what_is_not_verified": "הסטטוס המדויק של חידוש העשרת האורניום המואצת באיראן לא אומת מעבר להצהרה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49585",
+      "published_at": "2026-11-14T18:27:05+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133641",
+      "published_at": "2026-11-14T17:45:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11151722-06",
+    "title": "איראן מפתחת מערכת היתוך גרעיני ראשונה מייצור מקומי",
+    "summary": "ראש הארגון לאנרגיה אטומית של איראן הודיע כי המדינה נערכת להפעיל מערכת היתוך גרעיני ראשונה שפותחה כולה באופן מקומי.",
+    "axis": "הגרעין האיראני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T15:38:50+00:00",
+    "last_update_at": "2026-11-15T15:38:50+00:00",
+    "what_is_not_verified": "היכולת המבצעית והטכנולוגית הממשית של מערכת ההיתוך המוצהרת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86322711/Iran-to-launch-first-fully-indigenous-nuclear-fusion-system",
+      "published_at": "2026-11-15T15:38:50+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11151722-07",
+    "title": "הערכות מודיעין אמריקאיות על מלאי הטילים של איראן",
+    "summary": "הערכות מודיעין בארצות הברית מצביעות על כך שאיראן מחזיקה כ-2,500 טילים וממשיכה לשקם את מחסניה באמצעות רכיבים שנאגרו מראש, למרות פגיעות קודמות במתקני ייצור.",
+    "axis": "מערך הטילים של איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-15T08:32:48+00:00",
+    "last_update_at": "2026-11-15T08:32:48+00:00",
+    "what_is_not_verified": "המספר המדויק של הטילים התקינים ויכולת הייצור בפועל לא אומתו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95034",
+      "published_at": "2026-11-15T08:32:48+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11151722-08",
+    "title": "האשמת איראן את ישראל בניסיון יצירת 'דגל כוזב' בסייבר מול צרפת",
+    "summary": "דובר משמרות המהפכה דחה טענות של צרפת על תקיפת סייבר איראנית נגד מערכות קירור במרכולים, וטען כי מדובר במבצע 'דגל כוזב' ישראלי שנועד להסית מדינות באירופה נגד טהראן.",
+    "axis": "סייבר ולוחמה חשאית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T11:50:59+00:00",
+    "last_update_at": "2026-11-15T11:50:59+00:00",
+    "what_is_not_verified": "זהות מבצעי מתקפת הסייבר על המרכולים בצרפת לא אומתה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-blames-israel-cyber-attack-supermarket-fridges",
+      "published_at": "2026-11-15T11:50:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פריז, צרפת",
+      "lat": 48.8535,
+      "lon": 2.3484
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11151722-09",
+    "title": "פרסום על חטיפת וחיסול קצינים איראנים בידי המוסד בעבר",
+    "summary": "תחקיר עיתונאי חשף כי ישראל חטפה בעבר שני גנרלים איראנים בטורקיה ובסוריה לצורך חקירה בניסיון לאתר מידע על רון ארד, כאשר אחד מהם חוסל וגופתו הושלכה לים והשני שוחרר בדרום אפריקה.",
+    "axis": "מבצעים חשאיים ישראל-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T11:45:24+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T11:45:24+00:00",
+    "last_update_at": "2026-11-15T12:03:05+00:00",
+    "what_is_not_verified": "פרטי המבצעים ההיסטוריים, מקום מותם או נסיבות שחרורם מבוססים על הדלפות ומקורות עבר ולא על הודעה ישראלית רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49598",
+      "published_at": "2026-11-15T12:03:05+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95037",
+      "published_at": "2026-11-15T12:01:33+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21855116",
+      "published_at": "2026-11-15T11:45:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "איסטנבול, טורקיה",
+      "lat": 41.0064,
+      "lon": 28.9759
+     },
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11151722-10",
+    "title": "תרגול היערכות צה\"ל לתרחישי הסלמה ושיבוש קשר מול איראן ושלוחותיה",
+    "summary": "אגף התקשוב בצה\"ל ביצע תרגיל בפיקוד הצפון ובפיקוד הדרום המדמה אובדן קשר ושיבוש מערכות במסגרת היערכות להסלמה מול איראן והצטרפות שלוחותיה לתקיפת העורף הישראלי.",
+    "axis": "היערכות צבאית ישראלית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T07:07:25+00:00",
+    "last_update_at": "2026-11-15T07:07:25+00:00",
+    "what_is_not_verified": "מועד התממשות תרחישי ההסלמה וההיקף של מעורבות השלוחות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383961437",
+      "published_at": "2026-11-15T07:07:25+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11151722-11",
+    "title": "טענה איראנית לשינוי ראש קרב בטיל ח'ורמשהר לטווח בסיסים אמריקאיים באירופה",
+    "summary": "הטלוויזיה הממלכתית באיראן דיווחה כי שינוי משקלו של ראש הקרב בטיל הבליסטי ח'ורמשהר יאפשר לפגוע בבסיסים של צבא ארצות הברית המוצבים באירופה.",
+    "axis": "מערך הטילים של איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T19:46:06+00:00",
+    "last_update_at": "2026-11-14T19:46:06+00:00",
+    "what_is_not_verified": "ההיתכנות הטכנולוגית המבצעית והטווח האמיתי של הטיל לאחר שינוי המשקל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133648",
+      "published_at": "2026-11-14T19:46:06+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11151722-12",
+    "title": "ביקורת רוסית על הלחץ המערבי בסבא\"א סביב הגרעין האיראני",
+    "summary": "רוסיה מתחה ביקורת על מדינות המערב וטענה כי הן מנצלות את מנגנוני הפיקוח של הסוכנות הבינלאומית לאנרגיה אטומית להפעלת לחץ פוליטי על טהראן, דבר הפוגע בניטרליות הסוכנות.",
+    "axis": "המישור המדיני-בינלאומי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T16:42:26+00:00",
+    "last_update_at": "2026-11-15T16:42:26+00:00",
+    "what_is_not_verified": "ההשפעה הממשית של עמדת רוסיה על דיוני מועצת הנגידים של סבא\"א.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86322767/Russia-says-Western-pressure-on-Iran-undermines-IAEA-impartiality",
+      "published_at": "2026-11-15T16:42:26+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר מכליות הנפט שטבעו או נפגעו בפועל במצר הורמוז וזהותן",
+   "מידת הפגיעה הממשית במתקן המכ\"ם האמריקאי בבסיס בבחריין",
+   "רמת ההתקדמות המבצעית של פרויקט ההיתוך הגרעיני המוצהר באיראן",
+   "מספר הטילים המבצעיים המדויק שנותר בידי איראן וקצב הייצור הנוכחי",
+   "מעורבות איראנית ישירה במתקפת הסייבר על מערכות קירור בצרפת",
+   "ההערכות והפרטים המודיעיניים ההיסטוריים שנחשפו לגבי נסיבות מותם או היעלמותם של רון ארד והקצינים האיראנים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2107,
+    "unit": "ILS",
+    "change_pct": 0.23,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "תקיפת יעדים של מדינות המשתפות פעולה צבאית עם ארה\"ב כמענה לגיטימי",
+     "אכיפת איסור מעבר בנתיבים מוגדרים במצר הורמוז",
+     "פיתוח יכולות טכנולוגיות גרעיניות עצמאיות"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי וכלכלי ישיר על וושינגטון ובעלות בריתה במפרץ באמצעות שיבוש נתיבי סחר",
+     "הרחבת טווח האיום הטילאי כדי להרתיע את המערב מפעולה ישירה"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדות באמצעות כטב\"מים ושמירה על הגבלות השיט במצר הורמוז",
+     "המשך קידום אלמנטים בתוכנית הגרעין ושיקום מערכי הטילים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "סיכול תוכנית הגרעין האיראנית ומניעת השגת נשק להשמדה המונית",
+     "הקמת ממשלת אחדות לאומית לצורך התמודדות עם האיומים הביטחוניים"
+    ],
+    "inferred": [
+     "חיזוק התיאום המבצעי והמודיעיני עם ארצות הברית לקראת אפשרות של פעולה צבאית",
+     "הכנת המערכות הצבאיות והתקשוביות לתרחיש של מלחמה אזורית בכמה חזיתות"
+    ],
+    "forecast": [
+     "הגברת שיתוף המודיעין עם גורמי ביטחון אמריקאיים",
+     "המשך אימונים ותרגולים של כוחות צה\"ל לתרחישי הסלמה ישירים"
+    ]
+   },
+   {
+    "actor": "ארצות הברית ומדינות המפרץ",
+    "declared": [
+     "גינוי תקיפות איראן כהפרה של החוק הבינלאומי ועקרונות השכנות הטובה",
+     "הפעלת מערכות הגנה אוויריות להגנה על המרחב הריבוני והבסיסים"
+    ],
+    "inferred": [
+     "שמירה על נוכחות צבאית במפרץ תוך ניסיון למנוע פגיעה בתשתיות אסטרטגיות ובנתיבי אנרגיה",
+     "בלימת ההתפשטות של השלוחות האיראניות בתימן ובאזור באב אל-מנדב"
+    ],
+    "forecast": [
+     "חיזוק מערכי ההגנה האווירית בבחריין ובסעודיה",
+     "המשך יירוט איומים בליסטיים וכטב\"מים בתימן ובמפרץ"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/iran-targets-us-military-radar-in-bahrain-in-retaliatory-drone-strikes?traffic_source=rss",
+    "accessed_at": "2026-11-15T17:22:41+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province",
+    "accessed_at": "2026-11-15T17:22:41+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain",
+    "accessed_at": "2026-11-15T17:22:41+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+    "accessed_at": "2026-11-15T17:22:41+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86322767/Russia-says-Western-pressure-on-Iran-undermines-IAEA-impartiality",
+    "accessed_at": "2026-11-15T17:22:41+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21855116",
+    "accessed_at": "2026-11-15T17:22:41+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1388736",
+    "accessed_at": "2026-11-15T17:22:41+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-blames-israel-cyber-attack-supermarket-fridges",
+    "accessed_at": "2026-11-15T17:22:41+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133648",
+    "accessed_at": "2026-11-15T17:22:41+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49598",
+    "accessed_at": "2026-11-15T17:22:41+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95037",
+    "accessed_at": "2026-11-15T17:22:41+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383961437",
+    "accessed_at": "2026-11-15T17:22:41+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/sy9qslprfg",
+    "accessed_at": "2026-11-15T17:22:41+00:00"
+   }
+  ]
+ }
+}

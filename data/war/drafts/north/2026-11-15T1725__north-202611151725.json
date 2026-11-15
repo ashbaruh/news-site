@@ -1,0 +1,569 @@
+{
+ "status": "draft",
+ "received_sha256_12": "fc6c49eaf3a7",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "verified": 2,
+   "shared_root": 3,
+   "initial": 4,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-15T17:25:38+00:00",
+  "window": {
+   "from": "2026-11-14T17:25:38+00:00",
+   "to": "2026-11-15T17:25:38+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202611151725"
+  },
+  "summary": "בגזרה הצפונית נמשכת פעילות צבאית קרקעית ואווירית אינטנסיבית של כוחות צה\"ל בדרום לבנון להשמדת תשתיות תת-קרקעיות של חיזבאללה, לצד תקיפות ארטילריות ואוויריות נרחבות. במקביל נרשמת דריכות מדינית בביירות סביב תום מנדט כוח יוניפי\"ל וביקורים דיפלומטיים מערביים וערביים. בסוריה נמשכת אי-היציבות הביטחונית המתבטאת בפיגועי מטענים בפרברי הבירה לצד ניסיונות של השלטון להרחיב תיאום כלכלי ואזורי.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "פעילות מבצעית שוטפת של צה\"ל להשמדת תשתיות חיזבאללה, תקיפות באש והפגזות יומיומיות"
+   },
+   {
+    "name": "הזירה הפנימית בסוריה",
+    "status": "פיגועי טרור ומטעני חבלה באזור דמשק לצד מאמצי שיקום ותיאום גבולות מול ירדן"
+   },
+   {
+    "name": "הזירה הפוליטית-מדינית בלבנון",
+    "status": "מגעים דיפלומטיים סביב מנדט יוניפי\"ל והסדרים עתידיים בהשתתפות נציגי ארה\"ב וסעודיה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11151725-01",
+    "title": "השמדת תוואי תת-קרקעי של חיזבאללה במג'דל זון בדרום לבנון",
+    "summary": "כוחות חטיבה 300 בפיקוד אוגדה 91 ובשיתוף יהל\"ם השמידו תוואי תת-קרקעי באורך של כ-35 מטרים ובו שני חדרי שהייה בכפר מג'דל זון להסרת איומים.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T15:05:46+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T15:05:46+00:00",
+    "last_update_at": "2026-11-15T15:17:23+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21856851",
+      "published_at": "2026-11-15T15:17:23+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1388711",
+      "published_at": "2026-11-15T15:13:13+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25610",
+      "published_at": "2026-11-15T15:05:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מג'דל זון, לבנון",
+      "lat": 33.1503,
+      "lon": 35.226
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11151725-02",
+    "title": "תקיפות אוויריות, ארטילריה ופיצוצים יזומים של צה\"ל בדרום לבנון",
+    "summary": "כוחות צה\"ל ביצעו תקיפות אוויריות, ירי ארטילרי ופיצוצים יזומים במספר כפרים ואזורים בדרום לבנון, בהם כפרתבנית, אלקנטרה, אל-ח'יאם, ואדי אל-חג'יר וחדאת'א, לצד טיסות מטוסי קרב בגובה נמוך מעל ביירות.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T08:57:58+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-15T08:57:58+00:00",
+    "last_update_at": "2026-11-15T12:26:22+00:00",
+    "what_is_not_verified": "פירוט היקף הנפגעים או הנזקים כתוצאה מהתקיפות לא צוין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/151167/",
+      "published_at": "2026-11-15T12:26:22+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/151127/",
+      "published_at": "2026-11-15T10:41:34+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/151087/",
+      "published_at": "2026-11-15T09:18:00+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133668",
+      "published_at": "2026-11-15T09:00:50+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/151077/",
+      "published_at": "2026-11-15T08:57:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-ח'יאם, לבנון",
+      "lat": 33.3272,
+      "lon": 35.609
+     },
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11151725-03",
+    "title": "פיצוץ מכונית תופת בפרבר דמשק",
+    "summary": "מטען שהוטמן במכונית התפוצץ בעיר ג'רמאנא בפרברי דמשק, והביא למותם של שני בני אדם, בהם ילדה, ולפציעתו של אדם נוסף.",
+    "axis": "הזירה הפנימית בסוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T18:51:01+00:00",
+    "last_update_at": "2026-11-15T07:52:17+00:00",
+    "what_is_not_verified": "זהות הגורם המבצע אינה ודאית, כוחות הביטחון פתחו בחקירה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-670",
+      "published_at": "2026-11-15T07:52:17+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/car-bomb-damascus-suburb-kills-two-including-child",
+      "published_at": "2026-11-15T03:45:46+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/car-bomb-near-syria-capital-kills-two-people-including-child",
+      "published_at": "2026-11-14T21:14:41+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/2-killed-including-girl-in-car-blast-in-syria-s-rural-damascus/4125396",
+      "published_at": "2026-11-14T18:51:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'רמאנא, סוריה",
+      "lat": 33.4864,
+      "lon": 36.3483
+     },
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11151725-04",
+    "title": "שריפה במחנה פליטים סורים בבקעת הלבנון",
+    "summary": "דליקה כילתה לחלוטין מחנה פליטים סורים באזור בר אליאס שבמזרח בקעת הלבנון, השמידה 59 אוהלים והותירה כ-500 בני אדם מחוסרי בית, ללא נפגעים בנפש.",
+    "axis": "לבנון - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T23:12:18+00:00",
+    "last_update_at": "2026-11-15T14:55:40+00:00",
+    "what_is_not_verified": "הסיבה לפרוץ הדליקה במחנה לא צוינה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/flames-engulf-syrian-refugee-camp-in-eastern-lebanon?traffic_source=rss",
+      "published_at": "2026-11-15T14:55:40+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/fire-destroys-syrian-refugee-camp-in-lebanon-leaving-nearly-500-homeless/4125459",
+      "published_at": "2026-11-14T23:12:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בר אליאס, לבנון",
+      "lat": 33.7744,
+      "lon": 35.9044
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11151725-05",
+    "title": "ביטול הגבלות הכניסה לאזרחי ארה\"ב ובריטניה בסוריה",
+    "summary": "הרשויות בסוריה ביטלו את הדרישה שהוטלה זמן קצר קודם לכן לקבלת אישור כניסה מראש עבור אזרחי ארצות הברית ובריטניה, והחזירו את האפשרות לקבלת אשרה עם ההגעה.",
+    "axis": "הזירה הפנימית בסוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T18:14:17+00:00",
+    "last_update_at": "2026-11-14T18:14:17+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49584",
+      "published_at": "2026-11-14T18:14:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11151725-06",
+    "title": "חשיפת תחקיר על פעולות מודיעין של ישראל בסוריה, טורקיה ולבנון בתיק רון ארד",
+    "summary": "תחקיר עיתונאי בארה\"ב חשף כי ישראל חטפה בעבר בכירים איראנים מדמשק ומאיסטנבול כדי להשיג מידע על רון ארד, וכי ההערכות הנוכחיות גורסות שארד מת בלבנון בשנת 1988 ונקבר באזור נבי שית.",
+    "axis": "ישראל - לבנון - סוריה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T11:16:16+00:00",
+    "last_update_at": "2026-11-15T12:03:05+00:00",
+    "what_is_not_verified": "אמיתות הטענות לגבי גורל הנווט ומעשי החטיפה וההריגה מבוססת על תחקיר עיתונאי וגורמים עלומים ולא אומתה רשמית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49598",
+      "published_at": "2026-11-15T12:03:05+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95037",
+      "published_at": "2026-11-15T12:01:33+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21855116",
+      "published_at": "2026-11-15T11:45:24+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/h1uvp3hrzg",
+      "published_at": "2026-11-15T11:16:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     },
+     {
+      "name": "נבי שית, לבנון",
+      "lat": 33.8887,
+      "lon": 36.1181
+     },
+     {
+      "name": "איסטנבול, טורקיה",
+      "lat": 41.0064,
+      "lon": 28.9759
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11151725-07",
+    "title": "חתימת הסכמי שיתוף פעולה בין סוריה לירדן בדמשק",
+    "summary": "ממשלות סוריה וירדן חתמו בדמשק על 11 הסכמים ותזכירי הבנות בתחומי תחבורה, מעברי גבול, תעופה ומזון במסגרת מועצת התיאום העליונה, זמן קצר לאחר תקיפות ירדניות בדרום סוריה.",
+    "axis": "הזירה הפנימית בסוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-09T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T17:20:22+00:00",
+    "last_update_at": "2026-11-15T17:20:22+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.enabbaladi.net/archives/2026/11/syria-and-jordan-from-civilian-airstrike-crisis-to-higher-coordination-council/",
+      "published_at": "2026-11-15T17:20:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11151725-08",
+    "title": "פגישת נשיא לבנון עם יועץ שר החוץ הסעודי בבעבדא",
+    "summary": "נשיא לבנון ז'וזף עון נועד בארמון בעבדא עם הנסיך יזיד בן פרחאן, יועצו של שר החוץ הסעודי, לדיון בהתפתחויות האחרונות.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T13:20:35+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T13:20:35+00:00",
+    "last_update_at": "2026-11-15T13:20:35+00:00",
+    "what_is_not_verified": "תוכן השיחות המדויק מעבר לדיון בהתפתחויות לא פורט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_lbci",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/968098/president-aoun-meets-saudi-foreign-ministers-adviser-in-baabda/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968098",
+      "published_at": "2026-11-15T13:20:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בעבדא, לבנון",
+      "lat": 33.8336,
+      "lon": 35.5446
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11151725-09",
+    "title": "הגעת שגריר ארה\"ב באו\"ם מייק וולץ ללבנון",
+    "summary": "שגריר ארצות הברית באו\"ם מייק וולץ נחת בלבנון במסגרת ביקור רשמי במדינה.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T09:00:07+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-15T09:00:07+00:00",
+    "last_update_at": "2026-11-15T09:00:07+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_lbci",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/968069/us-ambassador-to-the-united-nations-mike-waltz-arrives-in-lebanon/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968069",
+      "published_at": "2026-11-15T09:00:07+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11151725-10",
+    "title": "תרגיל הקמת בית חולים שדה נייד בחטיבת כרמלי",
+    "summary": "חטיבת המילואים כרמלי קיימה אימון הקמה ראשון של בית חולים שדה נייד עם חדר ניתוח, לאחר פעילות מבצעית בעזה, בלבנון ובסוריה.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T17:02:14+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T17:02:14+00:00",
+    "last_update_at": "2026-11-15T17:02:14+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25612",
+      "published_at": "2026-11-15T17:02:14+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "הממצאים והטענות בנוגע לנסיבות מותו או מקום קבורתו של רון ארד בלבנון מבוססים על תחקיר תקשורתי ולא אומתו רשמית",
+   "מידת השיוך של מחסן הנשק שנתפס ברובע הדאחייה על ידי צבא לבנון לארגון חיזבאללה",
+   "זהות האחראים לפיצוץ מכונית התופת בג'רמאנא שבפרברי דמשק",
+   "סיבת השריפה שפרצה במחנה הפליטים בבר אליאס"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2107,
+    "unit": "ILS",
+    "change_pct": 0.23,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת איומים במרחב הביטחוני בדרום לבנון",
+     "מניעת פגיעה של חיזבאללה באזרחי ישראל ובכוחות צה\"ל",
+     "מחויבות להסכם הפסקת האש"
+    ],
+    "inferred": [
+     "השמדה שיטתית של תשתיות צבאיות תת-קרקעיות של חיזבאללה סמוך לגבול",
+     "הפעלת לחץ צבאי רציף בדרום לבנון למניעת התבססות מחודשת של חיזבאללה"
+    ],
+    "forecast": [
+     "צה\"ל ימשיך בפעולות חשיפה והשמדה ממוקדות של מנהרות ומחסני נשק בדרום לבנון",
+     "תימשך הכוננות הלוגיסטית והרפואית של יחידות צה\"ל לאפשרות של הסלמה"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "זכות ההתנגדות להגן על המדינה ולפעול לשחרור אדמות כבושות בכל האמצעים",
+     "קריאה להידברות פנים-לבנונית על בסיס הסכם הטאיף והחוקה",
+     "היעדר התנגדות לקיום משא ומתן עקיף עם ישראל"
+    ],
+    "inferred": [
+     "שימור הלגיטימציה של הנשק והמערך הצבאי בזירה הפוליטית בלבנון",
+     "הסוואת תשתיות צבאיות במרחבים אזרחיים ובקרבת עמדות יוניפי\"ל"
+    ],
+    "forecast": [
+     "המשך ניסיונות להיאחז פוליטית וצבאית במרחב תוך הדיפת קריאות לפירוק מנשק",
+     "נכונות למהלכים דיפלומטיים עקיפים להבטחת אינטרסים מול ישראל"
+    ]
+   },
+   {
+    "actor": "סוריה (הממשל החדש)",
+    "declared": [
+     "הקמת מרשם נפגעים לאומי כחלק ממהלכי צדק מעברי והכרה בזכויות קורבנות",
+     "הידוק שיתוף הפעולה הכלכלי, התחבורתי והביטחוני עם ירדן"
+    ],
+    "inferred": [
+     "חיזוק המשילות הפנימית והתמודדות עם תאי טרור של המדינה האסלאמית",
+     "עידוד כניסת תיירים ופתיחות בינלאומית באמצעות הקלת נהלי כניסה"
+    ],
+    "forecast": [
+     "המשך מאמצים לשיקום מוסדות המדינה והכלכלה מול אתגרי טרור בלתי פוסקים",
+     "העמקת תיאום הגבולות עם מדינות שכנות כדי למנוע חיכוכים צבאיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/flames-engulf-syrian-refugee-camp-in-eastern-lebanon?traffic_source=rss",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/151077/",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/fire-destroys-syrian-refugee-camp-in-lebanon-leaving-nearly-500-homeless/4125459",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/11/syria-and-jordan-from-civilian-airstrike-crisis-to-higher-coordination-council/",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21855116",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/968069/us-ambassador-to-the-united-nations-mike-waltz-arrives-in-lebanon/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968069",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1388711",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/car-bomb-damascus-suburb-kills-two-including-child",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/car-bomb-near-syria-capital-kills-two-people-including-child",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133668",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49598",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25612",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95037",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/h1uvp3hrzg",
+    "accessed_at": "2026-11-15T17:25:38+00:00"
+   }
+  ]
+ }
+}
