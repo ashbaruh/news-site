@@ -1,0 +1,409 @@
+{
+ "status": "draft",
+ "received_sha256_12": "69e1f7eb6746",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 3,
+   "initial": 3,
+   "assessment": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-15T00:40:22+00:00",
+  "window": {
+   "from": "2026-11-14T00:40:22+00:00",
+   "to": "2026-11-15T00:40:22+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611150040"
+  },
+  "summary": "המתיחות בין איראן לבין ארה\"ב וישראל מתעצמת במוקדים ימיים וסביב סוגיית הגרעין. במצר הורמוז נפגעו מיכליות נפט ואיראן הודיעה על יירוט כטב\"ם אמריקני, לצד איומים איראניים בפגיעה בבסיסי ארה\"ב. במקביל, בישראל נערכים לפעולה אפשרית מול התחדשות תוכנית הגרעין האיראנית על רקע היעדר פיקוח בינלאומי, בעוד בארה\"ב מתלבטים האם לתקוף או לפנות לנתיב דיפלומטי בפסגות בינלאומיות.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ הפרסי",
+    "status": "הסלמה ימית הכוללת פגיעה במיכליות נפט, איומי מוקשים ויירוט כטב\"ם אמריקני"
+   },
+   {
+    "name": "חזית הגרעין האיראני",
+    "status": "חשש מאיבוד פיקוח סבא\"א על מתקן העשרה באיספהאן והיערכות ישראלית לפעולה"
+   },
+   {
+    "name": "החזית המדינית והמודיעינית מול ארה\"ב",
+    "status": "התרעות על כוונות פגיעה בבכירים אמריקנים וחילוקי דעות פוליטיים בוושינגטון סביב המשך הלחימה"
+   },
+   {
+    "name": "חזית מדינות המפרץ",
+    "status": "דרישה רשמית לפיצויים כספיים מאיראן על אלפי שיגורי טילים וכטב\"מים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11150040-01",
+    "title": "פגיעה במיכליות נפט במצר הורמוז",
+    "summary": "חיל הים של משמרות המהפכה טוען כי מספר מיכליות נפט נפגעו ממוקשים ימיים ועלו באש במצר הורמוז עקב שייט בנתיבים אסורים.",
+    "axis": "מצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T12:27:12+00:00",
+    "last_update_at": "2026-11-14T23:46:29+00:00",
+    "what_is_not_verified": "האם מדובר במוקשים ימיים כפי שטוענת איראן או בתקיפות ישירות ומבצע תודעה, ומספרן המדויק של המיכליות שנפגעו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/irans-navy-says-three-tankers-fire-after-hitting-mines-hormuz",
+      "published_at": "2026-11-14T23:46:29+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-says-two-oil-tankers-hit-mines-strait-hormuz",
+      "published_at": "2026-11-14T22:20:55+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1388393",
+      "published_at": "2026-11-14T22:00:53+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hktw00kl0zl",
+      "published_at": "2026-11-14T16:13:25+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-tanker-fire-strait-hormuz-iran-navy",
+      "published_at": "2026-11-14T12:27:12+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11150040-02",
+    "title": "יירוט כלי טיס בלתי מאויש אמריקני מעל האי קשם",
+    "summary": "משמרות המהפכה באיראן הודיעו כי יירטו והפילו כטב\"ם אמריקני מסוג פרדטור מעל האי קשם באמצעות מערכת הגנה אווירית מתקדמת.",
+    "axis": "איראן-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T12:33:51+00:00",
+    "last_update_at": "2026-11-14T12:33:51+00:00",
+    "what_is_not_verified": "אין אימות או אישור רשמי מצד צבא ארה\"ב על הפלת הכטב\"ם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-said-it-intercepted-us-mq-1-predator-drone-over-qeshm-island",
+      "published_at": "2026-11-14T12:33:51+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי קשם, איראן",
+      "lat": 26.7687,
+      "lon": 55.8477
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11150040-03",
+    "title": "העברת מודיעין ישראלי לארה\"ב על כוונות פגיעה בבכירי הבית הלבן",
+    "summary": "המוסד העביר לסוכנות הביון המרכזית בארה\"ב מידע מודיעיני אודות תוכנית איראנית לפגוע בנשיא טראמפ ובבכירי ממשלו, מה שהוביל להגברת אבטחה סביבם.",
+    "axis": "ישראל-איראן-ארה\"ב",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T18:03:33+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T18:03:33+00:00",
+    "last_update_at": "2026-11-14T18:03:33+00:00",
+    "what_is_not_verified": "דיווח המבוסס על גורמים בכירים ללא הצגת מסמכים או אישור פומבי רשמי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/geopolitics/article/21850141",
+      "published_at": "2026-11-14T18:03:33+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11150040-04",
+    "title": "חשש סבא\"א ממתקן העשרה איראני באיספהאן",
+    "summary": "סבא\"א מביעה דאגה בדו\"ח חשאי בנוגע למתקן העשרה באיספהאן שמיקומו המדויק ומצבו אינם ידועים לה, ואינה יכולה לקבוע שלא הוסט ממנו חומר גרעיני.",
+    "axis": "גרעין איראני",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T16:13:25+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T16:13:25+00:00",
+    "last_update_at": "2026-11-14T17:12:55+00:00",
+    "what_is_not_verified": "מיקומו המדויק ומצבו של המתקן ומצב האורניום המועשר שבו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21850341",
+      "published_at": "2026-11-14T17:12:55+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hktw00kl0zl",
+      "published_at": "2026-11-14T16:13:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "איספהאן, איראן",
+      "lat": 32.6708,
+      "lon": 51.665
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11150040-05",
+    "title": "איום טלוויזיוני באיראן בטיל מותאם נגד בסיסים באירופה",
+    "summary": "הטלוויזיה הממלכתית של איראן שידרה אזהרה לפיה גרסאות מותאמות של הטיל ח'רמשהר יוכלו לפגוע בבסיסים צבאיים של ארה\"ב באירופה, וציינה במפורש בסיס בבריטניה.",
+    "axis": "איראן-ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T19:04:34+00:00",
+    "last_update_at": "2026-11-14T19:46:06+00:00",
+    "what_is_not_verified": "היכולת המבצעית בפועל של הטיל המותאם להגיע ליעדים אלה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133648",
+      "published_at": "2026-11-14T19:46:06+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611141458",
+      "published_at": "2026-11-14T19:04:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "רפא\"ף פיירפורד, בריטניה",
+      "lat": 51.6851,
+      "lon": -1.7865
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11150040-06",
+    "title": "דרישת מדינות המפרץ לפיצויים מאיראן במועצת הביטחון",
+    "summary": "מועצת שיתוף הפעולה של מדינות המפרץ פנתה למועצת הביטחון בדרישה לחייב את איראן לשלם פיצויים על נזקי אלפי טילים וכטב\"מים ששוגרו מאז פברואר, ולהכלילן בכל מו\"מ.",
+    "axis": "איראן-מדינות המפרץ",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T14:34:56+00:00",
+    "last_update_at": "2026-11-14T14:34:56+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49577",
+      "published_at": "2026-11-14T14:34:56+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11150040-07",
+    "title": "הכחשת משמרות המהפכה לתקיפות סייבר בצרפת והאשמת ישראל",
+    "summary": "דובר משמרות המהפכה דחה את האשמות צרפת לגבי חבלה במערכות קירור במרכולים, וטען כי מדובר בפרובוקציה ישראלית שנועדה להשחיר את איראן באירופה.",
+    "axis": "איראן-אירופה-ישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T20:08:15+00:00",
+    "last_update_at": "2026-11-14T20:39:02+00:00",
+    "what_is_not_verified": "זהות מבצעי מתקפת הסייבר בצרפת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_fcb05e069e954cce",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-denies-role-french-supermarket-cyberattacks",
+      "published_at": "2026-11-14T20:39:02+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_fcb05e069e954cce",
+      "url": "https://en.irna.ir/news/86321812/General-Mohebbi-Rdiculous-claim-of-attack-on-cooling-systems",
+      "published_at": "2026-11-14T20:08:15+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11150040-08",
+    "title": "הדחת מפקדי ספינות מלחמה של צבא ארה\"ב בזירת איראן",
+    "summary": "הצי האמריקני הדיח מפקדים בכירים, בהם מפקדת משחתת שפעלה לתמיכה במבצעים מול איראן ומפקדי צוללת תקיפה גרעינית, בעילה של אובדן אמון ותאונות.",
+    "axis": "איראן-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T16:34:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T16:34:57+00:00",
+    "last_update_at": "2026-11-14T16:34:57+00:00",
+    "what_is_not_verified": "הקשר הישיר המלא בין ההדחות לבין הפעילות המבצעית מול איראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/loss-confidence-us-navy-fires-commanders-warships-deployed-against-iran",
+      "published_at": "2026-11-14T16:34:57+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר המיכליות המדויק שנפגעו במצר הורמוז והאם מדובר במוקשים ימיים או בפגיעות ישירות",
+   "טענת איראן בדבר יירוט מוצלח של כטב\"ם אמריקני מעל האי קשם",
+   "מיקומו המדויק ומצבו של מתקן העשרת האורניום האיראני באיספהאן",
+   "מידת המוכנות של טילי ח'רמשהר לפגוע בבסיסים באירופה ובבריטניה",
+   "כוונות ממשיות ומעשיות של איראן להתנקש בנשיא טראמפ ובבכירי ממשלו"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2107,
+    "unit": "ILS",
+    "change_pct": 0.23,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הרתעת כלי שיט ממעבר בנתיבים לא מורשים במצר הורמוז",
+     "יירוט כלי טיס זרים החודרים לתחומה ומניעת משימות סיור",
+     "הכחשת מעורבות בחבלות סייבר באירופה וייחוסן לישראל"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי עולמי באמצעות פגיעה בחופש השיט במצר הורמוז",
+     "קידום תוכנית הגרעין והרחקת פיקוח בינלאומי תוך יצירת מרחב עמימות"
+    ],
+    "forecast": [
+     "המשך הגבלות ופגיעות ממוקדות בשיט במצר הורמוז להעלאת מחירי האנרגיה",
+     "האצת השיח הפנימי והמעשי לקראת פריצת דרך בתוכנית הגרעין"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעה מוחלטת מאיראן להגיע לנשק גרעיני",
+     "הסרת האיום הקיומי הנשקף מחידוש פרויקט הגרעין"
+    ],
+    "inferred": [
+     "הכשרת הקרקע המדינית והצבאית לתקיפה עצמאית באיראן ללא תלות בארה\"ב",
+     "הפעלת לחץ מודיעיני ופוליטי על הממשל האמריקני שלא להגיע להסדר עם טהרן"
+    ],
+    "forecast": [
+     "המשך עדכון בנק המטרות והגברת הכוננות לפעולה צבאית באיראן",
+     "העמקת התיאום המודיעיני עם בעלות ברית מערביות נגד כוונות תקיפה איראניות"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "תגבור מערכות הגנה לישראל והגנה על כוחות אמריקניים במרחב",
+     "בחינת אפשרות להימנע מתקיפות באיראן אם לא יהיו פרובוקציות חדשות"
+    ],
+    "inferred": [
+     "ניסיון להכיל את העימות מול איראן כדי להתמקד בפסגות בינלאומיות וביחסים מול סין ורוסיה",
+     "מאבק פוליטי פנימי בין חתירה לסיום המלחמה לבין הפעלת לחץ מקסימלי"
+    ],
+    "forecast": [
+     "המשך הימנעות מתקיפה יזומה רחבה באיראן כל עוד לא ייחצו קווים אדומים ישירים",
+     "העלאת סוגיית איראן והפיקוח על הגרעין במסגרת מגעים דיפלומטיים מול המעצמות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/irans-navy-says-three-tankers-fire-after-hitting-mines-hormuz",
+    "accessed_at": "2026-11-15T00:40:22+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611141458",
+    "accessed_at": "2026-11-15T00:40:22+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86321812/General-Mohebbi-Rdiculous-claim-of-attack-on-cooling-systems",
+    "accessed_at": "2026-11-15T00:40:22+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21850341",
+    "accessed_at": "2026-11-15T00:40:22+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1388393",
+    "accessed_at": "2026-11-15T00:40:22+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/loss-confidence-us-navy-fires-commanders-warships-deployed-against-iran",
+    "accessed_at": "2026-11-15T00:40:22+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133648",
+    "accessed_at": "2026-11-15T00:40:22+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49577",
+    "accessed_at": "2026-11-15T00:40:22+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hktw00kl0zl",
+    "accessed_at": "2026-11-15T00:40:22+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,449 @@
+{
+ "status": "draft",
+ "received_sha256_12": "339cdb5027cc",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "shared_root": 3,
+   "initial": 4,
+   "verified": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-15T00:49:07+00:00",
+  "window": {
+   "from": "2026-11-14T00:49:07+00:00",
+   "to": "2026-11-15T00:49:07+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202611150049"
+  },
+  "summary": "בגזרה הצפונית נמשכת פעילות צבאית ואיסופית של ישראל בדרום לבנון ובדרום סוריה, הכוללת תקיפות מהאוויר ועבודות הנדסיות במרחב הגבול. במקביל, השלטונות בדמשק ובביירות מתמודדים עם אתגרי פנים מורכבים הכוללים פיגועי תופת, הברחות נשק ומשבר פליטים. ברמה האזורית, טורקיה מחזקת בריתות ביטחוניות בעלות זיקה לסוריה, בעוד גורמים בישראל מתנים הסדרים עתידיים בהרחקת כוחותיה מהזירה.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "חיכוך צבאי מתמשך הכולל תקיפות אוויריות ואיסוף מודיעיני ישראלי מול לחצים להסדרת מנדט יוניפי\"ל ויישום החלטה 1701"
+   },
+   {
+    "name": "דמשק ודרום סוריה",
+    "status": "חוסר יציבות פנימי ופיגועי תופת לצד פעילות קרקעית הנדסית של ישראל בגבול דרעא"
+   },
+   {
+    "name": "הזירה הפנים-לבנונית",
+    "status": "מאמצי אכיפה של צבא לבנון נגד מחסני נשק בפרברי ביירות ברקע משבר כלכלי ואתגרי פליטים"
+   },
+   {
+    "name": "מעורבות טורקיה בזירה הצפונית",
+    "status": "העמקת תיאום והסכמי הגנה אזוריים הנוגעים לסוריה מול דרישות ישראליות לסילוק כוחותיה מהמרחב הסורי"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11150049-01",
+    "title": "פיצוץ מכונית תופת בפרבר של דמשק",
+    "summary": "מטען שהוטמן במכונית התפוצץ בעיר ג'רמאנא שבפרברי דמשק, וגרם למותם של אב ובתו ולפציעת אדם נוסף, בעוד כוחות הביטחון פתחו בחקירה.",
+    "axis": "דמשק ודרום סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T18:51:01+00:00",
+    "last_update_at": "2026-11-14T22:43:12+00:00",
+    "what_is_not_verified": "זהות המבצעים המדויקת לא אומתה, אם כי בעבר יוחסו פיגועים דומים לתאי המדינה האסלאמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child?traffic_source=rss",
+      "published_at": "2026-11-14T22:43:12+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/car-bomb-near-syria-capital-kills-two-people-including-child",
+      "published_at": "2026-11-14T21:14:41+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
+      "published_at": "2026-11-14T19:46:36+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/2-killed-including-girl-in-car-blast-in-syria-s-rural-damascus/4125396",
+      "published_at": "2026-11-14T18:51:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'רמאנא, סוריה",
+      "lat": 33.4864,
+      "lon": 36.3483
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11150049-02",
+    "title": "תקיפה אווירית ישראלית בדרום לבנון",
+    "summary": "כלי טיס של חיל האוויר הישראלי ביצע תקיפה בפאתי הכפר קנטרה לכיוון ואדי אל-חג'יר שבדרום לבנון.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T16:28:21+00:00",
+    "last_update_at": "2026-11-14T16:28:21+00:00",
+    "what_is_not_verified": "היקף הנפגעים או הנזק המדויק בתקיפה לא פורט בדיווח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_86b7b6be3b90edf4",
+      "url": "https://english.almanar.com.lb/article/150897/",
+      "published_at": "2026-11-14T16:28:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קנטרה, לבנון",
+      "lat": 33.2735,
+      "lon": 35.4591
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11150049-03",
+    "title": "פשיטת צבא לבנון על מחסן אמצעי לחימה בפרבר הדרומי של ביירות",
+    "summary": "כוחות צבא לבנון ערכו מבצע ביטחוני מיוחד באזור ע'בירי, פשטו על מחסן אמצעי לחימה, החרימו כמות גדולה של נשק ותחמושת ועצרו חשוד אחד לחקירה.",
+    "axis": "הזירה הפנים-לבנונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T16:17:37+00:00",
+    "last_update_at": "2026-11-14T16:17:37+00:00",
+    "what_is_not_verified": "ההודעה הרשמית של צבא לבנון לא ציינה לאיזה ארגון השתייכו אמצעי הלחימה שנתפסו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_6fc8f5206f6fae30",
+      "url": "https://www.newarab.com/news/lebanese-army-says-seized-arms-depot-southern-beirut-suburb",
+      "published_at": "2026-11-14T16:17:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ע'בירי, לבנון",
+      "lat": 33.8598,
+      "lon": 35.5057
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11150049-04",
+    "title": "שריפה כילתה מחנה פליטים סורים בבקעת הלבנון",
+    "summary": "דליקה שפרצה במחנה פליטים סורים בבר אליאס החריבה עשרות אוהלים והותירה כחמש מאות בני אדם ללא קורת גג, ללא נפגעים בנפש.",
+    "axis": "הזירה הפנים-לבנונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T12:34:16+00:00",
+    "last_update_at": "2026-11-14T23:12:18+00:00",
+    "what_is_not_verified": "הגורם לפרוץ השריפה במחנה לא צוין.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/fire-destroys-syrian-refugee-camp-in-lebanon-leaving-nearly-500-homeless/4125459",
+      "published_at": "2026-11-14T23:12:18+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/967994/fire-breaks-out-at-syrian-refugee-camp-in-bar-elias-video/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967994",
+      "published_at": "2026-11-14T12:34:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בר אליאס, לבנון",
+      "lat": 33.7744,
+      "lon": 35.9044
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11150049-05",
+    "title": "עבודות הנדסיות של צה\"ל לסלילת דרך בדרום סוריה",
+    "summary": "יחידות הנדסה של צה\"ל החלו בעבודות לפינוי שטח ולהקמת דרך חדשה באזור ואדי סיחאן בסמוך לכפר עבידין במערב מחוז דרעא.",
+    "axis": "דמשק ודרום סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T12:59:12+00:00",
+    "last_update_at": "2026-11-14T12:59:12+00:00",
+    "what_is_not_verified": "המידע נסמך על מקור רוסי בלבד וטרם התקבל אישור רשמי מגורמים ישראליים או סוריים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49576",
+      "published_at": "2026-11-14T12:59:12+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11150049-06",
+    "title": "הפעלת טייסת כטב\"מים ייעודית של השב\"כ בדרום לבנון",
+    "summary": "טייסת כלי טיס בלתי מאוישים שהוקמה בשירות הביטחון הכללי פועלת באופן מבצעי עצמאי בדרום לבנון, לצד פעילותה ברצועת עזה וביהודה ושומרון.",
+    "axis": "דרום לבנון",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-14T17:45:43+00:00",
+    "last_update_at": "2026-11-14T17:45:43+00:00",
+    "what_is_not_verified": "היקף הפעילות המדויק וסוגי הכלים המופעלים בזירה הלבנונית נותרו חסויים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21850469",
+      "published_at": "2026-11-14T17:45:43+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11150049-07",
+    "title": "טורקיה וקטאר חתמו על הסכם הגנה הדדית עם התייחסות לסוריה",
+    "summary": "באיסטנבול נחתם הסכם הגנה משותף בין טורקיה לקטאר הכולל התחייבות לסיוע הדדי במקרה של תקיפה חיצונית ועמדות מתואמות בנושאי ביטחון אזורי וסוריה.",
+    "axis": "מעורבות טורקיה בזירה הצפונית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T06:55:03+00:00",
+    "last_update_at": "2026-11-14T15:28:52+00:00",
+    "what_is_not_verified": "פרטי התיאום המבצעי המדויקים בסוריה לא פורטו בהצהרה המשותפת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95030",
+      "published_at": "2026-11-14T15:28:52+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/politics/turkiye-qatar-reaffirm-defense-ties-call-for-diplomacy-on-iran/4124881",
+      "published_at": "2026-11-14T06:55:03+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "איסטנבול, טורקיה",
+      "lat": 41.0064,
+      "lon": 28.9759
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11150049-08",
+    "title": "הצהרת נשיא לבנון בנוגע להחלטה 1701 ומנדט יוניפי\"ל",
+    "summary": "נשיא לבנון הדגיש בפני סגנית מזכ\"ל האו\"ם כי חידוש מנדט כוח יוניפי\"ל הוא עדיפות עליונה, וכי החלטה 1701 חייבת להישאר הבסיס החוקי לכל הסדר ביטחוני בדרום המדינה.",
+    "axis": "דרום לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T08:16:26+00:00",
+    "last_update_at": "2026-11-14T08:16:26+00:00",
+    "what_is_not_verified": "טרם סוכם מנגנון חלופי רשמי למניעת ואקום ביטחוני במידה והמנדט ישתנה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/967967/aoun-unifils-mandate-must-be-renewed-with-resolution-1701-remaining-th/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967967",
+      "published_at": "2026-11-14T08:16:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11150049-09",
+    "title": "דיווח על מגעים להסדר ביטחוני ישראלי מול סוריה בדרישה לסילוק כוחות זרים",
+    "summary": "פורסם כי בישראל נבחנת אפשרות להסכם ביטחוני מול דמשק שיכלול אזור מפורז בדרום סוריה וחזרה להסכם 1974 למעט מוצב החרמון, לצד דרישה לפינוי כוחות טורקיים ורוסיים מהמדינה.",
+    "axis": "דמשק ודרום סוריה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T04:07:41+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-14T04:07:41+00:00",
+    "last_update_at": "2026-11-14T04:07:41+00:00",
+    "what_is_not_verified": "המגעים מול גורמים אמריקניים נסמכים על הדלפה בעיתונות הלבנונית ולא אומתו רשמית בירושלים או בדמשק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49572",
+      "published_at": "2026-11-14T04:07:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הר החרמון, סוריה",
+      "lat": 33.4169,
+      "lon": 35.8564
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "זהות האחראים לפיצוץ מכונית התופת בג'רמאנא שבסוריה טרם נקבעה באופן רשמי.",
+   "הדיווח הרוסי על אודות סלילת ציר חדש בידי כוחות הנדסה של צה\"ל באזור דרעא בסוריה לא אושר בידי ישראל.",
+   "ההשתייכות הארגונית של מחסן הנשק והתחמושת שנתפס בפרבר הדרומי של ביירות לא צוינה בהודעת צבא לבנון.",
+   "הדיווחים על יוזמה ישראלית להסכם ביטחוני מול דמשק והתנייתו בנסיגת כוחות טורקיה נשענים על מקורות תקשורתיים בלבד."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2107,
+    "unit": "ILS",
+    "change_pct": 0.23,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "סיכול התעצמות ואיומי טרור בקרבת הגבולות הצפוניים.",
+     "שמירה על חופש פעולה ביטחוני עצמאי של גופי המודיעין וצה\"ל."
+    ],
+    "inferred": [
+     "יצירת מרחב אבטחה מפורז מנשק כבד בדרום סוריה תוך שימור נקודות תצפית שולטות בחרמון.",
+     "בלימת ההשפעה והנוכחות הצבאית של טורקיה ורוסיה בסוריה."
+    ],
+    "forecast": [
+     "המשך פעילות איסוף באמצעות כטב\"מים ותקיפות מדויקות נגד התארגנויות חשודות בדרום לבנון."
+    ]
+   },
+   {
+    "actor": "לבנון (הממשל וצבא לבנון)",
+    "declared": [
+     "הבטחת הארכת המנדט של כוח יוניפי\"ל ושימור החלטה 1701 כבסיס לכל הסדר ביטחוני.",
+     "הכפפת אמצעי הלחימה במדינה לסמכות בלעדית של מוסדות המדינה."
+    ],
+    "inferred": [
+     "ריסון השפעתו הצבאית והעצמאית של חזבאללה ללא גרימת מלחמת אזרחים פנימית.",
+     "הפחתת הסיכון לעימות ישיר עם ישראל במטרה לקדם שיקום כלכלי."
+    ],
+    "forecast": [
+     "המשך פשיטות נקודתיות של הצבא על מצבורי תחמושת לצד הימנעות מעימות חזיתי כולל."
+    ]
+   },
+   {
+    "actor": "סוריה (שלטון המעבר)",
+    "declared": [
+     "חקירת אירועי הטרור, השבת היציבות הביטחונית ועידוד כניסת אזרחים זרים ותיירות.",
+     "הפעלת כוחות ביטחון פנים להגנה על ריכוזי אוכלוסייה."
+    ],
+    "inferred": [
+     "בלימת התעוררות תאי המדינה האסלאמית לאחר חילופי השלטון בדמשק.",
+     "מניעת חיכוך צבאי ישיר עם ישראל במרחב הגבול הדרומי."
+    ],
+    "forecast": [
+     "המשך התמודדות מורכבת עם פיגועי חבלה בפרברי הבירה ומאמץ לייצב את מעברי הגבול."
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "חיזוק קשרי ההגנה והסחר עם קטאר וגיבוש עמדות משותפות בנושאי ביטחון אזורי וסוריה.",
+     "התנגדות לפגיעה באוכלוסייה אזרחית במרחב המזרח התיכון."
+    ],
+    "inferred": [
+     "שמירה על אחיזה ומעמד השפעה מכריע בסוריה למרות לחצים מדיניים לנסיגת כוחותיה.",
+     "ביצור מעמדה ככוח אזורי מוביל באמצעות בריתות הגנה הדדיות."
+    ],
+    "forecast": [
+     "סירוב לסגת מהשטחים שבשליטתה בסוריה ללא ערבויות ביטחוניות לאינטרסים שלה."
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
+    "accessed_at": "2026-11-15T00:49:07+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/150897/",
+    "accessed_at": "2026-11-15T00:49:07+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/politics/turkiye-qatar-reaffirm-defense-ties-call-for-diplomacy-on-iran/4124881",
+    "accessed_at": "2026-11-15T00:49:07+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/defense/article/21850469",
+    "accessed_at": "2026-11-15T00:49:07+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/967967/aoun-unifils-mandate-must-be-renewed-with-resolution-1701-remaining-th/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-967967",
+    "accessed_at": "2026-11-15T00:49:07+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/lebanese-army-says-seized-arms-depot-southern-beirut-suburb",
+    "accessed_at": "2026-11-15T00:49:07+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49572",
+    "accessed_at": "2026-11-15T00:49:07+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95030",
+    "accessed_at": "2026-11-15T00:49:07+00:00"
+   }
+  ]
+ }
+}
