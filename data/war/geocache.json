@@ -161,6 +161,7 @@
 33.3103,
 35.6054
 ],
+"al-madariba, yemen": null,
 "al-mansouri, lebanon": [
 33.1737,
 35.2111
@@ -674,6 +675,10 @@
 "cherkaske, donetsk, ukraine": [
 48.8354,
 37.3884
+],
+"cherkasy, ukraine": [
+49.4447,
+32.0588
 ],
 "chernihiv oblast, ukraine": null,
 "chernihiv, ukraine": [
@@ -2326,6 +2331,10 @@
 "rykovo, ukraine": [
 46.3318,
 34.749
+],
+"rylsk, russia": [
+51.5705,
+34.6835
 ],
 "sa'ada, yemen": null,
 "saada governorate, yemen": null,

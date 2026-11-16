@@ -1,0 +1,624 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9596be1d62f5",
+ "preview": {
+  "events": 15,
+  "levels": {
+   "shared_root": 11,
+   "initial": 3,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-16T00:40:35+00:00",
+  "window": {
+   "from": "2026-11-15T00:40:35+00:00",
+   "to": "2026-11-16T00:40:35+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202611160040"
+  },
+  "summary": "העימות הצבאי בין אוקראינה לרוסיה ממשיך להתרחב בעומק שטחי שני הצדדים לצד לחצים בזירה הבינלאומית. כוחות אוקראינה מרחיבים תקיפות ארוכות טווח נגד תשתיות דלק, מפעלים ושדות תעופה צבאיים בתוך רוסיה, בעוד הצבא הרוסי מגביר מתקפות אוויריות ממוקדות על תשתיות אנרגיה וערים באוקראינה. ברקע המתיחות, עולות יוזמות והצעות להסדרים הכוללים ויתורים טריטוריאליים תמורת הצטרפות לנאט\"ו, לצד איומים רוסיים על נוכחות דיפלומטית מערבית.",
+  "fronts": [
+   {
+    "name": "חזית הדונבאס",
+    "status": "לחימה נמשכת, הפגזות הדדיות ודיונים מדיניים סביב נסיגה אפשרית"
+   },
+   {
+    "name": "עורף רוסיה (מחוזות אסטרחן, אוריול, קורסק, לנינגרד וטטרסטן)",
+    "status": "מתקפות כטב\"מים אוקראיניות ממושכות נגד מתקני אנרגיה, בסיסים צבאיים ומפעלים"
+   },
+   {
+    "name": "העורף האוקראיני (קייב, חרקוב, אודסה, צ'רקאסי)",
+    "status": "תקיפות אוויריות רוסיות על תשתיות קריטיות ומוסדות, והיערכות למתקפת טילים בליסטיים"
+   },
+   {
+    "name": "הגבול הצפון-מזרחי והמדינות הבלטיות",
+    "status": "מתיחות ביטחונית גבוהה וסגירת מעברי גבול בעקבות ניסיונות חבלה וריגול רוסיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11160040-01",
+    "title": "נפילת לוחמת ומפעילת כטב\"מים אוקראינית בקרבות",
+    "summary": "מאמנת האגרוף התאילנדי ומפעילת הכטב\"מים ריאנה, הלוחמת הראשונה בגדוד המתנדבים הצ'צ'ני על שם שייח' מנצור, נהרגה בקרב מול כוחות רוסיה.",
+    "axis": "קווי העימות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T16:44:37+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T16:44:37+00:00",
+    "last_update_at": "2026-11-16T00:34:00+00:00",
+    "what_is_not_verified": "המיקום המדויק ונסיבות המוות בשדה הקרב לא פורטו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-society/4184949-ukrainian-athlete-and-servicewoman-rayana-killed-in-action.html",
+      "published_at": "2026-11-16T00:34:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/fantastic-female-warrior-drone-operator-rayana-killed-fighting-russian-forces/",
+      "published_at": "2026-11-15T16:44:37+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11160040-02",
+    "title": "תקיפות אוקראיניות ופגיעה באזרחים באזור דונצק",
+    "summary": "כוחות אוקראינה שיגרו עשרות קליעים לעבר שטחי דונצק, וכתוצאה מכך נהרג אזרח אחד ונפצעו שמונה נוספים.",
+    "axis": "דונבאס",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T00:08:12+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T00:08:12+00:00",
+    "last_update_at": "2026-11-16T00:08:12+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לדיווח הרוסי על היקף הנפגעים ומספר השיגורים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/defense/2218427",
+      "published_at": "2026-11-16T00:08:12+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11160040-03",
+    "title": "טענת אוקראינה לפגיעה נרחבת ביכולת זיקוק הנפט של רוסיה",
+    "summary": "נשיא אוקראינה טען כי מתקפות הכטב\"מים של כוחותיו השביתו למעלה ממחצית מיכולת זיקוק הנפט של רוסיה, כתגובה לפגיעה בתשתיות האנרגיה האוקראיניות.",
+    "axis": "עורף רוסיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T20:20:37+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T20:20:37+00:00",
+    "last_update_at": "2026-11-15T23:30:24+00:00",
+    "what_is_not_verified": "היקף הפגיעה המדויק בכושר הזיקוק של רוסיה לא אומת באופן בלתי תלוי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukrainian-drone-attacks-neutralized-55-of-russias-oil-refining-capacity-zelensky-says/",
+      "published_at": "2026-11-15T23:30:24+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133700",
+      "published_at": "2026-11-15T20:20:37+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11160040-04",
+    "title": "חשש ממיקוש שטח עירוני בחרסון",
+    "summary": "תושבים בעיר חרסון הוזהרו מפני אפשרות שכוחות רוסיים פיזרו מוקשים או מטעני חבלה ברחוב בעיר.",
+    "axis": "חזית הדרום",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T22:34:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-15T22:34:00+00:00",
+    "last_update_at": "2026-11-15T22:34:00+00:00",
+    "what_is_not_verified": "לא אומת אם הונחו בפועל מוקשים בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4184839-residents-warned-of-possible-russian-mining-of-area-in-kherson.html",
+      "published_at": "2026-11-15T22:34:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרסון, אוקראינה",
+      "lat": 46.6401,
+      "lon": 32.6144
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11160040-05",
+    "title": "אסטוניה סוגרת מעברי גבול עם רוסיה בעקבות ניסיון חבלה במפעל כטב\"מים",
+    "summary": "רשויות אסטוניה הודיעו על סגירת כל מעברי הגבול עם רוסיה לאחר סיכול ניסיון הצתה וחבלה במפעל המייצר כטב\"מים עבור אוקראינה, פעולה שיוחסה למודיעין הצבאי הרוסי.",
+    "axis": "הזירה הבינלאומית והגבול הצפון-מזרחי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T03:06:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T15:51:00+00:00",
+    "last_update_at": "2026-11-15T22:17:09+00:00",
+    "what_is_not_verified": "מידת המעורבות הישירה של המודיעין הרוסי מעבר להצהרות שלטונות אסטוניה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker",
+      "published_at": "2026-11-15T22:17:09+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/estonia-to-close-border-with-russia-after-moscow-linked-sabotage-attempt-on-drone-maker/",
+      "published_at": "2026-11-15T20:13:19+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062971/",
+      "published_at": "2026-11-15T15:51:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11160040-06",
+    "title": "ביקור הנסיך הארי בלבוב ותמיכה בפצועי מלחמה",
+    "summary": "הנסיך הארי ערך ביקור פתע במערב אוקראינה, נפגש עם פצועי מלחמה ואנשי צוות רפואי, והביע תמיכה בניצחון אוקראינה במסגרת משחקי אינוויקטוס המקומיים.",
+    "axis": "מערב אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-14T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T15:27:00+00:00",
+    "last_update_at": "2026-11-15T22:00:24+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/15/prince-harry-ukraine-war-surprise-trip-invictus-games",
+      "published_at": "2026-11-15T22:00:24+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/prince-harry-visits-lviv-to-support-ukrainian-veterans-at-invictus-games/",
+      "published_at": "2026-11-15T17:05:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062969/",
+      "published_at": "2026-11-15T15:27:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לבוב, אוקראינה",
+      "lat": 49.842,
+      "lon": 24.0316
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11160040-07",
+    "title": "פגיעת כטב\"ם רוסי במוסד חינוכי בחרקוב ופיצוצים בערים באוקראינה",
+    "summary": "כטב\"ם רוסי פגע במבנה חינוכי לילדים ברובע שבצ'נקיבסקי בחרקוב, במקביל לדיווחים על פיצוצים ואזעקות בחרקוב ובצ'רקאסי.",
+    "axis": "צפון-מזרח אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T21:24:06+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T21:24:06+00:00",
+    "last_update_at": "2026-11-15T21:37:00+00:00",
+    "what_is_not_verified": "היקף הנפגעים והנזק המדויק במוסד החינוכי ובצ'רקאסי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4184978-russian-drone-hits-childrens-educational-facility-in-kharkiv.html",
+      "published_at": "2026-11-15T21:37:00+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/emergencies/2218411",
+      "published_at": "2026-11-15T21:24:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     },
+     {
+      "name": "צ'רקאסי, אוקראינה",
+      "lat": 49.4447,
+      "lon": 32.0588
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11160040-08",
+    "title": "אזהרה אוקראינית מפני גל תקיפות טילים בליסטיים",
+    "summary": "נשיא אוקראינה התריע בהתבסס על מידע מודיעיני כי רוסיה נערכת לביצוע מתקפות נרחבות נוספות באמצעות טילים בליסטיים.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T19:35:39+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T19:35:39+00:00",
+    "last_update_at": "2026-11-15T21:19:00+00:00",
+    "what_is_not_verified": "מועד ומיקומי התקיפה הצפויים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4184977-russia-preparing-new-ballistic-missile-strikes-on-ukraine-zelensky.html",
+      "published_at": "2026-11-15T21:19:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49616",
+      "published_at": "2026-11-15T19:35:39+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11160040-09",
+    "title": "מתקפות כטב\"מים אוקראיניות ופציעת אזרחים ברילסק שבמחוז קורסק",
+    "summary": "מטעני חבלה שהוטלו מכטב\"מים אוקראיניים בעיר רילסק שבמחוז קורסק הביאו לפציעת שני אזרחים באורח קשה ולשיבוש פעילות חבלנים.",
+    "axis": "מחוז קורסק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T20:47:12+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-15T20:47:12+00:00",
+    "last_update_at": "2026-11-15T20:58:20+00:00",
+    "what_is_not_verified": "אין אימות בלתי תלוי לטענת מושל המחוז הרוסי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/emergencies/2218409",
+      "published_at": "2026-11-15T20:58:20+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/emergencies/2218405",
+      "published_at": "2026-11-15T20:47:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "רילסק, רוסיה",
+      "lat": 51.5705,
+      "lon": 34.6835
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11160040-10",
+    "title": "פניית זלנסקי להסרת הגבלות רשת סטארלינק",
+    "summary": "נשיא אוקראינה קרא לממשל האמריקני ולאילון מאסק לבטל את ההגבלות והאטת מהירות הרשת הלוויינית, בטענה שהדבר מקשה על בלימת המתקפות הרוסיות.",
+    "axis": "סיוע צבאי וטכנולוגי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T19:32:39+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T19:32:39+00:00",
+    "last_update_at": "2026-11-15T19:32:39+00:00",
+    "what_is_not_verified": "ההשפעה המדויקת של האטת הרשת על הלחימה בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-15T19:32:39+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11160040-11",
+    "title": "דיפלומטים מערביים נשארים בקייב חרף איומי רוסיה והתגברות התקיפות",
+    "summary": "שגרירויות מערביות ומערך משלחת האיחוד האירופי בקייב הודיעו על הישארותם בעיר חרף איומים מצד מוסקבה להתפנות ועלייה בעוצמת התקיפות שפוגעות בתשתיות חשמל ומים.",
+    "axis": "קייב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T17:36:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-15T17:36:00+00:00",
+    "last_update_at": "2026-11-15T18:52:25+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/15/western-diplomats-stay-put-kyiv-russia-strikes-ukraine",
+      "published_at": "2026-11-15T18:52:25+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062985/",
+      "published_at": "2026-11-15T17:36:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11160040-12",
+    "title": "תקיפות אוקראיניות על בסיס אווירי באסטרחן ואתר כטב\"מים באוריול",
+    "summary": "צבא אוקראינה תקף את שדה התעופה הצבאי אחטובינסק במחוז אסטרחן, שם נרשם פיצוץ משני במחסן חימוש ומכ\"ם נפגע, וכן מתחם אחסון ושיגור כטב\"מים במחוז אוריול.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T12:48:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T12:48:00+00:00",
+    "last_update_at": "2026-11-15T18:02:19+00:00",
+    "what_is_not_verified": "נזקי התקיפה בפועל לא אושרו בידי משרד ההגנה הרוסי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/",
+      "published_at": "2026-11-15T18:02:19+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49599",
+      "published_at": "2026-11-15T12:48:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אחטובינסק, רוסיה",
+      "lat": 48.2848,
+      "lon": 46.1644
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11160040-13",
+    "title": "השבתת מכלי דלק בנמל אוסט-לוגה ברוסיה בעקבות תקיפה",
+    "summary": "תצלומי לוויין הצביעו על שריפתם המלאה של לפחות חמישה מכלי אחסון דלק בנמל היצוא אוסט-לוגה במפרץ הפיני, כתוצאה מפגיעת כטב\"מים אוקראיניים.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T16:53:00+00:00",
+    "last_update_at": "2026-11-15T16:53:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062982/",
+      "published_at": "2026-11-15T16:53:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אוסט-לוגה, רוסיה",
+      "lat": 59.6592,
+      "lon": 28.2695
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11160040-14",
+    "title": "הצעת ארה\"ב לחילופי שטחים בנאט\"ו ועמדת זלנסקי",
+    "summary": "זלנסקי ציין כי גורמים אמריקניים העלו לראשונה את האפשרות של נסיגה מחלקי דונבאס תמורת הצטרפות לנאט\"ו; הוא שלל ויתור ישיר אך ציין כי יביא זאת למשאל עם רק אם יינתן סיוע וערבויות ביטחון מלאות.",
+    "axis": "מגעים מדיניים ומשא ומתן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T03:38:18+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T03:38:18+00:00",
+    "last_update_at": "2026-11-15T18:02:19+00:00",
+    "what_is_not_verified": "פרטי ההצעה האמריקנית המדויקת לא פורסמו באופן רשמי בידי וושינגטון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/",
+      "published_at": "2026-11-15T18:02:19+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/15/ukraine-war-briefing-us-proposes-kyiv-cede-land-to-russia-for-nato-membership-zelenskyy-says",
+      "published_at": "2026-11-15T03:38:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11160040-15",
+    "title": "פגיעות במפעל כימי בטטרסטן ותקיפה בטגנרוג",
+    "summary": "כוחות אוקראיניים פגעו במפעל כימי בעיר ניז'נקמסק שבטטרסטן וביצעו תקיפה באזור טגנרוג לחופי ים אזוב.",
+    "axis": "עורף רוסיה וחוף ים אזוב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-15T01:56:13+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-15T01:56:13+00:00",
+    "last_update_at": "2026-11-15T02:52:48+00:00",
+    "what_is_not_verified": "היקף הנזק והנפגעים בניז'נקמסק ובטגנרוג",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49595",
+      "published_at": "2026-11-15T02:52:48+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49594",
+      "published_at": "2026-11-15T01:56:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניז'נקמסק, רוסיה",
+      "lat": 55.6413,
+      "lon": 51.816
+     },
+     {
+      "name": "טגנרוג, רוסיה",
+      "lat": 47.2155,
+      "lon": 38.9284
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת אוקראינה להשבתת 55% מכושר זיקוק הנפט של רוסיה",
+   "דיווח הרשויות בדונצק על מספר הנפגעים וההפגזות האוקראיניות",
+   "הדיווח על מיקוש ברחוב ספציפי בעיר חרסון",
+   "היקף הנזקים המדויק בתקיפות על שדה התעופה באחטובינסק ובמתקנים בטטרסטן ובטגנרוג",
+   "פרטי הצעת ארצות הברית לחילופי שטחים עבור כניסה לנאט\"ו"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1052,
+    "unit": "USD",
+    "change_pct": -0.26,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-13T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "אי-כניעה לוויתור על שטחי דונבאס ללא ערבויות ביטחון ומשאל עם",
+     "השבתת תשתיות נפט וצבא רוסיות בתגובה לתקיפות בעורף",
+     "האצת רפורמות להצטרפות לאיחוד האירופי ודרישה להסרת מגבלות תקשורת"
+    ],
+    "inferred": [
+     "שחיקת היכולות הלוגיסטיות והכלכליות של רוסיה בעומק שטחה כדי לכפות מנופי לחץ",
+     "שמירה על מעורבות מערבית ודיפלומטית רציפה בבירה קייב כמגן מפני תקיפות קטלניות"
+    ],
+    "forecast": [
+     "המשך מיקוד בפגיעה במתקני אנרגיה ובסיסים אוויריים ברוסיה בעזרת כטב\"מים"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "דרישה להסכם ביטחון אירופי כולל כתנאי לסיום המלחמה",
+     "דרישה לפינוי נציגויות מערביות מקייב בעקבות סכנת פגיעה"
+    ],
+    "inferred": [
+     "הרס שיטתי של מערכות האנרגיה והתשתיות האזרחיות באוקראינה להכרעת העורף",
+     "שיבוש שרשראות אספקה וייצור נשק במדינות המערב באמצעות פעולות חבלה עקיפות"
+    ],
+    "forecast": [
+     "החרפת מתקפות הטילים הבליסטיים על יעדים אסטרטגיים באוקראינה לקראת החורף"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-16T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/15/ukraine-war-briefing-us-proposes-kyiv-cede-land-to-russia-for-nato-membership-zelenskyy-says",
+    "accessed_at": "2026-11-16T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/",
+    "accessed_at": "2026-11-16T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062982/",
+    "accessed_at": "2026-11-16T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/emergencies/2218405",
+    "accessed_at": "2026-11-16T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133700",
+    "accessed_at": "2026-11-16T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49594",
+    "accessed_at": "2026-11-16T00:40:35+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4184977-russia-preparing-new-ballistic-missile-strikes-on-ukraine-zelensky.html",
+    "accessed_at": "2026-11-16T00:40:35+00:00"
+   }
+  ]
+ }
+}
