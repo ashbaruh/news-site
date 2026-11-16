@@ -1,0 +1,286 @@
+{
+ "status": "draft",
+ "received_sha256_12": "719ff39a16f1",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "verified": 2,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-16T21:10:57+00:00",
+  "window": {
+   "from": "2026-11-15T21:10:57+00:00",
+   "to": "2026-11-16T21:10:57+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611162110"
+  },
+  "summary": "הזירה הצפונית מתאפיינת בהמשך הפעילות הצבאית של ישראל בדרום לבנון ובמרחב הגבול עם סוריה, הכוללת תקיפות נגד הברחות אמצעי לחימה ופעולות מעצר נגד גורמים הקשורים לחיזבאללה. במקביל, מתנהלים דיונים דיפלומטיים אינטנסיביים בין לבנון לבין גורמים בינלאומיים ואמריקאיים סביב יישום החלטה 1701 והסדרים עתידיים לאחר סיום מנדט יוניפי\"ל.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית-ישראלית",
+    "status": "פעיל - תקיפות אוויריות, פעולות קרקעיות, מעצרים וחילופי אש"
+   },
+   {
+    "name": "הציר הסורי-לבנוני",
+    "status": "פעיל - מעבר אמצעי לחימה ותקיפות ממוקדמות"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11162110-01",
+    "title": "תקיפת אמצעי לחימה בגבול סוריה-לבנון",
+    "summary": "חיל האוויר הישראלי תקף משלוח אמצעי לחימה במרחב ג'נתא שיועד לחיזבאללה",
+    "axis": "ישראל-לבנון-סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T08:41:26+00:00",
+    "last_update_at": "2026-11-16T15:52:21+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-seize-ground-yemen-israeli-strikes-target-lebanon",
+      "published_at": "2026-11-16T15:52:21+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/968277/netanyahus-government-maintains-military-pressure-as-israel-faces-inte/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968277",
+      "published_at": "2026-11-16T15:02:00+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133717",
+      "published_at": "2026-11-16T08:49:39+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25613",
+      "published_at": "2026-11-16T08:41:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11162110-02",
+    "title": "מעצר פעילים בדרום לבנון",
+    "summary": "כוחות צה\"ל עצרו שני פעילי טרור מהפלוגות הלבנוניות הפועלות בחסות חיזבאללה",
+    "axis": "ישראל-לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T09:46:12+00:00",
+    "last_update_at": "2026-11-16T15:02:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/968277/netanyahus-government-maintains-military-pressure-as-israel-faces-inte/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968277",
+      "published_at": "2026-11-16T15:02:00+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1389140",
+      "published_at": "2026-11-16T14:55:38+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133733",
+      "published_at": "2026-11-16T14:47:35+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25620",
+      "published_at": "2026-11-16T14:33:28+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/968245/israeli-army-says-it-arrested-two-members-of-lebanese-resistance-briga/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968245",
+      "published_at": "2026-11-16T12:07:13+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israel-abducts-2-lebanese-brothers-carries-out-strikes-in-lebanon/4126389",
+      "published_at": "2026-11-16T09:46:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "שבעא, לבנון",
+      "lat": 33.3445,
+      "lon": 35.7494
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11162110-03",
+    "title": "תקיפות והפגזות בדרום לבנון",
+    "summary": "מל\"ט ישראלי התפוצץ מעל שקרא והתקיימה הפגזה בסביבת מייפדון וכפר תבנית",
+    "axis": "ישראל-לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T15:29:46+00:00",
+    "last_update_at": "2026-11-16T15:32:13+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_9c8c7d68bfbe30d1",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-drone-blast-artillery-shelling-hit-southern-lebanon-state-media",
+      "published_at": "2026-11-16T15:32:13+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_9c8c7d68bfbe30d1",
+      "url": "https://english.almanar.com.lb/article/151577/",
+      "published_at": "2026-11-16T15:29:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מייפדון, לבנון",
+      "lat": 33.3451,
+      "lon": 35.4741
+     },
+     {
+      "name": "כפר תבנית, לבנון",
+      "lat": 33.3519,
+      "lon": 35.5186
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על היקף הנזק המדויק בתקיפות בג'נתא",
+   "פרטי ההסכמים העתידיים להחלפת כוחות יוניפי\"ל שטרם גובשו רשמית"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.224,
+    "unit": "ILS",
+    "change_pct": 0.41,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת איומים מעל אזרחי ישראל",
+     "מניעת הברחות אמצעי לחימה לחיזבאללה דרך סוריה ולבנון"
+    ],
+    "inferred": [
+     "שמירה על חופש פעולה צבאי בתוך לבנון וסוריה",
+     "שחיקת היכולות הצבאיות של חיזבאללה ושלוחותיו"
+    ],
+    "forecast": [
+     "המשך התקיפות נגד תשתיות הברחה והתחמשות",
+     "שמירה על נוכחות צבאית במרחבי חיכוך בדרום לבנון"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "התנגדות לנוכחות ולפעילות הצבאית של ישראל בשטח לבנון"
+    ],
+    "inferred": [
+     "שיקום ויכולת הצטיידות באמל\"ח דרך גבול סוריה",
+     "שמירה על מעמדו הצבאי והפוליטי חרף הלחץ הבינלאומי"
+    ],
+    "forecast": [
+     "המשך ניסיונות ההברחה והתחזקות בתמיכת גורמים אזוריים",
+     "היערכות לאפשרות של עימות מתמשך מול ישראל"
+    ]
+   },
+   {
+    "actor": "לבנון (הדרג המדיני)",
+    "declared": [
+     "יישום החלטה 1701 ודרישה לנסיגה ישראלית משטחים לבנוניים",
+     "שמירה על ריבונות לאומית ופריסת צבא לבנון בגבול"
+    ],
+    "inferred": [
+     "ניסיון למנוע וואקום ביטחוני לאחר סיום מנדט יוניפי\"ל באמצעות מעורבות בינלאומית",
+     "תמרון דיפלומטי בין לחצי ארצות הברית לבין השפעת חיזבאללה"
+    ],
+    "forecast": [
+     "המשך מגעים להשגת הסדר ביטחוני חדש לפני סוף השנה",
+     "ניסיונות להרחיב את פריסת כוחות הביטחון המקומיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/151577/",
+    "accessed_at": "2026-11-16T21:10:57+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israel-abducts-2-lebanese-brothers-carries-out-strikes-in-lebanon/4126389",
+    "accessed_at": "2026-11-16T21:10:57+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/968245/israeli-army-says-it-arrested-two-members-of-lebanese-resistance-briga/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968245",
+    "accessed_at": "2026-11-16T21:10:57+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1389140",
+    "accessed_at": "2026-11-16T21:10:57+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-drone-blast-artillery-shelling-hit-southern-lebanon-state-media",
+    "accessed_at": "2026-11-16T21:10:57+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/houthis-seize-ground-yemen-israeli-strikes-target-lebanon",
+    "accessed_at": "2026-11-16T21:10:57+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133733",
+    "accessed_at": "2026-11-16T21:10:57+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25620",
+    "accessed_at": "2026-11-16T21:10:57+00:00"
+   }
+  ]
+ }
+}

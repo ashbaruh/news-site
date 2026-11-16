@@ -1,0 +1,329 @@
+{
+ "status": "draft",
+ "received_sha256_12": "74ad11887e27",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "initial": 4,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-16T20:58:25+00:00",
+  "window": {
+   "from": "2026-11-15T20:58:25+00:00",
+   "to": "2026-11-16T20:58:25+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611162058"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת במתכונת של תקיפות אוויריות הדדיות, כולל מתקפות כטב\"מים נרחבות של אוקראינה לעבר עומק רוסיה ופגיעה בתשתיות תחבורה כמו גשר קרים, לצד הפגזות רוסיות על מתקנים אזרחיים ואנרגטיים באוקראינה. במקביל מתנהלים מגעים דיפלומטיים סבוכים וחילוקי דעות סביב השתתפות מעצמות אירופה בשולחן המשא ומתן לצד ארה\"ב, רוסיה ואוקראינה.",
+  "fronts": [
+   {
+    "name": "חזית האוויר והתשתיות",
+    "status": "פעילה מאוד עם מתקפות כטב\"מים וטילים הדדיות"
+   },
+   {
+    "name": "חזית זפוריז'יה וקמישוואחה",
+    "status": "פעילה עם תקיפות והשלכות הומניטריות קשות"
+   },
+   {
+    "name": "חזית חצי האי קרים וגשר קרים",
+    "status": "יעד לתקיפות חוזרות עם שיבושי תחבורה"
+   },
+   {
+    "name": "זירת הים השחור",
+    "status": "פעילה מבחינת איומים על ספנות ומסחר"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11162058-01",
+    "title": "סגירת שדות תעופה במוסקבה",
+    "summary": "שדות התעופה במוסקבה נסגרו להמראות ונחיתות בעקבות מתקפה אוקראינית.",
+    "axis": "מתקפות אוויריות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T20:49:47+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-16T20:49:47+00:00",
+    "last_update_at": "2026-11-16T20:49:47+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והתוצאות של המתקפה אינם מאומתים ממקור רשמי ישיר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49646",
+      "published_at": "2026-11-16T20:49:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11162058-02",
+    "title": "סיום פעולות חילוץ בקמישוואחה",
+    "summary": "הסתיימו פעולות החיפוש וההצלה בעקבות תקיפה קודמת ביישוב קמישוואחה, כאשר מספר ההרוגים עלה ל-72 וארבעה נוספים נעדרים.",
+    "axis": "החזית היבשתית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T18:58:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T18:58:00+00:00",
+    "last_update_at": "2026-11-16T20:19:40+00:00",
+    "what_is_not_verified": "גורלם הסופי של ארבעת הנעדרים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_6aefc4bdfd604735",
+      "url": "https://kyivindependent.com/komyshuvakha-rescue-operation-cease-two-weeks-after-russian-strike-72-dead-4-still-missing/",
+      "published_at": "2026-11-16T20:19:40+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_6768d8706e4a079a",
+      "url": "https://www.ukrinform.net/rubric-ato/4185328-search-and-rescue-operations-completed-in-komyshuvakha-death-toll-rises-to-72.html",
+      "published_at": "2026-11-16T19:58:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_d1ca90be52720f59",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/16/8063170/",
+      "published_at": "2026-11-16T18:58:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קמישוואחה, אוקראינה",
+      "lat": 48.6403,
+      "lon": 37.4558
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11162058-03",
+    "title": "חידוש תנועת כלי רכב בגשר קרים",
+    "summary": "תנועת כלי הרכב בגשר קרים חודשה חלקית בנתיב יחיד עם זרימה מתחלפת בעקבות תקיפה אוקראינית.",
+    "axis": "תשתיות ותחבורה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T12:45:09+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-16T12:45:09+00:00",
+    "last_update_at": "2026-11-16T20:02:01+00:00",
+    "what_is_not_verified": "חומרת הנזק המדויקת למבנה הגשר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_2c934115468db41f",
+      "url": "https://tass.com/society/2219169",
+      "published_at": "2026-11-16T20:02:01+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_128a740dd338da6e",
+      "url": "https://meduza.io/en/news/2026/11/16/after-ukraine-s-latest-attack-moscow-calls-damage-to-the-crimean-bridge-insignificant-but-osint-analysts-say-its-main-road-span-is-visibly-deformed",
+      "published_at": "2026-11-16T17:58:34+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_2c934115468db41f",
+      "url": "https://www.theguardian.com/world/2026/nov/16/ukraine-drone-kerch-bridge-russia-occupied-crimea",
+      "published_at": "2026-11-16T12:45:09+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11162058-04",
+    "title": "תקיפה ופציעת אישה בזפוריז'יה",
+    "summary": "כוחות רוסיים תקפו את העיר זפוריז'יה, וכתוצאה מכך נפצעה אישה.",
+    "axis": "החזית היבשתית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T19:19:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T19:19:00+00:00",
+    "last_update_at": "2026-11-16T19:19:00+00:00",
+    "what_is_not_verified": "פרטים מלאים על אמצעי הלחימה ששימשו בתקיפה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_4612fc9a02509036",
+      "url": "https://www.ukrinform.net/rubric-ato/4185324-russian-forces-attack-zaporizhzhia-woman-injured.html",
+      "published_at": "2026-11-16T19:19:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "זפוריז'יה, אוקראינה",
+      "lat": 47.8508,
+      "lon": 35.1183
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11162058-05",
+    "title": "נפילת שברי כטב\"ם בקייב",
+    "summary": "שברי כטב\"ם רוסי נפלו במחוז דשניאנסקי בקייב וגרמו לשריפה בחצר בניין מגורים, אשר כובתה.",
+    "axis": "מתקפות אוויריות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T19:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T19:00:00+00:00",
+    "last_update_at": "2026-11-16T19:00:00+00:00",
+    "what_is_not_verified": "נזקים נוספים מעבר לשריפה בחצר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_8d4c6614a3a74461",
+      "url": "https://www.ukrinform.net/rubric-ato/4185302-drone-attack-fire-extinguished-in-courtyard-of-kyiv-apartment-building.html",
+      "published_at": "2026-11-16T19:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11162058-06",
+    "title": "שקיעת אוניית משאת בים השחור",
+    "summary": "אוניית משאת טבעה בים השחור בבולגריה בעקבות מתקפת כטב\"ם מדווחת, וכל 12 אנשי הצוות חולצו.",
+    "axis": "הים השחור",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T19:02:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T19:02:57+00:00",
+    "last_update_at": "2026-11-16T19:02:57+00:00",
+    "what_is_not_verified": "זהות אלגורם האחראי הישיר לשיגור הכטב\"ם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/cargo-ship-sinks-in-bulgarias-black-sea-after-reported-drone-attack-all-12-crew-rescued/",
+      "published_at": "2026-11-16T19:02:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הים השחור, בולגריה",
+      "lat": 42.7088,
+      "lon": 27.7186
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "{'string': 'טענות על שימוש של כטב\"מים אוקראיניים במסופי תקשורת ישראליים ולוויינים זרים.'}",
+   "{'string': 'היקף הנזק המדויק בגשר קרים בעקבות התקיפה האחרונה.'}",
+   "{'string': 'ההסכמות המדויקות סביב פורמט השיחות העתידיות והשתתפות אירופה בהן.'}"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.1014,
+    "unit": "USD",
+    "change_pct": -0.34,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "להשיג סיום מכובד למלחמה והבטחת ביטחון למדינה",
+     "לפגוע ביכולות האנרגיה והתשתיות של רוסיה כתגובה ללחימה",
+     "להסיר מגבלות על שירותי לווין לפעילות הגנה"
+    ],
+    "inferred": [
+     "שחיקת הכלכלה ומערך האנרגיה הרוסי באמצעות מתקפות עומק",
+     "שמירת מעורבות אירופית ואמריקאית איתנה במערכה המדינית והצבאית"
+    ],
+    "forecast": [
+     "המשך מאמצים לשימוש בכטב\"מים מתקדמים נגד תשתיות עורפיות ברוסיה",
+     "הגברת הלחץ הדיפלומטי לשילוב נציגים אירופיים בשיחות השלום"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך הגנה על שטחים כבושים ושיתוף פעולה צבאי",
+     "דחיית מעורבות אירופית לא מתואמת בשיחות השלום"
+    ],
+    "inferred": [
+     "פגיעה שיטתית במערך החשמל והאנרגיה האוקראיני כדי לשבור את העורף לקראת החורף",
+     "ניסיון לנהל משא ומתן ישירות מול ארה\"ב בתנאים שלה"
+    ],
+    "forecast": [
+     "הגנה אווירית מוגברת סביב מתקנים קריטיים ומוסקבה",
+     "המשך תקיפות על רשת החשמל והתשתיות האוקראיניות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/16/ukraine-drone-kerch-bridge-russia-occupied-crimea",
+    "accessed_at": "2026-11-16T20:58:25+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/cargo-ship-sinks-in-bulgarias-black-sea-after-reported-drone-attack-all-12-crew-rescued/",
+    "accessed_at": "2026-11-16T20:58:25+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/16/after-ukraine-s-latest-attack-moscow-calls-damage-to-the-crimean-bridge-insignificant-but-osint-analysts-say-its-main-road-span-is-visibly-deformed",
+    "accessed_at": "2026-11-16T20:58:25+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/16/8063170/",
+    "accessed_at": "2026-11-16T20:58:25+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/society/2219169",
+    "accessed_at": "2026-11-16T20:58:25+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49646",
+    "accessed_at": "2026-11-16T20:58:25+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4185302-drone-attack-fire-extinguished-in-courtyard-of-kyiv-apartment-building.html",
+    "accessed_at": "2026-11-16T20:58:25+00:00"
+   }
+  ]
+ }
+}
