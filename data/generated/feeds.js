@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-17T18:17:29+00:00",
-  "fetched_at": "2026-11-17T18:17:29+00:00"
+  "checked_at": "2026-11-17T18:38:52+00:00",
+  "fetched_at": "2026-11-17T18:38:52+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T18:17:46+00:00",
-  "fetched_at": "2026-11-17T18:17:46+00:00"
+  "checked_at": "2026-11-17T18:39:03+00:00",
+  "fetched_at": "2026-11-17T18:39:03+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T18:17:47+00:00",
-  "fetched_at": "2026-11-17T18:17:47+00:00"
+  "checked_at": "2026-11-17T18:39:04+00:00",
+  "fetched_at": "2026-11-17T18:39:04+00:00"
  },
- "generated_at": "2026-11-17T18:17:47+00:00",
+ "generated_at": "2026-11-17T18:39:04+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "דיווח איראני: נשמעו פיצוצים באי קשם שבמצר הורמוז",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563693",
-     "date": "2026-11-17T16:33:00+00:00"
+     "date": "2026-11-17T18:05:00+00:00"
     }
    ],
    "market": [
@@ -211,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-17T18:17:30+00:00",
-  "fetched_at": "2026-11-17T18:17:30+00:00"
+  "checked_at": "2026-11-17T18:38:55+00:00",
+  "fetched_at": "2026-11-17T18:38:55+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T18:17:31+00:00",
-  "fetched_at": "2026-11-17T18:17:31+00:00"
+  "checked_at": "2026-11-17T18:38:55+00:00",
+  "fetched_at": "2026-11-17T18:38:55+00:00"
  },
  "tv": {
   "data": [
@@ -2822,8 +2822,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T18:17:33+00:00",
-  "fetched_at": "2026-11-17T18:17:33+00:00"
+  "checked_at": "2026-11-17T18:38:56+00:00",
+  "fetched_at": "2026-11-17T18:38:56+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2913,8 +2913,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-17T18:17:33+00:00",
-  "fetched_at": "2026-11-17T18:17:33+00:00"
+  "checked_at": "2026-11-17T18:38:56+00:00",
+  "fetched_at": "2026-11-17T18:38:56+00:00"
  },
  "ai": {
   "data": {
@@ -2929,17 +2929,19 @@ window.DB.generated = {
      "translated_by": "mymemory"
     },
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/anthropic-ipo-ai-millionaires/",
-     "date": "2026-11-17T12:24:02+00:00",
+     "source": "Google",
+     "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+     "date": "2026-11-17T17:00:00+00:00",
      "launch": false,
-     "title": "ההנפקה השבוע של אנת'רופיק תהפוך יותר מ-4,000 עובדים למיליונרים"
+     "title_en": "Put Gemini to work for you",
+     "title_he": "לתת ל-Gemini לעבוד בשבילכם",
+     "translated_by": "mymemory"
     }
    ],
-   "candidates": 14,
+   "candidates": 11,
    "failed_sources": [
     "Anthropic",
-    "Google DeepMind"
+    "גיקטיים"
    ],
    "tools": [
     {
@@ -2985,13 +2987,6 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros"
     },
     {
-     "title": "Ava",
-     "desc_en": "Talk face to face with LFM3-Omni, running in your browser",
-     "desc_he": "שוחחו פנים אל פנים עם LFM3-Omni, הפועל בדפדפן שלכם",
-     "likes": 123,
-     "link": "https://huggingface.co/spaces/townbox/ava"
-    },
-    {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
@@ -2999,28 +2994,44 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
-     "title": "Qwen 2511 + Flux.2 Klein",
-     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
-     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 437,
-     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
+     "title": "Ava",
+     "desc_en": "Talk face to face with LFM3-Omni, running in your browser",
+     "desc_he": "שוחחו פנים אל פנים עם LFM3-Omni, הפועל בדפדפן שלכם",
+     "likes": 123,
+     "link": "https://huggingface.co/spaces/townbox/ava"
     },
     {
      "title": "Krea2T Image Revamped",
      "desc_en": "Krea2 Turbo",
      "desc_he": "Krea2 טורבו",
-     "likes": 53,
+     "likes": 54,
      "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
+    },
+    {
+     "title": "Idol",
+     "desc_en": "One image to a 3D object (Gaussian splats)",
+     "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
+     "likes": 278,
+     "link": "https://huggingface.co/spaces/speridlabs/idol"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-17T18:17:45+00:00",
-  "fetched_at": "2026-11-17T18:17:45+00:00"
+  "checked_at": "2026-11-17T18:39:02+00:00",
+  "fetched_at": "2026-11-17T18:39:02+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "סולומון בתפקיד מפתיע: הרכב נבחרת ישראל מול אוסטריה",
+     "link": "https://sports.walla.co.il/item/3876540",
+     "date": "2026-11-17T19:28:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
     {
      "title": "\"יוצא דופן\": שיתוף הפעולה החלומי של דני אבדיה ודמיאן לילארד",
      "link": "https://sports.walla.co.il/item/3876648",
@@ -3147,15 +3158,6 @@ window.DB.generated = {
      "title": "עדיין קשה לעכל: המספרים המדהימים של דני אבדיה",
      "link": "https://sports.walla.co.il/item/3876179",
      "date": "2026-11-14T11:05:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "לילארד: \"לשחק לצד אבדיה - כנראה החוויה הכי מאושרת שהיתה לי כצמד\"",
-     "link": "https://sports.walla.co.il/item/3876166",
-     "date": "2026-11-14T08:02:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3362,8 +3364,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-17T18:17:36+00:00",
-  "fetched_at": "2026-11-17T18:17:36+00:00"
+  "checked_at": "2026-11-17T18:39:00+00:00",
+  "fetched_at": "2026-11-17T18:39:00+00:00"
  },
  "idf": {
   "data": [
@@ -3393,8 +3395,9 @@ window.DB.generated = {
     "date": "2026-11-16T13:07:29+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-17T18:17:37+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-17T18:39:00+00:00",
   "fetched_at": "2026-11-17T18:17:37+00:00"
  },
  "feed_health": {
@@ -3402,44 +3405,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-17T17:43:00+00:00",
-    "seen_at": "2026-11-17T18:17:47+00:00",
+    "newest": "2026-11-17T18:25:00+00:00",
+    "seen_at": "2026-11-17T18:39:04+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-17T16:37:00+00:00",
-    "seen_at": "2026-11-17T18:17:47+00:00",
+    "seen_at": "2026-11-17T18:39:04+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-17T16:01:00+00:00",
-    "seen_at": "2026-11-17T18:17:47+00:00",
+    "seen_at": "2026-11-17T18:39:04+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-17T16:21:00+00:00",
-    "seen_at": "2026-11-17T18:17:47+00:00",
+    "seen_at": "2026-11-17T18:39:04+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-17T18:35:00+00:00",
-    "seen_at": "2026-11-17T18:17:47+00:00",
+    "newest": "2026-11-17T19:20:00+00:00",
+    "seen_at": "2026-11-17T18:39:04+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-17T19:00:00+00:00",
-    "seen_at": "2026-11-17T18:17:47+00:00",
+    "newest": "2026-11-17T19:28:00+00:00",
+    "seen_at": "2026-11-17T18:39:04+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-17T18:07:00+00:00",
-    "seen_at": "2026-11-17T18:17:47+00:00",
+    "newest": "2026-11-17T18:14:00+00:00",
+    "seen_at": "2026-11-17T18:39:04+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3451,13 +3454,13 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-12T18:00:50+00:00",
-    "seen_at": "2026-11-17T16:17:40+00:00",
+    "seen_at": "2026-11-17T18:39:04+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-17T17:00:00+00:00",
-    "seen_at": "2026-11-17T18:17:47+00:00",
+    "seen_at": "2026-11-17T18:39:04+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3469,23 +3472,23 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-16T12:30:00+00:00",
-    "seen_at": "2026-11-17T18:17:47+00:00",
+    "seen_at": "2026-11-17T18:39:04+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-17T17:02:53+00:00",
-    "seen_at": "2026-11-17T18:17:47+00:00",
+    "seen_at": "2026-11-17T18:39:04+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-16T08:17:37+00:00",
-    "seen_at": "2026-11-17T18:17:47+00:00",
+    "seen_at": "2026-11-17T18:39:04+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-17T18:17:47+00:00"
+  "checked_at": "2026-11-17T18:39:04+00:00"
  },
  "health_news": {
   "data": [
@@ -3641,7 +3644,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T18:17:38+00:00",
-  "fetched_at": "2026-11-17T18:17:38+00:00"
+  "checked_at": "2026-11-17T18:39:01+00:00",
+  "fetched_at": "2026-11-17T18:39:01+00:00"
  }
 };
