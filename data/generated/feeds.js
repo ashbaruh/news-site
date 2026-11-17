@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-17T10:17:20+00:00",
-  "fetched_at": "2026-11-17T10:17:20+00:00"
+  "checked_at": "2026-11-17T11:17:08+00:00",
+  "fetched_at": "2026-11-17T11:17:08+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T10:17:28+00:00",
-  "fetched_at": "2026-11-17T10:17:28+00:00"
+  "checked_at": "2026-11-17T11:17:22+00:00",
+  "fetched_at": "2026-11-17T11:17:22+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Chord’s first-ever Class G amplifier pledges high-end performance in its most affordable Ultima package",
+    "title_he": "מגבר Class G הראשון של אקורד מבטיח ביצועים מתקדמים בחבילת ה- Ultima המשתלמת ביותר שלו",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/hi-fi/stereo-amplifiers/chords-first-ever-class-g-amplifier-pledges-high-end-performance-in-its-most-affordable-ultima-package",
+    "date": "2026-11-17T11:14:35+00:00"
+   },
+   {
+    "title_en": "A legendary Pioneer TV range and iconic NAD amplifier have been inducted into the What Hi-Fi? Golden Anniversary Hall of Fame",
+    "title_he": "טווח טלוויזיה אגדי של Pioneer ומגבר NAD איקוני הוכנסו ל-What Hi-Fi? יום השנה הזהב היכל התהילה",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/av/a-legendary-pioneer-tv-range-and-iconic-nad-amplifier-have-been-inducted-into-the-what-hi-fi-golden-anniversary-hall-of-fame",
+    "date": "2026-11-17T10:51:57+00:00"
+   },
    {
     "title_en": "Quad’s 3 Series components have had a green and black makeover",
     "title_he": "הרכיבים של סדרת 3 של Quad עברו מתיחת פנים ירוקה ושחורה",
@@ -62,42 +76,53 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/apple-tv-4k-2026-vs-apple-tv-4k-2022-which-is-better",
     "date": "2026-11-16T15:02:49+00:00"
-   },
-   {
-    "title_en": "Michell Gyro / Technoarm 2 / Cusis M",
-    "title_he": "מישל ג'יירו / טכנוארם 2 / קוסיס אם",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/hi-fi/turntables/michell-gyro-technoarm-2-cusis-m",
-    "date": "2026-11-16T12:05:29+00:00"
-   },
-   {
-    "title_en": "LG’s OLED TV leak, Acoustic Energy’s latest speaker range, new Apple TV tested, our Products Of The Year announced and more",
-    "title_he": "דליפת מידע על טלוויזיית ה-OLED של LG, סדרת הרמקולים האחרונה של Acoustic Energy, בדיקה של ה-Apple TV החדש, הכרזה על מוצרי השנה שלנו ועוד",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/av/lgs-oled-tv-leak-acoustic-energys-latest-speaker-range-new-apple-tv-tested-our-products-of-the-year-announced-and-more",
-    "date": "2026-11-16T07:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T10:17:28+00:00",
-  "fetched_at": "2026-11-17T10:17:28+00:00"
+  "checked_at": "2026-11-17T11:17:25+00:00",
+  "fetched_at": "2026-11-17T11:17:25+00:00"
  },
- "generated_at": "2026-11-17T10:17:28+00:00",
+ "generated_at": "2026-11-17T11:17:25+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "העסקה נחשפה בתקשורת, וישיבת הדירקטוריון התפוצצה: מאחורי הקלעים של מכירת ארקיע",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563729",
-     "date": "2026-11-17T09:03:00+00:00"
+     "title": "\"לא ממליץ לקנות אנבידיה\": מנהל ההשקעות שמסמן הזדמנות בסקטור מפתיע",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563622",
+     "date": "2026-11-17T11:00:00+00:00"
     },
     {
      "title": "ניסיון פיגוע משולב באזור יריחו - שניים נפצעו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563693",
-     "date": "2026-11-17T08:15:00+00:00"
+     "date": "2026-11-17T11:07:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "ירידות באירופה ובחוזים בניו יורק; מניית דויטשה בנק נופלת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563602",
+     "date": "2026-11-17T11:15:00+00:00"
+    },
+    {
+     "title": "\"לא ממליץ לקנות אנבידיה\": מנהל ההשקעות שמסמן הזדמנות בסקטור מפתיע",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563622",
+     "date": "2026-11-17T11:00:00+00:00"
+    },
+    {
+     "title": "ממשלת בריטניה הטילה סנקציות על חברות בנייה שפועלות בהתנחלויות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563739",
+     "date": "2026-11-17T10:23:00+00:00"
+    },
+    {
+     "title": "מגמה מעורבת בתל אביב; מקס סטוק ואלביט מזנקות אחרי הדוחות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563651",
+     "date": "2026-11-17T10:19:00+00:00"
+    },
+    {
+     "title": "למה לאומי מרוויח כל כך הרבה? מנכ\"ל הבנק כפי שלא שמעתם",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563720",
+     "date": "2026-11-17T10:12:00+00:00"
+    },
     {
      "title": "המדינה האפריקאית שרואה בישראל \"איום קיומי\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563724",
@@ -109,6 +134,11 @@ window.DB.generated = {
      "date": "2026-11-17T09:31:00+00:00"
     },
     {
+     "title": "כפי שפורסם בגלובס: הכנסות מאגר לוויתן עומדות על 843 מיליון דולר ברבעון",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563734",
+     "date": "2026-11-17T09:30:00+00:00"
+    },
+    {
      "title": "\"נקבל עשרות מיליוני דולרים\": הבשורה שחשף מנכ\"ל אלביט",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563703",
      "date": "2026-11-17T09:25:00+00:00"
@@ -117,21 +147,6 @@ window.DB.generated = {
      "title": "דונלד טראמפ ודויטשה בנק: היחסים עם \"הלקוח מספר 1\" נחשפים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563723",
      "date": "2026-11-17T08:54:00+00:00"
-    },
-    {
-     "title": "עליות בתל אביב; מקס סטוק ואלביט מזנקות אחרי הדוחות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563651",
-     "date": "2026-11-17T08:26:00+00:00"
-    },
-    {
-     "title": "למה בנק לאומי מרוויח כל כך הרבה? זו התשובה של המנכ\"ל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563720",
-     "date": "2026-11-17T08:26:00+00:00"
-    },
-    {
-     "title": "ירידות באירופה ובחוזים בניו יורק; מניית דויטשה בנק נופלת",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563602",
-     "date": "2026-11-17T08:22:00+00:00"
     },
     {
      "title": "שמה את השנים הרעות מאחוריה? רווחי תדיראן קפצו ב-75%",
@@ -169,12 +184,7 @@ window.DB.generated = {
      "date": "2026-11-17T04:12:00+00:00"
     },
     {
-     "title": "\"לא ממליץ לקנות אנבידיה\": מנהל ההשקעות שמסמן הזדמנות בסקטור מפתיע",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563622",
-     "date": "2026-11-17T04:11:00+00:00"
-    },
-    {
-     "title": "הסטודנט לרפואה שפרש כדי ללמד תכנון פיננסי: \"הכסף נועד לשרת אותנו בעתיד\"",
+     "title": "אבא שלו איבד 4 מיליון שקל. הוא נחוש שזה לא יקרה לו",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563088",
      "date": "2026-11-17T04:06:00+00:00"
     },
@@ -212,22 +222,12 @@ window.DB.generated = {
      "title": "המסחר בת\"א ננעל בירידות בהובלת מניות השבבים; הדולר זינק לשיא של 2026",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563476",
      "date": "2026-11-16T15:58:00+00:00"
-    },
-    {
-     "title": "הישראלים מסתערים על הבנקים בשווייץ. הבנקאי הבכיר מסביר למה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563472",
-     "date": "2026-11-16T09:18:00+00:00"
-    },
-    {
-     "title": "\"מפעל המיליונרים\" בסכנה? כאב הראש הכפול של עובדי אנבידיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563484",
-     "date": "2026-11-16T07:01:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-17T10:17:21+00:00",
-  "fetched_at": "2026-11-17T10:17:21+00:00"
+  "checked_at": "2026-11-17T11:17:10+00:00",
+  "fetched_at": "2026-11-17T11:17:10+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T10:17:22+00:00",
-  "fetched_at": "2026-11-17T10:17:22+00:00"
+  "checked_at": "2026-11-17T11:17:11+00:00",
+  "fetched_at": "2026-11-17T11:17:11+00:00"
  },
  "tv": {
   "data": [
@@ -2837,8 +2837,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T10:17:23+00:00",
-  "fetched_at": "2026-11-17T10:17:23+00:00"
+  "checked_at": "2026-11-17T11:17:14+00:00",
+  "fetched_at": "2026-11-17T11:17:14+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2928,12 +2928,19 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-17T10:17:23+00:00",
-  "fetched_at": "2026-11-17T10:17:23+00:00"
+  "checked_at": "2026-11-17T11:17:14+00:00",
+  "fetched_at": "2026-11-17T11:17:14+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/ai-project-specification-guide/",
+     "date": "2026-11-17T09:32:33+00:00",
+     "launch": false,
+     "title": "לפני שורת הקוד הראשונה: מדריך מזורז לאפיון פרויקט AI"
+    },
     {
      "source": "OpenAI",
      "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
@@ -2942,35 +2949,25 @@ window.DB.generated = {
      "title_en": "Broadening access to AI for scientists",
      "title_he": "הרחבת הגישה לבינה מלאכותית עבור מדענים",
      "translated_by": "mymemory"
-    },
-    {
-     "source": "Google",
-     "link": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-     "date": "2026-11-16T14:00:00+00:00",
-     "launch": false,
-     "title_en": "New Ask Maps features to help with holiday travel and prep",
-     "title_he": "מאפיינים חדשים של 'שאל את מפות Google' שיעזרו בנסיעות ובכנות לקראת החגים",
-     "translated_by": "mymemory"
     }
    ],
-   "candidates": 8,
+   "candidates": 11,
    "failed_sources": [
-    "Anthropic",
-    "גיקטיים"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 705,
+     "likes": 706,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 414,
+     "likes": 416,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -2984,7 +2981,7 @@ window.DB.generated = {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 138,
+     "likes": 139,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
@@ -3002,11 +2999,11 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros"
     },
     {
-     "title": "Idol",
-     "desc_en": "One image to a 3D object (Gaussian splats)",
-     "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
-     "likes": 278,
-     "link": "https://huggingface.co/spaces/speridlabs/idol"
+     "title": "Qwen 2511 + Flux.2 Klein",
+     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
+     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
+     "likes": 437,
+     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "Ava",
@@ -3016,24 +3013,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/townbox/ava"
     },
     {
+     "title": "Idol",
+     "desc_en": "One image to a 3D object (Gaussian splats)",
+     "desc_he": "תמונה אחת לאובייקט תלת מימד (כתמים גאוסיים)",
+     "likes": 278,
+     "link": "https://huggingface.co/spaces/speridlabs/idol"
+    },
+    {
      "title": "Pixel Search",
      "desc_en": "Instant semantic search over pixel art, in your browser",
      "desc_he": "חיפוש סמנטי מיידי על פני פיקסלים, בדפדפן שלך",
      "likes": 71,
      "link": "https://huggingface.co/spaces/cfahlgren1/pixel-search"
-    },
-    {
-     "title": "Qwen 2511 + Flux.2 Klein",
-     "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
-     "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 437,
-     "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-17T10:17:28+00:00",
-  "fetched_at": "2026-11-17T10:17:28+00:00"
+  "checked_at": "2026-11-17T11:17:21+00:00",
+  "fetched_at": "2026-11-17T11:17:21+00:00"
  },
  "abroad": {
   "data": {
@@ -3380,8 +3377,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-17T10:17:26+00:00",
-  "fetched_at": "2026-11-17T10:17:26+00:00"
+  "checked_at": "2026-11-17T11:17:17+00:00",
+  "fetched_at": "2026-11-17T11:17:17+00:00"
  },
  "idf": {
   "data": [
@@ -3412,98 +3409,98 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T10:17:26+00:00",
-  "fetched_at": "2026-11-17T10:17:26+00:00"
+  "checked_at": "2026-11-17T11:17:17+00:00",
+  "fetched_at": "2026-11-17T11:17:17+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-17T10:07:00+00:00",
-    "seen_at": "2026-11-17T10:17:28+00:00",
+    "newest": "2026-11-17T11:11:00+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-17T09:31:00+00:00",
-    "seen_at": "2026-11-17T10:17:28+00:00",
+    "newest": "2026-11-17T11:15:00+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-17T09:59:00+00:00",
-    "seen_at": "2026-11-17T10:17:28+00:00",
+    "newest": "2026-11-17T11:00:00+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-17T07:47:00+00:00",
-    "seen_at": "2026-11-17T10:17:28+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-17T10:00:00+00:00",
-    "seen_at": "2026-11-17T10:17:28+00:00",
+    "newest": "2026-11-17T11:30:00+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-17T10:30:00+00:00",
-    "seen_at": "2026-11-17T10:17:28+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-17T09:13:00+00:00",
-    "seen_at": "2026-11-17T10:17:28+00:00",
+    "newest": "2026-11-17T11:01:00+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-17T05:18:48+00:00",
-    "seen_at": "2026-11-17T10:17:28+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-12T18:00:50+00:00",
-    "seen_at": "2026-11-17T10:17:28+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-16T14:00:00+00:00",
-    "seen_at": "2026-11-17T10:17:28+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-17T08:42:31+00:00",
-    "seen_at": "2026-11-17T09:17:37+00:00",
+    "newest": "2026-11-17T09:32:33+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-16T12:30:00+00:00",
-    "seen_at": "2026-11-17T10:17:28+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-16T16:38:40+00:00",
-    "seen_at": "2026-11-17T10:17:28+00:00",
+    "newest": "2026-11-17T11:14:35+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-16T08:17:37+00:00",
-    "seen_at": "2026-11-17T10:17:28+00:00",
+    "seen_at": "2026-11-17T11:17:25+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-17T10:17:28+00:00"
+  "checked_at": "2026-11-17T11:17:25+00:00"
  },
  "health_news": {
   "data": [
@@ -3659,7 +3656,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T10:17:27+00:00",
-  "fetched_at": "2026-11-17T10:17:27+00:00"
+  "checked_at": "2026-11-17T11:17:18+00:00",
+  "fetched_at": "2026-11-17T11:17:18+00:00"
  }
 };
