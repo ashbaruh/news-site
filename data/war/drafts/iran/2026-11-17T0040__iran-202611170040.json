@@ -1,0 +1,332 @@
+{
+ "status": "draft",
+ "received_sha256_12": "cee7ff09b4ac",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "assessment": 1,
+   "shared_root": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-17T00:40:39+00:00",
+  "window": {
+   "from": "2026-11-16T00:40:39+00:00",
+   "to": "2026-11-17T00:40:39+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611170040"
+  },
+  "summary": "הזירה מאופיינת במתיחות צבאית גבוהה הכוללת פריסה מוגברת של כוחות אמריקניים במרחב לצד חיכוך ימי מתמשך במצר הורמוז הכולל פגיעה במכליות. במקביל, מתנהל עימות מודיעיני ופוליטי סביב תוכניות תקיפה הדדיות ואיומים ישירים על בכירי ממשל בארה\"ב ובסיסים באזור.",
+  "fronts": [
+   {
+    "name": "החזית הימית (מצר הורמוז)",
+    "status": "פעילה עם תקיפות מוקשים על מכליות נפט"
+   },
+   {
+    "name": "החזית האמריקנית-איראנית הישירה",
+    "status": "מתיחות גבוהה הכוללת תגבור כוחות ותוכניות פגיעה בבכירים"
+   },
+   {
+    "name": "חזית המיליציות והשלוחות",
+    "status": "התעצמות ופעילות של שלוחות איראניות בעיראק וביתר הציר השיעי"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11170040-01",
+    "title": "איומי תוכנית פגיעה בבכירי ממשל אמריקניים",
+    "summary": "מודיעין …",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T23:18:40+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-16T23:18:40+00:00",
+    "last_update_at": "2026-11-17T00:28:11+00:00",
+    "what_is_not_verified": "האם לאיראן יש יכולת ונכונות להוציא את התוכנית לפועל, והאם חומרים אכן הוסתרו בשטחי ארה\"ב.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_cnn",
+      "url": "https://www.ynet.co.il/news/article/h17glzfame",
+      "published_at": "2026-11-17T00:28:11+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_cnn",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21867715",
+      "published_at": "2026-11-16T23:35:00+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_cnn",
+      "url": "https://www.maariv.co.il/breaking-news/article-1389267",
+      "published_at": "2026-11-16T23:28:55+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_cnn",
+      "url": "https://t.me/alexmehacarmel/49651",
+      "published_at": "2026-11-16T23:18:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארה\"ב",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11170040-02",
+    "title": "תקיפת מכליות נפט במצר הורמוז",
+    "summary": "מכליות נפט נפגעו ממוקשים ימיים במצר הורמוז, כאשר דווח על מספר תקריות בתוך כיממה ואחת המכליות טבעה או עלתה באש.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-16T20:38:00+00:00",
+    "last_update_at": "2026-11-16T23:57:49+00:00",
+    "what_is_not_verified": "היקף הנזק המלא בכלל האירועים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_ukmto",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss",
+      "published_at": "2026-11-16T23:57:49+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_ukmto",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-tanker-transiting-strait-hormuz-attacked-near-oman",
+      "published_at": "2026-11-16T21:51:17+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_ukmto",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-still-retains-2500-ballistic-missiles-report",
+      "published_at": "2026-11-16T21:15:56+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_ukmto",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-tv-tanker-ablaze-after-hitting-mine-strait-hormuz-fourth-24",
+      "published_at": "2026-11-16T20:38:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     },
+     {
+      "name": "ח'סב, עומאן",
+      "lat": 26.1841,
+      "lon": 56.247
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11170040-03",
+    "title": "הפעלת מערכות הגנה אווירית באספהאן",
+    "summary": "מערכות הגנה אוווירית הופעלו בעיר אספהאן שבאיראן בעקבות דיווחים על פעילות חריגה.",
+    "axis": "איראן מול ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T17:59:53+00:00",
+    "last_update_at": "2026-11-16T19:56:34+00:00",
+    "what_is_not_verified": "זהות הגורם שתקף או הופעל מעל העיר.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133756",
+      "published_at": "2026-11-16T19:56:34+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-media-air-defence-systems-activated-isfahan",
+      "published_at": "2026-11-16T18:00:04+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1389199",
+      "published_at": "2026-11-16T17:59:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אספהאן, איראן",
+      "lat": 32.6708,
+      "lon": 51.665
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11170040-04",
+    "title": "כניסת נושאת מטוסים שלישית לאזור",
+    "summary": "נושאת המטוסים האמריקנית תיאודור רוזוולט נכנסה לתחום האחריות של פיקוד המרכז, ובכך ישנן שלוש נושאות מטוסים אמריקניות במזרח התיכון.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-16T06:29:47+00:00",
+    "last_update_at": "2026-11-16T21:13:02+00:00",
+    "what_is_not_verified": "לא צוין מידע בלתי מאומת בנושא זה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_df5f5ea6e31cad2a",
+      "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
+      "published_at": "2026-11-16T21:13:02+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "fh_ae39b0d1e6e52f67",
+      "url": "https://www.walla.co.il/news/military/383961578",
+      "published_at": "2026-11-16T06:29:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "המזרח התיכון",
+      "lat": 39.3014,
+      "lon": -76.5888
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "יכולתה של איראן להוציא לפועל מתקפה רדיואקטיבית או כימית בוושינגטון",
+   "האם חומרים מסוכנים אכן הוסתרו בתוך שטח ארה\"ב",
+   "קיומו של מזל\"ט אמריקני שהורט מעל אספהאן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.224,
+    "unit": "ILS",
+    "change_pct": 0.41,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הצבת תנאים לפתיחת מצר הורמוז",
+     "הכחשת תוכניות פיגוע בוושינגטון"
+    ],
+    "inferred": [
+     "שימור יכולות הלחימה וארסנל הטילים",
+     "שיבוש תנועת הסחר הימי והאנרגיה במפרץ"
+    ],
+    "forecast": [
+     "המשך פעילות שיבוש ימית במצר הורמוז",
+     "תגובות נקודתיות באמצעות שלוחות ונכסים צבאיים"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "שמירה על חופש השייט במצר הורמוז באמצעות ליווי ימי",
+     "הערכת מצב ביטחונית סביב איומים על בכירים"
+    ],
+    "inferred": [
+     "הרתעת איראן באמצעות תגבור כוחות ונוכחות של שלוש נושאות מטוסים",
+     "זהירות מפני היגררות למלחמה כוללת רחבה מדי"
+    ],
+    "forecast": [
+     "המשך נוכחות צבאית מוגברת במרחב",
+     "בחינת אפשרויות תגובה במקרה של פגיעה בנכסים אמריקניים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הזהרת העולם מפני האיום הגרעיני והטילים של איראן שאינו נעצר בגבולותיה"
+    ],
+    "inferred": [
+     "שאיפה ללחוץ על ארה\"ב לחידוש הלחימה ותקיפת תשתיות איראניות",
+     "חשש מהסכם עתידי בין ארה\"ב לאיראן שיותיר את ישראל במלכוד אסטרטגי"
+    ],
+    "forecast": [
+     "המשך דיונים פנימיים וניסיונות תיאום מול הממשל האמריקני",
+     "היערכות לאפשרות של פעילות צבאית עצמאית או בתיאום חלקי"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss",
+    "accessed_at": "2026-11-17T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
+    "accessed_at": "2026-11-17T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21867715",
+    "accessed_at": "2026-11-17T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1389199",
+    "accessed_at": "2026-11-17T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-media-air-defence-systems-activated-isfahan",
+    "accessed_at": "2026-11-17T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133756",
+    "accessed_at": "2026-11-17T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49651",
+    "accessed_at": "2026-11-17T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383961578",
+    "accessed_at": "2026-11-17T00:40:39+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/h17glzfame",
+    "accessed_at": "2026-11-17T00:40:39+00:00"
+   }
+  ]
+ }
+}
