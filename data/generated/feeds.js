@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-17T01:05:54+00:00",
-  "fetched_at": "2026-11-17T01:05:54+00:00"
+  "checked_at": "2026-11-17T01:17:30+00:00",
+  "fetched_at": "2026-11-17T01:17:30+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T01:06:26+00:00",
-  "fetched_at": "2026-11-17T01:06:26+00:00"
+  "checked_at": "2026-11-17T01:17:45+00:00",
+  "fetched_at": "2026-11-17T01:17:45+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T01:06:27+00:00",
-  "fetched_at": "2026-11-17T01:06:27+00:00"
+  "checked_at": "2026-11-17T01:17:46+00:00",
+  "fetched_at": "2026-11-17T01:17:46+00:00"
  },
- "generated_at": "2026-11-17T01:06:27+00:00",
+ "generated_at": "2026-11-17T01:17:46+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-17T01:05:55+00:00",
-  "fetched_at": "2026-11-17T01:05:55+00:00"
+  "checked_at": "2026-11-17T01:17:31+00:00",
+  "fetched_at": "2026-11-17T01:17:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,123 +1871,11 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T01:05:56+00:00",
-  "fetched_at": "2026-11-17T01:05:56+00:00"
+  "checked_at": "2026-11-17T01:17:32+00:00",
+  "fetched_at": "2026-11-17T01:17:32+00:00"
  },
  "tv": {
   "data": [
-   {
-    "date": "2026-11-16",
-    "time": "00:00",
-    "channel": "ONE2",
-    "sport": "כדורסל",
-    "title": "אורגון דאקס - פפרדין ווייבס"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "15:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "נמיביה - קמרון"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "15:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורגל",
-    "title": "סודן - סנגל"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "15:30",
-    "channel": "ספורט 5+",
-    "sport": "כדורגל",
-    "title": "זימבבואה - גינאה המשוונית"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "17:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "קזחסטן - סלובקיה"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "17:00",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "איי פארו - מולדובה"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "17:00",
-    "channel": "ספורט 5",
-    "sport": "כדורגל",
-    "title": "סומליה - גאנה"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "18:00",
-    "channel": "ספורט 5 מקס",
-    "sport": "כדורגל",
-    "title": "אריתראה - גינאה"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "19:00",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "ליטא - ליכטנשטיין"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "19:00",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "אסטוניה - בולגריה"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "19:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "איסלנד - לוקסמבורג"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "19:55",
-    "channel": "5 סטארס",
-    "sport": "כדורסל",
-    "title": "הפועל גליל עליון - הפועל עירוני אילת"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "20:05",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "הפועל חולון - הפועל העמק"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "20:15",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "מכבי ראשון לציון - הפועל ב\"ש/דימונה"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "21:45",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "שוויץ - סקוטלנד"
-   },
-   {
-    "date": "2026-11-16",
-    "time": "21:45",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "גרמניה - הולנד"
-   },
    {
     "date": "2026-11-17",
     "time": "02:00",
@@ -2054,13 +1942,6 @@ window.DB.generated = {
    {
     "date": "2026-11-17",
     "time": "18:00",
-    "channel": "ספורט 5+ לייב",
-    "sport": "כדורסל",
-    "title": "בי.סי דובאי - אנאדולו אפס"
-   },
-   {
-    "date": "2026-11-17",
-    "time": "18:00",
     "channel": "5 גולד",
     "sport": "כדורגל",
     "title": "גמביה - חוף השנהב"
@@ -2092,6 +1973,13 @@ window.DB.generated = {
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
     "title": "טוגו - אלג'יריה"
+   },
+   {
+    "date": "2026-11-17",
+    "time": "18:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורסל",
+    "title": "בי.סי דובאי - אנאדולו אפס"
    },
    {
     "date": "2026-11-17",
@@ -2481,16 +2369,16 @@ window.DB.generated = {
    {
     "date": "2026-11-20",
     "time": "19:30",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "ארמיניה בילפלד - מגדבורג"
+    "channel": "ספורט 5+",
+    "sport": "כדורסל",
+    "title": "אנאדולו אפס - ליון-וילרבאן"
    },
    {
     "date": "2026-11-20",
     "time": "19:30",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "אנאדולו אפס - ליון-וילרבאן"
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "ארמיניה בילפלד - מגדבורג"
    },
    {
     "date": "2026-11-20",
@@ -2932,12 +2820,18 @@ window.DB.generated = {
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "ריבר פלייט - לאנוס"
+   },
+   {
+    "date": "2026-11-23",
+    "time": "22:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "לבאנטה - אלצ'ה"
    }
   ],
-  "ok": false,
-  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
-  "checked_at": "2026-11-17T01:06:17+00:00",
-  "fetched_at": "2026-11-16T21:17:27+00:00"
+  "ok": true,
+  "checked_at": "2026-11-17T01:17:37+00:00",
+  "fetched_at": "2026-11-17T01:17:37+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3027,8 +2921,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-17T01:06:17+00:00",
-  "fetched_at": "2026-11-17T01:06:17+00:00"
+  "checked_at": "2026-11-17T01:17:37+00:00",
+  "fetched_at": "2026-11-17T01:17:37+00:00"
  },
  "ai": {
   "data": {
@@ -3052,8 +2946,7 @@ window.DB.generated = {
    ],
    "candidates": 10,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
@@ -3129,8 +3022,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-17T01:06:25+00:00",
-  "fetched_at": "2026-11-17T01:06:25+00:00"
+  "checked_at": "2026-11-17T01:17:45+00:00",
+  "fetched_at": "2026-11-17T01:17:45+00:00"
  },
  "abroad": {
   "data": {
@@ -3478,13 +3371,13 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-17T01:06:20+00:00",
-  "fetched_at": "2026-11-17T01:06:20+00:00"
+  "checked_at": "2026-11-17T01:17:41+00:00",
+  "fetched_at": "2026-11-17T01:17:41+00:00"
  },
  "idf": {
   "data": [
    {
-    "title": "שני פצועים בניסיון פיגוע באזור יריחו: צה\"ל הציב חסימות באזור",
+    "title": "פיגוע באזור יריחו: שלושה ישראלים נפצעו - צה\"ל במרדף אחר המחבלים",
     "link": "https://www.walla.co.il/news/military/383961726",
     "date": "2026-11-16T22:35:04+00:00"
    },
@@ -3509,10 +3402,9 @@ window.DB.generated = {
     "date": "2026-11-16T03:50:00+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-17T01:06:20+00:00",
-  "fetched_at": "2026-11-16T23:17:54+00:00"
+  "ok": true,
+  "checked_at": "2026-11-17T01:17:41+00:00",
+  "fetched_at": "2026-11-17T01:17:41+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3520,89 +3412,89 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-16T21:05:00+00:00",
-    "seen_at": "2026-11-17T01:06:27+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-16T21:05:00+00:00",
-    "seen_at": "2026-11-17T01:06:27+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-16T21:05:00+00:00",
-    "seen_at": "2026-11-17T01:06:27+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-16T15:59:00+00:00",
-    "seen_at": "2026-11-17T01:06:27+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-16T22:51:00+00:00",
-    "seen_at": "2026-11-17T01:06:27+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-16T23:01:00+00:00",
-    "seen_at": "2026-11-17T01:06:27+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-16T22:50:00+00:00",
-    "seen_at": "2026-11-17T01:06:27+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-16T22:35:04+00:00",
-    "seen_at": "2026-11-16T23:17:59+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-12T18:00:50+00:00",
-    "seen_at": "2026-11-16T23:17:59+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-16T14:00:00+00:00",
-    "seen_at": "2026-11-17T01:06:27+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-16T16:00:54+00:00",
-    "seen_at": "2026-11-17T01:06:27+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-16T12:30:00+00:00",
-    "seen_at": "2026-11-17T01:06:27+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-16T16:38:40+00:00",
-    "seen_at": "2026-11-17T01:06:27+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-16T08:17:37+00:00",
-    "seen_at": "2026-11-17T01:06:27+00:00",
+    "seen_at": "2026-11-17T01:17:46+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-17T01:06:27+00:00"
+  "checked_at": "2026-11-17T01:17:46+00:00"
  },
  "health_news": {
   "data": [
@@ -3758,7 +3650,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T01:06:21+00:00",
-  "fetched_at": "2026-11-17T01:06:21+00:00"
+  "checked_at": "2026-11-17T01:17:42+00:00",
+  "fetched_at": "2026-11-17T01:17:42+00:00"
  }
 };
