@@ -1,0 +1,508 @@
+{
+ "status": "draft",
+ "received_sha256_12": "068c9c85be35",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 4,
+   "initial": 6
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-17T19:30:52+00:00",
+  "window": {
+   "from": "2026-11-16T19:30:52+00:00",
+   "to": "2026-11-17T19:30:52+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202611171930"
+  },
+  "summary": "העימות בין רוסיה לאוקראינה הסלים עם מתקפה אוקראינית מוצלחת שגרמה להרס מקטע מגשר קרים, לצד מתקפות טילים בליסטיים וכטב\"מים רוסיות מסיביות שפגעו בגשרים בקייב ובאתרים אזרחיים, וחלקן אף גלשו למרחב האווירי של מולדובה. במקביל לתקיפות ההדדיות בעומק השטח, מדינות אירופה מגבירות את הסיוע הצבאי והתעשייתי לאוקראינה חרף ביקורת אמריקאית על תקיפות בעומק רוסיה, ורוסיה מקדמת צעדי חקיקה להרחבת גיוס נשים בשל מצוקת כוח אדם בחזית.",
+  "fronts": [
+   {
+    "name": "חצי האי קרים ומצר קרץ'",
+    "status": "הסלמה עקב תקיפה קשה על גשר קרים, קריסת מקטעים וחסימת שיט"
+   },
+   {
+    "name": "מרחב קייב",
+    "status": "ספיגת תקיפות טילים בליסטיים מסיביות נגד תשתיות תחבורה וגשרים"
+   },
+   {
+    "name": "גבול אוקראינה-מולדובה",
+    "status": "דריכות ביטחונית וסגירת מעברים בעקבות חדירת כטב\"מים רוסיים והתרסקותם"
+   },
+   {
+    "name": "ויניצה",
+    "status": "תקיפות אוויריות רוסיות חוזרות שפוגעות במרכז העיר"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11171930-01",
+    "title": "תקיפה אוקראינית משמעותית על גשר קרים והקרסת מקטע ממנו",
+    "summary": "כוחות אוקראינה ביצעו מתקפה רב-שלבית באמצעות טילים וכטב\"מים שהביאה לפגיעה קשה ולהתמוטטות מקטע מקשת גשר הכביש של גשר קרים, וכן לפגיעה במקטע הרכבת וחסימת נתיב השיט במצר קרץ'.",
+    "axis": "חצי האי קרים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T08:59:47+00:00",
+    "last_update_at": "2026-11-17T19:20:42+00:00",
+    "what_is_not_verified": "סוגי החימוש המדויקים (האם טילי פלמינגו, כטב\"מים או שילוב), היקף ההרס המדויק בגשר הרכבת, וטענות על אישור אמריקאי מוקדם לתקיפה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-entire-section-of-crimean-bridge-collapses-after-seven-phase-operation-zelensky-reveals/",
+      "published_at": "2026-11-17T19:20:42+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49681",
+      "published_at": "2026-11-17T19:14:12+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4185747-strike-on-kerch-bridge-marks-another-impressive-success-for-ukraine-austrian-colonel.html",
+      "published_at": "2026-11-17T18:05:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/video/2026/nov/17/ukraine-releases-footage-of-strike-on-crimean-bridge-video",
+      "published_at": "2026-11-17T17:48:38+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/17/how-ukraine-struck-kerch-bridge-symbol-vladimir-putin-rule",
+      "published_at": "2026-11-17T17:30:40+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-17T17:19:57+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-17T16:56:38+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-kerch-bridge-attack-russia-crimea-analysis",
+      "published_at": "2026-11-17T16:40:26+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49672",
+      "published_at": "2026-11-17T16:18:42+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-17T15:38:10+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133773",
+      "published_at": "2026-11-17T08:59:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "גשר קרים, חצי האי קרים",
+      "lat": 45.2786,
+      "lon": 36.5393
+     },
+     {
+      "name": "מצר קרץ', חצי האי קרים",
+      "lat": 45.281,
+      "lon": 36.5492
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11171930-02",
+    "title": "מתקפת טילים בליסטיים רוסית על גשרים בקייב",
+    "summary": "רוסיה שיגרה מתקפת טילים בליסטיים רחבת היקף על אוקראינה, במסגרתה נפגעו שני גשרים מרכזיים בקייב, כולל גשר סברני שהתנועה עליו הוגבלה.",
+    "axis": "קייב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T17:19:57+00:00",
+    "last_update_at": "2026-11-17T19:20:42+00:00",
+    "what_is_not_verified": "מידת הנזק המבני המלא לשני הגשרים ומספר הנפגעים במתקפה בקייב.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-entire-section-of-crimean-bridge-collapses-after-seven-phase-operation-zelensky-reveals/",
+      "published_at": "2026-11-17T19:20:42+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/world/2219917",
+      "published_at": "2026-11-17T19:01:04+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-17T17:19:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11171930-03",
+    "title": "חדירת כטב\"מים רוסיים למרחב האווירי של מולדובה וסגירת מעברי גבול",
+    "summary": "שבעה כלי טיס בלתי מאוישים רוסיים חדרו למרחב האווירי של מולדובה במהלך תקיפה על אוקראינה; חלקם התרסקו בשטחה ואחד נצפה מעל עיר הבירה קישינב, מה שהוביל לסגירה זמנית של המרחב האווירי ושישה מעברי גבול.",
+    "axis": "מולדובה - גבול אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T18:00:00+00:00",
+    "last_update_at": "2026-11-17T18:37:20+00:00",
+    "what_is_not_verified": "מיקום ההתרסקות של כלי הטיס השישי והשביעי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/7-drones-cross-into-moldovan-airspace-during-latest-russian-attack-against-ukraine-1-spotted-over-chisinau/",
+      "published_at": "2026-11-17T18:37:20+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063339/",
+      "published_at": "2026-11-17T18:36:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063332/",
+      "published_at": "2026-11-17T18:00:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קישינב, מולדובה",
+      "lat": 47.0245,
+      "lon": 28.8323
+     },
+     {
+      "name": "קלטיטורי, מולדובה",
+      "lat": 47.0658,
+      "lon": 28.9271
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11171930-04",
+    "title": "תקיפה רוסית שנייה באותו יום על ויניצה",
+    "summary": "רוסיה תקפה את מרכז העיר ויניצה בפעם השנייה בתוך יממה, גרמה לשריפה במבנה ולפציעת ארבעה בני אדם מטראומה אקוסטית והלם.",
+    "axis": "ויניצה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T18:01:00+00:00",
+    "last_update_at": "2026-11-17T18:01:00+00:00",
+    "what_is_not_verified": "סוג החימוש שפגע במבנה בויניצה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063333/",
+      "published_at": "2026-11-17T18:01:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ויניצה, אוקראינה",
+      "lat": 49.232,
+      "lon": 28.468
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11171930-05",
+    "title": "אישור נוכחות חיילים צרפתים באוקראינה ותגובת רוסיה",
+    "summary": "דוברת צבא צרפת אישרה כי כוחות צרפתיים שוהים באוקראינה לצורכי אימון ותיקון ציוד הרחק מקו החזית, בעוד שרוסיה הכריזה כי מדובר במעורבות ישירה במלחמה וכי הם מהווים מטרות לגיטימיות.",
+    "axis": "הזירה הבינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-17T18:56:30+00:00",
+    "last_update_at": "2026-11-17T18:56:30+00:00",
+    "what_is_not_verified": "מספר החיילים הצרפתים המדויק ומיקומם הספציפי בתוך אוקראינה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/17/france-confirms-its-troops-are-in-ukraine-russia-says-they-are-legitimate-targets",
+      "published_at": "2026-11-17T18:56:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11171930-06",
+    "title": "מימון גרמני ונורווגי לרכש נשק אמריקאי עבור אוקראינה",
+    "summary": "גרמניה ונורווגיה ישקיעו 300 מיליון דולר כל אחת במימון חבילת נשק אמריקאי חדשה לאוקראינה במסגרת יוזמת PURL.",
+    "axis": "סיוע צבאי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T19:05:00+00:00",
+    "last_update_at": "2026-11-17T19:05:00+00:00",
+    "what_is_not_verified": "פירוט מערכות הנשק המדויקות בחבילת הרכש.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4185771-germany-norway-to-contribute-300m-each-toward-us-arms-purchases-for-ukraine-pistorius.html",
+      "published_at": "2026-11-17T19:05:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11171930-07",
+    "title": "אספקת מכ\"מים גרמניים עבור מערכת ההגנה האווירית פרייה",
+    "summary": "גרמניה הודיעה כי תספק לאוקראינה מכ\"מים בעלי ביצועים גבוהים שישמשו רכיב מפתח במערכת ההגנה העתידית נגד טילים בליסטיים מדגם פרייה.",
+    "axis": "סיוע צבאי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T18:34:00+00:00",
+    "last_update_at": "2026-11-17T18:34:00+00:00",
+    "what_is_not_verified": "לוח הזמנים לאספקת המכ\"מים ומועד פריסת המערכת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-polytics/4185759-germany-to-supply-ukraine-with-new-radars-for-future-freyja-air-defense-system-pistorius.html",
+      "published_at": "2026-11-17T18:34:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11171930-08",
+    "title": "הסכם לייצור נשק משותף בין פינלנד לאוקראינה",
+    "summary": "… ומערכות נשק בשטח פינלנד, המשלב ניסיון מבצעי אוקראיני ויכולות תעשייתיות פיניות.",
+    "axis": "סיוע צבאי",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T16:27:43+00:00",
+    "last_update_at": "2026-11-17T16:27:43+00:00",
+    "what_is_not_verified": "אילו מערכות נשק ספציפיות ייוצרו במסגרת שיתוף הפעולה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49673",
+      "published_at": "2026-11-17T16:27:43+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11171930-09",
+    "title": "העלאת גיל השירות הצבאי לנשים ברוסיה",
+    "summary": "הדומה הרוסית אישרה בקריאה ראשונה הצעת חוק להעלאת גיל הפטור משירות לנשים מ-45 ל-50, וגיל המילואים עד 55 לקצינות, על רקע מחסור בכוח אדם ביחידות הלוחמות והרפואיות.",
+    "axis": "מדיניות פנים ברוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T16:15:22+00:00",
+    "last_update_at": "2026-11-17T16:15:22+00:00",
+    "what_is_not_verified": "המועד הסופי לאישור החוק והשפעתו המספרית על שורות הצבא.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/17/russia-moves-to-raise-military-service-age-limit-for-women-amid-troop-shortages",
+      "published_at": "2026-11-17T16:15:22+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11171930-10",
+    "title": "נחיתת פוטין בסין לקראת פסגה משולשת",
+    "summary": "נשיא רוסיה פוטין נחת בסין לקראת השתתפות בפסגה משולשת מתוכננת עם נשיא סין ונשיא ארה\"ב טראמפ בשנג'ן.",
+    "axis": "משא ומתן ומגעים דיפלומטיים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-17T16:40:26+00:00",
+    "last_update_at": "2026-11-17T19:16:36+00:00",
+    "what_is_not_verified": "סדר היום המדויק של הפסגה והאם המלחמה באוקראינה תעמוד במוקד הדיונים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133819",
+      "published_at": "2026-11-17T19:16:36+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-kerch-bridge-attack-russia-crimea-analysis",
+      "published_at": "2026-11-17T16:40:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "שנג'ן, סין",
+      "lat": 22.5446,
+      "lon": 114.0545
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת מקור רוסי על אישור אמריקאי מוקדם לתקיפת גשר קרים בתגובה למתקפות סייבר",
+   "מספר האבדות המדויק של כוחות רוסיה ואוקראינה במהלך חודש אוקטובר",
+   "היקף הנזק המלא והשבתת תנועת הרכבות בגשר קרים",
+   "דיווח על שריפה במתחם פטרוכימי בבשקורטוסטאן"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.0989,
+    "unit": "USD",
+    "change_pct": -0.23,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-17T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "פגיעה במשגרי טילים בליסטיים רוסיים וצפון קוריאניים",
+     "הסרת מגבלות תקשורת הלוויינים סטרשילד בשטחים הכבושים",
+     "השגת 40 מטוסי F-16 נוספים ותקציב סיוע מאירופה"
+    ],
+    "inferred": [
+     "ניתוק נתיבי האספקה הלוגיסטיים של צבא רוסיה לחצי האי קרים",
+     "יצירת מנוף לחץ ומבוכה פוליטית לרוסיה לקראת פסגות בינלאומיות"
+    ],
+    "forecast": [
+     "המשך ניסיונות לפגוע במסדרון היבשתי בדרום אוקראינה ובצירי אספקה לקרים",
+     "הגברת הלחץ הדיפלומטי על מדינות המערב לאספקת מערכות הגנה אווירית"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פגיעה בכוחות צרפתיים באוקראינה כיעדים לגיטימיים",
+     "טענה כי חימוש אוקראינה רק מאריך את משך העימות"
+    ],
+    "inferred": [
+     "פגיעה שיטתית בתשתיות הגשרים והתחבורה של אוקראינה בקייב ובערים מרכזיות",
+     "השלמת פערי כוח אדם בחזית באמצעות הרחבת חובת הגיוס והמילואים לנשים"
+    ],
+    "forecast": [
+     "תקיפות תגובה נרחבות נגד תשתיות אסטרטגיות באוקראינה בעקבות הפגיעה בגשר קרים",
+     "המשך שימוש בנתיבי טיסה סמוכים למולדובה לשיבוש מערכי ההגנה של אוקראינה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-17T19:30:52+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-kerch-bridge-attack-russia-crimea-analysis",
+    "accessed_at": "2026-11-17T19:30:52+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/7-drones-cross-into-moldovan-airspace-during-latest-russian-attack-against-ukraine-1-spotted-over-chisinau/",
+    "accessed_at": "2026-11-17T19:30:52+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/17/russia-moves-to-raise-military-service-age-limit-for-women-amid-troop-shortages",
+    "accessed_at": "2026-11-17T19:30:52+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063333/",
+    "accessed_at": "2026-11-17T19:30:52+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/world/2219917",
+    "accessed_at": "2026-11-17T19:30:52+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133819",
+    "accessed_at": "2026-11-17T19:30:52+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49673",
+    "accessed_at": "2026-11-17T19:30:52+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4185759-germany-to-supply-ukraine-with-new-radars-for-future-freyja-air-defense-system-pistorius.html",
+    "accessed_at": "2026-11-17T19:30:52+00:00"
+   }
+  ]
+ }
+}

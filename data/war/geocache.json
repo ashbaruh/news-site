@@ -321,6 +321,10 @@
 14.5729,
 46.8319
 ],
+"athens, greece": [
+37.9756,
+23.7348
+],
 "atlanta, united states": [
 33.7545,
 -84.3898
@@ -669,6 +673,10 @@
 "chabahar, iran": [
 25.2935,
 60.6469
+],
+"cheltuitori, moldova": [
+47.0658,
+28.9271
 ],
 "cherkaske, donetsk oblast, ukraine": [
 48.8354,
@@ -1271,6 +1279,7 @@
 32.8682,
 44.2159
 ],
+"jurf al-sakher, iraq": null,
 "kafr kila, lebanon": [
 33.2827,
 35.5588
@@ -1337,6 +1346,10 @@
 "katerynivka, ukraine": [
 47.8756,
 37.3456
+],
+"kerch strait, crimea": [
+45.281,
+36.5492
 ],
 "kerch, crimea": [
 45.3563,

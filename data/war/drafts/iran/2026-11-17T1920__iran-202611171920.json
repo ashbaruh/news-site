@@ -1,0 +1,410 @@
+{
+ "status": "draft",
+ "received_sha256_12": "14a3aad976fc",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "initial": 4,
+   "shared_root": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-17T19:20:31+00:00",
+  "window": {
+   "from": "2026-11-16T19:20:31+00:00",
+   "to": "2026-11-17T19:20:31+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611171920"
+  },
+  "summary": "העימות הצבאי הישיר והעקיף בין ארצות הברית וישראל לבין איראן ושלוחותיה ממשיך להסלים, במקביל למבוי סתום לאחר חודשי לחימה ממושכים. הזירה מתאפיינת בחילופי מהלומות ישירים של תקיפות אוויריות ושיגורי כטב\"מים באזור המפרץ, פגיעה בספנות ובצינורות נפט, לצד עיבוי כוחות ימיים אמריקאיים חסר תקדים. במקביל, המאמצים המודיעיניים והסיכוליים מתרחבים אל מחוץ למזרח התיכון תוך החלפת איומים על שימוש בנשק בלתי קונבנציונלי.",
+  "fronts": [
+   {
+    "name": "המפרץ הפרסי ומצר הורמוז",
+    "status": "פעילה - חילופי תקיפות בין כוחות ארה\"ב לאיראן ופגיעה בספנות מסחרית"
+   },
+   {
+    "name": "החזית הישראלית-איראנית (סיכול בינלאומי והיערכות לתקיפה)",
+    "status": "מתוחה - היערכות לפעולות עומק וסיכול מזימות טרור בחו\"ל"
+   },
+   {
+    "name": "שלוחות איראן בעיראק ובתימן",
+    "status": "פעילה - שיגורים של החות'ים לעבר יעדי תשתית סעודיים וסירוב מיליציות עיראקיות לסגת ממוקדי אחיזה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11171920-01",
+    "title": "פגיעה במכלית גז במצר הורמוז",
+    "summary": "מכלית להובלת גז עלתה באש וצוותה נטש אותה לאחר שנפגעה מעצם ששוגר לעברה בעת ששטה במצר הורמוז.",
+    "axis": "איראן - ארה\"ב / ספנות במפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T18:20:59+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T18:20:59+00:00",
+    "last_update_at": "2026-11-17T18:20:59+00:00",
+    "what_is_not_verified": "זהות המשגר או סוג העצם שפגע בכלי השיט לא אומתו באופן רשמי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/video/2026/nov/17/inferno-engulfs-gas-tanker-in-strait-of-hormuz-after-reported-strike-video",
+      "published_at": "2026-11-17T18:20:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11171920-02",
+    "title": "שיגור כטב\"מים איראניים לבסיס אמריקאי בבחריין ותקיפת תגובה באי קשם",
+    "summary": "משמרות המהפכה שיגרו כלי טיס בלתי מאוישים לעבר מתקן או בסיס של צבא ארה\"ב בבחריין, ובתגובה תקפה ארה\"ב מערכות הגנה באי קשם בדרום איראן.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T15:42:47+00:00",
+    "last_update_at": "2026-11-17T17:29:02+00:00",
+    "what_is_not_verified": "מידת הנזק, תוצאות היירוט ודיווחים על היקף התקיפה בקשם נסמכים על מקורות המזוהים עם הצדדים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611177708",
+      "published_at": "2026-11-17T17:29:02+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133808",
+      "published_at": "2026-11-17T15:42:47+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי קשם, איראן",
+      "lat": 26.7687,
+      "lon": 55.8477
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11171920-03",
+    "title": "סיכול מזימה לפגיעה באיש עסקים ישראלי ביוון",
+    "summary": "רשויות הביטחון ביוון ובצפון מקדוניה עצרו חוליה הקשורה לרשת פשיעה הפועלת בשירות איראן, במטרה לפגוע באיש עסקים ישראלי.",
+    "axis": "ישראל - איראן (חו\"ל)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T13:32:43+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T13:32:43+00:00",
+    "last_update_at": "2026-11-17T18:36:24+00:00",
+    "what_is_not_verified": "פרטי החקירה המלאים וזהות כלל המעורבים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rkghwzqagx",
+      "published_at": "2026-11-17T18:36:24+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21867113",
+      "published_at": "2026-11-17T13:32:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אתונה, יוון",
+      "lat": 37.9756,
+      "lon": 23.7348
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11171920-04",
+    "title": "שיגור כטב\"מים של החות'ים לעבר קו צינור הנפט מזרח-מערב בסעודיה",
+    "summary": "תנועת החות'ים בתימן הודיעה כי שיגרה חמישה כלי טיס בלתי מאוישים לעבר שתי תחנות שאיבה של צינור הנפט באזור ריאד.",
+    "axis": "החות'ים - סעודיה / איראן - המפרץ",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T18:05:25+00:00",
+    "last_update_at": "2026-11-17T18:05:25+00:00",
+    "what_is_not_verified": "לא התקבל אישור רשמי מצד סעודיה על פגיעה או עצם השיגור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-they-launched-drones-towards-saudi-east-west-pipeline",
+      "published_at": "2026-11-17T18:05:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11171920-05",
+    "title": "הגעת נושאת מטוסים אמריקאית שלישית למזרח התיכון",
+    "summary": "פיקוד המרכז של ארה\"ב פרסם על הגעת נושאת המטוסים תיאודור רוזוולט לצד ג'ורג' וושינגטון, כחלק מעיבוי הכוחות וההרתעה באזור.",
+    "axis": "ארה\"ב - איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-16T21:13:02+00:00",
+    "last_update_at": "2026-11-17T17:09:12+00:00",
+    "what_is_not_verified": "אין פרטים בלתי מאומתים לגבי עצם פריסת הכוחות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133813",
+      "published_at": "2026-11-17T17:09:12+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
+      "published_at": "2026-11-16T21:13:02+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11171920-06",
+    "title": "דיווחים אמריקאיים על תוכנית איראנית לפגיעה בבכירים באמצעות פצצה מלוכלכת והכחשה איראנית",
+    "summary": "בארה\"ב נבדק מידע מודיעיני שלפיו איראן בוחנת מזימה לפגוע בבכירים בוושינגטון בנשק כימי או פצצה מלוכלכת, בעוד יו\"ר הפרלמנט האיראני דחה את הטענות כתעמולה.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T23:18:40+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T23:18:40+00:00",
+    "last_update_at": "2026-11-17T17:53:45+00:00",
+    "what_is_not_verified": "במערכת המודיעין האמריקאית קיימים ספקות ומחלוקות באשר לאמינות המידע וליכולת הביצוע של איראן; הבית הלבן ציין כי אין איום אמין כעת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86325040/Ghalibaf-slams-US-dirty-bomb-allegations-as-fresh-anti-Iran",
+      "published_at": "2026-11-17T17:53:45+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington",
+      "published_at": "2026-11-17T16:03:34+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21873039",
+      "published_at": "2026-11-17T14:20:12+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49651",
+      "published_at": "2026-11-16T23:18:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וושינגטון, ארצות הברית",
+      "lat": 38.8951,
+      "lon": -77.0364
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11171920-07",
+    "title": "סירוב גדודי חזבאללה בעיראק לסגת מג'ורף א-סח'ר",
+    "summary": "המיליציה הפרו-איראנית גדודי חזבאללה דחתה את האולטימטום של ראש ממשלת עיראק להתפנות ממעוזה מדרום לבגדאד בעקבות טענות להברחת נפט.",
+    "axis": "המיליציות בעיראק - ארה\"ב / ממשלת עיראק",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-17T18:33:36+00:00",
+    "last_update_at": "2026-11-17T18:33:36+00:00",
+    "what_is_not_verified": "לא אומתו טענות הממשלה בדבר הברחות הנפט מתוך האזור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-backed-iraqi-group-refuses-withdraw-stronghold-kataeb-hezbollahiran",
+      "published_at": "2026-11-17T18:33:36+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11171920-08",
+    "title": "טענה להפלת כטב\"ם אמריקאי במצר הורמוז",
+    "summary": "מערכות ההגנה האווירית של איראן יירטו והפילו כלי טיס בלתי מאויש של ארה\"ב בסמוך למצר הורמוז.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T12:51:19+00:00",
+    "last_update_at": "2026-11-17T12:51:19+00:00",
+    "what_is_not_verified": "ההפלה נמסרה בערוץ דיווחים ואין עליה אישור אמריקאי רשמי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95053",
+      "published_at": "2026-11-17T12:51:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות המודיעין האמריקאי בדבר כוונת איראן להפעיל פצצה מלוכלכת או נשק כימי בשטח ארה\"ב",
+   "הדיווח על הפלת כטב\"ם אמריקאי מדגם לוקאס מעל מצר הורמוז",
+   "הטענה לשימוש אמריקאי בפצצות גרפיט לפגיעה בתשתיות חשמל באיראן",
+   "תוצאות הפגיעה בצינור הנפט הסעודי מזרח-מערב על ידי כטב\"מים חות'יים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2463,
+    "unit": "ILS",
+    "change_pct": 0.69,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-17T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "שמירה על מוכנות מלאה להגנה על המדינה והביטחון הלאומי",
+     "הכחשת מעורבות בתוכניות לפיגועי פצצה מלוכלכת בארה\"ב"
+    ],
+    "inferred": [
+     "שימור יכולת התשה ארוכת טווח נגד כוחות ארה\"ב וישראל",
+     "שיבוש נתיבי השיט והאנרגיה הבינלאומיים במפרץ לגביית מחיר כלכלי מהמערב"
+    ],
+    "forecast": [
+     "המשך שימוש מבוקר בכטב\"מים ומיליציות אזוריות לצד הימנעות מהתנגשות חזיתית כוללת"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "אזהרה מפני פגיעה ביעדים אמריקאיים ואיום בהשמדה בתגובה לתקיפה ישירה",
+     "בדיקת איומים מודיעיניים על כוונות פיגוע בוושינגטון"
+    ],
+    "inferred": [
+     "הפגנת עוצמה והרתעה באמצעות פריסת נושאות מטוסים נוספות ללא היגררות למלחמה ממושכת",
+     "בלימת הפעילות הצבאית וההברחות של שלוחות איראן בעיראק ובאזור"
+    ],
+    "forecast": [
+     "שמירה על נוכחות צבאית מוגברת ותקיפות נקודתיות של מתקני שיגור והגנה איראניים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "אזהרה מפני מוטיבציה איראנית גבוהה לפגוע ביעדים ישראליים בחו\"ל"
+    ],
+    "inferred": [
+     "שאיפה לתיאום מבצעי מלא וגיבוי אמריקאי לקראת מהלומה צבאית משמעותית באיראן",
+     "סיכול מתמשך של רשתות טרור וחיסול איראניות בזירה הבינלאומית"
+    ],
+    "forecast": [
+     "דחיית פעולה צבאית גלויה עצמאית עד להשגת תיאום מרבי עם כוחות ארה\"ב באזור"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington",
+    "accessed_at": "2026-11-17T19:20:31+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611177708",
+    "accessed_at": "2026-11-17T19:20:31+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86325040/Ghalibaf-slams-US-dirty-bomb-allegations-as-fresh-anti-Iran",
+    "accessed_at": "2026-11-17T19:20:31+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21873039",
+    "accessed_at": "2026-11-17T19:20:31+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-backed-iraqi-group-refuses-withdraw-stronghold-kataeb-hezbollahiran",
+    "accessed_at": "2026-11-17T19:20:31+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133813",
+    "accessed_at": "2026-11-17T19:20:31+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49651",
+    "accessed_at": "2026-11-17T19:20:31+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95053",
+    "accessed_at": "2026-11-17T19:20:31+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rkghwzqagx",
+    "accessed_at": "2026-11-17T19:20:31+00:00"
+   }
+  ]
+ }
+}
