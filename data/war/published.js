@@ -2,110 +2,125 @@
 window.DB = window.DB || {};
 window.DB.war_published = {
  "yemen": {
-  "draft": "drafts/yemen/2026-11-16T0042__yemen-202611160042.json",
+  "draft": "drafts/yemen/2026-11-17T0340__yemen-202611170340.json",
   "analysis": {
    "contract_version": 1,
    "arena": "yemen",
-   "generated_at": "2026-11-16T00:42:13+00:00",
+   "generated_at": "2026-11-17T03:40:37+00:00",
    "window": {
-    "from": "2026-11-15T00:42:13+00:00",
-    "to": "2026-11-16T00:42:13+00:00"
+    "from": "2026-11-16T03:40:37+00:00",
+    "to": "2026-11-17T03:40:37+00:00"
    },
    "model": {
-    "name": "gemini-3.8-flash",
-    "run_id": "yemen-202611160042"
+    "name": "gemini-3.7-flash",
+    "run_id": "yemen-202611170340"
    },
-   "summary": "כוחות ממשלת תימן והפלגים הדרומיים נסוגו מעמדותיהם לאורך מצר באב אל-מנדב ורצועת חוף הים האדום במטרה להתרכז בהגנת הבירה הזמנית עדן. תנועת החות'ים ניצלה את הפינוי להשתלטות מהירה על רצועת חוף נרחבת ולהתקדמות קרקעית משמעותית במחוז לחג' עד למרחק של כשישים קילומטרים מעדן. במקביל להסלמה היבשתית, החות'ים הגבירו את ירי הטילים והכטב\"מים לעבר יעדים בעומק סעודיה ובמרחב עדן.",
+   "summary": "הזירה התימנית חווה תפנית מבצעית חדה עם התקדמות מהירה של החות'ים לעבר החוף הדרומי, כיבוש אזורי מצר באב אל-מנדב והתקרבותם לכדי עשרות קילומטרים מבירת הממשלה הזמנית בעדן. כוחות הממשלה הנתמכים בידי סעודיה נאלצו לסגת ממערב המדינה ומחלקים במחוזות לחג' ומאריב כדי לייצב קו הגנה על עדן, מה שהוביל לזעזוע פיקודי בריאד ולהחלפת מפקד הקואליציה. במקביל, החות'ים ממשיכים לשגר תקיפות כטב\"מים לעבר יעדים בעומק סעודיה לצד ניסיונות של חברות ספנות לשוב באופן חלקי למרחב הים האדום.",
    "fronts": [
     {
-     "name": "מצר באב אל-מנדב ורצועת חוף הים האדום",
-     "status": "נסיגה מוחלטת של כוחות הממשלה והשתלטות חות'ית על מרחב החוף מד'ובאב ועד ח'ור עמירה"
+     "name": "חזית מצר באב אל-מנדב ודרום-מערב תימן",
+     "status": "נסיגת כוחות הממשלה והשתלטות חות'ית על קו החוף וצירים אסטרטגיים"
     },
     {
-     "name": "מחוז לחג' ומבואות עדן",
-     "status": "התקדמות קרקעית של החות'ים עד למרחק של כשישים קילומטרים מעדן והקמת ביצורים עירוניים על ידי כוחות הממשלה"
+     "name": "מבואות העיר עדן ומחוז לחג'",
+     "status": "היערכות הגנתית של צבא תימן לבלימת כוחות החות'ים המתקדמים"
     },
     {
-     "name": "החזית האווירית מול ערב הסעודית",
-     "status": "שיגורי טילים בליסטיים וכטב\"מים לעבר ריאד, מתקני נפט והמחוז המזרחי, לצד יירוטים של הקואליציה"
+     "name": "חזית מאריב ותעז",
+     "status": "נסיגה חלקית של כוחות הקואליציה וניסיונות לשבור את המצור על תעז"
+    },
+    {
+     "name": "חזית עומק סעודיה מול תימן",
+     "status": "שיגורי כטב\"מים וטילים חות'יים לעבר יעדים צבאיים ואזרחיים ויירוטם על ידי סעודיה"
+    },
+    {
+     "name": "נתיבי השיט בים האדום ובמצר באב אל-מנדב",
+     "status": "הגברת אחיזה יבשתית חות'ית במקביל למאמצי חידוש תנועת ספנות מסחרית"
     }
    ],
    "events": [
     {
-     "id": "YEMEN-11160042-01",
-     "title": "נסיגת כוחות ממשלת תימן והכוחות הדרומיים ממצר באב אל-מנדב וחוף הים האדום",
-     "summary": "כוחות ממשלת תימן והכוחות המזוינים הדרומיים החלו בנסיגה ובהיערכות מחדש מאזור מצר באב אל-מנדב ונמל התעופה בד'ובאב, כדי לרכז כוחות להגנה על העיר עדן וסביבתה.",
-     "axis": "החוף המערבי ובאב אל-מנדב",
-     "claim_type": "statement",
+     "id": "YEMEN-11170340-01",
+     "title": "התקדמות החות'ים לעבר עדן ונסיגת כוחות הממשלה מאזור מצר באב אל-מנדב",
+     "summary": "החות'ים השתלטו על שטחים בחוף הדרומי ובמצר באב אל-מנדב, בהם אזור אל-מודארבה וראס אל-ערה במחוז לחג', והתקרבו למרחק של כ-60 קילומטרים מעדן, בעוד כוחות הממשלה הנתמכים בידי סעודיה נסוגו במטרה להגן על העיר.",
+     "axis": "דרום תימן ומצר באב אל-מנדב",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-15T00:00:00+00:00",
+     "occurred_at": "2026-11-16T07:35:10+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-15T08:46:28+00:00",
-     "last_update_at": "2026-11-16T00:15:21+00:00",
-     "what_is_not_verified": "היקף הכוחות המדויק שנסוג ומידת השליטה המלאה שנותרה בידי הממשלה בנקודות תצפית ספציפיות",
+     "first_reported_at": "2026-11-16T07:35:10+00:00",
+     "last_update_at": "2026-11-16T23:57:49+00:00",
+     "what_is_not_verified": "מידת השליטה המוחלטת של החות'ים במצר באב אל-מנדב ונתוני השטח המדויקים שנכבשו",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_newarab",
-       "source_root_id": "fh_3291e87dad202ee3",
-       "url": "https://www.newarab.com/news/houthis-advance-aden-govt-bolsters-city-defences",
-       "published_at": "2026-11-16T00:15:21+00:00"
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss",
+       "published_at": "2026-11-16T23:57:49+00:00"
       },
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "fh_3291e87dad202ee3",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
-       "published_at": "2026-11-16T00:00:00+00:00"
+       "source_id": "src_lwj",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.longwarjournal.org/archives/2026/11/houthis-retake-bab-al-mandeb-and-move-toward-aden.php",
+       "published_at": "2026-11-16T22:03:46+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-11-16T21:40:07+00:00"
       },
       {
        "source_id": "src_tg_carmel",
-       "source_root_id": "fh_3291e87dad202ee3",
-       "url": "https://t.me/alexmehacarmel/49618",
-       "published_at": "2026-11-15T20:54:27+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49645",
+       "published_at": "2026-11-16T20:12:24+00:00"
       },
       {
-       "source_id": "src_france24",
-       "source_root_id": "fh_3291e87dad202ee3",
-       "url": "https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say",
-       "published_at": "2026-11-15T19:28:54+00:00"
-      },
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "fh_3291e87dad202ee3",
-       "url": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden?traffic_source=rss",
-       "published_at": "2026-11-15T17:33:00+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "fh_3291e87dad202ee3",
-       "url": "https://www.ynet.co.il/news/article/ryhk11pdrge",
-       "published_at": "2026-11-15T16:48:11+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "fh_3291e87dad202ee3",
-       "url": "https://www.al-monitor.com/originals/2026/11/anti-houthi-forces-retreat-yemen-iran-strikes-bahrain",
-       "published_at": "2026-11-15T16:46:30+00:00"
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
+       "published_at": "2026-11-16T19:04:07+00:00"
       },
       {
        "source_id": "src_newarab",
-       "source_root_id": "fh_3291e87dad202ee3",
-       "url": "https://www.newarab.com/news/yemen-forces-withdraw-area-near-bab-al-mandeb-strait",
-       "published_at": "2026-11-15T10:27:26+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/saudi-arabia-dismisses-commander-anti-houthi-coalition",
+       "published_at": "2026-11-16T18:04:04+00:00"
       },
       {
        "source_id": "src_almonitor",
-       "source_root_id": "fh_3291e87dad202ee3",
-       "url": "https://www.al-monitor.com/originals/2026/11/yemeni-government-force-retreats-strait-major-setback-war-against-houthis",
-       "published_at": "2026-11-15T08:46:28+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.al-monitor.com/originals/2026/11/yemens-saudi-backed-forces-retreat-defend-aden-houthis-advance-what-know",
+       "published_at": "2026-11-16T17:28:26+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21865337",
+       "published_at": "2026-11-16T15:55:21+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/houthis-seize-ground-yemen-israeli-strikes-target-lebanon",
+       "published_at": "2026-11-16T15:52:21+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-11-16T11:09:38+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/third-us-aircraft-carrier-arrives-iran-says-tankers-hit-mines",
+       "published_at": "2026-11-16T07:35:10+00:00"
       }
      ],
      "places": [
-      {
-       "name": "ד'ובאב, תימן",
-       "lat": 13.0597,
-       "lon": 43.5117
-      },
       {
        "name": "עדן, תימן",
        "lat": 12.7896,
@@ -114,88 +129,71 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "YEMEN-11160042-02",
-     "title": "התקדמות כוחות החות'ים במחוז לחג' לעבר פאתי עדן",
-     "summary": "החות'ים השתלטו על שטחים שפונו לאורך רצועת החוף מד'ובאב עד ח'ור עמירה ועל שני מחוזות בלחג', התמקמו במחנה אל-ח'רז במרחק של כשישים קילומטרים מעדן, ועל פי דיווח כיתרו שלוש חטיבות באזור ראס אל-ערה.",
-     "axis": "חזית לחג' ודרום תימן",
+     "id": "YEMEN-11170340-02",
+     "title": "הדחת מפקד כוחות הקואליציה הפועלת בתימן בידי סעודיה",
+     "summary": "צו מלכותי בסעודיה הורה על סיום תפקידו של מפקד הקואליציה התומכת בממשלת תימן והעברתו לתפקיד יועץ, ועל מינוי רמטכ\"ל צבא סעודיה לפקד על הקואליציה במקומו בעקבות נסיגת הכוחות.",
+     "axis": "הפיקוד הצבאי הסעודי",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-15T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-15T19:28:54+00:00",
-     "last_update_at": "2026-11-16T00:15:21+00:00",
-     "what_is_not_verified": "היקף הכיתור של שלוש חטיבות כוחות הענקים ומגן המולדת בראס אל-ערה לא אומת מעבר לדיווח בודד",
+     "occurred_at": "2026-11-16T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-16T15:52:21+00:00",
+     "last_update_at": "2026-11-16T18:04:04+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthis-advance-aden-govt-bolsters-city-defences",
-       "published_at": "2026-11-16T00:15:21+00:00"
+       "source_root_id": "fh_90dabe9a4b6fd9cc",
+       "url": "https://www.newarab.com/news/saudi-arabia-dismisses-commander-anti-houthi-coalition",
+       "published_at": "2026-11-16T18:04:04+00:00"
       },
       {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49618",
-       "published_at": "2026-11-15T20:54:27+00:00"
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_90dabe9a4b6fd9cc",
+       "url": "https://www.al-monitor.com/originals/2026/11/yemens-saudi-backed-forces-retreat-defend-aden-houthis-advance-what-know",
+       "published_at": "2026-11-16T17:28:26+00:00"
       },
       {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say",
-       "published_at": "2026-11-15T19:28:54+00:00"
+       "source_id": "src_israelhayom",
+       "source_root_id": "fh_90dabe9a4b6fd9cc",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21865337",
+       "published_at": "2026-11-16T15:55:21+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "fh_90dabe9a4b6fd9cc",
+       "url": "https://www.newarab.com/news/houthis-seize-ground-yemen-israeli-strikes-target-lebanon",
+       "published_at": "2026-11-16T15:52:21+00:00"
       }
      ],
      "places": [
       {
-       "name": "לחג', תימן",
-       "lat": 13.0578,
-       "lon": 44.8836
-      },
-      {
-       "name": "ראס אל-ערה, תימן",
-       "lat": 12.6084,
-       "lon": 43.9158
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
       }
      ]
     },
     {
-     "id": "YEMEN-11160042-03",
-     "title": "שיגור טילים וכטב\"מים חות'יים לעבר יעדים בסעודיה ובדרום תימן",
-     "summary": "החות'ים שיגרו שני טילים בליסטיים לעבר שדה התעופה הבינלאומי ח'אלד ומרכז העסקים בריאד, ושישה טילים נוספים לעבר מחנה צבאי בלחג'. הקואליציה הערבית מסרה כי יירטה שני טילים ושלושה כטב\"מים ששוגרו לעבר ריאד והמחוז המזרחי בסעודיה.",
-     "axis": "הזירה האווירית מול סעודיה",
+     "id": "YEMEN-11170340-03",
+     "title": "יירוט שני כלי טיס בלתי מאוישים מעל שטח סעודיה",
+     "summary": "הקואליציה הודיעה על יירוט והשמדה של שני כלי טיס בלתי מאוישים ששוגרו בידי המיליציה החות'ית לעבר אזורי מכה וריאד.",
+     "axis": "עומק סעודיה מול תימן",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-15T00:00:00+00:00",
+     "occurred_at": "2026-11-16T13:36:12+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-15T03:46:26+00:00",
-     "last_update_at": "2026-11-15T18:44:54+00:00",
-     "what_is_not_verified": "מידת הפגיעה בפועל בשטח ריאד לעומת הצלחת היירוטים של הקואליציה",
+     "first_reported_at": "2026-11-16T13:36:12+00:00",
+     "last_update_at": "2026-11-16T13:36:12+00:00",
+     "what_is_not_verified": "נזקים או מיקומי יירוט מדויקים מעבר להודעת הקואליציה",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-fired-missiles-riyadh-airport-and-financial-district",
-       "published_at": "2026-11-15T18:44:54+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthi-attacks-kill-eight-yemen-strike-riyadh-airport",
-       "published_at": "2026-11-15T08:59:06+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-670",
-       "published_at": "2026-11-15T07:52:17+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province",
-       "published_at": "2026-11-15T03:46:26+00:00"
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_f4702c7c36edb613",
+       "url": "https://www.sabanew.net/viewstory/155880",
+       "published_at": "2026-11-16T13:36:12+00:00"
       }
      ],
      "places": [
@@ -205,41 +203,6 @@ window.DB.war_published = {
        "lon": 46.716
       },
       {
-       "name": "לחג', תימן",
-       "lat": 13.0578,
-       "lon": 44.8836
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-11160042-04",
-     "title": "טענות הדדיות בנוגע לשיגור כטב\"מים לעבר מכה ומדינה",
-     "summary": "הקואליציה הודיעה על השמדת שני כטב\"מים באזור מכה, בעוד הדובר הצבאי של החות'ים הכחיש כוונה לפגוע במקומות הקדושים וטען כי התקיפות מתמקדות במתקני נפט ובסיסים צבאיים בלבד.",
-     "axis": "הזירה האווירית מול סעודיה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-15T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-15T14:29:16+00:00",
-     "last_update_at": "2026-11-15T18:24:02+00:00",
-     "what_is_not_verified": "האם הכטב\"מים יועדו לאתרים במכה או לאתרים צבאיים ומתקני נפט סמוכים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-deny-targeting-mecca-or-medina-saudi-drone-attacks",
-       "published_at": "2026-11-15T18:24:02+00:00"
-      },
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/155827",
-       "published_at": "2026-11-15T14:29:16+00:00"
-      }
-     ],
-     "places": [
-      {
        "name": "מכה, סעודיה",
        "lat": 21.4208,
        "lon": 39.8269
@@ -247,30 +210,24 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "YEMEN-11160042-05",
-     "title": "מתקפת טילים ופיצוצים באזור עדן",
-     "summary": "מתקפת טילים של החות'ים בקרבת עדן הביאה למותם של שמונה בני אדם, ובמקביל נשמעו שני פיצוצים בתוך העיר עדן בעת היערכות כוחות הממשלה להגנתה.",
-     "axis": "חזית עדן",
+     "id": "YEMEN-11170340-04",
+     "title": "דיווח צבא תימן על מאות תקיפות ואבידות לשורות החות'ים",
+     "summary": "צבא תימן טוען כי ביצע מאות תקיפות נגד החות'ים וכי נפגעו עשרות רבות של לוחמים חות'ים בעוד כוחות הממשלה נערכים מחדש להגנת עדן.",
+     "axis": "מבואות עדן ותעז",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-15T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-15T08:59:06+00:00",
-     "last_update_at": "2026-11-15T18:44:54+00:00",
-     "what_is_not_verified": "זהות ההרוגים ונסיבות הפיצוצים המדויקות בתוך עדן",
+     "occurred_at": "2026-11-17T01:38:13+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-17T01:38:13+00:00",
+     "last_update_at": "2026-11-17T01:38:13+00:00",
+     "what_is_not_verified": "אמיתות מספרי הנפגעים והיקף התקיפות המדויק שנטען על ידי צבא תימן",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
+       "source_id": "src_aljazeera",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-fired-missiles-riyadh-airport-and-financial-district",
-       "published_at": "2026-11-15T18:44:54+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthi-attacks-kill-eight-yemen-strike-riyadh-airport",
-       "published_at": "2026-11-15T08:59:06+00:00"
+       "url": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
+       "published_at": "2026-11-17T01:38:13+00:00"
       }
      ],
      "places": [
@@ -282,51 +239,44 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "YEMEN-11160042-06",
-     "title": "שחרור חד-צדדי של שש מאות שבויים על ידי החות'ים",
-     "summary": "החות'ים שחררו באופן חד-צדדי שש מאות לוחמים ואנשי כוחות ממשלה שנשבו, בהליך שתואם עם הוועד הבינלאומי של הצלב האדום.",
-     "axis": "פוליטי ומדיני בתימן",
+     "id": "YEMEN-11170340-05",
+     "title": "הרחבת פעילות חברות ספנות בינלאומיות בנתיב הים האדום",
+     "summary": "חברות הספנות מארסק והפאג-לויד הודיעו על החזרת קווי שירות נוספים למעבר דרך הים האדום ותעלת סואץ במסגרת שיתוף הפעולה ביניהן.",
+     "axis": "הים האדום",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-15T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-15T08:59:06+00:00",
-     "last_update_at": "2026-11-15T21:19:08+00:00",
-     "what_is_not_verified": "טענות החות'ים בדבר סיכול מכוון של עסקאות חילופי שבויים מצד סעודיה",
+     "occurred_at": "2026-11-16T15:45:05+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-16T15:45:05+00:00",
+     "last_update_at": "2026-11-16T15:45:05+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
+       "source_id": "src_gcaptain",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
-       "published_at": "2026-11-15T21:19:08+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/yemens-houthis-free-600-pro-government-fighters-icrc-says",
-       "published_at": "2026-11-15T16:21:27+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthi-attacks-kill-eight-yemen-strike-riyadh-airport",
-       "published_at": "2026-11-15T08:59:06+00:00"
+       "url": "https://gcaptain.com/maersk-hapag-lloyd-expand-suez-canal-return-with-three-more-gemini-services/",
+       "published_at": "2026-11-16T15:45:05+00:00"
       }
      ],
      "places": [
       {
-       "name": "צנעא, תימן",
-       "lat": 15.3539,
-       "lon": 44.2059
+       "name": "הים האדום",
+       "lat": 20.2966,
+       "lon": 38.5343
+      },
+      {
+       "name": "תעלת סואץ, מצרים",
+       "lat": 30.6053,
+       "lon": 32.3331
       }
      ]
     }
    ],
    "not_verified": [
-    "טענת ערוץ טלגרם בדבר כיתור שלוש חטיבות של אל-עמאליקה ומגן המולדת בראס אל-ערה",
-    "טענת הקואליציה על שיגור כטב\"מים חות'יים ישירות לעבר מכה, מול הכחשת החות'ים",
-    "מידת הפגיעה המדויקת של שני הטילים הבליסטיים ששוגרו לעבר ריאד"
+    "טענת החות'ים לשליטה מלאה ומוחלטת בכל מרחב מצר באב אל-מנדב",
+    "מספר הנפגעים החות'ים המדויק (173) ומספר התקיפות (661) שנטענו בידי צבא תימן",
+    "ההיקף המדויק של הנזקים שנגרמו לתשתיות בסעודיה בעקבות תקיפות החות'ים האחרונות"
    ],
    "map": {
     "confidence": "low",
@@ -337,131 +287,125 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.2107,
+     "value": 3.224,
      "unit": "ILS",
-     "change_pct": 0.23,
+     "change_pct": 0.41,
      "source_id": "src_ecb",
-     "as_of": "2026-11-13T15:00:00+00:00"
+     "as_of": "2026-11-16T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "החות'ים (אנצאר אללה)",
+     "actor": "התנועה החות'ית (שלטון צנעא)",
      "declared": [
-      "תקיפת מתקני נפט ובסיסים צבאיים בלבד בסעודיה",
-      "יוזמה הומניטרית בשחרור שש מאות שבויים"
+      "השגת שליטה על מצר באב אל-מנדב ודרום תימן"
      ],
      "inferred": [
-      "השגת שליטה מלאה על נתיב השיט האסטרטגי בבאב אל-מנדב",
-      "הפעלת לחץ צבאי ישיר להפלת הבירה הזמנית עדן ומיטוט כוחות הממשלה",
-      "הרחקת סעודיה מהמערכה באמצעות פגיעה בעומק שטחה"
+      "כיבוש העיר עדן והפלת הממשלה המוכרת בינלאומית",
+      "הפעלת לחץ ישיר על סעודיה באמצעות פגיעה בעומק שטחה",
+      "שליטה בנתיבי השיט הבינלאומיים בים האדום ובמפרץ עדן לקבלת מנוף לחץ אזורי"
      ],
      "forecast": [
-      "המשך לחץ צבאי לעבר מבואות עדן והרחבת התקיפות הרקטות על ריכוזי כוחות סביבה",
-      "חיזוק עמדות אש ותצפית לאורך חוף הים האדום ובאב אל-מנדב"
+      "המשך מאמצי התקדמות קרקעיים מואצים לעבר מבואות העיר עדן",
+      "החרפת שיגורי הטילים והכטב\"מים נגד תשתיות אנרגיה ובסיסים בסעודיה"
      ]
     },
     {
-     "actor": "ממשלת תימן והכוחות הדרומיים",
+     "actor": "ממשלת תימן וכוחות הקואליציה בהובלת סעודיה",
      "declared": [
-      "היערכות מחדש לצורך מתן עדיפות עליונה לאבטחת הבירה עדן והמחוזות הסמוכים לה",
-      "חיזוק קווי החזית מול האיומים הקיימים"
+      "בלימת ההתקדמות החות'ית והגנה על הבירה הזמנית עדן",
+      "שבירת המצור על העיר תעז"
      ],
      "inferred": [
-      "ויתור על החזקת מצר באב אל-מנדב עקב נחיתות מבצעית וחוסר יכולת לבלום את החות'ים בשתי חזיתות במקביל",
-      "ריכוז כלל הכוחות להקמת קו הגנה אחרון סביב עדן"
+      "ארגון מחדש של הפיקוד הצבאי לאחר שרשרת כישלונות ונסיגות",
+      "צמצום חשיפת הכוחות והתמקדות בהגנה על נכסים חיוניים במקום החזקת קווי חוף מבודדים"
      ],
      "forecast": [
-      "קרבות בלימה קשים סביב מחוז לחג' ומבואות עדן תוך הסתמכות על ביצורים עירוניים",
-      "פנייה לסיוע אווירי מוגבר מצד הקואליציה הערבית"
-     ]
-    },
-    {
-     "actor": "הקואליציה בהובלת סעודיה",
-     "declared": [
-      "הגנה על שטח הממלכה ויירוט איומי טילים וכטב\"מים המכוונים לערים ולמתקנים חיוניים"
-     ],
-     "inferred": [
-      "מניעת קריסת ממשלת תימן בעדן במקביל לניסיון להכיל תקיפות בשטחה הריבוני",
-      "הגנה על מרכזי אנרגיה וכלכלה מרכזיים מפני שחיקה"
-     ],
-     "forecast": [
-      "הגברת תקיפות האוויר לסיכול התקדמות החות'ים לעבר עדן",
-      "תגבור מערכות ההגנה האווירית סביב ריאד והמחוז המזרחי"
+      "קרבות בלימה קשים סביב פריפרית מחוז לחג' והכניסות לעדן",
+      "הגברת מעורבות חיל האוויר הסעודי לבלימת שיירות האויב המתקדמות"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
-     "accessed_at": "2026-11-16T00:42:13+00:00"
+     "url": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
+     "accessed_at": "2026-11-17T03:40:37+00:00"
     },
     {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/11/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province",
-     "accessed_at": "2026-11-16T00:42:13+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/11/yemens-saudi-backed-forces-retreat-defend-aden-houthis-advance-what-know",
+     "accessed_at": "2026-11-17T03:40:37+00:00"
     },
     {
-     "source_id": "src_france24",
-     "url": "https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say",
-     "accessed_at": "2026-11-16T00:42:13+00:00"
+     "source_id": "src_bbc",
+     "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+     "accessed_at": "2026-11-17T03:40:37+00:00"
     },
     {
-     "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-fired-missiles-riyadh-airport-and-financial-district",
-     "accessed_at": "2026-11-16T00:42:13+00:00"
+     "source_id": "src_gcaptain",
+     "url": "https://gcaptain.com/maersk-hapag-lloyd-expand-suez-canal-return-with-three-more-gemini-services/",
+     "accessed_at": "2026-11-17T03:40:37+00:00"
+    },
+    {
+     "source_id": "src_guardian",
+     "url": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
+     "accessed_at": "2026-11-17T03:40:37+00:00"
+    },
+    {
+     "source_id": "src_israelhayom",
+     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21865337",
+     "accessed_at": "2026-11-17T03:40:37+00:00"
+    },
+    {
+     "source_id": "src_lwj",
+     "url": "https://www.longwarjournal.org/archives/2026/11/houthis-retake-bab-al-mandeb-and-move-toward-aden.php",
+     "accessed_at": "2026-11-17T03:40:37+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/houthi-attacks-kill-eight-yemen-strike-riyadh-airport",
-     "accessed_at": "2026-11-16T00:42:13+00:00"
+     "url": "https://www.newarab.com/news/houthis-seize-ground-yemen-israeli-strikes-target-lebanon",
+     "accessed_at": "2026-11-17T03:40:37+00:00"
     },
     {
      "source_id": "src_saba_aden",
-     "url": "https://www.sabanew.net/viewstory/155827",
-     "accessed_at": "2026-11-16T00:42:13+00:00"
+     "url": "https://www.sabanew.net/viewstory/155880",
+     "accessed_at": "2026-11-17T03:40:37+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49618",
-     "accessed_at": "2026-11-16T00:42:13+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/ryhk11pdrge",
-     "accessed_at": "2026-11-16T00:42:13+00:00"
+     "url": "https://t.me/alexmehacarmel/49645",
+     "accessed_at": "2026-11-17T03:40:37+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-15T07:09:28+00:00",
+  "previous_generated_at": "2026-11-16T00:42:13+00:00",
   "changes": {
-   "YEMEN-11160042-01": {
-    "kind": "new"
-   },
-   "YEMEN-11160042-02": {
-    "kind": "possible",
-    "prev": "טענת החות'ים להפלת כלי טיס של סעודיה במחוז אל-ג'וף",
-    "score": 0.467
-   },
-   "YEMEN-11160042-03": {
+   "YEMEN-11170340-01": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "יירוט טילים בליסטיים וכלי טיס בלתי מאוישים ששוגרו מסוג חות'י לעבר סעודיה",
+    "prev": "נסיגת כוחות ממשלת תימן והכוחות הדרומיים ממצר באב אל-מנדב וחוף הים האדום",
     "score": 1.0
    },
-   "YEMEN-11160042-04": {
+   "YEMEN-11170340-02": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "shared_root",
+    "prev": "שיגור טילים וכטב\"מים חות'יים לעבר יעדים בסעודיה ובדרום תימן",
+    "score": 0.817
+   },
+   "YEMEN-11170340-03": {
     "kind": "new"
    },
-   "YEMEN-11160042-05": {
-    "kind": "new"
-   },
-   "YEMEN-11160042-06": {
+   "YEMEN-11170340-04": {
     "kind": "possible",
-    "prev": "דיווח צבא תימן על מאות תקיפות ואבדות בקרב החות'ים",
+    "prev": "שחרור חד-צדדי של שש מאות שבויים על ידי החות'ים",
     "score": 0.467
+   },
+   "YEMEN-11170340-05": {
+    "kind": "new"
    }
   }
  },

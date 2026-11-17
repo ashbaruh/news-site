@@ -1,0 +1,388 @@
+{
+ "status": "draft",
+ "received_sha256_12": "0a9393b3091f",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 2,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-17T03:40:37+00:00",
+  "window": {
+   "from": "2026-11-16T03:40:37+00:00",
+   "to": "2026-11-17T03:40:37+00:00"
+  },
+  "model": {
+   "name": "gemini-3.7-flash",
+   "run_id": "yemen-202611170340"
+  },
+  "summary": "הזירה התימנית חווה תפנית מבצעית חדה עם התקדמות מהירה של החות'ים לעבר החוף הדרומי, כיבוש אזורי מצר באב אל-מנדב והתקרבותם לכדי עשרות קילומטרים מבירת הממשלה הזמנית בעדן. כוחות הממשלה הנתמכים בידי סעודיה נאלצו לסגת ממערב המדינה ומחלקים במחוזות לחג' ומאריב כדי לייצב קו הגנה על עדן, מה שהוביל לזעזוע פיקודי בריאד ולהחלפת מפקד הקואליציה. במקביל, החות'ים ממשיכים לשגר תקיפות כטב\"מים לעבר יעדים בעומק סעודיה לצד ניסיונות של חברות ספנות לשוב באופן חלקי למרחב הים האדום.",
+  "fronts": [
+   {
+    "name": "חזית מצר באב אל-מנדב ודרום-מערב תימן",
+    "status": "נסיגת כוחות הממשלה והשתלטות חות'ית על קו החוף וצירים אסטרטגיים"
+   },
+   {
+    "name": "מבואות העיר עדן ומחוז לחג'",
+    "status": "היערכות הגנתית של צבא תימן לבלימת כוחות החות'ים המתקדמים"
+   },
+   {
+    "name": "חזית מאריב ותעז",
+    "status": "נסיגה חלקית של כוחות הקואליציה וניסיונות לשבור את המצור על תעז"
+   },
+   {
+    "name": "חזית עומק סעודיה מול תימן",
+    "status": "שיגורי כטב\"מים וטילים חות'יים לעבר יעדים צבאיים ואזרחיים ויירוטם על ידי סעודיה"
+   },
+   {
+    "name": "נתיבי השיט בים האדום ובמצר באב אל-מנדב",
+    "status": "הגברת אחיזה יבשתית חות'ית במקביל למאמצי חידוש תנועת ספנות מסחרית"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11170340-01",
+    "title": "התקדמות החות'ים לעבר עדן ונסיגת כוחות הממשלה מאזור מצר באב אל-מנדב",
+    "summary": "החות'ים השתלטו על שטחים בחוף הדרומי ובמצר באב אל-מנדב, בהם אזור אל-מודארבה וראס אל-ערה במחוז לחג', והתקרבו למרחק של כ-60 קילומטרים מעדן, בעוד כוחות הממשלה הנתמכים בידי סעודיה נסוגו במטרה להגן על העיר.",
+    "axis": "דרום תימן ומצר באב אל-מנדב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T07:35:10+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-16T07:35:10+00:00",
+    "last_update_at": "2026-11-16T23:57:49+00:00",
+    "what_is_not_verified": "מידת השליטה המוחלטת של החות'ים במצר באב אל-מנדב ונתוני השטח המדויקים שנכבשו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss",
+      "published_at": "2026-11-16T23:57:49+00:00"
+     },
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.longwarjournal.org/archives/2026/11/houthis-retake-bab-al-mandeb-and-move-toward-aden.php",
+      "published_at": "2026-11-16T22:03:46+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-16T21:40:07+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49645",
+      "published_at": "2026-11-16T20:12:24+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
+      "published_at": "2026-11-16T19:04:07+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-dismisses-commander-anti-houthi-coalition",
+      "published_at": "2026-11-16T18:04:04+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/yemens-saudi-backed-forces-retreat-defend-aden-houthis-advance-what-know",
+      "published_at": "2026-11-16T17:28:26+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21865337",
+      "published_at": "2026-11-16T15:55:21+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-seize-ground-yemen-israeli-strikes-target-lebanon",
+      "published_at": "2026-11-16T15:52:21+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-16T11:09:38+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/third-us-aircraft-carrier-arrives-iran-says-tankers-hit-mines",
+      "published_at": "2026-11-16T07:35:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11170340-02",
+    "title": "הדחת מפקד כוחות הקואליציה הפועלת בתימן בידי סעודיה",
+    "summary": "צו מלכותי בסעודיה הורה על סיום תפקידו של מפקד הקואליציה התומכת בממשלת תימן והעברתו לתפקיד יועץ, ועל מינוי רמטכ\"ל צבא סעודיה לפקד על הקואליציה במקומו בעקבות נסיגת הכוחות.",
+    "axis": "הפיקוד הצבאי הסעודי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T15:52:21+00:00",
+    "last_update_at": "2026-11-16T18:04:04+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_90dabe9a4b6fd9cc",
+      "url": "https://www.newarab.com/news/saudi-arabia-dismisses-commander-anti-houthi-coalition",
+      "published_at": "2026-11-16T18:04:04+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_90dabe9a4b6fd9cc",
+      "url": "https://www.al-monitor.com/originals/2026/11/yemens-saudi-backed-forces-retreat-defend-aden-houthis-advance-what-know",
+      "published_at": "2026-11-16T17:28:26+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_90dabe9a4b6fd9cc",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21865337",
+      "published_at": "2026-11-16T15:55:21+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_90dabe9a4b6fd9cc",
+      "url": "https://www.newarab.com/news/houthis-seize-ground-yemen-israeli-strikes-target-lebanon",
+      "published_at": "2026-11-16T15:52:21+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11170340-03",
+    "title": "יירוט שני כלי טיס בלתי מאוישים מעל שטח סעודיה",
+    "summary": "הקואליציה הודיעה על יירוט והשמדה של שני כלי טיס בלתי מאוישים ששוגרו בידי המיליציה החות'ית לעבר אזורי מכה וריאד.",
+    "axis": "עומק סעודיה מול תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T13:36:12+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T13:36:12+00:00",
+    "last_update_at": "2026-11-16T13:36:12+00:00",
+    "what_is_not_verified": "נזקים או מיקומי יירוט מדויקים מעבר להודעת הקואליציה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_f4702c7c36edb613",
+      "url": "https://www.sabanew.net/viewstory/155880",
+      "published_at": "2026-11-16T13:36:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "מכה, סעודיה",
+      "lat": 21.4208,
+      "lon": 39.8269
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11170340-04",
+    "title": "דיווח צבא תימן על מאות תקיפות ואבידות לשורות החות'ים",
+    "summary": "צבא תימן טוען כי ביצע מאות תקיפות נגד החות'ים וכי נפגעו עשרות רבות של לוחמים חות'ים בעוד כוחות הממשלה נערכים מחדש להגנת עדן.",
+    "axis": "מבואות עדן ותעז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T01:38:13+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-17T01:38:13+00:00",
+    "last_update_at": "2026-11-17T01:38:13+00:00",
+    "what_is_not_verified": "אמיתות מספרי הנפגעים והיקף התקיפות המדויק שנטען על ידי צבא תימן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
+      "published_at": "2026-11-17T01:38:13+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11170340-05",
+    "title": "הרחבת פעילות חברות ספנות בינלאומיות בנתיב הים האדום",
+    "summary": "חברות הספנות מארסק והפאג-לויד הודיעו על החזרת קווי שירות נוספים למעבר דרך הים האדום ותעלת סואץ במסגרת שיתוף הפעולה ביניהן.",
+    "axis": "הים האדום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T15:45:05+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-16T15:45:05+00:00",
+    "last_update_at": "2026-11-16T15:45:05+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_gcaptain",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://gcaptain.com/maersk-hapag-lloyd-expand-suez-canal-return-with-three-more-gemini-services/",
+      "published_at": "2026-11-16T15:45:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הים האדום",
+      "lat": 20.2966,
+      "lon": 38.5343
+     },
+     {
+      "name": "תעלת סואץ, מצרים",
+      "lat": 30.6053,
+      "lon": 32.3331
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת החות'ים לשליטה מלאה ומוחלטת בכל מרחב מצר באב אל-מנדב",
+   "מספר הנפגעים החות'ים המדויק (173) ומספר התקיפות (661) שנטענו בידי צבא תימן",
+   "ההיקף המדויק של הנזקים שנגרמו לתשתיות בסעודיה בעקבות תקיפות החות'ים האחרונות"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.224,
+    "unit": "ILS",
+    "change_pct": 0.41,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית (שלטון צנעא)",
+    "declared": [
+     "השגת שליטה על מצר באב אל-מנדב ודרום תימן"
+    ],
+    "inferred": [
+     "כיבוש העיר עדן והפלת הממשלה המוכרת בינלאומית",
+     "הפעלת לחץ ישיר על סעודיה באמצעות פגיעה בעומק שטחה",
+     "שליטה בנתיבי השיט הבינלאומיים בים האדום ובמפרץ עדן לקבלת מנוף לחץ אזורי"
+    ],
+    "forecast": [
+     "המשך מאמצי התקדמות קרקעיים מואצים לעבר מבואות העיר עדן",
+     "החרפת שיגורי הטילים והכטב\"מים נגד תשתיות אנרגיה ובסיסים בסעודיה"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן וכוחות הקואליציה בהובלת סעודיה",
+    "declared": [
+     "בלימת ההתקדמות החות'ית והגנה על הבירה הזמנית עדן",
+     "שבירת המצור על העיר תעז"
+    ],
+    "inferred": [
+     "ארגון מחדש של הפיקוד הצבאי לאחר שרשרת כישלונות ונסיגות",
+     "צמצום חשיפת הכוחות והתמקדות בהגנה על נכסים חיוניים במקום החזקת קווי חוף מבודדים"
+    ],
+    "forecast": [
+     "קרבות בלימה קשים סביב פריפרית מחוז לחג' והכניסות לעדן",
+     "הגברת מעורבות חיל האוויר הסעודי לבלימת שיירות האויב המתקדמות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
+    "accessed_at": "2026-11-17T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/yemens-saudi-backed-forces-retreat-defend-aden-houthis-advance-what-know",
+    "accessed_at": "2026-11-17T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-17T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_gcaptain",
+    "url": "https://gcaptain.com/maersk-hapag-lloyd-expand-suez-canal-return-with-three-more-gemini-services/",
+    "accessed_at": "2026-11-17T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
+    "accessed_at": "2026-11-17T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21865337",
+    "accessed_at": "2026-11-17T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_lwj",
+    "url": "https://www.longwarjournal.org/archives/2026/11/houthis-retake-bab-al-mandeb-and-move-toward-aden.php",
+    "accessed_at": "2026-11-17T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/houthis-seize-ground-yemen-israeli-strikes-target-lebanon",
+    "accessed_at": "2026-11-17T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/155880",
+    "accessed_at": "2026-11-17T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49645",
+    "accessed_at": "2026-11-17T03:40:37+00:00"
+   }
+  ]
+ }
+}
