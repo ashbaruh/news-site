@@ -1,0 +1,328 @@
+{
+ "status": "draft",
+ "received_sha256_12": "3718650fc237",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 2,
+   "initial": 3,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-17T11:22:23+00:00",
+  "window": {
+   "from": "2026-11-16T11:22:23+00:00",
+   "to": "2026-11-17T11:22:23+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611171122"
+  },
+  "summary": "בזזרה הצפונית מתנהלת פעילות צבאית עצימה הכוללת תקיפות ארטילריות ואוויריות של צה\"ל בדרום לבנון ובבקעת הלבנון כנגד תשתיות ומשלוחי נשק של חיזבאללה, לצד פעילות קרקעית נקודתית ומעצרים גם באזור הגבול עם סוריה. ישראל שומרת על לחץ צבאי גבוה במקביל למאמצים דיפלומטיים בינלאומיים בנוגע להסדרים עתידיים בגבול לבנון. חיזבאללה ממשיך במקביל במאמצי שיקום והתעצמות חשאית.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעיל"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11171122-01",
+    "title": "תקיפה ארטילרית ישראלית בדרום לבנון",
+    "summary": "בוצע ירי ארטילרי ישראלי במספר אזורים בדרום לבנון, בהם האזור שבין חדאת'א לחריס, וואדי אל-סלוקי, וואדי אל-חג'ייר ונהר זוחר.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T08:12:23+00:00",
+    "last_update_at": "2026-11-17T10:27:02+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק אינו מפורט במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_0e447213cf7e1376",
+      "url": "https://english.almanar.com.lb/article/151857/",
+      "published_at": "2026-11-17T10:27:02+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_0e447213cf7e1376",
+      "url": "https://english.almanar.com.lb/article/151737/",
+      "published_at": "2026-11-17T08:12:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חדאת'א, לבנון",
+      "lat": 33.165,
+      "lon": 35.3916
+     },
+     {
+      "name": "חריס, לבנון",
+      "lat": 33.1768,
+      "lon": 35.3799
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11171122-02",
+    "title": "פעילות כטב\"מים ישראליים מעל ביירות",
+    "summary": "דווח על פעילות כלי טיס בלתי מאוישים של ישראל מעל פרוורי הדרום של ביירות (הדאחיה).",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-17T10:10:43+00:00",
+    "last_update_at": "2026-11-17T10:10:43+00:00",
+    "what_is_not_verified": "מטרת הפעילות הספציפית מעל האזור אינה מפורטת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_1e9bba5973c31e45",
+      "url": "https://english.almanar.com.lb/article/151847/",
+      "published_at": "2026-11-17T10:10:43+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11171122-03",
+    "title": "התפנות תושבים בכפר כויא בדרום סוריה",
+    "summary": "תושבים מקומיים בכפר כויא במחוז דרעא התפנו בעקבות פעילות כוחות צה\"ל וירי שביצעו הכוחות בלילה, תוך חסימת דרכי גישה באבנים.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T09:03:24+00:00",
+    "last_update_at": "2026-11-17T09:03:24+00:00",
+    "what_is_not_verified": "המידע מבוסס על דיווחים מקומיים וכלי תקשורת סורים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133776",
+      "published_at": "2026-11-17T09:03:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כויא, סוריה",
+      "lat": 32.7478,
+      "lon": 35.8281
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11171122-04",
+    "title": "פשיטה וכניסת כוחות צה\"ל לכפר מעריה בדרום סוריה",
+    "summary": "כוחות צה\"ל, הכוללים כלים צבאיים, נכנסו לכפר מעריה בדרום סוריה, ביצעו פשיטות על בתים וירי ארטילרי לעבר שטחים חקלאיים סמוכים.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T01:51:59+00:00",
+    "last_update_at": "2026-11-17T01:51:59+00:00",
+    "what_is_not_verified": "פרטים מלאים על נפגעים או ממצאים בפשיטה אינם ידועים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-troops-fire-on-homes-beat-elderly-man-in-southern-syria/4127208",
+      "published_at": "2026-11-17T01:51:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מעריה, סוריה",
+      "lat": 32.7646,
+      "lon": 35.7994
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11171122-05",
+    "title": "מעצר שני אחים מהכפר שבעא על ידי צה\"ל",
+    "summary": "כוחות צה\"ל (חטיבה 810) עצרו שני אחים, פעילי הפלוגות הלבנוניות הפועלות בהכוונת חיזבאללה, במהלך פעילות בכפר שבעא בדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T14:33:28+00:00",
+    "last_update_at": "2026-11-16T15:02:00+00:00",
+    "what_is_not_verified": "לא ידועים פרטים מלאים על תוצאות חקירת העצורים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/968277/netanyahus-government-maintains-military-pressure-as-israel-faces-inte/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968277",
+      "published_at": "2026-11-16T15:02:00+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133733",
+      "published_at": "2026-11-16T14:47:35+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25620",
+      "published_at": "2026-11-16T14:33:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "שבעא, לבנון",
+      "lat": 33.3445,
+      "lon": 35.7494
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11171122-06",
+    "title": "תקיפה אווירית ישראלית באזור בקעת הלבנון המזרחית",
+    "summary": "חיל האוויר הישראלי תקף אזור מבודד באזור אל-שערא - ג'נתא בבקעת הלבנון המזרחית, במסגרת פעולה נגד משלוח אמצעי לחימה המיועד לחיזבאללה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-16T10:26:00+00:00",
+    "last_update_at": "2026-11-16T15:52:21+00:00",
+    "what_is_not_verified": "יש דיווחים סותרים על מספר ההרוגים (אין אישור רשמי לנפגעים).",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-seize-ground-yemen-israeli-strikes-target-lebanon",
+      "published_at": "2026-11-16T15:52:21+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/968277/netanyahus-government-maintains-military-pressure-as-israel-faces-inte/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968277",
+      "published_at": "2026-11-16T15:02:00+00:00"
+     },
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/the-idf-struck-a-hezbollah-weapons-shipment-that-crossed-the-border-from-syria-into-lebanon/",
+      "published_at": "2026-11-16T10:26:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'נתא, לבנון",
+      "lat": 33.8391,
+      "lon": 36.0996
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים המדויק בתקיפה באזור ג'נתא בבקעת הלבנון",
+   "היקף הנזק המלא בכפרים כויא ומעריה בדרום סוריה",
+   "פרטים מלאים על תוכן המידע שהושחת או פוענח ממכשירי הטלפון של פעילי חיזבאללה העצורים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.224,
+    "unit": "ILS",
+    "change_pct": 0.41,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-16T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת כל איום על אזרחי מדינת ישראל",
+     "פעילות ממוקד נגד ארגון הטרור חיזבאללה"
+    ],
+    "inferred": [
+     "סיכול הברחות אמצעי לחימה מלבנון ומסוריה",
+     "שמירת חופש פעולה צבאי ומניעת התעצמות מחדש של חיזבאללה מעבר לקו האבטחה"
+    ],
+    "forecast": [
+     "המשך התקיפות נגד נסיונות הברחה ושיקום יכולות של חיזבאללה",
+     "שמירת נוכחות ולחץ צבאי בגבול סוריה ולבנון"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [],
+    "inferred": [
+     "התעצמות מחודשת ושיקום יכולות צבאיות ואמצעי לחימה (כגון רחפנים ורקטות)",
+     "שימוש בנתיבי הברחה דרך סוריה והקמת יכולות ייצור מקומיות"
+    ],
+    "forecast": [
+     "המשך מאמצי ההצטיידויות וההברחה חרף התקיפות הישראליות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/the-idf-struck-a-hezbollah-weapons-shipment-that-crossed-the-border-from-syria-into-lebanon/",
+    "accessed_at": "2026-11-17T11:22:23+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/151847/",
+    "accessed_at": "2026-11-17T11:22:23+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-troops-fire-on-homes-beat-elderly-man-in-southern-syria/4127208",
+    "accessed_at": "2026-11-17T11:22:23+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/968277/netanyahus-government-maintains-military-pressure-as-israel-faces-inte/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968277",
+    "accessed_at": "2026-11-17T11:22:23+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/houthis-seize-ground-yemen-israeli-strikes-target-lebanon",
+    "accessed_at": "2026-11-17T11:22:23+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133733",
+    "accessed_at": "2026-11-17T11:22:23+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25620",
+    "accessed_at": "2026-11-17T11:22:23+00:00"
+   }
+  ]
+ }
+}
