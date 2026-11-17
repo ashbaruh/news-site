@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-17T20:17:23+00:00",
-  "fetched_at": "2026-11-17T20:17:23+00:00"
+  "checked_at": "2026-11-17T21:17:19+00:00",
+  "fetched_at": "2026-11-17T21:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T20:17:39+00:00",
-  "fetched_at": "2026-11-17T20:17:39+00:00"
+  "checked_at": "2026-11-17T21:17:35+00:00",
+  "fetched_at": "2026-11-17T21:17:35+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T20:17:40+00:00",
-  "fetched_at": "2026-11-17T20:17:40+00:00"
+  "checked_at": "2026-11-17T21:17:36+00:00",
+  "fetched_at": "2026-11-17T21:17:36+00:00"
  },
- "generated_at": "2026-11-17T20:17:40+00:00",
+ "generated_at": "2026-11-17T21:17:36+00:00",
  "globes": {
   "data": {
    "top": [
@@ -99,9 +99,9 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "מגמה שלילית בוול סטריט לקראת הדוח של אנבידיה הלילה",
+     "title": "וול סטריט ננעלה בירידות חדות בהובלת מניות הפיננסים והטכנולוגיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563602",
-     "date": "2026-11-17T19:08:00+00:00"
+     "date": "2026-11-17T21:00:00+00:00"
     },
     {
      "title": "צברה עוצמה יוצאת דופן בחברה: בתו של ג'נסן הואנג היא אתגר לכל מנכ\"ל עתידי",
@@ -211,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-17T20:17:24+00:00",
-  "fetched_at": "2026-11-17T20:17:24+00:00"
+  "checked_at": "2026-11-17T21:17:20+00:00",
+  "fetched_at": "2026-11-17T21:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T20:17:26+00:00",
-  "fetched_at": "2026-11-17T20:17:26+00:00"
+  "checked_at": "2026-11-17T21:17:21+00:00",
+  "fetched_at": "2026-11-17T21:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2821,8 +2821,9 @@ window.DB.generated = {
     "title": "לבאנטה - אלצ'ה"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-17T20:17:27+00:00",
+  "ok": false,
+  "error": "מבנה הדף השתנה — לא נמצאו שידורים",
+  "checked_at": "2026-11-17T21:17:27+00:00",
   "fetched_at": "2026-11-17T20:17:27+00:00"
  },
  "ligat_haal": {
@@ -2913,8 +2914,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-17T20:17:27+00:00",
-  "fetched_at": "2026-11-17T20:17:27+00:00"
+  "checked_at": "2026-11-17T21:17:27+00:00",
+  "fetched_at": "2026-11-17T21:17:27+00:00"
  },
  "ai": {
   "data": {
@@ -2946,7 +2947,7 @@ window.DB.generated = {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 713,
+     "likes": 714,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
@@ -2960,28 +2961,28 @@ window.DB.generated = {
      "title": "Wan2.2 14B Preview",
      "desc_en": "generate a video from an image with a text prompt",
      "desc_he": "ליצור סרטון מתמונה באמצעות הנחיית טקסט",
-     "likes": 1672,
+     "likes": 1674,
      "link": "https://huggingface.co/spaces/kulkas2pintu/wan777"
     },
     {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 150,
+     "likes": 152,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
      "title": "P-H3-Image",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 180,
+     "likes": 181,
      "link": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
     },
     {
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 194,
+     "likes": 195,
      "link": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros"
     },
     {
@@ -3002,7 +3003,7 @@ window.DB.generated = {
      "title": "Krea2T Image Revamped",
      "desc_en": "Krea2 Turbo",
      "desc_he": "Krea2 טורבו",
-     "likes": 56,
+     "likes": 57,
      "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
     },
     {
@@ -3015,8 +3016,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-17T20:17:38+00:00",
-  "fetched_at": "2026-11-17T20:17:38+00:00"
+  "checked_at": "2026-11-17T21:17:35+00:00",
+  "fetched_at": "2026-11-17T21:17:35+00:00"
  },
  "abroad": {
   "data": {
@@ -3362,8 +3363,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-17T20:17:30+00:00",
-  "fetched_at": "2026-11-17T20:17:30+00:00"
+  "checked_at": "2026-11-17T21:17:30+00:00",
+  "fetched_at": "2026-11-17T21:17:30+00:00"
  },
  "idf": {
   "data": [
@@ -3394,58 +3395,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T20:17:31+00:00",
-  "fetched_at": "2026-11-17T20:17:31+00:00"
+  "checked_at": "2026-11-17T21:17:30+00:00",
+  "fetched_at": "2026-11-17T21:17:30+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-17T20:02:00+00:00",
-    "seen_at": "2026-11-17T20:17:40+00:00",
+    "newest": "2026-11-17T21:11:00+00:00",
+    "seen_at": "2026-11-17T21:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-17T19:08:00+00:00",
-    "seen_at": "2026-11-17T20:17:40+00:00",
+    "newest": "2026-11-17T21:00:00+00:00",
+    "seen_at": "2026-11-17T21:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-17T19:08:00+00:00",
-    "seen_at": "2026-11-17T20:17:40+00:00",
+    "newest": "2026-11-17T21:00:00+00:00",
+    "seen_at": "2026-11-17T21:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-17T16:21:00+00:00",
-    "seen_at": "2026-11-17T20:17:40+00:00",
+    "seen_at": "2026-11-17T21:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-17T19:57:00+00:00",
-    "seen_at": "2026-11-17T20:17:40+00:00",
+    "seen_at": "2026-11-17T21:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-17T21:04:00+00:00",
-    "seen_at": "2026-11-17T20:17:40+00:00",
+    "seen_at": "2026-11-17T21:17:36+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-17T19:45:00+00:00",
-    "seen_at": "2026-11-17T20:17:40+00:00",
+    "newest": "2026-11-17T21:09:00+00:00",
+    "seen_at": "2026-11-17T21:17:36+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-17T13:02:28+00:00",
-    "seen_at": "2026-11-17T20:17:40+00:00",
+    "seen_at": "2026-11-17T21:17:36+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3457,35 +3458,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-17T17:00:00+00:00",
-    "seen_at": "2026-11-17T20:17:40+00:00",
+    "seen_at": "2026-11-17T21:17:36+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-17T16:40:35+00:00",
-    "seen_at": "2026-11-17T20:17:40+00:00",
+    "newest": "2026-11-17T20:33:10+00:00",
+    "seen_at": "2026-11-17T21:17:36+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-17T19:30:43+00:00",
-    "seen_at": "2026-11-17T20:17:40+00:00",
+    "seen_at": "2026-11-17T21:17:36+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-17T17:02:53+00:00",
-    "seen_at": "2026-11-17T20:17:40+00:00",
+    "seen_at": "2026-11-17T21:17:36+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-16T08:17:37+00:00",
-    "seen_at": "2026-11-17T20:17:40+00:00",
+    "seen_at": "2026-11-17T21:17:36+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-17T20:17:40+00:00"
+  "checked_at": "2026-11-17T21:17:36+00:00"
  },
  "health_news": {
   "data": [
@@ -3641,7 +3642,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-17T20:17:32+00:00",
-  "fetched_at": "2026-11-17T20:17:32+00:00"
+  "checked_at": "2026-11-17T21:17:31+00:00",
+  "fetched_at": "2026-11-17T21:17:31+00:00"
  }
 };
