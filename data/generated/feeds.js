@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-18T17:17:26+00:00",
-  "fetched_at": "2026-11-18T17:17:26+00:00"
+  "checked_at": "2026-11-18T18:09:22+00:00",
+  "fetched_at": "2026-11-18T18:09:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T17:17:40+00:00",
-  "fetched_at": "2026-11-18T17:17:40+00:00"
+  "checked_at": "2026-11-18T18:09:32+00:00",
+  "fetched_at": "2026-11-18T18:09:32+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Qobuz launches on Apple TV, bringing lossless tracks and hand-picked playlists to the big screen",
+    "title_he": "Qobuz משיקה את השירות שלה ב-Apple TV, ומביאה מסלולי מוזיקה ללא אובדן איכות ופלייליסטים שנבחרו בקפידה למסך הגדול",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/streaming-entertainment/music-streaming/qobuz-launches-on-apple-tv-bringing-lossless-tracks-and-hand-picked-playlists-to-the-big-screen",
+    "date": "2026-11-18T17:18:02+00:00"
+   },
    {
     "title_en": "Philips OLED911 (65OLED911)",
     "title_he": "פיליפס OLED911 (65OLED911)",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/hi-fi/stereo-amplifiers/pro-jects-compact-new-power-amplifier-promises-valve-like-warmth-and-musicality",
     "date": "2026-11-18T09:19:29+00:00"
-   },
-   {
-    "title_en": "Got a question for our hi-fi, AV and TV experts? Join our Sound Advice live Q&A this Friday",
-    "title_he": "יש לכם שאלה למומחי האודיו, האודיו-ויזואל והטלוויזיה שלנו? הצטרפו לשאלות ותשובות בשידור חי של Sound Advice ביום שישי הקרוב",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/tv-home-cinema/got-a-question-for-our-hi-fi-av-and-tv-experts-join-our-sound-advice-live-q-and-a-this-friday",
-    "date": "2026-11-17T17:02:53+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T17:17:41+00:00",
-  "fetched_at": "2026-11-18T17:17:41+00:00"
+  "checked_at": "2026-11-18T18:09:35+00:00",
+  "fetched_at": "2026-11-18T18:09:35+00:00"
  },
- "generated_at": "2026-11-18T17:17:41+00:00",
+ "generated_at": "2026-11-18T18:09:35+00:00",
  "globes": {
   "data": {
    "top": [
@@ -92,12 +92,17 @@ window.DB.generated = {
      "date": "2026-11-18T17:03:00+00:00"
     },
     {
-     "title": "דיווח: איראן הקשיחה את עמדותיה במו\"מ עם ארה\"ב מאז ההפסד של הרפובליקנים בבחירות האמצע",
+     "title": "הרמטכ\"ל אייל זמיר נפגש בקריה עם מפקד פיקוד המרכז של צבא ארה\"ב (CENTCOM), אדמירל בראד קופר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563868",
-     "date": "2026-11-18T15:36:00+00:00"
+     "date": "2026-11-18T17:16:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "יסתיים בחברות בנייה? החשש האמיתי מהסנקציות הבריטיות נגד ישראל",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563978",
+     "date": "2026-11-18T17:03:00+00:00"
+    },
     {
      "title": "מניות ההתחדשות העירונית צנחו בבורסה. הכללים החדשים של רשות ני\"ע והסיבות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564044",
@@ -217,17 +222,12 @@ window.DB.generated = {
      "title": "הנפקת אנתרופיק מעמידה למבחן את כלכלת הבינה המלאכותית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563800",
      "date": "2026-11-18T03:47:00+00:00"
-    },
-    {
-     "title": "אנבידיה בדוח ראשון אחרי ג'נסן: ניפצה את התחזיות, המניה עולה ב-2% במסחר המאוחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563789",
-     "date": "2026-11-17T21:23:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-18T17:17:28+00:00",
-  "fetched_at": "2026-11-18T17:17:28+00:00"
+  "checked_at": "2026-11-18T18:09:23+00:00",
+  "fetched_at": "2026-11-18T18:09:23+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T17:17:29+00:00",
-  "fetched_at": "2026-11-18T17:17:29+00:00"
+  "checked_at": "2026-11-18T18:09:23+00:00",
+  "fetched_at": "2026-11-18T18:09:23+00:00"
  },
  "tv": {
   "data": [
@@ -2641,8 +2641,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T17:17:31+00:00",
-  "fetched_at": "2026-11-18T17:17:31+00:00"
+  "checked_at": "2026-11-18T18:09:25+00:00",
+  "fetched_at": "2026-11-18T18:09:25+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2732,8 +2732,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-18T17:17:31+00:00",
-  "fetched_at": "2026-11-18T17:17:31+00:00"
+  "checked_at": "2026-11-18T18:09:25+00:00",
+  "fetched_at": "2026-11-18T18:09:25+00:00"
  },
  "ai": {
   "data": {
@@ -2759,8 +2759,7 @@ window.DB.generated = {
    ],
    "candidates": 19,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
@@ -2774,7 +2773,7 @@ window.DB.generated = {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 442,
+     "likes": 443,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -2795,28 +2794,28 @@ window.DB.generated = {
      "title": "Slack Moji",
      "desc_en": "Describe an emoji. A tiny model paints it in your browser.",
      "desc_he": "תארו אימוג'י. מודל קטן מצייר אותו בדפדפן שלכם.",
-     "likes": 48,
+     "likes": 50,
      "link": "https://huggingface.co/spaces/cfahlgren1/slack-moji"
     },
     {
      "title": "Krea2T Image Revamped",
      "desc_en": "Krea2 Turbo",
      "desc_he": "Krea2 טורבו",
-     "likes": 69,
+     "likes": 70,
      "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
     },
     {
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 447,
+     "likes": 450,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 948,
+     "likes": 950,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
@@ -2836,8 +2835,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-18T17:17:40+00:00",
-  "fetched_at": "2026-11-18T17:17:40+00:00"
+  "checked_at": "2026-11-18T18:09:31+00:00",
+  "fetched_at": "2026-11-18T18:09:31+00:00"
  },
  "abroad": {
   "data": {
@@ -3180,8 +3179,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-18T17:17:35+00:00",
-  "fetched_at": "2026-11-18T17:17:35+00:00"
+  "checked_at": "2026-11-18T18:09:28+00:00",
+  "fetched_at": "2026-11-18T18:09:28+00:00"
  },
  "idf": {
   "data": [
@@ -3211,8 +3210,9 @@ window.DB.generated = {
     "date": "2026-11-16T22:35:04+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-18T17:17:35+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-18T18:09:28+00:00",
   "fetched_at": "2026-11-18T17:17:35+00:00"
  },
  "feed_health": {
@@ -3220,44 +3220,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-18T17:06:00+00:00",
-    "seen_at": "2026-11-18T17:17:41+00:00",
+    "newest": "2026-11-18T17:51:00+00:00",
+    "seen_at": "2026-11-18T18:09:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-18T16:20:00+00:00",
-    "seen_at": "2026-11-18T17:17:41+00:00",
+    "seen_at": "2026-11-18T18:09:35+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-18T16:11:00+00:00",
-    "seen_at": "2026-11-18T17:17:41+00:00",
+    "newest": "2026-11-18T17:43:00+00:00",
+    "seen_at": "2026-11-18T18:09:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-18T07:09:00+00:00",
-    "seen_at": "2026-11-18T17:17:41+00:00",
+    "seen_at": "2026-11-18T18:09:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-18T14:39:00+00:00",
-    "seen_at": "2026-11-18T17:17:41+00:00",
+    "seen_at": "2026-11-18T18:09:35+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-18T16:31:00+00:00",
-    "seen_at": "2026-11-18T17:17:41+00:00",
+    "newest": "2026-11-18T19:00:00+00:00",
+    "seen_at": "2026-11-18T18:09:35+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-18T17:09:00+00:00",
-    "seen_at": "2026-11-18T17:17:41+00:00",
+    "seen_at": "2026-11-18T18:09:35+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3269,31 +3269,31 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-12T18:00:50+00:00",
-    "seen_at": "2026-11-18T16:17:32+00:00",
+    "seen_at": "2026-11-18T18:09:35+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-18T17:00:00+00:00",
-    "seen_at": "2026-11-18T17:17:41+00:00",
+    "seen_at": "2026-11-18T18:09:35+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-18T14:08:52+00:00",
-    "seen_at": "2026-11-18T17:17:41+00:00",
+    "seen_at": "2026-11-18T18:09:35+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-18T14:00:45+00:00",
-    "seen_at": "2026-11-18T17:17:41+00:00",
+    "seen_at": "2026-11-18T18:09:35+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-18T16:00:42+00:00",
-    "seen_at": "2026-11-18T17:17:41+00:00",
+    "newest": "2026-11-18T17:18:02+00:00",
+    "seen_at": "2026-11-18T18:09:35+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3303,7 +3303,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-11-18T17:17:41+00:00"
+  "checked_at": "2026-11-18T18:09:35+00:00"
  },
  "health_news": {
   "data": [
@@ -3458,8 +3458,9 @@ window.DB.generated = {
     "date": "2026-10-19T11:50:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-18T17:17:36+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-18T18:09:28+00:00",
   "fetched_at": "2026-11-18T17:17:36+00:00"
  }
 };
