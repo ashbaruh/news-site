@@ -1,6 +1,10 @@
 {
 "abboudieh, lebanon": null,
 "abboudieh-dabbousieh crossing, lebanon-syria border": null,
+"abdanan, iran": [
+32.9902,
+47.4222
+],
 "abdin, syria": [
 32.7805,
 35.8247
@@ -221,6 +225,7 @@
 29.3498,
 47.5202
 ],
+"ali al-salem airbase, kuwait": null,
 "aliaga, izmir, turkey": [
 38.8034,
 26.9714
@@ -1073,6 +1078,7 @@
 34.6638,
 37.0159
 ],
+"har dov, lebanon": null,
 "haris, lebanon": [
 33.1768,
 35.3799
@@ -3090,6 +3096,10 @@
 "zibqine, lebanon": [
 33.1644,
 35.2665
+],
+"zlatopil, kharkiv oblast, ukraine": [
+49.3896,
+36.2127
 ],
 "zlatopil, ukraine": [
 49.3896,
