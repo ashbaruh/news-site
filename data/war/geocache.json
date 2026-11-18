@@ -929,6 +929,7 @@
 ],
 "eastern province, saudi arabia": null,
 "eastern region, saudi arabia": null,
+"eastern samadaniya, syria": null,
 "enerhodar, ukraine": [
 47.4901,
 34.6603
@@ -2534,6 +2535,10 @@
 25.3461,
 55.4211
 ],
+"sharurah, saudi arabia": [
+17.4695,
+47.1156
+],
 "shebaa, lebanon": [
 33.3445,
 35.7494
@@ -3078,6 +3083,7 @@
 "zawtar al-gharb, lebanon": null,
 "zawtar al-sharqiya, lebanon": null,
 "zawtar al-sharqiyah, lebanon": null,
+"zawtar al-sharqiye, lebanon": null,
 "zawtar al-sharqiyeh, lebanon": [
 33.3237,
 35.4731
