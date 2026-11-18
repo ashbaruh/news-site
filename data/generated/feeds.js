@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-18T09:17:19+00:00",
-  "fetched_at": "2026-11-18T09:17:19+00:00"
+  "checked_at": "2026-11-18T10:17:27+00:00",
+  "fetched_at": "2026-11-18T10:17:27+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T09:17:33+00:00",
-  "fetched_at": "2026-11-18T09:17:33+00:00"
+  "checked_at": "2026-11-18T10:17:39+00:00",
+  "fetched_at": "2026-11-18T10:17:39+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "The Award-winning Chord Mojo 2 is my secret weapon for hi-fi sound on the go",
+    "title_he": "ה-Chord Mojo 2 עטור הפרסים הוא הנשק הסודי שלי לסאונד היי-פיי בדרכים",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/hi-fi/dacs/the-award-winning-chord-mojo-2-is-my-secret-weapon-for-hi-fi-sound-on-the-go",
+    "date": "2026-11-18T10:07:18+00:00"
+   },
+   {
+    "title_en": "Pro-Ject’s compact new power amplifier promises valve-like “warmth and musicality”",
+    "title_he": "מגבר ההספק הקומפקטי החדש של Pro-Ject מבטיח \"חמימות ומוזיקליות\" כמו של שפופרת",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/hi-fi/stereo-amplifiers/pro-jects-compact-new-power-amplifier-promises-valve-like-warmth-and-musicality",
+    "date": "2026-11-18T09:19:29+00:00"
+   },
    {
     "title_en": "Got a question for our hi-fi, AV and TV experts? Join our Sound Advice live Q&A this Friday",
     "title_he": "יש לכם שאלה למומחי האודיו, האודיו-ויזואל והטלוויזיה שלנו? הצטרפו לשאלות ותשובות בשידור חי של Sound Advice ביום שישי הקרוב",
@@ -62,34 +76,20 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/streaming-entertainment/streaming-hardware/skys-big-os-upgrade-is-here-complete-with-a-redesigned-homepage-and-a-smarter-voice-assistant",
     "date": "2026-11-17T15:09:01+00:00"
-   },
-   {
-    "title_en": "Hyped for Grand Theft Auto? Here’s why I’m excited about the GTA 6 vinyl record for testing",
-    "title_he": "מתרגשים מ-Grand Theft Auto? הנה הסיבה שאני מתרגש מתקליט הוויניל של GTA 6 לבדיקה",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/streaming-entertainment/music-streaming/hyped-for-grand-theft-auto-heres-why-im-excited-about-the-gta-6-vinyl-record-for-testing",
-    "date": "2026-11-17T14:37:29+00:00"
-   },
-   {
-    "title_en": "Grado’s latest open-back, wireless headphones combine “natural musical expression” with the “freedom of wireless listening”",
-    "title_he": "האוזניות האלחוטיות הפתוחות האחרונות של Grado משלבות \"ביטוי מוזיקלי טבעי\" עם \"חופש ההאזנה האלחוטית\"",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/headphones/wireless-headphones/grado-labs-latest-open-back-wireless-headphones-combine-natural-musical-expression-with-the-freedom-of-wireless-listening",
-    "date": "2026-11-17T14:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T09:17:33+00:00",
-  "fetched_at": "2026-11-18T09:17:33+00:00"
+  "checked_at": "2026-11-18T10:17:42+00:00",
+  "fetched_at": "2026-11-18T10:17:42+00:00"
  },
- "generated_at": "2026-11-18T09:17:33+00:00",
+ "generated_at": "2026-11-18T10:17:42+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "עליות בתל אביב; מניות טאואר ומגדל מזנקות, דניה סיבוס צונחת",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563842",
-     "date": "2026-11-18T08:47:00+00:00"
+     "title": "דוחות אנבידיה מוכיחים: הואנג מכר שבבים לשנתיים מראש, את השפעת לכתו נרגיש רק בעתיד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563922",
+     "date": "2026-11-18T09:39:00+00:00"
     },
     {
      "title": "דיווח: איראן הקשיחה את עמדותיה במו\"מ עם ארה\"ב מאז ההפסד של הרפובליקנים בבחירות האמצע",
@@ -99,19 +99,44 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "אריאלי קפיטל קיבלה את הצעת הרכש באלרון – השליטה תועבר לבלוגייט של משפחת מלניק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563918",
-     "date": "2026-11-18T09:06:00+00:00"
+     "title": "כלל ומיטב בראש טבלת המגייסות; אלטשולר שחם וילין לפידות ממשיכות לאבד מיליארדים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563931",
+     "date": "2026-11-18T10:12:00+00:00"
+    },
+    {
+     "title": "הבורסה בלונדון סוגרת את מרכז הפיתוח בפתח תקווה ותפטר 30 עובדים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563930",
+     "date": "2026-11-18T09:54:00+00:00"
+    },
+    {
+     "title": "שיפור חד ברווחיות בקסטרו-הודיס; בוואן טכנולוגיות הרווח כמעט לא צמח",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563923",
+     "date": "2026-11-18T09:41:00+00:00"
+    },
+    {
+     "title": "דוחות אנבידיה מוכיחים: הואנג מכר שבבים לשנתיים מראש, את השפעת לכתו נרגיש רק בעתיד",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563922",
+     "date": "2026-11-18T09:39:00+00:00"
+    },
+    {
+     "title": "מגמה מעורבת באירופה; אנבידיה ומניות הענן מזנקות במסחר המוקדם",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563798",
+     "date": "2026-11-18T09:38:00+00:00"
     },
     {
      "title": "עליות בתל אביב; מניות טאואר ומגדל מזנקות, דניה סיבוס צונחת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563842",
-     "date": "2026-11-18T08:47:00+00:00"
+     "date": "2026-11-18T09:17:00+00:00"
     },
     {
-     "title": "מגמה מעורבת באירופה; החוזים בניו יורק עולים אחרי דוחות אנבידיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563798",
-     "date": "2026-11-18T08:14:00+00:00"
+     "title": "רק שתיים מתוך \"7 המופלאות\" מצליחות להכות את S&P 500",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563906",
+     "date": "2026-11-18T09:14:00+00:00"
+    },
+    {
+     "title": "אריאלי קפיטל קיבלה את הצעת הרכש באלרון – השליטה תועבר לבלוגייט של משפחת מלניק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563918",
+     "date": "2026-11-18T09:06:00+00:00"
     },
     {
      "title": "קבוצת דלק הציגה צמיחה ברווחים ותחלק דיבידנד של 250 מיליון שקל",
@@ -127,11 +152,6 @@ window.DB.generated = {
      "title": "הכנסות אאורה מזנקות לשיא ברבעון, אז למה הרווח נחתך ב-41%?",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563910",
      "date": "2026-11-18T07:58:00+00:00"
-    },
-    {
-     "title": "\"קריאה חכמה של הנתונים\": החברה פרסמה דיווח סתמי, המשקיעים רצו לקנות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563740",
-     "date": "2026-11-18T07:25:00+00:00"
     },
     {
      "title": "הריבית והמס הכבידו: רווחי הבנקים ירדו ב-6% ברבעון השלישי",
@@ -169,13 +189,13 @@ window.DB.generated = {
      "date": "2026-11-18T03:48:00+00:00"
     },
     {
-     "title": "משקיעי־העל נוטשים בעיקר מניה אחת. לאן הם עוברים?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563836",
+     "title": "הנפקת אנתרופיק מעמידה למבחן את כלכלת הבינה המלאכותית",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563800",
      "date": "2026-11-18T03:47:00+00:00"
     },
     {
-     "title": "הנפקת אנתרופיק מעמידה למבחן את כלכלת הבינה המלאכותית",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563800",
+     "title": "משקיעי־העל נוטשים בעיקר מניה אחת. לאן הם עוברים?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563836",
      "date": "2026-11-18T03:47:00+00:00"
     },
     {
@@ -202,32 +222,12 @@ window.DB.generated = {
      "title": "דיווח: חשבונות מסחר הקשורים בנשיא ארה\"ב קנו ומכרו מניות אנבידיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563862",
      "date": "2026-11-17T15:56:00+00:00"
-    },
-    {
-     "title": "השיטה של חברות הבינה המלאכותית הסיניות לעקוף את החרם האמריקאי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563643",
-     "date": "2026-11-17T15:43:00+00:00"
-    },
-    {
-     "title": "בחירות האמצע שינו את מאזן הכוחות בשוק הבריאות: מה כדאי למשקיעים לדעת?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563470",
-     "date": "2026-11-17T14:35:00+00:00"
-    },
-    {
-     "title": "דונלד טראמפ ודויטשה בנק: היחסים עם \"הלקוח מספר 1\" נחשפים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563723",
-     "date": "2026-11-17T13:51:00+00:00"
-    },
-    {
-     "title": "שברון רוכשת את השותפה של נאוויטס במאגר הנפט שננדואה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563766",
-     "date": "2026-11-17T13:30:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-18T09:17:20+00:00",
-  "fetched_at": "2026-11-18T09:17:20+00:00"
+  "checked_at": "2026-11-18T10:17:28+00:00",
+  "fetched_at": "2026-11-18T10:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T09:17:21+00:00",
-  "fetched_at": "2026-11-18T09:17:21+00:00"
+  "checked_at": "2026-11-18T10:17:29+00:00",
+  "fetched_at": "2026-11-18T10:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2641,8 +2641,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T09:17:23+00:00",
-  "fetched_at": "2026-11-18T09:17:23+00:00"
+  "checked_at": "2026-11-18T10:17:29+00:00",
+  "fetched_at": "2026-11-18T10:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2732,8 +2732,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-18T09:17:23+00:00",
-  "fetched_at": "2026-11-18T09:17:23+00:00"
+  "checked_at": "2026-11-18T10:17:29+00:00",
+  "fetched_at": "2026-11-18T10:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -2749,22 +2749,23 @@ window.DB.generated = {
     },
     {
      "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/muse-ai-sues-meta/",
-     "date": "2026-11-18T08:21:40+00:00",
+     "link": "https://www.geektime.co.il/cxo-security-breakfast-6122026/",
+     "date": "2026-11-18T09:33:03+00:00",
      "launch": false,
-     "title": "ה-AI של מטא חסם את ה-AI של מטא, אז הוא תבע אותה"
+     "title": "אירוע בהזמנה בלבד: כך תתגוננו מפני מתקפות AI עם הכלים של Google Cloud"
     }
    ],
    "candidates": 17,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 729,
+     "likes": 731,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
@@ -2778,7 +2779,7 @@ window.DB.generated = {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 164,
+     "likes": 165,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
@@ -2803,18 +2804,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros"
     },
     {
-     "title": "Jev Decision Index",
-     "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
-     "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
-     "likes": 947,
-     "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
-    },
-    {
      "title": "Krea2T Image Revamped",
      "desc_en": "Krea2 Turbo",
      "desc_he": "Krea2 טורבו",
      "likes": 65,
      "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
+    },
+    {
+     "title": "Jev Decision Index",
+     "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
+     "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
+     "likes": 947,
+     "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
      "title": "Qwen 2511 + Flux.2 Klein",
@@ -2833,8 +2834,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-18T09:17:32+00:00",
-  "fetched_at": "2026-11-18T09:17:32+00:00"
+  "checked_at": "2026-11-18T10:17:39+00:00",
+  "fetched_at": "2026-11-18T10:17:39+00:00"
  },
  "abroad": {
   "data": {
@@ -2924,30 +2925,12 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "חם בצרפת, עמנואל פטי מגן על שרקי: \"יש הרבה שצריך לבקר לפניו\"",
-     "link": "https://sports.walla.co.il/item/3876532",
-     "date": "2026-11-17T07:14:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "יגאל בקר"
-     ]
-    },
-    {
      "title": "אבדיה שוב כיכב עם 27 נקודות, פורטלנד נעצרה במינסוטה",
      "link": "https://sports.walla.co.il/item/3876544",
      "date": "2026-11-17T05:48:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
-     ]
-    },
-    {
-     "title": "פרנק מונה למאמן קריסטל פאלאס, חלאילי צפוי לעמוד לרשותו בבכורה",
-     "link": "https://sports.walla.co.il/item/3876471",
-     "date": "2026-11-16T18:12:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ענאן חלאילי"
      ]
     },
     {
@@ -2973,6 +2956,24 @@ window.DB.generated = {
      "title": "\"אנחנו לא מבינים כמה זה רציני\": לאן עוד יגיע דני אבדיה?",
      "link": "https://sports.walla.co.il/item/3876360",
      "date": "2026-11-16T07:30:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "קמפיין הטוטו עם דני אבדיה סיים במקום ה-2 בעולם",
+     "link": "https://www.one.co.il/Article/538929.html?ref=rss",
+     "date": "2026-11-15T08:47:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "\"דני אבדיה מתחיל להפוך לשחקן ברמת MVP. זו לא הגזמה\"",
+     "link": "https://sports.walla.co.il/item/3876235",
+     "date": "2026-11-15T06:59:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3179,8 +3180,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-18T09:17:26+00:00",
-  "fetched_at": "2026-11-18T09:17:26+00:00"
+  "checked_at": "2026-11-18T10:17:36+00:00",
+  "fetched_at": "2026-11-18T10:17:36+00:00"
  },
  "idf": {
   "data": [
@@ -3210,8 +3211,9 @@ window.DB.generated = {
     "date": "2026-11-16T13:47:55+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-18T09:17:27+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-18T10:17:36+00:00",
   "fetched_at": "2026-11-18T09:17:27+00:00"
  },
  "feed_health": {
@@ -3219,26 +3221,26 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-18T09:11:00+00:00",
-    "seen_at": "2026-11-18T09:17:33+00:00",
+    "newest": "2026-11-18T10:15:00+00:00",
+    "seen_at": "2026-11-18T10:17:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-18T09:06:00+00:00",
-    "seen_at": "2026-11-18T09:17:33+00:00",
+    "newest": "2026-11-18T10:12:00+00:00",
+    "seen_at": "2026-11-18T10:17:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-18T08:14:00+00:00",
-    "seen_at": "2026-11-18T09:17:33+00:00",
+    "newest": "2026-11-18T09:54:00+00:00",
+    "seen_at": "2026-11-18T10:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-18T07:09:00+00:00",
-    "seen_at": "2026-11-18T09:17:33+00:00",
+    "seen_at": "2026-11-18T10:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
@@ -3249,14 +3251,14 @@ window.DB.generated = {
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-18T09:06:00+00:00",
-    "seen_at": "2026-11-18T09:17:33+00:00",
+    "newest": "2026-11-18T11:03:00+00:00",
+    "seen_at": "2026-11-18T10:17:42+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-18T08:49:00+00:00",
-    "seen_at": "2026-11-18T09:17:33+00:00",
+    "newest": "2026-11-18T09:56:00+00:00",
+    "seen_at": "2026-11-18T10:17:42+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3274,35 +3276,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-17T17:00:00+00:00",
-    "seen_at": "2026-11-18T09:17:33+00:00",
+    "seen_at": "2026-11-18T10:17:42+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-18T08:55:38+00:00",
-    "seen_at": "2026-11-18T09:17:33+00:00",
+    "newest": "2026-11-18T09:33:03+00:00",
+    "seen_at": "2026-11-18T10:17:42+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-17T19:30:43+00:00",
-    "seen_at": "2026-11-18T09:17:33+00:00",
+    "seen_at": "2026-11-18T10:17:42+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-17T17:02:53+00:00",
-    "seen_at": "2026-11-18T09:17:33+00:00",
+    "newest": "2026-11-18T10:07:18+00:00",
+    "seen_at": "2026-11-18T10:17:42+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-18T09:14:19+00:00",
-    "seen_at": "2026-11-18T09:17:33+00:00",
+    "seen_at": "2026-11-18T10:17:42+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-18T09:17:33+00:00"
+  "checked_at": "2026-11-18T10:17:42+00:00"
  },
  "health_news": {
   "data": [
@@ -3458,7 +3460,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T09:17:28+00:00",
-  "fetched_at": "2026-11-18T09:17:28+00:00"
+  "checked_at": "2026-11-18T10:17:37+00:00",
+  "fetched_at": "2026-11-18T10:17:37+00:00"
  }
 };
