@@ -1,0 +1,373 @@
+{
+ "status": "draft",
+ "received_sha256_12": "eb503f978f6a",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "initial": 6,
+   "shared_root": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-18T00:42:08+00:00",
+  "window": {
+   "from": "2026-11-17T00:42:08+00:00",
+   "to": "2026-11-18T00:42:08+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202611180042"
+  },
+  "summary": "הלחימה והמתיחות בדרום לבנון ובדרום סוריה נמשכות בעצימות ממוקדת באמצעות פשיטות קרקעיות של צה\"ל, תקיפות אוויריות וסיכול נתיבי הברחה מסוריה. במקביל, מתנהל מאבק מדיני בין ארצות הברית, צרפת וישראל בנוגע לעתיד הנוכחות הבינלאומית בדרום לבנון עם סיום מנדט יוניפי\"ל. בציר הדיפלומטי המקביל, טורקיה וסוריה מציגות עמדה מתואמת בדרישה מישראל לכבד את הסכם הפרדת הכוחות ברמת הגולן.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "פעילות מבצעית ישראלית הכוללת תקיפות מן האוויר, מעצרים ממוקדים ומחלוקת דיפלומטית על החלפת יוניפי\"ל"
+   },
+   {
+    "name": "גבול סוריה-לבנון",
+    "status": "ניסיונות הברחת אמל\"ח וכטב\"מים מאיראן דרך סוריה לחזבאללה לצד תקיפות סיכול ישראליות"
+   },
+   {
+    "name": "דרום סוריה",
+    "status": "חיכוך קרקעי מול כוחות צה\"ל באזור דרעא ומתיחות ביטחונית נמשכת במחוז א-סווידא"
+   },
+   {
+    "name": "ציר טורקיה-סוריה",
+    "status": "הידוק מגעים דיפלומטיים ותיאום עמדות מדיניות הדורשות מישראל נסיגה להסכמי 1974"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11180042-01",
+    "title": "תקיפה ישראלית בדרום לבנון",
+    "summary": "בוצעה תקיפה אווירית באל-מנצורי והפצצה בפאתי אל-הבאריה בדרום לבנון.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T20:29:58+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T20:29:58+00:00",
+    "last_update_at": "2026-11-17T20:29:58+00:00",
+    "what_is_not_verified": "היקף הנזק או הנפגעים בתקיפות לא צוין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_f58f2c142fedd9eb",
+      "url": "https://english.almanar.com.lb/article/152092/",
+      "published_at": "2026-11-17T20:29:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מנצורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11180042-02",
+    "title": "מעצר שני אחים בעיירה שבעא על ידי כוחות צה\"ל",
+    "summary": "כוח צבאי ישראלי פשט על בית בפאתי העיירה שבעא ועצר שני אחים, שלפי מחקר ישראלי משתייכים למיליציית פלוגות ההתנגדות הלבנונית הפועלת בחסות חזבאללה.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T03:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T12:58:15+00:00",
+    "last_update_at": "2026-11-17T15:00:00+00:00",
+    "what_is_not_verified": "קיימת מחלוקת לגבי שיוכם הארגוני של העצורים, אם מדובר באזרחים או בפעילי מיליציה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/968441/a-family-torn-apart-israel-abducts-two-brothers-in-chebaa-17-months-af/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968441",
+      "published_at": "2026-11-17T15:00:00+00:00"
+     },
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/hezbollahs-lebanese-resistance-brigades-the-threat-from-within-the-civilian-environment-in-shebaa/",
+      "published_at": "2026-11-17T12:58:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "שבעא, לבנון",
+      "lat": 33.3445,
+      "lon": 35.7494
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11180042-03",
+    "title": "פעילות צה\"ל בכפר כויא בדרום סוריה ומנוסת תושבים",
+    "summary": "תושבים מקומיים התפנו מהכפר כויא במחוז דרעא בעקבות פעילות כוחות צה\"ל וירי בשטח הכפר, וחסמו צירי גישה באבנים כדי למנוע כניסת כוחות נוספים.",
+    "axis": "דרום סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T09:03:24+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-17T09:03:24+00:00",
+    "last_update_at": "2026-11-17T09:03:24+00:00",
+    "what_is_not_verified": "אין אימות רשמי של צה\"ל לפעילות זו או לתוצאותיה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133776",
+      "published_at": "2026-11-17T09:03:24+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11180042-04",
+    "title": "תקיפת חמושים נגד סיור ביטחון פנים באזור טרטוס",
+    "summary": "חמושים בלתי מזוהים תקפו סיור של משרד הפנים הסורי באזור הכפרי של טרטוס, הרגו איש ביטחון ופצעו ארבעה נוספים.",
+    "axis": "מערב סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T23:34:57+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T23:34:57+00:00",
+    "last_update_at": "2026-11-17T23:34:57+00:00",
+    "what_is_not_verified": "זהות החמושים והמניע לתקיפה אינם ידועים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/attack-on-patrol-in-western-syria-kills-security-officer-wounds-4-others/4128476",
+      "published_at": "2026-11-17T23:34:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טרטוס, סוריה",
+      "lat": 34.8936,
+      "lon": 35.8852
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11180042-05",
+    "title": "קריאת שר החוץ הטורקי לישראל לכבד את הסכם הפרדת הכוחות מול סוריה",
+    "summary": "במסיבת עיתונאים משותפת באנקרה עם מקבילו הסורי, הצהיר שר החוץ של טורקיה כי על ישראל לדבוק בהסכם הפרדת הכוחות משנת 1974.",
+    "axis": "טורקיה-סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T16:54:09+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T16:54:09+00:00",
+    "last_update_at": "2026-11-17T16:54:09+00:00",
+    "what_is_not_verified": "תגובת ישראל להצהרה זו לא צוינה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/152017/",
+      "published_at": "2026-11-17T16:54:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אנקרה, טורקיה",
+      "lat": 39.9208,
+      "lon": 32.854
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11180042-06",
+    "title": "מגעים בינלאומיים לגיבוש כוח חלופי ליוניפי\"ל בדרום לבנון",
+    "summary": "ארצות הברית וצרפת מקיימות דיונים על החלפת כוח יוניפי\"ל שמנדטו יפוג בסוף השנה בכוח ממוקד יותר, כאשר ישראל מתנגדת להצעה הצרפתית לשיגור כוח אירופי-אמריקאי נרחב.",
+    "axis": "דרום לבנון",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T14:51:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-17T14:51:00+00:00",
+    "last_update_at": "2026-11-17T15:26:06+00:00",
+    "what_is_not_verified": "המבנה הסופי של הכוח הבינלאומי החדש טרם סוכם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/sy1xr1qrzx",
+      "published_at": "2026-11-17T15:26:06+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/968434/us-france-discuss-alternative-to-unifil-as-washington-pushes-for-small/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968434",
+      "published_at": "2026-11-17T14:51:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11180042-07",
+    "title": "חקירת פעילי חזבאללה שנעצרו בצפון לבנון נפגעה עקב הדלפה",
+    "summary": "חקירת חמישה פעילי חזבאללה שנעצרו בין בשרי לכורה נמשכת, אך דליפת המידע אפשרה לחזבאללה לקחת מכשיר טלפון מדירת מסתור בנהראן.",
+    "axis": "לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T07:20:04+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-17T07:20:04+00:00",
+    "last_update_at": "2026-11-17T07:20:04+00:00",
+    "what_is_not_verified": "מהות המשימה שאותה ניסו הפעילים להוציא לפועל אינה ידועה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/968387/investigation-into-five-hezbollah-detainees-ongoing-as-leaked-news-rep/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968387",
+      "published_at": "2026-11-17T07:20:04+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11180042-08",
+    "title": "תקיפת משלוח אמצעי לחימה שהוברח מסוריה ללבנון",
+    "summary": "צה\"ל תקף משלוח אמצעי לחימה, שעל פי דיווחים כלל כטב\"מים, בעת כניסתו מסוריה לאזור ג'נתא שבבקעת הלבנון.",
+    "axis": "גבול לבנון-סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T11:40:16+00:00",
+    "last_update_at": "2026-11-17T11:40:16+00:00",
+    "what_is_not_verified": "סוג אמצעי הלחימה במשלוח והאם כלל כטב\"מים אינם מאומתים סופית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/how-is-hezbollah-rebuilding-its-drone-capabilities-evidence-of-smuggling-from-iran-international-procurement-and-suspected-theft-of-fiber-optic-cables-in-lebanon/",
+      "published_at": "2026-11-17T11:40:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'נתא, לבנון",
+      "lat": 33.8391,
+      "lon": 36.0996
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת ערוץ 12 על נסיגת צה\"ל מהכפר רשף בגלל מחסור בכוחות והמעבר לשליטה מרחוק",
+   "הדיווחים שלפיהם משלוח הנשק שהותקף בג'נתא ב-16 בנובמבר הכיל כטב\"מים",
+   "טענות האקרים בדבר השגת פרטי מחבלי חזבאללה והצעתם למכירה ברשת",
+   "היקף הנפגעים והנזק בעקבות פעילות צה\"ל בכפר כויא בדרום סוריה",
+   "זהות היורים בתקרית הפגיעה בסיור משרד הפנים בטרטוס"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2463,
+    "unit": "ILS",
+    "change_pct": 0.69,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-17T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הבטחת ביטחון תושבי הצפון באמצעות מניעת התעצמות חזבאללה"
+    ],
+    "inferred": [
+     "התנגדות לכוח רב-לאומי רחב שאינו אפקטיבי בדרום לבנון ודרישה לחופש פעולה מבצעי",
+     "סיכול מתמשך של נתיבי ההברחה וההתבססות של חזבאללה ומיליציות בגבול סוריה-לבנון"
+    ],
+    "forecast": [
+     "המשך סיכולים ותקיפות אוויריות ממוקדות בבקעת הלבנון ובדרום לבנון במקביל להחרפת הלחץ הדיפלומטי בנושא יוניפי\"ל"
+    ]
+   },
+   {
+    "actor": "חזבאללה",
+    "declared": [],
+    "inferred": [
+     "שיקום מערכי הכטב\"מים והחימוש דרך הברחות יבשתיות מסוריה",
+     "שימור רשתות גיוס של מיליציות מקומיות באזורים לא-שיעיים כגון פלוגות ההתנגדות בשבעא"
+    ],
+    "forecast": [
+     "המשך ניסיונות רכש והברחה מסוריה במקביל לפעילות חשאית לאיסוף מידע ומאמצי מידור בתוך לבנון"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "דרישה מישראל לדבוק בהסכם הפרדת הכוחות מול סוריה משנת 1974"
+    ],
+    "inferred": [
+     "חיזוק הקשר וההשפעה מול הממשל הסורי ויצירת חזית דיפלומטית משותפת מול ישראל",
+     "קידום אינטרסים כלכליים ומסדרונות מעבר אזוריים"
+    ],
+    "forecast": [
+     "המשך הצהרות מדיניות תקיפות נגד פעולות ישראל בגבול סוריה ותיאום נוסף מול דמשק"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/how-is-hezbollah-rebuilding-its-drone-capabilities-evidence-of-smuggling-from-iran-international-procurement-and-suspected-theft-of-fiber-optic-cables-in-lebanon/",
+    "accessed_at": "2026-11-18T00:42:08+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/152017/",
+    "accessed_at": "2026-11-18T00:42:08+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/attack-on-patrol-in-western-syria-kills-security-officer-wounds-4-others/4128476",
+    "accessed_at": "2026-11-18T00:42:08+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/968387/investigation-into-five-hezbollah-detainees-ongoing-as-leaked-news-rep/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968387",
+    "accessed_at": "2026-11-18T00:42:08+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133776",
+    "accessed_at": "2026-11-18T00:42:08+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/sy1xr1qrzx",
+    "accessed_at": "2026-11-18T00:42:08+00:00"
+   }
+  ]
+ }
+}

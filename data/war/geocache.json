@@ -138,6 +138,7 @@
 16.0878,
 44.9585
 ],
+"al-hebberiyyeh, lebanon": null,
 "al-hujeir valley, lebanon": null,
 "al-hurriya, syria": [
 36.2579,
@@ -673,6 +674,10 @@
 "chabahar, iran": [
 25.2935,
 60.6469
+],
+"chebaa, lebanon": [
+33.3445,
+35.7494
 ],
 "cheltuitori, moldova": [
 47.0658,
@@ -1482,6 +1487,10 @@
 26.5351,
 53.972
 ],
+"kitaf, saada, yemen": [
+17.2379,
+44.3962
+],
 "kiyanitsa, ukraine": null,
 "klaipeda, lithuania": [
 55.7128,
@@ -1948,6 +1957,7 @@
 35.0984
 ],
 "nahr al-kabir, lebanon-syria border": null,
+"nahran, lebanon": null,
 "najaf, iraq": [
 32.001,
 44.33

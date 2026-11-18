@@ -1,0 +1,371 @@
+{
+ "status": "draft",
+ "received_sha256_12": "753c091f3799",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "initial": 7,
+   "assessment": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-18T00:40:25+00:00",
+  "window": {
+   "from": "2026-11-17T00:40:25+00:00",
+   "to": "2026-11-18T00:40:25+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202611180040"
+  },
+  "summary": "הלחימה בזירה התימנית מסלימה עם התקדמות קרקעית של הכוחות החות'ים לעבר עדן ולאורך חופי ים סוף, לצד מוקדי לחימה במאריב ובאל-ג'וף. החות'ים ממשיכים לשגר כלי טיס בלתי מאוישים לעבר תשתיות אנרגיה בריאד, ומנגד סעודיה מבצעת תקיפות אוויריות בתימן וממנה מפקד חדש לניהול המערכה. ברקע האיומים, ארצות הברית מגבירה את מעורבותה באמצעות שיגור עשרות מומחי הגנה אווירית לסיוע לממלכה הסעודית.",
+  "fronts": [
+   {
+    "name": "דרום-מערב תימן וחוף הים האדום",
+    "status": "התקדמות חות'ית וטענה להשתלטות על שטחים נרחבים"
+   },
+   {
+    "name": "דרום תימן - ציר עדן",
+    "status": "לחץ והתקדמות של החות'ים לעבר העיר הדרומית"
+   },
+   {
+    "name": "מחוזות מאריב ואל-ג'וף",
+    "status": "עימותים כבדים בין החות'ים לכוחות הממשלה"
+   },
+   {
+    "name": "עומק ערב הסעודית (אזור ריאד)",
+    "status": "תקיפות באמצעות כטב\"מים חות'יים לעבר מתקני נפט והיערכות הגנה אווירית"
+   },
+   {
+    "name": "צפון-מערב תימן (חודיידה וצעדה)",
+    "status": "תקיפות אוויריות סעודיות אינטנסיביות נגד יעדים ומבנים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11180040-01",
+    "title": "טענה של טאקר קרלסון על כיבוש שטחים בסעודיה על ידי החות'ים",
+    "summary": "מגיש הפודקאסטים האמריקאי טאקר קרלסון טען בריאיון כי הכוחות החות'ים מחזיקים בשטחים מתוך ערב הסעודית ומאיימים ישירות על הממלכה, תוך ביקורת על היעדר סיקור בתקשורת האמריקאית.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-17T23:02:18+00:00",
+    "last_update_at": "2026-11-17T23:02:18+00:00",
+    "what_is_not_verified": "היקף ומיקום הנוכחות החות'ית הנטענת בתוך שטח סעודיה אינם מאומתים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-are-occupying-part-saudi-arabia-tucker-carlson-says",
+      "published_at": "2026-11-17T23:02:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11180040-02",
+    "title": "הצגת מטול נ\"ט אמריקאי מדגם PSRL-1 למכירה בצפון תימן",
+    "summary": "סוחר כלי נשק באזור שבשליטת החות'ים בצפון תימן הציג למכירה מטול רקטות אמריקאי מתקדם נגד טנקים, תוך פירוט מאפייניו הטכניים ושדרוגיו ביחס לדגם המקורי.",
+    "axis": "פנים תימן / שוק הנשק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T22:40:29+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T22:40:29+00:00",
+    "last_update_at": "2026-11-17T22:40:29+00:00",
+    "what_is_not_verified": "נתיב ההגעה של המטול האמריקאי לשוק הנשק המקומי בתימן אינו ברור",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49688",
+      "published_at": "2026-11-17T22:40:29+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11180040-03",
+    "title": "הכרזת החות'ים על השתלטות על שטח נרחב בדרום-מערב תימן",
+    "summary": "החות'ים מסרו בהודעה רשמית כי כוחותיהם השתלטו על שטח של שבעת אלפים ומאה קילומטרים רבועים מידי נאמני סעודיה, לאורך רצועת החוף הנושקת לים האדום בדרום-מערב תימן.",
+    "axis": "דרום-מערב תימן והים האדום",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T18:22:18+00:00",
+    "last_update_at": "2026-11-17T18:22:18+00:00",
+    "what_is_not_verified": "היקף השטח שנכבש בפועל ושליטתם המלאה לא אומתו באופן בלתי תלוי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133816",
+      "published_at": "2026-11-17T18:22:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11180040-04",
+    "title": "שיגור כטב\"מים חות'יים לעבר צינור הנפט מזרח-מערב בסעודיה",
+    "summary": "החות'ים הודיעו כי שיגרו חמישה כלי טיס בלתי מאוישים לעבר שתי תחנות שאיבה של צינור הנפט הסעודי באזור ריאד.",
+    "axis": "תקיפות חות'יות בסעודיה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T18:05:25+00:00",
+    "last_update_at": "2026-11-17T18:05:25+00:00",
+    "what_is_not_verified": "אין אישור סעודי רשמי לפגיעה בתחנות השאיבה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-they-launched-drones-towards-saudi-east-west-pipeline",
+      "published_at": "2026-11-17T18:05:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11180040-05",
+    "title": "הגעת משלחת יועצי הגנה אווירית מארצות הברית לערב הסעודית",
+    "summary": "מפקד פיקוד המרכז האמריקאי צפוי להגיע לסעודיה יחד עם עשרות מומחי הגנה אווירית כדי לבחון ולסייע בהגנת הממלכה מפני מתקפות אוויריות מצד החות'ים.",
+    "axis": "סיוע אמריקאי-סעודי",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-17T17:51:09+00:00",
+    "last_update_at": "2026-11-17T17:51:09+00:00",
+    "what_is_not_verified": "מועד ההגעה המדויק ומספר היועצים הסופי טרם אושרו רשמית על ידי הפנטגון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/us-centcom-commander-expected-saudi-arabia-dozens-air-defence-experts-sources-say",
+      "published_at": "2026-11-17T17:51:09+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11180040-06",
+    "title": "תקיפות אוויריות של סעודיה בחודיידה ובצעדה",
+    "summary": "משרד הבריאות המנוהל על ידי החות'ים דיווח על תקיפה סעודית כפולה נגד מפעל ספוג ליד חודיידה שגרמה למותם של ארבעה עשר בני אדם ולפציעת עשרה, ועל תקיפה נוספת במחוז צעדה שפגעה בצוות פינוי מוקשים ובמחלצים.",
+    "axis": "התקיפות הסעודיות בתימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T17:31:31+00:00",
+    "last_update_at": "2026-11-17T17:31:31+00:00",
+    "what_is_not_verified": "אמיתות מספרי הנפגעים והטענה שהתקיפה השנייה כוונה ביודעין לאנשי הצלה ועיתונאים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-double-tap-strike-factory-yemens-hodeida-kills-14-houthi-health",
+      "published_at": "2026-11-17T17:31:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חודיידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     },
+     {
+      "name": "כיתאף, צעדה, תימן",
+      "lat": 17.2379,
+      "lon": 44.3962
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11180040-07",
+    "title": "מינוי גנרל סעודי חדש לפיקוח על המערכה בתימן",
+    "summary": "ערב הסעודית מינתה את הגנרל פיאד רוויילי, בעל רקע בלוחמה אווירית, לפקח על ניהול המלחמה בתימן על רקע קשיים ונסיגות של הכוחות הנתמכים על ידי סעודיה בשטח.",
+    "axis": "פיקוד סעודי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T16:05:58+00:00",
+    "last_update_at": "2026-11-17T16:05:58+00:00",
+    "what_is_not_verified": "מידת השינוי האופרטיבי שיוביל המינוי בשדה הקרב",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/saudi-arabia-appoints-gen-ruwaili-oversee-yemen-war-after-setbacks-what-know",
+      "published_at": "2026-11-17T16:05:58+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11180040-08",
+    "title": "אי-ודאות סביב מעמדו של שר ההגנה התימני עקב היעדרות ממושכת",
+    "summary": "היעדרותו של שר ההגנה של הממשלה המוכרת בתימן מאירועים ומפגשים צבאיים, בעקבות תקיפת שיירתו בספטמבר, מעוררת מגעים ודיונים בהנהגה המדינית לגבי החלפתו האפשרית.",
+    "axis": "פנים ממשלת תימן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-17T11:09:38+00:00",
+    "last_update_at": "2026-11-17T11:09:38+00:00",
+    "what_is_not_verified": "זהות המחליף והאם תתקבל החלטה רשמית להדחתו של השר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemeni-defence-ministers-disappearance-fuels-speculation",
+      "published_at": "2026-11-17T11:09:38+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מאריב, תימן",
+      "lat": 15.4579,
+      "lon": 45.323
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11180040-09",
+    "title": "התקדמות כוחות חות'יים לעבר עדן וקרבות במאריב ובאל-ג'וף",
+    "summary": "דיווחים מצביעים על התקדמות נוספת של כוחות החות'ים בכיוון העיר עדן שבדרום, לצד עימותים נרחבים באזורי מאריב ואל-ג'וף.",
+    "axis": "קרקעי - פנים תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-17T07:26:06+00:00",
+    "last_update_at": "2026-11-17T07:26:06+00:00",
+    "what_is_not_verified": "מרחק ההתקדמות המדויק לעבר עדן ומצב השליטה במוקדי הקרבות במאריב ובאל-ג'וף",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-us-tensions-climb-amid-tanker-attacks-blast-qeshm",
+      "published_at": "2026-11-17T07:26:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     },
+     {
+      "name": "מאריב, תימן",
+      "lat": 15.4579,
+      "lon": 45.323
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הטענה של טאקר קרלסון על אחיזה פיזית וכיבוש שטחים בסעודיה על ידי כוחות חות'יים",
+   "מידת הנזק והפגיעה המדויקת בתחנות השאיבה של צינור מזרח-מערב בסעודיה",
+   "מספר הנפגעים המדויק בתקיפות האוויריות בחודיידה ובצעדה",
+   "נתיב האספקה שבאמצעותו הגיע מטול הנ\"ט האמריקאי לשוק הנשק בצפון תימן",
+   "ההיקף המדויק של כיבוש שבעת אלפים ומאה קמ\"ר בדרום-מערב תימן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2463,
+    "unit": "ILS",
+    "change_pct": 0.69,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-17T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים (אנצאר אללה)",
+    "declared": [
+     "השתלטות ו'שחרור' שטחים בדרום-מערב תימן הנושקים לים האדום",
+     "פגיעה בתשתיות אסטרטגיות ובצינורות נפט בתוך ערב הסעודית"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי וכלכלי מתמשך על ריאד להפסקת מעורבותה במלחמה",
+     "ביסוס אחיזה מוחלטת בנמלים ובפתחי השיט של הים האדום ודחיקת כוחות הממשלה"
+    ],
+    "forecast": [
+     "המשך ניסיונות תקיפה אוויריים בעומק סעודיה והעמקת הפעילות ההתקפית לעבר מאריב ועדן"
+    ]
+   },
+   {
+    "actor": "ערב הסעודית והקואליציה",
+    "declared": [
+     "הגנה על מרחב הממלכה ותשתיות האנרגיה מפני תקיפות כטב\"מים וטילים",
+     "המשך תקיפת יעדי החות'ים ומניעת התעצמותם הצבאית"
+    ],
+    "inferred": [
+     "ייצוב קווי החזית המעורערים בתימן באמצעות ארגון מחדש של הפיקוד הצבאי",
+     "חיזוק מערך ההגנה האווירית בעזרת מומחים וטכנולוגיות מארצות הברית כדי לבלום שחיקה במעמד הביטחוני"
+    ],
+    "forecast": [
+     "הידוק שיתוף הפעולה הצבאי עם ארצות הברית והתמקדות במגננה לצד פשיטות אוויריות נקודתיות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/saudi-arabia-appoints-gen-ruwaili-oversee-yemen-war-after-setbacks-what-know",
+    "accessed_at": "2026-11-18T00:40:25+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-double-tap-strike-factory-yemens-hodeida-kills-14-houthi-health",
+    "accessed_at": "2026-11-18T00:40:25+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/iran-us-tensions-climb-amid-tanker-attacks-blast-qeshm",
+    "accessed_at": "2026-11-18T00:40:25+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133816",
+    "accessed_at": "2026-11-18T00:40:25+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49688",
+    "accessed_at": "2026-11-18T00:40:25+00:00"
+   }
+  ]
+ }
+}
