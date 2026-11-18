@@ -145,48 +145,68 @@ function hhmm(iso) {
 
 const ICON = { verified: '✅', initial: '🟡', shared_root: '🟠', disputed: '⚠️', assessment: '🔎', unverified: '⚪', retracted: '❌' };
 
-/* בונה את ההודעה. מחזיר null אם אין מה לפרסם. */
-function buildMessage(win, now, markets) {
+/* בונה את ההודעות: הודעה נפרדת לכל זירה — כותרת, תקציר מלא, מה לא אומת, מספר מקורות ושעה.
+   (18/11/2026: בעל האתר ביקש ידיעות גדולות וברורות יותר — במקום כותרות בלבד בהודעה אחת.)
+   שורת השווקים והכיתוב התחתון — בהודעה האחרונה. מחזיר null אם אין מה לפרסם. */
+function buildMessages(win, now, markets) {
   const C = win.DB.config, R = win.Reliability, b = win.DB.war_brief;
   if (!b || !b.arenas) return null;
   const gen = new Date(b.generated_at).getTime();
   if (!(gen > 0) || now - gen > MAX_AGE_H * 3600000) return null;
 
   const base = (C.brand.public_url || '').replace(/\/?$/, '/');
-  const blocks = [];
+  const time = hhmm(b.slot || b.generated_at);
+  const texts = [];
   for (const arena of C.arenas) {
     const a = b.arenas[arena.id];
     if (!a || !Array.isArray(a.events) || !a.events.length) continue;
-    const lines = a.events.slice(0, PER_ARENA).map(ev => {
+    const evs = a.events.slice(0, PER_ARENA).map((ev, i) => {
       const r = R.assess(ev) || {};
-      return (ICON[r.level] || '•') + ' <b>' + esc(ev.title) + '</b>' + (r.label ? '\n      <i>' + esc(r.label) + '</i>' : '');
+      const n = new Set((ev.reports || []).map(x => x.source_id)).size;
+      const meta = [r.label, n ? n + (n === 1 ? ' מקור' : ' מקורות') : '', hhmm(ev.last_update_at || ev.first_reported_at)].filter(Boolean).join(' · ');
+      return (ICON[r.level] || '•') + ' <b>' + (i + 1) + '. ' + esc(ev.title) + '</b>' +
+             (ev.summary ? '\n<blockquote>' + esc(ev.summary) + '</blockquote>' : '\n') +
+             (ev.what_is_not_verified && !/^לא צוין/.test(ev.what_is_not_verified.trim()) ? '❔ <i>לא אומת: ' + esc(ev.what_is_not_verified) + '</i>\n' : '') +
+             (meta ? '<i>' + esc(meta) + '</i>' : '');
     });
-    blocks.push('🔹 <b><u>' + esc(arena.name) + '</u></b>\n' + lines.join('\n') +
-                '\n<a href="' + esc(base + '#arena=' + arena.id) + '">לפירוט ולמקורות ←</a>');
+    let t = '⚡ <b>' + esc(C.brand.site_name) + ' · עדכון ' + time + '</b>\n' +
+            '🔹 <b><u>' + esc(arena.name) + '</u></b>\n\n' + evs.join('\n\n') +
+            '\n\n<a href="' + esc(base + '#arena=' + arena.id) + '">מפה, מקורות ופירוט מלא ←</a>';
+    if (t.length > TG_LIMIT) t = '⚡ <b>' + esc(C.brand.site_name) + ' · עדכון ' + time + '</b>\n🔹 <b><u>' + esc(arena.name) +
+      '</u></b>\n\n' + evs.slice(0, 1).join('') + '\n\n<a href="' + esc(base + '#arena=' + arena.id) + '">מפה, מקורות ופירוט מלא ←</a>';
+    texts.push(t);
   }
-  if (!blocks.length) return null;
-
-  const head = '⚡ <b>' + esc(C.brand.site_name) + ' · עדכון ' + hhmm(b.slot || b.generated_at) + '</b>';
+  if (!texts.length) return null;
   const foot = '<i>נכתב בעזרת בינה מלאכותית ועלול לכלול טעויות. התווית מחושבת לפי מספר המקורות, ואינה אישור שהאירוע קרה.</i>' + '\n📢 להצטרפות לערוץ: @chadar_matzav';
-  const mk = markets ? markets + '\n\n' : '';
-  const build = () => head + '\n\n' + blocks.join('\n\n') + '\n\n' + mk + foot;
-  let text = build();
-  // ארוך מדי? מורידים זירות מהסוף עד שנכנס (לא חותכים באמצע תגית HTML)
-  while (text.length > TG_LIMIT && blocks.length > 1) { blocks.pop(); text = build(); }
-  return { slot: b.slot || b.generated_at, text };
+  const tail = (markets ? markets + '\n\n' : '') + foot;
+  const last = texts[texts.length - 1] + '\n\n' + tail;
+  if (last.length <= TG_LIMIT) texts[texts.length - 1] = last; else texts.push(tail);
+  return { slot: b.slot || b.generated_at, texts };
 }
 
 function readStatus() {
   try { return JSON.parse(fs.readFileSync(STATUS, 'utf8')); } catch (e) { return {}; }
 }
 
+async function send(token, chat, text) {
+  const res = await fetch('https://api.telegram.org/bot' + token + '/sendMessage', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ chat_id: chat, text, parse_mode: 'HTML', link_preview_options: { is_disabled: true } })
+  });
+  const body = await res.json().catch(() => ({}));
+  // לא מדפיסים את הכתובת (יש בה את המפתח) — רק את תיאור השגיאה של טלגרם
+  if (!res.ok || !body.ok) throw new Error(body.description || String(res.status));
+  return body.result && body.result.message_id;
+}
+
 async function main() {
   const dry = process.argv.includes('--dry-run');
   const win = loadSite();
-  if (!buildMessage(win, Date.now())) { console.log('טלגרם: אין עדכון טרי לפרסום'); return; }
-  const msg = buildMessage(win, Date.now(), await marketsLine());
+  if (!buildMessages(win, Date.now())) { console.log('טלגרם: אין עדכון טרי לפרסום'); return; }
+  const msg = buildMessages(win, Date.now(), await marketsLine());
   if (!msg) { console.log('טלגרם: אין עדכון טרי לפרסום'); return; }
-  if (dry) { console.log(msg.text); console.log('\n[' + msg.text.length + ' תווים]'); return; }
+  if (dry) { msg.texts.forEach((t, i) => console.log('\n===== הודעה ' + (i + 1) + '/' + msg.texts.length + ' [' + t.length + ' תווים] =====\n' + t)); return; }
 
   const token = process.env.TELEGRAM_BOT_TOKEN, chat = process.env.TELEGRAM_CHAT_ID;
   if (!token || !chat) { console.log('טלגרם: אין TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID — מדלג'); return; }
@@ -196,21 +216,17 @@ async function main() {
   // עדכון ישן מזה שכבר פורסם (למשל ריצה אוטומטית מאוחרת אחרי עדכון לפי בקשה) — לא מפרסמים אחורה בזמן (11/10/2026)
   if (st.last_slot && new Date(msg.slot) < new Date(st.last_slot)) { console.log('טלגרם: ' + msg.slot + ' ישן מהעדכון האחרון שפורסם — מדלג'); return; }
 
-  const res = await fetch('https://api.telegram.org/bot' + token + '/sendMessage', {
-    method: 'POST',
-    headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ chat_id: chat, text: msg.text, parse_mode: 'HTML', link_preview_options: { is_disabled: true } })
-  });
-  const body = await res.json().catch(() => ({}));
-  if (!res.ok || !body.ok) {
-    // לא מדפיסים את הכתובת (יש בה את המפתח) — רק את תיאור השגיאה של טלגרם
-    console.log('טלגרם: הפרסום נכשל — ' + (body.description || res.status));
+  const ids = [];
+  try {
+    for (const t of msg.texts) { ids.push(await send(token, chat, t)); await new Promise(r => setTimeout(r, 1500)); }
+  } catch (e) {
+    console.log('טלגרם: הפרסום נכשל אחרי ' + ids.length + ' הודעות — ' + e.message);
     process.exitCode = 1;
-    return;
+    if (!ids.length) return;   // חלק פורסם — מסמנים כדי לא לפרסם כפול
   }
-  fs.writeFileSync(STATUS, JSON.stringify({ last_slot: msg.slot, posted_at: new Date().toISOString(), message_id: body.result && body.result.message_id }, null, 1) + '\n');
-  console.log('טלגרם: פורסם (' + msg.slot + ')');
+  fs.writeFileSync(STATUS, JSON.stringify({ last_slot: msg.slot, posted_at: new Date().toISOString(), message_id: ids[0], message_ids: ids }, null, 1) + '\n');
+  console.log('טלגרם: פורסם (' + msg.slot + ', ' + ids.length + ' הודעות)');
 }
 
 if (require.main === module) main();
-module.exports = { buildMessage, loadSite, marketsLine };
+module.exports = { buildMessages, loadSite, marketsLine };
