@@ -596,3 +596,18 @@ a.msg-link:hover { background: #222a3a; text-decoration: none; }
 
 /* קישור לערוץ הטלגרם בכותרת */
 .topbar nav a.tg-join { color: #2aabee; font-weight: 700; }
+
+/* קישור לאתר הדילים בתחתית הדף (18/11/2026) */
+.deals-cta { display:flex; align-items:center; gap:14px; margin:0 0 6px; padding:16px 18px; border-radius:14px;
+  background:linear-gradient(135deg,#ff6a00,#ee0979); color:#fff !important; text-decoration:none !important;
+  box-shadow:0 6px 20px rgba(238,9,121,.28); transition:transform .15s ease, box-shadow .15s ease; }
+.deals-cta:hover, .deals-cta:focus-visible { transform:translateY(-2px); box-shadow:0 10px 26px rgba(238,9,121,.4); }
+.deals-cta__icon { font-size:34px; line-height:1; animation:deals-pulse 1.8s ease-in-out infinite; }
+.deals-cta__text { flex:1; display:flex; flex-direction:column; gap:3px; text-align:right; }
+.deals-cta__text b { font-size:1.12rem; }
+.deals-cta__text span { font-size:.9rem; opacity:.95; }
+.deals-cta__btn { white-space:nowrap; background:#fff; color:#ee0979; font-weight:800; padding:9px 16px; border-radius:999px; }
+.deals-cta__tg { margin:0 0 14px; text-align:center; font-size:.9rem; }
+@keyframes deals-pulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.15)} }
+@media (max-width:600px) { .deals-cta { flex-wrap:wrap; } .deals-cta__btn { flex-basis:100%; text-align:center; } }
+@media (prefers-reduced-motion:reduce) { .deals-cta__icon { animation:none; } .deals-cta { transition:none; } }
