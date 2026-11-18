@@ -405,52 +405,62 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-11-17T1920__iran-202611171920.json",
+  "draft": "drafts/iran/2026-11-18T0753__iran-202611180753.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-11-17T19:20:31+00:00",
+   "generated_at": "2026-11-18T07:53:48+00:00",
    "window": {
-    "from": "2026-11-16T19:20:31+00:00",
-    "to": "2026-11-17T19:20:31+00:00"
+    "from": "2026-11-17T07:53:48+00:00",
+    "to": "2026-11-18T07:53:48+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "iran-202611171920"
+    "run_id": "iran-202611180753"
    },
-   "summary": "העימות הצבאי הישיר והעקיף בין ארצות הברית וישראל לבין איראן ושלוחותיה ממשיך להסלים, במקביל למבוי סתום לאחר חודשי לחימה ממושכים. הזירה מתאפיינת בחילופי מהלומות ישירים של תקיפות אוויריות ושיגורי כטב\"מים באזור המפרץ, פגיעה בספנות ובצינורות נפט, לצד עיבוי כוחות ימיים אמריקאיים חסר תקדים. במקביל, המאמצים המודיעיניים והסיכוליים מתרחבים אל מחוץ למזרח התיכון תוך החלפת איומים על שימוש בנשק בלתי קונבנציונלי.",
+   "summary": "העימות בין איראן לארצות הברית וישראל מחריף תוך גלישה לפגיעה ישירה בנתיבי השיט במצר הורמוז ובבסיסים במדינות המפרץ. טהרן תוקפת תשתיות וספינות ומקשיחה את עמדותיה המדיניות בעקבות השינויים הפוליטיים בוושינגטון, בעוד ארצות הברית וישראל מקדמות היערכות צבאית ומרחיבות את התקיפות נגד מטרות צבאיות איראניות. לצד העימות הצבאי הישיר נמשכים מאמצי סיכול של יוזמות תקיפה והתנקשות איראניות ברחבי העולם.",
    "fronts": [
     {
-     "name": "המפרץ הפרסי ומצר הורמוז",
-     "status": "פעילה - חילופי תקיפות בין כוחות ארה\"ב לאיראן ופגיעה בספנות מסחרית"
+     "name": "מצר הורמוז ונתיבי השיט במפרץ",
+     "status": "הסלמה הכוללת פגיעה בכלי שיט מסחריים והפלת כלי טיס"
     },
     {
-     "name": "החזית הישראלית-איראנית (סיכול בינלאומי והיערכות לתקיפה)",
-     "status": "מתוחה - היערכות לפעולות עומק וסיכול מזימות טרור בחו\"ל"
+     "name": "בסיסים ומטרות במדינות המפרץ (כווית ובחריין)",
+     "status": "שיגורי כטב\"מים וטילים איראניים אל עבר מתקנים ובסיסים אמריקניים"
     },
     {
-     "name": "שלוחות איראן בעיראק ובתימן",
-     "status": "פעילה - שיגורים של החות'ים לעבר יעדי תשתית סעודיים וסירוב מיליציות עיראקיות לסגת ממוקדי אחיזה"
+     "name": "תשתיות ובסיסים בשטח איראן",
+     "status": "תקיפות אמריקניות ממוקדות נגד מערכי שיגור וטענות לפגיעה במתקנים חיוניים"
+    },
+    {
+     "name": "זירה בינלאומית וסיכול פיגועים",
+     "status": "סיכול רשתות התנקשות ופגיעה ביעדים ישראליים ואמריקניים בחו\"ל"
     }
    ],
    "events": [
     {
-     "id": "IRAN-11171920-01",
-     "title": "פגיעה במכלית גז במצר הורמוז",
-     "summary": "מכלית להובלת גז עלתה באש וצוותה נטש אותה לאחר שנפגעה מעצם ששוגר לעברה בעת ששטה במצר הורמוז.",
-     "axis": "איראן - ארה\"ב / ספנות במפרץ",
+     "id": "IRAN-11180753-01",
+     "title": "תקיפת כלי שיט במצר הורמוז",
+     "summary": "כלי שיט של חברת הנפט הלאומית של אבו דאבי הותקף במצר הורמוז. כתוצאה מכך נפצעו 11 אנשי צוות ואדם נוסף מוגדר נעדר. במקביל דווח על פגיעה במכלית גז באזור.",
+     "axis": "איראן - המפרץ / נתיבי שיט",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-17T18:20:59+00:00",
-     "is_ongoing": false,
+     "is_ongoing": true,
      "first_reported_at": "2026-11-17T18:20:59+00:00",
-     "last_update_at": "2026-11-17T18:20:59+00:00",
-     "what_is_not_verified": "זהות המשגר או סוג העצם שפגע בכלי השיט לא אומתו באופן רשמי.",
+     "last_update_at": "2026-11-18T07:27:54+00:00",
+     "what_is_not_verified": "זהות הגורם המבצע המדויק של הירי לעבר כלי השיט לא צוינה בהודעה הרשמית של החברה.",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_mee",
+       "source_root_id": "or_adnoc",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-company-says-11-wounded-one-missing-after-vessel-attacked-hormuz",
+       "published_at": "2026-11-18T07:27:54+00:00"
+      },
+      {
        "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
+       "source_root_id": "or_adnoc",
        "url": "https://www.theguardian.com/world/video/2026/nov/17/inferno-engulfs-gas-tanker-in-strait-of-hormuz-after-reported-strike-video",
        "published_at": "2026-11-17T18:20:59+00:00"
       }
@@ -464,215 +474,76 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "IRAN-11171920-02",
-     "title": "שיגור כטב\"מים איראניים לבסיס אמריקאי בבחריין ותקיפת תגובה באי קשם",
-     "summary": "משמרות המהפכה שיגרו כלי טיס בלתי מאוישים לעבר מתקן או בסיס של צבא ארה\"ב בבחריין, ובתגובה תקפה ארה\"ב מערכות הגנה באי קשם בדרום איראן.",
-     "axis": "איראן - ארה\"ב",
+     "id": "IRAN-11180753-02",
+     "title": "תקיפות כטב\"מים וטילים לעבר כווית ובחריין",
+     "summary": "הופעלו התרעות ובוצעו יירוטים בעקבות מתקפות כטב\"מים וטילים לעבר כווית ובחריין. צבא איראן קיבל אחריות על תקיפת מערכות פטריוט ומשגרי כטב\"מים בבסיס עלי א-סאלם בכווית.",
+     "axis": "איראן - מדינות המפרץ / ארה\"ב",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
+     "occurred_at": "2026-11-17T22:44:51+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-17T15:42:47+00:00",
-     "last_update_at": "2026-11-17T17:29:02+00:00",
-     "what_is_not_verified": "מידת הנזק, תוצאות היירוט ודיווחים על היקף התקיפה בקשם נסמכים על מקורות המזוהים עם הצדדים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202611177708",
-       "published_at": "2026-11-17T17:29:02+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133808",
-       "published_at": "2026-11-17T15:42:47+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "האי קשם, איראן",
-       "lat": 26.7687,
-       "lon": 55.8477
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11171920-03",
-     "title": "סיכול מזימה לפגיעה באיש עסקים ישראלי ביוון",
-     "summary": "רשויות הביטחון ביוון ובצפון מקדוניה עצרו חוליה הקשורה לרשת פשיעה הפועלת בשירות איראן, במטרה לפגוע באיש עסקים ישראלי.",
-     "axis": "ישראל - איראן (חו\"ל)",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-17T13:32:43+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-17T13:32:43+00:00",
-     "last_update_at": "2026-11-17T18:36:24+00:00",
-     "what_is_not_verified": "פרטי החקירה המלאים וזהות כלל המעורבים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/rkghwzqagx",
-       "published_at": "2026-11-17T18:36:24+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21867113",
-       "published_at": "2026-11-17T13:32:43+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אתונה, יוון",
-       "lat": 37.9756,
-       "lon": 23.7348
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11171920-04",
-     "title": "שיגור כטב\"מים של החות'ים לעבר קו צינור הנפט מזרח-מערב בסעודיה",
-     "summary": "תנועת החות'ים בתימן הודיעה כי שיגרה חמישה כלי טיס בלתי מאוישים לעבר שתי תחנות שאיבה של צינור הנפט באזור ריאד.",
-     "axis": "החות'ים - סעודיה / איראן - המפרץ",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-17T18:05:25+00:00",
-     "last_update_at": "2026-11-17T18:05:25+00:00",
-     "what_is_not_verified": "לא התקבל אישור רשמי מצד סעודיה על פגיעה או עצם השיגור.",
+     "first_reported_at": "2026-11-17T22:44:51+00:00",
+     "last_update_at": "2026-11-18T06:59:03+00:00",
+     "what_is_not_verified": "תוצאות התקיפה ונזקיה בבסיס עלי א-סאלם טרם אומתו או אושרו על ידי פיקוד המרכז האמריקני.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-they-launched-drones-towards-saudi-east-west-pipeline",
-       "published_at": "2026-11-17T18:05:25+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11171920-05",
-     "title": "הגעת נושאת מטוסים אמריקאית שלישית למזרח התיכון",
-     "summary": "פיקוד המרכז של ארה\"ב פרסם על הגעת נושאת המטוסים תיאודור רוזוולט לצד ג'ורג' וושינגטון, כחלק מעיבוי הכוחות וההרתעה באזור.",
-     "axis": "ארה\"ב - איראן",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-16T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-16T21:13:02+00:00",
-     "last_update_at": "2026-11-17T17:09:12+00:00",
-     "what_is_not_verified": "אין פרטים בלתי מאומתים לגבי עצם פריסת הכוחות.",
-     "is_new_in_window": true,
-     "reports": [
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwait-slams-iranian-attacks-its-territory",
+       "published_at": "2026-11-18T06:59:03+00:00"
+      },
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133813",
-       "published_at": "2026-11-17T17:09:12+00:00"
+       "url": "https://t.me/abualiexpress/133826",
+       "published_at": "2026-11-18T06:25:17+00:00"
       },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
-       "published_at": "2026-11-16T21:13:02+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11171920-06",
-     "title": "דיווחים אמריקאיים על תוכנית איראנית לפגיעה בבכירים באמצעות פצצה מלוכלכת והכחשה איראנית",
-     "summary": "בארה\"ב נבדק מידע מודיעיני שלפיו איראן בוחנת מזימה לפגוע בבכירים בוושינגטון בנשק כימי או פצצה מלוכלכת, בעוד יו\"ר הפרלמנט האיראני דחה את הטענות כתעמולה.",
-     "axis": "איראן - ארה\"ב",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-16T23:18:40+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-16T23:18:40+00:00",
-     "last_update_at": "2026-11-17T17:53:45+00:00",
-     "what_is_not_verified": "במערכת המודיעין האמריקאית קיימים ספקות ומחלוקות באשר לאמינות המידע וליכולת הביצוע של איראן; הבית הלבן ציין כי אין איום אמין כעת.",
-     "is_new_in_window": true,
-     "reports": [
       {
        "source_id": "src_irna",
        "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86325040/Ghalibaf-slams-US-dirty-bomb-allegations-as-fresh-anti-Iran",
-       "published_at": "2026-11-17T17:53:45+00:00"
+       "url": "https://en.irna.ir/news/86325322/Iranian-Army-targets-US-Patriot-systems-at-Kuwait-s-Ali-Al-Salem",
+       "published_at": "2026-11-18T06:10:45+00:00"
       },
       {
-       "source_id": "src_guardian",
+       "source_id": "src_france24",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington",
-       "published_at": "2026-11-17T16:03:34+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21873039",
-       "published_at": "2026-11-17T14:20:12+00:00"
+       "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
+       "published_at": "2026-11-18T02:06:39+00:00"
       },
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49651",
-       "published_at": "2026-11-16T23:18:40+00:00"
+       "url": "https://t.me/alexmehacarmel/49690",
+       "published_at": "2026-11-17T23:26:59+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49689",
+       "published_at": "2026-11-17T22:44:51+00:00"
       }
      ],
      "places": [
       {
-       "name": "וושינגטון, ארצות הברית",
-       "lat": 38.8951,
-       "lon": -77.0364
+       "name": "בסיס עלי א-סאלם, כווית",
+       "lat": 29.3498,
+       "lon": 47.5202
       }
      ]
     },
     {
-     "id": "IRAN-11171920-07",
-     "title": "סירוב גדודי חזבאללה בעיראק לסגת מג'ורף א-סח'ר",
-     "summary": "המיליציה הפרו-איראנית גדודי חזבאללה דחתה את האולטימטום של ראש ממשלת עיראק להתפנות ממעוזה מדרום לבגדאד בעקבות טענות להברחת נפט.",
-     "axis": "המיליציות בעיראק - ארה\"ב / ממשלת עיראק",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-17T18:33:36+00:00",
-     "last_update_at": "2026-11-17T18:33:36+00:00",
-     "what_is_not_verified": "לא אומתו טענות הממשלה בדבר הברחות הנפט מתוך האזור.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-backed-iraqi-group-refuses-withdraw-stronghold-kataeb-hezbollahiran",
-       "published_at": "2026-11-17T18:33:36+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11171920-08",
-     "title": "טענה להפלת כטב\"ם אמריקאי במצר הורמוז",
-     "summary": "מערכות ההגנה האווירית של איראן יירטו והפילו כלי טיס בלתי מאויש של ארה\"ב בסמוך למצר הורמוז.",
+     "id": "IRAN-11180753-03",
+     "title": "הפלת כטב\"ם אמריקאי סמוך למצר הורמוז",
+     "summary": "מערכות ההגנה האווירית של איראן הפילו כלי טיס בלתי מאויש אמריקאי מדגם לוקאס בסמוך למצר הורמוז.",
      "axis": "איראן - ארה\"ב",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
+     "occurred_at": "2026-11-17T12:51:19+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-11-17T12:51:19+00:00",
      "last_update_at": "2026-11-17T12:51:19+00:00",
-     "what_is_not_verified": "ההפלה נמסרה בערוץ דיווחים ואין עליה אישור אמריקאי רשמי.",
+     "what_is_not_verified": "אין אישור רשמי מגורמי ביטחון אמריקניים על אובדן כלי הטיס.",
      "is_new_in_window": true,
      "reports": [
       {
@@ -689,13 +560,163 @@ window.DB.war_published = {
        "lon": 56.2028
       }
      ]
+    },
+    {
+     "id": "IRAN-11180753-04",
+     "title": "תקיפה אמריקנית באתר שיגור באי קשם ותקיפות תשתית באיראן",
+     "summary": "ארצות הברית תקפה אתר שיגור טילים של משמרות המהפכה באי קשם. דובר משרד החוץ האיראני טען כי הותקפו מאגרי מים ומתקני התפלה במספר מחוזות.",
+     "axis": "איראן - ארה\"ב / ישראל",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-17T14:39:16+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-17T14:39:16+00:00",
+     "last_update_at": "2026-11-18T07:22:25+00:00",
+     "what_is_not_verified": "היקף הפגיעה במתקנים אזרחיים ושימוש אמריקני אפשרי בפצצות גרפיט אינם מאומתים באופן עצמאי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-foreign-minister-vows-unforgettable-response-if-us-israeli-attacks",
+       "published_at": "2026-11-18T07:22:25+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
+       "published_at": "2026-11-18T02:06:39+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/rk11unk50zl",
+       "published_at": "2026-11-17T17:24:50+00:00"
+      },
+      {
+       "source_id": "src_france24",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.france24.com/en/middle-east/20261117-iran-us-graphite-blackout-bombs-infrastructure",
+       "published_at": "2026-11-17T14:39:16+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "האי קשם, איראן",
+       "lat": 26.7687,
+       "lon": 55.8477
+      },
+      {
+       "name": "ח'ומיין, איראן",
+       "lat": 33.4203,
+       "lon": 49.6868
+      },
+      {
+       "name": "הפתכל, איראן",
+       "lat": 31.4463,
+       "lon": 49.5289
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11180753-05",
+     "title": "חשיפת תוכניות לפגיעה בנציגויות ישראליות ובכירים אמריקנים",
+     "summary": "בארצות הברית נגזר מאסר ממושך על אזרח פקיסטני בגין קשירת קשר להתנקש בדונלד טראמפ בשליחות משמרות המהפכה. במקביל סוכלו כוונות פיגוע ביוון ובשגרירות ישראל בבנגקוק.",
+     "axis": "פעילות איראן בחו\"ל - ישראל וארה\"ב",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-17T18:36:24+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-17T18:36:24+00:00",
+     "last_update_at": "2026-11-18T00:28:32+00:00",
+     "what_is_not_verified": "הפרטים המודיעיניים לגבי גיוס אנשי הדת בבנגקוק נשענים על הדלפות ממקורות ביטחון ולא על הודעה משפטית רשמית.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202611184127",
+       "published_at": "2026-11-18T00:28:32+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
+       "published_at": "2026-11-18T00:21:33+00:00"
+      },
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.iranintl.com/en/202611173617",
+       "published_at": "2026-11-17T22:13:09+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/rkghwzqagx",
+       "published_at": "2026-11-17T18:36:24+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ניו יורק, ארצות הברית",
+       "lat": 40.7127,
+       "lon": -74.006
+      },
+      {
+       "name": "בנגקוק, תאילנד",
+       "lat": 13.7525,
+       "lon": 100.4935
+      },
+      {
+       "name": "אתונה, יוון",
+       "lat": 37.9756,
+       "lon": 23.7348
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11180753-06",
+     "title": "הקשחת עמדות איראן במשא ומתן בעקבות תוצאות הבחירות בארה\"ב",
+     "summary": "הנהגת איראן הקשיחה את דרישותיה בשיחות מול ארצות הברית לאחר שראתה בבחירות האמצע תבוסה למדיניות המלחמה של טראמפ ואישור ליעילות הלחץ הכלכלי במצר הורמוז.",
+     "axis": "משא ומתן מדיני איראן - ארה\"ב",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T06:15:18+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-18T06:15:18+00:00",
+     "last_update_at": "2026-11-18T07:30:37+00:00",
+     "what_is_not_verified": "הערכות מודיעין נותרו חלוקות לגבי כוונותיה האמיתיות של טהרן בשיחות והאם פניה להסלמה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ynet.co.il/news/article/ry6bstcazg",
+       "published_at": "2026-11-18T07:30:37+00:00"
+      },
+      {
+       "source_id": "src_israelhayom",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21878106",
+       "published_at": "2026-11-18T07:03:35+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133825",
+       "published_at": "2026-11-18T06:15:18+00:00"
+      }
+     ],
+     "places": []
     }
    ],
    "not_verified": [
-    "טענות המודיעין האמריקאי בדבר כוונת איראן להפעיל פצצה מלוכלכת או נשק כימי בשטח ארה\"ב",
-    "הדיווח על הפלת כטב\"ם אמריקאי מדגם לוקאס מעל מצר הורמוז",
-    "הטענה לשימוש אמריקאי בפצצות גרפיט לפגיעה בתשתיות חשמל באיראן",
-    "תוצאות הפגיעה בצינור הנפט הסעודי מזרח-מערב על ידי כטב\"מים חות'יים"
+    "טענות איראן בדבר פגיעה ישירה של ארצות הברית במאגרי מים ומתקני התפלה אזרחיים",
+    "דיווחים על שימוש צבא ארה\"ב בפצצות גרפיט לשיבוש רשת החשמל באיראן",
+    "מידע מודיעיני אודות תוכנית איראנית לשימוש בנשק כימי או בפצצה מלוכלכת בוושינגטון",
+    "היקף הנזק הממשי במערכות פטריוט בבסיס עלי א-סאלם בכווית",
+    "מידת הרצינות של איראן בהגעה להסכם מדיני לעומת היערכות לתוכנית הסלמה"
    ],
    "map": {
     "confidence": "medium",
@@ -717,187 +738,210 @@ window.DB.war_published = {
     {
      "actor": "איראן",
      "declared": [
-      "שמירה על מוכנות מלאה להגנה על המדינה והביטחון הלאומי",
-      "הכחשת מעורבות בתוכניות לפיגועי פצצה מלוכלכת בארה\"ב"
+      "תגובה חריפה לכל תוקפנות נגד מתקנים ותשתיות במדינה",
+      "הגנה על הריבונות ותקיפת יעדים צבאיים אמריקניים באזור בתגובה לפעולותיהם"
      ],
      "inferred": [
-      "שימור יכולת התשה ארוכת טווח נגד כוחות ארה\"ב וישראל",
-      "שיבוש נתיבי השיט והאנרגיה הבינלאומיים במפרץ לגביית מחיר כלכלי מהמערב"
+      "הפעלת לחץ כלכלי דרך שיבוש הסחר הימי במצר הורמוז לשם השפעה על הפוליטיקה הפנימית בארה\"ב",
+      "שיפור עמדות המיקוח במשא ומתן המדיני באמצעות מנופי לחץ צבאיים ואזוריים"
      ],
      "forecast": [
-      "המשך שימוש מבוקר בכטב\"מים ומיליציות אזוריות לצד הימנעות מהתנגשות חזיתית כוללת"
+      "המשך מתקפות ממוקדות באמצעות כטב\"מים וטילים נגד אינטרסים מערביים במפרץ",
+      "החרפת פעולות ההטרדה במרחב הימי לצד שמירה על ערוצי המשא ומתן במקביל"
      ]
     },
     {
      "actor": "ארצות הברית",
      "declared": [
-      "אזהרה מפני פגיעה ביעדים אמריקאיים ואיום בהשמדה בתגובה לתקיפה ישירה",
-      "בדיקת איומים מודיעיניים על כוונות פיגוע בוושינגטון"
+      "הבטחת חופש השיט והביטחון הימי במפרץ",
+      "אזהרה מתגובה חסרת תקדים לכל ניסיון פגיעה באמצעים לא קונבנציונליים או פעולות טרור"
      ],
      "inferred": [
-      "הפגנת עוצמה והרתעה באמצעות פריסת נושאות מטוסים נוספות ללא היגררות למלחמה ממושכת",
-      "בלימת הפעילות הצבאית וההברחות של שלוחות איראן בעיראק ובאזור"
+      "שחיקת היכולות הצבאיות של משמרות המהפכה באמצעות תקיפות ממוקדות ומצור ימי",
+      "בלימת ההסלמה האיראנית מבלי להיגרר לעימות אזורי כולל וממושך"
      ],
      "forecast": [
-      "שמירה על נוכחות צבאית מוגברת ותקיפות נקודתיות של מתקני שיגור והגנה איראניים"
+      "הגברת פריסת הכוחות ונושאות המטוסים במרחב לחיזוק ההרתעה",
+      "ביצוע תקיפות תגמול ממוקדות נגד מערכי שיגור כטב\"מים וטילים"
      ]
     },
     {
      "actor": "ישראל",
      "declared": [
-      "אזהרה מפני מוטיבציה איראנית גבוהה לפגוע ביעדים ישראליים בחו\"ל"
+      "התרעה מפני שאיפות ההשמדה והתחמשות הגרעין של המשטר האיראני"
      ],
      "inferred": [
-      "שאיפה לתיאום מבצעי מלא וגיבוי אמריקאי לקראת מהלומה צבאית משמעותית באיראן",
-      "סיכול מתמשך של רשתות טרור וחיסול איראניות בזירה הבינלאומית"
+      "תיאום מבצעי הדוק מול פיקוד המרכז האמריקני לקראת אפשרות של מהלומה צבאית נרחבת באיראן",
+      "סיכול ממוקד ומתמשך של תשתיות טרור וניסיונות פיגוע איראניים נגד יעדים ישראליים בעולם"
      ],
      "forecast": [
-      "דחיית פעולה צבאית גלויה עצמאית עד להשגת תיאום מרבי עם כוחות ארה\"ב באזור"
+      "המשך שיתוף הפעולה המודיעיני וההיערכות לפעולה התקפית בשטח איראן בתיאום עם וושינגטון"
      ]
     }
    ],
    "sources_cited": [
     {
+     "source_id": "src_france24",
+     "url": "https://www.france24.com/en/middle-east/20261117-iran-us-graphite-blackout-bombs-infrastructure",
+     "accessed_at": "2026-11-18T07:53:48+00:00"
+    },
+    {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington",
-     "accessed_at": "2026-11-17T19:20:31+00:00"
+     "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
+     "accessed_at": "2026-11-18T07:53:48+00:00"
     },
     {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202611177708",
-     "accessed_at": "2026-11-17T19:20:31+00:00"
+     "url": "https://www.iranintl.com/en/202611173617",
+     "accessed_at": "2026-11-18T07:53:48+00:00"
     },
     {
      "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86325040/Ghalibaf-slams-US-dirty-bomb-allegations-as-fresh-anti-Iran",
-     "accessed_at": "2026-11-17T19:20:31+00:00"
+     "url": "https://en.irna.ir/news/86325322/Iranian-Army-targets-US-Patriot-systems-at-Kuwait-s-Ali-Al-Salem",
+     "accessed_at": "2026-11-18T07:53:48+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21873039",
-     "accessed_at": "2026-11-17T19:20:31+00:00"
+     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21878106",
+     "accessed_at": "2026-11-18T07:53:48+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-backed-iraqi-group-refuses-withdraw-stronghold-kataeb-hezbollahiran",
-     "accessed_at": "2026-11-17T19:20:31+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-foreign-minister-vows-unforgettable-response-if-us-israeli-attacks",
+     "accessed_at": "2026-11-18T07:53:48+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/133813",
-     "accessed_at": "2026-11-17T19:20:31+00:00"
+     "url": "https://t.me/abualiexpress/133825",
+     "accessed_at": "2026-11-18T07:53:48+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49651",
-     "accessed_at": "2026-11-17T19:20:31+00:00"
+     "url": "https://t.me/alexmehacarmel/49689",
+     "accessed_at": "2026-11-18T07:53:48+00:00"
     },
     {
      "source_id": "src_tg_lelotsenzura",
      "url": "https://t.me/lelotsenzura/95053",
-     "accessed_at": "2026-11-17T19:20:31+00:00"
+     "accessed_at": "2026-11-18T07:53:48+00:00"
     },
     {
      "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/rkghwzqagx",
-     "accessed_at": "2026-11-17T19:20:31+00:00"
+     "url": "https://www.ynet.co.il/news/article/ry6bstcazg",
+     "accessed_at": "2026-11-18T07:53:48+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-17T00:40:39+00:00",
+  "previous_generated_at": "2026-11-17T19:20:31+00:00",
   "changes": {
-   "IRAN-11171920-01": {
-    "kind": "new"
-   },
-   "IRAN-11171920-02": {
-    "kind": "new"
-   },
-   "IRAN-11171920-03": {
-    "kind": "new"
-   },
-   "IRAN-11171920-04": {
-    "kind": "new"
-   },
-   "IRAN-11171920-05": {
-    "kind": "down",
-    "from": "verified",
-    "to": "shared_root",
-    "prev": "כניסת נושאת מטוסים שלישית לאזור",
-    "score": 1.0
-   },
-   "IRAN-11171920-06": {
+   "IRAN-11180753-01": {
     "kind": "same",
-    "from": "assessment",
+    "from": "initial",
     "to": "shared_root",
-    "prev": "איומי תוכנית פגיעה בבכירי ממשל אמריקניים",
+    "prev": "פגיעה במכלית גז במצר הורמוז",
     "score": 1.0
    },
-   "IRAN-11171920-07": {
-    "kind": "new"
+   "IRAN-11180753-02": {
+    "kind": "possible",
+    "prev": "שיגור כטב\"מים של החות'ים לעבר קו צינור הנפט מזרח-מערב בסעודיה",
+    "score": 0.467
    },
-   "IRAN-11171920-08": {
+   "IRAN-11180753-03": {
+    "kind": "same",
+    "from": "initial",
+    "to": "initial",
+    "prev": "טענה להפלת כטב\"ם אמריקאי במצר הורמוז",
+    "score": 1.0
+   },
+   "IRAN-11180753-04": {
     "kind": "same",
     "from": "shared_root",
-    "to": "initial",
-    "prev": "תקיפת מכליות נפט במצר הורמוז",
-    "score": 0.817
+    "to": "shared_root",
+    "prev": "שיגור כטב\"מים איראניים לבסיס אמריקאי בבחריין ותקיפת תגובה באי קשם",
+    "score": 1.0
+   },
+   "IRAN-11180753-05": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "shared_root",
+    "prev": "סיכול מזימה לפגיעה באיש עסקים ישראלי ביוון",
+    "score": 1.0
+   },
+   "IRAN-11180753-06": {
+    "kind": "new"
    }
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-11-17T1930__ukraine-202611171930.json",
+  "draft": "drafts/ukraine/2026-11-18T0755__ukraine-202611180755.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-11-17T19:30:52+00:00",
+   "generated_at": "2026-11-18T07:55:12+00:00",
    "window": {
-    "from": "2026-11-16T19:30:52+00:00",
-    "to": "2026-11-17T19:30:52+00:00"
+    "from": "2026-11-17T07:55:12+00:00",
+    "to": "2026-11-18T07:55:12+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "ukraine-202611171930"
+    "run_id": "ukraine-202611180755"
    },
-   "summary": "העימות בין רוסיה לאוקראינה הסלים עם מתקפה אוקראינית מוצלחת שגרמה להרס מקטע מגשר קרים, לצד מתקפות טילים בליסטיים וכטב\"מים רוסיות מסיביות שפגעו בגשרים בקייב ובאתרים אזרחיים, וחלקן אף גלשו למרחב האווירי של מולדובה. במקביל לתקיפות ההדדיות בעומק השטח, מדינות אירופה מגבירות את הסיוע הצבאי והתעשייתי לאוקראינה חרף ביקורת אמריקאית על תקיפות בעומק רוסיה, ורוסיה מקדמת צעדי חקיקה להרחבת גיוס נשים בשל מצוקת כוח אדם בחזית.",
+   "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בהסלמה הדדית של מהלומות ארוכות טווח נגד תשתיות אסטרטגיות, הבולטת שבהן היא פגיעה משמעותית בגשר קרים לצד תקיפת מתקני נפט בתוך רוסיה. במקביל, כוחות רוסיה ממשיכים בהפצצות אינטנסיביות על מרחבים עירוניים בחזיתות המזרח ועל מתקני חשמל וגשרים בקייב, דבר שיוצר משבר הומניטרי ומחריף את העומס על העורף האוקראיני. במקביל למערכה הצבאית, מתקיימת פעילות דיפלומטית ענפה הכוללת מגעים לקראת פסגה בינלאומית בסין ומחלוקות בקרב מדינות המערב באשר להיקף וליעד התקיפות האוקראיניות.",
    "fronts": [
     {
-     "name": "חצי האי קרים ומצר קרץ'",
-     "status": "הסלמה עקב תקיפה קשה על גשר קרים, קריסת מקטעים וחסימת שיט"
+     "name": "מצר קרץ' וחצי האי קרים",
+     "status": "פגיעה קשה במקטע הכביש של גשר קרים בעקבות מתקפה משולבת ושיבוש תנועת כלי שיט, לצד המשך פעילות רכבות חלקית"
     },
     {
-     "name": "מרחב קייב",
-     "status": "ספיגת תקיפות טילים בליסטיים מסיביות נגד תשתיות תחבורה וגשרים"
+     "name": "מחוז חרקוב",
+     "status": "הפגזות ותקיפות רוסיות מתמשכות על יישובים ואזורים אזרחיים, הגורמות להרוגים ולפצועים"
     },
     {
-     "name": "גבול אוקראינה-מולדובה",
-     "status": "דריכות ביטחונית וסגירת מעברים בעקבות חדירת כטב\"מים רוסיים והתרסקותם"
+     "name": "מחוז דונצק",
+     "status": "תקיפות והפגזות רוסיות קטלניות על מרכזי אוכלוסייה בהם סלוביאנסק והסביבה"
     },
     {
-     "name": "ויניצה",
-     "status": "תקיפות אוויריות רוסיות חוזרות שפוגעות במרכז העיר"
+     "name": "עומק שטח רוסיה",
+     "status": "פגיעות בכטב\"מים אוקראיניים בבתי זיקוק לנפט ושיבושים נרחבים בתנועת התעופה האזרחית"
+    },
+    {
+     "name": "עורף אוקראינה וקייב",
+     "status": "מצוקת אנרגיה חריפה והפסקות חשמל ממושכות כתוצאה מפגיעות רוסיות בתשתיות"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-11171930-01",
-     "title": "תקיפה אוקראינית משמעותית על גשר קרים והקרסת מקטע ממנו",
-     "summary": "כוחות אוקראינה ביצעו מתקפה רב-שלבית באמצעות טילים וכטב\"מים שהביאה לפגיעה קשה ולהתמוטטות מקטע מקשת גשר הכביש של גשר קרים, וכן לפגיעה במקטע הרכבת וחסימת נתיב השיט במצר קרץ'.",
-     "axis": "חצי האי קרים",
+     "id": "UKRAINE-11180755-01",
+     "title": "מתקפה אוקראינית משולבת גרמה להרס מקטע כביש בגשר קרים",
+     "summary": "כוחות אוקראינה פגעו בגשר קרים באמצעות שילוב של כטב\"מים וטילים, מה שהביא לקריסת קשת ומקטע כביש לים ולחסימת תנועת כלי שיט, בעוד שתנועת הרכבות חודשה באופן חלקי.",
+     "axis": "חצי האי קרים ומצר קרץ'",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-17T00:00:00+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-11-17T08:59:47+00:00",
-     "last_update_at": "2026-11-17T19:20:42+00:00",
-     "what_is_not_verified": "סוגי החימוש המדויקים (האם טילי פלמינגו, כטב\"מים או שילוב), היקף ההרס המדויק בגשר הרכבת, וטענות על אישור אמריקאי מוקדם לתקיפה.",
+     "last_update_at": "2026-11-18T06:46:00+00:00",
+     "what_is_not_verified": "מידת הנזק המדויקת למסילת הרכבת והטענות על שימוש בטכנולוגיות ניווט עצמאיות ללא מערכות לוויין זרות.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_kyivind",
+       "source_id": "src_pravda_ua",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/ukraine-war-latest-entire-section-of-crimean-bridge-collapses-after-seven-phase-operation-zelensky-reveals/",
-       "published_at": "2026-11-17T19:20:42+00:00"
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063385/",
+       "published_at": "2026-11-18T06:46:00+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-11-17T21:24:35+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49685",
+       "published_at": "2026-11-17T19:46:41+00:00"
       },
       {
        "source_id": "src_tg_carmel",
@@ -906,46 +950,10 @@ window.DB.war_published = {
        "published_at": "2026-11-17T19:14:12+00:00"
       },
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4185747-strike-on-kerch-bridge-marks-another-impressive-success-for-ukraine-austrian-colonel.html",
-       "published_at": "2026-11-17T18:05:00+00:00"
-      },
-      {
        "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
        "url": "https://www.theguardian.com/world/video/2026/nov/17/ukraine-releases-footage-of-strike-on-crimean-bridge-video",
        "published_at": "2026-11-17T17:48:38+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/nov/17/how-ukraine-struck-kerch-bridge-symbol-vladimir-putin-rule",
-       "published_at": "2026-11-17T17:30:40+00:00"
-      },
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-11-17T17:19:57+00:00"
-      },
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-11-17T16:56:38+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-kerch-bridge-attack-russia-crimea-analysis",
-       "published_at": "2026-11-17T16:40:26+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49672",
-       "published_at": "2026-11-17T16:18:42+00:00"
       },
       {
        "source_id": "src_bbc",
@@ -962,42 +970,255 @@ window.DB.war_published = {
      ],
      "places": [
       {
-       "name": "גשר קרים, חצי האי קרים",
-       "lat": 45.2786,
-       "lon": 36.5393
-      },
-      {
-       "name": "מצר קרץ', חצי האי קרים",
+       "name": "מצר קרץ', קרים",
        "lat": 45.281,
        "lon": 36.5492
       }
      ]
     },
     {
-     "id": "UKRAINE-11171930-02",
-     "title": "מתקפת טילים בליסטיים רוסית על גשרים בקייב",
-     "summary": "רוסיה שיגרה מתקפת טילים בליסטיים רחבת היקף על אוקראינה, במסגרתה נפגעו שני גשרים מרכזיים בקייב, כולל גשר סברני שהתנועה עליו הוגבלה.",
-     "axis": "קייב",
+     "id": "UKRAINE-11180755-02",
+     "title": "פגיעות וקורבנות בתקיפות רוסיות במחוז חרקוב",
+     "summary": "תקיפות שביצעו כוחות רוסיים על יישובים במחוז חרקוב, כולל פגיעה בשוק בעיר זלאטופיל, גרמו להרג אדם אחד ולפציעת לפחות 11 בני אדם, בהם ילד.",
+     "axis": "מחוז חרקוב",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T07:14:00+00:00",
+     "last_update_at": "2026-11-18T07:37:00+00:00",
+     "what_is_not_verified": "המספר הכולל המדויק של הנפגעים בכלל מוקדי הפגיעה במחוז.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_49f50b34e048d8be",
+       "url": "https://www.ukrinform.net/rubric-ato/4185867-russian-attacks-kill-one-injures-eight-in-kharkiv-region.html",
+       "published_at": "2026-11-18T07:37:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_49f50b34e048d8be",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063392/",
+       "published_at": "2026-11-18T07:14:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "זלאטופיל, אוקראינה",
+       "lat": 49.3896,
+       "lon": 36.2127
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11180755-03",
+     "title": "תקיפות רוסיות במחוז דונצק גבו את חייהם של ארבעה אזרחים",
+     "summary": "הפגזות ותקיפות של כוחות רוסיים פגעו ביישובים סלוביאנסק, שבבקיבקה ויסנוהירקה שבמחוז דונצק והובילו למותם של ארבעה בני אדם.",
+     "axis": "מחוז דונצק",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-17T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-17T17:19:57+00:00",
-     "last_update_at": "2026-11-17T19:20:42+00:00",
-     "what_is_not_verified": "מידת הנזק המבני המלא לשני הגשרים ומספר הנפגעים במתקפה בקייב.",
+     "first_reported_at": "2026-11-18T06:42:00+00:00",
+     "last_update_at": "2026-11-18T06:42:00+00:00",
+     "what_is_not_verified": "היקף הנפגעים המלא בשטחים שאינם בשליטת המנהל האזורי (כמו מריופול ווולנובאחה).",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_146484b4e07aa0ad",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063387/",
+       "published_at": "2026-11-18T06:42:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סלוביאנסק, אוקראינה",
+       "lat": 48.8523,
+       "lon": 37.6058
+      },
+      {
+       "name": "שבבקיבקה, אוקראינה",
+       "lat": 48.7506,
+       "lon": 37.4908
+      },
+      {
+       "name": "יסנוהירקה, אוקראינה",
+       "lat": 48.7787,
+       "lon": 37.5537
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11180755-04",
+     "title": "יירוט נרחב של כטב\"מים רוסיים בשמי אוקראינה",
+     "summary": "מערך ההגנה האווירית של אוקראינה יירט ונטרל 126 כלי טיס בלתי מאוישים ששוגרו על ידי רוסיה במהלך שעות הלילה.",
+     "axis": "הגנה אווירית באוקראינה",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T07:19:00+00:00",
+     "last_update_at": "2026-11-18T07:19:00+00:00",
+     "what_is_not_verified": "סך כל הכטב\"מים ששוגרו במקור ושיעור הפגיעות בתשתיות לעומת יירוטים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4185864-air-defence-neutralises-126-russian-drones-used-to-attack-ukraine-overnight.html",
+       "published_at": "2026-11-18T07:19:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11180755-05",
+     "title": "מתקפת כטב\"מים אוקראינית על בתי זיקוק בקרסנודאר",
+     "summary": "כלי טיס בלתי מאוישים פגעו בשני בתי זיקוק לנפט באזור סברסקי שבמחוז קרסנודאר ברוסיה.",
+     "axis": "עומק שטח רוסיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T04:56:50+00:00",
+     "last_update_at": "2026-11-18T04:56:50+00:00",
+     "what_is_not_verified": "מידת הנזק המעשי שנגרם למתקני הזיקוק.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/ukraine-war-latest-entire-section-of-crimean-bridge-collapses-after-seven-phase-operation-zelensky-reveals/",
-       "published_at": "2026-11-17T19:20:42+00:00"
+       "url": "https://kyivindependent.com/2-russian-oil-refineries-reportedly-targeted-in-overnight-drone-attack-on-krasnodar-krai/",
+       "published_at": "2026-11-18T04:56:50+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11180755-06",
+     "title": "השבתת טיסות ונמלי תעופה ברוסיה עקב איומי כטב\"מים",
+     "summary": "התרחבות מתקפות הכטב\"מים של אוקראינה הובילה לשיבושים משמעותיים והגבלות טיסה יומיות בעשרות נמלי תעופה ברחבי רוסיה.",
+     "axis": "עומק שטח רוסיה",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T07:10:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-18T07:10:00+00:00",
+     "last_update_at": "2026-11-18T07:10:00+00:00",
+     "what_is_not_verified": "היקף ההשפעה הכלכלית המדויק על ענף התעופה האזרחית ברוסיה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/articles/2026/11/18/8063391/",
+       "published_at": "2026-11-18T07:10:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11180755-07",
+     "title": "מחלוקת פומבית בין גרמניה ובריטניה לארצות הברית בנוגע לתקיפות בעומק רוסיה",
+     "summary": "שרי ההגנה של גרמניה ובריטניה דחו בחריפות את הביקורת של בכיר בפנטגון שכינה את התקיפות האוקראיניות בעומק רוסיה בלתי מועילות להשגת יעדי הלחימה.",
+     "axis": "הזירה הבינלאומית והסיוע הצבאי",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-17T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-17T22:01:14+00:00",
+     "last_update_at": "2026-11-18T03:54:30+00:00",
+     "what_is_not_verified": "עמדת ממשל ארצות הברית הרשמית מעבר להצהרות של סגן תת-מזכיר ההגנה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/germany-uk-push-back-after-us-criticizes-ukraines-deep-strikes-into-russia/",
+       "published_at": "2026-11-18T03:54:30+00:00"
       },
       {
-       "source_id": "src_tass",
+       "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/world/2219917",
-       "published_at": "2026-11-17T19:01:04+00:00"
+       "url": "https://www.theguardian.com/world/2026/nov/18/ukraine-war-briefing-us-criticises-kyiv-deep-strikes-russia",
+       "published_at": "2026-11-18T01:41:14+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/11/18/quite-a-stupid-thing-german-defense-minister-rejects-u-s-criticism-of-ukraine-s-strikes-deep-inside-russia",
+       "published_at": "2026-11-17T22:01:14+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11180755-08",
+     "title": "הכחשת דרישה רוסית לעזיבת פינלנד את נאט\"ו",
+     "summary": "נשיא פינלנד ודובר הקרמלין הכחישו במקביל טענות עיתונאיות לפיהן רוסיה הציבה דרישה שפינלנד תפרוש מנאט\"ו כחלק משיחות שלום על אוקראינה.",
+     "axis": "משא ומתן ומדיניות חוץ",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T07:24:53+00:00",
+     "last_update_at": "2026-11-18T07:24:53+00:00",
+     "what_is_not_verified": "תוכן המגעים החסויים המלאים שנערכו בשיחות טלפון בין פוטין למנהיגים אירופיים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/11/18/moscow-and-helsinki-agree-on-one-thing-russia-never-demanded-finland-leave-nato",
+       "published_at": "2026-11-18T07:24:53+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11180755-09",
+     "title": "האשמות אוקראיניות בדבר שימוש רוסי בגז מדמיע בשדה הקרב",
+     "summary": "חקירה באוקראינה בשיתוף הארגון למניעת הפצת נשק כימי קבעה כי צבא רוסיה השתמש ברימוני גז מדמיע נגד חיילים אוקראינים בניגוד לאמנות הבינלאומיות.",
+     "axis": "חזית הלחימה",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-17T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-17T20:23:17+00:00",
+     "last_update_at": "2026-11-17T20:23:17+00:00",
+     "what_is_not_verified": "היקף 14 אלף התקריות הנטענות על ידי אוקראינה, שרוסיה מכחישה באופן גורף.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/11/17/ukrainian-investigation-finds-russia-used-tear-gas-against-ukrainian-troops-ap-reports",
+       "published_at": "2026-11-17T20:23:17+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11180755-10",
+     "title": "משבר אנרגיה והפסקות חשמל חמורות בקייב",
+     "summary": "תקיפות חוזרות ונשנות של רוסיה על תשתיות אנרגיה יצרו הפסקות חשמל קשות וממושכות בבירת אוקראינה והובילו לביקורת פנימית נגד ראש העיר.",
+     "axis": "קייב",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-17T17:19:57+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-17T17:19:57+00:00",
+     "last_update_at": "2026-11-18T07:00:36+00:00",
+     "what_is_not_verified": "היקף האחריות הניהולית המיוחסת לראש העיר קליצ'קו אל מול חומרת הפגיעה הרוסית.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/nov/18/russian-attacks-kyiv-power-outages-mayor-in-perilous-position",
+       "published_at": "2026-11-18T07:00:36+00:00"
       },
       {
        "source_id": "src_bbc",
@@ -1015,220 +1236,30 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "UKRAINE-11171930-03",
-     "title": "חדירת כטב\"מים רוסיים למרחב האווירי של מולדובה וסגירת מעברי גבול",
-     "summary": "שבעה כלי טיס בלתי מאוישים רוסיים חדרו למרחב האווירי של מולדובה במהלך תקיפה על אוקראינה; חלקם התרסקו בשטחה ואחד נצפה מעל עיר הבירה קישינב, מה שהוביל לסגירה זמנית של המרחב האווירי ושישה מעברי גבול.",
-     "axis": "מולדובה - גבול אוקראינה",
+     "id": "UKRAINE-11180755-11",
+     "title": "הגעת פוטין לסין לקראת פסגה משולשת",
+     "summary": "נשיא רוסיה נחת בסין לקראת מפגש פסגה משותף עם נשיא סין ונשיא ארצות הברית דונלד טראמפ.",
+     "axis": "דיפלומטיה בינלאומית",
      "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-17T18:00:00+00:00",
-     "last_update_at": "2026-11-17T18:37:20+00:00",
-     "what_is_not_verified": "מיקום ההתרסקות של כלי הטיס השישי והשביעי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/7-drones-cross-into-moldovan-airspace-during-latest-russian-attack-against-ukraine-1-spotted-over-chisinau/",
-       "published_at": "2026-11-17T18:37:20+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063339/",
-       "published_at": "2026-11-17T18:36:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063332/",
-       "published_at": "2026-11-17T18:00:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קישינב, מולדובה",
-       "lat": 47.0245,
-       "lon": 28.8323
-      },
-      {
-       "name": "קלטיטורי, מולדובה",
-       "lat": 47.0658,
-       "lon": 28.9271
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11171930-04",
-     "title": "תקיפה רוסית שנייה באותו יום על ויניצה",
-     "summary": "רוסיה תקפה את מרכז העיר ויניצה בפעם השנייה בתוך יממה, גרמה לשריפה במבנה ולפציעת ארבעה בני אדם מטראומה אקוסטית והלם.",
-     "axis": "ויניצה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-17T18:01:00+00:00",
-     "last_update_at": "2026-11-17T18:01:00+00:00",
-     "what_is_not_verified": "סוג החימוש שפגע במבנה בויניצה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063333/",
-       "published_at": "2026-11-17T18:01:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ויניצה, אוקראינה",
-       "lat": 49.232,
-       "lon": 28.468
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11171930-05",
-     "title": "אישור נוכחות חיילים צרפתים באוקראינה ותגובת רוסיה",
-     "summary": "דוברת צבא צרפת אישרה כי כוחות צרפתיים שוהים באוקראינה לצורכי אימון ותיקון ציוד הרחק מקו החזית, בעוד שרוסיה הכריזה כי מדובר במעורבות ישירה במלחמה וכי הם מהווים מטרות לגיטימיות.",
-     "axis": "הזירה הבינלאומית",
-     "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-11-17T00:00:00+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-17T18:56:30+00:00",
-     "last_update_at": "2026-11-17T18:56:30+00:00",
-     "what_is_not_verified": "מספר החיילים הצרפתים המדויק ומיקומם הספציפי בתוך אוקראינה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/11/17/france-confirms-its-troops-are-in-ukraine-russia-says-they-are-legitimate-targets",
-       "published_at": "2026-11-17T18:56:30+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11171930-06",
-     "title": "מימון גרמני ונורווגי לרכש נשק אמריקאי עבור אוקראינה",
-     "summary": "גרמניה ונורווגיה ישקיעו 300 מיליון דולר כל אחת במימון חבילת נשק אמריקאי חדשה לאוקראינה במסגרת יוזמת PURL.",
-     "axis": "סיוע צבאי",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-17T19:05:00+00:00",
-     "last_update_at": "2026-11-17T19:05:00+00:00",
-     "what_is_not_verified": "פירוט מערכות הנשק המדויקות בחבילת הרכש.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-polytics/4185771-germany-norway-to-contribute-300m-each-toward-us-arms-purchases-for-ukraine-pistorius.html",
-       "published_at": "2026-11-17T19:05:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11171930-07",
-     "title": "אספקת מכ\"מים גרמניים עבור מערכת ההגנה האווירית פרייה",
-     "summary": "גרמניה הודיעה כי תספק לאוקראינה מכ\"מים בעלי ביצועים גבוהים שישמשו רכיב מפתח במערכת ההגנה העתידית נגד טילים בליסטיים מדגם פרייה.",
-     "axis": "סיוע צבאי",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-17T18:34:00+00:00",
-     "last_update_at": "2026-11-17T18:34:00+00:00",
-     "what_is_not_verified": "לוח הזמנים לאספקת המכ\"מים ומועד פריסת המערכת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-polytics/4185759-germany-to-supply-ukraine-with-new-radars-for-future-freyja-air-defense-system-pistorius.html",
-       "published_at": "2026-11-17T18:34:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11171930-08",
-     "title": "הסכם לייצור נשק משותף בין פינלנד לאוקראינה",
-     "summary": "… ומערכות נשק בשטח פינלנד, המשלב ניסיון מבצעי אוקראיני ויכולות תעשייתיות פיניות.",
-     "axis": "סיוע צבאי",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-17T16:27:43+00:00",
-     "last_update_at": "2026-11-17T16:27:43+00:00",
-     "what_is_not_verified": "אילו מערכות נשק ספציפיות ייוצרו במסגרת שיתוף הפעולה.",
+     "first_reported_at": "2026-11-17T19:16:36+00:00",
+     "last_update_at": "2026-11-17T19:46:41+00:00",
+     "what_is_not_verified": "סדר היום המלא של הפסגה וההסכמות שיושגו בה.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49673",
-       "published_at": "2026-11-17T16:27:43+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11171930-09",
-     "title": "העלאת גיל השירות הצבאי לנשים ברוסיה",
-     "summary": "הדומה הרוסית אישרה בקריאה ראשונה הצעת חוק להעלאת גיל הפטור משירות לנשים מ-45 ל-50, וגיל המילואים עד 55 לקצינות, על רקע מחסור בכוח אדם ביחידות הלוחמות והרפואיות.",
-     "axis": "מדיניות פנים ברוסיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-17T16:15:22+00:00",
-     "last_update_at": "2026-11-17T16:15:22+00:00",
-     "what_is_not_verified": "המועד הסופי לאישור החוק והשפעתו המספרית על שורות הצבא.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/11/17/russia-moves-to-raise-military-service-age-limit-for-women-amid-troop-shortages",
-       "published_at": "2026-11-17T16:15:22+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11171930-10",
-     "title": "נחיתת פוטין בסין לקראת פסגה משולשת",
-     "summary": "נשיא רוסיה פוטין נחת בסין לקראת השתתפות בפסגה משולשת מתוכננת עם נשיא סין ונשיא ארה\"ב טראמפ בשנג'ן.",
-     "axis": "משא ומתן ומגעים דיפלומטיים",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-17T16:40:26+00:00",
-     "last_update_at": "2026-11-17T19:16:36+00:00",
-     "what_is_not_verified": "סדר היום המדויק של הפסגה והאם המלחמה באוקראינה תעמוד במוקד הדיונים.",
-     "is_new_in_window": true,
-     "reports": [
+       "url": "https://t.me/alexmehacarmel/49685",
+       "published_at": "2026-11-17T19:46:41+00:00"
+      },
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
        "url": "https://t.me/abualiexpress/133819",
        "published_at": "2026-11-17T19:16:36+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-kerch-bridge-attack-russia-crimea-analysis",
-       "published_at": "2026-11-17T16:40:26+00:00"
       }
      ],
      "places": [
@@ -1238,13 +1269,42 @@ window.DB.war_published = {
        "lon": 114.0545
       }
      ]
+    },
+    {
+     "id": "UKRAINE-11180755-12",
+     "title": "התקדמות בשיחות בין משרד האוצר האוקראיני לקרן המטבע הבינלאומית",
+     "summary": "שלב הדיונים הפרונטלי בוורשה בין משרד האוצר של אוקראינה לנציגי קרן המטבע הסתיים בהתקדמות משמעותית בנוגע לסיוע בהיקף של כ-1.6 מיליארד דולר.",
+     "axis": "כלכלה וסיוע בינלאומי",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T07:42:00+00:00",
+     "last_update_at": "2026-11-18T07:42:00+00:00",
+     "what_is_not_verified": "מועד האישור הסופי והעברת הכספים בפועל.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_7f2483820f1bcd72",
+       "url": "https://www.ukrinform.net/rubric-economy/4185863-16-bln-at-stake-finance-ministry-reports-significant-progress-in-talks-with-imf-mission.html",
+       "published_at": "2026-11-18T07:42:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ורשה, פולין",
+       "lat": 52.2334,
+       "lon": 21.0711
+      }
+     ]
     }
    ],
    "not_verified": [
-    "טענת מקור רוסי על אישור אמריקאי מוקדם לתקיפת גשר קרים בתגובה למתקפות סייבר",
-    "מספר האבדות המדויק של כוחות רוסיה ואוקראינה במהלך חודש אוקטובר",
-    "היקף הנזק המלא והשבתת תנועת הרכבות בגשר קרים",
-    "דיווח על שריפה במתחם פטרוכימי בבשקורטוסטאן"
+    "טענות רוסיות על קיומם של כעשרים בתי כלא סודיים ומתקני עינויים המופעלים על ידי אוקראינה",
+    "מספר האבדות הכולל של הצבא הרוסי המדווח על ידי המטה הכללי של אוקראינה",
+    "הטענה כי תקיפת גשר קרים הסתמכה כולה על תקשורת מקומית עצמאית לחלוטין ללא לוויינים זרים",
+    "היקף השימוש המדויק בגז מדמיע בשדה הקרב לפי הנתון האוקראיני של כ-14 אלף מקרים"
    ],
    "map": {
     "confidence": "high",
@@ -1266,32 +1326,31 @@ window.DB.war_published = {
     {
      "actor": "אוקראינה",
      "declared": [
-      "פגיעה במשגרי טילים בליסטיים רוסיים וצפון קוריאניים",
-      "הסרת מגבלות תקשורת הלוויינים סטרשילד בשטחים הכבושים",
-      "השגת 40 מטוסי F-16 נוספים ותקציב סיוע מאירופה"
+      "פגיעה בנתיבי אספקה צבאיים רוסיים ובסמלי שליטה דוגמת גשר קרים",
+      "ערעור הפעילות הכלכלית ותשתיות האנרגיה שמממנות את מאמץ המלחמה של רוסיה"
      ],
      "inferred": [
-      "ניתוק נתיבי האספקה הלוגיסטיים של צבא רוסיה לחצי האי קרים",
-      "יצירת מנוף לחץ ומבוכה פוליטית לרוסיה לקראת פסגות בינלאומיות"
+      "יצירת מנוף לחץ סמלי ומבצעי לקראת מגעים מדיניים ופסגות בינלאומיות",
+      "הפגנת עצמאות טכנולוגית צבאית שאינה תלויה באופן מלא במערכות מערביות"
      ],
      "forecast": [
-      "המשך ניסיונות לפגוע במסדרון היבשתי בדרום אוקראינה ובצירי אספקה לקרים",
-      "הגברת הלחץ הדיפלומטי על מדינות המערב לאספקת מערכות הגנה אווירית"
+      "המשך מיקוד מאמצי התקיפה בנמלי תעופה, מאגרי דלק ותשתיות לוגיסטיקה ברוסיה",
+      "החרפת הוויכוח הפנימי והחיצוני מול שותפות מערביות על לגיטימיות התקיפות בעומק"
      ]
     },
     {
      "actor": "רוסיה",
      "declared": [
-      "פגיעה בכוחות צרפתיים באוקראינה כיעדים לגיטימיים",
-      "טענה כי חימוש אוקראינה רק מאריך את משך העימות"
+      "פגיעה במערכי כטב\"מים ומרכזי שליטה צבאיים של אוקראינה בחזית",
+      "שלילת טענות בדבר דרישות להוצאת מדינות שכנות מברית נאט\"ו"
      ],
      "inferred": [
-      "פגיעה שיטתית בתשתיות הגשרים והתחבורה של אוקראינה בקייב ובערים מרכזיות",
-      "השלמת פערי כוח אדם בחזית באמצעות הרחבת חובת הגיוס והמילואים לנשים"
+      "שחיקת כושר העמידה של העורף האוקראיני באמצעות פגיעה ממוקדת במערכות החשמל לקראת החורף",
+      "הפגנת נוכחות מדינית בינלאומית לצד מעצמות מתחרות כדי לחלץ עמדת מיקוח עדיפה"
      ],
      "forecast": [
-      "תקיפות תגובה נרחבות נגד תשתיות אסטרטגיות באוקראינה בעקבות הפגיעה בגשר קרים",
-      "המשך שימוש בנתיבי טיסה סמוכים למולדובה לשיבוש מערכי ההגנה של אוקראינה"
+      "המשך גלי תקיפות באמצעות כטב\"מים וטילים לעבר תשתיות אנרגיה וגשרים מרכזיים באוקראינה",
+      "הידוק שיתוף הפעולה הדיפלומטי מול סין במטרה לבלום לחצים מערביים"
      ]
     }
    ],
@@ -1299,85 +1358,96 @@ window.DB.war_published = {
     {
      "source_id": "src_bbc",
      "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-11-17T19:30:52+00:00"
+     "accessed_at": "2026-11-18T07:55:12+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-kerch-bridge-attack-russia-crimea-analysis",
-     "accessed_at": "2026-11-17T19:30:52+00:00"
+     "url": "https://www.theguardian.com/world/2026/nov/18/russian-attacks-kyiv-power-outages-mayor-in-perilous-position",
+     "accessed_at": "2026-11-18T07:55:12+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/7-drones-cross-into-moldovan-airspace-during-latest-russian-attack-against-ukraine-1-spotted-over-chisinau/",
-     "accessed_at": "2026-11-17T19:30:52+00:00"
+     "url": "https://kyivindependent.com/germany-uk-push-back-after-us-criticizes-ukraines-deep-strikes-into-russia/",
+     "accessed_at": "2026-11-18T07:55:12+00:00"
     },
     {
      "source_id": "src_meduza",
-     "url": "https://meduza.io/en/news/2026/11/17/russia-moves-to-raise-military-service-age-limit-for-women-amid-troop-shortages",
-     "accessed_at": "2026-11-17T19:30:52+00:00"
+     "url": "https://meduza.io/en/news/2026/11/17/ukrainian-investigation-finds-russia-used-tear-gas-against-ukrainian-troops-ap-reports",
+     "accessed_at": "2026-11-18T07:55:12+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063333/",
-     "accessed_at": "2026-11-17T19:30:52+00:00"
-    },
-    {
-     "source_id": "src_tass",
-     "url": "https://tass.com/world/2219917",
-     "accessed_at": "2026-11-17T19:30:52+00:00"
+     "url": "https://www.pravda.com.ua/eng/articles/2026/11/18/8063391/",
+     "accessed_at": "2026-11-18T07:55:12+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
      "url": "https://t.me/abualiexpress/133819",
-     "accessed_at": "2026-11-17T19:30:52+00:00"
+     "accessed_at": "2026-11-18T07:55:12+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49673",
-     "accessed_at": "2026-11-17T19:30:52+00:00"
+     "url": "https://t.me/alexmehacarmel/49685",
+     "accessed_at": "2026-11-18T07:55:12+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-polytics/4185759-germany-to-supply-ukraine-with-new-radars-for-future-freyja-air-defense-system-pistorius.html",
-     "accessed_at": "2026-11-17T19:30:52+00:00"
+     "url": "https://www.ukrinform.net/rubric-economy/4185863-16-bln-at-stake-finance-ministry-reports-significant-progress-in-talks-with-imf-mission.html",
+     "accessed_at": "2026-11-18T07:55:12+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-16T20:58:25+00:00",
+  "previous_generated_at": "2026-11-17T19:30:52+00:00",
   "changes": {
-   "UKRAINE-11171930-01": {
+   "UKRAINE-11180755-01": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "shared_root",
+    "prev": "תקיפה אוקראינית משמעותית על גשר קרים והקרסת מקטע ממנו",
+    "score": 1.0
+   },
+   "UKRAINE-11180755-02": {
+    "kind": "new"
+   },
+   "UKRAINE-11180755-03": {
+    "kind": "new"
+   },
+   "UKRAINE-11180755-04": {
     "kind": "possible",
-    "prev": "חידוש תנועת כלי רכב בגשר קרים",
+    "prev": "חדירת כטב\"מים רוסיים למרחב האווירי של מולדובה וסגירת מעברי גבול",
     "score": 0.467
    },
-   "UKRAINE-11171930-02": {
-    "kind": "possible",
-    "prev": "נפילת שברי כטב\"ם בקייב",
-    "score": 0.633
-   },
-   "UKRAINE-11171930-03": {
+   "UKRAINE-11180755-05": {
     "kind": "new"
    },
-   "UKRAINE-11171930-04": {
+   "UKRAINE-11180755-06": {
     "kind": "new"
    },
-   "UKRAINE-11171930-05": {
+   "UKRAINE-11180755-07": {
     "kind": "new"
    },
-   "UKRAINE-11171930-06": {
+   "UKRAINE-11180755-08": {
     "kind": "new"
    },
-   "UKRAINE-11171930-07": {
+   "UKRAINE-11180755-09": {
     "kind": "new"
    },
-   "UKRAINE-11171930-08": {
-    "kind": "new"
+   "UKRAINE-11180755-10": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "shared_root",
+    "prev": "מתקפת טילים בליסטיים רוסית על גשרים בקייב",
+    "score": 1.0
    },
-   "UKRAINE-11171930-09": {
-    "kind": "new"
+   "UKRAINE-11180755-11": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "shared_root",
+    "prev": "נחיתת פוטין בסין לקראת פסגה משולשת",
+    "score": 1.0
    },
-   "UKRAINE-11171930-10": {
+   "UKRAINE-11180755-12": {
     "kind": "new"
    }
   }

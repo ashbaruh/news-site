@@ -217,6 +217,10 @@
 36.1992,
 37.1637
 ],
+"ali al salem air base, kuwait": [
+29.3498,
+47.5202
+],
 "aliaga, izmir, turkey": [
 38.8034,
 26.9714
@@ -1036,6 +1040,10 @@
 32.4407,
 34.9401
 ],
+"haftkel, iran": [
+31.4463,
+49.5289
+],
 "haifa, israel": [
 32.8191,
 34.9984
@@ -1448,6 +1456,10 @@
 "khokha, yemen": [
 13.8062,
 43.2494
+],
+"khomeyn, iran": [
+33.4203,
+49.6868
 ],
 "khor fakkan, uae": [
 25.3492,
@@ -2498,6 +2510,10 @@
 45.866,
 25.7865
 ],
+"shabelkivka, ukraine": [
+48.7506,
+37.4908
+],
 "shabwah, yemen": null,
 "shannon airport, ireland": [
 52.6987,
@@ -2940,6 +2956,10 @@
 "wadi slouki, lebanon": null,
 "wadi zibqin, lebanon": null,
 "warmian-masurian voivodeship, poland": null,
+"warsaw, poland": [
+52.2334,
+21.0711
+],
 "washington, d.c., united states": [
 38.8951,
 -77.0364
@@ -3070,6 +3090,10 @@
 "zibqine, lebanon": [
 33.1644,
 35.2665
+],
+"zlatopil, ukraine": [
+49.3896,
+36.2127
 ],
 "zmiinyi island, ukraine": [
 45.2548,

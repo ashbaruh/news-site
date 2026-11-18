@@ -1,0 +1,439 @@
+{
+ "status": "draft",
+ "received_sha256_12": "65962b556ce7",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 4,
+   "initial": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-18T07:53:48+00:00",
+  "window": {
+   "from": "2026-11-17T07:53:48+00:00",
+   "to": "2026-11-18T07:53:48+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611180753"
+  },
+  "summary": "העימות בין איראן לארצות הברית וישראל מחריף תוך גלישה לפגיעה ישירה בנתיבי השיט במצר הורמוז ובבסיסים במדינות המפרץ. טהרן תוקפת תשתיות וספינות ומקשיחה את עמדותיה המדיניות בעקבות השינויים הפוליטיים בוושינגטון, בעוד ארצות הברית וישראל מקדמות היערכות צבאית ומרחיבות את התקיפות נגד מטרות צבאיות איראניות. לצד העימות הצבאי הישיר נמשכים מאמצי סיכול של יוזמות תקיפה והתנקשות איראניות ברחבי העולם.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז ונתיבי השיט במפרץ",
+    "status": "הסלמה הכוללת פגיעה בכלי שיט מסחריים והפלת כלי טיס"
+   },
+   {
+    "name": "בסיסים ומטרות במדינות המפרץ (כווית ובחריין)",
+    "status": "שיגורי כטב\"מים וטילים איראניים אל עבר מתקנים ובסיסים אמריקניים"
+   },
+   {
+    "name": "תשתיות ובסיסים בשטח איראן",
+    "status": "תקיפות אמריקניות ממוקדות נגד מערכי שיגור וטענות לפגיעה במתקנים חיוניים"
+   },
+   {
+    "name": "זירה בינלאומית וסיכול פיגועים",
+    "status": "סיכול רשתות התנקשות ופגיעה ביעדים ישראליים ואמריקניים בחו\"ל"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11180753-01",
+    "title": "תקיפת כלי שיט במצר הורמוז",
+    "summary": "כלי שיט של חברת הנפט הלאומית של אבו דאבי הותקף במצר הורמוז. כתוצאה מכך נפצעו 11 אנשי צוות ואדם נוסף מוגדר נעדר. במקביל דווח על פגיעה במכלית גז באזור.",
+    "axis": "איראן - המפרץ / נתיבי שיט",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T18:20:59+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-17T18:20:59+00:00",
+    "last_update_at": "2026-11-18T07:27:54+00:00",
+    "what_is_not_verified": "זהות הגורם המבצע המדויק של הירי לעבר כלי השיט לא צוינה בהודעה הרשמית של החברה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_adnoc",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-company-says-11-wounded-one-missing-after-vessel-attacked-hormuz",
+      "published_at": "2026-11-18T07:27:54+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_adnoc",
+      "url": "https://www.theguardian.com/world/video/2026/nov/17/inferno-engulfs-gas-tanker-in-strait-of-hormuz-after-reported-strike-video",
+      "published_at": "2026-11-17T18:20:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11180753-02",
+    "title": "תקיפות כטב\"מים וטילים לעבר כווית ובחריין",
+    "summary": "הופעלו התרעות ובוצעו יירוטים בעקבות מתקפות כטב\"מים וטילים לעבר כווית ובחריין. צבא איראן קיבל אחריות על תקיפת מערכות פטריוט ומשגרי כטב\"מים בבסיס עלי א-סאלם בכווית.",
+    "axis": "איראן - מדינות המפרץ / ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T22:44:51+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T22:44:51+00:00",
+    "last_update_at": "2026-11-18T06:59:03+00:00",
+    "what_is_not_verified": "תוצאות התקיפה ונזקיה בבסיס עלי א-סאלם טרם אומתו או אושרו על ידי פיקוד המרכז האמריקני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwait-slams-iranian-attacks-its-territory",
+      "published_at": "2026-11-18T06:59:03+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133826",
+      "published_at": "2026-11-18T06:25:17+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86325322/Iranian-Army-targets-US-Patriot-systems-at-Kuwait-s-Ali-Al-Salem",
+      "published_at": "2026-11-18T06:10:45+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
+      "published_at": "2026-11-18T02:06:39+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49690",
+      "published_at": "2026-11-17T23:26:59+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49689",
+      "published_at": "2026-11-17T22:44:51+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס עלי א-סאלם, כווית",
+      "lat": 29.3498,
+      "lon": 47.5202
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11180753-03",
+    "title": "הפלת כטב\"ם אמריקאי סמוך למצר הורמוז",
+    "summary": "מערכות ההגנה האווירית של איראן הפילו כלי טיס בלתי מאויש אמריקאי מדגם לוקאס בסמוך למצר הורמוז.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T12:51:19+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T12:51:19+00:00",
+    "last_update_at": "2026-11-17T12:51:19+00:00",
+    "what_is_not_verified": "אין אישור רשמי מגורמי ביטחון אמריקניים על אובדן כלי הטיס.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95053",
+      "published_at": "2026-11-17T12:51:19+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11180753-04",
+    "title": "תקיפה אמריקנית באתר שיגור באי קשם ותקיפות תשתית באיראן",
+    "summary": "ארצות הברית תקפה אתר שיגור טילים של משמרות המהפכה באי קשם. דובר משרד החוץ האיראני טען כי הותקפו מאגרי מים ומתקני התפלה במספר מחוזות.",
+    "axis": "איראן - ארה\"ב / ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T14:39:16+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T14:39:16+00:00",
+    "last_update_at": "2026-11-18T07:22:25+00:00",
+    "what_is_not_verified": "היקף הפגיעה במתקנים אזרחיים ושימוש אמריקני אפשרי בפצצות גרפיט אינם מאומתים באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-foreign-minister-vows-unforgettable-response-if-us-israeli-attacks",
+      "published_at": "2026-11-18T07:22:25+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
+      "published_at": "2026-11-18T02:06:39+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rk11unk50zl",
+      "published_at": "2026-11-17T17:24:50+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261117-iran-us-graphite-blackout-bombs-infrastructure",
+      "published_at": "2026-11-17T14:39:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי קשם, איראן",
+      "lat": 26.7687,
+      "lon": 55.8477
+     },
+     {
+      "name": "ח'ומיין, איראן",
+      "lat": 33.4203,
+      "lon": 49.6868
+     },
+     {
+      "name": "הפתכל, איראן",
+      "lat": 31.4463,
+      "lon": 49.5289
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11180753-05",
+    "title": "חשיפת תוכניות לפגיעה בנציגויות ישראליות ובכירים אמריקנים",
+    "summary": "בארצות הברית נגזר מאסר ממושך על אזרח פקיסטני בגין קשירת קשר להתנקש בדונלד טראמפ בשליחות משמרות המהפכה. במקביל סוכלו כוונות פיגוע ביוון ובשגרירות ישראל בבנגקוק.",
+    "axis": "פעילות איראן בחו\"ל - ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T18:36:24+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-17T18:36:24+00:00",
+    "last_update_at": "2026-11-18T00:28:32+00:00",
+    "what_is_not_verified": "הפרטים המודיעיניים לגבי גיוס אנשי הדת בבנגקוק נשענים על הדלפות ממקורות ביטחון ולא על הודעה משפטית רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611184127",
+      "published_at": "2026-11-18T00:28:32+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
+      "published_at": "2026-11-18T00:21:33+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611173617",
+      "published_at": "2026-11-17T22:13:09+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rkghwzqagx",
+      "published_at": "2026-11-17T18:36:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארצות הברית",
+      "lat": 40.7127,
+      "lon": -74.006
+     },
+     {
+      "name": "בנגקוק, תאילנד",
+      "lat": 13.7525,
+      "lon": 100.4935
+     },
+     {
+      "name": "אתונה, יוון",
+      "lat": 37.9756,
+      "lon": 23.7348
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11180753-06",
+    "title": "הקשחת עמדות איראן במשא ומתן בעקבות תוצאות הבחירות בארה\"ב",
+    "summary": "הנהגת איראן הקשיחה את דרישותיה בשיחות מול ארצות הברית לאחר שראתה בבחירות האמצע תבוסה למדיניות המלחמה של טראמפ ואישור ליעילות הלחץ הכלכלי במצר הורמוז.",
+    "axis": "משא ומתן מדיני איראן - ארה\"ב",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T06:15:18+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-18T06:15:18+00:00",
+    "last_update_at": "2026-11-18T07:30:37+00:00",
+    "what_is_not_verified": "הערכות מודיעין נותרו חלוקות לגבי כוונותיה האמיתיות של טהרן בשיחות והאם פניה להסלמה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/ry6bstcazg",
+      "published_at": "2026-11-18T07:30:37+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21878106",
+      "published_at": "2026-11-18T07:03:35+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133825",
+      "published_at": "2026-11-18T06:15:18+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות איראן בדבר פגיעה ישירה של ארצות הברית במאגרי מים ומתקני התפלה אזרחיים",
+   "דיווחים על שימוש צבא ארה\"ב בפצצות גרפיט לשיבוש רשת החשמל באיראן",
+   "מידע מודיעיני אודות תוכנית איראנית לשימוש בנשק כימי או בפצצה מלוכלכת בוושינגטון",
+   "היקף הנזק הממשי במערכות פטריוט בבסיס עלי א-סאלם בכווית",
+   "מידת הרצינות של איראן בהגעה להסכם מדיני לעומת היערכות לתוכנית הסלמה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2463,
+    "unit": "ILS",
+    "change_pct": 0.69,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-17T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "תגובה חריפה לכל תוקפנות נגד מתקנים ותשתיות במדינה",
+     "הגנה על הריבונות ותקיפת יעדים צבאיים אמריקניים באזור בתגובה לפעולותיהם"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי דרך שיבוש הסחר הימי במצר הורמוז לשם השפעה על הפוליטיקה הפנימית בארה\"ב",
+     "שיפור עמדות המיקוח במשא ומתן המדיני באמצעות מנופי לחץ צבאיים ואזוריים"
+    ],
+    "forecast": [
+     "המשך מתקפות ממוקדות באמצעות כטב\"מים וטילים נגד אינטרסים מערביים במפרץ",
+     "החרפת פעולות ההטרדה במרחב הימי לצד שמירה על ערוצי המשא ומתן במקביל"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "הבטחת חופש השיט והביטחון הימי במפרץ",
+     "אזהרה מתגובה חסרת תקדים לכל ניסיון פגיעה באמצעים לא קונבנציונליים או פעולות טרור"
+    ],
+    "inferred": [
+     "שחיקת היכולות הצבאיות של משמרות המהפכה באמצעות תקיפות ממוקדות ומצור ימי",
+     "בלימת ההסלמה האיראנית מבלי להיגרר לעימות אזורי כולל וממושך"
+    ],
+    "forecast": [
+     "הגברת פריסת הכוחות ונושאות המטוסים במרחב לחיזוק ההרתעה",
+     "ביצוע תקיפות תגמול ממוקדות נגד מערכי שיגור כטב\"מים וטילים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "התרעה מפני שאיפות ההשמדה והתחמשות הגרעין של המשטר האיראני"
+    ],
+    "inferred": [
+     "תיאום מבצעי הדוק מול פיקוד המרכז האמריקני לקראת אפשרות של מהלומה צבאית נרחבת באיראן",
+     "סיכול ממוקד ומתמשך של תשתיות טרור וניסיונות פיגוע איראניים נגד יעדים ישראליים בעולם"
+    ],
+    "forecast": [
+     "המשך שיתוף הפעולה המודיעיני וההיערכות לפעולה התקפית בשטח איראן בתיאום עם וושינגטון"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261117-iran-us-graphite-blackout-bombs-infrastructure",
+    "accessed_at": "2026-11-18T07:53:48+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
+    "accessed_at": "2026-11-18T07:53:48+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611173617",
+    "accessed_at": "2026-11-18T07:53:48+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86325322/Iranian-Army-targets-US-Patriot-systems-at-Kuwait-s-Ali-Al-Salem",
+    "accessed_at": "2026-11-18T07:53:48+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21878106",
+    "accessed_at": "2026-11-18T07:53:48+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-foreign-minister-vows-unforgettable-response-if-us-israeli-attacks",
+    "accessed_at": "2026-11-18T07:53:48+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133825",
+    "accessed_at": "2026-11-18T07:53:48+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49689",
+    "accessed_at": "2026-11-18T07:53:48+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95053",
+    "accessed_at": "2026-11-18T07:53:48+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/ry6bstcazg",
+    "accessed_at": "2026-11-18T07:53:48+00:00"
+   }
+  ]
+ }
+}
