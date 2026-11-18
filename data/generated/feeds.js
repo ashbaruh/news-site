@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-18T20:17:24+00:00",
-  "fetched_at": "2026-11-18T20:17:24+00:00"
+  "checked_at": "2026-11-18T21:17:12+00:00",
+  "fetched_at": "2026-11-18T21:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T20:17:36+00:00",
-  "fetched_at": "2026-11-18T20:17:36+00:00"
+  "checked_at": "2026-11-18T21:17:25+00:00",
+  "fetched_at": "2026-11-18T21:17:25+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T20:17:37+00:00",
-  "fetched_at": "2026-11-18T20:17:37+00:00"
+  "checked_at": "2026-11-18T21:17:26+00:00",
+  "fetched_at": "2026-11-18T21:17:26+00:00"
  },
- "generated_at": "2026-11-18T20:17:37+00:00",
+ "generated_at": "2026-11-18T21:17:26+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,10 +94,15 @@ window.DB.generated = {
     {
      "title": "הרמטכ\"ל אייל זמיר נפגש בקריה עם מפקד פיקוד המרכז של צבא ארה\"ב (CENTCOM), אדמירל בראד קופר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001563868",
-     "date": "2026-11-18T17:16:00+00:00"
+     "date": "2026-11-18T21:00:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "מגמה מעורבת בוול סטריט; פרוטוקול הפד חושף: העלאות ריבית נוספות על הפרק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001563798",
+     "date": "2026-11-18T20:19:00+00:00"
+    },
     {
      "title": "הבכיר הישראלי שמוביל את רכישת דקארט בידי אמזון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564037",
@@ -107,11 +112,6 @@ window.DB.generated = {
      "title": "איל וולדמן: \"אנבידיה צריכה לשקול את החזרת ג'נסן לתפקיד המנכ\"ל\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564058",
      "date": "2026-11-18T17:51:00+00:00"
-    },
-    {
-     "title": "מגמה מעורבת בוול סטריט וירידות חדות באירופה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001563798",
-     "date": "2026-11-18T17:43:00+00:00"
     },
     {
      "title": "עם מסר חיובי, ויריב מושלם: חנן פרידמן קובע סטנדרט חדש, ולא בבנקאות",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-18T20:17:25+00:00",
-  "fetched_at": "2026-11-18T20:17:25+00:00"
+  "checked_at": "2026-11-18T21:17:13+00:00",
+  "fetched_at": "2026-11-18T21:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T20:17:25+00:00",
-  "fetched_at": "2026-11-18T20:17:25+00:00"
+  "checked_at": "2026-11-18T21:17:14+00:00",
+  "fetched_at": "2026-11-18T21:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2641,8 +2641,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T20:17:27+00:00",
-  "fetched_at": "2026-11-18T20:17:27+00:00"
+  "checked_at": "2026-11-18T21:17:16+00:00",
+  "fetched_at": "2026-11-18T21:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2732,8 +2732,8 @@ window.DB.generated = {
    "one_sided_tv": []
   },
   "ok": true,
-  "checked_at": "2026-11-18T20:17:27+00:00",
-  "fetched_at": "2026-11-18T20:17:27+00:00"
+  "checked_at": "2026-11-18T21:17:16+00:00",
+  "fetched_at": "2026-11-18T21:17:16+00:00"
  },
  "ai": {
   "data": {
@@ -2757,7 +2757,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 20,
+   "candidates": 21,
    "failed_sources": [
     "Anthropic"
    ],
@@ -2819,24 +2819,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
-     "title": "TRELLIS.2",
-     "desc_en": "High-fidelity 3D Generation from images",
-     "desc_he": "יצירת תלת מימד בנאמנות גבוהה מתמונות",
-     "likes": 2417,
-     "link": "https://huggingface.co/spaces/microsoft/TRELLIS.2"
-    },
-    {
      "title": "Jev Decision Index",
      "desc_en": "Benchmarks and news on various repros of TypeSafe's Jev",
      "desc_he": "מדדים וחדשות בפרופס שונות של Jev של TypeSafe",
      "likes": 950,
      "link": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
+    },
+    {
+     "title": "TRELLIS.2",
+     "desc_en": "High-fidelity 3D Generation from images",
+     "desc_he": "יצירת תלת מימד בנאמנות גבוהה מתמונות",
+     "likes": 2419,
+     "link": "https://huggingface.co/spaces/microsoft/TRELLIS.2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-18T20:17:35+00:00",
-  "fetched_at": "2026-11-18T20:17:35+00:00"
+  "checked_at": "2026-11-18T21:17:24+00:00",
+  "fetched_at": "2026-11-18T21:17:24+00:00"
  },
  "abroad": {
   "data": {
@@ -3178,8 +3178,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-18T20:17:30+00:00",
-  "fetched_at": "2026-11-18T20:17:30+00:00"
+  "checked_at": "2026-11-18T21:17:19+00:00",
+  "fetched_at": "2026-11-18T21:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -3210,98 +3210,98 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T20:17:30+00:00",
-  "fetched_at": "2026-11-18T20:17:30+00:00"
+  "checked_at": "2026-11-18T21:17:19+00:00",
+  "fetched_at": "2026-11-18T21:17:19+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-18T19:45:00+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "newest": "2026-11-18T21:03:00+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-18T17:43:00+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "newest": "2026-11-18T20:19:00+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-18T18:15:00+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-18T07:09:00+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-18T19:45:00+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "newest": "2026-11-18T21:33:00+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-18T19:00:00+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-18T19:29:00+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "newest": "2026-11-18T20:53:00+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-18T15:30:00+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-18T18:13:42+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-18T17:00:00+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-18T14:08:52+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-18T14:00:45+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-18T17:18:02+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-18T13:44:33+00:00",
-    "seen_at": "2026-11-18T20:17:37+00:00",
+    "seen_at": "2026-11-18T21:17:26+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-18T20:17:37+00:00"
+  "checked_at": "2026-11-18T21:17:26+00:00"
  },
  "health_news": {
   "data": [
@@ -3457,7 +3457,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-18T20:17:31+00:00",
-  "fetched_at": "2026-11-18T20:17:31+00:00"
+  "checked_at": "2026-11-18T21:17:20+00:00",
+  "fetched_at": "2026-11-18T21:17:20+00:00"
  }
 };
