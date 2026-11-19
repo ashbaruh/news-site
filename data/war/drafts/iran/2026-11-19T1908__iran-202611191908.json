@@ -1,0 +1,303 @@
+{
+ "status": "draft",
+ "received_sha256_12": "2c4c7b8682d8",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 3,
+   "initial": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-19T19:08:12+00:00",
+  "window": {
+   "from": "2026-11-18T19:08:12+00:00",
+   "to": "2026-11-19T19:08:12+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611191908"
+  },
+  "summary": "המתיחות בין איראן לקואליציה בהובלת ארצות הברית וישראל עומדת בפני צומת החלטה, כאשר ישראל לוחצת למכת מנע נרחבת בעוד וושינגטון שוקלת את צעדיה לקראת השנה הבאה. במקביל לסנקציות ולסגר ימי המכבידים על הכלכלה האיראנית, טהרן בוחנת חידוש של ייצוא הנפט ומשמרות המהפכה מדווחים על פגיעה במכליות במצר הורמוז. במישור הלא-קונבנציונלי גוברים הדיווחים ההדדיים והאזהרות בנוגע לפיתוח יכולות כימיות וביולוגיות בידי איראן.",
+  "fronts": [
+   {
+    "name": "הזירה הימית במפרץ הפרסי ומצר הורמוז",
+    "status": "חיכוך סביב הסגר האמריקני ומיקוש נתיבי שיט"
+   },
+   {
+    "name": "הציר המדיני-צבאי וושינגטון-ירושלים-טהראן",
+    "status": "דיונים על חידוש תקיפות צבאיות אל מול איומי נשק לא קונבנציונלי"
+   },
+   {
+    "name": "הזירה הכלכלית",
+    "status": "החמרת סנקציות, מצוקת אספקה באיראן וניסיונות ייצוא נפט"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11191908-01",
+    "title": "נשיא ארצות הברית דוחה החלטה לגבי המערכה מול איראן לשנה הבאה",
+    "summary": "דונלד טראמפ הצהיר כי אינו ממהר לקבל החלטות על מהלכיו הבאים מול איראן וממתין לתחילת השנה האזרחית החדשה, בעוד בישראל מפעילים לחץ לקבלת אישור לתקיפה.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-19T12:46:37+00:00",
+    "last_update_at": "2026-11-19T18:48:57+00:00",
+    "what_is_not_verified": "ההחלטה הסופית של הממשל האמריקני ומועד הפעולה המדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-he-not-rushing-decision-iran",
+      "published_at": "2026-11-19T18:48:57+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/hkeqfqncfg",
+      "published_at": "2026-11-19T18:07:34+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/trump-says-us-will-see-what-happens-conflict-iran-after-january-1",
+      "published_at": "2026-11-19T12:46:37+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11191908-02",
+    "title": "דיווחים על פגיעת מוקשים במכליות נפט במצר הורמוז",
+    "summary": "חיל הים של משמרות המהפכה הודיע כי שתי מכליות שהובילו יחד מעל ארבעה מיליון חביות נפט נפגעו ממוקשים ימיים במצר הורמוז.",
+    "axis": "איראן - המפרץ הפרסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T12:30:59+00:00",
+    "last_update_at": "2026-11-19T15:48:47+00:00",
+    "what_is_not_verified": "אימות עצמאי של פיצוץ המוקשים והיקף הנזק למכליות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/irans-irgc-says-tankers-4m-barrels-oil-hit-hormuz-mines-what-know",
+      "published_at": "2026-11-19T15:48:47+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21890623",
+      "published_at": "2026-11-19T12:30:59+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11191908-03",
+    "title": "טראמפ טוען כי איראן בוחנת פיתוח נשק כימי וביולוגי",
+    "summary": "נשיא ארצות הברית ציין בראיון כי ישנן אינדיקציות לכך שאיראן פונה לפיתוח נשק כימי וביולוגי לאחר שנחסם נתיב הגרעין שלה, ואיים בתגובה חריפה אם תפעל בנשק זה.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-19T06:31:01+00:00",
+    "last_update_at": "2026-11-19T17:29:09+00:00",
+    "what_is_not_verified": "מידת ההתקדמות של איראן בפיתוח נשק כימי וכוונת השימוש בו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95072",
+      "published_at": "2026-11-19T06:57:45+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133885",
+      "published_at": "2026-11-19T06:31:01+00:00"
+     },
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.fdd.org/analysis/iran-may-use-chemical-weapons-why-is-washington-starving-the-opcw/",
+      "published_at": "2026-11-19T17:29:09+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11191908-04",
+    "title": "הטענת נפט גולמי במפרץ הפרסי לקראת חידוש יצוא איראני",
+    "summary": "מכלית החלה בהטענת נפט איראני במפרץ חרף הסגר הימי שהטילה ארצות הברית, תוך בחינת חידוש הייצוא המסחרי לראשונה מזה מספר חודשים.",
+    "axis": "איראן - ארצות הברית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-19T18:21:00+00:00",
+    "last_update_at": "2026-11-19T18:21:00+00:00",
+    "what_is_not_verified": "האם המכלית תצליח לשבור את הסגר הימי בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611192862",
+      "published_at": "2026-11-19T18:21:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "המפרץ הפרסי",
+      "lat": 36.3237,
+      "lon": 50.012
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11191908-05",
+    "title": "עלויות המערכה הצבאית של ארצות הברית נגד איראן נחשפות",
+    "summary": "סגן החשב בפנטגון מסר למחוקקים כי הוצאות המלחמה של ארצות הברית מול איראן, שהחלה בפברואר במשותף עם ישראל, חצו את רף 48 מיליארד הדולרים.",
+    "axis": "ארצות הברית - איראן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-19T17:09:53+00:00",
+    "last_update_at": "2026-11-19T17:09:53+00:00",
+    "what_is_not_verified": "פירוט התקציבים המדויק לכל שלבי המערכה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-war-costs-surpass-48b-us-pentagon-official-says",
+      "published_at": "2026-11-19T17:09:53+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מידת הממשות של פיתוח נשק כימי או ביולוגי בידי איראן",
+   "אימות עצמאי לדיווח על שתי מכליות שנפגעו ממוקשים במצר הורמוז",
+   "כוונות הממשל האמריקני לגבי יציאה למבצע צבאי נוסף בראשית 2027"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2887,
+    "unit": "ILS",
+    "change_pct": 0.76,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-19T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "בלימת הנתיב של איראן לנשק גרעיני",
+     "תגובה חריפה והשמדה אם יופעל נשק כימי או ביולוגי נגד שטח ארצות הברית",
+     "המתנה לתחילת השנה לפני קבלת החלטות חדשות"
+    ],
+    "inferred": [
+     "הימנעות מהסלמה מיידית ומכניסה להרפתקה צבאית יקרה לפני התבהרות פוליטית",
+     "המשך הפעלת לחץ כלכלי וסגר ימי לחניקת המשטר"
+    ],
+    "forecast": [
+     "המשך אכיפת המצור הימי תוך דחיית תקיפות רחבות לפחות עד לתחילת 2027"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "התרעה על שיקום מערכי הטילים והכטב\"מים ופיתוח כימי וביולוגי באיראן",
+     "דרישה לפעול צבאית ולסיים את המערכה ללא כוחות קרקעיים"
+    ],
+    "inferred": [
+     "שאיפה לרתום את ארצות הברית וקואליציה אזורית לתקיפה מקדימה נרחבת בתשתיות איראניות",
+     "חשש מהתארגנות מחודשת של מערכי ההתקפה האיראניים"
+    ],
+    "forecast": [
+     "המשך מאמצי השכנוע המודיעיניים והמדיניים מול הממשל בוושינגטון לקבלת גיבוי צבאי"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "גינוי הסנקציות והמוסר הכפול של המערב",
+     "הודעה על הימצאות טילים בטווחים של עד 4,500 קילומטרים",
+     "טענות לפגיעה בכלי שיט המפרים את המרחב במצר הורמוז"
+    ],
+    "inferred": [
+     "שבירת הסגר הימי על מנת להכניס כספים למשק הנתון במחנק כבד",
+     "יצירת מאזן הרתעה חדש באמצעות איומים ביכולות בלתי קונבנציונליות ופגיעה בנתיבי הנפט"
+    ],
+    "forecast": [
+     "המשך ניסיונות הברחת נפט וחיכוך נקודתי במימי המפרץ כדי לאלץ הקלה בלחץ"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/irans-irgc-says-tankers-4m-barrels-oil-hit-hormuz-mines-what-know",
+    "accessed_at": "2026-11-19T19:08:12+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/iran-may-use-chemical-weapons-why-is-washington-starving-the-opcw/",
+    "accessed_at": "2026-11-19T19:08:12+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611192862",
+    "accessed_at": "2026-11-19T19:08:12+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21890623",
+    "accessed_at": "2026-11-19T19:08:12+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-war-costs-surpass-48b-us-pentagon-official-says",
+    "accessed_at": "2026-11-19T19:08:12+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133885",
+    "accessed_at": "2026-11-19T19:08:12+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95072",
+    "accessed_at": "2026-11-19T19:08:12+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/hkeqfqncfg",
+    "accessed_at": "2026-11-19T19:08:12+00:00"
+   }
+  ]
+ }
+}

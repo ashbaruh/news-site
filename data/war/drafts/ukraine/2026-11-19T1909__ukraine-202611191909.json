@@ -1,0 +1,416 @@
+{
+ "status": "draft",
+ "received_sha256_12": "d1cb76a4e3ae",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "shared_root": 5,
+   "initial": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-19T19:09:54+00:00",
+  "window": {
+   "from": "2026-11-18T19:09:54+00:00",
+   "to": "2026-11-19T19:09:54+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202611191909"
+  },
+  "summary": "העימות הצבאי בין אוקראינה לרוסיה החריף בעקבות סדרת תקיפות אוקראיניות שגרמו נזק כבד לגשר קרים ומתקפות נגד של כטב\"מים רוסיים על קייב וזפוריז'יה. בזירה המדינית מסתמנת מתיחות בין ארצות הברית לבעלות בריתה באירופה סביב המשך מימון הסיוע, בעוד מנהיגי אירופה ואוקראינה דורשים שילוב במשא ומתן עתידי לצד ערבויות ביטחוניות מוצקות. רוסיה מקשיחה את עמדותיה בתגובה לפגיעות בתשתיותיה האסטרטגיות ומשעה דיונים על הפסקות אש מקומיות.",
+  "fronts": [
+   {
+    "name": "מצר קרץ' וחצי האי קרים",
+    "status": "הסלמה בעקבות פגיעות חוזרות במקטעי הכביש והרכבת של הגשר"
+   },
+   {
+    "name": "מרחב קייב והעורף",
+    "status": "מתקפות כטב\"מים רוסיות מול פריסת אמצעי הגנה אווירית חדשים"
+   },
+   {
+    "name": "מחוז זפוריז'יה",
+    "status": "תקיפות רחפנים ופגיעות באזרחים"
+   },
+   {
+    "name": "מחוז דונצק (שילובקה)",
+    "status": "לחימה מקומית והכחשת טענות רוסיות על כיבוש יישובים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11191909-01",
+    "title": "תקיפות אוקראיניות חוזרות ונזק לגשר קרים",
+    "summary": "אוקראינה ביצעה סדרת תקיפות נגד גשר קרים, כולל שיגור טילי רוטה ופגיעה שלישית בתוך שבוע, שהובילו לקריסת מקטע כביש ולשיבוש תנועת הרכבות.",
+    "axis": "חצי האי קרים ומצר קרץ'",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T10:03:42+00:00",
+    "last_update_at": "2026-11-19T19:07:36+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק למסילת הרכבת ומשך הזמן שיידרש לתיקון הגשר במלואו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/19/putin-vows-painful-response-to-ukraine-bombing-of-kerch-bridge",
+      "published_at": "2026-11-19T19:07:36+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/19/satellite-images-show-a-collapsed-span-of-the-crimean-bridge-after-ukraine-s-third-strike-in-a-week",
+      "published_at": "2026-11-19T18:11:41+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/11/19/ukraine-struck-the-crimean-bridge-with-missiles-made-by-a-dutch-company-two-days-later-a-russian-drone-crashed-near-the-dutch-embassy-in-kyiv",
+      "published_at": "2026-11-19T17:53:39+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+      "published_at": "2026-11-19T10:03:42+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר קרץ', קרים",
+      "lat": 45.281,
+      "lon": 36.5492
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11191909-02",
+    "title": "הצהרת פוטין על תגובה כואבת והשעיית יוזמות להפסקת אש",
+    "summary": "ולדימיר פוטין הצהיר כי תגובת רוסיה לפגיעה בגשר קרים תהיה קשה, וטען כי נסוג מכוונה להסכים להפסקות אש מקומיות בעקבות האירוע.",
+    "axis": "הזירה המדינית-ביטחונית הרוסית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T17:23:44+00:00",
+    "last_update_at": "2026-11-19T19:07:43+00:00",
+    "what_is_not_verified": "האם אכן נשקלו הפסקות אש מקומיות במועצת הביטחון הרוסית טרם התקיפה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/19/trump-tells-european-leaders-that-putin-wants-to-end-the-war-in-ukraine-but-putin-says-moscow-won-t-negotiate-with-kyiv-after-crimean-bridge-strikes",
+      "published_at": "2026-11-19T19:07:43+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/19/putin-vows-painful-response-to-ukraine-bombing-of-kerch-bridge",
+      "published_at": "2026-11-19T19:07:36+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/",
+      "published_at": "2026-11-19T17:23:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11191909-03",
+    "title": "פסגה משולשת בסין ושיחות קואליציית המדינות בברלין",
+    "summary": "במקביל לפסגה של מנהיגי ארצות הברית, רוסיה וסין שפרסמה הצהרה כללית ללא אזכור אוקראינה, התכנסו בברלין מנהיגי אירופה, זלנסקי ושליחי הממשל האמריקני לדון בערבויות ביטחון ובמשא ומתן עתידי.",
+    "axis": "הזירה המדינית הבינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T17:13:23+00:00",
+    "last_update_at": "2026-11-19T19:07:43+00:00",
+    "what_is_not_verified": "מידת ההסכמה האמיתית של רוסיה למנגנון ערבויות הדומה לסעיף חמש של נאט\"ו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/19/trump-tells-european-leaders-that-putin-wants-to-end-the-war-in-ukraine-but-putin-says-moscow-won-t-negotiate-with-kyiv-after-crimean-bridge-strikes",
+      "published_at": "2026-11-19T19:07:43+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/19/8063695/",
+      "published_at": "2026-11-19T18:17:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/19/8063690/",
+      "published_at": "2026-11-19T18:02:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/19/8063685/",
+      "published_at": "2026-11-19T17:23:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
+      "published_at": "2026-11-19T17:13:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ברלין, גרמניה",
+      "lat": 52.5174,
+      "lon": 13.3951
+     },
+     {
+      "name": "שנג'ן, סין",
+      "lat": 22.5446,
+      "lon": 114.0545
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11191909-04",
+    "title": "מתקפת כטב\"מים רוסית על קייב ופגיעה בסביבת שגרירויות זרות",
+    "summary": "כטב\"ם רוסי שיורט או התרסק בקייב פגע במבנה מאחורי שגרירות הולנד וגרם נזק לשגרירות אוסטריה, באירוע שנצפה מקרוב גם על ידי שגרירת האיחוד האירופי.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T17:10:00+00:00",
+    "last_update_at": "2026-11-19T17:53:39+00:00",
+    "what_is_not_verified": "האם המבנים הדיפלומטיים היו יעד מכוון בתקיפה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_3dd009bbd5e83c1b",
+      "url": "https://meduza.io/en/feature/2026/11/19/ukraine-struck-the-crimean-bridge-with-missiles-made-by-a-dutch-company-two-days-later-a-russian-drone-crashed-near-the-dutch-embassy-in-kyiv",
+      "published_at": "2026-11-19T17:53:39+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_3dd009bbd5e83c1b",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/19/8063681/",
+      "published_at": "2026-11-19T17:10:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11191909-05",
+    "title": "הרוג אזרחי מפגיעת רחפן קרב במחוז זפוריז'יה",
+    "summary": "אדם נהרג כתוצאה מפגיעת רחפן תקיפה רוסי ביישוב קושוהום שבמחוז זפוריז'יה.",
+    "axis": "חזית הדרום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T18:44:00+00:00",
+    "last_update_at": "2026-11-19T18:44:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_8c92848093feb630",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/19/8063697/",
+      "published_at": "2026-11-19T18:44:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11191909-06",
+    "title": "מעצר אזרח רוסי בארצות הברית בחשד לריגול נגד חברת ביטחון המסייעת לאוקראינה",
+    "summary": "רשויות החוק בארצות הברית עצרו אזרח רוסי שנכנס למדינה והפעיל מעקב אחר עובדי חברת פלנטיר, המספקת מערכות ניתוח נתונים לאוקראינה ולפנטגון.",
+    "axis": "לוחמת מודיעין וסייבר בינלאומית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T23:28:03+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T23:28:03+00:00",
+    "last_update_at": "2026-11-19T18:54:07+00:00",
+    "what_is_not_verified": "היקף החומר המודיעיני שהספיק החשוד להעביר למפעיליו ברוסיה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/feature/2026/11/19/u-s-charges-25-year-old-russian-with-spying-on-palantir-employees-he-photographed-their-laptops-in-a-coffee-shop-and-tracked-their-movements",
+      "published_at": "2026-11-19T18:54:07+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-18T23:28:03+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פאלו אלטו, קליפורניה, ארצות הברית",
+      "lat": 37.4443,
+      "lon": -122.1598
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11191909-07",
+    "title": "הצבת מערכת לייזר ניסיונית להגנה אווירית בקייב",
+    "summary": "חברה ביטחונית פרסה מערכת יירוט לייזר ניסיונית בשם בליסק במסגרת מערך ההגנה האווירית של קייב נגד כטב\"מים.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T17:55:51+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-19T17:55:51+00:00",
+    "last_update_at": "2026-11-19T17:55:51+00:00",
+    "what_is_not_verified": "רמת היעילות המבצעית של המערכת ביירוטים בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-deploys-experimental-laser-air-defense-system-in-kyiv/",
+      "published_at": "2026-11-19T17:55:51+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת רוסיה על כיבוש היישוב שילובקה במחוז דונצק, שהוכחשה בידי צבא אוקראינה.",
+   "הדיווחים שלפיהם רוסיה אכן הסכימה למתווה ערבויות ביטחון המבוסס על סעיף חמש.",
+   "הערכות מקורות ביטחוניים רוסיים על כוונת אוקראינה לתקוף גשרים במוסקבה וברוסטוב.",
+   "היקף הנזק המדויק והזמן הדרוש לשיקום גשר קרים."
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.0992,
+    "unit": "USD",
+    "change_pct": 0.22,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-19T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "שילוב נציגות אירופית מלאה בכל פורמט של שיחות שלום",
+     "השגת ערבויות ביטחון מוצקות ושימור הריבונות הטריטוריאלית"
+    ],
+    "inferred": [
+     "שיבוש צירי אספקה לוגיסטיים חיוניים של הצבא הרוסי בקרים",
+     "מניעת הגעה להסדרים הנכפים עליה במשא ומתן בין המעצמות ללא מעורבותה"
+    ],
+    "forecast": [
+     "המשך ניסיונות לפגוע בעומק תשתיות התחבורה והאנרגיה הרוסיות"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "תגובה מכאיבה על הפגיעה בגשר קרים",
+     "סירוב לקדם הפסקות אש או משא ומתן בעקבות התקיפות על הגשר"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי מוגבר על תשתיות ומטרות דיפלומטיות בקייב",
+     "ניסיון להגיע להבנות ישירות מול ארצות הברית תוך עקיפת קייב ואירופה"
+    ],
+    "forecast": [
+     "החרפת גלי התקיפה באמצעות כטב\"מים וטילים לעבר מטרות בעורף האוקראיני"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "חתירה לסיום מהיר של המלחמה כדי לעצור את הרג בני האדם",
+     "קידום תוכנית שגשוג וביטחון לאוקראינה לאחר המלחמה"
+    ],
+    "inferred": [
+     "צמצום ההוצאה הכספית והסיוע הצבאי הישיר לאוקראינה",
+     "הפעלת לחץ על מדינות אירופה לקחת על עצמן את עיקר המימון"
+    ],
+    "forecast": [
+     "המשך דחיפה למשא ומתן להפסקת אש תוך התניית ערבויות באינטרס אמריקני"
+    ]
+   },
+   {
+    "actor": "מדינות אירופה",
+    "declared": [
+     "שמירה על ריבונות אוקראינה כחלק מביטחון אירופה",
+     "דרישה למשא ומתן מרובע בהשתתפות אירופה, אוקראינה, ארצות הברית ורוסיה"
+    ],
+    "inferred": [
+     "חשש מהסכם אמריקני-רוסי שיפגע במבנה הביטחון האירופי",
+     "בחינת אפשרות להקלה מדורגת בעיצומים בתמורה להתקדמות בהסדר"
+    ],
+    "forecast": [
+     "התגברות המאמצים הדיפלומטיים לביסוס מקומן סביב שולחן המשא ומתן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-19T19:09:54+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
+    "accessed_at": "2026-11-19T19:09:54+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-deploys-experimental-laser-air-defense-system-in-kyiv/",
+    "accessed_at": "2026-11-19T19:09:54+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/feature/2026/11/19/u-s-charges-25-year-old-russian-with-spying-on-palantir-employees-he-photographed-their-laptops-in-a-coffee-shop-and-tracked-their-movements",
+    "accessed_at": "2026-11-19T19:09:54+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/19/8063697/",
+    "accessed_at": "2026-11-19T19:09:54+00:00"
+   }
+  ]
+ }
+}

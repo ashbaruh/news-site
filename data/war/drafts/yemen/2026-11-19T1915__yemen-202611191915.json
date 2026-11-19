@@ -1,0 +1,466 @@
+{
+ "status": "draft",
+ "received_sha256_12": "747b552ee738",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 6,
+   "initial": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-19T19:15:35+00:00",
+  "window": {
+   "from": "2026-11-18T19:15:35+00:00",
+   "to": "2026-11-19T19:15:35+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202611191915"
+  },
+  "summary": "העימות בתימן מסלים עם התקדמות קרקעית של כוחות החות'ים לעבר מחוז לאחג' והאיום המתגבר על העיר עדן, לצד המשך קרבות קשים במרחב תעז. במקביל, החות'ים מעמיקים את הפגיעה בעומק סעודיה באמצעות ירי טילים ופגיעה ישירה במרכז העסקים בריאד, כמו גם טענות לפגיעה בתשתיות נפט. סעודיה מצידה שינתה את שרשרת הפיקוד על המערכה ונערכת להמשך הלחימה אל תוך שנת 2027 במטרה לבלום את ההישגים של יריביה.",
+  "fronts": [
+   {
+    "name": "סעודיה - תימן (עומק סעודיה)",
+    "status": "הסלמה בתקיפות טילים וכטב\"מים של החות'ים נגד מטרות כלכליות בריאד ותשתיות נפט, לצד תקיפות אוויריות סעודיות בצנעא"
+   },
+   {
+    "name": "דרום תימן (לאחג' - עדן)",
+    "status": "לחץ חות'י גובר והתקדמות לעבר לאחג' במקביל לנסיגת כוחות הדרום מעמדות שליטה סמוך למצר באב אל-מנדב"
+   },
+   {
+    "name": "תעז",
+    "status": "קרבות עזים ולחימה מתמשכת סביב העיר הנצורה במקביל למשבר הומניטרי חריף"
+   },
+   {
+    "name": "מרחב ים סוף וסודאן",
+    "status": "מאמצים להרחבת השפעה וחיפוש נתיבי אספקה חלופיים באמצעות התבססות מול חופי סודאן"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11191915-01",
+    "title": "פגיעת טיל של החות'ים במגדל קרן ההשקעות בריאד ויירוט שיגורים נוספים",
+    "summary": "טיל ששוגר על ידי החות'ים פגע בגורד השחקים שבו שוכנת קרן העושר הריבונית של סעודיה בריאד וגרם נזק למספר קומות, בעוד שכוחות ההגנה האזרחית יירטו שיגורים נוספים.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T07:27:11+00:00",
+    "last_update_at": "2026-11-19T18:10:58+00:00",
+    "what_is_not_verified": "קיימת אי-התאמה בין המקורות לגבי מספר הקומות שניזוקו (חמש מול שבע עד שמונה), וסרטוני הפגיעה לא אומתו באופן עצמאי בחלק מהדיווחים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-hit-saudi-arabias-sovereign-wealth-fund-skyscraper",
+      "published_at": "2026-11-19T18:10:58+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133916",
+      "published_at": "2026-11-19T16:50:43+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/riyadh-tower-damaged-houthi-missile-attack",
+      "published_at": "2026-11-19T16:24:29+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/sjwhr00hczx",
+      "published_at": "2026-11-19T14:08:48+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/riyadhs-tallest-skyscraper-hit-houthi-strike-saudi-wealth-fund-hq",
+      "published_at": "2026-11-19T12:46:37+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks",
+      "published_at": "2026-11-19T07:58:16+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/china-us-and-russia-meet-tensions-soar-middle-east",
+      "published_at": "2026-11-19T07:27:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11191915-02",
+    "title": "גינויים רשמיים של סעודיה וממשלת תימן למתקפה בריאד",
+    "summary": "משרד החוץ הסעודי וממשלת תימן פרסמו גינויים חריפים לתקיפת המרכז הפיננסי בריאד בידי החות'ים, והדגישו כי לא יסבלו תוקפנות וכי ביטחון שתי המדינות שלוב זה בזה.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T16:20:30+00:00",
+    "last_update_at": "2026-11-19T18:12:46+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_3fb7b70ac87ea4cf",
+      "url": "https://www.sabanew.net/viewstory/156100",
+      "published_at": "2026-11-19T18:12:46+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_3fb7b70ac87ea4cf",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-condemns-houthi-attacks-riyadh",
+      "published_at": "2026-11-19T16:20:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11191915-03",
+    "title": "התקדמות החות'ים לעבר עדן ונסיגת כוחות הדרום בחוף המערבי",
+    "summary": "הכוחות החות'יים התקדמו לעבר עמדות במחוז לאחג' במרחק של כשישים קילומטרים מעדן, במקביל לנסיגת כוחות דרום תימן מאזור מצר באב אל-מנדב ושדה התעופה בד'ובאב לצורך היערכות מחדש.",
+    "axis": "פנים-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T17:20:36+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-18T17:20:36+00:00",
+    "last_update_at": "2026-11-18T19:15:35+00:00",
+    "what_is_not_verified": "היקף השליטה המדויק של החות'ים בעמדות בלאחג' והאם הנסיגה היא מהלך טקטי יזום או נסיגה תחת לחץ צבאי.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/centcom-chief-israel-following-us-iran-strikes-gulf",
+      "published_at": "2026-11-18T18:12:55+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-appoints-new-yemen-commander-amid-setbacks",
+      "published_at": "2026-11-18T17:20:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לאחג', תימן",
+      "lat": 13.0578,
+      "lon": 44.8836
+     },
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     },
+     {
+      "name": "באב אל-מנדב, תימן",
+      "lat": 12.714,
+      "lon": 43.5008
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11191915-04",
+    "title": "קרבות עזים בתעז ותקיפות אוויריות סעודיות בצנעא",
+    "summary": "קרבות כבדים התרחשו מסביב לעיר הנצורה תעז, לצד דיווחים על תקיפות אוויריות של הקואליציה בראשות סעודיה בבירה צנעא והחמרת משבר המים בתעז.",
+    "axis": "פנים-תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-19T07:27:11+00:00",
+    "last_update_at": "2026-11-19T16:59:38+00:00",
+    "what_is_not_verified": "תוצאות התקיפות האוויריות בצנעא וזהות היעדים המדויקים שהותקפו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/19/yemens-besieged-city-of-taiz-faces-a-deepening-water-crisis?traffic_source=rss",
+      "published_at": "2026-11-19T16:59:38+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/riyadh-tower-damaged-houthi-missile-attack",
+      "published_at": "2026-11-19T16:24:29+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/china-us-and-russia-meet-tensions-soar-middle-east",
+      "published_at": "2026-11-19T07:27:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11191915-05",
+    "title": "טענת החות'ים לתקיפת תחנות שאיבה בצינור הנפט הסעודי",
+    "summary": "החות'ים טענו כי ביצעו מתקפות באמצעות כלי טיס בלתי מאוישים נגד תחנות שאיבה המשרתות את צינור הנפט מזרח-מערב בסעודיה.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T18:12:55+00:00",
+    "last_update_at": "2026-11-18T19:15:35+00:00",
+    "what_is_not_verified": "אין אימות סעודי או עצמאי לעצם הפגיעה או להיקף הנזק בתחנות השאיבה.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/centcom-chief-israel-following-us-iran-strikes-gulf",
+      "published_at": "2026-11-18T18:12:55+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11191915-06",
+    "title": "החלפת מפקד כוחות הקואליציה בתימן והיערכות סעודית למערכה ממושכת",
+    "summary": "סעודיה מינתה את רמטכ\"ל צבאה לפקד על כוחות הקואליציה בתימן במטרה לייעל את הפיקוד מול נסיגות בשטח, ובמקביל נערכת להמשך הלחימה עד לשנת 2027.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-16T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-18T17:20:36+00:00",
+    "last_update_at": "2026-11-19T00:44:42+00:00",
+    "what_is_not_verified": "ההערכות על כוונת סעודיה להמשיך בלחימה עד שנת 2027 נמסרו בעילום שם ולא אושרו רשמית על ידי משרד החוץ הסעודי.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudis-preparing-yemen-campaign-last-well-2027",
+      "published_at": "2026-11-19T00:44:42+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-arabia-appoints-new-yemen-commander-amid-setbacks",
+      "published_at": "2026-11-18T17:20:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11191915-07",
+    "title": "ניסיונות של החות'ים ואיראן לבסס אחיזה בחוף ים סוף בסודאן",
+    "summary": "החות'ים ואיראן פועלים להרחבת נוכחותם ולבניית קשרים עם פלגים בצבא סודאן במטרה להשיג נתיבי אספקה חלופיים לאורך חופי ים סוף.",
+    "axis": "הים האדום",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T13:11:04+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-19T13:11:04+00:00",
+    "last_update_at": "2026-11-19T13:11:04+00:00",
+    "what_is_not_verified": "רמת הקשר המעשי בשטח בין החות'ים לקבוצות בתוך צבא סודאן אינה מאומתת מעבר להערכות מודיעיניות ופוליטיות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/analysis/port-sudan-red-sea-hub-caught-between-two-conflicts",
+      "published_at": "2026-11-19T13:11:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פורט סודאן, סודאן",
+      "lat": 19.6192,
+      "lon": 37.2117
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11191915-08",
+    "title": "פנייה של ממשלת תימן למועצת הביטחון בנוגע להסלמה החות'ית",
+    "summary": "ממשלת תימן שיגרה איגרת לאו\"ם ולמועצת הביטחון במחאה על המשך ההסלמה הצבאית של החות'ים במחוזות עדן, לאחג' ותעז, וקיימה שיחות מדיניות בנושא עם עומאן.",
+    "axis": "פנים-תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T13:50:49+00:00",
+    "last_update_at": "2026-11-19T16:44:12+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_2a460cd87af4de49",
+      "url": "https://www.sabanew.net/viewstory/156090",
+      "published_at": "2026-11-19T16:44:12+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_6eb81516cf030ff8",
+      "url": "https://www.sabanew.net/viewstory/156079",
+      "published_at": "2026-11-19T13:50:49+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "מספר הקומות המדויק שנפגע בגורד השחקים בריאד (נמסרו גרסאות שונות של חמש מול שבע עד שמונה קומות).",
+   "מידת הנזק והאימות העצמאי לתקיפת תחנות השאיבה בצינור הנפט הסעודי שנטענה על ידי החות'ים.",
+   "ההערכות הדיפלומטיות הלא-רשמיות בדבר משך הלחימה המתוכנן של סעודיה עד שנת 2027.",
+   "מידת הקשר המעשי ושיתוף הפעולה בין החות'ים לפלגים בצבא סודאן בפורט סודאן."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2887,
+    "unit": "ILS",
+    "change_pct": 0.76,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-19T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית",
+    "declared": [
+     "פגיעה ביעדים כלכליים ותשתיות אזרחיות ונפט בסעודיה בתגובה למלחמה",
+     "המשך הפעילות הצבאית בחזיתות תימן והתקדמות לעבר עדן"
+    ],
+    "inferred": [
+     "ערעור תדמית היציבות והביטחון הכלכלי של סעודיה כמגנט השקעות בינלאומי",
+     "הפעלת לחץ צבאי לכיבוש מוקדי כוח בדרום תימן והשגת יתרון לפני משא ומתן אפשרי",
+     "הרחבת מרחב התמרון הלוגיסטי באמצעות אחיזה בחופי ים סוף גם מחוץ לגבולות תימן"
+    ],
+    "forecast": [
+     "המשך שיגורי טילים וכלי טיס בלתי מאוישים לעבר יעדים כלכליים בסעודיה",
+     "החרפת הלחץ הצבאי על מבואות העיר עדן וסביבות מצר באב אל-מנדב"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "אי-הבלגה על כל פגיעה בשטח הממלכה, בנכסיה ובתשתיותיה",
+     "הגנה על מרחב הבירה והמשך הפעילות הצבאית של כוחות הקואליציה בתימן"
+    ],
+    "inferred": [
+     "ייעול וריכוז השליטה המבצעית תחת פיקוד הרמטכ\"ל לבלימת נסיגות הכוחות המקומיים",
+     "השגת הישגים טריטוריאליים בשטח עבור בעלי בריתם בתימן בטרם פתיחה במגעים דיפלומטיים",
+     "ניסיון להשיג סיוע התקפי אמריקאי כדי להכריע את המערכה הצבאית"
+    ],
+    "forecast": [
+     "הגברת תקיפות האוויר נגד יעדי שלטון ותשתית של החות'ים בצנעא ובחזיתות הלחימה",
+     "התמשכות המערכה הצבאית בתימן למשך חודשים ארוכים נוספים"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן וכוחות הדרום",
+    "declared": [
+     "היערכות מחדש לחיזוק ההגנה על הבירה הזמנית עדן והסרת המצור מעל תעז",
+     "פנייה לקהילה הבינלאומית ולאו\"ם לבלימת ההסלמה של המיליציות החות'יות"
+    ],
+    "inferred": [
+     "ניסיון לבלום את קריסת הקווים בלאחג' ולמנוע כיתור או ניתוק של עדן",
+     "תלות מוחלטת בגיבוי צבאי ואווירי מסעודיה כדי למנוע הידרדרות נוספת"
+    ],
+    "forecast": [
+     "התבצרות במרחב עדן וריכוז כוחות בלימה מול מאמצי ההתקדמות של החות'ים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/19/yemens-besieged-city-of-taiz-faces-a-deepening-water-crisis?traffic_source=rss",
+    "accessed_at": "2026-11-19T19:15:35+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/riyadhs-tallest-skyscraper-hit-houthi-strike-saudi-wealth-fund-hq",
+    "accessed_at": "2026-11-19T19:15:35+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks",
+    "accessed_at": "2026-11-19T19:15:35+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-condemns-houthi-attacks-riyadh",
+    "accessed_at": "2026-11-19T19:15:35+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/analysis/port-sudan-red-sea-hub-caught-between-two-conflicts",
+    "accessed_at": "2026-11-19T19:15:35+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/156079",
+    "accessed_at": "2026-11-19T19:15:35+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133916",
+    "accessed_at": "2026-11-19T19:15:35+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/sjwhr00hczx",
+    "accessed_at": "2026-11-19T19:15:35+00:00"
+   }
+  ]
+ }
+}
