@@ -1,106 +1,83 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-18T18:00:00+02:00",
- "generated_at": "2026-11-18T17:10:24+00:00",
- "model": "gemini-3.8-flash",
+ "slot": "2026-11-19T04:00:00+02:00",
+ "generated_at": "2026-11-19T01:40:22+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11181710-01",
-     "title": "תקיפה אמריקנית באי קשם ובדרום איראן",
-     "summary": "כלי טיס של ארצות הברית תקפו אתר שיגור טילים של משמרות המהפכה באי קשם, לצד דיווחים על פיצוצים בבנדר עבאס.",
-     "axis": "עימות צבאי ישיר בין ארה\"ב לאיראן",
+     "id": "IRAN-11190140-01",
+     "title": "סנקציות אמריקאיות על ארגון צדקה",
+     "summary": "משרד האוצר האמריקאי הטיל סנקציות על אגודת צדקה שהואשמה במימון חזבאללה ובפעילות רשת להברחת זהב וכספים.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T19:11:01+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T19:11:01+00:00",
+     "last_update_at": "2026-11-18T19:11:01+00:00",
+     "what_is_not_verified": "הטענות על הברחות והסתוות הפעילות אינן מאומתות ממקור עצמאי.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/133877",
+       "published_at": "2026-11-18T19:11:01+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11190140-02",
+     "title": "פגיעה במכלית דעת ליד עומאן",
+     "summary": "מכלית נפגעה מפגעי לא ידוע במפרץ הורמוז בסמוך לח'סב בעומאן, הצוות פונה בשלום.",
+     "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
+     "occurred_at": "2026-11-18T23:13:28+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-18T14:32:48+00:00",
-     "last_update_at": "2026-11-18T17:06:52+00:00",
-     "what_is_not_verified": "פרטי הפגיעות המדויקים ונסיבות הפיצוצים בבנדר עבאס טרם אומתו באופן עצמאי מעבר לדיווחים המצוטטים.",
+     "first_reported_at": "2026-11-18T23:13:28+00:00",
+     "last_update_at": "2026-11-18T23:13:28+00:00",
+     "what_is_not_verified": "זהות הקליע והיקף הנזק המלא אינם מאומתים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-attacks-irans-qeshm-island",
-       "published_at": "2026-11-18T17:06:52+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133858",
-       "published_at": "2026-11-18T14:48:43+00:00"
-      },
-      {
-       "source_id": "src_tg_lelotsenzura",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/lelotsenzura/95067",
-       "published_at": "2026-11-18T14:32:48+00:00"
+       "source_root_id": "fh_497021c795b387be",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-struck-unknown-projectile-near-omans-khasab-ukmto-says",
+       "published_at": "2026-11-18T23:13:28+00:00"
       }
      ],
      "places": [
       {
-       "name": "האי קשם, איראן",
-       "lat": 26.7687,
-       "lon": 55.8477
-      },
-      {
-       "name": "בנדר עבאס, איראן",
-       "lat": 27.1842,
-       "lon": 56.2893
+       "name": "ח'סב, עומאן",
+       "lat": 26.1841,
+       "lon": 56.247
       }
      ]
     },
     {
-     "id": "IRAN-11181710-02",
-     "title": "שיחות של ראש המוסד בוושינגטון על תקיפות באיראן",
-     "summary": "ראש המוסד רומן גופמן קידם פגישות עם בכירים בממשל האמריקני במטרה לתאם תקיפות משותפות נגד איראן.",
-     "axis": "תיאום מודיעיני ומבצעי ישראל-ארה\"ב נגד איראן",
+     "id": "IRAN-11190140-03",
+     "title": "שריפת מכליות נפט מזרחית להורמוז",
+     "summary": "חיל הים האיראני דיווח כי שלוש מכליות נפט עלו באש לאחר שפגעו במוקשים ימיים מזרחיות למצר הורמוז.",
+     "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-18T16:46:40+00:00",
+     "occurred_at": "2026-11-18T20:34:34+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-18T16:46:40+00:00",
-     "last_update_at": "2026-11-18T16:46:40+00:00",
-     "what_is_not_verified": "המידע מבוסס על מקורות ששוחחו עם רויטרס ולא נמסר אישור רשמי של המוסד או הממשל.",
+     "first_reported_at": "2026-11-18T20:34:34+00:00",
+     "last_update_at": "2026-11-18T20:34:34+00:00",
+     "what_is_not_verified": "נסיבות פגיעת המכליות אינן מאומתות ממקור חיצוני.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/israeli-spy-chief-lobbied-joint-iran-strikes-us-visit-sources-say",
-       "published_at": "2026-11-18T16:46:40+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "וושינגטון, ארצות הברית",
-       "lat": 38.8951,
-       "lon": -77.0364
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11181710-03",
-     "title": "זינוק בעלויות ביטוח הספנות במצר הורמוז",
-     "summary": "גורם רשמי בארצות הברית ציין כי עלויות הביטוח למעבר יחיד במצר הורמוז זינקו לסכום של 64 מיליון דולר.",
-     "axis": "חופש השיט והסחר במצר הורמוז",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-18T14:47:34+00:00",
-     "last_update_at": "2026-11-18T14:47:34+00:00",
-     "what_is_not_verified": "אין אימות עצמאי לנתוני חברות הביטוח הימי מעבר לדברי הגורם האמריקני.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/11/18/us-official-says-hormuz-insurance-hits-64m-is-the-strait-really-open?traffic_source=rss",
-       "published_at": "2026-11-18T14:47:34+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_4bb7ea2007893ce2",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-navy-says-three-oil-tankers-caught-fire-east-hormuz",
+       "published_at": "2026-11-18T20:34:34+00:00"
       }
      ],
      "places": [
@@ -116,89 +93,89 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-11181710-01",
-     "title": "הריסת מבנים בדרום לבנון בידי כוחות צה\"ל",
-     "summary": "כלים הנדסיים ישראליים ביצעו הריסות של בתים בכפר זוטר א-שרקיה שבדרום לבנון.",
-     "axis": "פעילות צה\"ל בדרום לבנון",
+     "id": "NORTH-11190140-01",
+     "title": "הרוגים ופצועים בפעילות ביטחונית בסוריה",
+     "summary": "שני קציני ביטחון סורים נהרגו וארבעה נוספים נפצעו במהלך פשיטה ליד דמשק שבה נוטרל חשוד מבוקש.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
+     "occurred_at": "2026-11-18T23:34:33+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-18T14:52:31+00:00",
-     "last_update_at": "2026-11-18T14:52:31+00:00",
-     "what_is_not_verified": "היקף ההרס המדויק ומטרת הפעילות לא אומתו באופן רשמי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-demolish-homes-in-southern-lebanon?traffic_source=rss",
-       "published_at": "2026-11-18T14:52:31+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-11181710-02",
-     "title": "כניסת כלי רכב צבאיים ישראליים למחוז קוניטרה בסוריה",
-     "summary": "שלושה כלי רכב צבאיים של ישראל נכנסו לכפר א-סמדאניה המזרחית בליווי כלי טיס לסיור.",
-     "axis": "פעילות צה\"ל בדרום סוריה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-18T13:53:28+00:00",
-     "last_update_at": "2026-11-18T13:53:28+00:00",
-     "what_is_not_verified": "הדיווח נסמך על התקשורת הממלכתית בסוריה ללא אישור ישראלי.",
+     "first_reported_at": "2026-11-18T23:34:33+00:00",
+     "last_update_at": "2026-11-18T23:34:33+00:00",
+     "what_is_not_verified": "פרטי האירוע המלאים אינם מאומתים ממקור בלתי תלוי.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-forces-stage-raid-into-village-in-southern-syrias-quneitra-countryside/4129430",
-       "published_at": "2026-11-18T13:53:28+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-11181710-03",
-     "title": "הודעה משותפת של חיזבאללה ותנועת אמל",
-     "summary": "הנהגות חיזבאללה ותנועת אמל קראו לממשלת לבנון להגן על הריבונות, לשקם אזורים שנפגעו ודחו משא ומתן ישיר עם ישראל.",
-     "axis": "הזירה הפנים-לבנונית והלחימה מול ישראל",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-18T14:56:41+00:00",
-     "last_update_at": "2026-11-18T15:05:17+00:00",
-     "what_is_not_verified": "אין פרטים על צעדים מעשיים שהוסכמו בפגישה מעבר להצהרות שפורסמו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/152437/",
-       "published_at": "2026-11-18T15:05:17+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/152427/",
-       "published_at": "2026-11-18T14:57:12+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/152417/",
-       "published_at": "2026-11-18T14:56:41+00:00"
+       "source_root_id": "fh_eaef453d049014c9",
+       "url": "https://www.aa.com.tr/en/middle-east/2-syrian-security-officers-killed-4-wounded-in-raid-near-damascus/4129908",
+       "published_at": "2026-11-18T23:34:33+00:00"
       }
      ],
      "places": [
       {
-       "name": "לבנון",
-       "lat": 40.3757,
-       "lon": -76.4626
+       "name": "ג'רמאנה, סוריה",
+       "lat": 33.4864,
+       "lon": 36.3483
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11190140-02",
+     "title": "גינוי קטרי לפעולות ישראל בסוריה",
+     "summary": "משרד החוץ של קטריה גינה את כניסות הצבא הישראלי למחוזות קוניטרה ודרעא כמפרות את ריבונות סוריה.",
+     "axis": "north",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T22:26:34+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T22:26:34+00:00",
+     "last_update_at": "2026-11-18T22:26:34+00:00",
+     "what_is_not_verified": "ההערכות המשפטיות והביטחוניות אינן מאומתות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_90c9400fcea2dee9",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-condemns-israeli-incursions-syria",
+       "published_at": "2026-11-18T22:26:34+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דרעא, סוריה",
+       "lat": 32.6228,
+       "lon": 36.1068
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11190140-03",
+     "title": "תקיפה אווירית בדרום לבנון",
+     "summary": "ישראל ביצעה תקיפה אווירית שכוונה לעבר העיירה קנטרה שבדרום לבנון.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T20:13:45+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T20:13:45+00:00",
+     "last_update_at": "2026-11-18T20:13:45+00:00",
+     "what_is_not_verified": "תוצאות התקיפה והנזק המדויק אינם מאומתים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strike-targets-southern-lebanons-qantara",
+       "published_at": "2026-11-18T20:13:45+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קנטרה, לבנון",
+       "lat": 33.2735,
+       "lon": 35.4591
       }
      ]
     }
@@ -207,53 +184,53 @@ window.DB.war_brief = {
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11181710-01",
-     "title": "תקיפות רוסיות על מתקני גז ונפט בשני מחוזות באוקראינה",
-     "summary": "צבא רוסיה פגע במתקנים השייכים לחברה הלאומית נפטוגז במחוזות דניפרופטרובסק ופולטבה.",
-     "axis": "תקיפת תשתיות אנרגיה באוקראינה",
+     "id": "UKRAINE-11190140-01",
+     "title": "תקיפה נוספת על גשר קרים",
+     "summary": "אוקראינה ביצעה תקיפה נוספת במהלך הלילה על גשר קרים ופגעה בחלק פסי הרכבת.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
+     "occurred_at": "2026-11-19T01:22:59+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-18T16:29:00+00:00",
-     "last_update_at": "2026-11-18T16:29:00+00:00",
-     "what_is_not_verified": "היקף הנזק המלא נמצא עדיין בבדיקה בשל חשש מתקיפות נוספות.",
+     "first_reported_at": "2026-11-19T01:22:59+00:00",
+     "last_update_at": "2026-11-19T01:22:59+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק לגשר אינו מאומת לחלוטין רשמית.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_e764b0a02a525d59",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063490/",
-       "published_at": "2026-11-18T16:29:00+00:00"
+       "source_id": "src_meduza",
+       "source_root_id": "fh_63398a2f1d5b287a",
+       "url": "https://meduza.io/en/news/2026/11/19/ukraine-attacks-crimean-bridge-overnight-ahead-of-meeting-between-trump-putin-and-xi",
+       "published_at": "2026-11-19T01:22:59+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "גשר קרים, רוסיה",
+       "lat": 55.734,
+       "lon": 37.599
+      }
+     ]
     },
     {
-     "id": "UKRAINE-11181710-02",
-     "title": "מתקפת כטב\"מים רוסית על קייב ופגיעה במבנה מגורים",
-     "summary": "תקיפה רוסית באמצעות כטב\"מים פגעה בבניין מגורים בן 28 קומות בבירה וגרמה לפציעתם של שלושה אזרחים.",
-     "axis": "תקיפות אוויריות על ערי אוקראינה",
+     "id": "UKRAINE-11190140-02",
+     "title": "חשד לרצח של מתנדב קולומביאני בקייב",
+     "summary": "צעירה בת 19 בקייב קיבלה הודעת חשד בגין רצח מכוון של אזרח קולומביאני ששירות בצבא אוקראינה.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
+     "occurred_at": "2026-11-19T01:22:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-18T16:18:20+00:00",
-     "last_update_at": "2026-11-18T16:27:00+00:00",
-     "what_is_not_verified": "לא פורסמו פרטים על מצבם המדויק של כלל הפצועים מעבר לאשפוזו של אחד מהם.",
+     "first_reported_at": "2026-11-19T01:22:00+00:00",
+     "last_update_at": "2026-11-19T01:22:00+00:00",
+     "what_is_not_verified": "נסיבות המעשה טרם הוכחו בבית משפט.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4186107-three-injured-in-russian-attacks-on-kyiv.html",
-       "published_at": "2026-11-18T16:27:00+00:00"
-      },
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/russia-attacks-kyiv-with-drones-injures-3-hits-28-story-residential-building/",
-       "published_at": "2026-11-18T16:18:20+00:00"
+       "source_root_id": "fh_86d4da202d9b23b4",
+       "url": "https://www.ukrinform.net/rubric-crime/4185963-19yearold-woman-suspected-of-murdering-colombian-national-who-served-in-ukrainian-army.html",
+       "published_at": "2026-11-19T01:22:00+00:00"
       }
      ],
      "places": [
@@ -265,24 +242,24 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "UKRAINE-11181710-03",
-     "title": "פגיעה בתשתיות חשמל במחוז אודסה",
-     "summary": "רוסיה פגעה במתקני אנרגיה בדרום מחוז אודסה, דבר שגרם לניתוקי חשמל בשני אזורים.",
-     "axis": "תקיפת תשתיות אנרגיה באוקראינה",
-     "claim_type": "incident",
+     "id": "UKRAINE-11190140-03",
+     "title": "פגיעה בבתי זיקוק רוסיים לפי דוח",
+     "summary": "תקיפות אוקראיניות הפסיקו או שיבשו את הפעילות ב-15 מתוך 35 בתי הזיקוק המרכזיים ברוסיה.",
+     "axis": "ukraine",
+     "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-18T17:04:00+00:00",
-     "last_update_at": "2026-11-18T17:04:00+00:00",
-     "what_is_not_verified": "משך הזמן הצפוי לתיקון הפגיעות וחזרת החשמל אינו מצוין.",
+     "occurred_at": "2026-11-19T00:47:47+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-19T00:47:47+00:00",
+     "last_update_at": "2026-11-19T00:47:47+00:00",
+     "what_is_not_verified": "נתוני הפגיעה המדויקים מבוססים על מקורות תעשייתיים בלבד.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
+       "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4186120-russia-strikes-energy-infrastructure-in-southern-odesa-region-causing-power-outages.html",
-       "published_at": "2026-11-18T17:04:00+00:00"
+       "url": "https://kyivindependent.com/ukrainian-strikes-cut-russian-oil-refinery-processing-by-45-reuters-reports/",
+       "published_at": "2026-11-19T00:47:47+00:00"
       }
      ],
      "places": []
@@ -292,30 +269,53 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-11181710-01",
-     "title": "יירוט שני כלי טיס בלתי מאוישים מעל סעודיה",
-     "summary": "כוחות הקואליציה בראשות סעודיה הודיעו כי יירטו שתי מסירות ששוגרו על ידי החות'ים לעבר אזור ריאד והדרום.",
-     "axis": "תקיפות החות'ים נגד סעודיה",
+     "id": "YEMEN-11190140-01",
+     "title": "השמדת משגר טילים בתימן",
+     "summary": "הקואליציה בהובלת סעודיה הודיעה שהשמידה משגר טילים בליסטיים במחוז סעדה בתימן.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
+     "occurred_at": "2026-11-18T23:28:42+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-18T16:13:24+00:00",
-     "last_update_at": "2026-11-18T16:34:33+00:00",
-     "what_is_not_verified": "לא נמסרו פרטים לגבי נזק על הקרקע כתוצאה משברי היירוט.",
+     "first_reported_at": "2026-11-18T23:28:42+00:00",
+     "last_update_at": "2026-11-18T23:28:42+00:00",
+     "what_is_not_verified": "יעילות ההשמדה המלאה אינה מאומתת ממקור בלתי תלוי.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-two-drones-intercepted-and-destroyed-over-saudi",
-       "published_at": "2026-11-18T16:34:33+00:00"
-      },
+       "source_root_id": "fh_e74cd4f8aa5b18dd",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/coalition-says-missile-launch-platform-destroyed-saada",
+       "published_at": "2026-11-18T23:28:42+00:00"
+      }
+     ],
+     "places": [
       {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/156044",
-       "published_at": "2026-11-18T16:13:24+00:00"
+       "name": "סעדה, תימן",
+       "lat": 16.9409,
+       "lon": 43.763
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-11190140-02",
+     "title": "פגישה ביטחונית בין סעודיה לארצות הברית",
+     "summary": "שר ההגנה הסעודי נפגש בריאד עם ראש פיקוד המרכז של ארה\"ב כדי לדון בשיתוף פעולה ביטחוני ויציבות אזורית.",
+     "axis": "yemen",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T23:19:58+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T23:19:58+00:00",
+     "last_update_at": "2026-11-18T23:19:58+00:00",
+     "what_is_not_verified": "תוכניות העבודה המעשיות שסוכמו אינן מפורטות.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_b40a9a1c51ae2c12",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-defence-minister-discusses-defence-cooperation-us-centcom-chief",
+       "published_at": "2026-11-18T23:19:58+00:00"
       }
      ],
      "places": [
@@ -327,60 +327,31 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "YEMEN-11181710-02",
-     "title": "התרעת סכנה במחוז שרורה בסעודיה",
-     "summary": "ההגנה האזרחית של סעודיה פרסמה אזהרה לתושבים על סכנה אפשרית במחוז הדרומי שרורה.",
-     "axis": "תקיפות החות'ים נגד סעודיה",
+     "id": "YEMEN-11190140-03",
+     "title": "הצהרת החות'ים על תקיפת יעדים בריאד",
+     "summary": "דובר כוחות החות'ים הצהיר שהארגון ביצע מתקפת טילי שיוט לעבר נמל התעופה הבינלאומי קאליד ומרכז פיננסי בריאד.",
+     "axis": "yemen",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
+     "occurred_at": "2026-11-18T20:29:12+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-18T16:34:33+00:00",
-     "last_update_at": "2026-11-18T16:34:33+00:00",
-     "what_is_not_verified": "מהות האיום הספציפי שהוביל לפרסום האזהרה לא פורטה במדויק בטקסט.",
+     "first_reported_at": "2026-11-18T20:29:12+00:00",
+     "last_update_at": "2026-11-18T20:29:12+00:00",
+     "what_is_not_verified": "האם התקיפות אכן פגעו ביעדים המוצהרים אינו מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-two-drones-intercepted-and-destroyed-over-saudi",
-       "published_at": "2026-11-18T16:34:33+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-targeted-king-khalid-airport-and-financial-centre",
+       "published_at": "2026-11-18T20:29:12+00:00"
       }
      ],
      "places": [
       {
-       "name": "שרורה, סעודיה",
-       "lat": 17.4695,
-       "lon": 47.1156
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-11181710-03",
-     "title": "גינוי פגיעת החות'ים במרכז דייג בראס אל-עארה",
-     "summary": "משרד החקלאות והדיג בתימן גינה את פגיעת המיליציות החות'יות במרכז פריקת הדגה בראס אל-עארה.",
-     "axis": "העימות הפנימי בתימן",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-18T14:48:21+00:00",
-     "last_update_at": "2026-11-18T14:48:21+00:00",
-     "what_is_not_verified": "היקף הנזק שנגרם למרכז הפריקה לא פורט בדיווח.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_5456361a26e8a945",
-       "url": "https://www.sabanew.net/viewstory/156029",
-       "published_at": "2026-11-18T14:48:21+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ראס אל-עארה, תימן",
-       "lat": 12.6084,
-       "lon": 43.9158
+       "name": "ריאד, סעודיה",
+       "lat": 24.6389,
+       "lon": 46.716
       }
      ]
     }
