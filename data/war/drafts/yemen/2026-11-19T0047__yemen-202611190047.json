@@ -1,0 +1,324 @@
+{
+ "status": "draft",
+ "received_sha256_12": "7fc7a22043a5",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "verified": 1,
+   "shared_root": 2,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-19T00:47:43+00:00",
+  "window": {
+   "from": "2026-11-18T00:47:43+00:00",
+   "to": "2026-11-19T00:47:43+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611190047"
+  },
+  "summary": "הלחימה בתימן נמשכת ביתר שאת כאשר כוחות החות'ים מתקדמים באזורים אסטרטגיים לעבר העיר עדן ומבצעים תקיפות אוויריות באמצעות טילים וכטב\"מים לעבר סעודיה. מנגד, הקואליציה בהובלת סעודיה מבצעת תקיפות נגד תשתיות שיגור בתימן, מחליפה את הפיקוד הצבאי הבכיר ומחפשת אחר חימוש וציוד הגנתי נוסף מבעלי בריתה. ארגונים בינלאומיים מביעים דאגה מהחמרת המצב ההומניטרי והפגיעה באזרחים ובילדים.",
+  "fronts": [
+   {
+    "name": "חזית תימן הפנימית (עדן, סעדה ותיז)",
+    "status": "פעילה עם התקדמות של החות'ים ותקיפות נגד של הקואליציה"
+   },
+   {
+    "name": "החזית האווירית מול סעודיה",
+    "status": "פעילה עם שיגור טילים וכטב\"מים מצד החות'ים וירוטי נגד של סעודיה"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11190047-01",
+    "title": "השמדת משגרי טילים בסעדה",
+    "summary": "הקואליציה בהובלת סעודיה דיווחה כי השמידה פלטפורמת שיגור טילים בתימן, לאחר שנעשה בה שימוש לנסות ולתקוף אזורים בסעודיה.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T23:28:42+00:00",
+    "last_update_at": "2026-11-19T00:01:02+00:00",
+    "what_is_not_verified": "טענת הקואליציה כי נעשה שימוש במשגיר להתקפה אינה מאומתת ממקור בלתי תלוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_9abe0f07f7bc4026",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz?traffic_source=rss",
+      "published_at": "2026-11-19T00:01:02+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_e74cd4f8aa5b18dd",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/coalition-says-missile-launch-platform-destroyed-saada",
+      "published_at": "2026-11-18T23:28:42+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סעדה, תימן",
+      "lat": 16.9409,
+      "lon": 43.763
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11190047-02",
+    "title": "יירוט טילים וכטב\"מים מעל שמי סעודיה",
+    "summary": "דווח על יירוט טילים וכטב\"מים שעשו דרכם לעבר ריאד ואזורים בדרום סעודיה, לצד טענות החות'ים על תקיפת יעדים שונים בהם נמל תעופה ומרכז פיננסי.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T02:06:39+00:00",
+    "last_update_at": "2026-11-18T23:19:58+00:00",
+    "what_is_not_verified": "טענות החות'ים על פגיעה מדויקת ביעדים כמו נמל התעופה קิง ח'אליד ומרכזים פיננסיים אינן מאומתות באופן מלא.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_24922a06d013d188",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-defence-minister-discusses-defence-cooperation-us-centcom-chief",
+      "published_at": "2026-11-18T23:19:58+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_24922a06d013d188",
+      "url": "https://www.maariv.co.il/breaking-news/article-1390018",
+      "published_at": "2026-11-18T22:10:57+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_24922a06d013d188",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-targeted-king-khalid-airport-and-financial-centre",
+      "published_at": "2026-11-18T20:29:12+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_24922a06d013d188",
+      "url": "https://www.sabanew.net/viewstory/156044",
+      "published_at": "2026-11-18T16:13:24+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_24922a06d013d188",
+      "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
+      "published_at": "2026-11-18T02:06:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ג'זאן, סעודיה",
+      "lat": 16.8947,
+      "lon": 42.558
+     },
+     {
+      "name": "ח'מיס מושייט, סעודיה",
+      "lat": 18.3,
+      "lon": 42.7333
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11190047-03",
+    "title": "פניית סעודיה לספקים בינלאומיים והצטיידות צבאית",
+    "summary": "סעודיה קיימה פגישות עם שותפים מערביים ובכירים בטורקיה במטרה להשיג מערכות הגנה אווירית וציוד צבאי נוסף כדי להתמודד עם איומי החות'ים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-18T21:46:20+00:00",
+    "last_update_at": "2026-11-18T21:46:20+00:00",
+    "what_is_not_verified": "היקף העסקאות המדויק והציוד הספציפי שסופק בפועל אינם מאומתים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turn-weapons-spigot-saudi-arabia-asks-partners-gear-deter-houthis",
+      "published_at": "2026-11-18T21:46:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11190047-04",
+    "title": "פיצוץ מטען נסתר בתיז",
+    "summary": "ארבעה ילדים נפגעו כתוצאה מפיצוץ מטען חבלה שהושאר מפעילות קודמת באזור תיז.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T18:29:09+00:00",
+    "last_update_at": "2026-11-18T18:29:09+00:00",
+    "what_is_not_verified": "לא צוינו פרטים נוספים מעבר לדיווח המקומי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_bd37b842b169ee4e",
+      "url": "https://www.sabanew.net/viewstory/156050",
+      "published_at": "2026-11-18T18:29:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תיז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11190047-05",
+    "title": "התקדמות החות'ים ושינויים פיקודיים בצד הסעודי והממשלתי בתימן",
+    "summary": "החות'ים ממשיכים להתקדם באזורים אסטרטגיים מערבית לעיר הבירה הזמנית עדן ובאזורים נוספים, בעוד סעודיה ממנה רמטכ\"ל חדש לעד כוחות הקואליציה וכוחות דרומיים מבצעים היערכות מחדש.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-18T15:55:41+00:00",
+    "last_update_at": "2026-11-18T18:22:41+00:00",
+    "what_is_not_verified": "ההשפעה המדויקת של חילופי הפיקוד על שדה הקורב אינה מאומתת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_aece35dffcff1bb9",
+      "url": "https://www.al-monitor.com/originals/2026/11/amid-setbacks-saudi-arabia-braces-yemen-war-stretch-2027-report",
+      "published_at": "2026-11-18T18:22:41+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_aece35dffcff1bb9",
+      "url": "https://www.newarab.com/news/saudi-arabia-appoints-new-yemen-commander-amid-setbacks",
+      "published_at": "2026-11-18T17:20:36+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "fh_aece35dffcff1bb9",
+      "url": "https://www.france24.com/en/middle-east/20261118-yemen-why-the-houthis-may-besiege-aden-rather-than-storm-it",
+      "published_at": "2026-11-18T15:55:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות החות'ים על פגיעה מדויקת במרכזים הפיננסיים ובנמל התעופה בריאד",
+   "היקף ומהירות האספקה המדויקים שיועברו כסלאח מן תרכיא ושותפות נוספות לסעודיה"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2639,
+    "unit": "ILS",
+    "change_pct": 0.54,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "תקיפת יעדים אסטרטגיים בשטח סעודיה כגון נמלי תעופה ומרכזים פיננסיים"
+    ],
+    "inferred": [
+     "השתלטות על שטחים נוספים בתימן ובאזור מצר באב אל-מנדב",
+     "יצירת לחץ צבאי מתמשך על ממשלת תימן וסעודיה"
+    ],
+    "forecast": [
+     "המשך ניסיונות כיתור או כיבוש של העיר עדן",
+     "שימור לחץ אש על סעודיה באמצעות כטב\"מים וטילים"
+    ]
+   },
+   {
+    "actor": "הקואליציה בהובלת סעודיה",
+    "declared": [
+     "הגנה על שטחי הממלכה ותשתיותיה מפני תקיפות החות'ים",
+     "ריכוז הפיקוד הצבאי תחת רמטכ\"ל סעודיה לשיפור התפקוד בקרב"
+    ],
+    "inferred": [
+     "בלימת התקדמות החות'ים באזורים הסטרגיים בתימן",
+     "הצטיידות בדחיפות במערכות הגנה אווירית וחלקי חילוף"
+    ],
+    "forecast": [
+     "היערכות לעימות ממושך גם אל תוך השנה הבאה",
+     "חיזוק שיתופי פעולה צבאיים אזוריים ומערביים להשגת הרתעה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz?traffic_source=rss",
+    "accessed_at": "2026-11-19T00:47:43+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/amid-setbacks-saudi-arabia-braces-yemen-war-stretch-2027-report",
+    "accessed_at": "2026-11-19T00:47:43+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/middle-east/20261118-yemen-why-the-houthis-may-besiege-aden-rather-than-storm-it",
+    "accessed_at": "2026-11-19T00:47:43+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1390018",
+    "accessed_at": "2026-11-19T00:47:43+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turn-weapons-spigot-saudi-arabia-asks-partners-gear-deter-houthis",
+    "accessed_at": "2026-11-19T00:47:43+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-arabia-appoints-new-yemen-commander-amid-setbacks",
+    "accessed_at": "2026-11-19T00:47:43+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/156050",
+    "accessed_at": "2026-11-19T00:47:43+00:00"
+   }
+  ]
+ }
+}

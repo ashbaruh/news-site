@@ -1,0 +1,546 @@
+{
+ "status": "draft",
+ "received_sha256_12": "83c92394bc8a",
+ "preview": {
+  "events": 12,
+  "levels": {
+   "initial": 9,
+   "verified": 2,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-19T00:48:28+00:00",
+  "window": {
+   "from": "2026-11-18T00:48:28+00:00",
+   "to": "2026-11-19T00:48:28+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611190048"
+  },
+  "summary": "הזירה הצפונית כוללת עימותים והתבססות צבאית ישראלית מתמשכת בדרום לבנון ובדרום סוריה, לצד פעולות סיכול נגד תשתיות חיזבאללה. במקביל, מתנהלים מגעים דיפלומטיים והצהרות סביב הסכמי ההפרדה ומאבק רגולטורי וכלכלי בינלאומי נגד רשתות המימן של ארגון הטרור.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילה (תקיפות, השמדת תת-קרקע ופעילות שיקום תשתיות של חיזבאללה)"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "פעילה (פשיטות, תקיפות אוויריות וחיכוך באזור קוניטרה ודרעא)"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11190048-01",
+    "title": "הריגת אנשי ביטחון בסוריה",
+    "summary": "שני אנשי ביטחון סורים נהרגו וארבעה נפצעו במהלך מבצע או פשיטה באזור דמשק",
+    "axis": "הזירה הסורית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T23:34:33+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T23:34:33+00:00",
+    "last_update_at": "2026-11-18T23:34:33+00:00",
+    "what_is_not_verified": "זהות החשודים או פרטים מדויקים על נסיבות הפעולה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_eaef453d049014c9",
+      "url": "https://www.aa.com.tr/en/middle-east/2-syrian-security-officers-killed-4-wounded-in-raid-near-damascus/4129908",
+      "published_at": "2026-11-18T23:34:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'רמאנה, סוריה",
+      "lat": 33.4864,
+      "lon": 36.3483
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11190048-02",
+    "title": "גינוי קטארי על פעולות ישראל בסוריה",
+    "summary": "משרד החוץ של קטאר גינה את המשך הפעולות והכניסות של צבא ישראל במחוזות בסוריה",
+    "axis": "הזירה הסורית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T22:26:34+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T22:26:34+00:00",
+    "last_update_at": "2026-11-18T22:26:34+00:00",
+    "what_is_not_verified": "לא מאומתות טענות קטאר בדבר הפרת החוק הבינלאומי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-condemns-israeli-incursions-syria",
+      "published_at": "2026-11-18T22:26:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרעא, סוריה",
+      "lat": 32.6228,
+      "lon": 36.1068
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11190048-03",
+    "title": "ירי ארטילרי ישראלי לדרום לבנון",
+    "summary": "דווח על ירי ארטילרי ישראלי לעבר עיירה בדרום לבנון",
+    "axis": "הזירה הלבנונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T21:53:01+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T21:53:01+00:00",
+    "last_update_at": "2026-11-18T21:53:01+00:00",
+    "what_is_not_verified": "פרטים מלאים על הנזק או נפגעים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1390017",
+      "published_at": "2026-11-18T21:53:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בית יחון, לבנון",
+      "lat": 33.1582,
+      "lon": 35.4212
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11190048-04",
+    "title": "תקיפה אווירית ישראלית בקנטרה",
+    "summary": "חיל האוויר הישראלי תקף את העיירה קנטרה בדרום לבנון",
+    "axis": "הזירה הלבנונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T20:13:45+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T20:13:45+00:00",
+    "last_update_at": "2026-11-18T20:13:45+00:00",
+    "what_is_not_verified": "תוצאות התקיפה המדויקות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strike-targets-southern-lebanons-qantara",
+      "published_at": "2026-11-18T20:13:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קנטרה, לבנון",
+      "lat": 33.2735,
+      "lon": 35.4591
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11190048-05",
+    "title": "סנקציות אמריקאיות נגד גופים הקשורים לחיזבאללה",
+    "summary": "משרד האוצר האמריקאי הטיל סנקציות על ארגון צדקה ומקורבים לחיזבאללה בגין הברחות ומימון",
+    "axis": "הזירה הלבנונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T15:20:43+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T15:20:43+00:00",
+    "last_update_at": "2026-11-18T22:56:19+00:00",
+    "what_is_not_verified": "היקף ההשפעה המדויק של הסנקציות בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_958b4ee6f77d9ed3",
+      "url": "https://www.aljazeera.com/news/2026/11/18/us-steps-up-pressure-on-iran-backed-hezbollah-with-new-sanctions?traffic_source=rss",
+      "published_at": "2026-11-18T22:56:19+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_958b4ee6f77d9ed3",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-sanctions-hezbollah-linked-charity-push-against-irans-proxies-treasury-says",
+      "published_at": "2026-11-18T19:48:43+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_958b4ee6f77d9ed3",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-sanctions-hezbollah-linked-charity-bid-squeeze-iran",
+      "published_at": "2026-11-18T19:35:02+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_958b4ee6f77d9ed3",
+      "url": "https://t.me/abualiexpress/133877",
+      "published_at": "2026-11-18T19:11:01+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_b8af2806615b1567",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/968660/us-sanctions-lebanese-association-gold-companies-and-individuals-over/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968660",
+      "published_at": "2026-11-18T15:20:43+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11190048-06",
+    "title": "תקיפה אווירית ישראלית בחאדאת' שבדרום לבנון",
+    "summary": "דווח על תקיפה אווירית ישראלית שהצתתה את פאתי העיירה חאדאת' בדרום לבנון",
+    "axis": "הזירה הלבנונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T19:19:11+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T19:19:11+00:00",
+    "last_update_at": "2026-11-18T19:19:11+00:00",
+    "what_is_not_verified": "פרטים על נפגעים בגוף",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/152567/",
+      "published_at": "2026-11-18T19:19:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חאדאת', לבנון",
+      "lat": 33.165,
+      "lon": 35.3916
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11190048-07",
+    "title": "תרגיל משותף של ישראל ויוון",
+    "summary": "…",
+    "axis": "הזזרה הרחבה מול איראן והמרחב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T16:36:36+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T16:36:36+00:00",
+    "last_update_at": "2026-11-18T18:11:37+00:00",
+    "what_is_not_verified": "קיומן או היערכותן של תקיפות משפליות בפועל נגד יעדים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_0d17ad0cbdb69426",
+      "url": "https://www.israelhayom.co.il/news/defense/article/21884616",
+      "published_at": "2026-11-18T18:11:37+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_0d17ad0cbdb69426",
+      "url": "https://www.ynet.co.il/news/article/bypiihi0zl",
+      "published_at": "2026-11-18T16:36:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תל אביב, ישראל",
+      "lat": 32.0853,
+      "lon": 34.7818
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11190048-08",
+    "title": "הצהרת שר החוץ הסורי על הסכם ההפרדה",
+    "summary": "שר החוץ הסורי הצהיר כי סוריה מחויבת להבנות הביטחוניות עם ישראל ולהחייאת הסכם הפרדת הכוחות משנת 1974",
+    "axis": "הזירה הסורית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T17:14:08+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T17:14:08+00:00",
+    "last_update_at": "2026-11-18T17:14:08+00:00",
+    "what_is_not_verified": "האם ישראל תסכים לתנאים אלו בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-remains-committed-to-security-understanding-with-israel-revival-of-1974-disengagement-deal-foreign-minister/4129670",
+      "published_at": "2026-11-18T17:14:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11190048-09",
+    "title": "הרוג ופצועים בתקיפה באזור החוף בסוריה",
+    "summary": "איש ביטחון סורי נהרג ושניים נוספים נפצעו בתקיפה של חמושים בלתי מזוהים במחוז טרטוס",
+    "axis": "הזירה הסורית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T13:02:18+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T13:02:18+00:00",
+    "last_update_at": "2026-11-18T13:02:18+00:00",
+    "what_is_not_verified": "זהות התוקפים המדויקת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_b7203dbd515a5c2a",
+      "url": "https://www.newarab.com/news/syrian-security-officer-killed-attack-coast",
+      "published_at": "2026-11-18T13:02:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טרטוס, סוריה",
+      "lat": 34.8936,
+      "lon": 35.8852
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11190048-10",
+    "title": "פעילות חיזבאללה לשיקום תשתיות קשר בלבנון",
+    "summary": "נצפו פעילי חיזבאללה מתקינים ותוואי כבלי תקשורת על עמודי חשמל ותשתיות של המדינה בלבנון",
+    "axis": "הזירה הלבנונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T09:46:29+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-18T09:46:29+00:00",
+    "last_update_at": "2026-11-18T09:46:29+00:00",
+    "what_is_not_verified": "היקף פריסת הכבלים בכלל אזורי לבנון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/hezbollah-is-rebuilding-its-command-and-control-systems-by-exploiting-lebanese-state-infrastructure/",
+      "published_at": "2026-11-18T09:46:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נבטיה, לבנון",
+      "lat": 33.3812,
+      "lon": 35.4825
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11190048-11",
+    "title": "ירי ותקיפה ישראלית באזור דרעא בסוריה",
+    "summary": "כוחות ישראליים ירו והפגיזו את פאתי הכפר קויה בדרום סוריה בניסיון התקדמות",
+    "axis": "הזירה הסורית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T09:44:10+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T09:44:10+00:00",
+    "last_update_at": "2026-11-18T09:44:10+00:00",
+    "what_is_not_verified": "היקף הנזק המלא בכפר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.enabbaladi.net/archives/2026/11/israeli-forces-fire-on-homes-in-syrias-daraa-countryside/",
+      "published_at": "2026-11-18T09:44:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרעא, סוריה",
+      "lat": 32.6228,
+      "lon": 36.1068
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11190048-12",
+    "title": "השמדת תוואי תת-קרקעי בהר דב",
+    "summary": "כוחות צה\"ל מחטיבה 810 השמידו תוואי תת-קרקעי של חיזבאללה במרחב הר דב",
+    "axis": "הזירה הלבנונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T08:02:54+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T08:02:54+00:00",
+    "last_update_at": "2026-11-18T08:02:54+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25649",
+      "published_at": "2026-11-18T08:02:54+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "היקף הפעילות המלא של רשתות ההברחה הטורקיות-לבנוניות מטעם חיזבאללה",
+   "האם ישראל תבצע תקיפה רחבה נגד איראן או תרחיב את אזורי החיץ בסוריה ולבנון"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2639,
+    "unit": "ILS",
+    "change_pct": 0.54,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "שליטה באזורי הביטחון בלבנון ובסוריה עד להסרת כל האיומים ופירוז הארגונים",
+     "מניעת התבססות גורמי טרור בסמוך לגבולות"
+    ],
+    "inferred": [
+     "יצירת מציאות של שטחי חיץ קבועים באזורים הסמוכים לגבול",
+     "המשך לחץ צבאי ומודיעיני ממוקד"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית נקודתית ואפשרות להסלמה נוספת במקרה של התלקחות"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "גינוי תקיפות ישראל ופעולותיה בזירות השונות"
+    ],
+    "inferred": [
+     "שיקום מערכות הפיקוד, השליטה ותשתיות התקשורת האוטונומיות תחת תשתיות מדינה בלבנון",
+     "ניסיון לעקוף סנקציות כלכליות באמצעות רשתות הברחה"
+    ],
+    "forecast": [
+     "המשך מאמצי ההתחמשות והשיקום המבצעי חרף הלחץ הצבאי והכלכלי"
+    ]
+   },
+   {
+    "actor": "סוריה",
+    "declared": [
+     "מחויבות להבנות הביטחוניות ולהחייאת הסכם הפרדת הכוחות משנת 1974",
+     "שמירה על ריבונות שטחי המדינה"
+    ],
+    "inferred": [
+     "שאיפה לבלום את הפעילות הצבאית הישראלית בשטחה באמצעות לחץ דיפלומטי בינלאומי",
+     "התמודדות עם חמושים מקומיים בשטחה"
+    ],
+    "forecast": [
+     "המשך קריאות לקהילה הבינלאומית להתערבות ומאמצים לייצוב אזורי השליטה של המשטר"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/18/us-steps-up-pressure-on-iran-backed-hezbollah-with-new-sanctions?traffic_source=rss",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   },
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/hezbollah-is-rebuilding-its-command-and-control-systems-by-exploiting-lebanese-state-infrastructure/",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/152567/",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/us-sanctions-hezbollah-linked-charity-bid-squeeze-iran",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syria-remains-committed-to-security-understanding-with-israel-revival-of-1974-disengagement-deal-foreign-minister/4129670",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/11/israeli-forces-fire-on-homes-in-syrias-daraa-countryside/",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/defense/article/21884616",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/968660/us-sanctions-lebanese-association-gold-companies-and-individuals-over/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968660",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1390017",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strike-targets-southern-lebanons-qantara",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/syrian-security-officer-killed-attack-coast",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133877",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25649",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/bypiihi0zl",
+    "accessed_at": "2026-11-19T00:48:28+00:00"
+   }
+  ]
+ }
+}

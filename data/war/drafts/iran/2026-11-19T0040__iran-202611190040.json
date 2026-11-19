@@ -1,0 +1,292 @@
+{
+ "status": "draft",
+ "received_sha256_12": "f1035fc71997",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 2,
+   "shared_root": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-19T00:40:30+00:00",
+  "window": {
+   "from": "2026-11-18T00:40:30+00:00",
+   "to": "2026-11-19T00:40:30+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611190040"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל ממשיך לכלול איומים הדדיים על נתיבי נפט ותשתיות, לצד צעדי ענישה כלכליים וסנקציות מצד וושינגטון נגד שלוחות איראניות. במקביל, מתנהלים חיכוכים צבאיים עקיפים ואירועים ימיים במפרץ ובמצר הורמוז, לצד דיפלומטיה אזורית וביקורים של בכירים צבאיים.",
+  "fronts": [
+   {
+    "name": "המפרץ ומרחב הימי",
+    "status": "מתוח עם אירועים ימיים ואיומים על תשתיות נפט"
+   },
+   {
+    "name": "החזית העיראקית",
+    "status": "חיכוך סביב פעילות המיליציות הפרו-איראניות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11190040-01",
+    "title": "פגיעת קליע במכלית עה במפרץ עומאן",
+    "summary": "מכלית נפגעה על ידי קליע לא ידוע בחדר המכונות בזמן שהפליגה דרך מצר הורמוז.",
+    "axis": "איראן - ארה\"ב ומפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T23:13:28+00:00",
+    "last_update_at": "2026-11-18T23:13:28+00:00",
+    "what_is_not_verified": "זהות אלגורם שירה את אלקליע והיקף הנזק המדויק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_497021c795b387be",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-struck-unknown-projectile-near-omans-khasab-ukmto-says",
+      "published_at": "2026-11-18T23:13:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ח'סב, עומאן",
+      "lat": 26.1841,
+      "lon": 56.247
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11190040-02",
+    "title": "תקיפת מכליות נפט מזרחית להורמוז",
+    "summary": "חיל הים האיראני דיווח ששלוש מכליות נפט עלו באש לאחר שפגעו במוקשים ימיים באזור מזרחית למצר הורמוז.",
+    "axis": "איראן - ארה\"ב ומפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-18T20:34:34+00:00",
+    "last_update_at": "2026-11-19T00:01:02+00:00",
+    "what_is_not_verified": "האם המכליות אכן נפגעו ממוקשים ימיים והנסיבות המדויקות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_4bb7ea2007893ce2",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz?traffic_source=rss",
+      "published_at": "2026-11-19T00:01:02+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_4bb7ea2007893ce2",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-navy-says-three-oil-tankers-caught-fire-east-hormuz",
+      "published_at": "2026-11-18T20:34:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11190040-03",
+    "title": "עצירת חשוד פקיסטני בקשירת קשר להתנקשות בארה\"ב",
+    "summary": "אזרח פקיסטני נדון ללמעלה מ-27 שנות מאסר בארה\"ב בגין תכנון להתנקש בדונלד טראמפ כנקמה על חיסול קאסם סולימאני.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T00:21:33+00:00",
+    "last_update_at": "2026-11-18T00:40:30+00:00",
+    "what_is_not_verified": "הקשר הישיר והרשמי של משטר איראן למזימה מעבר לקביעת בית המשפט.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_bfb38fb8f3de1d73",
+      "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
+      "published_at": "2026-11-18T00:21:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ברוקלין, ארצות הברית",
+      "lat": 40.6526,
+      "lon": -73.9497
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11190040-04",
+    "title": "הטלת סנקציות אמריקאיות על רשתות חזבאללה ואיראן",
+    "summary": "משרד האוצר האמריקאי הטיל סנקציות על ארגון צדקה ומקבץ חברי רשת להברחת זהב וכספים המזוהים עם חזבאללה ומשמרות המהפכה.",
+    "axis": "איראן - ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-18T19:11:01+00:00",
+    "last_update_at": "2026-11-18T22:56:19+00:00",
+    "what_is_not_verified": "היקף הפעילות המלא של הרשתות המוברחות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_977bcb531000bb5e",
+      "url": "https://www.aljazeera.com/news/2026/11/18/us-steps-up-pressure-on-iran-backed-hezbollah-with-new-sanctions?traffic_source=rss",
+      "published_at": "2026-11-18T22:56:19+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_958b4ee6f77d9ed3",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-sanctions-hezbollah-linked-charity-push-against-irans-proxies-treasury-says",
+      "published_at": "2026-11-18T19:48:43+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_977bcb531000bb5e",
+      "url": "https://t.me/abualiexpress/133877",
+      "published_at": "2026-11-18T19:11:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11190040-05",
+    "title": "ביקור מפקד כוח קודס בעיראק",
+    "summary": "מפקד כוח קודס איסמאעיל קאאני הגיע לבגדד כדי לתווך בין הממשלה לבין מיליציות פרו-איראניות סביב איום פוטנציאלי להשתלטות על מעוז.",
+    "axis": "איראן - עיראק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-18T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-18T20:41:35+00:00",
+    "last_update_at": "2026-11-18T23:01:57+00:00",
+    "what_is_not_verified": "התוצאות הסופיות של המגעים והאם תתבצע פעולה צבאית עיראקית נגד המיליציות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_reports",
+      "url": "https://www.iranintl.com/en/202611186127",
+      "published_at": "2026-11-18T23:01:57+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_reports",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21885917",
+      "published_at": "2026-11-18T20:41:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בגדד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות איראן כי שלוש מכליות נפט נפגעו עקב מוקשים ימיים",
+   "היקף הנזק וההשלכות הסביבתיות של פגיעת הקליע במכלית ליד עומאן",
+   "תוצאות ביקורו של מפקד כוח קודס בעיראק"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2639,
+    "unit": "ILS",
+    "change_pct": 0.54,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-18T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "הבטחת ביטחון אזורי ללא התערבות זרה",
+     "תגובה ואיומים על תשתיות נפט ושל ארה\"ב וישראל"
+    ],
+    "inferred": [
+     "שימור השפעה באמצעות שלוחות אזוריות",
+     "ניסיון לבלום סנקציות ולערער את חופש השיט במפרץ"
+    ],
+    "forecast": [
+     "המשך הפעלת רשתות פרוקסי",
+     "הגברת הלחץ סביב נתיבי סחר ונפט"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "הפעלת לחץ כלכלי וסנקציות על רשתות הטרור ושלחויות איראן",
+     "אזהרות מפני תגובה חסרת תקדים על תקיפות כימיות או בלתי קונבנציונליות"
+    ],
+    "inferred": [
+     "בלימת ההתבססות והמימון של זרועות איראן באזור",
+     "שמירה על נוכחות צבאית במפרץ וסביבתו"
+    ],
+    "forecast": [
+     "המשך אכיפת סנקציות ממוקדות",
+     "היערכות לתגובה במקרה של פגיעה בכוחות אמריקאיים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/18/us-steps-up-pressure-on-iran-backed-hezbollah-with-new-sanctions?traffic_source=rss",
+    "accessed_at": "2026-11-19T00:40:30+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/us-sanctions-hezbollah-linked-charity-push-against-irans-proxies-treasury-says",
+    "accessed_at": "2026-11-19T00:40:30+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
+    "accessed_at": "2026-11-19T00:40:30+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611186127",
+    "accessed_at": "2026-11-19T00:40:30+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21885917",
+    "accessed_at": "2026-11-19T00:40:30+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-navy-says-three-oil-tankers-caught-fire-east-hormuz",
+    "accessed_at": "2026-11-19T00:40:30+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133877",
+    "accessed_at": "2026-11-19T00:40:30+00:00"
+   }
+  ]
+ }
+}
