@@ -646,392 +646,406 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-11-18T0755__ukraine-202611180755.json",
+  "draft": "drafts/ukraine/2026-11-19T0340__ukraine-202611190340.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-11-18T07:55:12+00:00",
+   "generated_at": "2026-11-19T03:40:32+00:00",
    "window": {
-    "from": "2026-11-17T07:55:12+00:00",
-    "to": "2026-11-18T07:55:12+00:00"
+    "from": "2026-11-18T03:40:32+00:00",
+    "to": "2026-11-19T03:40:32+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "ukraine-202611180755"
+    "run_id": "ukraine-202611190340"
    },
-   "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בהסלמה הדדית של מהלומות ארוכות טווח נגד תשתיות אסטרטגיות, הבולטת שבהן היא פגיעה משמעותית בגשר קרים לצד תקיפת מתקני נפט בתוך רוסיה. במקביל, כוחות רוסיה ממשיכים בהפצצות אינטנסיביות על מרחבים עירוניים בחזיתות המזרח ועל מתקני חשמל וגשרים בקייב, דבר שיוצר משבר הומניטרי ומחריף את העומס על העורף האוקראיני. במקביל למערכה הצבאית, מתקיימת פעילות דיפלומטית ענפה הכוללת מגעים לקראת פסגה בינלאומית בסין ומחלוקות בקרב מדינות המערב באשר להיקף וליעד התקיפות האוקראיניות.",
+   "summary": "העימות בין אוקראינה לרוסיה מאופיין בהסלמה בתקיפות אוקראיניות על תשתיות אסטרטגיות בעומק רוסיה ובגשר קרים, לצד לחימה עצימה בחזית חרקוב הכוללת קרבות בתוואי תת-קרקעי והפצצות כטב\"מים. במקביל למגעים דיפלומטיים סביב תנאי סיום המלחמה ופסגה משולשת בסין, המערב מקדם חבילות סיוע פיננסיות וסנקציות כדי לשמר את כושר העמידה של קייב. התלות של אוקראינה ברשתות תקשורת חלופיות מתרחבת על רקע מגבלות שמטילות חברות אספקה אזרחיות.",
    "fronts": [
     {
-     "name": "מצר קרץ' וחצי האי קרים",
-     "status": "פגיעה קשה במקטע הכביש של גשר קרים בעקבות מתקפה משולבת ושיבוש תנועת כלי שיט, לצד המשך פעילות רכבות חלקית"
+     "name": "חזית חרקוב",
+     "status": "לחימה קרקעית הכוללת קרבות במנהרות ותקיפות כטב\"מים רוסיים על מרכזים עירוניים."
     },
     {
-     "name": "מחוז חרקוב",
-     "status": "הפגזות ותקיפות רוסיות מתמשכות על יישובים ואזורים אזרחיים, הגורמות להרוגים ולפצועים"
+     "name": "חצי האי קרים ומצר קרץ'",
+     "status": "מתקפות חוזרות של צבא אוקראינה על גשר קרים באמצעות טילים וכטב\"מים, שהביאו לחסימת תנועה ונזק."
     },
     {
-     "name": "מחוז דונצק",
-     "status": "תקיפות והפגזות רוסיות קטלניות על מרכזי אוכלוסייה בהם סלוביאנסק והסביבה"
+     "name": "עורף תשתיות הנפט ברוסיה",
+     "status": "מערכה מתמשכת של כטב\"מים אוקראיניים שפגעה ביכולת הזיקוק ברוסיה בהיקף נרחב."
     },
     {
-     "name": "עומק שטח רוסיה",
-     "status": "פגיעות בכטב\"מים אוקראיניים בבתי זיקוק לנפט ושיבושים נרחבים בתנועת התעופה האזרחית"
-    },
-    {
-     "name": "עורף אוקראינה וקייב",
-     "status": "מצוקת אנרגיה חריפה והפסקות חשמל ממושכות כתוצאה מפגיעות רוסיות בתשתיות"
+     "name": "הציר המדיני והסנקציות",
+     "status": "ניסיונות גיבוש הסכמות באבו דאבי ופגישות בשנג'ן, לצד קידום חבילת מימון של האיחוד האירופי."
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-11180755-01",
-     "title": "מתקפה אוקראינית משולבת גרמה להרס מקטע כביש בגשר קרים",
-     "summary": "כוחות אוקראינה פגעו בגשר קרים באמצעות שילוב של כטב\"מים וטילים, מה שהביא לקריסת קשת ומקטע כביש לים ולחסימת תנועת כלי שיט, בעוד שתנועת הרכבות חודשה באופן חלקי.",
+     "id": "UKRAINE-11190340-01",
+     "title": "מתקפה חוזרת על גשר קרים ופגיעה בחלק המסילתי",
+     "summary": "כוחות אוקראיניים תקפו שוב את גשר קרים בלילה שבין 18 ל-19 בנובמבר. הרשויות שהוצבו על ידי רוסיה הודיעו על השבתת תנועת כלי הרכב, ודיווחים ציינו פגיעה במסלול הרכבת.",
      "axis": "חצי האי קרים ומצר קרץ'",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T17:09:43+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T17:09:43+00:00",
+     "last_update_at": "2026-11-19T01:22:59+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק למסילת הרכבת והטענה כי נהרסה כליל אינם מאומתים רשמית.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "fh_b682dd132a864cfe",
+       "url": "https://meduza.io/en/news/2026/11/19/ukraine-attacks-crimean-bridge-overnight-ahead-of-meeting-between-trump-putin-and-xi",
+       "published_at": "2026-11-19T01:22:59+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_b682dd132a864cfe",
+       "url": "https://t.me/alexmehacarmel/49725",
+       "published_at": "2026-11-19T00:25:28+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_b682dd132a864cfe",
+       "url": "https://kyivindependent.com/ukrainian-forces-once-more-hit-russias-crimean-bridge-days-after-devastating-strike/",
+       "published_at": "2026-11-19T00:04:38+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_b682dd132a864cfe",
+       "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+       "published_at": "2026-11-18T23:27:37+00:00"
+      },
+      {
+       "source_id": "src_tass",
+       "source_root_id": "fh_b682dd132a864cfe",
+       "url": "https://tass.com/emergencies/2220833",
+       "published_at": "2026-11-18T22:54:02+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "fh_b682dd132a864cfe",
+       "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-11-18T17:09:43+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11190340-02",
+     "title": "חשיפת שימוש ברחפני ממסר וטילים מתוצרת הולנדית בתקיפות גשר קרים",
+     "summary": "דיווחים חשפו כי בתקיפות האחרונות על גשר קרים נעשה שימוש בטילי רוטה שפותחו על ידי חברה מהולנד, וכן ברשת כטב\"מים ששימשו כתחנות ממסר לעקיפת מגבלות תקשורת.",
+     "axis": "חצי האי קרים",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-17T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-17T08:59:47+00:00",
-     "last_update_at": "2026-11-18T06:46:00+00:00",
-     "what_is_not_verified": "מידת הנזק המדויקת למסילת הרכבת והטענות על שימוש בטכנולוגיות ניווט עצמאיות ללא מערכות לוויין זרות.",
+     "first_reported_at": "2026-11-18T19:48:13+00:00",
+     "last_update_at": "2026-11-19T02:16:26+00:00",
+     "what_is_not_verified": "הטענה הרוסית בדבר סיוע של מטוס מודיעין בתקיפה אינה מאומתת, ופרטי התשתית הטכנולוגית טרם הובררו במלואם.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
+       "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063385/",
-       "published_at": "2026-11-18T06:46:00+00:00"
-      },
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-11-17T21:24:35+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49685",
-       "published_at": "2026-11-17T19:46:41+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49681",
-       "published_at": "2026-11-17T19:14:12+00:00"
+       "url": "https://www.theguardian.com/world/2026/nov/19/ukraine-war-briefing-russia-embassy-netherlands-destinus-missiles-kerch-crimea-bridge-strike",
+       "published_at": "2026-11-19T02:16:26+00:00"
       },
       {
        "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/video/2026/nov/17/ukraine-releases-footage-of-strike-on-crimean-bridge-video",
-       "published_at": "2026-11-17T17:48:38+00:00"
+       "url": "https://www.theguardian.com/news/audio/2026/nov/18/how-ukraine-landed-a-blow-to-putins-prize-bridge-the-latest",
+       "published_at": "2026-11-18T21:18:57+00:00"
       },
       {
-       "source_id": "src_bbc",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-11-17T15:38:10+00:00"
+       "url": "https://t.me/alexmehacarmel/49715",
+       "published_at": "2026-11-18T20:26:32+00:00"
       },
       {
-       "source_id": "src_tg_abualiexpress",
+       "source_id": "src_meduza",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133773",
-       "published_at": "2026-11-17T08:59:47+00:00"
+       "url": "https://meduza.io/en/feature/2026/11/18/ukraine-hit-the-crimean-bridge-with-ruta-missiles-from-a-firm-russian-born-mikhail-kokorich-founded-in-switzerland-after-the-u-s-barred-him-from-his-own-startup-s-technology",
+       "published_at": "2026-11-18T19:48:13+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11190340-03",
+     "title": "פגיעה נרחבת בבתי זיקוק לנפט ברוסיה בעקבות תקיפות כטב\"מים אוקראיניים",
+     "summary": "מתקפות כלי טיס בלתי מאוישים מאוקראינה פגעו בלפחות 15 מתוך 35 בתי זיקוק גדולים ברוסיה בתוך 20 יום, והביאו לירידה של כ-45% בהיקף זיקוק הנפט במדינה.",
+     "axis": "העורף הרוסי",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T18:14:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-18T18:14:00+00:00",
+     "last_update_at": "2026-11-19T00:47:47+00:00",
+     "what_is_not_verified": "נתוני הפגיעה מבוססים על הערכות מקורות בתעשייה ולא על פרסום רשמי של ממשלת רוסיה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/ukrainian-strikes-cut-russian-oil-refinery-processing-by-45-reuters-reports/",
+       "published_at": "2026-11-19T00:47:47+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/11/19/ukrainian-drone-attacks-have-cut-the-amount-of-oil-russia-refines-by-45-since-late-october-reuters-reports",
+       "published_at": "2026-11-18T21:05:24+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063514/",
+       "published_at": "2026-11-18T18:14:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "מצר קרץ', קרים",
-       "lat": 45.281,
-       "lon": 36.5492
+       "name": "ריאזאן, רוסיה",
+       "lat": 54.6296,
+       "lon": 39.7425
+      },
+      {
+       "name": "ירוסלבל, רוסיה",
+       "lat": 57.6264,
+       "lon": 39.8934
+      },
+      {
+       "name": "קירישי, רוסיה",
+       "lat": 59.4503,
+       "lon": 32.0106
       }
      ]
     },
     {
-     "id": "UKRAINE-11180755-02",
-     "title": "פגיעות וקורבנות בתקיפות רוסיות במחוז חרקוב",
-     "summary": "תקיפות שביצעו כוחות רוסיים על יישובים במחוז חרקוב, כולל פגיעה בשוק בעיר זלאטופיל, גרמו להרג אדם אחד ולפציעת לפחות 11 בני אדם, בהם ילד.",
-     "axis": "מחוז חרקוב",
+     "id": "UKRAINE-11190340-04",
+     "title": "התקפות כטב\"מים רוסיים ופגיעות באוכלוסייה במחוז חרקוב",
+     "summary": "כוחות רוסיים תקפו מבני מגורים, סניף דואר ושוק בערים צ'והויב וזלטופיל במחוז חרקוב באמצעות כטב\"מים, תקיפות שהובילו לנפגעים בגוף.",
+     "axis": "חזית חרקוב",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
+     "occurred_at": "2026-11-18T18:18:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-18T07:14:00+00:00",
-     "last_update_at": "2026-11-18T07:37:00+00:00",
-     "what_is_not_verified": "המספר הכולל המדויק של הנפגעים בכלל מוקדי הפגיעה במחוז.",
+     "first_reported_at": "2026-11-18T18:18:00+00:00",
+     "last_update_at": "2026-11-18T18:18:00+00:00",
+     "what_is_not_verified": "היקף הנזק המלא בצ'והויב נמצא בבדיקה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_49f50b34e048d8be",
-       "url": "https://www.ukrinform.net/rubric-ato/4185867-russian-attacks-kill-one-injures-eight-in-kharkiv-region.html",
-       "published_at": "2026-11-18T07:37:00+00:00"
-      },
-      {
        "source_id": "src_pravda_ua",
-       "source_root_id": "fh_49f50b34e048d8be",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063392/",
-       "published_at": "2026-11-18T07:14:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063512/",
+       "published_at": "2026-11-18T18:18:00+00:00"
       }
      ],
      "places": [
       {
-       "name": "זלאטופיל, אוקראינה",
+       "name": "צ'והויב, אוקראינה",
+       "lat": 49.8366,
+       "lon": 36.6899
+      },
+      {
+       "name": "זלטופיל, אוקראינה",
        "lat": 49.3896,
        "lon": 36.2127
       }
      ]
     },
     {
-     "id": "UKRAINE-11180755-03",
-     "title": "תקיפות רוסיות במחוז דונצק גבו את חייהם של ארבעה אזרחים",
-     "summary": "הפגזות ותקיפות של כוחות רוסיים פגעו ביישובים סלוביאנסק, שבבקיבקה ויסנוהירקה שבמחוז דונצק והובילו למותם של ארבעה בני אדם.",
-     "axis": "מחוז דונצק",
+     "id": "UKRAINE-11190340-05",
+     "title": "קרבות תת-קרקעיים במנהרות באזור חרקוב",
+     "summary": "חיילים אוקראינים מנהלים לחימה נגד כוחות רוסיים בתוך צינור גז ומנהרות סובייטיות ישנות במחוז חרקוב כדי להתגונן מפגיעות כטב\"מים.",
+     "axis": "חזית חרקוב",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-18T06:42:00+00:00",
-     "last_update_at": "2026-11-18T06:42:00+00:00",
-     "what_is_not_verified": "היקף הנפגעים המלא בשטחים שאינם בשליטת המנהל האזורי (כמו מריופול ווולנובאחה).",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_146484b4e07aa0ad",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063387/",
-       "published_at": "2026-11-18T06:42:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "סלוביאנסק, אוקראינה",
-       "lat": 48.8523,
-       "lon": 37.6058
-      },
-      {
-       "name": "שבבקיבקה, אוקראינה",
-       "lat": 48.7506,
-       "lon": 37.4908
-      },
-      {
-       "name": "יסנוהירקה, אוקראינה",
-       "lat": 48.7787,
-       "lon": 37.5537
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11180755-04",
-     "title": "יירוט נרחב של כטב\"מים רוסיים בשמי אוקראינה",
-     "summary": "מערך ההגנה האווירית של אוקראינה יירט ונטרל 126 כלי טיס בלתי מאוישים ששוגרו על ידי רוסיה במהלך שעות הלילה.",
-     "axis": "הגנה אווירית באוקראינה",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-18T07:19:00+00:00",
-     "last_update_at": "2026-11-18T07:19:00+00:00",
-     "what_is_not_verified": "סך כל הכטב\"מים ששוגרו במקור ושיעור הפגיעות בתשתיות לעומת יירוטים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4185864-air-defence-neutralises-126-russian-drones-used-to-attack-ukraine-overnight.html",
-       "published_at": "2026-11-18T07:19:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11180755-05",
-     "title": "מתקפת כטב\"מים אוקראינית על בתי זיקוק בקרסנודאר",
-     "summary": "כלי טיס בלתי מאוישים פגעו בשני בתי זיקוק לנפט באזור סברסקי שבמחוז קרסנודאר ברוסיה.",
-     "axis": "עומק שטח רוסיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-18T04:56:50+00:00",
-     "last_update_at": "2026-11-18T04:56:50+00:00",
-     "what_is_not_verified": "מידת הנזק המעשי שנגרם למתקני הזיקוק.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/2-russian-oil-refineries-reportedly-targeted-in-overnight-drone-attack-on-krasnodar-krai/",
-       "published_at": "2026-11-18T04:56:50+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11180755-06",
-     "title": "השבתת טיסות ונמלי תעופה ברוסיה עקב איומי כטב\"מים",
-     "summary": "התרחבות מתקפות הכטב\"מים של אוקראינה הובילה לשיבושים משמעותיים והגבלות טיסה יומיות בעשרות נמלי תעופה ברחבי רוסיה.",
-     "axis": "עומק שטח רוסיה",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-18T07:10:00+00:00",
+     "occurred_at": "2026-11-18T17:00:04+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-18T07:10:00+00:00",
-     "last_update_at": "2026-11-18T07:10:00+00:00",
-     "what_is_not_verified": "היקף ההשפעה הכלכלית המדויק על ענף התעופה האזרחית ברוסיה.",
+     "first_reported_at": "2026-11-18T17:00:04+00:00",
+     "last_update_at": "2026-11-18T17:00:40+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/articles/2026/11/18/8063391/",
-       "published_at": "2026-11-18T07:10:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11180755-07",
-     "title": "מחלוקת פומבית בין גרמניה ובריטניה לארצות הברית בנוגע לתקיפות בעומק רוסיה",
-     "summary": "שרי ההגנה של גרמניה ובריטניה דחו בחריפות את הביקורת של בכיר בפנטגון שכינה את התקיפות האוקראיניות בעומק רוסיה בלתי מועילות להשגת יעדי הלחימה.",
-     "axis": "הזירה הבינלאומית והסיוע הצבאי",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-17T22:01:14+00:00",
-     "last_update_at": "2026-11-18T03:54:30+00:00",
-     "what_is_not_verified": "עמדת ממשל ארצות הברית הרשמית מעבר להצהרות של סגן תת-מזכיר ההגנה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/germany-uk-push-back-after-us-criticizes-ukraines-deep-strikes-into-russia/",
-       "published_at": "2026-11-18T03:54:30+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/nov/18/ukraine-war-briefing-us-criticises-kyiv-deep-strikes-russia",
-       "published_at": "2026-11-18T01:41:14+00:00"
-      },
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/11/18/quite-a-stupid-thing-german-defense-minister-rejects-u-s-criticism-of-ukraine-s-strikes-deep-inside-russia",
-       "published_at": "2026-11-17T22:01:14+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11180755-08",
-     "title": "הכחשת דרישה רוסית לעזיבת פינלנד את נאט\"ו",
-     "summary": "נשיא פינלנד ודובר הקרמלין הכחישו במקביל טענות עיתונאיות לפיהן רוסיה הציבה דרישה שפינלנד תפרוש מנאט\"ו כחלק משיחות שלום על אוקראינה.",
-     "axis": "משא ומתן ומדיניות חוץ",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-18T07:24:53+00:00",
-     "last_update_at": "2026-11-18T07:24:53+00:00",
-     "what_is_not_verified": "תוכן המגעים החסויים המלאים שנערכו בשיחות טלפון בין פוטין למנהיגים אירופיים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/11/18/moscow-and-helsinki-agree-on-one-thing-russia-never-demanded-finland-leave-nato",
-       "published_at": "2026-11-18T07:24:53+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11180755-09",
-     "title": "האשמות אוקראיניות בדבר שימוש רוסי בגז מדמיע בשדה הקרב",
-     "summary": "חקירה באוקראינה בשיתוף הארגון למניעת הפצת נשק כימי קבעה כי צבא רוסיה השתמש ברימוני גז מדמיע נגד חיילים אוקראינים בניגוד לאמנות הבינלאומיות.",
-     "axis": "חזית הלחימה",
-     "claim_type": "assessment",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-17T20:23:17+00:00",
-     "last_update_at": "2026-11-17T20:23:17+00:00",
-     "what_is_not_verified": "היקף 14 אלף התקריות הנטענות על ידי אוקראינה, שרוסיה מכחישה באופן גורף.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/11/17/ukrainian-investigation-finds-russia-used-tear-gas-against-ukrainian-troops-ap-reports",
-       "published_at": "2026-11-17T20:23:17+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11180755-10",
-     "title": "משבר אנרגיה והפסקות חשמל חמורות בקייב",
-     "summary": "תקיפות חוזרות ונשנות של רוסיה על תשתיות אנרגיה יצרו הפסקות חשמל קשות וממושכות בבירת אוקראינה והובילו לביקורת פנימית נגד ראש העיר.",
-     "axis": "קייב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-17T17:19:57+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-17T17:19:57+00:00",
-     "last_update_at": "2026-11-18T07:00:36+00:00",
-     "what_is_not_verified": "היקף האחריות הניהולית המיוחסת לראש העיר קליצ'קו אל מול חומרת הפגיעה הרוסית.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/nov/18/russian-attacks-kyiv-power-outages-mayor-in-perilous-position",
-       "published_at": "2026-11-18T07:00:36+00:00"
+       "source_id": "src_bbc",
+       "source_root_id": "fh_945e1a7dc4136475",
+       "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-11-18T17:00:40+00:00"
       },
       {
        "source_id": "src_bbc",
+       "source_root_id": "fh_2cfc3ba5b526dd64",
+       "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-11-18T17:00:04+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11190340-06",
+     "title": "הצעת הנציבות האירופית להלוואה בסך 45 מיליארד אירו לאוקראינה",
+     "summary": "הנציבות האירופית הציעה מתן הלוואה בהיקף 45 מיליארד אירו לקייב בשנת 2027 לחיזוק ההגנה והמשק, כאשר ההחזר יותנה בפיצויים שרוסיה תשלם בעתיד.",
+     "axis": "סיוע בינלאומי ומדיני",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T22:34:03+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T22:34:03+00:00",
+     "last_update_at": "2026-11-18T22:34:03+00:00",
+     "what_is_not_verified": "אישור ההצעה על ידי כל 27 המדינות החברות באיחוד טרם הושלם.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-11-17T17:19:57+00:00"
+       "url": "https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",
+       "published_at": "2026-11-18T22:34:03+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11190340-07",
+     "title": "חשיפת עמדות המשא ומתן של רוסיה בשיחות אבו דאבי",
+     "summary": "במסגרת שיחות שנערכו באבו דאבי דרשה רוסיה צמצום כוחות נאט\"ו לגבולות 1997 והפסקת הגדרתה כאיום, ובתמורה הציעה להפחית נוכחות צבאית בבלארוס ובמובלעת קלינינגרד.",
+     "axis": "משא ומתן דיפלומטי",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-11T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T20:29:16+00:00",
+     "last_update_at": "2026-11-18T21:38:19+00:00",
+     "what_is_not_verified": "פרטי הוויתורים המדויקים של רוסיה בבלארוס ובקלינינגרד והסכמת הצדדים אינם מאומתים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/11/19/u-s-warns-russia-it-should-make-peace-with-ukraine-now-while-trump-still-has-room-to-negotiate-the-kyiv-independent-reports",
+       "published_at": "2026-11-18T21:38:19+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/feature/2026/11/18/russia-is-prepared-to-reduce-its-military-presence-in-the-kaliningrad-region-and-belarus-if-its-demands-are-met-bloomberg-reports",
+       "published_at": "2026-11-18T20:29:16+00:00"
       }
      ],
      "places": [
       {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
+       "name": "אבו דאבי, איחוד האמירויות",
+       "lat": 24.4538,
+       "lon": 54.3774
       }
      ]
     },
     {
-     "id": "UKRAINE-11180755-11",
-     "title": "הגעת פוטין לסין לקראת פסגה משולשת",
-     "summary": "נשיא רוסיה נחת בסין לקראת מפגש פסגה משותף עם נשיא סין ונשיא ארצות הברית דונלד טראמפ.",
-     "axis": "דיפלומטיה בינלאומית",
-     "claim_type": "incident",
+     "id": "UKRAINE-11190340-08",
+     "title": "האשמות אירופיות על שימוש רוסי בנשק כימי בחזית",
+     "summary": "הנציבות האירופית קראה למצות את הדין עם רוסיה בעקבות דוח חקירה אוקראיני שהצביע על שימוש נרחב ושיטתי בחומרים כימיים לאורך קווי הלחימה.",
+     "axis": "זירה בינלאומית ומשפטית",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-17T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-17T19:16:36+00:00",
-     "last_update_at": "2026-11-17T19:46:41+00:00",
-     "what_is_not_verified": "סדר היום המלא של הפסגה וההסכמות שיושגו בה.",
+     "occurred_at": "2026-11-18T18:21:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T18:21:00+00:00",
+     "last_update_at": "2026-11-18T18:21:00+00:00",
+     "what_is_not_verified": "ממצאי הדוח האוקראיני טרם אומתו בחקירה עצמאית של הארגון למניעת הפצת נשק כימי.",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063517/",
+       "published_at": "2026-11-18T18:21:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11190340-09",
+     "title": "צעדי כוננות בפולין מפני פעולות חבלה רוסיות בגבול קלינינגרד",
+     "summary": "שר ההגנה הפולני הודיע על סיכול תוכנית חבלה רוסית שנועדה להטיל אשמה על אוקראינה סמוך לגבול קלינינגרד, וביקש להרחיב את פריסת הצבא להגנת הרכבות.",
+     "axis": "הגבול הפולני-רוסי",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T19:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-18T19:00:00+00:00",
+     "last_update_at": "2026-11-18T19:00:00+00:00",
+     "what_is_not_verified": "תוכנית החבלה המיוחסת למודיעין הרוסי נסמכת על טענות של גורמי ביטחון פולניים בלבד.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_rmf24",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063521/",
+       "published_at": "2026-11-18T19:00:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11190340-10",
+     "title": "פסגה משולשת בעיר שנג'ן בהשתתפות מנהיגי ארה\"ב, סין ורוסיה",
+     "summary": "נשיאי ארה\"ב, סין ורוסיה התכנסו למפגש משולש בעיר שנג'ן, על רקע דיווחים סותרים לגבי היקף הדיונים שיתקיימו בפועל בנושא המלחמה באוקראינה.",
+     "axis": "דיפלומטיה בינלאומית",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-18T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-18T10:53:21+00:00",
+     "last_update_at": "2026-11-19T03:00:12+00:00",
+     "what_is_not_verified": "האם התקיימו שיחות מהותיות על אוקראינה בפסגה שנוי במחלוקת בין גורמים רשמיים למקורות תקשורתיים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/what-china-hopes-to-gain-from-the-trump-putin-summit/",
+       "published_at": "2026-11-19T03:00:12+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/11/19/ukraine-attacks-crimean-bridge-overnight-ahead-of-meeting-between-trump-putin-and-xi",
+       "published_at": "2026-11-19T01:22:59+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/11/19/u-s-warns-russia-it-should-make-peace-with-ukraine-now-while-trump-still-has-room-to-negotiate-the-kyiv-independent-reports",
+       "published_at": "2026-11-18T21:38:19+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/commentisfree/2026/nov/18/the-guardian-view-on-the-trump-xi-and-putin-meeting-it-may-be-a-first-but-its-not-progress",
+       "published_at": "2026-11-18T18:35:14+00:00"
+      },
+      {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49685",
-       "published_at": "2026-11-17T19:46:41+00:00"
+       "url": "https://t.me/alexmehacarmel/49706",
+       "published_at": "2026-11-18T15:28:28+00:00"
       },
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133819",
-       "published_at": "2026-11-17T19:16:36+00:00"
+       "url": "https://t.me/abualiexpress/133851",
+       "published_at": "2026-11-18T12:51:14+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-11-18T10:53:21+00:00"
       }
      ],
      "places": [
@@ -1041,42 +1055,14 @@ window.DB.war_published = {
        "lon": 114.0545
       }
      ]
-    },
-    {
-     "id": "UKRAINE-11180755-12",
-     "title": "התקדמות בשיחות בין משרד האוצר האוקראיני לקרן המטבע הבינלאומית",
-     "summary": "שלב הדיונים הפרונטלי בוורשה בין משרד האוצר של אוקראינה לנציגי קרן המטבע הסתיים בהתקדמות משמעותית בנוגע לסיוע בהיקף של כ-1.6 מיליארד דולר.",
-     "axis": "כלכלה וסיוע בינלאומי",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-18T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-18T07:42:00+00:00",
-     "last_update_at": "2026-11-18T07:42:00+00:00",
-     "what_is_not_verified": "מועד האישור הסופי והעברת הכספים בפועל.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_7f2483820f1bcd72",
-       "url": "https://www.ukrinform.net/rubric-economy/4185863-16-bln-at-stake-finance-ministry-reports-significant-progress-in-talks-with-imf-mission.html",
-       "published_at": "2026-11-18T07:42:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ורשה, פולין",
-       "lat": 52.2334,
-       "lon": 21.0711
-      }
-     ]
     }
    ],
    "not_verified": [
-    "טענות רוסיות על קיומם של כעשרים בתי כלא סודיים ומתקני עינויים המופעלים על ידי אוקראינה",
-    "מספר האבדות הכולל של הצבא הרוסי המדווח על ידי המטה הכללי של אוקראינה",
-    "הטענה כי תקיפת גשר קרים הסתמכה כולה על תקשורת מקומית עצמאית לחלוטין ללא לוויינים זרים",
-    "היקף השימוש המדויק בגז מדמיע בשדה הקרב לפי הנתון האוקראיני של כ-14 אלף מקרים"
+    "טענת ערוצים אוקראיניים בדבר השמדה מוחלטת של קטע מסילת הרכבת בגשר קרים",
+    "טענת מקורות רוסיים על מעורבות מטוס מודיעין בהכוונת התקיפה בגשר קרים",
+    "ההערכה כי תפוקת בתי הזיקוק ברוסיה פחתה ב-45%, הנסמכת על מקורות אלמוניים בתעשייה",
+    "הדיווחים שלפיהם סין סירבה לדון בסוגיית המלחמה באוקראינה במהלך הפסגה בשנג'ן",
+    "נכונות רוסיה להסיג כוחות או נשק גרעיני מבלארוס ומקלינינגרד במסגרת ויתורים הדדיים"
    ],
    "map": {
     "confidence": "high",
@@ -1087,140 +1073,141 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.0989,
+     "value": 1.0968,
      "unit": "USD",
-     "change_pct": -0.23,
+     "change_pct": -0.19,
      "source_id": "src_ecb",
-     "as_of": "2026-11-17T15:00:00+00:00"
+     "as_of": "2026-11-18T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "אוקראינה",
      "declared": [
-      "פגיעה בנתיבי אספקה צבאיים רוסיים ובסמלי שליטה דוגמת גשר קרים",
-      "ערעור הפעילות הכלכלית ותשתיות האנרגיה שמממנות את מאמץ המלחמה של רוסיה"
+      "הגנה עצמית ופגיעה בלוגיסטיקה ובנכסים אסטרטגיים של הצבא הרוסי",
+      "המשך פינוי אזרחים מאזורי כיבוש במחוז חרסון"
      ],
      "inferred": [
-      "יצירת מנוף לחץ סמלי ומבצעי לקראת מגעים מדיניים ופסגות בינלאומיות",
-      "הפגנת עצמאות טכנולוגית צבאית שאינה תלויה באופן מלא במערכות מערביות"
+      "ערעור חופש הפעולה הלוגיסטי של רוסיה בקרים ופגיעה בהכנסותיה מאנרגיה לפני שיחות מדיניות",
+      "הפחתת התלות במערכות מערביות מוגבלות באמצעות פיתוח אמצעי תקיפה ותקשורת עצמאיים"
      ],
      "forecast": [
-      "המשך מיקוד מאמצי התקיפה בנמלי תעופה, מאגרי דלק ותשתיות לוגיסטיקה ברוסיה",
-      "החרפת הוויכוח הפנימי והחיצוני מול שותפות מערביות על לגיטימיות התקיפות בעומק"
+      "המשך מאמצי התקיפה הממוקדים נגד צירי אספקה ובתי זיקוק נוספים בתוך רוסיה",
+      "הישענות גוברת על מקורות מימון אירופיים ארוכי טווח לנוכח שינויים פוליטיים בארה\"ב"
      ]
     },
     {
      "actor": "רוסיה",
      "declared": [
-      "פגיעה במערכי כטב\"מים ומרכזי שליטה צבאיים של אוקראינה בחזית",
-      "שלילת טענות בדבר דרישות להוצאת מדינות שכנות מברית נאט\"ו"
+      "הסגת נוכחות כוחות נאט\"ו לגבולות שנת 1997",
+      "הפסקת הגדרתה של רוסיה כאיום או כאויב על ידי מדינות המערב",
+      "קידום מנגנונים למניעת תקריות בים הבלטי ובים השחור"
      ],
      "inferred": [
-      "שחיקת כושר העמידה של העורף האוקראיני באמצעות פגיעה ממוקדת במערכות החשמל לקראת החורף",
-      "הפגנת נוכחות מדינית בינלאומית לצד מעצמות מתחרות כדי לחלץ עמדת מיקוח עדיפה"
+      "שימור היתרון בשטח באמצעות לחץ מתמשך במחוז חרקוב ופגיעה בתשתיות ייצוא אוקראיניות",
+      "הפעלת לחץ מדיני להסרת סנקציות ולצמצום אספקת הנשק לקייב"
      ],
      "forecast": [
-      "המשך גלי תקיפות באמצעות כטב\"מים וטילים לעבר תשתיות אנרגיה וגשרים מרכזיים באוקראינה",
-      "הידוק שיתוף הפעולה הדיפלומטי מול סין במטרה לבלום לחצים מערביים"
+      "המשך תקיפות ממוקדות באמצעות כטב\"מים וטילים נגד ערים ותשתיות אוקראיניות",
+      "ניסיון למנף ערוצים דיפלומטיים בינלאומיים לצורך השגת ויתורים ביטחוניים מנאט\"ו"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_bbc",
-     "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-11-18T07:55:12+00:00"
+     "url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss",
+     "accessed_at": "2026-11-19T03:40:32+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/18/russian-attacks-kyiv-power-outages-mayor-in-perilous-position",
-     "accessed_at": "2026-11-18T07:55:12+00:00"
+     "url": "https://www.theguardian.com/commentisfree/2026/nov/18/the-guardian-view-on-the-trump-xi-and-putin-meeting-it-may-be-a-first-but-its-not-progress",
+     "accessed_at": "2026-11-19T03:40:32+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/germany-uk-push-back-after-us-criticizes-ukraines-deep-strikes-into-russia/",
-     "accessed_at": "2026-11-18T07:55:12+00:00"
+     "url": "https://kyivindependent.com/what-china-hopes-to-gain-from-the-trump-putin-summit/",
+     "accessed_at": "2026-11-19T03:40:32+00:00"
     },
     {
      "source_id": "src_meduza",
-     "url": "https://meduza.io/en/news/2026/11/17/ukrainian-investigation-finds-russia-used-tear-gas-against-ukrainian-troops-ap-reports",
-     "accessed_at": "2026-11-18T07:55:12+00:00"
+     "url": "https://meduza.io/en/news/2026/11/19/u-s-warns-russia-it-should-make-peace-with-ukraine-now-while-trump-still-has-room-to-negotiate-the-kyiv-independent-reports",
+     "accessed_at": "2026-11-19T03:40:32+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/articles/2026/11/18/8063391/",
-     "accessed_at": "2026-11-18T07:55:12+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063521/",
+     "accessed_at": "2026-11-19T03:40:32+00:00"
+    },
+    {
+     "source_id": "src_tass",
+     "url": "https://tass.com/emergencies/2220833",
+     "accessed_at": "2026-11-19T03:40:32+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/133819",
-     "accessed_at": "2026-11-18T07:55:12+00:00"
+     "url": "https://t.me/abualiexpress/133851",
+     "accessed_at": "2026-11-19T03:40:32+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49685",
-     "accessed_at": "2026-11-18T07:55:12+00:00"
-    },
-    {
-     "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-economy/4185863-16-bln-at-stake-finance-ministry-reports-significant-progress-in-talks-with-imf-mission.html",
-     "accessed_at": "2026-11-18T07:55:12+00:00"
+     "url": "https://t.me/alexmehacarmel/49706",
+     "accessed_at": "2026-11-19T03:40:32+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-17T19:30:52+00:00",
+  "previous_generated_at": "2026-11-18T07:55:12+00:00",
   "changes": {
-   "UKRAINE-11180755-01": {
+   "UKRAINE-11190340-01": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "תקיפה אוקראינית משמעותית על גשר קרים והקרסת מקטע ממנו",
+    "prev": "מתקפה אוקראינית משולבת גרמה להרס מקטע כביש בגשר קרים",
+    "score": 0.65
+   },
+   "UKRAINE-11190340-02": {
+    "kind": "new"
+   },
+   "UKRAINE-11190340-03": {
+    "kind": "up",
+    "from": "initial",
+    "to": "verified",
+    "prev": "מתקפת כטב\"מים אוקראינית על בתי זיקוק בקרסנודאר",
+    "score": 0.65
+   },
+   "UKRAINE-11190340-04": {
+    "kind": "same",
+    "from": "shared_root",
+    "to": "initial",
+    "prev": "פגיעות וקורבנות בתקיפות רוסיות במחוז חרקוב",
     "score": 1.0
    },
-   "UKRAINE-11180755-02": {
+   "UKRAINE-11190340-05": {
     "kind": "new"
    },
-   "UKRAINE-11180755-03": {
+   "UKRAINE-11190340-06": {
     "kind": "new"
    },
-   "UKRAINE-11180755-04": {
-    "kind": "possible",
-    "prev": "חדירת כטב\"מים רוסיים למרחב האווירי של מולדובה וסגירת מעברי גבול",
-    "score": 0.467
-   },
-   "UKRAINE-11180755-05": {
+   "UKRAINE-11190340-07": {
     "kind": "new"
    },
-   "UKRAINE-11180755-06": {
+   "UKRAINE-11190340-08": {
+    "kind": "same",
+    "from": "assessment",
+    "to": "initial",
+    "prev": "האשמות אוקראיניות בדבר שימוש רוסי בגז מדמיע בשדה הקרב",
+    "score": 0.65
+   },
+   "UKRAINE-11190340-09": {
     "kind": "new"
    },
-   "UKRAINE-11180755-07": {
-    "kind": "new"
-   },
-   "UKRAINE-11180755-08": {
-    "kind": "new"
-   },
-   "UKRAINE-11180755-09": {
-    "kind": "new"
-   },
-   "UKRAINE-11180755-10": {
+   "UKRAINE-11190340-10": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "מתקפת טילים בליסטיים רוסית על גשרים בקייב",
+    "prev": "הגעת פוטין לסין לקראת פסגה משולשת",
     "score": 1.0
-   },
-   "UKRAINE-11180755-11": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "נחיתת פוטין בסין לקראת פסגה משולשת",
-    "score": 1.0
-   },
-   "UKRAINE-11180755-12": {
-    "kind": "new"
    }
   }
  },
