@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-20T20:17:28+00:00",
-  "fetched_at": "2026-11-20T20:17:28+00:00"
+  "checked_at": "2026-11-20T21:17:25+00:00",
+  "fetched_at": "2026-11-20T21:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-20T20:17:40+00:00",
-  "fetched_at": "2026-11-20T20:17:40+00:00"
+  "checked_at": "2026-11-20T21:17:39+00:00",
+  "fetched_at": "2026-11-20T21:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-20T20:17:42+00:00",
-  "fetched_at": "2026-11-20T20:17:42+00:00"
+  "checked_at": "2026-11-20T21:17:40+00:00",
+  "fetched_at": "2026-11-20T21:17:40+00:00"
  },
- "generated_at": "2026-11-20T20:17:42+00:00",
+ "generated_at": "2026-11-20T21:17:40+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "אנבידיה חוטפת מכה נוספת - והמניה צונחת",
+     "title": "זו כבר קריסה: נאסד״ק נחתך ביותר מ-5% בנעילה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564313",
-     "date": "2026-11-20T19:49:00+00:00"
+     "date": "2026-11-20T21:03:00+00:00"
     },
     {
      "title": "דובר צה\"ל בהודעה לפני שבת: \"אין שינוי בהנחיות - אל תיתנו יד לשמועות\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564305",
-     "date": "2026-11-20T18:56:00+00:00"
+     "date": "2026-11-20T20:22:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-20T20:17:30+00:00",
-  "fetched_at": "2026-11-20T20:17:30+00:00"
+  "checked_at": "2026-11-20T21:17:27+00:00",
+  "fetched_at": "2026-11-20T21:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-20T20:17:31+00:00",
-  "fetched_at": "2026-11-20T20:17:31+00:00"
+  "checked_at": "2026-11-20T21:17:27+00:00",
+  "fetched_at": "2026-11-20T21:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -3117,8 +3117,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-20T20:17:32+00:00",
-  "fetched_at": "2026-11-20T20:17:32+00:00"
+  "checked_at": "2026-11-20T21:17:29+00:00",
+  "fetched_at": "2026-11-20T21:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3216,8 +3216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-20T20:17:32+00:00",
-  "fetched_at": "2026-11-20T20:17:32+00:00"
+  "checked_at": "2026-11-20T21:17:29+00:00",
+  "fetched_at": "2026-11-20T21:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -3241,17 +3241,16 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 10,
+   "candidates": 14,
    "failed_sources": [
-    "Anthropic",
-    "גיקטיים"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 768,
+     "likes": 774,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
@@ -3265,14 +3264,14 @@ window.DB.generated = {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 216,
+     "likes": 217,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
      "title": "Slack Moji",
      "desc_en": "Describe an emoji. A tiny model paints it in your browser.",
      "desc_he": "תארו אימוג'י. מודל קטן מצייר אותו בדפדפן שלכם.",
-     "likes": 66,
+     "likes": 67,
      "link": "https://huggingface.co/spaces/cfahlgren1/slack-moji"
     },
     {
@@ -3320,8 +3319,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-20T20:17:39+00:00",
-  "fetched_at": "2026-11-20T20:17:39+00:00"
+  "checked_at": "2026-11-20T21:17:38+00:00",
+  "fetched_at": "2026-11-20T21:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -3379,15 +3378,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "ללא אבדיה: 33 ללילארד, פורטלנד גברה על מילווקי",
-     "link": "https://www.one.co.il/Article/539360.html?ref=rss",
-     "date": "2026-11-20T04:32:00+00:00",
-     "source": "ONE",
-     "players": [
-      "דני אבדיה"
      ]
     },
     {
@@ -3457,6 +3447,15 @@ window.DB.generated = {
      "title": "\"לא הייתה להם תשובה לאבדיה\": המחמאות והעקיצות אחרי ההפסד",
      "link": "https://sports.walla.co.il/item/3876562",
      "date": "2026-11-17T07:47:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "אבדיה שוב כיכב עם 27 נקודות, פורטלנד נעצרה במינסוטה",
+     "link": "https://sports.walla.co.il/item/3876544",
+     "date": "2026-11-17T05:48:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3673,8 +3672,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-20T20:17:37+00:00",
-  "fetched_at": "2026-11-20T20:17:37+00:00"
+  "checked_at": "2026-11-20T21:17:33+00:00",
+  "fetched_at": "2026-11-20T21:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -3705,98 +3704,98 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-20T20:17:37+00:00",
-  "fetched_at": "2026-11-20T20:17:37+00:00"
+  "checked_at": "2026-11-20T21:17:34+00:00",
+  "fetched_at": "2026-11-20T21:17:34+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-20T19:49:00+00:00",
-    "seen_at": "2026-11-20T20:17:42+00:00",
+    "newest": "2026-11-20T21:03:00+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-20T11:59:00+00:00",
-    "seen_at": "2026-11-20T20:17:42+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-20T06:26:00+00:00",
-    "seen_at": "2026-11-20T20:17:42+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-20T20:35:00+00:00",
-    "seen_at": "2026-11-20T20:17:42+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-20T20:52:00+00:00",
-    "seen_at": "2026-11-20T20:17:42+00:00",
+    "newest": "2026-11-20T21:45:00+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-20T20:05:00+00:00",
-    "seen_at": "2026-11-20T20:17:42+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-20T20:07:00+00:00",
-    "seen_at": "2026-11-20T20:17:42+00:00",
+    "newest": "2026-11-20T20:36:00+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-11-20T16:27:51+00:00",
-    "seen_at": "2026-11-20T20:17:42+00:00",
+    "newest": "2026-11-20T21:07:31+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-18T21:35:43+00:00",
-    "seen_at": "2026-11-20T20:17:42+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-19T18:00:00+00:00",
-    "seen_at": "2026-11-20T20:17:42+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-20T11:51:07+00:00",
-    "seen_at": "2026-11-20T19:17:38+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-18T14:00:45+00:00",
-    "seen_at": "2026-11-20T20:17:42+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-20T20:00:00+00:00",
-    "seen_at": "2026-11-20T20:17:42+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-19T15:08:13+00:00",
-    "seen_at": "2026-11-20T20:17:42+00:00",
+    "seen_at": "2026-11-20T21:17:40+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-20T20:17:42+00:00"
+  "checked_at": "2026-11-20T21:17:40+00:00"
  },
  "health_news": {
   "data": [
@@ -3952,7 +3951,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-20T20:17:38+00:00",
-  "fetched_at": "2026-11-20T20:17:38+00:00"
+  "checked_at": "2026-11-20T21:17:35+00:00",
+  "fetched_at": "2026-11-20T21:17:35+00:00"
  }
 };
