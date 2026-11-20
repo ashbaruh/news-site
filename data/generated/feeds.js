@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-20T16:23:48+00:00",
-  "fetched_at": "2026-11-20T16:23:48+00:00"
+  "checked_at": "2026-11-20T17:17:26+00:00",
+  "fetched_at": "2026-11-20T17:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-20T16:24:00+00:00",
-  "fetched_at": "2026-11-20T16:24:00+00:00"
+  "checked_at": "2026-11-20T17:17:36+00:00",
+  "fetched_at": "2026-11-20T17:17:36+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Sony Xperia 1 VIII",
+    "title_he": "סוני אקספריה 1 VIII",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/smartphones-tablets/sony-xperia-1-viii",
+    "date": "2026-11-20T16:52:35+00:00"
+   },
    {
     "title_en": "Can you identify the hi-fi brand from a tiny product detail? Test your skills with this quiz!",
     "title_he": "האם אתה יכול לזהות את מותג ה-hi-fi מפרט מוצר זעיר? בדוק את כישוריך עם החידון הזה!",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/sound-advice-live-q-and-a-get-your-hi-fi-av-and-tv-questions-in-for-our-experts",
     "date": "2026-11-20T10:28:04+00:00"
-   },
-   {
-    "title_en": "How to watch Yellowjackets season 4: Stream the horror series for free from anywhere",
-    "title_he": "איך לצפות ב-Yellowjackets עונה 4: הזרימו את סדרת האימה בחינם מכל מקום",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/how-to-watch-yellowjackets-season-4",
-    "date": "2026-11-20T06:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-20T16:24:01+00:00",
-  "fetched_at": "2026-11-20T16:24:01+00:00"
+  "checked_at": "2026-11-20T17:17:39+00:00",
+  "fetched_at": "2026-11-20T17:17:39+00:00"
  },
- "generated_at": "2026-11-20T16:24:01+00:00",
+ "generated_at": "2026-11-20T17:17:39+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-20T16:23:49+00:00",
-  "fetched_at": "2026-11-20T16:23:49+00:00"
+  "checked_at": "2026-11-20T17:17:27+00:00",
+  "fetched_at": "2026-11-20T17:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-20T16:23:50+00:00",
-  "fetched_at": "2026-11-20T16:23:50+00:00"
+  "checked_at": "2026-11-20T17:17:28+00:00",
+  "fetched_at": "2026-11-20T17:17:28+00:00"
  },
  "tv": {
   "data": [
@@ -3117,8 +3117,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-20T16:23:51+00:00",
-  "fetched_at": "2026-11-20T16:23:51+00:00"
+  "checked_at": "2026-11-20T17:17:29+00:00",
+  "fetched_at": "2026-11-20T17:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3216,8 +3216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-20T16:23:51+00:00",
-  "fetched_at": "2026-11-20T16:23:51+00:00"
+  "checked_at": "2026-11-20T17:17:29+00:00",
+  "fetched_at": "2026-11-20T17:17:29+00:00"
  },
  "ai": {
   "data": {
@@ -3232,19 +3232,18 @@ window.DB.generated = {
      "translated_by": "google"
     },
     {
-     "source": "OpenAI",
-     "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-     "date": "2026-11-17T17:45:00+00:00",
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+     "date": "2026-11-18T21:35:43+00:00",
      "launch": true,
-     "title_en": "Introducing GPT-6.2 Astra and Sol",
-     "title_he": "הכירו את GPT-6.2 Astra ו-Sol",
-     "translated_by": "mymemory"
+     "title_en": "Introducing Gemini 4 Neon",
+     "title_he": "הכירו את Gemini 4 Neon",
+     "translated_by": "google"
     }
    ],
-   "candidates": 13,
+   "candidates": 14,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
@@ -3272,7 +3271,7 @@ window.DB.generated = {
      "title": "Slack Moji",
      "desc_en": "Describe an emoji. A tiny model paints it in your browser.",
      "desc_he": "תארו אימוג'י. מודל קטן מצייר אותו בדפדפן שלכם.",
-     "likes": 64,
+     "likes": 65,
      "link": "https://huggingface.co/spaces/cfahlgren1/slack-moji"
     },
     {
@@ -3286,7 +3285,7 @@ window.DB.generated = {
      "title": "P-Image-OSS",
      "desc_en": "Text-to-image and image editing, based on MiniMax-H3",
      "desc_he": "עריכת טקסט לתמונה ותמונה, מבוססת על MiniMax-H3",
-     "likes": 191,
+     "likes": 192,
      "link": "https://huggingface.co/spaces/PrunaAI/P-Image-OSS"
     },
     {
@@ -3320,8 +3319,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-20T16:24:00+00:00",
-  "fetched_at": "2026-11-20T16:24:00+00:00"
+  "checked_at": "2026-11-20T17:17:36+00:00",
+  "fetched_at": "2026-11-20T17:17:36+00:00"
  },
  "abroad": {
   "data": {
@@ -3673,8 +3672,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-20T16:23:54+00:00",
-  "fetched_at": "2026-11-20T16:23:54+00:00"
+  "checked_at": "2026-11-20T17:17:32+00:00",
+  "fetched_at": "2026-11-20T17:17:32+00:00"
  },
  "idf": {
   "data": [
@@ -3705,8 +3704,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-20T16:23:55+00:00",
-  "fetched_at": "2026-11-20T16:23:55+00:00"
+  "checked_at": "2026-11-20T17:17:32+00:00",
+  "fetched_at": "2026-11-20T17:17:32+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3714,79 +3713,79 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-20T16:11:00+00:00",
-    "seen_at": "2026-11-20T16:24:01+00:00",
+    "seen_at": "2026-11-20T17:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-20T11:59:00+00:00",
-    "seen_at": "2026-11-20T16:24:01+00:00",
+    "seen_at": "2026-11-20T17:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-20T06:26:00+00:00",
-    "seen_at": "2026-11-20T16:24:01+00:00",
+    "seen_at": "2026-11-20T17:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-19T21:03:00+00:00",
-    "seen_at": "2026-11-20T16:24:01+00:00",
+    "seen_at": "2026-11-20T17:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-20T16:34:00+00:00",
-    "seen_at": "2026-11-20T16:24:01+00:00",
+    "newest": "2026-11-20T17:32:00+00:00",
+    "seen_at": "2026-11-20T17:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-20T15:55:00+00:00",
-    "seen_at": "2026-11-20T16:24:01+00:00",
+    "newest": "2026-11-20T17:25:00+00:00",
+    "seen_at": "2026-11-20T17:17:39+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-20T16:13:00+00:00",
-    "seen_at": "2026-11-20T16:24:01+00:00",
+    "newest": "2026-11-20T16:25:00+00:00",
+    "seen_at": "2026-11-20T17:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-11-19T20:00:27+00:00",
-    "seen_at": "2026-11-20T16:24:01+00:00",
+    "newest": "2026-11-20T16:27:51+00:00",
+    "seen_at": "2026-11-20T17:17:39+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-18T21:35:43+00:00",
-    "seen_at": "2026-11-20T16:17:24+00:00",
+    "seen_at": "2026-11-20T17:17:39+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-19T18:00:00+00:00",
-    "seen_at": "2026-11-20T16:24:01+00:00",
+    "seen_at": "2026-11-20T17:17:39+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-20T11:51:07+00:00",
-    "seen_at": "2026-11-20T16:24:01+00:00",
+    "seen_at": "2026-11-20T17:17:39+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-18T14:00:45+00:00",
-    "seen_at": "2026-11-20T16:24:01+00:00",
+    "seen_at": "2026-11-20T17:17:39+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-20T16:16:23+00:00",
-    "seen_at": "2026-11-20T16:24:01+00:00",
+    "newest": "2026-11-20T16:52:35+00:00",
+    "seen_at": "2026-11-20T17:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3796,7 +3795,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-11-20T16:24:01+00:00"
+  "checked_at": "2026-11-20T17:17:39+00:00"
  },
  "health_news": {
   "data": [
@@ -3951,8 +3950,9 @@ window.DB.generated = {
     "date": "2026-10-21T10:14:26+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-20T16:23:56+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-20T17:17:32+00:00",
   "fetched_at": "2026-11-20T16:23:56+00:00"
  }
 };
