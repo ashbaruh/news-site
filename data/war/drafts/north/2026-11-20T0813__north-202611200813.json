@@ -1,0 +1,450 @@
+{
+ "status": "draft",
+ "received_sha256_12": "350899b74a6c",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "initial": 7,
+   "verified": 1,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-20T08:13:44+00:00",
+  "window": {
+   "from": "2026-11-19T08:13:44+00:00",
+   "to": "2026-11-20T08:13:44+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202611200813"
+  },
+  "summary": "בגזרה הצפונית נמשכת פעילות צבאית ישראלית עצימה הכוללת הפצצות בבקאע וסיכול העברות נשק מגבול סוריה, לצד הפגזות ותקיפות בדרום לבנון ותנועת כוחות קרקעיים לעבר קוניטרה. במקביל, הממשל הסורי החדש מרחיב את אכיפת הסדר הפנימי ומעמיד לדין בכירים לשעבר, בעוד טורקיה מחזקת את השפעתה המדינית והביטחונית בסוריה ובלבנון.",
+  "fronts": [
+   {
+    "name": "דרום לבנון והבקאע מול ישראל",
+    "status": "לחימה בעצימות מתמשכת, תקיפות אוויריות והפגזות ישראליות נגד מטרות חיזבאללה ותשתיות הברחה"
+   },
+   {
+    "name": "גבול ישראל - סוריה (רמת הגולן וקוניטרה)",
+    "status": "מתיחות ופעילות כוחות קרקעיים ישראליים מעבר לקו במרחב הכפרי"
+   },
+   {
+    "name": "השפעת טורקיה בלבנון ובסוריה",
+    "status": "התרחבות מעורבות דיפלומטית, הסכמי שיתוף פעולה צבאי ותמיכה בהרחבת ריבונות הממשל בסוריה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11200813-01",
+    "title": "תקיפות אוויריות של צה\"ל בכפר תבנית בדרום לבנון",
+    "summary": "מטוסי קרב ישראליים תקפו יעדים בכפר תבנית שבדרום לבנון.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T08:02:56+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-20T08:02:56+00:00",
+    "last_update_at": "2026-11-20T08:02:56+00:00",
+    "what_is_not_verified": "אין אימות עצמאי לזהות המטרות או לנזק שנגרם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133938",
+      "published_at": "2026-11-20T08:02:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כפר תבנית, לבנון",
+      "lat": 33.3519,
+      "lon": 35.5186
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11200813-02",
+    "title": "ירי ארטילרי ואש מקלעים ישראלית בדרום לבנון",
+    "summary": "הפגזות ארטילריות כוונו למספר אזורים בדרום לבנון כולל ואדי אל-סלוקי, ואדי אל-חג'יר, ואדי זיבקין, פאתי תולין, אל-מנסורי ומיפדון, לצד ירי מקלעים לעבר אל-קנטרה.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T07:40:32+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T07:40:32+00:00",
+    "last_update_at": "2026-11-20T07:40:32+00:00",
+    "what_is_not_verified": "היקף הפגיעות והנפגעים המדויק אינו ידוע",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/152992/",
+      "published_at": "2026-11-20T07:40:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-מנסורי, לבנון",
+      "lat": 33.1737,
+      "lon": 35.2111
+     },
+     {
+      "name": "אל-קנטרה, לבנון",
+      "lat": 33.2589,
+      "lon": 35.459
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11200813-03",
+    "title": "תקיפת חיל האוויר הישראלי במרחב ג'נתא בבקאע",
+    "summary": "חיל האוויר הישראלי תקף אתר ששימש בעבר לייצור טילים ואחסון אמל\"ח של חיזבאללה בג'נתא כדי למנוע את שיקומו לאחר הגעת מחבלים לאתר.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T15:03:34+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T15:03:34+00:00",
+    "last_update_at": "2026-11-19T20:03:38+00:00",
+    "what_is_not_verified": "אין אימות בלתי תלוי לגבי אופי המבנה שהותקף והאם הכיל אמל\"ח פעיל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-airstrikes-hit-eastern-lebanon-target-homes-buildings-in-south/4131515",
+      "published_at": "2026-11-19T20:03:38+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133922",
+      "published_at": "2026-11-19T18:00:39+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25660",
+      "published_at": "2026-11-19T17:59:48+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/968784/israeli-army-claims-it-struck-former-hezbollah-missile-facility-in-leb/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968784",
+      "published_at": "2026-11-19T15:03:34+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'נתא, לבנון",
+      "lat": 33.8391,
+      "lon": 36.0996
+     },
+     {
+      "name": "א-נבי שית, לבנון",
+      "lat": 33.8887,
+      "lon": 36.1181
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11200813-04",
+    "title": "תקיפת משלוח אמל\"ח שהועבר מסוריה ללבנון",
+    "summary": "חיל האוויר הישראלי תקף משלוח של אמצעי לחימה במרחב ג'נתא בגבול סוריה-לבנון, שיועד עבור ארגון חיזבאללה.",
+    "axis": "סוריה - לבנון - ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T17:30:18+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T17:30:18+00:00",
+    "last_update_at": "2026-11-19T17:30:18+00:00",
+    "what_is_not_verified": "פרטי המשלוח המדויקים ותוצאות הסיכול לא אומתו עצמאית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133919",
+      "published_at": "2026-11-19T17:30:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'נתא, לבנון",
+      "lat": 33.8391,
+      "lon": 36.0996
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11200813-05",
+    "title": "התקדמות כוחות ישראליים לעיירה אל-רפיד בקוניטרה",
+    "summary": "כוחות ישראליים הכוללים תשעה כלי רכב צבאיים התקדמו לעבר העיירה אל-רפיד באזור הכפרי של קוניטרה בסוריה.",
+    "axis": "ישראל - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T22:08:30+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T22:08:30+00:00",
+    "last_update_at": "2026-11-19T22:08:30+00:00",
+    "what_is_not_verified": "הדיווח נסמך על מקורות סוריים בלבד ללא אישור ישראלי או גורם רשמי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/152942/",
+      "published_at": "2026-11-19T22:08:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-רפיד, סוריה",
+      "lat": 32.9559,
+      "lon": 35.9009
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11200813-06",
+    "title": "הצהרת צבא לבנון ליום העצמאות על ריבונות ונשק המדינה",
+    "summary": "צבא לבנון הדגיש את מחויבותו להשבת הריבונות על כלל שטח המדינה והשארת הנשק בשליטת המדינה בלבד, לצד המשך פריסתו בדרום המדינה חרף פעולות ישראל.",
+    "axis": "לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T14:11:31+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T14:11:31+00:00",
+    "last_update_at": "2026-11-19T14:11:31+00:00",
+    "what_is_not_verified": "מידת היכולת של צבא לבנון לאכוף פירוק נשק של ארגונים במדינה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_lbci",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/968780/lebanese-army-on-independence-day-restoring-sovereignty-and-placing-we/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968780",
+      "published_at": "2026-11-19T14:11:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ירזה, לבנון",
+      "lat": 33.8309,
+      "lon": 35.5551
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11200813-07",
+    "title": "ביקור בילאל ארדואן בלבנון והידוק הקשרים עם טורקיה",
+    "summary": "בילאל ארדואן ביקר בביירות ובטריפולי ונפגש עם בכירים בהנהגה הלבנונית, במקביל לאישור הסכם שיתוף פעולה צבאי בין לבנון לטורקיה בשווי מאה מיליון לירות טורקיות.",
+    "axis": "טורקיה - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-13T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T19:36:30+00:00",
+    "last_update_at": "2026-11-19T19:36:30+00:00",
+    "what_is_not_verified": "המניעים הפוליטיים המלאים והמשמעות המבצעית של ההסכם הצבאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_the_new_arab",
+      "url": "https://www.newarab.com/analysis/how-bilal-erdogans-visit-signals-turkeys-long-game-lebanon",
+      "published_at": "2026-11-19T19:36:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     },
+     {
+      "name": "טריפולי, לבנון",
+      "lat": 34.4374,
+      "lon": 35.8349
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11200813-08",
+    "title": "מעצר גנרל לשעבר ממשטר אסד בסוריה",
+    "summary": "כוחות הביטחון של השלטונות החדשים בסוריה עצרו את רואד עלי זידאן, קצין לשעבר במשטר אסד, באשמת תכנון מארב באלעוטייבה בשנת 2014 שבו נהרגו 175 חמושים אסלאמיסטים.",
+    "axis": "סוריה - פנים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T21:41:17+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T21:41:17+00:00",
+    "last_update_at": "2026-11-19T22:59:02+00:00",
+    "what_is_not_verified": "פרטי החקירה והראיות המדויקות נגד העצור",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/syrian-authorities-arrest-ex-general-over-2014-massacre",
+      "published_at": "2026-11-19T22:59:02+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/syria-arrests-former-regime-officer-accused-of-orchestrating-2014-massacre-near-damascus/4131609",
+      "published_at": "2026-11-19T21:41:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11200813-09",
+    "title": "טורקיה מביעה תמיכה באיחוד סוריה ובשילוב ה-YPG",
+    "summary": "שר החוץ הטורקי הקאן פידאן הצהיר כי אנקרה תומכת במאמצי הממשלה הסורית להרחבת הריבונות והשלמת שילובו של ארגון ה-YPG.",
+    "axis": "טורקיה - סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T09:52:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T09:52:00+00:00",
+    "last_update_at": "2026-11-19T09:52:00+00:00",
+    "what_is_not_verified": "פרטי מתווה השילוב של הלוחמים הכורדים במוסדות סוריה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_dailysabah",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.dailysabah.com/politics/ankara-backs-stable-unified-syria-ypg-integration-fm-fidan/news",
+      "published_at": "2026-11-19T09:52:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "נכונות הדיווח ממקורות סוריים אודות כניסת תשעה כלי רכב צבאיים של צה\"ל לאל-רפיד בקוניטרה",
+   "האם האתר שהותקף בג'נתא הכיל אמל\"ח פעיל בזמן התקיפה מעבר לתשתיות כניסה",
+   "מידת ההתקדמות המעשית בשילוב כוחות YPG בתוך המנגנונים הסוריים בהתאם להצהרת טורקיה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2887,
+    "unit": "ILS",
+    "change_pct": 0.76,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-19T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת שיקום יכולות חיזבאללה והסרת איומים על אזרחי ישראל וכוחותיה",
+     "סיכול העברות ומשלוחי אמצעי לחימה מסוריה ללבנון"
+    ],
+    "inferred": [
+     "ביסוס אחיזה ונוכחות בשטחי חיץ ('הקו הצהוב') בלבנון ובסוריה",
+     "פגיעה מונעת ומתמשכת במערכי ייצור והתעצמות ללא תלות בהסדרה מדינית"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדות בבקאע ובגבול סוריה במידה ויזוהו נסיונות שיקום והברחה"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [],
+    "inferred": [
+     "מיקוד בהישרדות, שיקום תשתיות וארגון מחדש במימון חיצוני תוך הימנעות מהסלמה יזומה מיידית",
+     "חידוש ערוצי הברחת אמל\"ח מגבול סוריה לתשתיות הייצור בבקאע"
+    ],
+    "forecast": [
+     "המשך ניסיונות התבססות מחדש במתקנים ישנים תחת לחץ צבאי ישראלי רציף"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "תמיכה בסוריה יציבה ומאוחדת והחלת ריבונות המדינה על כלל השטח",
+     "שילוב ארגון ה-YPG במסגרת המדינה הסורית"
+    ],
+    "inferred": [
+     "תקיעת יתד והעמקת ההשפעה הצבאית והמוסדית בלבנון בעקבות השינויים במפה האזורית",
+     "דחיקת שחקנים אזוריים מתחרים ויצירת תלות ביטחונית וכלכלית באנקרה"
+    ],
+    "forecast": [
+     "המשך קידום מגעים ביטחוניים ופרויקטים אזרחיים בלבנון ובסוריה"
+    ]
+   },
+   {
+    "actor": "השלטון החדש בסוריה",
+    "declared": [
+     "מיצוי הדין עם בכירים לשעבר במשטר אסד המואשמים בביצוע פשעים ומעשי טבח",
+     "החזרת עקורים באמצעות שיקום תשתיות, פתיחת צירים ופינוי הריסות"
+    ],
+    "inferred": [
+     "חיזוק הלגיטימציה השלטונית הפנימית על ידי העמדה לדין של אנשי המשטר הקודם",
+     "ביסוס הריבונות והסמכות המרכזית בתיאום מדיני עם טורקיה"
+    ],
+    "forecast": [
+     "מעצרים ומשפטים נוספים של אנשי ביטחון לשעבר לצד פעולות שיקום הדרגתיות בערים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/152942/",
+    "accessed_at": "2026-11-20T08:13:44+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/syria-arrests-former-regime-officer-accused-of-orchestrating-2014-massacre-near-damascus/4131609",
+    "accessed_at": "2026-11-20T08:13:44+00:00"
+   },
+   {
+    "source_id": "src_dailysabah",
+    "url": "https://www.dailysabah.com/politics/ankara-backs-stable-unified-syria-ypg-integration-fm-fidan/news",
+    "accessed_at": "2026-11-20T08:13:44+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/968780/lebanese-army-on-independence-day-restoring-sovereignty-and-placing-we/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968780",
+    "accessed_at": "2026-11-20T08:13:44+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/syrian-authorities-arrest-ex-general-over-2014-massacre",
+    "accessed_at": "2026-11-20T08:13:44+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133919",
+    "accessed_at": "2026-11-20T08:13:44+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25660",
+    "accessed_at": "2026-11-20T08:13:44+00:00"
+   }
+  ]
+ }
+}

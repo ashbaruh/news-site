@@ -1,0 +1,510 @@
+{
+ "status": "draft",
+ "received_sha256_12": "915c6849282d",
+ "preview": {
+  "events": 10,
+  "levels": {
+   "shared_root": 6,
+   "verified": 1,
+   "initial": 2,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-20T07:41:40+00:00",
+  "window": {
+   "from": "2026-11-19T07:41:40+00:00",
+   "to": "2026-11-20T07:41:40+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611200741"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל מתאפיין בהסלמה צבאית וכלכלית סביב המצור הימי במפרץ, פגיעה במכליות נפט במצר הורמוז וחילופי מהלומות עקיפים. במקביל נרשמות תקיפות טילים של החות'ים לעבר מרכז העסקים בריאד לצד פגיעות נרחבות במתקנים צבאיים אמריקאיים באזור. בישראל ובארה\"ב נבחנת האפשרות לחידוש המערכה הישירה מול טהראן, בעוד איראן מתמודדת עם לחץ כלכלי חריף ומאיימת בהרחבת הפגיעה בתשתיות אנרגיה אזוריות.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ הפרסי",
+    "status": "מתיחות שיא בעקבות פגיעות מוקשים במכליות נפט והטלת מצור ימי"
+   },
+   {
+    "name": "חזית שלוחות איראן (תימן - סעודיה)",
+    "status": "ירי טילים וכטב\"מים של החות'ים לעבר מתקנים ומוקדים כלכליים בריאד"
+   },
+   {
+    "name": "בסיסי צבא ארה\"ב במזרח התיכון",
+    "status": "ספיגת מעל 115 תקיפות מצד איראן ושלוחותיה שגרמו נזק כבד למתקנים"
+   },
+   {
+    "name": "החזית הישירה בין ישראל וארה\"ב לאיראן",
+    "status": "דיונים על חידוש תקיפות צבאיות והאשמות הדדיות בנוגע לנשק בלתי קונבנציונלי"
+   },
+   {
+    "name": "הזירה הפנים-עיראקית מול המיליציות",
+    "status": "הסכם להרגעת המתיחות וכניסת כוחות ממשל למעוזי גדודי חזבאללה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11200741-01",
+    "title": "פגיעות מוקשים במכליות נפט במצר הורמוז",
+    "summary": "הצבא האיראני מסר כי שתי מכליות נפט עלו באש לאחר שנפגעו ממוקשים ימיים בעת שנעו באזור מוגבל ממזרח למצר הורמוז.",
+    "axis": "העימות הימי במפרץ ומצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T20:39:06+00:00",
+    "last_update_at": "2026-11-20T05:03:47+00:00",
+    "what_is_not_verified": "הנסיבות המדויקות של הפגיעות והגורם שהניח את המוקשים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-army-says-two-oil-tankers-ablaze-after-hitting-naval-mines",
+      "published_at": "2026-11-20T05:03:47+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86327133/Violating-supertanker-catches-fire-in-Strait-of-Hormuz-Iran-s",
+      "published_at": "2026-11-19T20:39:06+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11200741-02",
+    "title": "תקיפות איראניות ופגיעה במתקנים צבאיים של ארה\"ב",
+    "summary": "מעל מאה וחמש עשרה תקיפות שיוחסו לאיראן או לשלוחותיה פגעו בעשרים ושישה בסיסים ומתקני תשתית של ארה\"ב ברחבי המזרח התיכון וגרמו נזקים של מיליארדי דולרים.",
+    "axis": "חזית איראן - צבא ארה\"ב",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T05:47:25+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-20T05:47:25+00:00",
+    "last_update_at": "2026-11-20T07:36:09+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק ורשימת האתרים המלאה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-675",
+      "published_at": "2026-11-20T07:36:09+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-26-us-sites-across-middle-east-damaged-iranian-attacks",
+      "published_at": "2026-11-20T05:47:25+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11200741-03",
+    "title": "הערכת עלות הלחימה האמריקאית מול איראן",
+    "summary": "נציג הפנטגון מסר למחוקקים כי עלות המלחמה עבור ארה\"ב מול איראן מוערכת בכ-48.3 מיליארד דולר, לא כולל תיקון מתקנים שניזוקו מאז פברואר.",
+    "axis": "ארה\"ב מול איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T03:21:37+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-20T03:21:37+00:00",
+    "last_update_at": "2026-11-20T07:36:09+00:00",
+    "what_is_not_verified": "עלויות התיקונים המדויקות של המתקנים שניזוקו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-675",
+      "published_at": "2026-11-20T07:36:09+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pentagon-official-says-us-war-iran-cost-483b",
+      "published_at": "2026-11-20T03:21:37+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11200741-04",
+    "title": "הצהרת שגריר ישראל בארה\"ב על תקיפה באיראן",
+    "summary": "שגריר ישראל בארה\"ב הצהיר כי ההחלטה על חידוש התקיפות באיראן תתקבל על ידי הנשיא טראמפ וישראל תתמוך בה, וציין כי כוחות ארה\"ב ישובו לבתיהם כשאיראן תובס.",
+    "axis": "ישראל - ארה\"ב - איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T23:52:13+00:00",
+    "last_update_at": "2026-11-20T07:36:09+00:00",
+    "what_is_not_verified": "קיומה של החלטה מעשית לפתוח במתקפה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_newsmax",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-675",
+      "published_at": "2026-11-20T07:36:09+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_newsmax",
+      "url": "https://en.irna.ir/news/86327245/FM-Araghchi-mocks-Israeli-envoy-over-anti-Iran-remarks",
+      "published_at": "2026-11-20T07:07:48+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_newsmax",
+      "url": "https://www.ynet.co.il/news/article/bjywewa0gg",
+      "published_at": "2026-11-20T06:30:45+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_newsmax",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21895028",
+      "published_at": "2026-11-19T23:52:13+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11200741-05",
+    "title": "הכחשה איראנית לטענות לפיתוח נשק כימי וביולוגי",
+    "summary": "דובר משרד החוץ האיראני דחה את הטענות האמריקאיות על סימנים לפיתוח נשק כימי וביולוגי בידי טהראן והגדיר אותן כדברי שקר.",
+    "axis": "ארה\"ב מול איראן (נשק בלתי קונבנציונלי)",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T06:57:45+00:00",
+    "last_update_at": "2026-11-19T20:59:35+00:00",
+    "what_is_not_verified": "אמיתות המידע המודיעיני הנטען ביחס לפיתוח נשק כימי באיראן",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_52fda428cc24aa8c",
+      "url": "https://en.irna.ir/news/86327143/Baqaei-US-claim-regarding-Iran-s-development-of-chemical-and",
+      "published_at": "2026-11-19T20:59:35+00:00"
+     },
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "fh_52fda428cc24aa8c",
+      "url": "https://www.fdd.org/analysis/iran-may-use-chemical-weapons-why-is-washington-starving-the-opcw/",
+      "published_at": "2026-11-19T17:29:09+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "fh_52fda428cc24aa8c",
+      "url": "https://t.me/lelotsenzura/95072",
+      "published_at": "2026-11-19T06:57:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהראן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11200741-06",
+    "title": "הסנאט האמריקאי דחה הגבלת סמכויות מלחמה מול איראן",
+    "summary": "הסנאט של ארה\"ב דחה ברוב של 51 מול 48 הצעת החלטה שביקשה לחייב את הנשיא טראמפ לעצור את הפעולות הצבאיות נגד איראן.",
+    "axis": "מדיניות ארה\"ב מול איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T20:47:02+00:00",
+    "last_update_at": "2026-11-19T20:47:02+00:00",
+    "what_is_not_verified": "נוסח ההחלטה המלא",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133933",
+      "published_at": "2026-11-19T20:47:02+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11200741-07",
+    "title": "שיגור טילים של החות'ים לעבר מרכז ריאד",
+    "summary": "מתקפת טילים של החות'ים פגעה במגדל הגבוה ביותר בריאד והסבה נזק למטה קרן העושר הסעודית, במקביל ליירוטים שביצעה הקואליציה.",
+    "axis": "שלוחות איראן מול סעודיה והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T19:33:08+00:00",
+    "last_update_at": "2026-11-20T07:36:09+00:00",
+    "what_is_not_verified": "מספר הטילים המדויק שנורה והנזק הכולל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-675",
+      "published_at": "2026-11-20T07:36:09+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
+      "published_at": "2026-11-19T23:58:40+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611190933",
+      "published_at": "2026-11-19T19:33:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11200741-08",
+    "title": "הסכם בעיראק בין השלטונות לגדודי חזבאללה",
+    "summary": "שלטונות עיראק הגיעו להסכם עם המיליציה הפרו-איראנית גדודי חזבאללה לכניסת כוחות הממשלה לאזור מעוזה מדרום לבגדאד במטרה למנוע עימות.",
+    "axis": "המיליציות הפרו-איראניות בעיראק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-19T18:05:05+00:00",
+    "last_update_at": "2026-11-20T03:36:17+00:00",
+    "what_is_not_verified": "מימוש ההסכם בפועל ביום שישי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611205946",
+      "published_at": "2026-11-20T03:36:17+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/whats-behind-iraqs-standoff-kataib-hezbollah-militia",
+      "published_at": "2026-11-19T20:03:28+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49747",
+      "published_at": "2026-11-19T18:05:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'רף אל-סחר, עיראק",
+      "lat": 32.8733,
+      "lon": 44.2191
+     },
+     {
+      "name": "בגדאד, עיראק",
+      "lat": 33.3062,
+      "lon": 44.3872
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11200741-09",
+    "title": "איומי משמרות המהפכה כלפי ערוץ איראן אינטרנשיונל",
+    "summary": "דובר משמרות המהפכה חסין מוחבי הצהיר כי ערוץ הטלוויזיה איראן אינטרנשיונל נכלל ברשימת המטרות הצבאיות של הכוחות המזוינים של איראן.",
+    "axis": "איראן והזירה הבינלאומית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T01:37:38+00:00",
+    "last_update_at": "2026-11-20T01:37:38+00:00",
+    "what_is_not_verified": "אופן מימוש האיום הצבאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611201108",
+      "published_at": "2026-11-20T01:37:38+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11200741-10",
+    "title": "היערכות איראנית לשבירת המצור הימי באמצעות מיכליות",
+    "summary": "לפי פרסומים ברשתות, איראן הציבה מכליות נפט בתחנות עגינה באי ח'ארג' לשם מילוי וייצוא לסין למרות המצור הימי, תוך איום בתקיפת יעדי אנרגיה במפרץ אם יותקפו.",
+    "axis": "העימות הימי והסנקציות במפרץ",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-19T21:13:39+00:00",
+    "last_update_at": "2026-11-19T21:13:39+00:00",
+    "what_is_not_verified": "יציאת המכליות בפועל והיקפן המאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49753",
+      "published_at": "2026-11-19T21:13:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי ח'ארג', איראן",
+      "lat": 29.2406,
+      "lon": 50.3117
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות המודיעין בדבר פיתוח נשק כימי או ביולוגי על ידי איראן",
+   "מספר מכליות הנפט המדויק המוכן להפלגה באי ח'ארג' לשבירת המצור",
+   "היקף הנזק המלא והעלויות המדויקות לתיקון בסיסי ארה\"ב שניזוקו מאז פברואר",
+   "קיומה של תוכנית מוסכמת למערכה משותפת בת ארבעה עד שבעה ימים בין ארה\"ב לישראל"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.2887,
+    "unit": "ILS",
+    "change_pct": 0.76,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-19T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "להביס את התוקפנות האמריקאית ולדחות את טענות המערב בדבר נשק כימי וגרעיני",
+     "לפגוע בכל גוף עוין כולל כלי תקשורת הפועלים נגדה כגון איראן אינטרנשיונל",
+     "להגיב צבאית נגד מתקני אנרגיה במפרץ ובסיסים אמריקאיים אם יותקף ייצוא הנפט שלה"
+    ],
+    "inferred": [
+     "שבירת המצור הימי והכלכלי האמריקאי בכל מחיר כדי למנוע קריסה פנימית",
+     "ביסוס הרתעה באמצעות מיליציות אזוריות ופגיעה בחופש השיט במצר הורמוז"
+    ],
+    "forecast": [
+     "המשך מיקוש ימי הטרדתי במצר הורמוז וניסיונות הברחת נפט תוך נטילת סיכון לעימות ישיר",
+     "הגברת הלחץ על מדינות המפרץ באמצעות שלוחותיה כדי לאלץ אותן לדרוש מארה\"ב ריסון"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "בלימת תוכניות הגרעין והאיומים הבלתי קונבנציונליים של המשטר האיראני",
+     "המשך הפעולות הצבאיות והטלת סנקציות ומצור ימי להחלשת טהראן"
+    ],
+    "inferred": [
+     "הימנעות משקיעה במלחמה ארוכה שעלויותיה הכלכליות ממשיכות לזנק",
+     "הגנה על בעלות בריתה באזור לצד שמירה על חופש התנועה הימי"
+    ],
+    "forecast": [
+     "המשך מדיניות הלחץ הצבאי והמצור תוך בחינת תקיפות נקודתיות בהתאם לאישור הנשיא",
+     "עימות פוליטי גובר בוושינגטון סביב אישור תקציבי המלחמה וסמכויות הנשיא"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "תמיכה מלאה בכל החלטה של ארה\"ב לתקוף את איראן והכרעת המשטר",
+     "מיגור האיום של ציר השלוחות כולל החות'ים, חמאס וחזבאללה דרך פגיעה בראש הציר"
+    ],
+    "inferred": [
+     "מניעת הגעה של מתקני הצבא והגרעין של איראן לחסינות תת-קרקעית",
+     "רתימת ארה\"ב וקואליציה אזורית למבצע משותף קצר ואינטנסיבי"
+    ],
+    "forecast": [
+     "הגברת הלחץ המודיעיני והמדיני על ממשל טראמפ לפעול בהקדם לפני סגירת חלון ההזדמנויות",
+     "היערכות צבאית מוגברת לספיגת תגובת תגמול איראנית במקרה של תקיפה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
+    "accessed_at": "2026-11-20T07:41:40+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/whats-behind-iraqs-standoff-kataib-hezbollah-militia",
+    "accessed_at": "2026-11-20T07:41:40+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/iran-may-use-chemical-weapons-why-is-washington-starving-the-opcw/",
+    "accessed_at": "2026-11-20T07:41:40+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611201108",
+    "accessed_at": "2026-11-20T07:41:40+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86327143/Baqaei-US-claim-regarding-Iran-s-development-of-chemical-and",
+    "accessed_at": "2026-11-20T07:41:40+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21895028",
+    "accessed_at": "2026-11-20T07:41:40+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-675",
+    "accessed_at": "2026-11-20T07:41:40+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133933",
+    "accessed_at": "2026-11-20T07:41:40+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49753",
+    "accessed_at": "2026-11-20T07:41:40+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95072",
+    "accessed_at": "2026-11-20T07:41:40+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/bjywewa0gg",
+    "accessed_at": "2026-11-20T07:41:40+00:00"
+   }
+  ]
+ }
+}

@@ -187,6 +187,10 @@
 14.5425,
 49.1231
 ],
+"al-nabi shayth, lebanon": [
+33.8887,
+36.1181
+],
 "al-nashma, al-ma’afer, taiz, yemen": null,
 "al-nashma, taiz, yemen": null,
 "al-qantara, lebanon": [
@@ -933,6 +937,10 @@
 48.0159,
 37.8013
 ],
+"dorogobuzh, russia": [
+54.9148,
+33.2989
+],
 "druzhkivka, ukraine": [
 48.6199,
 37.5249
@@ -1330,6 +1338,10 @@
 44.2159
 ],
 "jurf al-sakher, iraq": null,
+"jurf al-sakhr, iraq": [
+32.8733,
+44.2191
+],
 "kafr kila, lebanon": [
 33.2827,
 35.5588
@@ -1460,6 +1472,10 @@
 "khanskaya air base, adygea, russia": [
 44.6783,
 40.0317
+],
+"kharg island, iran": [
+29.2406,
+50.3117
 ],
 "kharkiv oblast, ukraine": null,
 "kharkiv region, ukraine": [
@@ -2461,6 +2477,10 @@
 51.5705,
 34.6835
 ],
+"rzeszow, poland": [
+50.0375,
+22.0047
+],
 "sa'ada, yemen": null,
 "saada governorate, yemen": null,
 "saada, yemen": [
@@ -3134,6 +3154,10 @@
 ],
 "zawtar al-sharqiyya, lebanon": null,
 "zawtar el charkiyeh, lebanon": null,
+"zhovti vody, ukraine": [
+48.3465,
+33.5028
+],
 "zhytomyr oblast, ukraine": null,
 "zhytomyr, ukraine": [
 50.2601,

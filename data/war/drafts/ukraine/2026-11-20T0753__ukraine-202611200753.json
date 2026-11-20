@@ -1,0 +1,517 @@
+{
+ "status": "draft",
+ "received_sha256_12": "cbd5fe877ac0",
+ "preview": {
+  "events": 11,
+  "levels": {
+   "shared_root": 4,
+   "initial": 6,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-20T07:53:39+00:00",
+  "window": {
+   "from": "2026-11-19T07:53:39+00:00",
+   "to": "2026-11-20T07:53:39+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "ukraine-202611200753"
+  },
+  "summary": "המערכה מתאפיינת בהסלמה אווירית משמעותית מצד רוסיה נגד יעדי תשתית, גשרים בבירה קייב ורשתות אנרגיה במערב ובמרכז אוקראינה, במקביל לתקיפות עומק של כטב\"מים אוקראיניים נגד מפעלים כימיים ברוסיה. הלחימה הקרקעית נמשכת באינטנסיביות רבה בקווי המגע, בעיקר בגזרת פוקרובסק, בעוד הצדדים מציגים עמדות קשיחות ביחס להפסקות אש ומשא ומתן מדיני. הזירה הבינלאומית מלווה במתחים ביטחוניים סביב המרחב האווירי של מדינות שכנות ודיונים סביב סוגיות סחר וסנקציות אנרגיה.",
+  "fronts": [
+   {
+    "name": "גזרת פוקרובסק",
+    "status": "לחימה בעצימות גבוהה ביותר עם מאות היתקלויות קרביות ביממה"
+   },
+   {
+    "name": "מרחב קייב והדנייפרו",
+    "status": "מתקפות טילים וכטב\"מים כבדות נגד גשרים ותשתיות מים וחשמל"
+   },
+   {
+    "name": "מערב אוקראינה (לבוב)",
+    "status": "פגיעות טילים וכטב\"מים בתחנות רכבת, מתקני אנרגיה והפסקות חשמל"
+   },
+   {
+    "name": "העורף הרוסי (סמולנסק)",
+    "status": "תקיפות כטב\"מים אוקראיניות נגד מתקני תעשייה ביטחונית וכימית"
+   },
+   {
+    "name": "מרחב חצי האי קרים",
+    "status": "מתיחות שיא עקב תקיפות חוזרות ונזק כבד לגשר קרץ'"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11200753-01",
+    "title": "מתקפת טילים וכטב\"מים רוסית נרחבת על קייב ופגיעה בגשרים",
+    "summary": "רוסיה שיגרה מתקפת טילים בליסטיים וכטב\"מים על קייב שפגעה במתקני תשתית ובגשרים שעל נהר הדנייפרו, בהם גשר פודילסקו-ווסקרסנסקי שבו הופסקה התנועה, וכן גשרי דרניצקי ופיבדני.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T23:29:29+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-19T23:29:29+00:00",
+    "last_update_at": "2026-11-20T07:02:22+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק ומספר הגשרים שהותקפו (דיווחים שונים מציינים 3 או 4 גשרים, ובין 3 ל-5 הרוגים)",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/20/russian-missile-and-drone-attack-on-kyiv-kills-three-and-damages-three-dnipro-bridges-mayor-says",
+      "published_at": "2026-11-20T07:02:22+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4186645-three-killed-15-injured-in-russian-attack-on-kyiv.html",
+      "published_at": "2026-11-20T06:00:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4186643-kyivs-podilskyi-and-darnytskyi-bridges-damaged-in-russian-ballistic-attack-mayor.html",
+      "published_at": "2026-11-20T05:39:00+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49762",
+      "published_at": "2026-11-20T01:58:07+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49761",
+      "published_at": "2026-11-20T01:35:01+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49760",
+      "published_at": "2026-11-20T00:19:28+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/",
+      "published_at": "2026-11-19T23:41:36+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49758",
+      "published_at": "2026-11-19T23:29:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11200753-02",
+    "title": "תקיפות רוסיות במחוז לבוב ופגיעה בתחנת רכבת ובתשתיות אנרגיה",
+    "summary": "שני בני אדם נהרגו ונפצעו נוספים בעקבות תקיפה רוסית בתחנת הרכבת סקניליב, וכן נגרם נזק למתקן אנרגיה במחוז לבוב שהוביל להפסקות חשמל.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T06:12:00+00:00",
+    "last_update_at": "2026-11-20T07:07:00+00:00",
+    "what_is_not_verified": "היקף הנפגעים המדויק מעבר לדיווחים הראשוניים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/20/8063746/",
+      "published_at": "2026-11-20T07:07:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/20/8063738/",
+      "published_at": "2026-11-20T06:12:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לבוב, אוקראינה",
+      "lat": 49.842,
+      "lon": 24.0316
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11200753-03",
+    "title": "תקיפת כטב\"מים אוקראינית על מפעל דשנים וחומרי נפץ ברוסיה",
+    "summary": "כטב\"מים אוקראיניים תקפו מפעל כימי בעיר דורוגובוז' במחוז סמולנסק ברוסיה, המייצר דשנים ומרכיבים לחומרי נפץ, וגרמו להתלקחות שרפה.",
+    "axis": "העורף הרוסי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T02:59:39+00:00",
+    "last_update_at": "2026-11-20T06:56:24+00:00",
+    "what_is_not_verified": "מידת הנזק המדויקת למתקני המפעל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/news/2026/11/20/ukrainian-drones-hit-russian-fertilizer-plant-that-also-makes-components-for-explosives",
+      "published_at": "2026-11-20T06:56:24+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-chemical-plant/",
+      "published_at": "2026-11-20T02:59:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דורוגובוז', רוסיה",
+      "lat": 54.9148,
+      "lon": 33.2989
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11200753-04",
+    "title": "פגיעות רוסיות במחוז דניפרופטרובסק",
+    "summary": "תקיפות ליליות של צבא רוסיה גרמו לפציעת חמישה בני אדם, לשרפות במבני מגורים בעיר ז'ובטי וודי, ולפגיעות במתקני תשתית ובתחנת דלק בקריבי ריה.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T06:39:00+00:00",
+    "last_update_at": "2026-11-20T06:39:00+00:00",
+    "what_is_not_verified": "לא מאומת האם ישנם נפגעים נוספים תחת ההריסות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/20/8063741/",
+      "published_at": "2026-11-20T06:39:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קריבי ריה, אוקראינה",
+      "lat": 47.9103,
+      "lon": 33.3918
+     },
+     {
+      "name": "ז'ובטי וודי, אוקראינה",
+      "lat": 48.3465,
+      "lon": 33.5028
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11200753-05",
+    "title": "פגיעת כטב\"ם רוסי בבית חולים בחרקוב",
+    "summary": "כטב\"ם רוסי פגע במתקן רפואי בעיר חרקוב וגרם לפציעתם של ארבעה בני אדם.",
+    "axis": "העורף האוקראיני",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T04:25:00+00:00",
+    "last_update_at": "2026-11-20T04:25:00+00:00",
+    "what_is_not_verified": "מצב הפצועים ומידת הנזק למבנה בית החולים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4186633-russian-drone-hits-hospital-in-kharkiv-four-people-injured.html",
+      "published_at": "2026-11-20T04:25:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חרקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11200753-06",
+    "title": "חשד להפרת המרחב האווירי של פולין במהלך מתקפה על אוקראינה",
+    "summary": "צבא פולין פתח בחקירה בעקבות חשד לעצמים בלתי מזוהים שחדרו למרחב האווירי הפולני בזמן מתקפה רוסית נרחבת על אוקראינה, והופעלו התרעות במחוזות הגבול.",
+    "axis": "המרחב האווירי האזורי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T06:39:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-20T06:39:00+00:00",
+    "last_update_at": "2026-11-20T06:39:00+00:00",
+    "what_is_not_verified": "האם אכן הייתה חדירה בפועל של עצמים לשטח פולין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/20/8063740/",
+      "published_at": "2026-11-20T06:39:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ז'שוב, פולין",
+      "lat": 50.0375,
+      "lon": 22.0047
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11200753-07",
+    "title": "קרבות עזים בקווי החזית בדגש על גזרת פוקרובסק",
+    "summary": "נרשמו 278 היתקלויות קרביות לאורך קו החזית ביממה אחת, כאשר העימותים הרבים ביותר התרחשו בגזרת פוקרובסק.",
+    "axis": "חזית המזרח",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-20T07:33:00+00:00",
+    "last_update_at": "2026-11-20T07:33:00+00:00",
+    "what_is_not_verified": "שינויים טריטוריאליים ספציפיים בעקבות העימותים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4186670-war-update-278-clashes-on-front-line-over-past-day-pokrovsk-sector-hottest.html",
+      "published_at": "2026-11-20T07:33:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פוקרובסק, אוקראינה",
+      "lat": 48.2771,
+      "lon": 37.1772
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11200753-08",
+    "title": "הצעת חוק רוסית לפטור מחובות למתגייסים למלחמה",
+    "summary": "ממשלת רוסיה הגישה לדומה הצעת חוק המאפשרת לאזרחים בהליכי פשיטת רגל להתגייס לצבא ולשמור על נכסים בשווי של עד 10 מיליון רובל על חשבון הנושים.",
+    "axis": "מדיניות הפנים והגיוס ברוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T07:35:43+00:00",
+    "last_update_at": "2026-11-20T07:35:43+00:00",
+    "what_is_not_verified": "מועד אישור החוק הסופי וכניסתו לתוקף",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://meduza.io/en/cards/russia-wants-people-in-bankruptcy-to-sign-up-to-fight-in-ukraine-under-a-new-bill-recruits-could-keep-their-property-and-creditors-would-take-the-loss",
+      "published_at": "2026-11-20T07:35:43+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11200753-09",
+    "title": "אזהרת פוטין לתגובה על תקיפת גשר קרים וסירוב למו\"מ",
+    "summary": "נשיא רוסיה הצהיר כי ארצו תגיב באופן מכאיב על תקיפת מעבר הרכב ומסילת הרכבת בגשר קרים, והודיע על סירוב למשא ומתן עם קייב.",
+    "axis": "משא ומתן ומדיניות ביטחון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T19:07:36+00:00",
+    "last_update_at": "2026-11-19T20:19:11+00:00",
+    "what_is_not_verified": "אופי ומועד התגובה הצבאית המדויקת עליה איים פוטין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21894437",
+      "published_at": "2026-11-19T20:19:11+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.theguardian.com/world/2026/nov/19/putin-vows-painful-response-to-ukraine-bombing-of-kerch-bridge",
+      "published_at": "2026-11-19T19:07:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קרץ', קרים",
+      "lat": 45.3563,
+      "lon": 36.4671
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11200753-10",
+    "title": "הגעת מכליות סולר רוסי לברזיל במקום לארה\"ב",
+    "summary": "ארבע מכליות שהובילו סולר רוסי במסגרת הבנות בין ארצות הברית לרוסיה הגיעו לברזיל מבלי לעגון בנמלים אמריקאיים.",
+    "axis": "סנקציות ואנרגיה בינלאומית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T07:36:57+00:00",
+    "last_update_at": "2026-11-20T07:36:57+00:00",
+    "what_is_not_verified": "הסיבה המדויקת לשינוי יעד המכליות לברזיל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_the_maritime_executive",
+      "url": "https://meduza.io/en/news/2026/11/20/russian-diesel-tankers-sent-to-the-u-s-under-trump-putin-deal-arrive-in-brazil",
+      "published_at": "2026-11-20T07:36:57+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11200753-11",
+    "title": "קריאת מנהיגי אירופה להפסקת אש אנרגטית בחורף",
+    "summary": "מנהיגי גרמניה, צרפת, בריטניה ואוקראינה קראו לרוסיה להסכים להפסקת אש בחורף על תשתיות אנרגיה ולאפשר ייצוא מזון בטוח בים השחור.",
+    "axis": "יוזמות מדיניות והפסקת אש",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T21:05:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T21:05:00+00:00",
+    "last_update_at": "2026-11-19T21:05:00+00:00",
+    "what_is_not_verified": "עמדת רוסיה בפועל ביחס להצעה הספציפית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/coalition-of-the-willing-calls-on-russia-to-accept-winter-energy-truce/",
+      "published_at": "2026-11-19T21:05:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ברלין, גרמניה",
+      "lat": 52.5174,
+      "lon": 13.3951
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת קושנר כי רוסיה חשה בנוח עם ערבויות הגנה דמויות נאט\"ו לאוקראינה",
+   "מספר הנפגעים המדויק ומספר הגשרים שנפגעו בקייב (דיווחים על 3 או 4 גשרים, ובין 3 ל-5 הרוגים)",
+   "דיווחים על חדירת עצמים בלתי מזוהים למרחב האווירי של פולין",
+   "הערכות לגבי כמות אבדות כוח האדם הכוללת של צבא רוסיה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.0992,
+    "unit": "USD",
+    "change_pct": 0.22,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-19T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "תגובה מכאיבה ופגיעה קשה בעקבות הפגיעה בגשר קרים",
+     "סירוב לקיים משא ומתן עם הנהגת אוקראינה לאחר הפגיעה בגשר",
+     "דרישה מסבא\"א לציין בבירור את האחראי לתקיפות על תחנת הכוח הגרעינית בזפוריז'יה"
+    ],
+    "inferred": [
+     "פגיעה ברציפות התחבורתית והתשתיתית של אוקראינה על ידי הרס גשרים מרכזיים",
+     "הגברת הלחץ על האוכלוסייה באמצעות פגיעה במערכות חשמל ומים לקראת החורף",
+     "שימוש בתמריצים כלכליים לגיוס חיילים חדשים להתמודדות עם מצוקת כוח אדם"
+    ],
+    "forecast": [
+     "המשך מיקוד התקיפות האוויריות בגשרי נהר הדנייפרו ובתשתיות אנרגיה",
+     "החרפת התגובות הצבאיות בתגובה לכל פגיעה נוספת בנכסים אסטרטגיים בחצי האי קרים"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "דרישה ממעצמות העולם לעצור כל מסחר עם רוסיה כדי לסיים את המלחמה",
+     "קריאה יחד עם בעלות ברית אירופיות להפסקת אש אנרגטית בחורף ולנתיבי מזון בטוחים בים השחור"
+    ],
+    "inferred": [
+     "פגיעה בשרשראות האספקה של צבא רוסיה באמצעות תקיפת תעשיית חומרי הנפץ והדשנים",
+     "שיבוש צירי תנועה רוסיים מרכזיים בחצי האי קרים לערעור העורף הלוגיסטי",
+     "הגנה מרבית על תשתיות חיוניות בבירה ובמערב המדינה מול תקיפות בליסטיות"
+    ],
+    "forecast": [
+     "המשך ניסיונות תקיפה בעומק שטח רוסיה נגד מפעלי תעשייה ביטחונית ואנרגיה",
+     "מאמץ מוגבר לייצב את אספקת החשמל והתנועה בערים הגדולות תחת גלי תקיפה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/19/putin-vows-painful-response-to-ukraine-bombing-of-kerch-bridge",
+    "accessed_at": "2026-11-20T07:53:39+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21894437",
+    "accessed_at": "2026-11-20T07:53:39+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/coalition-of-the-willing-calls-on-russia-to-accept-winter-energy-truce/",
+    "accessed_at": "2026-11-20T07:53:39+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/20/russian-diesel-tankers-sent-to-the-u-s-under-trump-putin-deal-arrive-in-brazil",
+    "accessed_at": "2026-11-20T07:53:39+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/20/8063740/",
+    "accessed_at": "2026-11-20T07:53:39+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49758",
+    "accessed_at": "2026-11-20T07:53:39+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4186670-war-update-278-clashes-on-front-line-over-past-day-pokrovsk-sector-hottest.html",
+    "accessed_at": "2026-11-20T07:53:39+00:00"
+   }
+  ]
+ }
+}
