@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-21T12:43:04+00:00",
-  "fetched_at": "2026-11-21T12:43:04+00:00"
+  "checked_at": "2026-11-21T13:17:25+00:00",
+  "fetched_at": "2026-11-21T13:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -42,11 +42,18 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T12:43:15+00:00",
-  "fetched_at": "2026-11-21T12:43:15+00:00"
+  "checked_at": "2026-11-21T13:17:42+00:00",
+  "fetched_at": "2026-11-21T13:17:42+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Wales vs Australia FREE streams: Watch Nations Championship",
+    "title_he": "שידורים בסטרימינג בחינם של ויילס נגד אוסטרליה: צפו באליפות האומות",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/streaming-entertainment/watch-wales-vs-australia-nations-championship-rugby-free",
+    "date": "2026-11-21T13:00:00+00:00"
+   },
    {
     "title_en": "How to watch Ireland vs South Africa: live stream Nations Championship 2026 match for free from anywhere",
     "title_he": "איך לצפות באירלנד נגד דרום אפריקה: שידור חי במשחק אליפות האומות 2026 בחינם מכל מקום",
@@ -67,20 +74,13 @@
     "translated_by": "google",
     "link": "https://www.whathifi.com/streaming-entertainment/this-classic-film-just-turned-50-but-the-4k-disc-is-out-of-my-budget-should-i-turn-to-streaming",
     "date": "2026-11-21T08:00:00+00:00"
-   },
-   {
-    "title_en": "How to watch England vs New Zealand: live stream Nations Championship 2026 match for free from anywhere, team news",
-    "title_he": "איך לצפות באנגליה נגד ניו זילנד: שידור חי של משחק אליפות האומות 2026 בחינם מכל מקום, חדשות הקבוצה",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/england-vs-new-zealand-nations-championship-2026-free",
-    "date": "2026-11-21T07:00:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T12:43:17+00:00",
-  "fetched_at": "2026-11-21T12:43:17+00:00"
+  "checked_at": "2026-11-21T13:17:44+00:00",
+  "fetched_at": "2026-11-21T13:17:44+00:00"
  },
- "generated_at": "2026-11-21T12:43:17+00:00",
+ "generated_at": "2026-11-21T13:17:44+00:00",
  "globes": {
   "data": {
    "top": [
@@ -219,8 +219,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T12:43:05+00:00",
-  "fetched_at": "2026-11-21T12:43:05+00:00"
+  "checked_at": "2026-11-21T13:17:26+00:00",
+  "fetched_at": "2026-11-21T13:17:26+00:00"
  },
  "ifa": {
   "data": [
@@ -1864,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T12:43:06+00:00",
-  "fetched_at": "2026-11-21T12:43:06+00:00"
+  "checked_at": "2026-11-21T13:17:27+00:00",
+  "fetched_at": "2026-11-21T13:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -3047,8 +3047,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T12:43:08+00:00",
-  "fetched_at": "2026-11-21T12:43:08+00:00"
+  "checked_at": "2026-11-21T13:17:31+00:00",
+  "fetched_at": "2026-11-21T13:17:31+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3146,8 +3146,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T12:43:08+00:00",
-  "fetched_at": "2026-11-21T12:43:08+00:00"
+  "checked_at": "2026-11-21T13:17:31+00:00",
+  "fetched_at": "2026-11-21T13:17:31+00:00"
  },
  "ai": {
   "data": {
@@ -3162,24 +3162,25 @@
      "translated_by": "google"
     },
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/anthropic-ipo-is-the-biggest-we-have-ever-seen/",
-     "date": "2026-11-19T19:08:24+00:00",
-     "launch": false,
-     "title": "ההנפקה הגדולה בהיסטוריה: אנת'רופיק חצתה שווי של 2 טריליון דולר"
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+     "date": "2026-11-18T21:35:43+00:00",
+     "launch": true,
+     "title_en": "Introducing Gemini 4 Neon",
+     "title_he": "הכירו את Gemini 4 Neon",
+     "translated_by": "google"
     }
    ],
-   "candidates": 6,
+   "candidates": 8,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 790,
+     "likes": 792,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
@@ -3232,30 +3233,30 @@
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
-     "title": "pi-H3",
-     "desc_en": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
-     "desc_he": "סרטון Minimax H3 ב-2–4 שלבים ללא מפענח VAE",
-     "likes": 55,
-     "link": "https://huggingface.co/spaces/Lakonik/pi-H3"
-    },
-    {
      "title": "Text To Pixel Art",
      "desc_en": "Text-to-pixel-art diffusion LLM with live unmasking",
      "desc_he": "הפצת טקסט לפיקסל-ארט LLM עם חשיפה חיה",
      "likes": 55,
      "link": "https://huggingface.co/spaces/thejagstudio/tessera-pixel-studio"
+    },
+    {
+     "title": "PyBot",
+     "desc_en": "Can Python be a chatbot?",
+     "desc_he": "האם Python יכול להיות צ'אטבוט?",
+     "likes": 41,
+     "link": "https://huggingface.co/spaces/HuggingFaceSwarms/PyBot"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T12:43:14+00:00",
-  "fetched_at": "2026-11-21T12:43:14+00:00"
+  "checked_at": "2026-11-21T13:17:41+00:00",
+  "fetched_at": "2026-11-21T13:17:41+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "נטע לביא השלים 90 דקות לראשונה העונה, מצ'ידה שוב מעדה",
+     "title": "צפו בשערו של יובל שדה בניצחון האנוי, 90 דקות לנטע לביא",
      "link": "https://sports.walla.co.il/item/3877092",
      "date": "2026-11-21T13:07:00+00:00",
      "source": "וואלה",
@@ -3601,8 +3602,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T12:43:10+00:00",
-  "fetched_at": "2026-11-21T12:43:10+00:00"
+  "checked_at": "2026-11-21T13:17:35+00:00",
+  "fetched_at": "2026-11-21T13:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -3633,8 +3634,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T12:43:11+00:00",
-  "fetched_at": "2026-11-21T12:43:11+00:00"
+  "checked_at": "2026-11-21T13:17:36+00:00",
+  "fetched_at": "2026-11-21T13:17:36+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3642,89 +3643,89 @@
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-21T12:30:00+00:00",
-    "seen_at": "2026-11-21T12:43:17+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-21T06:15:00+00:00",
-    "seen_at": "2026-11-21T12:43:17+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-21T12:30:00+00:00",
-    "seen_at": "2026-11-21T12:43:17+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-21T06:38:00+00:00",
-    "seen_at": "2026-11-21T12:43:17+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-21T13:30:00+00:00",
-    "seen_at": "2026-11-21T12:43:17+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-21T11:45:00+00:00",
-    "seen_at": "2026-11-21T12:43:17+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-21T12:30:00+00:00",
-    "seen_at": "2026-11-21T12:43:17+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-21T11:42:02+00:00",
-    "seen_at": "2026-11-21T12:43:17+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-18T21:35:43+00:00",
-    "seen_at": "2026-11-21T12:17:42+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-19T18:00:00+00:00",
-    "seen_at": "2026-11-21T12:43:17+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-21T11:12:26+00:00",
-    "seen_at": "2026-11-21T12:43:17+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-18T14:00:45+00:00",
-    "seen_at": "2026-11-21T12:43:17+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-21T09:00:00+00:00",
-    "seen_at": "2026-11-21T12:43:17+00:00",
+    "newest": "2026-11-21T13:00:00+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-19T15:08:13+00:00",
-    "seen_at": "2026-11-21T12:43:17+00:00",
+    "seen_at": "2026-11-21T13:17:44+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-21T12:43:17+00:00"
+  "checked_at": "2026-11-21T13:17:44+00:00"
  },
  "health_news": {
   "data": [
@@ -3880,7 +3881,7 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T12:43:11+00:00",
-  "fetched_at": "2026-11-21T12:43:11+00:00"
+  "checked_at": "2026-11-21T13:17:37+00:00",
+  "fetched_at": "2026-11-21T13:17:37+00:00"
  }
 }
