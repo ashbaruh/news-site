@@ -1,5 +1,5 @@
 {
- "at": "2026-11-21T10:56:16+00:00",
+ "at": "2026-11-21T11:27:29+00:00",
  "ok": false,
- "msg": "הבינה נכשלה — העדכון הקודם נשאר: gemini-3.8-flash צורה 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | gemini-3.7-flash צורה 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | gemini-3.5-flash-lite צורה 1: תשובה לא תקינה (finishReason=STOP, 8538 תווים): Expecting property n"
+ "msg": "הבינה נכשלה — העדכון הקודם נשאר: gemini-3.8-flash צורה 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | gemini-3.7-flash צורה 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. | gemini-3.7-flash: נגמר הזמן לניסיונות"
 }
