@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-21T14:17:33+00:00",
-  "fetched_at": "2026-11-21T14:17:33+00:00"
+  "checked_at": "2026-11-21T15:17:12+00:00",
+  "fetched_at": "2026-11-21T15:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T14:17:49+00:00",
-  "fetched_at": "2026-11-21T14:17:49+00:00"
+  "checked_at": "2026-11-21T15:17:24+00:00",
+  "fetched_at": "2026-11-21T15:17:24+00:00"
  },
  "av_en": {
   "data": [
@@ -57,17 +57,17 @@ window.DB.generated = {
     "date": "2026-11-21T13:00:00+00:00"
    },
    {
-    "title_en": "How to watch Ireland vs South Africa: live stream Nations Championship 2026 match for free from anywhere",
-    "title_he": "איך לצפות באירלנד נגד דרום אפריקה: שידור חי במשחק אליפות האומות 2026 בחינם מכל מקום",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/how-to-watch-ireland-vs-south-africa-live-stream-nations-championship-2026-match-for-free-from-anywhere",
-    "date": "2026-11-21T09:00:00+00:00"
-   },
-   {
     "title_en": "Looking to challenge your home cinema system? These are our experts' top films and TV shows for November",
     "title_he": "מחפשים לאתגר את מערכת הקולנוע הביתי שלכם? אלו הסרטים ותוכניות הטלוויזיה המובילות של המומחים שלנו לנובמבר",
     "translated_by": "google",
     "link": "https://www.whathifi.com/av/looking-to-challenge-your-home-cinema-system-these-are-our-experts-top-films-and-tv-shows-for-november",
+    "date": "2026-11-21T09:00:00+00:00"
+   },
+   {
+    "title_en": "How to watch Ireland vs South Africa: live stream Nations Championship 2026 match for free from anywhere, team news",
+    "title_he": "איך לצפות במשחק אירלנד נגד דרום אפריקה: שידור חי של משחק אליפות האומות 2026 בחינם מכל מקום, חדשות הקבוצות",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/how-to-watch-ireland-vs-south-africa-live-stream-nations-championship-2026-match-for-free-from-anywhere",
     "date": "2026-11-21T09:00:00+00:00"
    },
    {
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T14:17:50+00:00",
-  "fetched_at": "2026-11-21T14:17:50+00:00"
+  "checked_at": "2026-11-21T15:17:26+00:00",
+  "fetched_at": "2026-11-21T15:17:26+00:00"
  },
- "generated_at": "2026-11-21T14:17:50+00:00",
+ "generated_at": "2026-11-21T15:17:26+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,10 +94,15 @@ window.DB.generated = {
     {
      "title": "התרגיל שאיראן מתכננת בהורמוז, והחשש בצבא האמריקאי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564315",
-     "date": "2026-11-21T12:12:00+00:00"
+     "date": "2026-11-21T14:55:00+00:00"
     }
    ],
    "market": [
+    {
+     "title": "גם הישראליות חטפו: איך תשפיע הקריסה בוול סטריט על ת״א?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564320",
+     "date": "2026-11-21T14:37:00+00:00"
+    },
     {
      "title": "איזו מניה נוטשים משקיעי העל - ועוד 4 כתבות על המצב בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564110",
@@ -184,11 +189,6 @@ window.DB.generated = {
      "date": "2026-11-19T21:00:00+00:00"
     },
     {
-     "title": "חיים כצמן עצר ברגע האחרון הנפקת אג\"ח. הלחץ על המניה גובר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564303",
-     "date": "2026-11-19T19:17:00+00:00"
-    },
-    {
      "title": "מדוע מפגש מנהיגי העולם השבוע לא יהיה ועידת יאלטה החדשה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564266",
      "date": "2026-11-19T17:00:00+00:00"
@@ -204,16 +204,6 @@ window.DB.generated = {
      "date": "2026-11-19T16:25:00+00:00"
     },
     {
-     "title": "נעילה אדומה בתל אביב; פאלו אלטו זינקה, מניות הביטוח והבנייה נפלו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564030",
-     "date": "2026-11-19T15:30:00+00:00"
-    },
-    {
-     "title": "2,800 איש הפכו הלילה למיליונרים. בדולרים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564119",
-     "date": "2026-11-19T08:38:00+00:00"
-    },
-    {
      "title": "ההנפקה הגדולה בהיסטוריה: אנתרופיק תחל להיסחר היום לפי שווי של כ־1.5 טריליון דולר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564092",
      "date": "2026-11-19T03:43:00+00:00"
@@ -221,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T14:17:35+00:00",
-  "fetched_at": "2026-11-21T14:17:35+00:00"
+  "checked_at": "2026-11-21T15:17:13+00:00",
+  "fetched_at": "2026-11-21T15:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T14:17:36+00:00",
-  "fetched_at": "2026-11-21T14:17:36+00:00"
+  "checked_at": "2026-11-21T15:17:14+00:00",
+  "fetched_at": "2026-11-21T15:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -3147,8 +3137,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T14:17:39+00:00",
-  "fetched_at": "2026-11-21T14:17:39+00:00"
+  "checked_at": "2026-11-21T15:17:18+00:00",
+  "fetched_at": "2026-11-21T15:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3256,8 +3246,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T14:17:39+00:00",
-  "fetched_at": "2026-11-21T14:17:39+00:00"
+  "checked_at": "2026-11-21T15:17:18+00:00",
+  "fetched_at": "2026-11-21T15:17:18+00:00"
  },
  "ai": {
   "data": {
@@ -3272,18 +3262,20 @@ window.DB.generated = {
      "translated_by": "google"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-     "date": "2026-11-18T21:35:43+00:00",
-     "launch": true,
-     "title_en": "Introducing Gemini 4 Neon",
-     "title_he": "הכירו את Gemini 4 Neon",
+     "source": "OpenAI",
+     "link": "https://openai.com/index/introducing-medchembench",
+     "date": "2026-11-20T00:00:00+00:00",
+     "launch": false,
+     "title_en": "Can AI help scientists identify promising drug candidates?",
+     "title_he": "האם בינה מלאכותית יכולה לעזור למדענים לזהות מועמדים לתרופות מבטיחות?",
      "translated_by": "google"
     }
    ],
-   "candidates": 9,
+   "candidates": 4,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind",
+    "גיקטיים"
    ],
    "tools": [
     {
@@ -3304,7 +3296,7 @@ window.DB.generated = {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 485,
+     "likes": 486,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -3325,7 +3317,7 @@ window.DB.generated = {
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 220,
+     "likes": 221,
      "link": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros"
     },
     {
@@ -3359,19 +3351,28 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T14:17:48+00:00",
-  "fetched_at": "2026-11-21T14:17:48+00:00"
+  "checked_at": "2026-11-21T15:17:24+00:00",
+  "fetched_at": "2026-11-21T15:17:24+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "17:00, ספורט1: חלאילי בהרכב פאלאס מול קובנטרי",
-     "link": "https://sports.walla.co.il/item/3877093",
-     "date": "2026-11-21T14:53:00+00:00",
+     "title": "צפו בשערו של יובל שדה בניצחון האנוי, 90 דקות והפסד לדיא סבע",
+     "link": "https://sports.walla.co.il/item/3877092",
+     "date": "2026-11-21T15:55:00+00:00",
      "source": "וואלה",
      "players": [
-      "ענאן חלאילי"
+      "דיא סבע"
+     ]
+    },
+    {
+     "title": "דניאל פרץ שמר על רשת נקייה, סאות'המפטון חזרה לנצח",
+     "link": "https://sports.walla.co.il/item/3877095",
+     "date": "2026-11-21T15:24:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דניאל פרץ"
      ]
     },
     {
@@ -3381,15 +3382,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דיא סבע"
-     ]
-    },
-    {
-     "title": "צפו בשערו של יובל שדה בניצחון האנוי, 90 דקות לנטע לביא",
-     "link": "https://sports.walla.co.il/item/3877092",
-     "date": "2026-11-21T13:07:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "נטע לביא"
      ]
     },
     {
@@ -3712,8 +3704,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T14:17:43+00:00",
-  "fetched_at": "2026-11-21T14:17:43+00:00"
+  "checked_at": "2026-11-21T15:17:21+00:00",
+  "fetched_at": "2026-11-21T15:17:21+00:00"
  },
  "idf": {
   "data": [
@@ -3744,58 +3736,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T14:17:44+00:00",
-  "fetched_at": "2026-11-21T14:17:44+00:00"
+  "checked_at": "2026-11-21T15:17:22+00:00",
+  "fetched_at": "2026-11-21T15:17:22+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-21T14:00:00+00:00",
-    "seen_at": "2026-11-21T14:17:50+00:00",
+    "newest": "2026-11-21T15:03:00+00:00",
+    "seen_at": "2026-11-21T15:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-21T06:15:00+00:00",
-    "seen_at": "2026-11-21T14:17:50+00:00",
+    "newest": "2026-11-21T14:37:00+00:00",
+    "seen_at": "2026-11-21T15:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-21T14:00:00+00:00",
-    "seen_at": "2026-11-21T14:17:50+00:00",
+    "newest": "2026-11-21T14:37:00+00:00",
+    "seen_at": "2026-11-21T15:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-21T06:38:00+00:00",
-    "seen_at": "2026-11-21T14:17:50+00:00",
+    "seen_at": "2026-11-21T15:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-21T14:53:00+00:00",
-    "seen_at": "2026-11-21T14:17:50+00:00",
+    "newest": "2026-11-21T16:00:00+00:00",
+    "seen_at": "2026-11-21T15:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-21T11:45:00+00:00",
-    "seen_at": "2026-11-21T14:17:50+00:00",
+    "newest": "2026-11-21T15:46:00+00:00",
+    "seen_at": "2026-11-21T15:17:26+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-21T12:30:00+00:00",
-    "seen_at": "2026-11-21T14:17:50+00:00",
+    "newest": "2026-11-21T15:00:00+00:00",
+    "seen_at": "2026-11-21T15:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-21T11:42:02+00:00",
-    "seen_at": "2026-11-21T14:17:50+00:00",
+    "seen_at": "2026-11-21T15:17:26+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3807,7 +3799,7 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-19T18:00:00+00:00",
-    "seen_at": "2026-11-21T14:17:50+00:00",
+    "seen_at": "2026-11-21T15:17:26+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3819,23 +3811,23 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-18T14:00:45+00:00",
-    "seen_at": "2026-11-21T14:17:50+00:00",
+    "seen_at": "2026-11-21T15:17:26+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-21T13:00:00+00:00",
-    "seen_at": "2026-11-21T14:17:50+00:00",
+    "seen_at": "2026-11-21T15:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-19T15:08:13+00:00",
-    "seen_at": "2026-11-21T14:17:50+00:00",
+    "seen_at": "2026-11-21T15:17:26+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-21T14:17:50+00:00"
+  "checked_at": "2026-11-21T15:17:26+00:00"
  },
  "health_news": {
   "data": [
@@ -3991,7 +3983,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T14:17:44+00:00",
-  "fetched_at": "2026-11-21T14:17:44+00:00"
+  "checked_at": "2026-11-21T15:17:23+00:00",
+  "fetched_at": "2026-11-21T15:17:23+00:00"
  }
 };
