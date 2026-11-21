@@ -9,11 +9,18 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-21T17:17:26+00:00",
-  "fetched_at": "2026-11-21T17:17:26+00:00"
+  "checked_at": "2026-11-21T18:17:27+00:00",
+  "fetched_at": "2026-11-21T18:17:27+00:00"
  },
  "animals": {
   "data": [
+   {
+    "title_en": "Breath of a Whale Captured by Drone Allows Full Genome Sequencing Without Intrusion",
+    "title_he": "נשימת לווייתן שצולמה על ידי רחפן מאפשרת ריצוף גנום מלא ללא הפרעה",
+    "translated_by": "mymemory",
+    "link": "https://www.goodnewsnetwork.org/breath-of-whale-captured-via-drone-to-complete-genome-sequence/",
+    "date": "2026-11-21T17:30:30+00:00"
+   },
    {
     "title_en": "This Blue Whale Population Grew 1,000% Since the End of Antarctic Whaling",
     "title_he": "אוכלוסיית הלווייתנים הכחולים גדלה ב-1,000% מאז סיום ציד הלווייתנים באנטארקטיקה",
@@ -34,18 +41,11 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.goodnewsnetwork.org/climbers-lug-endangered-and-orphaned-seal-pup-up-a-cliff-to-safety/",
     "date": "2026-11-16T12:30:00+00:00"
-   },
-   {
-    "title_en": "Brown Bear Population in Spain Doubles With Incredible Increase of its Breeding Range",
-    "title_he": "אוכלוסיית הדובים החומים בספרד מכפילה את עצמה עם גידול מדהים בטווח הרבייה שלהם",
-    "translated_by": "mymemory",
-    "link": "https://www.goodnewsnetwork.org/spain-sees-incredible-doubling-of-her-brown-bear-population-and-its-breeding-range/",
-    "date": "2026-11-11T16:30:25+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T17:17:36+00:00",
-  "fetched_at": "2026-11-21T17:17:36+00:00"
+  "checked_at": "2026-11-21T18:17:40+00:00",
+  "fetched_at": "2026-11-21T18:17:40+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T17:17:36+00:00",
-  "fetched_at": "2026-11-21T17:17:36+00:00"
+  "checked_at": "2026-11-21T18:17:40+00:00",
+  "fetched_at": "2026-11-21T18:17:40+00:00"
  },
- "generated_at": "2026-11-21T17:17:36+00:00",
+ "generated_at": "2026-11-21T18:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "ארה\"ב מכחישה את הטענה האיראנית לפגיעה במטוס F16; עראקצ'י: \"נתניהו מנסה לגרור את ארה\"ב לעימות חדש\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564315",
-     "date": "2026-11-21T16:32:00+00:00"
+     "date": "2026-11-21T17:00:00+00:00"
     }
    ],
    "market": [
@@ -211,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T17:17:27+00:00",
-  "fetched_at": "2026-11-21T17:17:27+00:00"
+  "checked_at": "2026-11-21T18:17:28+00:00",
+  "fetched_at": "2026-11-21T18:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T17:17:28+00:00",
-  "fetched_at": "2026-11-21T17:17:28+00:00"
+  "checked_at": "2026-11-21T18:17:29+00:00",
+  "fetched_at": "2026-11-21T18:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -3137,8 +3137,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T17:17:29+00:00",
-  "fetched_at": "2026-11-21T17:17:29+00:00"
+  "checked_at": "2026-11-21T18:17:30+00:00",
+  "fetched_at": "2026-11-21T18:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3246,8 +3246,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T17:17:29+00:00",
-  "fetched_at": "2026-11-21T17:17:29+00:00"
+  "checked_at": "2026-11-21T18:17:30+00:00",
+  "fetched_at": "2026-11-21T18:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -3271,7 +3271,7 @@ window.DB.generated = {
      "translated_by": "google"
     }
    ],
-   "candidates": 8,
+   "candidates": 7,
    "failed_sources": [
     "Anthropic"
    ],
@@ -3280,14 +3280,14 @@ window.DB.generated = {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 797,
+     "likes": 798,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 237,
+     "likes": 239,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
@@ -3301,29 +3301,29 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Revamped: Image Editor",
      "desc_en": "Edit one image from a prompt. Keep the look consistent.",
      "desc_he": "ערוך תמונה אחת מתוך הנחיה. שמור על המראה עקבי.",
-     "likes": 110,
+     "likes": 111,
      "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
     },
     {
      "title": "Slack Moji",
      "desc_en": "Describe an emoji. A tiny model paints it in your browser.",
      "desc_he": "תארו אימוג'י. מודל קטן מצייר אותו בדפדפן שלכם.",
-     "likes": 71,
+     "likes": 72,
      "link": "https://huggingface.co/spaces/cfahlgren1/slack-moji"
-    },
-    {
-     "title": "LTX 2.3 10Eros Image-to-Video",
-     "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
-     "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 220,
-     "link": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros"
     },
     {
      "title": "pi-H3",
      "desc_en": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
      "desc_he": "סרטון Minimax H3 ב-2–4 שלבים ללא מפענח VAE",
-     "likes": 59,
+     "likes": 61,
      "link": "https://huggingface.co/spaces/Lakonik/pi-H3"
+    },
+    {
+     "title": "LTX 2.3 10Eros Image-to-Video",
+     "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
+     "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
+     "likes": 218,
+     "link": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros"
     },
     {
      "title": "Agent Memory Leaderboard",
@@ -3336,7 +3336,7 @@ window.DB.generated = {
      "title": "Qwen 2511 + Flux.2 Klein",
      "desc_en": "Edit images with Qwen and enhance with FLUX.2 Klein",
      "desc_he": "ערוך תמונות עם Qwen והגבר עם FLUX.2 Klein",
-     "likes": 475,
+     "likes": 476,
      "link": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
@@ -3349,12 +3349,30 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T17:17:35+00:00",
-  "fetched_at": "2026-11-21T17:17:35+00:00"
+  "checked_at": "2026-11-21T18:17:37+00:00",
+  "fetched_at": "2026-11-21T18:17:37+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "בספרד מסבירים: הסיבות שהופעת הבכורה של אוריין גורן מתעכבת",
+     "link": "https://sports.walla.co.il/item/3877115",
+     "date": "2026-11-21T18:52:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוריין גורן"
+     ]
+    },
+    {
+     "title": "\"אפשר לראות את הפוטנציאל של ענאן חלאילי\". תפקידו ישתנה?",
+     "link": "https://sports.walla.co.il/item/3877111",
+     "date": "2026-11-21T18:19:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
     {
      "title": "74 דקות לענאן חלאילי ב-3:2 של פאלאס, צ'לסי הושפלה",
      "link": "https://sports.walla.co.il/item/3877093",
@@ -3372,6 +3390,24 @@ window.DB.generated = {
      "players": [
       "מנור סולומון",
       "דניאל פרץ"
+     ]
+    },
+    {
+     "title": "\"חלאילי פספס תיקול ואפשר לרודני לבשל את השער\"",
+     "link": "https://www.one.co.il/Article/539486.html?ref=rss",
+     "date": "2026-11-21T17:54:00+00:00",
+     "source": "ONE",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "שוב בגלל אזעקות: המשחק של נאווי ולין הופסק",
+     "link": "https://www.one.co.il/Article/539483.html?ref=rss",
+     "date": "2026-11-21T17:19:00+00:00",
+     "source": "ONE",
+     "players": [
+      "בר לין"
      ]
     },
     {
@@ -3402,21 +3438,21 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "32 דקות לסולומון, רק 1:1 לווסטהאם מול פרסטון",
-     "link": "https://www.one.co.il/Article/539460.html?ref=rss",
-     "date": "2026-11-21T15:00:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
      "title": "73 דק׳ לחלאילי, פאלאס נכנעה 3:2 לקובנטרי",
      "link": "https://www.one.co.il/Article/539463.html?ref=rss",
      "date": "2026-11-21T15:00:00+00:00",
      "source": "ONE",
      "players": [
       "ענאן חלאילי"
+     ]
+    },
+    {
+     "title": "32 דקות לסולומון, רק 1:1 לווסטהאם מול פרסטון",
+     "link": "https://www.one.co.il/Article/539460.html?ref=rss",
+     "date": "2026-11-21T15:00:00+00:00",
+     "source": "ONE",
+     "players": [
+      "מנור סולומון"
      ]
     },
     {
@@ -3453,43 +3489,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "דני וולף"
-     ]
-    },
-    {
-     "title": "\"דני אבדיה פשוט כוכב. הקומבינציה הכי טובה ב-NBA\"",
-     "link": "https://sports.walla.co.il/item/3877053",
-     "date": "2026-11-20T20:35:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "\"אוסקר גלוך שחקן גרוע! לא התקדם במילימטר מאז שיצא ממכבי\"",
-     "link": "https://sports.walla.co.il/item/3877037",
-     "date": "2026-11-20T20:05:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "ישתף פעולה עם יוקיץ'? הטרייד שיכול לשלוח את בן שרף לדנבר",
-     "link": "https://sports.walla.co.il/item/3877051",
-     "date": "2026-11-20T19:40:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "בן שרף"
-     ]
-    },
-    {
-     "title": "אובדן בתו, גלוך, דברי זהבי וגורן: גארסיה מדבר",
-     "link": "https://www.one.co.il/Article/539344.html?ref=rss",
-     "date": "2026-11-20T14:45:00+00:00",
-     "source": "ONE",
-     "players": [
-      "אוסקר גלוך",
-      "אוריין גורן"
      ]
     }
    ],
@@ -3703,11 +3702,16 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T17:17:32+00:00",
-  "fetched_at": "2026-11-21T17:17:32+00:00"
+  "checked_at": "2026-11-21T18:17:33+00:00",
+  "fetched_at": "2026-11-21T18:17:33+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "צה\"ל דוחה את הדיווחים מעזה: \"תקפנו שלושה מחבלי גא\"פ, לא עובדי סיוע\"",
+    "link": "https://www.walla.co.il/news/military/383962406",
+    "date": "2026-11-21T16:59:07+00:00"
+   },
    {
     "title": "הלוחמים ישלמו את המחיר? תוכנית המטכ\"ל לקיצוץ בימי המילואים כבר מעוררת סערה",
     "link": "https://www.walla.co.il/news/military/383962018",
@@ -3727,17 +3731,11 @@ window.DB.generated = {
     "title": "מערכת הביטחון באגרוף אחד מול איראן: בישראל מצפים לקואליציה רחבה לתקיפה אגרסיבית",
     "link": "https://www.walla.co.il/news/military/383962088",
     "date": "2026-11-19T10:28:28+00:00"
-   },
-   {
-    "title": "מבצע אכיפה נרחב ביהודה ושומרון: עשרות מבנים פלסטיניים נהרסו וקרקעות פונו",
-    "link": "https://www.walla.co.il/news/military/383962006",
-    "date": "2026-11-18T15:30:00+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-21T17:17:32+00:00",
-  "fetched_at": "2026-11-21T15:17:22+00:00"
+  "ok": true,
+  "checked_at": "2026-11-21T18:17:33+00:00",
+  "fetched_at": "2026-11-21T18:17:33+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3745,89 +3743,89 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-21T17:00:00+00:00",
-    "seen_at": "2026-11-21T17:17:36+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-21T14:37:00+00:00",
-    "seen_at": "2026-11-21T17:17:36+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-21T14:37:00+00:00",
-    "seen_at": "2026-11-21T17:17:36+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-21T06:38:00+00:00",
-    "seen_at": "2026-11-21T17:17:36+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-21T17:58:00+00:00",
-    "seen_at": "2026-11-21T17:17:36+00:00",
+    "newest": "2026-11-21T18:52:00+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-21T15:46:00+00:00",
-    "seen_at": "2026-11-21T17:17:36+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-21T17:03:00+00:00",
-    "seen_at": "2026-11-21T17:17:36+00:00",
+    "newest": "2026-11-21T18:11:00+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-11-21T11:42:02+00:00",
-    "seen_at": "2026-11-21T15:17:26+00:00",
+    "newest": "2026-11-21T16:59:07+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-18T21:35:43+00:00",
-    "seen_at": "2026-11-21T17:17:36+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-19T18:00:00+00:00",
-    "seen_at": "2026-11-21T17:17:36+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-21T16:29:29+00:00",
-    "seen_at": "2026-11-21T17:17:36+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
-    "newest": "2026-11-18T14:00:45+00:00",
-    "seen_at": "2026-11-21T17:17:36+00:00",
+    "newest": "2026-11-21T17:30:30+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-21T13:00:00+00:00",
-    "seen_at": "2026-11-21T17:17:36+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-19T15:08:13+00:00",
-    "seen_at": "2026-11-21T17:17:36+00:00",
+    "seen_at": "2026-11-21T18:17:40+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-21T17:17:36+00:00"
+  "checked_at": "2026-11-21T18:17:40+00:00"
  },
  "health_news": {
   "data": [
@@ -3983,7 +3981,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T17:17:33+00:00",
-  "fetched_at": "2026-11-21T17:17:33+00:00"
+  "checked_at": "2026-11-21T18:17:34+00:00",
+  "fetched_at": "2026-11-21T18:17:34+00:00"
  }
 };
