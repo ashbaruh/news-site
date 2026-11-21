@@ -4,13 +4,13 @@ window.DB.generated = {
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-11-20",
+   "as_of": "2026-11-21",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-21T03:59:47+00:00",
-  "fetched_at": "2026-11-21T03:59:47+00:00"
+  "checked_at": "2026-11-21T04:17:21+00:00",
+  "fetched_at": "2026-11-21T04:17:21+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T03:59:59+00:00",
-  "fetched_at": "2026-11-21T03:59:59+00:00"
+  "checked_at": "2026-11-21T04:17:30+00:00",
+  "fetched_at": "2026-11-21T04:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T04:00:00+00:00",
-  "fetched_at": "2026-11-21T04:00:00+00:00"
+  "checked_at": "2026-11-21T04:17:31+00:00",
+  "fetched_at": "2026-11-21T04:17:31+00:00"
  },
- "generated_at": "2026-11-21T04:00:00+00:00",
+ "generated_at": "2026-11-21T04:17:31+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T03:59:48+00:00",
-  "fetched_at": "2026-11-21T03:59:48+00:00"
+  "checked_at": "2026-11-21T04:17:22+00:00",
+  "fetched_at": "2026-11-21T04:17:22+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T03:59:49+00:00",
-  "fetched_at": "2026-11-21T03:59:49+00:00"
+  "checked_at": "2026-11-21T04:17:23+00:00",
+  "fetched_at": "2026-11-21T04:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -3012,8 +3012,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-21T03:59:51+00:00",
-  "fetched_at": "2026-11-21T03:59:51+00:00"
+  "checked_at": "2026-11-21T04:17:24+00:00",
+  "fetched_at": "2026-11-21T04:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3111,8 +3111,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T03:59:51+00:00",
-  "fetched_at": "2026-11-21T03:59:51+00:00"
+  "checked_at": "2026-11-21T04:17:24+00:00",
+  "fetched_at": "2026-11-21T04:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -3127,17 +3127,18 @@ window.DB.generated = {
      "translated_by": "google"
     },
     {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/anthropic-ipo-is-the-biggest-we-have-ever-seen/",
-     "date": "2026-11-19T19:08:24+00:00",
-     "launch": false,
-     "title": "ההנפקה הגדולה בהיסטוריה: אנת'רופיק חצתה שווי של 2 טריליון דולר"
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+     "date": "2026-11-18T21:35:43+00:00",
+     "launch": true,
+     "title_en": "Introducing Gemini 4 Neon",
+     "title_he": "הכירו את Gemini 4 Neon",
+     "translated_by": "google"
     }
    ],
-   "candidates": 10,
+   "candidates": 12,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
@@ -3213,12 +3214,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T03:59:59+00:00",
-  "fetched_at": "2026-11-21T03:59:59+00:00"
+  "checked_at": "2026-11-21T04:17:29+00:00",
+  "fetched_at": "2026-11-21T04:17:29+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "שיא עונתי לדני וולף, ברוקלין נכנעה בתום דרמה",
+     "link": "https://www.one.co.il/Article/539433.html?ref=rss",
+     "date": "2026-11-21T04:00:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני וולף"
+     ]
+    },
     {
      "title": "\"דני אבדיה פשוט כוכב. הקומבינציה הכי טובה ב-NBA\"",
      "link": "https://sports.walla.co.il/item/3877053",
@@ -3341,15 +3351,6 @@ window.DB.generated = {
      "title": "\"לא הייתה להם תשובה לאבדיה\": המחמאות והעקיצות אחרי ההפסד",
      "link": "https://sports.walla.co.il/item/3876562",
      "date": "2026-11-17T07:47:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "אבדיה שוב כיכב עם 27 נקודות, פורטלנד נעצרה במינסוטה",
-     "link": "https://sports.walla.co.il/item/3876544",
-     "date": "2026-11-17T05:48:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3566,8 +3567,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-21T03:59:54+00:00",
-  "fetched_at": "2026-11-21T03:59:54+00:00"
+  "checked_at": "2026-11-21T04:17:26+00:00",
+  "fetched_at": "2026-11-21T04:17:26+00:00"
  },
  "idf": {
   "data": [
@@ -3597,8 +3598,9 @@ window.DB.generated = {
     "date": "2026-11-18T15:30:00+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-21T03:59:55+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-21T04:17:27+00:00",
   "fetched_at": "2026-11-21T03:59:55+00:00"
  },
  "feed_health": {
@@ -3607,43 +3609,43 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-20T21:03:00+00:00",
-    "seen_at": "2026-11-21T04:00:00+00:00",
+    "seen_at": "2026-11-21T04:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-20T11:59:00+00:00",
-    "seen_at": "2026-11-21T04:00:00+00:00",
+    "seen_at": "2026-11-21T04:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-20T06:26:00+00:00",
-    "seen_at": "2026-11-21T04:00:00+00:00",
+    "seen_at": "2026-11-21T04:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-20T20:35:00+00:00",
-    "seen_at": "2026-11-21T04:00:00+00:00",
+    "seen_at": "2026-11-21T04:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-20T22:55:00+00:00",
-    "seen_at": "2026-11-21T04:00:00+00:00",
+    "seen_at": "2026-11-21T04:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-20T20:05:00+00:00",
-    "seen_at": "2026-11-21T04:00:00+00:00",
+    "seen_at": "2026-11-21T04:17:31+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-21T04:00:00+00:00",
-    "seen_at": "2026-11-21T04:00:00+00:00",
+    "newest": "2026-11-21T04:02:00+00:00",
+    "seen_at": "2026-11-21T04:17:31+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3655,31 +3657,31 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-18T21:35:43+00:00",
-    "seen_at": "2026-11-21T01:17:39+00:00",
+    "seen_at": "2026-11-21T04:17:31+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-19T18:00:00+00:00",
-    "seen_at": "2026-11-21T04:00:00+00:00",
+    "seen_at": "2026-11-21T04:17:31+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-20T11:51:07+00:00",
-    "seen_at": "2026-11-21T04:00:00+00:00",
+    "seen_at": "2026-11-21T04:17:31+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-18T14:00:45+00:00",
-    "seen_at": "2026-11-21T04:00:00+00:00",
+    "seen_at": "2026-11-21T04:17:31+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-20T20:00:00+00:00",
-    "seen_at": "2026-11-21T04:00:00+00:00",
+    "seen_at": "2026-11-21T04:17:31+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3689,7 +3691,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-11-21T04:00:00+00:00"
+  "checked_at": "2026-11-21T04:17:31+00:00"
  },
  "health_news": {
   "data": [
@@ -3844,8 +3846,9 @@ window.DB.generated = {
     "date": "2026-10-21T10:14:26+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-21T03:59:56+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-21T04:17:27+00:00",
   "fetched_at": "2026-11-21T03:59:56+00:00"
  }
 };
