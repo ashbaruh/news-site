@@ -1288,49 +1288,79 @@ window.DB.war_published = {
   }
  },
  "north": {
-  "draft": "drafts/north/2026-11-20T0813__north-202611200813.json",
+  "draft": "drafts/north/2026-11-21T0340__north-202611210340.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-11-20T08:13:44+00:00",
+   "generated_at": "2026-11-21T03:40:37+00:00",
    "window": {
-    "from": "2026-11-19T08:13:44+00:00",
-    "to": "2026-11-20T08:13:44+00:00"
+    "from": "2026-11-20T03:40:37+00:00",
+    "to": "2026-11-21T03:40:37+00:00"
    },
    "model": {
     "name": "gemini-3.8-flash",
-    "run_id": "north-202611200813"
+    "run_id": "north-202611210340"
    },
-   "summary": "בגזרה הצפונית נמשכת פעילות צבאית ישראלית עצימה הכוללת הפצצות בבקאע וסיכול העברות נשק מגבול סוריה, לצד הפגזות ותקיפות בדרום לבנון ותנועת כוחות קרקעיים לעבר קוניטרה. במקביל, הממשל הסורי החדש מרחיב את אכיפת הסדר הפנימי ומעמיד לדין בכירים לשעבר, בעוד טורקיה מחזקת את השפעתה המדינית והביטחונית בסוריה ובלבנון.",
+   "summary": "בדרום לבנון נרשמת פעילות צבאית התקפית מצד צה\"ל הכוללת גיחות אוויר, ירי ארטילרי ופעולות הנדסיות מול כפרים ומרחבים סמוכים לגבול. במקביל, הממשל בביירות מצהיר על שאיפה לריבונות מלאה ובלעדיות על החזקת הנשק, בעוד דיווחים עיתונאיים מייחסים לחיזבאללה שחיקה מבצעית ורצון להימנע מעימות רחב. בזירה הסורית נמשכים מאמצים לשיקום קשרים אזוריים דרך חידוש קווי תעופה לצד התמודדות עם אתגרים בריאותיים וסוגיות משפטיות פנימיות.",
    "fronts": [
     {
-     "name": "דרום לבנון והבקאע מול ישראל",
-     "status": "לחימה בעצימות מתמשכת, תקיפות אוויריות והפגזות ישראליות נגד מטרות חיזבאללה ותשתיות הברחה"
+     "name": "דרום לבנון",
+     "status": "חילופי אש ותקיפות ישראליות ממוקדות במספר גזרות"
     },
     {
-     "name": "גבול ישראל - סוריה (רמת הגולן וקוניטרה)",
-     "status": "מתיחות ופעילות כוחות קרקעיים ישראליים מעבר לקו במרחב הכפרי"
+     "name": "הזירה הפוליטית-צבאית בלבנון",
+     "status": "מאמצי ממשל לבסס ריבונות מול חיזבאללה הנתון בשחיקה"
     },
     {
-     "name": "השפעת טורקיה בלבנון ובסוריה",
-     "status": "התרחבות מעורבות דיפלומטית, הסכמי שיתוף פעולה צבאי ותמיכה בהרחבת ריבונות הממשל בסוריה"
+     "name": "סוריה",
+     "status": "שיקום הדרגתי של קשרים בינלאומיים לצד התמודדות פנימית בריאותית ומשפטית"
     }
    ],
    "events": [
     {
-     "id": "NORTH-11200813-01",
-     "title": "תקיפות אוויריות של צה\"ל בכפר תבנית בדרום לבנון",
-     "summary": "מטוסי קרב ישראליים תקפו יעדים בכפר תבנית שבדרום לבנון.",
-     "axis": "ישראל - לבנון",
+     "id": "NORTH-11210340-01",
+     "title": "תקיפות אוויריות וארטילריות של צה\"ל בדרום לבנון",
+     "summary": "כוחות צה\"ל ביצעו תקיפות אוויריות, הפגזות ארטילריות ופעולות הריסה במספר מוקדים בדרום לבנון, בהם חדאת'א, כפר תבנית, מיפדון וזוטר א-שרקיה.",
+     "axis": "דרום לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-20T08:02:56+00:00",
+     "occurred_at": "2026-11-20T00:00:00+00:00",
      "is_ongoing": true,
      "first_reported_at": "2026-11-20T08:02:56+00:00",
-     "last_update_at": "2026-11-20T08:02:56+00:00",
-     "what_is_not_verified": "אין אימות עצמאי לזהות המטרות או לנזק שנגרם",
+     "last_update_at": "2026-11-20T22:24:59+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק, מטרות התקיפה וקיומן של הצתות מכוונות בידי כוחות צה\"ל.",
      "is_new_in_window": true,
      "reports": [
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/153292/",
+       "published_at": "2026-11-20T22:24:59+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/153272/",
+       "published_at": "2026-11-20T20:25:51+00:00"
+      },
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aa.com.tr/en/middle-east/israeli-attacks-hit-4-districts-in-southern-lebanon-cause-fires-damage/4132366",
+       "published_at": "2026-11-20T15:00:05+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/153197/",
+       "published_at": "2026-11-20T14:41:43+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/153182/",
+       "published_at": "2026-11-20T14:40:07+00:00"
+      },
       {
        "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
@@ -1340,244 +1370,198 @@ window.DB.war_published = {
      ],
      "places": [
       {
-       "name": "כפר תבנית, לבנון",
-       "lat": 33.3519,
-       "lon": 35.5186
+       "name": "חדאת'א, לבנון",
+       "lat": 33.1561,
+       "lon": 35.3912
       }
      ]
     },
     {
-     "id": "NORTH-11200813-02",
-     "title": "ירי ארטילרי ואש מקלעים ישראלית בדרום לבנון",
-     "summary": "הפגזות ארטילריות כוונו למספר אזורים בדרום לבנון כולל ואדי אל-סלוקי, ואדי אל-חג'יר, ואדי זיבקין, פאתי תולין, אל-מנסורי ומיפדון, לצד ירי מקלעים לעבר אל-קנטרה.",
-     "axis": "ישראל - לבנון",
-     "claim_type": "incident",
+     "id": "NORTH-11210340-02",
+     "title": "דיווח על פניית חיזבאללה לאיראן בבקשה לפטור מהשתתפות בלחימה",
+     "summary": "בעיתון הלבנוני נדאא אל-ווטן נטען כי חיזבאללה פנה לטהראן בבקשה להימנע ממעורבות במלחמה בעקבות שחיקה ביכולותיו הצבאיות, קשיים בהשגת אמצעי לחימה וביקורת בקרב העדה השיעית.",
+     "axis": "לבנון - איראן",
+     "claim_type": "assessment",
      "lifecycle": "active",
-     "occurred_at": "2026-11-20T07:40:32+00:00",
+     "occurred_at": "2026-11-20T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-20T07:40:32+00:00",
-     "last_update_at": "2026-11-20T07:40:32+00:00",
-     "what_is_not_verified": "היקף הפגיעות והנפגעים המדויק אינו ידוע",
+     "first_reported_at": "2026-11-20T16:47:26+00:00",
+     "last_update_at": "2026-11-20T16:47:26+00:00",
+     "what_is_not_verified": "עצם הפנייה של חיזבאללה לטהראן ועמדת ההנהגה האיראנית בנושא.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
+       "source_id": "src_israelhayom",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/152992/",
-       "published_at": "2026-11-20T07:40:32+00:00"
+       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21897878",
+       "published_at": "2026-11-20T16:47:26+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "אל-מנסורי, לבנון",
-       "lat": 33.1737,
-       "lon": 35.2111
-      },
-      {
-       "name": "אל-קנטרה, לבנון",
-       "lat": 33.2589,
-       "lon": 35.459
-      }
-     ]
+     "places": []
     },
     {
-     "id": "NORTH-11200813-03",
-     "title": "תקיפת חיל האוויר הישראלי במרחב ג'נתא בבקאע",
-     "summary": "חיל האוויר הישראלי תקף אתר ששימש בעבר לייצור טילים ואחסון אמל\"ח של חיזבאללה בג'נתא כדי למנוע את שיקומו לאחר הגעת מחבלים לאתר.",
-     "axis": "ישראל - לבנון",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-19T15:03:34+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-19T15:03:34+00:00",
-     "last_update_at": "2026-11-19T20:03:38+00:00",
-     "what_is_not_verified": "אין אימות בלתי תלוי לגבי אופי המבנה שהותקף והאם הכיל אמל\"ח פעיל",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/israeli-airstrikes-hit-eastern-lebanon-target-homes-buildings-in-south/4131515",
-       "published_at": "2026-11-19T20:03:38+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133922",
-       "published_at": "2026-11-19T18:00:39+00:00"
-      },
-      {
-       "source_id": "src_tg_idf",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25660",
-       "published_at": "2026-11-19T17:59:48+00:00"
-      },
-      {
-       "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/968784/israeli-army-claims-it-struck-former-hezbollah-missile-facility-in-leb/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968784",
-       "published_at": "2026-11-19T15:03:34+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ג'נתא, לבנון",
-       "lat": 33.8391,
-       "lon": 36.0996
-      },
-      {
-       "name": "א-נבי שית, לבנון",
-       "lat": 33.8887,
-       "lon": 36.1181
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11200813-04",
-     "title": "תקיפת משלוח אמל\"ח שהועבר מסוריה ללבנון",
-     "summary": "חיל האוויר הישראלי תקף משלוח של אמצעי לחימה במרחב ג'נתא בגבול סוריה-לבנון, שיועד עבור ארגון חיזבאללה.",
-     "axis": "סוריה - לבנון - ישראל",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-19T17:30:18+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-19T17:30:18+00:00",
-     "last_update_at": "2026-11-19T17:30:18+00:00",
-     "what_is_not_verified": "פרטי המשלוח המדויקים ותוצאות הסיכול לא אומתו עצמאית",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/133919",
-       "published_at": "2026-11-19T17:30:18+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "ג'נתא, לבנון",
-       "lat": 33.8391,
-       "lon": 36.0996
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11200813-05",
-     "title": "התקדמות כוחות ישראליים לעיירה אל-רפיד בקוניטרה",
-     "summary": "כוחות ישראליים הכוללים תשעה כלי רכב צבאיים התקדמו לעבר העיירה אל-רפיד באזור הכפרי של קוניטרה בסוריה.",
-     "axis": "ישראל - סוריה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-19T22:08:30+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-19T22:08:30+00:00",
-     "last_update_at": "2026-11-19T22:08:30+00:00",
-     "what_is_not_verified": "הדיווח נסמך על מקורות סוריים בלבד ללא אישור ישראלי או גורם רשמי",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/152942/",
-       "published_at": "2026-11-19T22:08:30+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אל-רפיד, סוריה",
-       "lat": 32.9559,
-       "lon": 35.9009
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11200813-06",
-     "title": "הצהרת צבא לבנון ליום העצמאות על ריבונות ונשק המדינה",
-     "summary": "צבא לבנון הדגיש את מחויבותו להשבת הריבונות על כלל שטח המדינה והשארת הנשק בשליטת המדינה בלבד, לצד המשך פריסתו בדרום המדינה חרף פעולות ישראל.",
+     "id": "NORTH-11210340-03",
+     "title": "הצהרת ראש ממשלת לבנון על ריבונות מלאה ופירוק נשק חוץ-מדינתי",
+     "summary": "ראש ממשלת לבנון נואף סלאם הדגיש כי העצמאות מחייבת סיום הנוכחות הישראלית בארצו, בלעדיות של המדינה על החלטות מלחמה ושלום, ואיסור על קיום נשק שאינו תחת שליטתה.",
      "axis": "לבנון",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-19T14:11:31+00:00",
+     "occurred_at": "2026-11-20T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-19T14:11:31+00:00",
-     "last_update_at": "2026-11-19T14:11:31+00:00",
-     "what_is_not_verified": "מידת היכולת של צבא לבנון לאכוף פירוק נשק של ארגונים במדינה",
+     "first_reported_at": "2026-11-20T14:03:32+00:00",
+     "last_update_at": "2026-11-20T14:03:32+00:00",
+     "what_is_not_verified": "יכולת הממשלה הלבנונית לממש בפועל את פירוק הנשק וסמכויות השליטה.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_lbci",
-       "source_root_id": "or_lbci",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/968780/lebanese-army-on-independence-day-restoring-sovereignty-and-placing-we/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968780",
-       "published_at": "2026-11-19T14:11:31+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/968945/salam-lebanons-independence-remains-incomplete-without-ending-israeli/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968945",
+       "published_at": "2026-11-20T14:03:32+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "ירזה, לבנון",
-       "lat": 33.8309,
-       "lon": 35.5551
-      }
-     ]
+     "places": []
     },
     {
-     "id": "NORTH-11200813-07",
-     "title": "ביקור בילאל ארדואן בלבנון והידוק הקשרים עם טורקיה",
-     "summary": "בילאל ארדואן ביקר בביירות ובטריפולי ונפגש עם בכירים בהנהגה הלבנונית, במקביל לאישור הסכם שיתוף פעולה צבאי בין לבנון לטורקיה בשווי מאה מיליון לירות טורקיות.",
-     "axis": "טורקיה - לבנון",
-     "claim_type": "incident",
+     "id": "NORTH-11210340-04",
+     "title": "ברכת נשיא ארצות הברית לנשיא לבנון לרגל יום העצמאות",
+     "summary": "דונלד טראמפ בירך את נשיא לבנון ג'וזף עון, ציין כי קיימת הזדמנות לחיזוק הריבונות, היציבות והשלום עם השכנות, ושיבח את החלטות הממשלה הלבנונית.",
+     "axis": "לבנון - ארצות הברית",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-13T00:00:00+00:00",
+     "occurred_at": "2026-11-20T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-19T19:36:30+00:00",
-     "last_update_at": "2026-11-19T19:36:30+00:00",
-     "what_is_not_verified": "המניעים הפוליטיים המלאים והמשמעות המבצעית של ההסכם הצבאי",
+     "first_reported_at": "2026-11-20T12:08:10+00:00",
+     "last_update_at": "2026-11-20T12:08:10+00:00",
+     "what_is_not_verified": "צעדים מעשיים שיקודמו בעקבות הברכה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_newarab",
-       "source_root_id": "or_the_new_arab",
-       "url": "https://www.newarab.com/analysis/how-bilal-erdogans-visit-signals-turkeys-long-game-lebanon",
-       "published_at": "2026-11-19T19:36:30+00:00"
+       "source_id": "src_lbci",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.lbcgroup.tv/news/lebanon-news/968915/trump-sees-opportunity-for-peace-with-neighbors-as-lebanon-marks-indep/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968915",
+       "published_at": "2026-11-20T12:08:10+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "ביירות, לבנון",
-       "lat": 33.8892,
-       "lon": 35.5026
-      },
-      {
-       "name": "טריפולי, לבנון",
-       "lat": 34.4374,
-       "lon": 35.8349
-      }
-     ]
+     "places": []
     },
     {
-     "id": "NORTH-11200813-08",
-     "title": "מעצר גנרל לשעבר ממשטר אסד בסוריה",
-     "summary": "כוחות הביטחון של השלטונות החדשים בסוריה עצרו את רואד עלי זידאן, קצין לשעבר במשטר אסד, באשמת תכנון מארב באלעוטייבה בשנת 2014 שבו נהרגו 175 חמושים אסלאמיסטים.",
-     "axis": "סוריה - פנים",
+     "id": "NORTH-11210340-05",
+     "title": "הסכם בין סוריה למצרים על חידוש טיסות ישירות",
+     "summary": "רשויות התעופה של סוריה ומצרים סיכמו על חידוש הטיסות הישירות בין קהיר לדמשק ולחלב בתחילת חודש דצמבר, כחלק מחידוש קשרי התעופה הבינלאומיים של סוריה.",
+     "axis": "סוריה - מצרים",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-19T21:41:17+00:00",
+     "occurred_at": "2026-11-20T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-19T21:41:17+00:00",
-     "last_update_at": "2026-11-19T22:59:02+00:00",
-     "what_is_not_verified": "פרטי החקירה והראיות המדויקות נגד העצור",
+     "first_reported_at": "2026-11-20T16:23:48+00:00",
+     "last_update_at": "2026-11-20T17:53:13+00:00",
+     "what_is_not_verified": "מועד ההפעלה הסופי של לוחות הטיסות של חברת התעופה הסורית.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/syrian-authorities-arrest-ex-general-over-2014-massacre",
-       "published_at": "2026-11-19T22:59:02+00:00"
+       "url": "https://www.newarab.com/news/syria-and-egypt-resume-direct-flights-december",
+       "published_at": "2026-11-20T17:53:13+00:00"
       },
       {
-       "source_id": "src_anadolu",
+       "source_id": "src_enabbaladi",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/syria-arrests-former-regime-officer-accused-of-orchestrating-2014-massacre-near-damascus/4131609",
-       "published_at": "2026-11-19T21:41:17+00:00"
+       "url": "https://english.enabbaladi.net/archives/2026/11/egyptair-to-resume-direct-flights-to-syria-in-december/",
+       "published_at": "2026-11-20T16:23:48+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דמשק, סוריה",
+       "lat": 33.5131,
+       "lon": 36.3096
+      },
+      {
+       "name": "חלב, סוריה",
+       "lat": 36.1992,
+       "lon": 37.1637
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11210340-06",
+     "title": "סדנה בחלב לשיקום סוריה בראיית טורקיה",
+     "summary": "בעיר חלב שבסוריה התקיימה סדנה שעסקה בדיפלומטיה אזרחית ובבחינת שיתופי פעולה לשיקום המדינה תחת החזון המדיני של טורקיה.",
+     "axis": "סוריה - טורקיה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-20T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-20T12:19:00+00:00",
+     "last_update_at": "2026-11-20T12:19:00+00:00",
+     "what_is_not_verified": "זהות המשתתפים המדויקת והסכמים מעשיים שגובשו בסדנה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_dailysabah",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.dailysabah.com/politics/diplomacy/aleppo-workshop-explores-civil-diplomacy-syrias-reconstruction",
+       "published_at": "2026-11-20T12:19:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חלב, סוריה",
+       "lat": 36.1992,
+       "lon": 37.1637
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11210340-07",
+     "title": "היערכות למבצע חיסון נגד פוליו בדיר א-זור",
+     "summary": "משרד הבריאות בסוריה נערך לחסן יותר מ-371 אלף ילדים במחוז דיר א-זור בעקבות איתור שלושה מקרי תחלואה מאומתים בנגיף הפוליו.",
+     "axis": "סוריה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-19T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-20T15:34:02+00:00",
+     "last_update_at": "2026-11-20T15:34:02+00:00",
+     "what_is_not_verified": "המועד המדויק שבו יחל מבצע החיסונים בפועל.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_enabbaladi",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.enabbaladi.net/archives/2026/11/deir-ezzor-polio-campaign-to-target-371000-children/",
+       "published_at": "2026-11-20T15:34:02+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דיר א-זור, סוריה",
+       "lat": 35.3333,
+       "lon": 40.15
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11210340-08",
+     "title": "בירור משפטי בסוריה בעקבות גזרי דין מוות נגד בכירי משטר אסד לשעבר",
+     "summary": "בסוריה נמשכים הדיונים המשפטיים לגבי אפשרות ערעור והפחתת עונשים ביחס לגזרי דין מוות שהוטלו על בשאר אל-אסד ובכירים לשעבר בגין פשעים נגד האנושות.",
+     "axis": "סוריה",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-20T13:13:26+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-20T13:13:26+00:00",
+     "last_update_at": "2026-11-20T13:13:26+00:00",
+     "what_is_not_verified": "האם יוגשו ערעורים רשמיים והאם ניתן יהיה לאכוף את פסקי הדין כלפי נאשמים שנמלטו.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/what-follows-syrias-death-sentences-assad-era-officials",
+       "published_at": "2026-11-20T13:13:26+00:00"
       }
      ],
      "places": [
@@ -1587,35 +1571,12 @@ window.DB.war_published = {
        "lon": 36.3096
       }
      ]
-    },
-    {
-     "id": "NORTH-11200813-09",
-     "title": "טורקיה מביעה תמיכה באיחוד סוריה ובשילוב ה-YPG",
-     "summary": "שר החוץ הטורקי הקאן פידאן הצהיר כי אנקרה תומכת במאמצי הממשלה הסורית להרחבת הריבונות והשלמת שילובו של ארגון ה-YPG.",
-     "axis": "טורקיה - סוריה",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-19T09:52:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-19T09:52:00+00:00",
-     "last_update_at": "2026-11-19T09:52:00+00:00",
-     "what_is_not_verified": "פרטי מתווה השילוב של הלוחמים הכורדים במוסדות סוריה",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_dailysabah",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.dailysabah.com/politics/ankara-backs-stable-unified-syria-ypg-integration-fm-fidan/news",
-       "published_at": "2026-11-19T09:52:00+00:00"
-      }
-     ],
-     "places": []
     }
    ],
    "not_verified": [
-    "נכונות הדיווח ממקורות סוריים אודות כניסת תשעה כלי רכב צבאיים של צה\"ל לאל-רפיד בקוניטרה",
-    "האם האתר שהותקף בג'נתא הכיל אמל\"ח פעיל בזמן התקיפה מעבר לתשתיות כניסה",
-    "מידת ההתקדמות המעשית בשילוב כוחות YPG בתוך המנגנונים הסוריים בהתאם להצהרת טורקיה"
+    "נכונות הדיווח הלבנוני בדבר בקשת פטור ממלחמה שהעביר חיזבאללה לאיראן",
+    "טענות על הצתות מכוונות שביצעו כוחות צה\"ל במתחמים אזרחיים בדרום לבנון",
+    "יכולתה של המערכת המשפטית בסוריה להביא להסגרת מורשעים שנעדרים מהמדינה"
    ],
    "map": {
     "confidence": "medium",
@@ -1626,152 +1587,149 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.2887,
+     "value": 3.3428,
      "unit": "ILS",
-     "change_pct": 0.76,
+     "change_pct": 1.65,
      "source_id": "src_ecb",
-     "as_of": "2026-11-19T15:00:00+00:00"
+     "as_of": "2026-11-20T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "ישראל",
      "declared": [
-      "מניעת שיקום יכולות חיזבאללה והסרת איומים על אזרחי ישראל וכוחותיה",
-      "סיכול העברות ומשלוחי אמצעי לחימה מסוריה ללבנון"
+      "פגיעה בתשתיות ובמטרות צבאיות בדרום לבנון"
      ],
      "inferred": [
-      "ביסוס אחיזה ונוכחות בשטחי חיץ ('הקו הצהוב') בלבנון ובסוריה",
-      "פגיעה מונעת ומתמשכת במערכי ייצור והתעצמות ללא תלות בהסדרה מדינית"
+      "הפעלת לחץ צבאי רציף להרחקת איומים מהגבול הצפוני",
+      "הרתעת חיזבאללה מפני פתיחת מערכה כוללת"
      ],
      "forecast": [
-      "המשך תקיפות ממוקדות בבקאע ובגבול סוריה במידה ויזוהו נסיונות שיקום והברחה"
+      "המשך פעילות סיכול ואש ארטילרית ממוקדת בגזרת הגבול"
      ]
     },
     {
      "actor": "חיזבאללה",
      "declared": [],
      "inferred": [
-      "מיקוד בהישרדות, שיקום תשתיות וארגון מחדש במימון חיצוני תוך הימנעות מהסלמה יזומה מיידית",
-      "חידוש ערוצי הברחת אמל\"ח מגבול סוריה לתשתיות הייצור בבקאע"
+      "שאיפה לצמצם שחיקה צבאית ולהימנע מהרחבת העימות הישיר מול ישראל",
+      "בלימת ביקורת ציבורית מבית בקרב האוכלוסייה השיעית"
      ],
      "forecast": [
-      "המשך ניסיונות התבססות מחדש במתקנים ישנים תחת לחץ צבאי ישראלי רציף"
+      "שמירה על פרופיל פעילות מוגבל תוך תלות בהחלטות הנהגת איראן"
      ]
     },
     {
-     "actor": "טורקיה",
+     "actor": "ממשלת לבנון",
      "declared": [
-      "תמיכה בסוריה יציבה ומאוחדת והחלת ריבונות המדינה על כלל השטח",
-      "שילוב ארגון ה-YPG במסגרת המדינה הסורית"
+      "סיום הנוכחות הצבאית הישראלית בשטח לבנון",
+      "החלת ריבונות בלעדית של המדינה על החלטות מלחמה ושלום ועל החזקת נשק"
      ],
      "inferred": [
-      "תקיעת יתד והעמקת ההשפעה הצבאית והמוסדית בלבנון בעקבות השינויים במפה האזורית",
-      "דחיקת שחקנים אזוריים מתחרים ויצירת תלות ביטחונית וכלכלית באנקרה"
+      "ניצול חולשת חיזבאללה כדי לחזק את הלגיטימציה של מוסדות המדינה",
+      "הידוק שיתוף הפעולה המדיני והכלכלי מול ארצות הברית"
      ],
      "forecast": [
-      "המשך קידום מגעים ביטחוניים ופרויקטים אזרחיים בלבנון ובסוריה"
+      "קושי מעשי בפירוק מיידי של ארגונים חמושים ללא הסכמה פנימית רחבה"
      ]
     },
     {
-     "actor": "השלטון החדש בסוריה",
+     "actor": "סוריה",
      "declared": [
-      "מיצוי הדין עם בכירים לשעבר במשטר אסד המואשמים בביצוע פשעים ומעשי טבח",
-      "החזרת עקורים באמצעות שיקום תשתיות, פתיחת צירים ופינוי הריסות"
+      "חידוש נתיבי תעופה בין-לאומיים ושיתופי פעולה אזוריים",
+      "מאבק בהתפרצויות בריאותיות ובלימת נגיף הפוליו"
      ],
      "inferred": [
-      "חיזוק הלגיטימציה השלטונית הפנימית על ידי העמדה לדין של אנשי המשטר הקודם",
-      "ביסוס הריבונות והסמכות המרכזית בתיאום מדיני עם טורקיה"
+      "חתירה להכרה אזורית ובינלאומית מחודשת כדי לתמוך בשיקום המשק",
+      "ביסוס סמכות מוסדות השלטון והמשפט מול שרידי שלטון אסד"
      ],
      "forecast": [
-      "מעצרים ומשפטים נוספים של אנשי ביטחון לשעבר לצד פעולות שיקום הדרגתיות בערים"
+      "המשך פתיחת קווי תעופה ומגעים דיפלומטיים נוספים באזור"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/152942/",
-     "accessed_at": "2026-11-20T08:13:44+00:00"
+     "url": "https://english.almanar.com.lb/article/153182/",
+     "accessed_at": "2026-11-21T03:40:37+00:00"
     },
     {
      "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/middle-east/syria-arrests-former-regime-officer-accused-of-orchestrating-2014-massacre-near-damascus/4131609",
-     "accessed_at": "2026-11-20T08:13:44+00:00"
+     "url": "https://www.aa.com.tr/en/middle-east/israeli-attacks-hit-4-districts-in-southern-lebanon-cause-fires-damage/4132366",
+     "accessed_at": "2026-11-21T03:40:37+00:00"
     },
     {
      "source_id": "src_dailysabah",
-     "url": "https://www.dailysabah.com/politics/ankara-backs-stable-unified-syria-ypg-integration-fm-fidan/news",
-     "accessed_at": "2026-11-20T08:13:44+00:00"
+     "url": "https://www.dailysabah.com/politics/diplomacy/aleppo-workshop-explores-civil-diplomacy-syrias-reconstruction",
+     "accessed_at": "2026-11-21T03:40:37+00:00"
+    },
+    {
+     "source_id": "src_enabbaladi",
+     "url": "https://english.enabbaladi.net/archives/2026/11/deir-ezzor-polio-campaign-to-target-371000-children/",
+     "accessed_at": "2026-11-21T03:40:37+00:00"
+    },
+    {
+     "source_id": "src_israelhayom",
+     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21897878",
+     "accessed_at": "2026-11-21T03:40:37+00:00"
     },
     {
      "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/lebanon-news/968780/lebanese-army-on-independence-day-restoring-sovereignty-and-placing-we/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968780",
-     "accessed_at": "2026-11-20T08:13:44+00:00"
+     "url": "https://www.lbcgroup.tv/news/lebanon-news/968915/trump-sees-opportunity-for-peace-with-neighbors-as-lebanon-marks-indep/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968915",
+     "accessed_at": "2026-11-21T03:40:37+00:00"
     },
     {
      "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/syrian-authorities-arrest-ex-general-over-2014-massacre",
-     "accessed_at": "2026-11-20T08:13:44+00:00"
+     "url": "https://www.newarab.com/news/what-follows-syrias-death-sentences-assad-era-officials",
+     "accessed_at": "2026-11-21T03:40:37+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/133919",
-     "accessed_at": "2026-11-20T08:13:44+00:00"
-    },
-    {
-     "source_id": "src_tg_idf",
-     "url": "https://t.me/idf_telegram/25660",
-     "accessed_at": "2026-11-20T08:13:44+00:00"
+     "url": "https://t.me/abualiexpress/133938",
+     "accessed_at": "2026-11-21T03:40:37+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-19T19:19:38+00:00",
+  "previous_generated_at": "2026-11-20T08:13:44+00:00",
   "changes": {
-   "NORTH-11200813-01": {
-    "kind": "new"
-   },
-   "NORTH-11200813-02": {
-    "kind": "new"
-   },
-   "NORTH-11200813-03": {
+   "NORTH-11210340-01": {
     "kind": "same",
-    "from": "verified",
-    "to": "verified",
-    "prev": "תקיפת צה\"ל נגד אתר לייצור ואחסון אמצעי לחימה של חזבאללה בג'נתא",
+    "from": "initial",
+    "to": "shared_root",
+    "prev": "תקיפות אוויריות של צה\"ל בכפר תבנית בדרום לבנון",
     "score": 1.0
    },
-   "NORTH-11200813-04": {
+   "NORTH-11210340-02": {
+    "kind": "new"
+   },
+   "NORTH-11210340-03": {
+    "kind": "new"
+   },
+   "NORTH-11210340-04": {
+    "kind": "same",
+    "from": "initial",
+    "to": "initial",
+    "prev": "הצהרת צבא לבנון ליום העצמאות על ריבונות ונשק המדינה",
+    "score": 0.65
+   },
+   "NORTH-11210340-05": {
+    "kind": "new"
+   },
+   "NORTH-11210340-06": {
+    "kind": "possible",
+    "prev": "טורקיה מביעה תמיכה באיחוד סוריה ובשילוב ה-YPG",
+    "score": 0.467
+   },
+   "NORTH-11210340-07": {
+    "kind": "new"
+   },
+   "NORTH-11210340-08": {
     "kind": "same",
     "from": "shared_root",
-    "to": "initial",
-    "prev": "תקיפת צה\"ל לסיכול משלוח אמצעי לחימה מסוריה ללבנון",
-    "score": 1.0
-   },
-   "NORTH-11200813-05": {
-    "kind": "new"
-   },
-   "NORTH-11200813-06": {
-    "kind": "same",
-    "from": "initial",
-    "to": "initial",
-    "prev": "הצהרת צבא לבנון על עדיפות פירוז הנשק וביסוס הריבונות",
-    "score": 1.0
-   },
-   "NORTH-11200813-07": {
-    "kind": "new"
-   },
-   "NORTH-11200813-08": {
-    "kind": "possible",
-    "prev": "מינויים כלכליים חדשים של נשיא סוריה",
-    "score": 0.633
-   },
-   "NORTH-11200813-09": {
-    "kind": "same",
-    "from": "initial",
-    "to": "initial",
-    "prev": "הצהרת שר החוץ הטורקי על תמיכה באחדות סוריה ושילוב כוחות כורדיים",
+    "to": "assessment",
+    "prev": "מעצר גנרל לשעבר ממשטר אסד בסוריה",
     "score": 1.0
    }
   }

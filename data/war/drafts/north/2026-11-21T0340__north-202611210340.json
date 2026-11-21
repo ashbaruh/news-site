@@ -1,0 +1,415 @@
+{
+ "status": "draft",
+ "received_sha256_12": "6d95160563ba",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 2,
+   "assessment": 2,
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-21T03:40:37+00:00",
+  "window": {
+   "from": "2026-11-20T03:40:37+00:00",
+   "to": "2026-11-21T03:40:37+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202611210340"
+  },
+  "summary": "בדרום לבנון נרשמת פעילות צבאית התקפית מצד צה\"ל הכוללת גיחות אוויר, ירי ארטילרי ופעולות הנדסיות מול כפרים ומרחבים סמוכים לגבול. במקביל, הממשל בביירות מצהיר על שאיפה לריבונות מלאה ובלעדיות על החזקת הנשק, בעוד דיווחים עיתונאיים מייחסים לחיזבאללה שחיקה מבצעית ורצון להימנע מעימות רחב. בזירה הסורית נמשכים מאמצים לשיקום קשרים אזוריים דרך חידוש קווי תעופה לצד התמודדות עם אתגרים בריאותיים וסוגיות משפטיות פנימיות.",
+  "fronts": [
+   {
+    "name": "דרום לבנון",
+    "status": "חילופי אש ותקיפות ישראליות ממוקדות במספר גזרות"
+   },
+   {
+    "name": "הזירה הפוליטית-צבאית בלבנון",
+    "status": "מאמצי ממשל לבסס ריבונות מול חיזבאללה הנתון בשחיקה"
+   },
+   {
+    "name": "סוריה",
+    "status": "שיקום הדרגתי של קשרים בינלאומיים לצד התמודדות פנימית בריאותית ומשפטית"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11210340-01",
+    "title": "תקיפות אוויריות וארטילריות של צה\"ל בדרום לבנון",
+    "summary": "כוחות צה\"ל ביצעו תקיפות אוויריות, הפגזות ארטילריות ופעולות הריסה במספר מוקדים בדרום לבנון, בהם חדאת'א, כפר תבנית, מיפדון וזוטר א-שרקיה.",
+    "axis": "דרום לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-20T08:02:56+00:00",
+    "last_update_at": "2026-11-20T22:24:59+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק, מטרות התקיפה וקיומן של הצתות מכוונות בידי כוחות צה\"ל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/153292/",
+      "published_at": "2026-11-20T22:24:59+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/153272/",
+      "published_at": "2026-11-20T20:25:51+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-attacks-hit-4-districts-in-southern-lebanon-cause-fires-damage/4132366",
+      "published_at": "2026-11-20T15:00:05+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/153197/",
+      "published_at": "2026-11-20T14:41:43+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/153182/",
+      "published_at": "2026-11-20T14:40:07+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133938",
+      "published_at": "2026-11-20T08:02:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חדאת'א, לבנון",
+      "lat": 33.1561,
+      "lon": 35.3912
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11210340-02",
+    "title": "דיווח על פניית חיזבאללה לאיראן בבקשה לפטור מהשתתפות בלחימה",
+    "summary": "בעיתון הלבנוני נדאא אל-ווטן נטען כי חיזבאללה פנה לטהראן בבקשה להימנע ממעורבות במלחמה בעקבות שחיקה ביכולותיו הצבאיות, קשיים בהשגת אמצעי לחימה וביקורת בקרב העדה השיעית.",
+    "axis": "לבנון - איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T16:47:26+00:00",
+    "last_update_at": "2026-11-20T16:47:26+00:00",
+    "what_is_not_verified": "עצם הפנייה של חיזבאללה לטהראן ועמדת ההנהגה האיראנית בנושא.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21897878",
+      "published_at": "2026-11-20T16:47:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11210340-03",
+    "title": "הצהרת ראש ממשלת לבנון על ריבונות מלאה ופירוק נשק חוץ-מדינתי",
+    "summary": "ראש ממשלת לבנון נואף סלאם הדגיש כי העצמאות מחייבת סיום הנוכחות הישראלית בארצו, בלעדיות של המדינה על החלטות מלחמה ושלום, ואיסור על קיום נשק שאינו תחת שליטתה.",
+    "axis": "לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T14:03:32+00:00",
+    "last_update_at": "2026-11-20T14:03:32+00:00",
+    "what_is_not_verified": "יכולת הממשלה הלבנונית לממש בפועל את פירוק הנשק וסמכויות השליטה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/968945/salam-lebanons-independence-remains-incomplete-without-ending-israeli/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968945",
+      "published_at": "2026-11-20T14:03:32+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11210340-04",
+    "title": "ברכת נשיא ארצות הברית לנשיא לבנון לרגל יום העצמאות",
+    "summary": "דונלד טראמפ בירך את נשיא לבנון ג'וזף עון, ציין כי קיימת הזדמנות לחיזוק הריבונות, היציבות והשלום עם השכנות, ושיבח את החלטות הממשלה הלבנונית.",
+    "axis": "לבנון - ארצות הברית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T12:08:10+00:00",
+    "last_update_at": "2026-11-20T12:08:10+00:00",
+    "what_is_not_verified": "צעדים מעשיים שיקודמו בעקבות הברכה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/968915/trump-sees-opportunity-for-peace-with-neighbors-as-lebanon-marks-indep/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968915",
+      "published_at": "2026-11-20T12:08:10+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11210340-05",
+    "title": "הסכם בין סוריה למצרים על חידוש טיסות ישירות",
+    "summary": "רשויות התעופה של סוריה ומצרים סיכמו על חידוש הטיסות הישירות בין קהיר לדמשק ולחלב בתחילת חודש דצמבר, כחלק מחידוש קשרי התעופה הבינלאומיים של סוריה.",
+    "axis": "סוריה - מצרים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T16:23:48+00:00",
+    "last_update_at": "2026-11-20T17:53:13+00:00",
+    "what_is_not_verified": "מועד ההפעלה הסופי של לוחות הטיסות של חברת התעופה הסורית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/syria-and-egypt-resume-direct-flights-december",
+      "published_at": "2026-11-20T17:53:13+00:00"
+     },
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.enabbaladi.net/archives/2026/11/egyptair-to-resume-direct-flights-to-syria-in-december/",
+      "published_at": "2026-11-20T16:23:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     },
+     {
+      "name": "חלב, סוריה",
+      "lat": 36.1992,
+      "lon": 37.1637
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11210340-06",
+    "title": "סדנה בחלב לשיקום סוריה בראיית טורקיה",
+    "summary": "בעיר חלב שבסוריה התקיימה סדנה שעסקה בדיפלומטיה אזרחית ובבחינת שיתופי פעולה לשיקום המדינה תחת החזון המדיני של טורקיה.",
+    "axis": "סוריה - טורקיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T12:19:00+00:00",
+    "last_update_at": "2026-11-20T12:19:00+00:00",
+    "what_is_not_verified": "זהות המשתתפים המדויקת והסכמים מעשיים שגובשו בסדנה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_dailysabah",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.dailysabah.com/politics/diplomacy/aleppo-workshop-explores-civil-diplomacy-syrias-reconstruction",
+      "published_at": "2026-11-20T12:19:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חלב, סוריה",
+      "lat": 36.1992,
+      "lon": 37.1637
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11210340-07",
+    "title": "היערכות למבצע חיסון נגד פוליו בדיר א-זור",
+    "summary": "משרד הבריאות בסוריה נערך לחסן יותר מ-371 אלף ילדים במחוז דיר א-זור בעקבות איתור שלושה מקרי תחלואה מאומתים בנגיף הפוליו.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-20T15:34:02+00:00",
+    "last_update_at": "2026-11-20T15:34:02+00:00",
+    "what_is_not_verified": "המועד המדויק שבו יחל מבצע החיסונים בפועל.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.enabbaladi.net/archives/2026/11/deir-ezzor-polio-campaign-to-target-371000-children/",
+      "published_at": "2026-11-20T15:34:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דיר א-זור, סוריה",
+      "lat": 35.3333,
+      "lon": 40.15
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11210340-08",
+    "title": "בירור משפטי בסוריה בעקבות גזרי דין מוות נגד בכירי משטר אסד לשעבר",
+    "summary": "בסוריה נמשכים הדיונים המשפטיים לגבי אפשרות ערעור והפחתת עונשים ביחס לגזרי דין מוות שהוטלו על בשאר אל-אסד ובכירים לשעבר בגין פשעים נגד האנושות.",
+    "axis": "סוריה",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T13:13:26+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-20T13:13:26+00:00",
+    "last_update_at": "2026-11-20T13:13:26+00:00",
+    "what_is_not_verified": "האם יוגשו ערעורים רשמיים והאם ניתן יהיה לאכוף את פסקי הדין כלפי נאשמים שנמלטו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/what-follows-syrias-death-sentences-assad-era-officials",
+      "published_at": "2026-11-20T13:13:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "נכונות הדיווח הלבנוני בדבר בקשת פטור ממלחמה שהעביר חיזבאללה לאיראן",
+   "טענות על הצתות מכוונות שביצעו כוחות צה\"ל במתחמים אזרחיים בדרום לבנון",
+   "יכולתה של המערכת המשפטית בסוריה להביא להסגרת מורשעים שנעדרים מהמדינה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3428,
+    "unit": "ILS",
+    "change_pct": 1.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "פגיעה בתשתיות ובמטרות צבאיות בדרום לבנון"
+    ],
+    "inferred": [
+     "הפעלת לחץ צבאי רציף להרחקת איומים מהגבול הצפוני",
+     "הרתעת חיזבאללה מפני פתיחת מערכה כוללת"
+    ],
+    "forecast": [
+     "המשך פעילות סיכול ואש ארטילרית ממוקדת בגזרת הגבול"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [],
+    "inferred": [
+     "שאיפה לצמצם שחיקה צבאית ולהימנע מהרחבת העימות הישיר מול ישראל",
+     "בלימת ביקורת ציבורית מבית בקרב האוכלוסייה השיעית"
+    ],
+    "forecast": [
+     "שמירה על פרופיל פעילות מוגבל תוך תלות בהחלטות הנהגת איראן"
+    ]
+   },
+   {
+    "actor": "ממשלת לבנון",
+    "declared": [
+     "סיום הנוכחות הצבאית הישראלית בשטח לבנון",
+     "החלת ריבונות בלעדית של המדינה על החלטות מלחמה ושלום ועל החזקת נשק"
+    ],
+    "inferred": [
+     "ניצול חולשת חיזבאללה כדי לחזק את הלגיטימציה של מוסדות המדינה",
+     "הידוק שיתוף הפעולה המדיני והכלכלי מול ארצות הברית"
+    ],
+    "forecast": [
+     "קושי מעשי בפירוק מיידי של ארגונים חמושים ללא הסכמה פנימית רחבה"
+    ]
+   },
+   {
+    "actor": "סוריה",
+    "declared": [
+     "חידוש נתיבי תעופה בין-לאומיים ושיתופי פעולה אזוריים",
+     "מאבק בהתפרצויות בריאותיות ובלימת נגיף הפוליו"
+    ],
+    "inferred": [
+     "חתירה להכרה אזורית ובינלאומית מחודשת כדי לתמוך בשיקום המשק",
+     "ביסוס סמכות מוסדות השלטון והמשפט מול שרידי שלטון אסד"
+    ],
+    "forecast": [
+     "המשך פתיחת קווי תעופה ומגעים דיפלומטיים נוספים באזור"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/153182/",
+    "accessed_at": "2026-11-21T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-attacks-hit-4-districts-in-southern-lebanon-cause-fires-damage/4132366",
+    "accessed_at": "2026-11-21T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_dailysabah",
+    "url": "https://www.dailysabah.com/politics/diplomacy/aleppo-workshop-explores-civil-diplomacy-syrias-reconstruction",
+    "accessed_at": "2026-11-21T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/11/deir-ezzor-polio-campaign-to-target-371000-children/",
+    "accessed_at": "2026-11-21T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21897878",
+    "accessed_at": "2026-11-21T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/968915/trump-sees-opportunity-for-peace-with-neighbors-as-lebanon-marks-indep/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-968915",
+    "accessed_at": "2026-11-21T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/what-follows-syrias-death-sentences-assad-era-officials",
+    "accessed_at": "2026-11-21T03:40:37+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133938",
+    "accessed_at": "2026-11-21T03:40:37+00:00"
+   }
+  ]
+ }
+}
