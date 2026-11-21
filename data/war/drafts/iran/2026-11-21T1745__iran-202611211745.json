@@ -1,0 +1,260 @@
+{
+ "status": "draft",
+ "received_sha256_12": "aec3ae855d95",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 1,
+   "verified": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-21T17:45:08+00:00",
+  "window": {
+   "from": "2026-11-20T17:45:08+00:00",
+   "to": "2026-11-21T17:45:08+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611211745"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל נמשך סביב סגר ימי מתמשך שמפעילה ארה\"ב והתקפות איראניות על כלי שיט במצר הורמוז, לצד חילופי האיומים והעמדות סביב תוכנית הגרעין והסכמים עתידיים. איראן מאיימת לשבור את המצור האמריקאי בכל אמצעי, בעוד וושינגטון מציבה תנאים נוקשים ודוחה טענות על פגיעה בכלים אמריקאיים באזור.",
+  "fronts": [
+   {
+    "name": "חזית איראן - ארה\"ב וישראל",
+    "status": "פעיל ומתוח"
+   },
+   {
+    "name": "זירת מצר הורמוז והמפרץ",
+    "status": "פעיל עם שיבושי תנועה ותקיפות ימיות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11211745-01",
+    "title": "משלחת מקטאר ביקרה בטהרן",
+    "summary": "משלחת מקטאר קיימה שיחות בטהרן עם בכירים איראניים במסגרת מאמצים דיפלומטיים להביא לסיום העימות.",
+    "axis": "ציר איראן-תווך",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T14:28:58+00:00",
+    "last_update_at": "2026-11-21T17:31:59+00:00",
+    "what_is_not_verified": "פרטי ההסכמות או התוצאות המדויקות של השיחות אינם מאומתים מעבר לקיומן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_2caa646b10f3d0c6",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatari-delegation-visits-tehran-talks-iran-says",
+      "published_at": "2026-11-21T17:31:59+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_2caa646b10f3d0c6",
+      "url": "https://www.maariv.co.il/breaking-news/article-1390720",
+      "published_at": "2026-11-21T14:28:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טהרן, איראן",
+      "lat": 35.6893,
+      "lon": 51.3896
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11211745-02",
+    "title": "הכחשת ארה\"ב לגבי פגיעה במטוס F-16 מעל המפרץ",
+    "summary": "פיקוד המרכז של ארה\"ב הכחיש את הטענה האיראנית כי מערכות הגנה אווירית פגעו במטוס קרב אמריקאי וגרמו לו לנחות נחיתת חירום.",
+    "axis": "ציר איראן-ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T15:22:24+00:00",
+    "last_update_at": "2026-11-21T16:46:27+00:00",
+    "what_is_not_verified": "האמת מאחורי הטענה האיראנית לפגיעה במטוס לעומת ההכחשה האמריקאית המוחלטת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_e6fb12815973f9d8",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-denies-iranian-account-missile-damaged-f-16-over-gulf",
+      "published_at": "2026-11-21T16:46:27+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_e6fb12815973f9d8",
+      "url": "https://www.maariv.co.il/breaking-news/article-1390738",
+      "published_at": "2026-11-21T15:31:12+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_c7f4bfa537dcc4d9",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-denies-iran-hit-f-16-fighter-jet",
+      "published_at": "2026-11-21T15:29:28+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "fh_e6fb12815973f9d8",
+      "url": "https://t.me/lelotsenzura/95090",
+      "published_at": "2026-11-21T15:22:24+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11211745-03",
+    "title": "יירוט לכאורה של מזל\"ט ריגול חוף איראן",
+    "summary": "משמרות המהפכה של איראן הודיעו על יירוט והשמדת מזל\"ט ריגול של האויב מול חופי בושהר במפרץ הפרסי.",
+    "axis": "ציר איראן-ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T15:45:11+00:00",
+    "last_update_at": "2026-11-21T15:45:11+00:00",
+    "what_is_not_verified": "זהות המזל\"ט והוכחות עצמאיות לאירוע היירוט אינן מאומתות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_2bf2d83db3074620",
+      "url": "https://en.irna.ir/news/86328562/Enemy-spy-drone-downed-off-Iran-s-southern-coast-IRGC",
+      "published_at": "2026-11-21T15:45:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בושהר, איראן",
+      "lat": 28.9311,
+      "lon": 50.8458
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11211745-04",
+    "title": "תקריות במצר הורמוז ומכליות נפגעות",
+    "summary": "נרשמו פגיעות במכליות שיט בסמוך לעומאן על רקע שיבושים מתמשכים במצר הורמוז.",
+    "axis": "ציר איראן-המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-21T15:01:18+00:00",
+    "last_update_at": "2026-11-21T15:01:18+00:00",
+    "what_is_not_verified": "האחריות הישירה של גורמים ספציפיים לכל אחת מהתקריות במצר אינה מפורטת במלואה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_538c563d4dacf698",
+      "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
+      "published_at": "2026-11-21T15:01:18+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הטענה האיראנית על פגיעה במטוס F-16 אמריקאי מעל המפרץ",
+   "הטענה האיראנית על יירוט מזל\"ט ריגול מול חופי בושהר",
+   "יציאת מכליות ענק איראניות מאי ח'ארכ לעבר סין פריצת המצור",
+   "פיתוח נשק כימי על ידי איראן כפי שטוענים גורמים מסוימים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3428,
+    "unit": "ILS",
+    "change_pct": 1.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "שבירת המצור הימי האמריקאי בכל אמצעי נדרש",
+     "מתן תגובה מהירה ונחרצת לכל תוקפנות חדשה",
+     "סירוב לייצוא חומרים מועשרים מחוץ למדינה"
+    ],
+    "inferred": [
+     "ניסיון לעקוף את הסנקציות והסגר באמצעות ייצוא אנרגיה",
+     "שימור יכולות הרתעה צבאיות ואמצעי לחימה תת-קרקעיים"
+    ],
+    "forecast": [
+     "המשך החיכוך במצר הורמוז ופגיעה בנתיבי השיט",
+     "התמודדות עם לחץ כלכלי ופנימי גובר"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "השגת עסקה קבוע שתמנע מאיראן נשק גרעיני לטווח ארוך",
+     "המשך אכיפת סגר ימי על איראן"
+    ],
+    "inferred": [
+     "שחיקת היכולות האיראניות ושמירה על חופש השייט באמצעות נוכחות צבאית",
+     "מניעת הסלמה אזורית רחבה מדי במקביל ללחץ כלכלי"
+    ],
+    "forecast": [
+     "המשך האכיפה הימית והפעילות המודיעינית באזור המפרץ",
+     "התניה של כל הקלה בעסקה עתידית בתנאים נוקשים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
+    "accessed_at": "2026-11-21T17:45:08+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/us-denies-iranian-account-missile-damaged-f-16-over-gulf",
+    "accessed_at": "2026-11-21T17:45:08+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86328562/Enemy-spy-drone-downed-off-Iran-s-southern-coast-IRGC",
+    "accessed_at": "2026-11-21T17:45:08+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1390738",
+    "accessed_at": "2026-11-21T17:45:08+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-denies-iran-hit-f-16-fighter-jet",
+    "accessed_at": "2026-11-21T17:45:08+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95090",
+    "accessed_at": "2026-11-21T17:45:08+00:00"
+   }
+  ]
+ }
+}

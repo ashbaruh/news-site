@@ -115,6 +115,10 @@
 "al-alam camp, shabwa, yemen": null,
 "al-alam camp, shabwah, yemen": null,
 "al-aqrood, yemen": null,
+"al-bab, syria": [
+36.3711,
+37.5144
+],
 "al-baghuz, deir ez-zor, syria": [
 34.4646,
 40.9451
@@ -375,6 +379,10 @@
 "ayyash, syria": [
 35.6738,
 36.0252
+],
+"azaz, syria": [
+36.5864,
+37.0464
 ],
 "azov, russia": [
 47.0884,
@@ -811,6 +819,10 @@
 "crimea, ukraine": [
 45.2835,
 34.2008
+],
+"crimean bridge": [
+45.2786,
+36.5393
 ],
 "crimean bridge, crimea": [
 45.2786,
@@ -1299,6 +1311,10 @@
 36.0996
 ],
 "janta, lebanon-syria border": null,
+"jarablus, syria": [
+36.8181,
+38.0098
+],
 "jaramana, syria": [
 33.4864,
 36.3483
@@ -1895,6 +1911,10 @@
 "markaba, lebanon": [
 33.2314,
 35.5177
+],
+"maroun al-ras, lebanon": [
+33.1031,
+35.445
 ],
 "mashhad, iran": [
 36.2975,

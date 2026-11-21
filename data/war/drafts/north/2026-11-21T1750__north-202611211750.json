@@ -1,0 +1,221 @@
+{
+ "status": "draft",
+ "received_sha256_12": "faa17923661a",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-21T17:50:20+00:00",
+  "window": {
+   "from": "2026-11-20T17:50:20+00:00",
+   "to": "2026-11-21T17:50:20+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611211750"
+  },
+  "summary": "הזזרה הצפונית מתאפיינת במתיחות נמשכת סביב נוכחות צבאית ישראלית בדרום לבנון לצד קריאות פוליטיות לבנוניות לאיסוף נשק ולסיום הכיבוש, וכן במעורבות טורקית מנהלית ומוסדית בצפון סוריה. חיזבאללה וממשלת לבנון ממשיכים להציג עמדות מנוגדות לגבי בלעדיות הנשק הממלכתי.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית-ישראלית",
+    "status": "פעילה עם הפרות והפגזות לצד עיסוק פוליטי בריבונות"
+   },
+   {
+    "name": "צפון סוריה",
+    "status": "שליטה מנהלית והתאמות מוסדיות בזיקה לטורקיה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11211750-01",
+    "title": "העברת סמכויות והחלטה על סגירת מוסדות אוניברסיטאיים צפון סוריה",
+    "summary": "הנשיאות הטורקית הורה על סגירת מוסדות המזוהים עם אוניברסיטאות טורקיות בצפון סוריה ואישר מזכר הבנות בין מועצת ההשכלה הגבוהה בטורקיה לבין משרד ההשכלה הגבוהה הסורי.",
+    "axis": "ציר טורקיה-סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T16:04:16+00:00",
+    "last_update_at": "2026-11-21T16:04:16+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_b18efdc4a71e2e42",
+      "url": "https://english.enabbaladi.net/archives/2026/11/turkey-approves-transfer-of-university-branches-in-syria/",
+      "published_at": "2026-11-21T16:04:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'רבלוס, סוריה",
+      "lat": 36.8181,
+      "lon": 38.0098
+     },
+     {
+      "name": "אל-באב, סוריה",
+      "lat": 36.3711,
+      "lon": 37.5144
+     },
+     {
+      "name": "עזאז, סוריה",
+      "lat": 36.5864,
+      "lon": 37.0464
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11211750-02",
+    "title": "הצבת לוחות זיכרון צבאיים בידי אנשי מילואים ישראלים בדרום לבנון",
+    "summary": "חיילי מילואים מחטיבת עודד הציבו לוחות זיכרון והנצחה לחללים צבאיים בתוך שטח דרום לבנון טרם סיום הפריסה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T15:17:00+00:00",
+    "last_update_at": "2026-11-21T15:17:00+00:00",
+    "what_is_not_verified": "האם היוזמה אושרה רשמית בידי הצבא או נעשתה באופן עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/israeli-reservists-erect-military-memorials-inside-south-lebanon",
+      "published_at": "2026-11-21T15:17:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מרון אל-ראס, לבנון",
+      "lat": 33.1031,
+      "lon": 35.445
+     },
+     {
+      "name": "בינת ג'ביל, לבנון",
+      "lat": 33.1195,
+      "lon": 35.4328
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11211750-03",
+    "title": "תקיפות והפגזות מחודשות של צבא ישראל בדרום לבנון",
+    "summary": "כוחות צבא ישראל ביצעו הפגזות וירי באזורים מיושבים בדרום לבנון חרף הסכם המסגרת.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-21T10:50:12+00:00",
+    "last_update_at": "2026-11-21T10:50:12+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-launches-renewed-attacks-on-southern-lebanese-towns/4132847",
+      "published_at": "2026-11-21T10:50:12+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "האם הצבת לוחות הזיכרון בידי אנשי המילואים הישראלים אושרה רשמית או בוצעה באופן עצמאי",
+   "פרטים מלאים על היקף התקיפות המדויק בדרום לבנון"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3428,
+    "unit": "ILS",
+    "change_pct": 1.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "שמירת ביטחון התושבים בצפון"
+    ],
+    "inferred": [
+     "שמירת אזורי חיץ ונוכחות צבאית מוגבלת בדרום לבנון"
+    ],
+    "forecast": [
+     "המשך חיכוך נמוך-עצימות בדרום לבנון"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "הגנה על ריבונות לבנון והתנגדות לכיבוש הישראלי"
+    ],
+    "inferred": [
+     "שימור עצמאות צבאית ומדינית מחוץ למרות המדינה הלבנונית"
+    ],
+    "forecast": [
+     "המשך ביקורת חריפה על מוסדות המדינה והמשך התנגדות מזוינת"
+    ]
+   },
+   {
+    "actor": "ממשלת לבנון",
+    "declared": [
+     "החלת ריבונות מלאה והשגת נסיגה ישראלית",
+     "הבלעדיות של נשק המדינה בלבד"
+    ],
+    "inferred": [
+     "ניסיון לאזן בין לחצים פנימיים וחיצוניים לבין שיקום מוסדות המדינה"
+    ],
+    "forecast": [
+     "המשך דיונים בינלאומיים ליישום רפורמות ודרישה לסיום הנוכחות הזרה"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "הסדרת מעמד מוסדות החינוך בצפון סוריה ושילובם במערכות"
+    ],
+    "inferred": [
+     "העמקת ההשפעה האזרחית והתרבותית באזורים שבשליטתה בצפון סוריה"
+    ],
+    "forecast": [
+     "המשך ביסוס מנגנוני השליטה האזרחיים בצפון סוריה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/israeli-army-launches-renewed-attacks-on-southern-lebanese-towns/4132847",
+    "accessed_at": "2026-11-21T17:50:20+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/11/turkey-approves-transfer-of-university-branches-in-syria/",
+    "accessed_at": "2026-11-21T17:50:20+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/israeli-reservists-erect-military-memorials-inside-south-lebanon",
+    "accessed_at": "2026-11-21T17:50:20+00:00"
+   }
+  ]
+ }
+}
