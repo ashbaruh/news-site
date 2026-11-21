@@ -1,0 +1,411 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9555fa2bcceb",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 3,
+   "initial": 4,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-21T00:40:58+00:00",
+  "window": {
+   "from": "2026-11-20T00:40:58+00:00",
+   "to": "2026-11-21T00:40:58+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611210040"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל מתאפיין בהמשך הלחימה והמצור הימי סביב מצר הורמוז, לצד היערכות אפשרית לחידוש תקיפות צבאיות אוויריות. במקביל נשמרים מגעים דיפלומטיים עקיפים להפסקת הלחימה, כאשר טהראן מציבה דרישות לסיום הסגר ומניעת הוצאת האורניום, בעוד וושינגטון מחריפה את הלחץ הכלכלי באמצעות סנקציות. שלוחותיה של איראן, בדגש על החות'ים בתימן, ממשיכות לתקוף מטרות אסטרטגיות במפרץ, ובפרט בשטח סעודיה.",
+  "fronts": [
+   {
+    "name": "המפרץ הפרסי ומצר הורמוז",
+    "status": "סגור לשיט, מתקפות על מכליות ואכיפת מצור ימי"
+   },
+   {
+    "name": "הזירה האווירית והגרעינית מול איראן",
+    "status": "דריכות צבאית, דיונים על חידוש תקיפות וחשש מפיתוח נשק בלתי קונבנציונלי"
+   },
+   {
+    "name": "החזית הסעודית מול החות'ים",
+    "status": "מתקפות טילים וכטב\"מים מתמשכות ויירוטים מעל ריאד"
+   },
+   {
+    "name": "החזית הכלכלית",
+    "status": "מבצע בידוד כלכלי, סנקציות על רשתות הברחת נפט וסגירת גבולות יבשתיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11210040-01",
+    "title": "סנקציות אמריקאיות על רשת נאמני נפט של איראן",
+    "summary": "משרד האוצר של ארצות הברית הטיל עיצומים על ארבעה איראנים, בהם איש מודיעין לשעבר במשמרות המהפכה, בטענה שסייעו לעקוף סנקציות ומצור ימי באמצעות גביית כספי מכירת נפט עבור המשטר.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T21:39:12+00:00",
+    "last_update_at": "2026-11-21T00:10:21+00:00",
+    "what_is_not_verified": "מידת הרווח האישי של הנאמנים מהכספים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611208412",
+      "published_at": "2026-11-21T00:10:21+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-sanctions-iranian-oil-trustees-it-accuses-evading-sanctions",
+      "published_at": "2026-11-20T21:39:12+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11210040-02",
+    "title": "עמדות סותרות בין טראמפ לוואנס בנוגע למלחמה והתקיפות באיראן",
+    "summary": "במסיבת עיתונאים בבית הלבן נמנע סגן הנשיא ג'יי די ואנס מלאשר כי היה מורה על תקיפות נגד מתקני הגרעין באיראן כפי שטראמפ דרש, בעוד טראמפ הדגיש כי לא יאפשר לאיראן להשיג נשק גרעיני וטען שתנאי טהראן להסכם אינם מקובלים עליו.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T18:48:55+00:00",
+    "last_update_at": "2026-11-20T22:22:40+00:00",
+    "what_is_not_verified": "האם התקיים עימות אישי מאחורי הקלעים או שזהו תיאום עמדות בלבד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/vance-refuses-endorse-iran-strikes-despite-pressure-trump",
+      "published_at": "2026-11-20T22:22:40+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-vice-president-vance-declines-say-he-would-have-ordered-iran-strikes",
+      "published_at": "2026-11-20T20:46:52+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/133972",
+      "published_at": "2026-11-20T18:48:55+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11210040-03",
+    "title": "הצהרות שר החוץ האיראני על המשך מגעים דיפלומטיים ותנאי מצר הורמוז",
+    "summary": "שר החוץ של איראן, עבאס עראקצ'י, הצהיר כי המגעים מול ארצות הברית דרך מתווכים נמשכים, אך הציב קווים אדומים ובראשם אי-הוצאת אורניום מועשר מהמדינה והשארת מצר הורמוז סגור עד מילוי תנאיה של טהראן.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T22:00:41+00:00",
+    "last_update_at": "2026-11-20T23:46:29+00:00",
+    "what_is_not_verified": "זהות המתווכים המדויקת ומהות שבעת התנאים שהציגה טהראן",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/araqchi-says-iran-wants-diplomacy-end-war-trump-says-terms-unacceptable",
+      "published_at": "2026-11-20T23:46:29+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-wants-trump-state-explicitly-he-wants-deal-araghchi-says",
+      "published_at": "2026-11-20T22:09:33+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1390611",
+      "published_at": "2026-11-20T22:00:41+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11210040-04",
+    "title": "השמדת תחמושת באי קשם באיראן",
+    "summary": "סוכנות הידיעות תסנים דיווחה כי עשן ופיצוץ שנצפו באי קשם נבעו מפעולת השמדה של תחמושת שלא התפוצצה, לאחר שמוקדם יותר דווח על מתקפת טילים באזור.",
+    "axis": "ישראל-ארה\"ב-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T17:46:30+00:00",
+    "last_update_at": "2026-11-20T17:46:30+00:00",
+    "what_is_not_verified": "האם מדובר בתקיפה צבאית או בהשמדת נפל מקומית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/explosion-irans-qeshm-island-linked-disposal-unexploded-munitions-tasnim-reports",
+      "published_at": "2026-11-20T17:46:30+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי קשם, איראן",
+      "lat": 26.7687,
+      "lon": 55.8477
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11210040-05",
+    "title": "דיווחים על שקילת חידוש התקיפות נגד איראן והיערכות ישראלית-אמריקאית",
+    "summary": "בארה\"ב ובישראל נבחנת האפשרות לחדש את המתקפות הצבאיות עקב הערכות כי איראן משקמת את מערך הטילים ומעבירה תשתיות גרעין וצבא למתקנים תת-קרקעיים.",
+    "axis": "ישראל-ארה\"ב-איראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-20T12:53:51+00:00",
+    "last_update_at": "2026-11-20T22:20:39+00:00",
+    "what_is_not_verified": "המועד המדויק או ההחלטה הסופית על פתיחת מתקפה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/h1w7ygrrfl",
+      "published_at": "2026-11-20T22:20:39+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/byhnq6aagl",
+      "published_at": "2026-11-20T12:57:22+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95084",
+      "published_at": "2026-11-20T12:53:51+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11210040-06",
+    "title": "החרפת המשבר הסביבתי והכלכלי במצר הורמוז עקב הלחימה הימית",
+    "summary": "מתקפות על מכליות דלק, מוקשים ימיים והמצור הימי הובילו לדליפות נפט נרחבות במצר הורמוז ולשיבוש מוחלט של תנועת הנפט והמסחר הימי באזור.",
+    "axis": "המפרץ-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-20T12:00:38+00:00",
+    "last_update_at": "2026-11-20T12:00:38+00:00",
+    "what_is_not_verified": "היקף הדליפה המדויק ורמת הפגיעה בכלל המכליות במרחב",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_20d7efb1733fd583",
+      "url": "https://www.theguardian.com/world/video/2026/nov/20/how-the-war-in-iran-turned-the-gulf-into-a-climate-catastrophe-video-explainer",
+      "published_at": "2026-11-20T12:00:38+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11210040-07",
+    "title": "יירוט טילי חות'ים מעל ריאד בידי הקואליציה הסעודית",
+    "summary": "הקואליציה בהובלת סעודיה הודיעה על יירוט שלושה טילים ששוגרו לעבר ריאד, במקביל לאזעקות חירום שהופעלו בעיר.",
+    "axis": "החות'ים-המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T00:00:06+00:00",
+    "last_update_at": "2026-11-21T00:00:06+00:00",
+    "what_is_not_verified": "מידת הנזק או נפילת שברי יירוט בריאד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
+      "published_at": "2026-11-21T00:00:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, ערב הסעודית",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11210040-08",
+    "title": "דיווח על יציאת מכלית נפט איראנית מהאי חארג לסין",
+    "summary": "מכלית ענק של הצי האיראני עמוסה במיליוני חביות נפט יצאה מהאי חארג לעבר סין, למרות המצור והסנקציות הכלכליות שהטילה ארה\"ב.",
+    "axis": "ארה\"ב-איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-20T20:42:33+00:00",
+    "last_update_at": "2026-11-20T20:42:33+00:00",
+    "what_is_not_verified": "אימות רשמי על הגעת המכלית ליעדה או תפיסתה בדרך",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49779",
+      "published_at": "2026-11-20T20:42:33+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי חארג, איראן",
+      "lat": 29.2406,
+      "lon": 50.3117
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הטענה שאיראן מרכיבה פצצה מלוכלכת לצורך פגיעה בארצות הברית הוגדרה כשמועה בלבד",
+   "ההערכות לפיהן תקיפה ישראלית-אמריקאית תתבצע בטווח הזמן המיידי לא אומתו רשמית",
+   "דיווחים על פניית חיזבאללה לקבלת פטור מהלחימה מול ישראל לא אומתו על ידי גורם רשמי",
+   "נסיבות הפיצוץ באי קשם נותרו סותרות בין השמדת תחמושת למתקפת טילים",
+   "הדיווח לפיו מכלית הענק מהאי חארג תצליח להגיע לסין חרף המצור אינו מאומת"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3428,
+    "unit": "ILS",
+    "change_pct": 1.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "מניעת השגת נשק גרעיני על ידי איראן",
+     "חנק כלכלי של משטר טהראן באמצעות מצור ימי וסנקציות",
+     "שליטה מלאה במצר הורמוז"
+    ],
+    "inferred": [
+     "הימנעות מהסתבכות במלחמה קרקעית ממושכת לקראת מערכות בחירות עתידיות",
+     "כפיית תנאי כניעה כלכליים ומדיניים ללא צורך במערכה צבאית כוללת"
+    ],
+    "forecast": [
+     "החרפת האכיפה הכלכלית סביב גבולות איראן לצד הימנעות מהכרעה צבאית מהירה"
+    ]
+   },
+   {
+    "actor": "איראן",
+    "declared": [
+     "הגעה להסכם שיבטיח מניעת מלחמות נוספות",
+     "אי-הוצאת אורניום מועשר מחוץ לשטח המדינה",
+     "השארת מצר הורמוז סגור עד להיענות לשבעת תנאיה"
+    ],
+    "inferred": [
+     "שיקום מהיר של מערכי הטילים והעברת יכולות גרעין לאתרים מבוצרים מתחת לקרקע",
+     "שימוש בשליטה בנתיבי השיט כקלף מיקוח מול הלחץ הכלכלי"
+    ],
+    "forecast": [
+     "המשך מינוף הסגירה של מצר הורמוז במקביל למגעים דיפלומטיים עקיפים מול המתווכים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "שמירה על כוננות ומוכנות להגנה מפני מתקפת פתע איראנית"
+    ],
+    "inferred": [
+     "שאיפה לחידוש התקיפות על מנת לסכל את שיקום מערך הטילים ותוכנית הגרעין האיראנית",
+     "הרחבת יכולות היירוט מתוך צורך להתמודד עם שחיקת חימושים ומערכה ממושכת"
+    ],
+    "forecast": [
+     "המשך לחץ צבאי ומדיני על הממשל האמריקאי להסכמה על תקיפות מנע"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
+    "accessed_at": "2026-11-21T00:40:58+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/explosion-irans-qeshm-island-linked-disposal-unexploded-munitions-tasnim-reports",
+    "accessed_at": "2026-11-21T00:40:58+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/video/2026/nov/20/how-the-war-in-iran-turned-the-gulf-into-a-climate-catastrophe-video-explainer",
+    "accessed_at": "2026-11-21T00:40:58+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611208412",
+    "accessed_at": "2026-11-21T00:40:58+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1390611",
+    "accessed_at": "2026-11-21T00:40:58+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-wants-trump-state-explicitly-he-wants-deal-araghchi-says",
+    "accessed_at": "2026-11-21T00:40:58+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/133972",
+    "accessed_at": "2026-11-21T00:40:58+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49779",
+    "accessed_at": "2026-11-21T00:40:58+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95084",
+    "accessed_at": "2026-11-21T00:40:58+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/byhnq6aagl",
+    "accessed_at": "2026-11-21T00:40:58+00:00"
+   }
+  ]
+ }
+}

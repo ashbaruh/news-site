@@ -1,0 +1,275 @@
+{
+ "status": "draft",
+ "received_sha256_12": "b51c993ee76d",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "verified": 1,
+   "shared_root": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-21T00:42:47+00:00",
+  "window": {
+   "from": "2026-11-20T00:42:47+00:00",
+   "to": "2026-11-21T00:42:47+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611210042"
+  },
+  "summary": "הלחימה בזירת תימן וסעודיה מסלימה באופן ניכר, כאשר הקואליציה בראשות סעודיה פוצחה במבצע מיוחד נגד נמלים ויעדים בתימן (ובהם חודידה), בעוד המיליציה החות'ית מגיבה בשיגור טילים לעבר ריאד ותקיפת תשתיות אנרגיה ונמלים בשטח סעודיה. במקביל, כוחות ממשלת תימן מתכוננים לעימות אפשרי בעדן בעקבות התקדמות החות'ים.",
+  "fronts": [
+   {
+    "name": "חזית תימן-סעודיה",
+    "status": "פעילה והסלימה לאחרונה עם תקיפות אוויריות ושיגורי טילים הדדיים"
+   },
+   {
+    "name": "חזית פנים תימן (עדן וחודידה)",
+    "status": "מתיחות וקרבות מנוהלים סביב נמל חודידה והיערכות בעדן"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11210042-01",
+    "title": "יירוט טילים בליסטיים מעל ריאד",
+    "summary": "הקואליציה בהובלת סעודיה הודיעה שיירטה והשמידה שלושה טילים בליסטיים ששוגרו לעבר הבירה",
+    "axis": "תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:06+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T00:00:06+00:00",
+    "last_update_at": "2026-11-21T00:08:19+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_6d71a9e89d32e07d",
+      "url": "https://www.sabanew.net/viewstory/156156",
+      "published_at": "2026-11-21T00:08:19+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_3ef05b0389e725fd",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/three-houthi-ballistic-missiles-intercepted-over-riyadh-saudi-led",
+      "published_at": "2026-11-21T00:00:08+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_6d71a9e89d32e07d",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
+      "published_at": "2026-11-21T00:00:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11210042-02",
+    "title": "תקיפות מבצע מיוחד של הקואליציה בתימן",
+    "summary": "הקואליציה בהובלת סעודיה פתחה במבצע מיוחד ותקפה את נמל חודידה ויעדים במחוזות סעדה, צנעא ותעז",
+    "axis": "תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T16:57:08+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T16:57:08+00:00",
+    "last_update_at": "2026-11-20T19:30:24+00:00",
+    "what_is_not_verified": "מספר ההרוגים שמדווחים החות'ים אינו מאומת",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/saudi-coalition-launches-special-operation-yemens-houthis-vow-reprisals",
+      "published_at": "2026-11-20T19:30:24+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-retaliate-coalition-strikes-attack-saudi-power-station-and-port",
+      "published_at": "2026-11-20T17:44:37+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-coalition-launches-operation-houthis-vow-reprisals",
+      "published_at": "2026-11-20T17:07:42+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-41-killed-saudi-led-coalition-launches-special-operation",
+      "published_at": "2026-11-20T16:57:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חודידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     },
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11210042-03",
+    "title": "תקיפות תגובה חות'יות על מתקני אנרגיה ונמלים בסעודיה",
+    "summary": "החות'ים תקפו תחנת כוח באל-שוקייק ואת נמל ג'יזאן בתגובה לתקיפות הקואליציה",
+    "axis": "תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T17:44:37+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T17:44:37+00:00",
+    "last_update_at": "2026-11-20T17:44:37+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-retaliate-coalition-strikes-attack-saudi-power-station-and-port",
+      "published_at": "2026-11-20T17:44:37+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'יזאן, סעודיה",
+      "lat": 16.8947,
+      "lon": 42.558
+     },
+     {
+      "name": "אל-שוקייק, סעודיה",
+      "lat": 17.7218,
+      "lon": 42.026
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11210042-04",
+    "title": "פגיעה בגורד שחקים בריאד",
+    "summary": "מתקפה פגעה במגדל ברובע הפיננסי בריאד",
+    "axis": "תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T22:44:02+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-19T22:44:02+00:00",
+    "last_update_at": "2026-11-20T00:42:47+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-escalate-war-missile-hits-riyadhs-tallest-building",
+      "published_at": "2026-11-19T22:44:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "נתוני הנפגעים וההרוגים בתימן עקב תקיפות הקואליציה (41 הרוגים) לאומתו באופן עצמאי.",
+   "הסיבה המדויקת לפיצוץ שנשמע בריאד לפני הודעות היירוט.",
+   "יכולתה של סעודיה לאבטח מתקנים גרעיניים עתידיים לאור התקיפות החות'יות."
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3428,
+    "unit": "ILS",
+    "change_pct": 1.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים בתימן",
+    "declared": [
+     "להגיב על תקיפות הקואליציה בפגיעה בנמלים, תחנות כוח ומתקנים בסעודיה",
+     "לפגוע במרחב האווירי והתשתיות של סעודיה"
+    ],
+    "inferred": [
+     "לשבש את הכלכלה הסעודית ואת היציבות הביטחונית בממלכה",
+     "להפעיל לחץ נגד הסכמים אסטרטגיים של סעודיה"
+    ],
+    "forecast": [
+     "המשך שיגור טילים וכטב\"מים לעבר יעדים בתוך סעודיה",
+     "החרפת האיומים על נמלי הים האדום"
+    ]
+   },
+   {
+    "actor": "הקואליציה בהובלת סעודיה",
+    "declared": [
+     "להשמיד יכולות צבאיות ואמצעי לחימה של החות'ים בנמל חודידה ובמחוזות נוספים",
+     "ליירט ולסכל איומים אוויריים המכוונים לעבר שטח סעודיה"
+    ],
+    "inferred": [
+     "לבלום את ההתעצמות וההתקפות החות'יות נהדף לפגוע בנתיבי הברחת האמצעים",
+     "להגן על תשתיות הליבה והכלכלה של סעודיה"
+    ],
+    "forecast": [
+     "המשך מבצעים צבאיים נגד תשתיות חות'יות בתימן",
+     "הדגשת האבטחה סביב מתקנים אסטרטגיים בממלכה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
+    "accessed_at": "2026-11-21T00:42:47+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/saudi-coalition-launches-special-operation-yemens-houthis-vow-reprisals",
+    "accessed_at": "2026-11-21T00:42:47+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-retaliate-coalition-strikes-attack-saudi-power-station-and-port",
+    "accessed_at": "2026-11-21T00:42:47+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/houthis-escalate-war-missile-hits-riyadhs-tallest-building",
+    "accessed_at": "2026-11-21T00:42:47+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/156156",
+    "accessed_at": "2026-11-21T00:42:47+00:00"
+   }
+  ]
+ }
+}

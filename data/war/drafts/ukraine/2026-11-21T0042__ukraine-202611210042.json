@@ -1,0 +1,361 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a6613b0cf9db",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "verified": 5,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-21T00:42:05+00:00",
+  "window": {
+   "from": "2026-11-20T00:42:05+00:00",
+   "to": "2026-11-21T00:42:05+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611210042"
+  },
+  "summary": "המלחמה בין רוסיה לאוקראינה נמשכת בעצימות גבוהה, הכוללת מתקפות אוויריות רחבות היקף של צבא רוסיה הכוללות פגיעה בתשתיות אזרחיות וגשרים בקייב ובערים נוספות, לצד לחימה עצימה בקווי החזית המזרחיים כדוגמת פוקרובסק. במקביל, מתנהלים מגעים דיפלומטיים והצהרות בינלאומיות בעקבות פגישות בין מנהיגי מעצמות, תוך כדי אירועים חריגים כמו נפילת חימוש בשטח פולין וצעדים דיפלומטיים נגד נציגים רוסים באירופה.",
+  "fronts": [
+   {
+    "name": "חזית פוקרובסק",
+    "status": "פעילה מאוד והחמה ביותר בקו החזית"
+   },
+   {
+    "name": "החזית האווירית והתשתיות",
+    "status": "פעילה עם מתקפות טילים וכטב\"מים מסיביות של רוסיה על ערי אוקראינה"
+   },
+   {
+    "name": "הגבול עם פולין ונאט\"ו",
+    "status": "מתוחה בעקבות זליגת אמצעי לחימה למרחב האווירי של פולין"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11210042-01",
+    "title": "תקיפה טילים בלסטיים על קריבי ריה",
+    "summary": "כוחות רוסיים תקפו את מרכז העיר קריבי ריה באמצעות טילי סקוד או טילים בלסטיים, פגעו באזור מסעדה ומבנים מגורים, וגרמו להרג של ילד ופרמדיקית ולפציעת עשרות בני אדם.",
+    "axis": "תקיפות אוויריות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T21:28:48+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T21:28:48+00:00",
+    "last_update_at": "2026-11-20T23:30:00+00:00",
+    "what_is_not_verified": "מספר הפצועים המדויק והנזק המלא במוסדות שונים טרם סוכמו סופית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_ef0dee925d24873f",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/21/8063886/",
+      "published_at": "2026-11-20T23:30:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_1a048689807c1b84",
+      "url": "https://kyivindependent.com/russian-ballistic-missile-strikes-on-kryvyi-rih-kill-7-year-old-paramedic-injure-42-others-in-double-tap-attack/",
+      "published_at": "2026-11-20T21:28:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קריבי ריה, אוקראינה",
+      "lat": 47.9103,
+      "lon": 33.3918
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11210042-02",
+    "title": "תקיפה אווירית נרחבת על קייב וערים נוספות באוקראינה",
+    "summary": "רוסיה ביצעה מתקפה אווירית מסיבית שכללה פגיעה בתלאתה גשרים בקייב, פגיעה בתשתיות נוספות ואזורים שונים, וגרמה לנפגעים בקרב אזרחים.",
+    "axis": "תקיפות אוויריות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T15:14:01+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T15:14:01+00:00",
+    "last_update_at": "2026-11-20T22:35:07+00:00",
+    "what_is_not_verified": "היקף הנזק המלא לכל הגשרים בקייב ופרטים מדויקים על כל אתרי הנפילה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "fh_51b1635a8a845f1b",
+      "url": "https://meduza.io/en/feature/2026/11/21/russia-launches-massive-attack-on-ukraine-a-day-after-putin-s-meeting-with-trump-and-xi",
+      "published_at": "2026-11-20T22:35:07+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_ae88be4e0f5a8589",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-3-kyiv-bridges-in-massive-aerial-assault-on-ukraine-at-least-9-dead/",
+      "published_at": "2026-11-20T19:01:21+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_1a2e16fe572115b4",
+      "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T15:14:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     },
+     {
+      "name": "לבוב, אוקראינה",
+      "lat": 49.842,
+      "lon": 24.0316
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11210042-03",
+    "title": "נפילת עצמים ואמצעי לחימה בשטח פולין",
+    "summary": "טילי שיוט וכטב\"מ משוריינים נפלו בשטח פולין במהלך מתקפה של רוסיה על אוקראינה, אירוע שהוגדר על ידי פולין כפרובוקציה.",
+    "axis": "הגנה אווירית ותקריות גבול",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T15:21:53+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T15:21:53+00:00",
+    "last_update_at": "2026-11-20T16:54:29+00:00",
+    "what_is_not_verified": "נסיבות ההגעה המדויקות של הטילים לשטח פולין והאם מדובר בסטייה או בכוונה מכוונת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "fh_c8e3382b3dcfce05",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-20T16:54:29+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_e1531b8b6c9e641f",
+      "url": "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine",
+      "published_at": "2026-11-20T16:16:01+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_0eb6900bb90a37ee",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21897594",
+      "published_at": "2026-11-20T15:21:53+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11210042-04",
+    "title": "שיגור טילי קליבר מנובורוסיסק",
+    "summary": "נרשמו שיגורים של טילי קליבר מנמל נובורוסיסק הרוסי לעבר שטח אוקראינה.",
+    "axis": "תקיפות אוויריות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T22:01:45+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-20T22:01:45+00:00",
+    "last_update_at": "2026-11-20T22:01:45+00:00",
+    "what_is_not_verified": "יעדי הפגיעה הספציפיים של כל הטילים הללו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49782",
+      "published_at": "2026-11-20T22:01:45+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נובורוסיסק, רוסיה",
+      "lat": 44.724,
+      "lon": 37.7691
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11210042-05",
+    "title": "סיכול מזימת חיסול בדנמרק וגירוש דיפלומט רוסי",
+    "summary": "דנמרק החליטה לגרש את הנספח ההגנתי של רוסיה בקופנהגן לאחר שנחשפה מעורבות רוסית לכאורה בניסיון חיסול של ראפר אמריקאי-אוקראיני.",
+    "axis": "פעולות מודיעין וסנקציות דיפלומטיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T16:30:39+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-20T16:30:39+00:00",
+    "last_update_at": "2026-11-20T18:16:12+00:00",
+    "what_is_not_verified": "הקשר הישיר של הדיפלומט למזימה מעבר לחשדות הרשמיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "fh_88cda4f7e8b257e8",
+      "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+      "published_at": "2026-11-20T18:16:12+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_c78abfa84689650f",
+      "url": "https://www.israelhayom.co.il/news/world-news/article/21897745",
+      "published_at": "2026-11-20T16:30:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קופנהגן, דנמרק",
+      "lat": 55.6867,
+      "lon": 12.5701
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11210042-06",
+    "title": "עימותים בחזית פוקרובסק ובלחימה הכללית",
+    "summary": "במהלך היממה התרחשו 157 עימותים צבאיים בקו החזית, כאשר גזרת פוקרובסק המשיכה להיות הפעילה והחמה ביותר עם תקיפות רבות של הכוחות הרוסיים.",
+    "axis": "חזית פוקרובסק",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T21:35:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-20T21:35:00+00:00",
+    "last_update_at": "2026-11-20T21:35:00+00:00",
+    "what_is_not_verified": "הנתונים המדויקים על אבדות הצדדים בכל גזרה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_0c8b714a4fc8f78f",
+      "url": "https://www.ukrinform.net/rubric-ato/4186998-war-update-157-clashes-on-front-line-pokrovsk-sector-remains-hottest.html",
+      "published_at": "2026-11-20T21:35:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פוקרובסק, אוקראינה",
+      "lat": 48.2771,
+      "lon": 37.1772
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על פרטים מדויקים של שיחות סגורות בפסגה בסין בין טראמפ, פוטין ושי",
+   "ההיקף המלא של נזקי גשרים ותשתיות בקייב",
+   "טענות על שימוש מתוכנן בנשק ביולוגי או כימי שלא אומתו במלואן בשטח"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.099,
+    "unit": "USD",
+    "change_pct": -0.02,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "סיום המלחמה בדרכים דיפלומטיות לפי תנאים מסוימים",
+     "הגנה על האינטרסים של הציוויליזציה הרוסית"
+    ],
+    "inferred": [
+     "שחיקת התשתיות האזרחיות והכלכליות של אוקראינה כדי להביא לקריסתה",
+     "מניעת שילוב אוקראינה בברית נאט\"ו או קבלת ערבויות ביטחוניות מערביות"
+    ],
+    "forecast": [
+     "המשך התקיפות האוויריות על תשתיות אנרגיה ותחבורה באוקראינה",
+     "הפעלה מתמשכת של לחץ צבאי בקווי החזית המזרחיים"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על ריבונות המדינה ושחרור שטחים כבושים",
+     "השגת ערבויות ביטחוניות דומות לסעיף 5 של נאט\"ו"
+    ],
+    "inferred": [
+     "גיוס תמיכה מערבית מתמשכת בציוד צבאי והגנה אווירית",
+     "מניעת לגיטימציה בינלאומית לסיפוח שטחים מצד רוסיה"
+    ],
+    "forecast": [
+     "המשך פעולות הגנה אווירית וניסיונות פגיעה בנתיבי אספקה וגשרים רוסיים",
+     "דחיפה מתמדת לקבלת סיוע צבאי נוסף מבעלות בריתה"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "רצון להביא להפסקת הלחימה ולהסכם בין הצדדים",
+     "אי-כניסה לברית צבאית מחייבת עם אוקראינה בשלב זה טרם הגעה להסכם"
+    ],
+    "inferred": [
+     "שמירה על קשרים דיפלומטיים מורכבים עם מוסקבה לצד תמיכה חלקית באוקראינה",
+     "הימנעות מהסלמה ישירה מול רוסיה"
+    ],
+    "forecast": [
+     "המשך הפעלת לחץ דיפלומטי להשגת הסדר הפסקת אש",
+     "בחינה זהירה של היקף הסיוע הפיננסי והצבאי לאוקראינה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-21T00:42:05+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+    "accessed_at": "2026-11-21T00:42:05+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/article/21897745",
+    "accessed_at": "2026-11-21T00:42:05+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-3-kyiv-bridges-in-massive-aerial-assault-on-ukraine-at-least-9-dead/",
+    "accessed_at": "2026-11-21T00:42:05+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/feature/2026/11/21/russia-launches-massive-attack-on-ukraine-a-day-after-putin-s-meeting-with-trump-and-xi",
+    "accessed_at": "2026-11-21T00:42:05+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/21/8063886/",
+    "accessed_at": "2026-11-21T00:42:05+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49782",
+    "accessed_at": "2026-11-21T00:42:05+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4186998-war-update-157-clashes-on-front-line-pokrovsk-sector-remains-hottest.html",
+    "accessed_at": "2026-11-21T00:42:05+00:00"
+   }
+  ]
+ }
+}
