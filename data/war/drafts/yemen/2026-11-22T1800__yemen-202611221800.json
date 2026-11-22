@@ -1,0 +1,346 @@
+{
+ "status": "draft",
+ "received_sha256_12": "441ad7dd0185",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 2,
+   "initial": 2,
+   "verified": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-22T18:00:28+00:00",
+  "window": {
+   "from": "2026-11-21T18:00:28+00:00",
+   "to": "2026-11-22T18:00:28+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202611221800"
+  },
+  "summary": "העימות בתימן מתרחב כאשר תנועת החות'ים מקדמת תגבורות לעבר גבולות מחוז אביין במטרה להפעיל לחץ על עדן, ובמקביל מתבצרת במצר באב אל-מנדב לאחר נסיגת כוחות יריבים. בחזית החיצונית נמשכים ניסיונות הפגיעה של החות'ים בתשתיות אנרגיה בסעודיה, לצד פעילות יירוט אינטנסיבית של הקואליציה ודיווחים על קבלת סיוע צבאי חיצוני.",
+  "fronts": [
+   {
+    "name": "מצר באב אל-מנדב ודרום החוף המערבי",
+    "status": "התבצרות והעברת אמצעי לחימה חות'יים בעקבות נסיגת הכוחות הדרומיים"
+   },
+   {
+    "name": "חזית אביין–אל-בידא",
+    "status": "הסלמה ותקיפות אוויריות נגד תגבורות חות'יות סביב מעבר עקבת ת'רה"
+   },
+   {
+    "name": "חזית סעודיה והים האדום",
+    "status": "שיגורי טילים בליסטיים וכטב\"מים לעבר מתקני נפט והפעלת מערכות הגנה אווירית"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11221800-01",
+    "title": "טענת החות'ים על תקיפת בית הזיקוק בראביע' ויירוטי טילים וכטב\"מים על ידי הקואליציה בסעודיה",
+    "summary": "החות'ים טענו כי תקפו את בית הזיקוק בראביע' שבחוף הים האדום בסעודיה, בעוד הקואליציה בהובלת סעודיה הודיעה על יירוט והשמדה של טיל בליסטי וכלי טיס בלתי מאויש ששוגרו לעבר מערב ודרום הממלכה.",
+    "axis": "הזירה הסעודית–תימנית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T07:59:32+00:00",
+    "last_update_at": "2026-11-22T17:30:08+00:00",
+    "what_is_not_verified": "אין אימות עצמאי או אישור רשמי סעודי לפגיעה בבית הזיקוק בראביע'",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/156249",
+      "published_at": "2026-11-22T17:30:08+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-attacked-saudi-arabias-rabigh-oil-refinery",
+      "published_at": "2026-11-22T16:54:47+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/22/houthis-report-attack-on-sanaa-as-saudi-arabia-intercepts-drone?traffic_source=rss",
+      "published_at": "2026-11-22T13:16:45+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthi-missiles-target-saudi-arabia-iran-drones-strike-bahrain",
+      "published_at": "2026-11-22T09:33:15+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-677",
+      "published_at": "2026-11-22T07:59:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ראביע', ערב הסעודית",
+      "lat": 22.799,
+      "lon": 39.0336
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11221800-02",
+    "title": "התבצרות כוחות חות'יים במצר באב אל-מנדב ובאזורי החוף",
+    "summary": "כוחות חות'יים החלו לבסס את אחיזתם במצר באב אל-מנדב ובסביבתו לאחר נסיגת הכוחות הדרומיים, תוך חפירת שוחות עמוקות, הקמת סוללות עפר, פריסת צלפים ומערכות מכ\"ם, ותגבור האי מיון.",
+    "axis": "מצר באב אל-מנדב וחוף הים האדום",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-21T18:44:24+00:00",
+    "last_update_at": "2026-11-21T18:44:24+00:00",
+    "what_is_not_verified": "היקף פריסת הציוד הטכנולוגי והמכ\"מים באי מיון ובקו החוף מבוסס על עדי ראייה ומקורות שדה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/houthis-entrenching-positions-around-bab-al-mandeb",
+      "published_at": "2026-11-21T18:44:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "האי מיון, תימן",
+      "lat": 12.6518,
+      "lon": 43.4278
+     },
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11221800-03",
+    "title": "תקיפות אוויריות והרחבת הלחימה באזור אביין ואל-בידא",
+    "summary": "כלי טיס צבאיים ביצעו תקיפות אינטנסיביות נגד עמדות ותגבורות חות'יות במעבר עקבת ת'רה, בהרי אל-כור ובגבעת אל-אירסאל, בעקבות תנועות חות'יות המאיימות לכתר את עדן.",
+    "axis": "חזית אביין–אל-בידא",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-22T13:35:25+00:00",
+    "last_update_at": "2026-11-22T13:35:25+00:00",
+    "what_is_not_verified": "זהות כלי הטיס התוקפים לא נמסרה במפורש בדיווחים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemens-war-fronts-expand-houthis-attempt-encircle-aden",
+      "published_at": "2026-11-22T13:35:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-בידא, תימן",
+      "lat": 13.9881,
+      "lon": 45.5729
+     },
+     {
+      "name": "עדן, תימן",
+      "lat": 12.7896,
+      "lon": 45.0285
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11221800-04",
+    "title": "הודעת צבא תימן על מאות פעולות נגד החות'ים",
+    "summary": "צבא תימן הודיע על ביצוע 639 פעולות צבאיות נגד כוחות החות'ים, שבהן נהרגו ונפצעו 86 לוחמים והושמדו או הושבתו 64 כלי רכב צבאיים.",
+    "axis": "פנים תימן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-22T14:57:50+00:00",
+    "last_update_at": "2026-11-22T14:57:50+00:00",
+    "what_is_not_verified": "נתוני הנפגעים והאבדות לא אומתו על ידי מקורות בלתי תלויים או על ידי החות'ים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_063b2996a29cb10d",
+      "url": "https://www.sabanew.net/viewstory/156243",
+      "published_at": "2026-11-22T14:57:50+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11221800-05",
+    "title": "דיווח על מומחים זרים ומשלוחי אמל\"ח עבור החות'ים",
+    "summary": "בכיר סעודי טען כי טיסה שהחזירה משלחת חות'ית מטהראן הובילה מומחים מקוריאה הצפונית, ממשמרות המהפכה ומחזבאללה, לצד כספים ורכיבי כטב\"מים וטילים שנפרקו בנמל אל-חודיידה, וכן על משלוח נשק רוסי מוסתר.",
+    "axis": "אספקה והתעצמות החות'ים",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T15:46:20+00:00",
+    "last_update_at": "2026-11-22T15:46:20+00:00",
+    "what_is_not_verified": "הטענות על הימצאות מומחים זרים וציוד צבאי במטוס ובמשלוחי חיטה מבוססות על דברי בכיר סעודי ללא תיעוד עצמאי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49824",
+      "published_at": "2026-11-22T15:46:20+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-חודיידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     },
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11221800-06",
+    "title": "פעילות מדינית של הממשלה המוכרת בתימן נגד איומי החות'ים",
+    "summary": "בכירים בממשלת תימן קיימו מגעים עם דיפלומטים מערביים, בהם שגריר גרמניה, ובירכו על גינויים בין-לאומיים של התקפות החות'ים ופגיעתם בביטחון השיט ובאזור.",
+    "axis": "הזירה המדינית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T12:56:29+00:00",
+    "last_update_at": "2026-11-22T17:47:36+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_15246c3d6ca49b2a",
+      "url": "https://www.sabanew.net/viewstory/156250",
+      "published_at": "2026-11-22T17:47:36+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_ed263e3b0a5ddf6b",
+      "url": "https://www.sabanew.net/viewstory/156227",
+      "published_at": "2026-11-22T12:56:29+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "פגיעה בפועל בבית הזיקוק בראביע'",
+   "טענות על נוכחות מומחים צבאיים מקוריאה הצפונית ומחזבאללה בתימן",
+   "הברחת נשק וטכנולוגיה רוסית בתוך מטעני חיטה לנמל אל-חודיידה",
+   "היקף האבדות וההשמדות של ציוד צבאי שעליו הצהיר צבא תימן",
+   "דיווחים על פגיעה בחברת נפט בצנעא"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3428,
+    "unit": "ILS",
+    "change_pct": 1.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "תנועת אנצאר אללה (החות'ים)",
+    "declared": [
+     "תקיפת מתקני אנרגיה בערב הסעודית"
+    ],
+    "inferred": [
+     "שליטה על נתיב השיט הבין-לאומי בבאב אל-מנדב",
+     "כיתור העיר עדן וניתוק דרכי הגישה אליה דרך מחוז אביין",
+     "הרתעת סעודיה מפני מעורבות בלחימה"
+    ],
+    "forecast": [
+     "המשך ניסיונות תקיפה מרחוק של יעדי תשתית סעודיים",
+     "הגברת הלחץ הקרקעי על פאתי מחוז אביין"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן והכוחות הדרומיים",
+    "declared": [
+     "בלימת הסכנה החות'ית לחופש השיט וליציבות האזורית",
+     "פגיעה בכוחות החות'ים ובציודם הצבאי"
+    ],
+    "inferred": [
+     "מניעת נפילת עדן ושימור השליטה במחוזות הדרום",
+     "גיוס תמיכה בין-לאומית ומדינית מול פעילות החות'ים"
+    ],
+    "forecast": [
+     "המשך הסתמכות על תקיפות מהאוויר לבלימת שיירות תגבורת",
+     "חיזוק קווי ההגנה במבואות המזרחיים של עדן"
+    ]
+   },
+   {
+    "actor": "הקואליציה בהובלת ערב הסעודית",
+    "declared": [
+     "יירוט והשמדת איומים אוויריים וטילים המשוגרים לעבר שטח הממלכה"
+    ],
+    "inferred": [
+     "הגנה על מתקני הנפט ונתיבי היצוא שלאורך חוף הים האדום",
+     "מניעת העברות אמצעי לחימה ומומחים זרים לנמלי תימן"
+    ],
+    "forecast": [
+     "שימור רמת כוננות גבוהה של מערכי ההגנה האווירית באזור החוף המערבי"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/22/houthis-report-attack-on-sanaa-as-saudi-arabia-intercepts-drone?traffic_source=rss",
+    "accessed_at": "2026-11-22T18:00:28+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-677",
+    "accessed_at": "2026-11-22T18:00:28+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/yemens-war-fronts-expand-houthis-attempt-encircle-aden",
+    "accessed_at": "2026-11-22T18:00:28+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/156227",
+    "accessed_at": "2026-11-22T18:00:28+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49824",
+    "accessed_at": "2026-11-22T18:00:28+00:00"
+   }
+  ]
+ }
+}
