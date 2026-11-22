@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-22T07:17:26+00:00",
-  "fetched_at": "2026-11-22T07:17:26+00:00"
+  "checked_at": "2026-11-22T07:29:49+00:00",
+  "fetched_at": "2026-11-22T07:29:49+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-22T07:17:36+00:00",
-  "fetched_at": "2026-11-22T07:17:36+00:00"
+  "checked_at": "2026-11-22T07:29:59+00:00",
+  "fetched_at": "2026-11-22T07:29:59+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-22T07:17:36+00:00",
-  "fetched_at": "2026-11-22T07:17:36+00:00"
+  "checked_at": "2026-11-22T07:29:59+00:00",
+  "fetched_at": "2026-11-22T07:29:59+00:00"
  },
- "generated_at": "2026-11-22T07:17:36+00:00",
+ "generated_at": "2026-11-22T07:29:59+00:00",
  "globes": {
   "data": {
    "top": [
@@ -206,8 +206,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-22T07:17:27+00:00",
-  "fetched_at": "2026-11-22T07:17:27+00:00"
+  "checked_at": "2026-11-22T07:29:50+00:00",
+  "fetched_at": "2026-11-22T07:29:50+00:00"
  },
  "ifa": {
   "data": [
@@ -1851,8 +1851,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-22T07:17:27+00:00",
-  "fetched_at": "2026-11-22T07:17:27+00:00"
+  "checked_at": "2026-11-22T07:29:50+00:00",
+  "fetched_at": "2026-11-22T07:29:50+00:00"
  },
  "tv": {
   "data": [
@@ -2425,6 +2425,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-24",
+    "time": "22:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "קומו - א.א.ק. אתונה"
+   },
+   {
+    "date": "2026-11-24",
     "time": "23:00",
     "channel": "ספורט 2",
     "sport": "כדורגל",
@@ -2523,6 +2530,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-25",
+    "time": "20:00",
+    "channel": "ONE",
+    "sport": "כדורסל",
+    "title": "מיאמי רדהוקס - איסטרן קנטקי קולונלס"
+   },
+   {
+    "date": "2026-11-25",
     "time": "21:00",
     "channel": "5 גולד",
     "sport": "כדורסל",
@@ -2552,9 +2566,23 @@ window.DB.generated = {
    {
     "date": "2026-11-25",
     "time": "22:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "אינטר - שטוטגרט"
+   },
+   {
+    "date": "2026-11-25",
+    "time": "22:00",
     "channel": "ספורט 5",
     "sport": "כדורגל",
     "title": "פאריס סן ז'רמן - רומא"
+   },
+   {
+    "date": "2026-11-25",
+    "time": "22:00",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "אתלטיקו מדריד - ויקינג"
    },
    {
     "date": "2026-11-25",
@@ -2978,8 +3006,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-22T07:17:29+00:00",
-  "fetched_at": "2026-11-22T07:17:29+00:00"
+  "checked_at": "2026-11-22T07:29:52+00:00",
+  "fetched_at": "2026-11-22T07:29:52+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3114,8 +3142,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-22T07:17:29+00:00",
-  "fetched_at": "2026-11-22T07:17:29+00:00"
+  "checked_at": "2026-11-22T07:29:52+00:00",
+  "fetched_at": "2026-11-22T07:29:52+00:00"
  },
  "ai": {
   "data": {
@@ -3146,14 +3174,14 @@ window.DB.generated = {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 812,
+     "likes": 813,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 250,
+     "likes": 251,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
@@ -3171,18 +3199,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
     },
     {
-     "title": "Slack Moji",
-     "desc_en": "Describe an emoji. A tiny model paints it in your browser.",
-     "desc_he": "תארו אימוג'י. מודל קטן מצייר אותו בדפדפן שלכם.",
-     "likes": 76,
-     "link": "https://huggingface.co/spaces/cfahlgren1/slack-moji"
-    },
-    {
      "title": "pi-H3",
      "desc_en": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
      "desc_he": "סרטון Minimax H3 ב-2–4 שלבים ללא מפענח VAE",
-     "likes": 88,
+     "likes": 90,
      "link": "https://huggingface.co/spaces/Lakonik/pi-H3"
+    },
+    {
+     "title": "Slack Moji",
+     "desc_en": "Describe an emoji. A tiny model paints it in your browser.",
+     "desc_he": "תארו אימוג'י. מודל קטן מצייר אותו בדפדפן שלכם.",
+     "likes": 77,
+     "link": "https://huggingface.co/spaces/cfahlgren1/slack-moji"
     },
     {
      "title": "LTX 2.3 10Eros Image-to-Video",
@@ -3215,8 +3243,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-22T07:17:35+00:00",
-  "fetched_at": "2026-11-22T07:17:35+00:00"
+  "checked_at": "2026-11-22T07:29:59+00:00",
+  "fetched_at": "2026-11-22T07:29:59+00:00"
  },
  "abroad": {
   "data": {
@@ -3228,6 +3256,24 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני אבדיה"
+     ]
+    },
+    {
+     "title": "שוב נבחר: דיא סבע זכה בפרס שער החודש בטורקיה",
+     "link": "https://www.one.co.il/Article/539517.html?ref=rss",
+     "date": "2026-11-22T07:17:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דיא סבע"
+     ]
+    },
+    {
+     "title": "\"נכח בכל מקום\": בברצלונה מפרגנים לאוריין גורן",
+     "link": "https://www.one.co.il/Article/539516.html?ref=rss",
+     "date": "2026-11-22T07:14:00+00:00",
+     "source": "ONE",
+     "players": [
+      "אוריין גורן"
      ]
     },
     {
@@ -3337,25 +3383,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "\"אקרובטי\": המחמאות והציונים שקיבל דניאל פרץ",
-     "link": "https://sports.walla.co.il/item/3877104",
-     "date": "2026-11-21T16:44:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דניאל פרץ"
-     ]
-    },
-    {
-     "title": "90 דקות והפסד לדיא סבע, ליאם חרמש הורחק באוסטריה",
-     "link": "https://sports.walla.co.il/item/3877092",
-     "date": "2026-11-21T15:55:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "ליאם חרמש",
-      "דיא סבע"
      ]
     }
    ],
@@ -3569,8 +3596,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-22T07:17:32+00:00",
-  "fetched_at": "2026-11-22T07:17:32+00:00"
+  "checked_at": "2026-11-22T07:29:54+00:00",
+  "fetched_at": "2026-11-22T07:29:54+00:00"
  },
  "idf": {
   "data": [
@@ -3602,7 +3629,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-22T07:17:32+00:00",
+  "checked_at": "2026-11-22T07:29:54+00:00",
   "fetched_at": "2026-11-22T06:17:29+00:00"
  },
  "feed_health": {
@@ -3611,43 +3638,43 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-22T06:55:00+00:00",
-    "seen_at": "2026-11-22T07:17:36+00:00",
+    "seen_at": "2026-11-22T07:29:59+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-22T05:43:00+00:00",
-    "seen_at": "2026-11-22T07:17:36+00:00",
+    "seen_at": "2026-11-22T07:29:59+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-22T05:43:00+00:00",
-    "seen_at": "2026-11-22T07:17:36+00:00",
+    "seen_at": "2026-11-22T07:29:59+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-22T08:00:00+00:00",
-    "seen_at": "2026-11-22T07:17:36+00:00",
+    "seen_at": "2026-11-22T07:29:59+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-22T07:39:00+00:00",
-    "seen_at": "2026-11-22T07:17:36+00:00",
+    "seen_at": "2026-11-22T07:29:59+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-22T07:28:00+00:00",
-    "seen_at": "2026-11-22T07:17:36+00:00",
+    "seen_at": "2026-11-22T07:29:59+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-22T06:42:00+00:00",
-    "seen_at": "2026-11-22T07:17:36+00:00",
+    "newest": "2026-11-22T07:17:00+00:00",
+    "seen_at": "2026-11-22T07:29:59+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3659,41 +3686,41 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-18T21:35:43+00:00",
-    "seen_at": "2026-11-22T07:17:36+00:00",
+    "seen_at": "2026-11-22T07:29:59+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-19T18:00:00+00:00",
-    "seen_at": "2026-11-22T07:17:36+00:00",
+    "seen_at": "2026-11-22T07:29:59+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-21T16:29:29+00:00",
-    "seen_at": "2026-11-22T07:17:36+00:00",
+    "seen_at": "2026-11-22T07:29:59+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-22T07:17:36+00:00",
+    "seen_at": "2026-11-22T07:29:59+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-21T13:00:00+00:00",
-    "seen_at": "2026-11-22T07:17:36+00:00",
+    "seen_at": "2026-11-22T07:29:59+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-21T22:01:00+00:00",
-    "seen_at": "2026-11-22T07:17:36+00:00",
+    "seen_at": "2026-11-22T07:29:59+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-22T07:17:36+00:00"
+  "checked_at": "2026-11-22T07:29:59+00:00"
  },
  "health_news": {
   "data": [
@@ -3849,7 +3876,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-22T07:17:33+00:00",
-  "fetched_at": "2026-11-22T07:17:33+00:00"
+  "checked_at": "2026-11-22T07:29:55+00:00",
+  "fetched_at": "2026-11-22T07:29:55+00:00"
  }
 };
