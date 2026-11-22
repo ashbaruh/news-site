@@ -1,0 +1,288 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a808e85b43d0",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-22T07:22:00+00:00",
+  "window": {
+   "from": "2026-11-21T07:22:00+00:00",
+   "to": "2026-11-22T07:22:00+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611220722"
+  },
+  "summary": "הזירה מאופיינת בהסלמה צבאית הכוללת תקיפות של משמרות המהפכה האיראניים נגד בסיסים אמריקאיים בבחריין ופעילות פוגענית נגד נתיבי השיט במצר הורמוז, לצד לחץ כלכלי ומצור אמריקאי שטהרן מגדירה כפעולת מלחמה. איראן ממשיכה באיומים על המרחב האווירי שלה ומשבר האנרגיה הפנימי, בעוד מעצמות אזוריות ובינלאומיות מזהירות מפני התרחבות ההשלכות הכלכליות והאזוריים של העימות.",
+  "fronts": [
+   {
+    "name": "איראן מול ארה\"ב ובחריין",
+    "status": "פעיל והסלמה"
+   },
+   {
+    "name": "מצר הורמוז וסחר ימי",
+    "status": "חסום ותחת תקיפות"
+   },
+   {
+    "name": "לבנון (התערבות איראנית ונסיגה ישראלית)",
+    "status": "מתיחות מדינית ומשפטית"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11220722-01",
+    "title": "תקיפת בסיסים אמריקאיים בבחריין",
+    "summary": "משמרות המהפכה של איראן ביצעו פעולה התקפית ושיגרו טילים בליסטיים וכטב\"מים לעבר בסיסים אמריקאיים בבחריין, ובנוסף דווח על פגיעה במתקן אזרחי ושריפה.",
+    "axis": "איראן מול ארה\"ב ובחריין",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T19:54:14+00:00",
+    "last_update_at": "2026-11-22T06:05:58+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק בבסיסים וההתרחשויות המלאות סביב היירוטים אינם מאומתים באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_39ca6cfb13272e3e",
+      "url": "https://en.irna.ir/news/86328844/IRGC-hits-two-US-patriot-radar-systems-in-Bahrain",
+      "published_at": "2026-11-22T06:05:58+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_39ca6cfb13272e3e",
+      "url": "https://www.al-monitor.com/originals/2026/11/bahrain-says-iran-struck-industrial-site-tankers-hit-hormuz",
+      "published_at": "2026-11-22T03:30:22+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_39ca6cfb13272e3e",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue?traffic_source=rss",
+      "published_at": "2026-11-21T23:59:03+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_39ca6cfb13272e3e",
+      "url": "https://www.maariv.co.il/breaking-news/article-1390856",
+      "published_at": "2026-11-21T21:46:48+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_39ca6cfb13272e3e",
+      "url": "https://www.maariv.co.il/breaking-news/article-1390841",
+      "published_at": "2026-11-21T20:54:15+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_39ca6cfb13272e3e",
+      "url": "https://www.maariv.co.il/breaking-news/article-1390834",
+      "published_at": "2026-11-21T20:31:38+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_39ca6cfb13272e3e",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21902124",
+      "published_at": "2026-11-21T20:27:15+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_39ca6cfb13272e3e",
+      "url": "https://t.me/abualiexpress/134021",
+      "published_at": "2026-11-21T20:19:49+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_39ca6cfb13272e3e",
+      "url": "https://www.maariv.co.il/breaking-news/article-1390824",
+      "published_at": "2026-11-21T19:54:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בסיס חיל האוויר שייח' עיסא, בחריין",
+      "lat": 25.9144,
+      "lon": 50.5926
+     },
+     {
+      "name": "ג'ופייר, בחריין",
+      "lat": 26.2146,
+      "lon": 50.6041
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11220722-02",
+    "title": "טענה איראנית על פגיעה במטוס קרב אמריקאי",
+    "summary": "באיראן טענו כי מערכות ההגנה האווירית פגעו במטוס F-16 אמריקאי ואילצו אותו לבצע נחיתת חירום, בעוד פיקוד המרכז של צבא ארה\"ב הכחיש את הטענה בתוקף.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T15:22:24+00:00",
+    "last_update_at": "2026-11-21T16:46:27+00:00",
+    "what_is_not_verified": "נכונות הטענה על פגיעת טיל איראני במטוס והנזק הנטען.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-denies-iranian-account-missile-damaged-f-16-over-gulf",
+      "published_at": "2026-11-21T16:46:27+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95090",
+      "published_at": "2026-11-21T15:22:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דובאי, איחוד האמירויות הערביות",
+      "lat": 25.0743,
+      "lon": 55.1886
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11220722-03",
+    "title": "פגיעה במכליות נפט במצר הורמוז",
+    "summary": "דווח על שתי מכליות שהותקפו ונפגעו במצר הורמוז, כאשר נתיב השיט נותר חסום ברובו עקב תקיפות כלי שיט.",
+    "axis": "איראן מול חופש השיט הבינלאומי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T16:02:59+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-21T16:02:59+00:00",
+    "last_update_at": "2026-11-22T03:30:22+00:00",
+    "what_is_not_verified": "זהותם המדויקת של הגורמים שביצעו את התקיפות הספציפיות על כל מכלית ומכלית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/bahrain-says-iran-struck-industrial-site-tankers-hit-hormuz",
+      "published_at": "2026-11-22T03:30:22+00:00"
+     },
+     {
+      "source_id": "src_france24",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.france24.com/en/endurance-athlete-swims-in-hormuz-strait",
+      "published_at": "2026-11-21T16:02:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הטענה האיראנית לפיה נפגע מטוס F-16 אמריקאי ונאלץ לנחות נחיתת חירום",
+   "הדיווחים המדויקים על היקף הנזק בשני בסיסי ארה\"ב בבחריין",
+   "התוכניות המדויקות של ארה\"ב בנוגע להרחבת המצור היבשתי והימי על איראן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3428,
+    "unit": "ILS",
+    "change_pct": 1.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "המרחב האווירי של איראן הוא קו אדום וכל הפרשיות ייענו בתגובה נחרצת",
+     "שבירת המצור הכלכלי והימי האמריקאי המוגדר כפעולת מלחמה"
+    ],
+    "inferred": [
+     "יצירת הרתעה מול ארה\"ב באמצעות תקיפת בסיסים במפרץ",
+     "ניצול חוסר ההחלטיות לכאורה בצד האמריקאי כדי לשנות את מאזן הכוחות האזורי"
+    ],
+    "forecast": [
+     "המשך ניסיונות לשבור את המצור הימי על ידי שליחת מכליות נפט",
+     "תגובות נוספות בנכסים אמריקאיים באזור אם הלחץ הכלכלי יימשך"
+    ]
+   },
+   {
+    "actor": "ארה\"ב וישראל",
+    "declared": [
+     "הגנה על כוחות ויעדים אמריקאיים במפרץ מפני תקיפות איראניות",
+     "מניעת התבססות והשפעה שלילית של איראן ושלוחותיה במרחב"
+    ],
+    "inferred": [
+     "העדפת הפעלת לחץ כלכלי ומצור הדוק על טהרן כתחליף למלחמה כוללת חדשה",
+     "שמירה על חופש השיט במצר הורמוז למרות האיומים והפגיעה במכליות"
+    ],
+    "forecast": [
+     "תגובה צבאית אפשרית על מתקפת הטילים והכטב\"מים בבחריין",
+     "הידוק נוסף של הסנקציות והמצור הכלכלי על איראן בשיתוף מדינות המפרץ"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue?traffic_source=rss",
+    "accessed_at": "2026-11-22T07:22:00+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/bahrain-says-iran-struck-industrial-site-tankers-hit-hormuz",
+    "accessed_at": "2026-11-22T07:22:00+00:00"
+   },
+   {
+    "source_id": "src_france24",
+    "url": "https://www.france24.com/en/endurance-athlete-swims-in-hormuz-strait",
+    "accessed_at": "2026-11-22T07:22:00+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86328844/IRGC-hits-two-US-patriot-radar-systems-in-Bahrain",
+    "accessed_at": "2026-11-22T07:22:00+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21902124",
+    "accessed_at": "2026-11-22T07:22:00+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1390824",
+    "accessed_at": "2026-11-22T07:22:00+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134021",
+    "accessed_at": "2026-11-22T07:22:00+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95090",
+    "accessed_at": "2026-11-22T07:22:00+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,431 @@
+{
+ "status": "draft",
+ "received_sha256_12": "d7bad45a604b",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "initial": 5,
+   "verified": 1,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-22T07:31:24+00:00",
+  "window": {
+   "from": "2026-11-21T07:31:24+00:00",
+   "to": "2026-11-22T07:31:24+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611220731"
+  },
+  "summary": "בגזרה הצפונית, לבנון מציינת את יום עצמאותה תוך עימות מדיני פנימי וחיצוני סביב דרישות לפירוק נשק שאינו של המדינה ולסיום הנוכחות הישראלית, במקביל לתחילת העברת מוצבי יוניפי\"ל לצבא לבנון. בסוריה, טורקיה מעורבת בארגון מחדש של מוסדות חינוך בצפון המדינה ומביעה חשש מפני שיתוף פעולה ישראלי אפשרי עם קבוצות דרומיות, בעוד צה\"ל ממשיך בפעילות מבצעית ומקומית.",
+  "fronts": [
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילה חלקית עם חילופי אש ותהליכי מסירת מוצבים"
+   },
+   {
+    "name": "החזית הסורית",
+    "status": "מתיחות מדינית והתערבות טורקית בצפון ובדרום"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11220731-01",
+    "title": "קצין צה\"ל ביקר בני משפחה בקוניטרה",
+    "summary": "אל\"מ דרוזי בצה\"ל הגיע לכפר בדרום סוריה כדי לפגוש את אמו ואחיו אחרי שנים רבות.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T06:45:01+00:00",
+    "last_update_at": "2026-11-22T06:45:01+00:00",
+    "what_is_not_verified": "זהות המקורות המדויקים בסוריה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134027",
+      "published_at": "2026-11-22T06:45:01+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11220731-02",
+    "title": "אזהרת שר החוץ הטורקי מפני פעילות ישראלית בסוריה",
+    "summary": "שר החוץ הטורקי האשים את ישראל במתן תמיכה צבאית לשבט דרוזי בסוריה ובהתרעה מפני עימות אזורי רחב.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T03:56:04+00:00",
+    "last_update_at": "2026-11-22T03:56:04+00:00",
+    "what_is_not_verified": "האם ישראל מתכננת מבצע צבאי בסוריה באמצעות דרוזים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-says-israel-could-use-druze-support-launch-syria-operation",
+      "published_at": "2026-11-22T03:56:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סווידא, סוריה",
+      "lat": 32.7094,
+      "lon": 36.5687
+     },
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11220731-03",
+    "title": "נשיא לבנון דורש נסיגה ישראלית ופירוק נשק מחוץ למדינה",
+    "summary": "נשיא לבנון דרש בנאום יום העצמאות נסיגת כוחות ישראליים והכפפת כל הנשק למרות המדינה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T14:08:49+00:00",
+    "last_update_at": "2026-11-22T02:38:38+00:00",
+    "what_is_not_verified": "לוחות זמנים מדויקים ליישום הדרישות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_dd95a1eb8f5eaea2",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-occupation-iranian-interference-threat-lebanese-sovereignty-aoun",
+      "published_at": "2026-11-22T02:38:38+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_11e059f6a1ed0dc6",
+      "url": "https://www.aljazeera.com/news/2026/11/21/lebanese-president-demands-israel-withdrawal-decries-irans-interference?traffic_source=rss",
+      "published_at": "2026-11-21T23:44:00+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_3aea6b768f90670c",
+      "url": "https://english.almanar.com.lb/article/153612/",
+      "published_at": "2026-11-21T18:56:51+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_dd95a1eb8f5eaea2",
+      "url": "https://t.me/abualiexpress/134012",
+      "published_at": "2026-11-21T18:03:52+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_7ced414e1314ae80",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/969114/in-independence-day-speech-aoun-demands-israeli-withdrawal-end-to-fore/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969114",
+      "published_at": "2026-11-21T14:08:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דבייה, לבנון",
+      "lat": 33.9388,
+      "lon": 35.5912
+     },
+     {
+      "name": "נאהר אל-כאלב, לבנון",
+      "lat": 33.9555,
+      "lon": 35.5968
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11220731-04",
+    "title": "תקיפות צה\"ל בדרום לבנון",
+    "summary": "כוחות צה\"ל ביצעו תקיפות ואש לעבר עיירות בדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-21T10:50:12+00:00",
+    "last_update_at": "2026-11-21T18:50:05+00:00",
+    "what_is_not_verified": "היקף הנזק המלא בכל מוקד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_9f3fae1ecc544e0a",
+      "url": "https://english.almanar.com.lb/article/153602/",
+      "published_at": "2026-11-21T18:50:05+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_9f3fae1ecc544e0a",
+      "url": "https://www.aa.com.tr/en/middle-east/israeli-army-launches-renewed-attacks-on-southern-lebanese-towns/4132847",
+      "published_at": "2026-11-21T10:50:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בראשית, לבנון",
+      "lat": 33.1785,
+      "lon": 35.4372
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11220731-05",
+    "title": "הקמת אנדרטאות זיכרון צבאיות בידי חיילי מילואים בדרום לבנון",
+    "summary": "חיילי מילואים ישראלים הקימו לוחות זיכרון לחיילים שנפלו במוקדי קרב שונים בדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T15:17:00+00:00",
+    "last_update_at": "2026-11-21T15:17:00+00:00",
+    "what_is_not_verified": "האם הפעולה אושרה רשמית בידי פיקוד הצבא",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/israeli-reservists-erect-military-memorials-inside-south-lebanon",
+      "published_at": "2026-11-21T15:17:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מארון א-ראס, לבנון",
+      "lat": 33.1031,
+      "lon": 35.445
+     },
+     {
+      "name": "בינת ג'ביל, לבנון",
+      "lat": 33.1195,
+      "lon": 35.4328
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11220731-06",
+    "title": "העברת סמכויות והחלטות טורקיות בנוגע למוסדות לימוד בצפון סוריה",
+    "summary": "השלטונות בטורקיה החליטו על סגירת מוסדות להשכלה גבוהה בצפון סוריה שפעלו בחסות אוניברסיטאות טורקיות והעברתם למערכת המקומית.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T16:04:16+00:00",
+    "last_update_at": "2026-11-21T16:04:16+00:00",
+    "what_is_not_verified": "ההשלכות המלאות על כלל הסטודנטים באזור",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_b18efdc4a71e2e42",
+      "url": "https://english.enabbaladi.net/archives/2026/11/turkey-approves-transfer-of-university-branches-in-syria/",
+      "published_at": "2026-11-21T16:04:16+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'רבלוס, סוריה",
+      "lat": 36.8181,
+      "lon": 38.0098
+     },
+     {
+      "name": "עפרין, סוריה",
+      "lat": 36.5084,
+      "lon": 36.8701
+     },
+     {
+      "name": "אל-בב, סוריה",
+      "lat": 36.3711,
+      "lon": 37.5144
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11220731-07",
+    "title": "יוניפי\"ל החל בהעברת מוצבים לצבא לבנון",
+    "summary": "כוח יוניפי\"ל החל בתהליך מסירת מוצבים בדרום לבנון לידי צבא לבנון לקראת סיום המנדט.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-21T15:03:00+00:00",
+    "last_update_at": "2026-11-21T15:48:20+00:00",
+    "what_is_not_verified": "המנגנון המדויק שימלא את הוואקום הביטחוני באופן סופי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "fh_e36915cec14e6692",
+      "url": "https://www.aa.com.tr/en/middle-east/unifil-begins-handing-over-positions-in-southern-lebanon-to-lebanese-army/4133076",
+      "published_at": "2026-11-21T15:48:20+00:00"
+     },
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_e36915cec14e6692",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/969113/unifils-exit-looms-who-will-fill-the-security-vacuum-in-southern-leban/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969113",
+      "published_at": "2026-11-21T15:03:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 39.371,
+      "lon": -84.2128
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11220731-08",
+    "title": "עמדת חיזבאללה ביום העצמאות הלבנוני",
+    "summary": "ארגון חיזבאללה פרסם הודעה לפיה אין עצמאות אמיתית כל עוד נמשכת הנוכחות הישראלית בדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T09:59:00+00:00",
+    "last_update_at": "2026-11-21T09:59:00+00:00",
+    "what_is_not_verified": "צעדים מעשיים שינקוט הארגון מול דרישות המדינה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_8cb780f0df36241e",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/969060/hezbollah-no-true-independence-while-israeli-occupation-continues/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969060",
+      "published_at": "2026-11-21T09:59:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום לבנון",
+      "lat": 39.371,
+      "lon": -84.2128
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "האם ישראל מתכננת מבצע צבאי בסוריה בתמיכה דרוזית",
+   "ההיתכנות המדויקת של הסכמות פירוק הנשק בלבנון"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3428,
+    "unit": "ILS",
+    "change_pct": 1.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [],
+    "inferred": [
+     "שמירת חופש פעולה מבצעי בדרום לבנון ובמרחב הגבול",
+     "מניעת התחמשות ושיקום כוחו של חיזבאללה"
+    ],
+    "forecast": [
+     "המשך תקיפות נקודתיות במקרה של הפרות",
+     "שחיקה נוספת בהסכמים ללא הכרעה מדינית ברורה"
+    ]
+   },
+   {
+    "actor": "לבנון (ממשל וצבא)",
+    "declared": [
+     "יישום החלטות ריבוניות ופירוק נשק שאינו בשליטת המדינה",
+     "דרישה לנסיגה ישראלית מלאה"
+    ],
+    "inferred": [
+     "ניסיון להיעזר בגורמים בינלאומיים למילוי ואקום ביטחוני לאחר נסיגת יוניפי\"ל"
+    ],
+    "forecast": [
+     "קשיים באכיפת פירוק הנשק מול חיזבאללה",
+     "כניסה לתקופת מעבר רגישה בבסיסי בדרום הארץ"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "הגנה על אינטרסים באזור והסדרת מוסדות חינוך בצפון סוריה",
+     "אזהרה מפני הרחבת מעורבות זרה"
+    ],
+    "inferred": [
+     "ביסוס השפעה אזרחית ושלטונית באזורים בצפון סוריה",
+     "בלימת מהלכים אזוריים של ישראל"
+    ],
+    "forecast": [
+     "המשך מעורבות דיפלומטית ואזרחית בצפון סוריה",
+     "התנגדות פומבית לפעולות ישראליות בגבולות סוריה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/21/lebanese-president-demands-israel-withdrawal-decries-irans-interference?traffic_source=rss",
+    "accessed_at": "2026-11-22T07:31:24+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/153602/",
+    "accessed_at": "2026-11-22T07:31:24+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/unifil-begins-handing-over-positions-in-southern-lebanon-to-lebanese-army/4133076",
+    "accessed_at": "2026-11-22T07:31:24+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/11/turkey-approves-transfer-of-university-branches-in-syria/",
+    "accessed_at": "2026-11-22T07:31:24+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/969060/hezbollah-no-true-independence-while-israeli-occupation-continues/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969060",
+    "accessed_at": "2026-11-22T07:31:24+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-occupation-iranian-interference-threat-lebanese-sovereignty-aoun",
+    "accessed_at": "2026-11-22T07:31:24+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/israeli-reservists-erect-military-memorials-inside-south-lebanon",
+    "accessed_at": "2026-11-22T07:31:24+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134012",
+    "accessed_at": "2026-11-22T07:31:24+00:00"
+   }
+  ]
+ }
+}

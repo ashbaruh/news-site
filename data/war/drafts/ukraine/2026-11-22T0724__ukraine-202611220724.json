@@ -1,0 +1,371 @@
+{
+ "status": "draft",
+ "received_sha256_12": "edd7a5e9ade1",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "verified": 2,
+   "initial": 5,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-22T07:24:50+00:00",
+  "window": {
+   "from": "2026-11-21T07:24:50+00:00",
+   "to": "2026-11-22T07:24:50+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611220724"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת ביתאת מתקפות אוויריות הדדיות, הכוללות שימוש נרחב בכטב״מים ובטילי שיוט מצד רוסיה אל עבר עורף ותשתיות באוקראינה, לצד דיווחים על פעילות התקפית אוקראינית במרחבים ימיים ויבשתיים. במקביל, נמשכים מאמצי התמיכה הצבאית והדיפלומטית במדינות המערב, תוך כדי התרחבות מתיחות אזורית למדינות שכנות עקב זליגת אמצעי לחימה למרחבים אווויריים זרים.",
+  "fronts": [
+   {
+    "name": "חזית האוויר וההגנה האווירית",
+    "status": "פעיל מאוד עם מתקפות כטב״מים וטילים נרחבות"
+   },
+   {
+    "name": "החזית הימית (הים הבלטי ומפרץ פינלנד)",
+    "status": "פעיל עם אירועי תקיפת כלי שיט וזליגת מתח"
+   },
+   {
+    "name": "החזית המזרחית והמרכזית באוקראינה",
+    "status": "פעיל עם תקיפות קרקעיות ואוויריות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11220724-01",
+    "title": "מתקפת כטב״מים רוסית נרחבת על אוקראינה",
+    "summary": "כוחות רוסיה תקפו את אוקראינה באמצעות מספר רב של כטב״מים, ומערכות ההגנה האווירית האוקראיניות יירטו או שיבשו את מרביתם.",
+    "axis": "חזית האוויר",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T06:27:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-22T06:27:00+00:00",
+    "last_update_at": "2026-11-22T06:48:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_24000463485182ac",
+      "url": "https://www.ukrinform.net/rubric-ato/4187288-air-defenses-down-161-of-186-russian-drones-launched-against-ukraine-since-evening.html",
+      "published_at": "2026-11-22T06:48:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_51bbf9821af5439a",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/22/8064012/",
+      "published_at": "2026-11-22T06:27:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11220724-02",
+    "title": "פגיעת כטב״ם במבנה מגורים במחוז קייב",
+    "summary": "מתקפת כטב״מים רוסית פגעה בבניין מגורים בן חמש קומות במחוז קייב, גרמה להרס נרחב, לפינוי תושבים ולפציעת בני אדם.",
+    "axis": "החזית הצפונית-מרכזית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T04:49:11+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-22T04:49:11+00:00",
+    "last_update_at": "2026-11-22T05:56:00+00:00",
+    "what_is_not_verified": "האם שבעה אנשים לכודים תחת ההריסות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_5adf5aec755815f9",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/22/8064011/",
+      "published_at": "2026-11-22T05:56:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_e4c1c885f6a588b7",
+      "url": "https://www.ukrinform.net/rubric-ato/4187278-residential-building-damaged-in-russian-drone-attack-in-vyshhorod-district-residents-evacuated.html",
+      "published_at": "2026-11-22T05:30:00+00:00"
+     },
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_ea1c59f0fb189f18",
+      "url": "https://kyivindependent.com/apartment-building-destroyed-in-kyiv-oblast-following-russian-drone-attack/",
+      "published_at": "2026-11-22T04:49:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דימר, אוקראינה",
+      "lat": 50.7864,
+      "lon": 30.3039
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11220724-03",
+    "title": "תקיפות רוסיות במחוז סומי",
+    "summary": "כוחות רוסיים תקפו מספר יישובים במחוז סומי וגרמו לפציעתם של מספר אזרחים.",
+    "axis": "החזית המזרחית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T05:52:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T05:52:00+00:00",
+    "last_update_at": "2026-11-22T05:52:00+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_3f65066788f04cb2",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/22/8064009/",
+      "published_at": "2026-11-22T05:52:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11220724-04",
+    "title": "פגיעת כטב״ם באוניה רוסית בים הבלטי",
+    "summary": "אוניית מטען רוסית נפגעה מכטב״ם בים הבלטי ועלתה באש, וצוותה פונה.",
+    "axis": "הזירה הימית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T19:20:22+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-21T19:20:22+00:00",
+    "last_update_at": "2026-11-22T02:19:48+00:00",
+    "what_is_not_verified": "האחריות המדויקת של אוקראינה למתקפה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_finnish_border_guard_and_defense_ministr",
+      "url": "https://www.theguardian.com/world/2026/nov/22/ukraine-war-briefing-russian-cargo-ship-hit-by-drone-in-baltic-sea-as-finland-pm-says-conflict-spilling-over",
+      "published_at": "2026-11-22T02:19:48+00:00"
+     },
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_finnish_border_guard_and_defense_ministr",
+      "url": "https://tass.com/world/2222939",
+      "published_at": "2026-11-21T20:00:01+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_finnish_border_guard_and_defense_ministr",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-21T19:20:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מפרץ פינלנד, הים הבלטי",
+      "lat": 59.8737,
+      "lon": 26.323
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11220724-05",
+    "title": "חתימת הסכם לייצור כטב״מים בבריטניה עבור אוקראינה",
+    "summary": "אוקראינה ובריטניה חתמו על הסכם שבו בריטניה תייצר כטב״מים ארוכי טווח וטווח ביניים עבור אוקראינה על אדמת בריטניה.",
+    "axis": "זירת הסיוע הבינלאומי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T01:30:56+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T01:30:56+00:00",
+    "last_update_at": "2026-11-22T01:30:56+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_654f0d5e420a53d8",
+      "url": "https://kyivindependent.com/uk-to-produce-middle-strike-long-range-drones-for-ukraine-in-britain/",
+      "published_at": "2026-11-22T01:30:56+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לונדון, בריטניה",
+      "lat": 51.5074,
+      "lon": -0.1278
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11220724-06",
+    "title": "חדירות מרחב אוווירי של מדינות שכנות",
+    "summary": "מולדובה ופינלנד דיווחו על חדירות של כלי טיס רוסיים למרחב האווירי שלהן, יום לאחר נפילת טילים וזלזולים בפולין.",
+    "axis": "הזירה האזורית והגבולית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T23:35:21+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T23:35:21+00:00",
+    "last_update_at": "2026-11-21T23:35:21+00:00",
+    "what_is_not_verified": "הקשר המדויק בין החדירות לפעילות המבצעית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_5784f0bf0363baa9",
+      "url": "https://kyivindependent.com/moldova-finland-report-russian-airspace-violations-day-after-suspected-russian-missiles-flew-into-poland/",
+      "published_at": "2026-11-21T23:35:21+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11220724-07",
+    "title": "נפילת עצמים וטילים באזור גבול פולין",
+    "summary": "טילי שיוט וכטב״ם פגעו או נפלו בשטח פולין במהלך מתקפות אוויריות רוסיות באוקראינה, והובילו לגינוי מצד פולין.",
+    "axis": "הזירה הגבולית עם נאט״ו",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T15:07:05+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T15:07:05+00:00",
+    "last_update_at": "2026-11-21T15:07:05+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_polish_officials_and_defense_minister",
+      "url": "https://www.theguardian.com/world/video/2026/nov/21/cctv-shows-unknown-object-crashing-and-exploding-near-poland-ukraine-border-video",
+      "published_at": "2026-11-21T15:07:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "גבול פולין-אוקראינה",
+      "lat": 51.5082,
+      "lon": 23.6178
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11220724-08",
+    "title": "פגיעות בתשתיות אנרגיה באוקראינה",
+    "summary": "הכוחות הרוסיים תקפו מתקן אנרגיה שסיפק חשמל למפעלים ביטחוניים אוקראיניים.",
+    "axis": "החזית האסטרטגית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T15:53:15+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-21T15:53:15+00:00",
+    "last_update_at": "2026-11-21T15:53:15+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_e80768169bb62e39",
+      "url": "https://tass.com/defense/2222907",
+      "published_at": "2026-11-21T15:53:15+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ויניצה, אוקראינה",
+      "lat": 49.232,
+      "lon": 28.468
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים המדויק תחת הריסות הבניין בדימר",
+   "הקשר המדויק והאחריות הבלעדית לתקיפת האוניה בים הבלטי",
+   "טענות הצדדים על היקפי האבידות והנזקים"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.099,
+    "unit": "USD",
+    "change_pct": -0.02,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פגיעה בתשתיות צבאיות ותומכות לחימה של אוקראינה"
+    ],
+    "inferred": [
+     "שחיקת היכולות הכלכליות והצבאיות של אוקראינה",
+     "הרחבת הלחץ על העורף האוקראיני באמצעות מתקפות בלתי פוסקות"
+    ],
+    "forecast": [
+     "המשך תקיפות האנרגיה והתשתיות לקראת החורף",
+     "ניסיונות שיבוש נתיבי האספקה הימיים והיבשתיים של אוקראינה"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על שמי המדינה ויירוט האיומים האוויריים",
+     "חיזוק קשרי הייצור הביטחוני עם בריתות בינלאומיות"
+    ],
+    "inferred": [
+     "פיתוח יכולות תקיפה עצמאיות וימיות מרוחקות",
+     "גיוס תמיכה דיפלומטית וכלכלית רחבה ממדינות המערב והקונגרס האמריקאי"
+    ],
+    "forecast": [
+     "המשך שיתופי פעולה ביטחוניים להקמת קווי ייצור כטב״מים בשטח מדינות זרות",
+     "הרחבת הפעילות נגד יעדים צבאיים ולוגיסטיים בעומק שטחי האויב"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-22T07:24:50+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/video/2026/nov/21/cctv-shows-unknown-object-crashing-and-exploding-near-poland-ukraine-border-video",
+    "accessed_at": "2026-11-22T07:24:50+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/moldova-finland-report-russian-airspace-violations-day-after-suspected-russian-missiles-flew-into-poland/",
+    "accessed_at": "2026-11-22T07:24:50+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/22/8064009/",
+    "accessed_at": "2026-11-22T07:24:50+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/defense/2222907",
+    "accessed_at": "2026-11-22T07:24:50+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4187278-residential-building-damaged-in-russian-drone-attack-in-vyshhorod-district-residents-evacuated.html",
+    "accessed_at": "2026-11-22T07:24:50+00:00"
+   }
+  ]
+ }
+}

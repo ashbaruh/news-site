@@ -60,6 +60,10 @@
 44.9147,
 38.8398
 ],
+"afrin, syria": [
+36.5084,
+36.8701
+],
 "ahad rafidah, saudi arabia": [
 18.1814,
 42.8414
@@ -981,6 +985,10 @@
 19.623,
 57.634
 ],
+"dymer, ukraine": [
+50.7864,
+30.3039
+],
 "eastern ghouta, syria": [
 33.4878,
 36.3496
@@ -1080,6 +1088,10 @@
 47.5063
 ],
 "gulf of finland": [
+59.8737,
+26.323
+],
+"gulf of finland, baltic sea": [
 59.8737,
 26.323
 ],
@@ -2079,6 +2091,10 @@
 35.0984
 ],
 "nahr al-kabir, lebanon-syria border": null,
+"nahr al-kalb, lebanon": [
+33.9555,
+35.5968
+],
 "nahran, lebanon": null,
 "najaf, iraq": [
 32.001,
@@ -2653,6 +2669,10 @@
 37.4908
 ],
 "shabwah, yemen": null,
+"shaikh isa air base, bahrain": [
+25.9144,
+50.5926
+],
 "shannon airport, ireland": [
 52.6987,
 -8.9216
@@ -3029,6 +3049,10 @@
 "vilnius, lithuania": [
 54.687,
 25.2829
+],
+"vinnitsa, ukraine": [
+49.232,
+28.468
 ],
 "vinnytsia oblast, ukraine": null,
 "vinnytsia, ukraine": [
