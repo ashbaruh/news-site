@@ -873,6 +873,10 @@
 32.6228,
 36.1068
 ],
+"dbayeh, lebanon": [
+33.9388,
+35.5912
+],
 "deir ammar, lebanon": [
 34.462,
 35.8994
@@ -1256,6 +1260,10 @@
 50.5207,
 30.2449
 ],
+"isa air base, bahrain": [
+25.9144,
+50.5926
+],
 "isfahan province, iran": [
 33.1881,
 52.4982
@@ -1356,6 +1364,10 @@
 "jubata al-khashab, syria": [
 33.2258,
 35.8341
+],
+"juffair, bahrain": [
+26.2146,
+50.6041
 ],
 "jurf al sakhar, iraq": [
 32.8682,
@@ -2540,6 +2552,10 @@
 43.763
 ],
 "sabr al mawadim, yemen": [
+13.5446,
+44.0199
+],
+"sabr al-mawadim, taiz, yemen": [
 13.5446,
 44.0199
 ],

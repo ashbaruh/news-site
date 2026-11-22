@@ -1,116 +1,168 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-21T18:00:00+02:00",
- "generated_at": "2026-11-21T15:40:13+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-11-22T04:00:00+02:00",
+ "generated_at": "2026-11-22T01:40:17+00:00",
+ "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11211540-01",
-     "title": "טענה לתקיפת מטוס אמריקאי",
-     "summary": "הצבא האיראני טוען שמערכות ההגנה האווירית שלו פגעו במטוס קרב אמריקאי מסוג פ-16 מעל המפרץ הפרסי ואילצו אותו לנחות נחיתת חירום, בעוד צבא ארה\"ב מכחיש זאת מכל וכל.",
+     "id": "IRAN-11220140-01",
+     "title": "תקיפת בסיסים אמריקאיים בבחריין בידי משמרות המהפכה",
+     "summary": "משמרות המהפכה שיגרו טילים בליסטיים וכטב\"מים לעבר שני בסיסים של צבא ארה\"ב בבחריין, בהם שיח' עיסא ואלג'פיר, ופגעו לפי דיווח בחרייני במתקן תעשייתי.",
      "axis": "iran",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-21T14:57:01+00:00",
+     "occurred_at": "2026-11-21T20:19:49+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-21T14:57:01+00:00",
-     "last_update_at": "2026-11-21T15:29:28+00:00",
-     "what_is_not_verified": "האם אכן נפגע מטוס אמריקאי מאש איראנית",
+     "first_reported_at": "2026-11-21T20:19:49+00:00",
+     "last_update_at": "2026-11-21T23:59:03+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק ומספר הנפגעים אינם מאומתים",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
-       "source_root_id": "fh_c7f4bfa537dcc4d9",
-       "url": "https://t.me/abualiexpress/134002",
-       "published_at": "2026-11-21T14:57:01+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/134021",
+       "published_at": "2026-11-21T20:19:49+00:00"
       },
       {
-       "source_id": "src_mee",
-       "source_root_id": "fh_c7f4bfa537dcc4d9",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-denies-iran-hit-f-16-fighter-jet",
-       "published_at": "2026-11-21T15:29:28+00:00"
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-iran-targets-us-military-in-bahrain-houthi-strikes-continue?traffic_source=rss",
+       "published_at": "2026-11-21T23:59:03+00:00"
+      },
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
+       "published_at": "2026-11-21T22:02:03+00:00"
       }
      ],
      "places": [
       {
-       "name": "המפרץ הפרסי",
-       "lat": 36.3237,
-       "lon": 50.012
+       "name": "בסיס שיח' עיסא, בחריין",
+       "lat": 25.9144,
+       "lon": 50.5926
+      },
+      {
+       "name": "אלג'פיר, בחריין",
+       "lat": 26.2146,
+       "lon": 50.6041
       }
      ]
     },
     {
-     "id": "IRAN-11211540-02",
-     "title": "הפלת כלי טיס בלתי מאויש",
-     "summary": "משמרות המהפכה של איראן מדווחים כי הפילו כלי טיס בלתי מאויש אמריקאי מעל אי דרומי.",
+     "id": "IRAN-11220140-02",
+     "title": "נחיתת חירום של מטוס קרב אמריקאי בדובאי וטענות איראניות לפגיעה",
+     "summary": "מטוס קרב אמריקאי ביצע נחיתת חירום בדובאי, כאשר באיראן טוענים כי נפגע בידי משמרות המהפכה ואילו צבא ארה\"ב מכחיש זאת לחלוטין.",
      "axis": "iran",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-21T13:30:48+00:00",
+     "occurred_at": "2026-11-21T15:22:24+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-21T13:30:48+00:00",
-     "last_update_at": "2026-11-21T13:30:48+00:00",
-     "what_is_not_verified": "אמינות הדיווח על הפלת הכלי הבלתי מאויש",
+     "first_reported_at": "2026-11-21T15:22:24+00:00",
+     "last_update_at": "2026-11-21T15:22:24+00:00",
+     "what_is_not_verified": "הטענה האיראנית על פגיעה במטוס אינה מאומתת ומוכחשת על ידי צבא ארה\"ב",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_irna",
+       "source_id": "src_tg_lelotsenzura",
        "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86328446/IRGC-shoots-down-19th-US-MQ-1-drone",
-       "published_at": "2026-11-21T13:30:48+00:00"
+       "url": "https://t.me/lelotsenzura/95090",
+       "published_at": "2026-11-21T15:22:24+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "דובאי, איחוד האמירויות",
+       "lat": 25.0743,
+       "lon": 55.1886
+      }
+     ]
     },
     {
-     "id": "IRAN-11211540-03",
-     "title": "סגר ימי על איראן",
-     "summary": "פיקוד מרכז של ארצות הברית מציין תקופה ממושכת של סגר ימי מוחלט על איראן.",
+     "id": "IRAN-11220140-03",
+     "title": "התקדמות מכלית הנפט האיראנית לעבר קו המצור האמריקני",
+     "summary": "מכלית הנפט האיראנית עושה את דרכה במהירות שבין שמונה לשלושה-עשר קשרים וצפויה להגיע אל מפרץ עומאן ובהמשך אל אזור המצור הימי.",
      "axis": "iran",
      "claim_type": "data",
      "lifecycle": "active",
-     "occurred_at": "2026-11-21T15:17:14+00:00",
+     "occurred_at": "2026-11-21T23:50:29+00:00",
      "is_ongoing": true,
-     "first_reported_at": "2026-11-21T15:17:14+00:00",
-     "last_update_at": "2026-11-21T15:17:14+00:00",
-     "what_is_not_verified": "לא מאומת מעבר לכך",
+     "first_reported_at": "2026-11-21T23:50:29+00:00",
+     "last_update_at": "2026-11-21T23:50:29+00:00",
+     "what_is_not_verified": "זמני ההגעה המדויקים ותגובת ארה\"ב בפועל אינם מאומתים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/134003",
-       "published_at": "2026-11-21T15:17:14+00:00"
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_rerum_novarum",
+       "url": "https://t.me/alexmehacarmel/49812",
+       "published_at": "2026-11-21T23:50:29+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "מפרץ עומאן",
+       "lat": 24.2138,
+       "lon": 58.9846
+      }
+     ]
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-11211540-01",
-     "title": "אנדרטאות זיכרון בדרום לבנון",
-     "summary": "אנשי מילואים של צבא ישראל הקימו שלטי זיכרון לחיילים שנהרגו בפעולות קודמות בתוך שטחי דרום לבנון.",
+     "id": "NORTH-11220140-01",
+     "title": "תקיפה אווירית ישראלית בעיירה ברעשית בדרום לבנון",
+     "summary": "כלי טיס ישראלי ביצע תקיפה אווירית שכוונה לעבר העיירה ברעשית שבדרום לבנון.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-21T15:17:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-21T15:17:00+00:00",
-     "last_update_at": "2026-11-21T15:17:00+00:00",
-     "what_is_not_verified": "היקף ההשפעה והתגובה הרשמית של גורמים בלבנון",
+     "occurred_at": "2026-11-21T18:50:05+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-21T18:50:05+00:00",
+     "last_update_at": "2026-11-21T18:50:05+00:00",
+     "what_is_not_verified": "היקף הנזקים והנפגעים בתקיפה אינו מאומת",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_newarab",
+       "source_id": "src_almanar",
+       "source_root_id": "fh_9f3fae1ecc544e0a",
+       "url": "https://english.almanar.com.lb/article/153602/",
+       "published_at": "2026-11-21T18:50:05+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ברעשית, לבנון",
+       "lat": 33.1785,
+       "lon": 35.4372
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11220140-02",
+     "title": "יוניפי\"ל החל בהעברת עמדות בדרום לבנון לצבא הלבנוני",
+     "summary": "כוח השלום של האו\"ם פתח בהליך מסירת עמדות צבאיות בדרום לבנון לידי צבא לבנון, תוך קריאה להמשך מעקב וסיוע הומניטרי.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-21T15:48:20+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-21T15:48:20+00:00",
+     "last_update_at": "2026-11-21T15:48:20+00:00",
+     "what_is_not_verified": "פירוט העמדות המדויקות שנמסרו אינו מאומת",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_anadolu",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/israeli-reservists-erect-military-memorials-inside-south-lebanon",
-       "published_at": "2026-11-21T15:17:00+00:00"
+       "url": "https://www.aa.com.tr/en/middle-east/unifil-begins-handing-over-positions-in-southern-lebanon-to-lebanese-army/4133076",
+       "published_at": "2026-11-21T15:48:20+00:00"
       }
      ],
      "places": [
@@ -122,126 +174,230 @@ window.DB.war_brief = {
      ]
     },
     {
-     "id": "NORTH-11211540-02",
-     "title": "סגירת מתקני בשר בלבנון",
-     "summary": "המינהל הכללי לביטחון המדינה בלבנון ערך בדיקות במפעלים ובאטליזים ואטם מתקני בשר בשל הפרות תברואתיות ורישוי.",
+     "id": "NORTH-11220140-03",
+     "title": "נשיא לבנון דורש נסיגה ישראלית ומבקר מעורבות זרה",
+     "summary": "בנאומו לרגל יום העצמאות הצהיר נשיא לבנון כי השלמת הריבונות נתקלת בכיבוש אדמות בידי ישראל ובהתערבות זרה בענייני המדינה.",
      "axis": "north",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-20T00:00:00+00:00",
+     "occurred_at": "2026-11-21T18:03:52+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-21T09:56:33+00:00",
-     "last_update_at": "2026-11-21T09:56:33+00:00",
-     "what_is_not_verified": "לא מאומת מעבר להודעת הרשויות",
+     "first_reported_at": "2026-11-21T18:03:52+00:00",
+     "last_update_at": "2026-11-21T23:44:00+00:00",
+     "what_is_not_verified": "אין",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_lbci",
-       "source_root_id": "fh_3d21ddb77de16499",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/969059/lebanese-state-security-shuts-down-meat-facilities-over-health-and-lic/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969059",
-       "published_at": "2026-11-21T09:56:33+00:00"
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/134012",
+       "published_at": "2026-11-21T18:03:52+00:00"
+      },
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/2026/11/21/lebanese-president-demands-israel-withdrawal-decries-irans-interference?traffic_source=rss",
+       "published_at": "2026-11-21T23:44:00+00:00"
+      },
+      {
+       "source_id": "src_almanar",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://english.almanar.com.lb/article/153612/",
+       "published_at": "2026-11-21T18:56:51+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "דבייה, לבנון",
+       "lat": 33.9388,
+       "lon": 35.5912
+      }
+     ]
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11211540-01",
-     "title": "גירוש דיפלומט רוסי מדנמרק",
-     "summary": "דנמרק החליטה לגרש את הנספח הצבאי של רוסיה במדינה בעקבות מעורבות חשודה של מוסקבה בניסיון חיסול של מוזיקאי.",
+     "id": "UKRAINE-11220140-01",
+     "title": "הסכם לייצור כטב\"מים לטווח ארוך עבור אוקראינה על אדמת בריטניה",
+     "summary": "משרד ההגנה של אוקראינה הודיע על חתימת הסכם סופי עם בריטניה לייצור כטב\"מים ארוכי טווח בשטח הממלכה המאוחדת.",
      "axis": "ukraine",
-     "claim_type": "incident",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-21T14:03:50+00:00",
+     "occurred_at": "2026-11-21T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-21T14:03:50+00:00",
-     "last_update_at": "2026-11-21T14:03:50+00:00",
-     "what_is_not_verified": "הפרטים המלאים של מזיקת החיסול",
+     "first_reported_at": "2026-11-22T01:30:56+00:00",
+     "last_update_at": "2026-11-22T01:30:56+00:00",
+     "what_is_not_verified": "כמות הכטב\"מים ולוח הזמנים המדויק לאספקתם אינם מאומתים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_guardian",
+       "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
-       "published_at": "2026-11-21T14:03:50+00:00"
+       "url": "https://kyivindependent.com/uk-to-produce-middle-strike-long-range-drones-for-ukraine-in-britain/",
+       "published_at": "2026-11-22T01:30:56+00:00"
       }
      ],
      "places": [
       {
-       "name": "קופנהגן, דנמרק",
-       "lat": 55.6867,
-       "lon": 12.5701
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      },
+      {
+       "name": "לונדון, בריטניה",
+       "lat": 51.5074,
+       "lon": -0.1278
       }
      ]
     },
     {
-     "id": "UKRAINE-11211540-02",
-     "title": "פגיעה באובייקט סמוך לגבול פולין-אוקראינה",
-     "summary": "מצלמות אבטחה תיעדו נפילה והתפוצצות של עצם לא מזוהה סמוך לכפר פולני, בעוד גורמים רשמיים דיווחו על חדירות מרחב אווירי וטילים רוסיים.",
+     "id": "UKRAINE-11220140-02",
+     "title": "חדירות כלי טיס וטילים רוסיים למרחב האווירי של מולדובה ופינלנד",
+     "summary": "גורמים רשמיים במולדובה ובפינלנד דיווחו על הפרות של המרחב האווירי שלהן בידי כלי טיס רוסיים, יממה לאחר נפילת טילים בשטח פולין.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-21T15:07:05+00:00",
+     "occurred_at": "2026-11-21T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-21T15:07:05+00:00",
-     "last_update_at": "2026-11-21T15:07:05+00:00",
-     "what_is_not_verified": "הזהות המדויקת של כל העצמים שנפלו",
+     "first_reported_at": "2026-11-21T21:40:00+00:00",
+     "last_update_at": "2026-11-21T23:35:21+00:00",
+     "what_is_not_verified": "זהותם המדויקת של כלל העצמים שחדרו למרחב האווירי אינה מאומתת סופית",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_guardian",
+       "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/video/2026/nov/21/cctv-shows-unknown-object-crashing-and-exploding-near-poland-ukraine-border-video",
-       "published_at": "2026-11-21T15:07:05+00:00"
+       "url": "https://kyivindependent.com/moldova-finland-report-russian-airspace-violations-day-after-suspected-russian-missiles-flew-into-poland/",
+       "published_at": "2026-11-21T23:35:21+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4187255-jetpowered-drone-violates-moldovan-airspace-twice.html",
+       "published_at": "2026-11-21T21:40:00+00:00"
       }
      ],
-     "places": [
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11220140-03",
+     "title": "מתקפת כטב\"מים אוקראינית לעבר מחוז קרסנודר ברוסיה",
+     "summary": "כלי טיס בלתי מאוישים ששוגרו מאוקראינה תקפו יעדים במחוז קרסנודר שבשטח הפדרציה הרוסית.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-21T23:27:38+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-21T23:27:38+00:00",
+     "last_update_at": "2026-11-21T23:27:38+00:00",
+     "what_is_not_verified": "מידת הנזק, היעדים המדויקים שנפגעו ומספר הנפגעים אינם מאומתים",
+     "is_new_in_window": true,
+     "reports": [
       {
-       "name": "גבול פולין-אוקראינה",
-       "lat": 51.5082,
-       "lon": 23.6178
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49810",
+       "published_at": "2026-11-21T23:27:38+00:00"
       }
-     ]
+     ],
+     "places": []
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-11211540-01",
-     "title": "יירוט טילים בערב הסעודית",
-     "summary": "הקואליציה בהובלת סעודיה הודיעה כי יירו והשמידו שלושה טילים בליסטיים ששוגרו לעבר הבירה ריאד.",
+     "id": "YEMEN-11220140-01",
+     "title": "יירוט טיל בליסטי ששיגרו החות'ים לעבר מערב סעודיה",
+     "summary": "הקואליציה בהובלת סעודיה מסרה כי השמידה טיל בליסטי ששוגר על ידי החות'ים לעבר האזור המערבי של הממלכה.",
      "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-21T09:34:00+00:00",
+     "occurred_at": "2026-11-21T22:05:23+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-21T09:34:00+00:00",
-     "last_update_at": "2026-11-21T09:49:44+00:00",
-     "what_is_not_verified": "נזקים אפשריים מנפילת שברים",
+     "first_reported_at": "2026-11-21T22:05:23+00:00",
+     "last_update_at": "2026-11-21T22:50:48+00:00",
+     "what_is_not_verified": "מיקום היירוט המדויק מעבר לאזור המערבי הכללי אינו מאומת",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_france24",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.france24.com/en/houthis-launch-strikes-on-saudi-arabia",
-       "published_at": "2026-11-21T09:49:44+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "or_middle_east_eye",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepted-houthi-ballistic-missile-0",
+       "published_at": "2026-11-21T22:50:48+00:00"
       },
       {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthis-launch-strikes-after-saudi-led-coalitions-special-op",
-       "published_at": "2026-11-21T09:34:00+00:00"
+       "source_id": "src_saba_aden",
+       "source_root_id": "or_middle_east_eye",
+       "url": "https://www.sabanew.net/viewstory/156197",
+       "published_at": "2026-11-21T22:05:23+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-11220140-02",
+     "title": "פגיעה באמבולנס באזור תעז והריגת איש צוות רפואי",
+     "summary": "מתקפת פגזים שביצעו החות'ים פגעה ברכב אמבולנס במחוז תעז והובילה למותו של אדם אחד ולפציעתם של שישה נוספים.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-21T19:42:53+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-21T19:42:53+00:00",
+     "last_update_at": "2026-11-21T20:03:36+00:00",
+     "what_is_not_verified": "זהות הנפגעים המלאה אינה מאומתת מעבר להיותם אנשי צוות רפואי ואזרחים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_middle_east_eye",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-attacks-kill-one-civilian-killed-injure-seven-injured-taiz-yemen",
+       "published_at": "2026-11-21T20:03:36+00:00"
+      },
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "or_middle_east_eye",
+       "url": "https://www.sabanew.net/viewstory/156195",
+       "published_at": "2026-11-21T19:42:53+00:00"
       }
      ],
      "places": [
       {
-       "name": "ריאד, ערב הסעודית",
-       "lat": 24.6389,
-       "lon": 46.716
+       "name": "סבר אל-מוואדם, תעז, תימן",
+       "lat": 13.5446,
+       "lon": 44.0199
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-11220140-03",
+     "title": "התבססות צבאית של החות'ים באזור מצר באב אל-מנדב",
+     "summary": "כוחות החות'ים נכנסו לאזורים שונים לאורך החוף המערבי והתבססו מחדש במצר באב אל-מנדב בעקבות נסיגת כוחות דרומיים.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-21T18:44:24+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-21T18:44:24+00:00",
+     "last_update_at": "2026-11-21T18:44:24+00:00",
+     "what_is_not_verified": "היקף הכוחות שהתבססו והשפעת התקיפות האוויריות עליהם אינם מאומתים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_the_new_arab",
+       "url": "https://www.newarab.com/news/houthis-entrenching-positions-around-bab-al-mandeb",
+       "published_at": "2026-11-21T18:44:24+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ד'ובאב, תימן",
+       "lat": 13.0597,
+       "lon": 43.5117
       }
      ]
     }
