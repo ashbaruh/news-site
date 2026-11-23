@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-23T21:17:25+00:00",
-  "fetched_at": "2026-11-23T21:17:25+00:00"
+  "checked_at": "2026-11-23T22:17:30+00:00",
+  "fetched_at": "2026-11-23T22:17:30+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-23T21:17:36+00:00",
-  "fetched_at": "2026-11-23T21:17:36+00:00"
+  "checked_at": "2026-11-23T22:17:43+00:00",
+  "fetched_at": "2026-11-23T22:17:43+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-23T21:17:36+00:00",
-  "fetched_at": "2026-11-23T21:17:36+00:00"
+  "checked_at": "2026-11-23T22:17:43+00:00",
+  "fetched_at": "2026-11-23T22:17:43+00:00"
  },
- "generated_at": "2026-11-23T21:17:36+00:00",
+ "generated_at": "2026-11-23T22:17:43+00:00",
  "globes": {
   "data": {
    "top": [
@@ -96,6 +96,11 @@
     }
    ],
    "market": [
+    {
+     "title": "המניה הישראלית שהרוויחה בגדול מהקאמבק באנבידיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564584",
+     "date": "2026-11-23T21:17:00+00:00"
+    },
     {
      "title": "היום הטוב מזה כשנה וחצי: וול סטריט סגרה בעליות חדות, אנבידיה טסה 31%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564447",
@@ -130,11 +135,6 @@
      "title": "ב-8200 אין דילמות כאלה: הם אמרו לא לאקזיט ענק ומיד דילגו לאחר",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564586",
      "date": "2026-11-23T16:45:00+00:00"
-    },
-    {
-     "title": "המניה הישראלית שמרוויחה בגדול מהקאמבק באנבידיה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564584",
-     "date": "2026-11-23T16:11:00+00:00"
     },
     {
      "title": "טראמפ חושף: כך שכנעתי את דירקטוריון אנבידיה להחזיר את ג'נסן הואנג",
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-23T21:17:26+00:00",
-  "fetched_at": "2026-11-23T21:17:26+00:00"
+  "checked_at": "2026-11-23T22:17:31+00:00",
+  "fetched_at": "2026-11-23T22:17:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,136 +1869,17 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-23T21:17:26+00:00",
-  "fetched_at": "2026-11-23T21:17:26+00:00"
+  "checked_at": "2026-11-23T22:17:32+00:00",
+  "fetched_at": "2026-11-23T22:17:32+00:00"
  },
  "tv": {
   "data": [
    {
-    "date": "2026-11-23",
-    "time": "00:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "ריבר פלייט - לאנוס"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "01:00",
+    "date": "2026-11-24",
+    "time": "02:00",
     "channel": "ספורט 5",
     "sport": "כדורסל",
-    "title": "מיאמי היט - אוקלהומה סיטי"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "14:30",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "טג'יקיסטן עד 17 - קרואטיה עד 17"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "14:30",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "ספרד עד 17 - פיג'י עד 17"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "15:00",
-    "channel": "ספורט 6",
-    "sport": "כדורגל",
-    "title": "אוזבקיסטן עד 17 - ג'מייקה עד 17"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "15:30",
-    "channel": "ספורט 4",
-    "sport": "כדורגל",
-    "title": "סנגל עד 17 - קובה עד 17"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "16:30",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "איטליה עד 17 - חוף השנהב עד 17"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "17:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "מכבי רעננה עירוני - בני הרצליה"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "17:00",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "מרוקו עד 17 - סין עד 17"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "17:30",
-    "channel": "ספורט 6",
-    "sport": "כדורגל",
-    "title": "מאלי עד 17 - בלגיה עד 17"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "17:30",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "וייטנאם עד 17 - ניו זילנד עד 17"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "18:00",
-    "channel": "ספורט 5+",
-    "sport": "כדורסל",
-    "title": "בנות פתח תקווה - הפועל לב ירושלים"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "19:00",
-    "channel": "ONE2",
-    "sport": "כדורגל",
-    "title": "ייפסונאס - אנורתוסיס פמגוסטה"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "20:00",
-    "channel": "ONE",
-    "sport": "כדורגל",
-    "title": "ברונדבי - מידטיילנד"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "21:30",
-    "channel": "ONE2",
-    "sport": "כדורסל",
-    "title": "קלמזון טייגרס - מיסיסיפי רבלס"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "21:45",
-    "channel": "ספורט 2",
-    "sport": "כדורגל",
-    "title": "מונזה - פיורנטינה"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "22:00",
-    "channel": "ספורט 1",
-    "sport": "כדורגל",
-    "title": "ברנטפורד - אברטון"
-   },
-   {
-    "date": "2026-11-23",
-    "time": "22:00",
-    "channel": "ONE",
-    "sport": "כדורגל",
-    "title": "לבאנטה - אלצ'ה"
+    "title": "פילדלפיה 76 - פורטלנד טריילבלייזרס"
    },
    {
     "date": "2026-11-24",
@@ -2006,13 +1887,6 @@
     "channel": "ספורט 4",
     "sport": "כדורגל",
     "title": "סאנטוס - גרמיו"
-   },
-   {
-    "date": "2026-11-24",
-    "time": "02:00",
-    "channel": "ספורט 5",
-    "sport": "כדורסל",
-    "title": "פילדלפיה 76 - פורטלנד טריילבלייזרס"
    },
    {
     "date": "2026-11-24",
@@ -2528,6 +2402,13 @@
    {
     "date": "2026-11-27",
     "time": "15:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "קולומביה עד 17 - סרביה עד 17"
+   },
+   {
+    "date": "2026-11-27",
+    "time": "15:00",
     "channel": "אתר ספורט 5",
     "sport": "כדורגל",
     "title": "מכבי אחי נצרת - מ.ס קרית ים"
@@ -2566,13 +2447,6 @@
     "channel": "ספורט 2",
     "sport": "כדורגל",
     "title": "הונדורס עד 17 - יפן עד 17"
-   },
-   {
-    "date": "2026-11-27",
-    "time": "15:00",
-    "channel": "ספורט 3",
-    "sport": "כדורגל",
-    "title": "קולומביה עד 17 - סרביה עד 17"
    },
    {
     "date": "2026-11-27",
@@ -2811,11 +2685,18 @@
     "channel": "ONE",
     "sport": "כדורגל",
     "title": "ריאל סוסיאדד - סביליה"
+   },
+   {
+    "date": "2026-11-30",
+    "time": "22:00",
+    "channel": "ONE",
+    "sport": "כדורגל",
+    "title": "אספניול - חטאפה"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-23T21:17:28+00:00",
-  "fetched_at": "2026-11-23T21:17:28+00:00"
+  "checked_at": "2026-11-23T22:17:34+00:00",
+  "fetched_at": "2026-11-23T22:17:34+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2950,8 +2831,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-23T21:17:28+00:00",
-  "fetched_at": "2026-11-23T21:17:28+00:00"
+  "checked_at": "2026-11-23T22:17:34+00:00",
+  "fetched_at": "2026-11-23T22:17:34+00:00"
  },
  "ai": {
   "data": {
@@ -2982,28 +2863,28 @@
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 305,
+     "likes": 306,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 833,
+     "likes": 834,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 531,
+     "likes": 532,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
      "title": "Krea 2 Turbo Revamped: Image Editor",
      "desc_en": "Edit one image from a prompt. Keep the look consistent.",
      "desc_he": "ערוך תמונה אחת מתוך הנחיה. שמור על המראה עקבי.",
-     "likes": 153,
+     "likes": 154,
      "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
     },
     {
@@ -3051,17 +2932,53 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-23T21:17:34+00:00",
-  "fetched_at": "2026-11-23T21:17:34+00:00"
+  "checked_at": "2026-11-23T22:17:42+00:00",
+  "fetched_at": "2026-11-23T22:17:42+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "חי: רוי רביבו פתח, לבנטה - אלצ'ה 0:0 (מחצית 2)",
-     "link": "https://sports.walla.co.il/item/3877362",
-     "date": "2026-11-23T21:00:00+00:00",
+     "title": "\"לא יישאר הרבה זמן באלצ'ה\": בספרד מתלהבים מרוי רביבו",
+     "link": "https://sports.walla.co.il/item/3877406",
+     "date": "2026-11-23T22:32:00+00:00",
      "source": "וואלה",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "שער בכורה, תואר אישי: הכבוד הגדול לרביבו",
+     "link": "https://www.one.co.il/Article/539680.html?ref=rss",
+     "date": "2026-11-23T22:01:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "מהלך אישי מרהיב: צפו בשער הבכורה של רוי רביבו",
+     "link": "https://www.one.co.il/Article/539677.html?ref=rss",
+     "date": "2026-11-23T21:55:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "\"גול של קוסם\": בספרד מתלהבים מהשער של רביבו",
+     "link": "https://www.one.co.il/Article/539678.html?ref=rss",
+     "date": "2026-11-23T21:39:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
+     ]
+    },
+    {
+     "title": "ענק: שער בכורה לרביבו באלצ'ה, שסיימה ב-1:1",
+     "link": "https://www.one.co.il/Article/539619.html?ref=rss",
+     "date": "2026-11-23T20:00:00+00:00",
+     "source": "ONE",
      "players": [
       "רועי רביבו"
      ]
@@ -3153,42 +3070,6 @@
      "title": "דריימונד גרין החמיא לאבדיה: \"עם דני תמיד יש סיכוי לנצח\"",
      "link": "https://sports.walla.co.il/item/3877252",
      "date": "2026-11-22T18:42:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "אבדיה: \"הלוואי ויכולתי לחבק את כולם, רעב להיות בטופ של הטופ\"",
-     "link": "https://sports.walla.co.il/item/3877178",
-     "date": "2026-11-22T10:08:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "ערב מיוחד: אבדיה כבש את ניו יורק, פורטלנד לא ידעה לנצל זאת",
-     "link": "https://sports.walla.co.il/item/3877158",
-     "date": "2026-11-22T08:00:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "מאמן הניקס הודה: \"אי אפשר לעצור את דני אבדיה\"",
-     "link": "https://sports.walla.co.il/item/3877147",
-     "date": "2026-11-22T06:28:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "אכזרי: אבדיה הוביל קאמבק מפיגור 26, הניקס ניצחו על הבאזר",
-     "link": "https://sports.walla.co.il/item/3877141",
-     "date": "2026-11-22T05:03:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3395,8 +3276,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-23T21:17:30+00:00",
-  "fetched_at": "2026-11-23T21:17:30+00:00"
+  "checked_at": "2026-11-23T22:17:37+00:00",
+  "fetched_at": "2026-11-23T22:17:37+00:00"
  },
  "idf": {
   "data": [
@@ -3426,100 +3307,99 @@
     "date": "2026-11-22T07:19:26+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-23T21:17:31+00:00",
-  "fetched_at": "2026-11-23T15:17:32+00:00"
+  "ok": true,
+  "checked_at": "2026-11-23T22:17:38+00:00",
+  "fetched_at": "2026-11-23T22:17:38+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-23T21:07:00+00:00",
-    "seen_at": "2026-11-23T21:17:36+00:00",
+    "newest": "2026-11-23T21:17:00+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-23T21:07:00+00:00",
-    "seen_at": "2026-11-23T21:17:36+00:00",
+    "newest": "2026-11-23T21:17:00+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-23T21:07:00+00:00",
-    "seen_at": "2026-11-23T21:17:36+00:00",
+    "newest": "2026-11-23T21:17:00+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-23T21:11:00+00:00",
-    "seen_at": "2026-11-23T21:17:36+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-23T21:58:00+00:00",
-    "seen_at": "2026-11-23T21:17:36+00:00",
+    "newest": "2026-11-23T22:32:00+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-23T20:19:00+00:00",
-    "seen_at": "2026-11-23T21:17:36+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-23T20:58:00+00:00",
-    "seen_at": "2026-11-23T21:17:36+00:00",
+    "newest": "2026-11-23T22:02:00+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-11-23T08:48:32+00:00",
-    "seen_at": "2026-11-23T15:17:39+00:00",
+    "newest": "2026-11-23T19:07:59+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-23T16:59:40+00:00",
-    "seen_at": "2026-11-23T21:17:36+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-23T17:00:00+00:00",
-    "seen_at": "2026-11-23T21:17:36+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-23T16:43:17+00:00",
-    "seen_at": "2026-11-23T21:17:36+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-23T21:17:36+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-23T17:08:51+00:00",
-    "seen_at": "2026-11-23T21:17:36+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-23T11:02:44+00:00",
-    "seen_at": "2026-11-23T20:17:35+00:00",
+    "seen_at": "2026-11-23T22:17:43+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-23T21:17:36+00:00"
+  "checked_at": "2026-11-23T22:17:43+00:00"
  },
  "health_news": {
   "data": [
@@ -3674,9 +3554,8 @@
     "date": "2026-11-02T13:33:27+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-23T21:17:31+00:00",
-  "fetched_at": "2026-11-23T20:17:29+00:00"
+  "ok": true,
+  "checked_at": "2026-11-23T22:17:38+00:00",
+  "fetched_at": "2026-11-23T22:17:38+00:00"
  }
 }
