@@ -695,499 +695,215 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-11-23T0044__ukraine-202611230044.json",
+  "draft": "drafts/ukraine/2026-11-23T2219__ukraine-202611232219.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-11-23T00:44:14+00:00",
+   "generated_at": "2026-11-23T22:19:08+00:00",
    "window": {
-    "from": "2026-11-22T00:44:14+00:00",
-    "to": "2026-11-23T00:44:14+00:00"
+    "from": "2026-11-22T22:19:08+00:00",
+    "to": "2026-11-23T22:19:08+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "ukraine-202611230044"
+    "run_id": "ukraine-202611232219"
    },
-   "summary": "הלחימה בין רוסיה לאוקראינה נמשכת במלוא העוצמה, כאשר רוסיה ממשיכה לבצע תקיפות אוויריות נרחבות נגד תשתיות אזרחיות ואנרגיה בקייב, חארקוב ובמחוזות נוספים, לצד פגיעה במטרות ימיות וספינות מטען ומלחמה גם מחוץ לגבולות אוקראינה (כמו בלוב ובים הבלטי). מנגד, אוקראינה מגיבה בתקיפות נגד נכסים רוסיים, בין היתר באמצעות כלי שיט בלתי מאוישים ופגיעה במתקנים בתוך השטח הרוסי. במקביל, מתנהל לחץ דיפלומטי בינלאומי ומדינות אירופה וארה\"ב דנות בארכיטקטורת הביטחון ובמנגנוני הסיוע הממשלתיים.",
+   "summary": "המלחמה בין רוסיה לאוקראינה נמשכת בלחימה אקטיבית הכוללת תקיפות אוויריות וימיות הדדיות, לצד מאבקים דיפלומטיים וכלכליים רחבים. אוקראינה ממשיכה לבצע תקיפות ארוכות טווח נגד תשתיות אנרגיה וכלים ימיים של רוסיה, בעוד רוסיה ממשיכה להפציץ את רשת החשמל והערים האוקראיניות. במקביל, מעצמות המערב מקדמות חבילות סנקציות חדשות ודנות בחיזוק הערבויות הביטחוניות לאוקראינה.",
    "fronts": [
     {
-     "name": "החזית המזרחית (דונייצק)",
-     "status": "פעילה והתקפית"
+     "name": "חזית המזרח והדרום באוקראינה",
+     "status": "פעיל וקבוע"
     },
     {
-     "name": "החזית הצפון-מזרחית (חארקוב)",
-     "status": "פעילה עם הפגזות חוזרות"
+     "name": "חזית התשתיות והאנרגיה",
+     "status": "הסלמה בתקיפות ההדדיות"
     },
     {
-     "name": "עורף קייב והמרכז",
-     "status": "תחת מתקפות כטב\"מים וטילים"
-    },
-    {
-     "name": "זירת הים התיכון והים הבלטי",
-     "status": "פעילות ימית ותקיפות כלי שיט"
+     "name": "החזית הימית (הים השחור ולוב)",
+     "status": "פעילות אוקראינית התקפית"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-11230044-01",
-     "title": "עימותים במנזר קייב פצ'רסק",
-     "summary": "התרחשו עימותים בשטח מנזר קייב פצ'רסק.",
-     "axis": "חזית פנים אוקראינה",
+     "id": "UKRAINE-11232219-01",
+     "title": "תקיפת כלי שיט רוסיים מול חופי לוב",
+     "summary": "כוחות אוקראיניים ביצעו מתקפה באמצעות רחופי ימיה נגד קורבטה ואוניית מטען רוסיות מול חופי לוב.",
+     "axis": "תקיפות והגנה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-23T00:30:00+00:00",
+     "occurred_at": "2026-11-23T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-23T00:30:00+00:00",
-     "last_update_at": "2026-11-23T00:30:00+00:00",
-     "what_is_not_verified": "פרטים מלאים על נסיבות העימותים",
+     "first_reported_at": "2026-11-23T15:41:23+00:00",
+     "last_update_at": "2026-11-23T21:00:00+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק מחוץ לדיווחים הרשמיים והתקשורתיים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "fh_aed81a5f2b0a14df",
-       "url": "https://www.ukrinform.net/rubric-emergencies/4187399-clashes-break-out-at-kyiv-pechersk-lavra.html",
-       "published_at": "2026-11-23T00:30:00+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4187865-zelensky-ukraine-to-continue-naval-strikes-after-hitting-two-russian-vessels-off-libya.html",
+       "published_at": "2026-11-23T21:00:00+00:00"
+      },
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/world/2223623",
+       "published_at": "2026-11-23T19:46:08+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/ukraine-war-latest-russian-warship-sinks-off-libyan-coast-following-exemplary-ukrainian-drone-attack/",
+       "published_at": "2026-11-23T19:11:38+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/video/2026/nov/23/footage-shows-ukrainian-marine-drones-targeting-russian-ships-video",
+       "published_at": "2026-11-23T16:12:44+00:00"
+      },
+      {
+       "source_id": "src_bbc",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+       "published_at": "2026-11-23T15:41:23+00:00"
       }
      ],
      "places": [
       {
-       "name": "מנזר קייב פצ'רסק, אוקראינה",
-       "lat": 50.4342,
-       "lon": 30.5587
+       "name": "בנגאזי, לוב",
+       "lat": 32.12,
+       "lon": 20.0812
       }
      ]
     },
     {
-     "id": "UKRAINE-11230044-02",
-     "title": "גיוס תרומות באזור לבוב",
-     "summary": "התקיים מכרז צדקה שאסף כספים לתמיכה במגיני אוקראינה.",
-     "axis": "עורף אוקראינה",
+     "id": "UKRAINE-11232219-02",
+     "title": "תקיפת בתי זיקוק ותשתיות אנרגיה ברוסיה",
+     "summary": "כוחות אוקראיניים תקפו בית זיקוק לנפט ותחנת שאיבה ברוסיה, ופגעו במתקני אנרגיה נוספים.",
+     "axis": "תקיפות והגנה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-22T23:36:00+00:00",
+     "occurred_at": "2026-11-23T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-22T23:36:00+00:00",
-     "last_update_at": "2026-11-22T23:36:00+00:00",
-     "what_is_not_verified": "לא צויין",
+     "first_reported_at": "2026-11-23T18:36:00+00:00",
+     "last_update_at": "2026-11-23T19:53:00+00:00",
+     "what_is_not_verified": "מלוא היקף הפגיעה במתקנים.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "fh_4e7ee6a602ee1917",
-       "url": "https://www.ukrinform.net/rubric-society/4187282-charity-auction-in-lviv-region-raises-uah-60-mln-to-support-ukrainian-defenders.html",
-       "published_at": "2026-11-22T23:36:00+00:00"
+       "source_root_id": "fh_7f0d4a1041498c84",
+       "url": "https://www.ukrinform.net/rubric-ato/4187846-general-staff-confirms-strike-on-lukoil-oil-refinery-in-perm.html",
+       "published_at": "2026-11-23T19:53:00+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_7f0d4a1041498c84",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/23/8064292/",
+       "published_at": "2026-11-23T18:36:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "פרם, רוסיה",
+       "lat": 58.0109,
+       "lon": 56.2319
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11232219-03",
+     "title": "פגיעה בתשתיות אנרגיה באוקראינה",
+     "summary": "תקיפות פגעו במערכות החשמל ובמתקני אנרגיה באזורים שונים באוקראינה, והותירו מאות אלפי בתי אב ללא חשמל.",
+     "axis": "תקיפות והגנה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-22T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-23T19:19:18+00:00",
+     "last_update_at": "2026-11-23T19:19:18+00:00",
+     "what_is_not_verified": "זהות אמצעי הלחימה המדויקים בכל אתר ואתר.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_e456cb702a7ea052",
+       "url": "https://kyivindependent.com/over-350-000-homes-without-power-as-energy-crisis-deepens-in-dnipropetrovsk-oblast/",
+       "published_at": "2026-11-23T19:19:18+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דניפרו, אוקראינה",
+       "lat": 51.5567,
+       "lon": 30.6122
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11232219-04",
+     "title": "יירוט רחפן שיוט רוסי באמצעות רחפן יירוט אוקראיני",
+     "summary": "הצד האוקראיני דיווח על יירוט מוצלח ראשון של טיסן תוקף מסוג גראן-5 באמצעות רחפן יירוט מסוג SPYS.",
+     "axis": "טכנולוגיה ואמצעי לחימה",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-23T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-23T17:47:53+00:00",
+     "last_update_at": "2026-11-23T19:35:00+00:00",
+     "what_is_not_verified": "אמינות מלאה של התיעוד הוויזואלי ופרטי הביצוע המלאים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_b93f8aa6c024e120",
+       "url": "https://www.ukrinform.net/rubric-defense/4187843-germanukrainian-spys-interceptor-drone-shoots-down-russian-jetpowered-geran5.html",
+       "published_at": "2026-11-23T19:35:00+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_b93f8aa6c024e120",
+       "url": "https://t.me/alexmehacarmel/49858",
+       "published_at": "2026-11-23T17:47:53+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-11230044-03",
-     "title": "איתור שברי טילי שיוט בפולין",
-     "summary": "הרשויות בפולין איתרו שברי טילי שיוט רוסיים ממספר אתרים במזרח המדינה בעקבות חדירה למרחב האווירי.",
-     "axis": "גבול אוקראינה-פולין/נאט\"ו",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T22:49:25+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-22T22:49:25+00:00",
-     "last_update_at": "2026-11-22T23:26:30+00:00",
-     "what_is_not_verified": "האם שברי הטילים שייכים לאירוע תקיפה ספציפי או נפלו כתוצאה מיירט",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "fh_0d98fb200aa2a447",
-       "url": "https://kyivindependent.com/polish-authorities-find-russian-missile-remains-at-three-sites-following-airspace-incursion/",
-       "published_at": "2026-11-22T23:26:30+00:00"
-      },
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "fh_0d98fb200aa2a447",
-       "url": "https://www.ynet.co.il/news/article/h1ocd5g17g",
-       "published_at": "2026-11-22T22:49:25+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "נובי ליפובייץ, פולין",
-       "lat": 50.4403,
-       "lon": 22.8375
-      },
-      {
-       "name": "רודניק, פולין",
-       "lat": 50.4448,
-       "lon": 22.244
-      },
-      {
-       "name": "מולודיץ', פולין",
-       "lat": 50.1585,
-       "lon": 22.8318
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11230044-04",
-     "title": "תקיפת בית זיקוק במחוז רוסטוב",
-     "summary": "דווח על תקיפת בית זיקוק במחוז רוסטוב על ידי כוחות אוקראיניים.",
-     "axis": "עורף רוסיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T23:12:10+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-22T23:12:10+00:00",
-     "last_update_at": "2026-11-22T23:12:10+00:00",
-     "what_is_not_verified": "היקף הנזק המלא בבית הזיקוק",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_src_tg_carmel",
-       "url": "https://t.me/alexmehacarmel/49843",
-       "published_at": "2026-11-22T23:12:10+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מחוז רוסטוב, רוסיה",
-       "lat": 44.4977,
-       "lon": 42.5301
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11230044-05",
-     "title": "תקיפת ספינת מלחמה רוסית בלוב ותקיפות נוספות",
-     "summary": "סירות נפץ בלתי מאוישות פגעו בספינת המלחמה 'מרקורי' בבנגאזי שבלוב, ובמקביל דווח על תקיפת ספינה בים הבלטי ומתקפת כטב\"מים על אזור קייב.",
-     "axis": "זירת הים התיכון והים הבלטי",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T22:49:25+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-22T22:49:25+00:00",
-     "last_update_at": "2026-11-22T22:49:25+00:00",
-     "what_is_not_verified": "אחריות רשמית של אוקראינה לתקיפה בלוב",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ynet",
-       "source_root_id": "or_src_ynet",
-       "url": "https://www.ynet.co.il/news/article/h1ocd5g17g",
-       "published_at": "2026-11-22T22:49:25+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בנגאזי, לוב",
-       "lat": 32.12,
-       "lon": 20.0812
-      },
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11230044-06",
-     "title": "הפגזות ומניין הרוגים בסלובייאנסק",
-     "summary": "כוחות רוסיים הפגיזו את העיר סלובייאנסק במחוז דונייצק, דבר שהביא למותם של שני בני אדם ולפציעתם של שלושה נוספים.",
-     "axis": "החזית המזרחית (דונייצק)",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T21:52:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-22T21:52:00+00:00",
-     "last_update_at": "2026-11-22T21:52:00+00:00",
-     "what_is_not_verified": "לא צויין",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_d642b2229f865b01",
-       "url": "https://www.ukrinform.net/rubric-ato/4187484-russian-forces-strike-sloviansk-killing-two-injuring-three-others.html",
-       "published_at": "2026-11-22T21:52:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "סלובייאנסק, אוקראינה",
-       "lat": 48.8523,
-       "lon": 37.6058
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11230044-07",
-     "title": "טיבוע ספינת מלחמה רוסית בבנגאזי",
-     "summary": "קורבטה רוסית בשם 'מרקורי' נפגעה קשות וטבעה בנמל בנגאזי בעקבות מתקפת כלי שיט בלתי מאוישים.",
-     "axis": "זירת הים התיכון",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T21:33:44+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-22T21:33:44+00:00",
-     "last_update_at": "2026-11-22T21:33:44+00:00",
-     "what_is_not_verified": "זהות המפעילים המדויקים של כלי הצי הימי הבלתי מאויש",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_libyan_officials",
-       "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-       "published_at": "2026-11-22T21:33:44+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "בנגאזי, לוב",
-       "lat": 32.12,
-       "lon": 20.0812
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11230044-08",
-     "title": "ניסיונות רוסיים לניתוק מקורות אנרגיה באודסה ובדניפרופטרובסק",
-     "summary": "נשיא אוקראינה ציין כי כוחות רוסיים מנסים לנתק את אזורי אודסה ודניפרופטרובסק ממקורות האנרגיה שלהם.",
-     "axis": "תשתיות אנרגיה ואתרים אסטרטגיים",
+     "id": "UKRAINE-11232219-05",
+     "title": "זימון נציג אסטוניה במשרד החוץ הרוסי",
+     "summary": "רוסיה זימנה את הממונה על העסקים של אסטוניה והגישה מחאה חריפה על סגירת הגבול והאשמות נגד מוסקבה.",
+     "axis": "דיפלומטיה וסנקציות",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-22T21:32:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-22T21:32:00+00:00",
-     "last_update_at": "2026-11-22T21:32:00+00:00",
-     "what_is_not_verified": "הצלחתם המלאה של הניתוקים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_2eb1e9f5a3d4bf79",
-       "url": "https://www.ukrinform.net/rubric-ato/4187483-russia-tries-to-cut-off-odesa-and-dnipropetrovsk-regions-from-energy-sources-zelensky.html",
-       "published_at": "2026-11-22T21:32:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אודסה, אוקראינה",
-       "lat": 46.4843,
-       "lon": 30.7323
-      },
-      {
-       "name": "דניפרופטרובסק, אוקראינה",
-       "lat": 48.468,
-       "lon": 35.0418
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11230044-09",
-     "title": "הפגזות אוקראיניות על הרפובליקה העממית של דונייצק",
-     "summary": "דווח על 45 הפגזות אוקראיניות באזורים מיושבים בדונייצק שהביאו לפציעת שבעה אזרחים.",
-     "axis": "החזית המזרחית",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T21:30:05+00:00",
+     "occurred_at": "2026-11-23T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-22T21:30:05+00:00",
-     "last_update_at": "2026-11-22T21:30:05+00:00",
-     "what_is_not_verified": "אמינות הנתונים הנמסרים מצד רשויות רוסיה/דונייצק",
+     "first_reported_at": "2026-11-23T22:09:24+00:00",
+     "last_update_at": "2026-11-23T22:09:24+00:00",
+     "what_is_not_verified": "טענות הדדיות לגבי שימוש במרחב אווירי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tass",
-       "source_root_id": "fh_2953b86a61a1b989",
-       "url": "https://tass.com/defense/2223091",
-       "published_at": "2026-11-22T21:30:05+00:00"
+       "source_id": "src_meduza",
+       "source_root_id": "fh_680a98a52e01ceb9",
+       "url": "https://meduza.io/en/news/2026/11/24/russia-protests-estonia-s-planned-land-border-closure-and-again-accuses-it-of-letting-ukrainian-drones-use-its-airspace",
+       "published_at": "2026-11-23T22:09:24+00:00"
       }
      ],
      "places": [
       {
-       "name": "דונייצק, אוקראינה",
-       "lat": 48.0159,
-       "lon": 37.8013
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11230044-10",
-     "title": "פגיעת כטב\"ם ג'אהד בגן ילדים בחארקוב",
-     "summary": "כטב\"ם מסוג שהאד פגע בגן ילדים ברובע נמישליאנסקי שבחארקוב, ומספר בני אדם נפצעו.",
-     "axis": "החזית הצפון-מזרחית (חארקוב)",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T21:02:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-22T21:02:00+00:00",
-     "last_update_at": "2026-11-22T21:02:00+00:00",
-     "what_is_not_verified": "מספר הפצועים המדויק וחומרת פציעתם",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_1a07c5fbbaa31ce9",
-       "url": "https://www.ukrinform.net/rubric-ato/4187482-shahed-drone-strikes-kindergarten-in-kharkiv-several-injured.html",
-       "published_at": "2026-11-22T21:02:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חארקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11230044-11",
-     "title": "נזק לגן ילדים בהורלובקה מתקיפת כטב\"ם אוקראיני",
-     "summary": "כטב\"מים אוקראיניים פגעו וגרמו נזק לגן ילדים, לבנייני מגורים ולרכבים בהורלובקה.",
-     "axis": "החזית המזרחית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T20:48:32+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-22T20:48:32+00:00",
-     "last_update_at": "2026-11-22T20:48:32+00:00",
-     "what_is_not_verified": "היקף הנזק המלא",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tass",
-       "source_root_id": "fh_7bb524ee96c79ccc",
-       "url": "https://tass.com/emergencies/2223089",
-       "published_at": "2026-11-22T20:48:32+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "הורלובקה, אוקראינה",
-       "lat": 48.3059,
-       "lon": 38.0028
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11230044-12",
-     "title": "תקיפות רוסיות נוספות בחארקוב",
-     "summary": "נמשכות התקיפות הרוסיות בחארקוב, עם דיווח על פגיעה ברובע חולודנוהירסקי.",
-     "axis": "החזית הצפון-מזרחית (חארקוב)",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T20:31:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-22T20:31:00+00:00",
-     "last_update_at": "2026-11-22T20:31:00+00:00",
-     "what_is_not_verified": "פרטים על נפגעים נוספים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_f6a1a995a7cb7510",
-       "url": "https://www.ukrinform.net/rubric-ato/4187481-russian-attacks-on-kharkiv-continue-strike-reported-in-one-district.html",
-       "published_at": "2026-11-22T20:31:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חארקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11230044-13",
-     "title": "חילוץ פעוט וגופות מהריסות בדימר",
-     "summary": "כוחות ההצלה חילצו ילד בחיים ומספר גופות מתחת להריסות של בניין מגורים שהופצץ בדימר שבמחוז קייב.",
-     "axis": "עורף קייב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T19:29:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-22T19:29:00+00:00",
-     "last_update_at": "2026-11-22T19:29:00+00:00",
-     "what_is_not_verified": "גורלם של נעדרים נוספים תחת ההריסות",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_333d42f144bd3f1d",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/22/8064075/",
-       "published_at": "2026-11-22T19:29:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דימר, אוקראינה",
-       "lat": 50.7864,
-       "lon": 30.3039
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11230044-14",
-     "title": "פגיעה בחנות במחוז קייב והרוגים",
-     "summary": "פגיעת כטב\"ם בחנות מכולת ובסופרמרקט ביישוב וישנבֶה שבמחוז קייב גרמה למותם של שלושה בני אדם ולפציעתם של 15 נוספים.",
-     "axis": "עורף קייב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T18:44:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-22T18:44:00+00:00",
-     "last_update_at": "2026-11-22T18:44:00+00:00",
-     "what_is_not_verified": "מספר סופי של נפגעים מתחת להריסות האזור",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_1380b4c93aecb8a5",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/22/8064090/",
-       "published_at": "2026-11-22T18:44:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "וישנבה, אוקראינה",
-       "lat": 50.3917,
-       "lon": 30.3679
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11230044-15",
-     "title": "הפסקות חשמל חירום במספר מחוזות באוקראינה",
-     "summary": "חברת האנרגיה הלאומית של אוקראינה דיווחה על הפסקות חשמל חירום בחמישה מחוזות בעקבות תקיפות רוסיות על מתקני אנרגיה.",
-     "axis": "תשתיות אנרגיה ואתרים אסטרטגיים",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T17:30:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-22T17:30:00+00:00",
-     "last_update_at": "2026-11-22T17:30:00+00:00",
-     "what_is_not_verified": "מועד מדויק לתיקון מלא של התשתיות בכל האזורים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_e096a145397852b8",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/22/8064085/",
-       "published_at": "2026-11-22T17:30:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מחוז זפוריז'יה, אוקראינה",
-       "lat": 46.4609,
-       "lon": 34.8643
+       "name": "מוסקבה, רוסיה",
+       "lat": 55.7505,
+       "lon": 37.6175
       }
      ]
     }
    ],
    "not_verified": [
-    "מעורבות ישירה ורשמית של אוקראינה בתקיפות הספינות בבנגאזי ובלוב",
-    "דיווחים על קשר של מדינות בלטיות לתקיפות במובלעת קלינינגרד",
-    "היקף הנזק המדויק בבתי הזיקוק במחוז רוסטוב"
+    "טענת רוסיה כי אסטוניה מאפשרת למל\"טים אוקראיניים לעבור במרחב האווירי שלה",
+    "מספר האבדות המדויק בצבא רוסיה המבוסס על נתונים מודלפים",
+    "טענות על היערכות רוסית לשגר לוויין עם נשק גרעיני"
    ],
    "map": {
     "confidence": "high",
@@ -1198,375 +914,282 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.099,
+     "value": 1.0939,
      "unit": "USD",
-     "change_pct": -0.02,
+     "change_pct": -0.46,
      "source_id": "src_ecb",
-     "as_of": "2026-11-20T15:00:00+00:00"
+     "as_of": "2026-11-23T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "אוקראינה",
      "declared": [
-      "הגנה על שטחי המדינה",
-      "קבלת תמיכה צבאית וכלכלית בינלאומית"
+      "השגת הפסקת אש מיידית ומקיפה על בסיס מגילת האו\"ם",
+      "קבלת ערבויות ביטחוניות איתנות",
+      "המשכת הפעילות הצבאית הימית והאווירית נגד נכסים רוסיים"
      ],
      "inferred": [
-      "שיבוש נתיבי האספקה והלוגיסטיקה הימיים והיבשתיים של רוסיה",
-      "פגיעה בתשתיות עורפיות בתוך רוסיה ובנכסים רוסיים מחוץ לגבולות המדינה"
+      "פגיעה ביכולת הכלכלית והאנרגטית של רוסיה כדי לשחוק את מאמץ המלחמה שלה",
+      "שמירת תמיכת המערב ואספקת אמצעי הגנה אווירית מתקדמים"
      ],
      "forecast": [
-      "המשך מאמצים להשגת מערכות הגנה אווירית מתקדמות מבני ברית",
-      "הרחבת פעילות הכטב\"מים נגד נכסים ימיים ויבשתיים של רוסיה"
+      "אוקראינה תמשיך בניסיונות לפגוע בתשתיות עומק ברוסיה ובנכסיה הימיים",
+      "הגברת התלות בסיוע טכנולוגי וצבאי מערבי להגנה מפני מל\"טים"
      ]
     },
     {
      "actor": "רוסיה",
      "declared": [
-      "פגיעה בתשתיות הצבאיות והתומכות של אוקראינה"
+      "המשכת הפעילות הצבאית עד להשגת היעדים",
+      "מניעת התרחבות נאט\"ו ותגובה על צעדים עוינים מצד מדינות אירופה"
      ],
      "inferred": [
-      "שחיקת משק האנרגיה האוקראיני לקראת עונת החורף",
-      "שיבוש רשתות החשמל והתשתיות האזרחיות כדי לשבור את הרוח הציבורית"
+      "המשך שחיקת תשתיות האנרגיה של אוקראינה לקראת עונת החורף",
+      "ניסיון לערער את הלגיטימציה של הסיוע המערבי לאוקראינה"
      ],
      "forecast": [
-      "המשך שימוש במתקפות אוויריות מרוכזות של כטב\"מים וטילים ארוכי טווח",
-      "התגוננות מפני מתקפות סימטריות ואסימטריות על צי המטען והמלחמה הימי שלה"
+      "הגברת התקיפות על מתקני אנרגיה ותחבורה באוקראינה",
+      "המרת אמצעי תקיפה אוויריים בייצור מוגבר של כלי טיס בלתי מאוישים מתקדמים"
      ]
     },
     {
-     "actor": "ארצות הברית ובעלות בריתה",
+     "actor": "המערב (נאט\"ו והאיחוד האירופי)",
      "declared": [
-      "קיום דיונים על ארכיטקטורת ביטחון לאחר הסכסוך",
-      "בחינת אפשרויות למתן ערבויות ביטחוניות דומות לסעיף 5"
+      "שמירת התמיכה באוקראינה ואספקת ציוד הגנה אווירי",
+      "הטלת סנקציות כלכליות נוספות על רוסיה ומניעת עקפתן"
      ],
      "inferred": [
-      "שאיפה להפחתת הנטל הכלכלי על ארה\"ב והעברת נטל המימון לאירופה",
-      "ניסיון למנוע זליגה רחבה של העימות למדינות נאט\"ו"
+      "היערכות ארוכת טווח לעימות אפשרי מול רוסיה וחיזוק הגבולות המזרחיים",
+      "מניעת גלישה של העימות מחוץ לגבולות אוקראינה"
      ],
      "forecast": [
-      "המשך לחץ מדיני לקידום פתרונות דיפלומטיים עתידיים",
-      "וויכוחים פנימיים באירופה לגבי מתווה התקציב ותמיכה ישירה באוקראינה"
+      "אישור חבילות סנקציות נוספות נגד מגזר האנרגיה הרוסי",
+      "הרחבת הנוכחות והתרגילים הצבאיים במדינות הבלטיות"
      ]
     }
    ],
    "sources_cited": [
     {
+     "source_id": "src_bbc",
+     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+     "accessed_at": "2026-11-23T22:19:08+00:00"
+    },
+    {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-     "accessed_at": "2026-11-23T00:44:14+00:00"
+     "url": "https://www.theguardian.com/world/video/2026/nov/23/footage-shows-ukrainian-marine-drones-targeting-russian-ships-video",
+     "accessed_at": "2026-11-23T22:19:08+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/polish-authorities-find-russian-missile-remains-at-three-sites-following-airspace-incursion/",
-     "accessed_at": "2026-11-23T00:44:14+00:00"
+     "url": "https://kyivindependent.com/over-350-000-homes-without-power-as-energy-crisis-deepens-in-dnipropetrovsk-oblast/",
+     "accessed_at": "2026-11-23T22:19:08+00:00"
+    },
+    {
+     "source_id": "src_meduza",
+     "url": "https://meduza.io/en/news/2026/11/24/russia-protests-estonia-s-planned-land-border-closure-and-again-accuses-it-of-letting-ukrainian-drones-use-its-airspace",
+     "accessed_at": "2026-11-23T22:19:08+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/22/8064085/",
-     "accessed_at": "2026-11-23T00:44:14+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/23/8064292/",
+     "accessed_at": "2026-11-23T22:19:08+00:00"
     },
     {
      "source_id": "src_tass",
-     "url": "https://tass.com/emergencies/2223089",
-     "accessed_at": "2026-11-23T00:44:14+00:00"
+     "url": "https://tass.com/world/2223623",
+     "accessed_at": "2026-11-23T22:19:08+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49843",
-     "accessed_at": "2026-11-23T00:44:14+00:00"
+     "url": "https://t.me/alexmehacarmel/49858",
+     "accessed_at": "2026-11-23T22:19:08+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-ato/4187481-russian-attacks-on-kharkiv-continue-strike-reported-in-one-district.html",
-     "accessed_at": "2026-11-23T00:44:14+00:00"
-    },
-    {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/h1ocd5g17g",
-     "accessed_at": "2026-11-23T00:44:14+00:00"
+     "url": "https://www.ukrinform.net/rubric-defense/4187843-germanukrainian-spys-interceptor-drone-shoots-down-russian-jetpowered-geran5.html",
+     "accessed_at": "2026-11-23T22:19:08+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-22T07:24:50+00:00",
+  "previous_generated_at": "2026-11-23T00:44:14+00:00",
   "changes": {
-   "UKRAINE-11230044-01": {
-    "kind": "new"
+   "UKRAINE-11232219-01": {
+    "kind": "same",
+    "from": "initial",
+    "to": "shared_root",
+    "prev": "תקיפת ספינת מלחמה רוסית בלוב ותקיפות נוספות",
+    "score": 0.817
    },
-   "UKRAINE-11230044-02": {
-    "kind": "new"
-   },
-   "UKRAINE-11230044-03": {
-    "kind": "new"
-   },
-   "UKRAINE-11230044-04": {
-    "kind": "new"
-   },
-   "UKRAINE-11230044-05": {
-    "kind": "new"
-   },
-   "UKRAINE-11230044-06": {
-    "kind": "new"
-   },
-   "UKRAINE-11230044-07": {
-    "kind": "new"
-   },
-   "UKRAINE-11230044-08": {
-    "kind": "new"
-   },
-   "UKRAINE-11230044-09": {
-    "kind": "new"
-   },
-   "UKRAINE-11230044-10": {
+   "UKRAINE-11232219-02": {
     "kind": "possible",
-    "prev": "פגיעת כטב״ם באוניה רוסית בים הבלטי",
+    "prev": "תקיפת בית זיקוק במחוז רוסטוב",
     "score": 0.467
    },
-   "UKRAINE-11230044-11": {
+   "UKRAINE-11232219-03": {
     "kind": "new"
    },
-   "UKRAINE-11230044-12": {
-    "kind": "possible",
-    "prev": "תקיפות רוסיות במחוז סומי",
-    "score": 0.467
-   },
-   "UKRAINE-11230044-13": {
+   "UKRAINE-11232219-04": {
     "kind": "new"
    },
-   "UKRAINE-11230044-14": {
-    "kind": "possible",
-    "prev": "פגיעת כטב״ם במבנה מגורים במחוז קייב",
-    "score": 0.467
-   },
-   "UKRAINE-11230044-15": {
+   "UKRAINE-11232219-05": {
     "kind": "new"
    }
   }
  },
  "north": {
-  "draft": "drafts/north/2026-11-23T0045__north-202611230045.json",
+  "draft": "drafts/north/2026-11-23T2219__north-202611232219.json",
   "analysis": {
    "contract_version": 1,
    "arena": "north",
-   "generated_at": "2026-11-23T00:45:49+00:00",
+   "generated_at": "2026-11-23T22:19:52+00:00",
    "window": {
-    "from": "2026-11-22T00:45:49+00:00",
-    "to": "2026-11-23T00:45:49+00:00"
+    "from": "2026-11-22T22:19:52+00:00",
+    "to": "2026-11-23T22:19:52+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "north-202611230045"
+    "run_id": "north-202611232219"
    },
-   "summary": "בזירה הצפונית נמשכות פעולות הנדסיות והרס מבנים מצד כוחות צה\"ל בדרום לבנון, לצד מחאות מקומיות של תושבים וגינויים מצד הנהגת לבנון. במקביל, בגבול סוריה ולבנון מתבצעות תפיסות אמצעי לחימה והברחות, ובדרום סוריה מדווח על פעילות צבאית ישראלית שוטפת והגבלות על חקלאים מקומיים.",
+   "summary": "הגזרה הצפונית של ישראל מתאפיינת בפעילות צבאית מתמשכת מול חיזבאללה בלבנון ובמרחב הגבול הסורי, לצד מתיחות פוליטית ודיפלומטית סביב נוכחות ישראלית ותקיפות ממוקדמות. במקביל, ממשלת לבנון מתמודדת עם לחצים פנימיים וחיצוניים, כולל ביקורת חריפה על פעילות צה\"ל בתוך מוסדות חינוך ותסכול מול נוכחות צבאית זרה בגבולה.",
    "fronts": [
     {
-     "name": "חזית לבנון",
-     "status": "פעיל חלקית עם פעולות צה\"ל והתרחשויות בגבול"
+     "name": "חזית לבנון-ישראל",
+     "status": "פעילה ומתוחה"
     },
     {
-     "name": "חזית סוריה",
-     "status": "פעיל עם עימותים מקומיים, מוקשים, ופעילות צבאית באזור הגבול"
+     "name": "גבול לבנון-סוריה",
+     "status": "מוקד הברחות ופעילות צבאית"
     }
    ],
    "events": [
     {
-     "id": "NORTH-11230045-01",
-     "title": "ביקור דוברת צה\"ל בבית ספר בדרום לבנון",
-     "summary": "דוברת צה\"ל בערבית ביקרה בבית ספר בכפר דבל ועוררה ביקורת מצד ראש ממשלת לבנון והעירייה.",
-     "axis": "הזירה הצפונית",
+     "id": "NORTH-11232219-01",
+     "title": "תקיפת צה\"ל בברעשית",
+     "summary": "צה\"ל תקף בכפר ברעשית שבדרום לבנון.",
+     "axis": "ישראל - לבנון",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-22T21:06:23+00:00",
+     "occurred_at": "2026-11-23T13:21:49+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-22T21:06:23+00:00",
-     "last_update_at": "2026-11-22T22:55:18+00:00",
-     "what_is_not_verified": "הטענות על אופי הביקור וההקשר שלו",
+     "first_reported_at": "2026-11-23T13:21:49+00:00",
+     "last_update_at": "2026-11-23T13:21:49+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ynet",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.ynet.co.il/news/article/s1bxcal1qe",
-       "published_at": "2026-11-22T22:55:18+00:00"
-      },
-      {
-       "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21910055",
-       "published_at": "2026-11-22T21:06:23+00:00"
+       "url": "https://t.me/abualiexpress/134100",
+       "published_at": "2026-11-23T13:21:49+00:00"
       }
      ],
      "places": [
       {
-       "name": "דבל",
+       "name": "ברעשית, לבנון",
+       "lat": 33.1195,
+       "lon": 35.4328
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11232219-02",
+     "title": "ביקור דוברת צה\"ל בבית ספר בדבל",
+     "summary": "דוברת צה\"ל בערבית ביקרה בבית ספר בכפר דבל ועוררה סערה מדינית ותקשורתית.",
+     "axis": "ישראל - לבנון",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-22T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-23T04:59:23+00:00",
+     "last_update_at": "2026-11-23T08:48:32+00:00",
+     "what_is_not_verified": "הטענות על אופי הביקור ותאום מוקדם",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_walla",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.walla.co.il/news/military/383962666",
+       "published_at": "2026-11-23T08:48:32+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/134075",
+       "published_at": "2026-11-23T06:23:29+00:00"
+      },
+      {
+       "source_id": "src_walla",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.walla.co.il/news/military/383962633",
+       "published_at": "2026-11-23T04:59:23+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דבל, לבנון",
        "lat": 33.2492,
        "lon": 35.3489
       }
      ]
     },
     {
-     "id": "NORTH-11230045-02",
-     "title": "פיצוצים והריסת מבנים בדרום לבנון",
-     "summary": "כוחות צה\"ל ביצעו פיצוצים והרס מבנים במספר מוקדים בדרום לבנון.",
-     "axis": "הזירה הצפונית",
+     "id": "NORTH-11232219-03",
+     "title": "סיכול הברחת חלקי חומרי נפץ בגבול לבנון-סוריה",
+     "summary": "הצבא הלבנוני סיכל מספר ניסיונות הברחת חומרי נפץ מסוריה לתוך שטח לבנון ועצר חשודים.",
+     "axis": "לבנון - סוריה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-22T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-22T11:02:22+00:00",
-     "last_update_at": "2026-11-22T22:54:33+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק בכל כפר וכפר",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-carries-out-more-demolitions-southern-lebanon",
-       "published_at": "2026-11-22T22:54:33+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/134053",
-       "published_at": "2026-11-22T14:51:42+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/153742/",
-       "published_at": "2026-11-22T11:02:22+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קנטרה",
-       "lat": 33.2735,
-       "lon": 35.4591
-      },
-      {
-       "name": "כפר טיבנית",
-       "lat": 33.3519,
-       "lon": 35.5186
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11230045-03",
-     "title": "פיצוץ מוקש בצפון-מערב סוריה",
-     "summary": "פיצוץ מוקש נותר מעברה של מלחמת האזרחים הרג חמישה ילדים בכפר בסוריה.",
-     "axis": "הזירה הצפונית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T00:00:00+00:00",
+     "occurred_at": "2026-11-23T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-22T17:30:44+00:00",
-     "last_update_at": "2026-11-22T22:09:36+00:00",
-     "what_is_not_verified": "זהות הגורם המדויק שהניח את המוקש הספציפי",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/landmine-blast-kills-5-children-northwest-syria",
-       "published_at": "2026-11-22T22:09:36+00:00"
-      },
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/landmine-explosion-kills-4-children-injures-2-in-northwestern-syria/4133764",
-       "published_at": "2026-11-22T17:30:44+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-11230045-04",
-     "title": "השמדת חומרי נפץ וסמים בסוריה",
-     "summary": "מחלקת המלחמה בסמים של סוריה השמידה כמויות גדולות של סמים וחומרים אסורים.",
-     "axis": "הזירה הצפונית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-22T18:21:01+00:00",
-     "last_update_at": "2026-11-22T18:21:01+00:00",
-     "what_is_not_verified": "היקף התפשטות הרשתות מעבר לנתונים הרשמיים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_enabbaladi",
-       "source_root_id": "fh_73c06d2022eb4871",
-       "url": "https://english.enabbaladi.net/archives/2026/11/syrias-anti-narcotics-department-destroys-drugs-seized-in-security-operations/",
-       "published_at": "2026-11-22T18:21:01+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דמשק",
-       "lat": 33.5131,
-       "lon": 36.3096
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11230045-05",
-     "title": "תפיסת משלוח חומרי נפץ בגבול לבנון-סוריה",
-     "summary": "הצבא הלבנוני תפס משלוח חומרי נפץ מסוג סי-פור וטי-אנ-טי שהוברחו מסוריה ועצר חשודים.",
-     "axis": "הזירה הצפונית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-22T10:43:03+00:00",
-     "last_update_at": "2026-11-22T10:43:03+00:00",
-     "what_is_not_verified": "היעד הסופי של משלוח חומרי הנפץ ומעורבות ארגונים נסתרים",
+     "first_reported_at": "2026-11-23T15:10:00+00:00",
+     "last_update_at": "2026-11-23T15:10:00+00:00",
+     "what_is_not_verified": "זהות המקבל המיועד של חומרי הנפץ",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_lbci",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.lbcgroup.tv/news/lebanon-news/969192/sources-to-lbci-lebanese-army-seizes-264-kilograms-of-explosives-smugg/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969192",
-       "published_at": "2026-11-22T10:43:03+00:00"
+       "source_root_id": "fh_b992fc98216ef237",
+       "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/969342/four-smuggling-attempts-733-kilograms-of-explosives-seized-in-lebanon/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969342",
+       "published_at": "2026-11-23T15:10:00+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-11230045-06",
-     "title": "מניעת מסיק זיתים והגבלות על חקלאים בדרום סוריה",
-     "summary": "כוחות ישראליים מנעו מחקלאים מקומיים לקטוף זיתים באזור קוניטרה ודרעא ודרשו מהם לעזוב את האדמות.",
-     "axis": "הזירה הצפונית",
+     "id": "NORTH-11232219-04",
+     "title": "תקיפת מתקן הייצור של חיזבאללה בגבול סוריה",
+     "summary": "צה\"ל תקף מתקן תת-קרקעי לייצור והחסנת טילי מדויקים של חיזבאללה בג'נתא סמוך לגבול סוריה.",
+     "axis": "ישראל - לבנון - סוריה",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-22T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-22T12:59:14+00:00",
-     "last_update_at": "2026-11-22T12:59:14+00:00",
-     "what_is_not_verified": "היקף הפעילות המלא של הביצורים בשטח",
+     "occurred_at": "2026-11-19T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-23T09:44:28+00:00",
+     "last_update_at": "2026-11-23T09:44:28+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
+       "source_id": "src_alma",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/153792/",
-       "published_at": "2026-11-22T12:59:14+00:00"
+       "url": "https://israel-alma.org/hezbollah-precision-guided-missile-manufacturing-site-on-syrian-border/",
+       "published_at": "2026-11-23T09:44:28+00:00"
       }
      ],
      "places": [
       {
-       "name": "אל-ראפד",
-       "lat": 32.9559,
-       "lon": 35.9009
+       "name": "ג'נתא, לבנון",
+       "lat": 33.8391,
+       "lon": 36.0996
       }
      ]
     }
    ],
    "not_verified": [
-    "טענות שר החוץ הטורקי על חימוש שבוע של פלגים דרוזים בסוריה על ידי ישראל",
-    "הקשר המדויק בין משלוחי חומרי הנפץ שהוברחו מסוריה לבין גורמים צבאיים ספציפיים",
-    "מניעי החטיפה של הפעיל בסווידא בידי משמרות הלאום"
+    "זהות הגורם המדויק שנועד לקבל את חומרי הנפץ שהוברחו מסוריה ללבנון",
+    "היקף הנזק המלא במתקן הייצור בג'נתא"
    ],
    "map": {
     "confidence": "medium",
@@ -1577,128 +1200,95 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.3428,
+     "value": 3.3498,
      "unit": "ILS",
-     "change_pct": 1.65,
+     "change_pct": 0.21,
      "source_id": "src_ecb",
-     "as_of": "2026-11-20T15:00:00+00:00"
+     "as_of": "2026-11-23T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "ישראל",
      "declared": [
-      "פירוק תשתיות טרור ומניעת התבססות"
+      "מניעת התחמשות חיזבאללה והרחקת איומים בגזרה הצפונית"
      ],
      "inferred": [
-      "יצירת אזורי חיץ ביטחוניים בדרום לבנון ובדרום סוריה"
+      "פגיעה בתשתיות צבאיות ותת-קרקעיות של חיזבאללה סמוך לגבול סוריה"
      ],
      "forecast": [
-      "המשך פעולות הנדסיות וסיכול איומים בגבולות הצפון"
+      "המשך תקיפות נקודתיות נגד תשתיות טרור והברחות"
      ]
     },
     {
-     "actor": "לבנון / ממשלת לבנון",
+     "actor": "חיזבאללה",
      "declared": [
-      "שמירה על ריבונות המדינה וגינוי פעולות צבאיות זרות"
+      "המשך התנגדות לכינונו של מצב כפוי והללת ציר ההתנגדות"
      ],
      "inferred": [
-      "ניסיון להפעיל לחץ מדיני נגד הנוכחות הישראלית בשטחי הגבול"
+      "שימור יכולות שיקום וייצור אמצעי לחימה דרך גבול סוריה"
      ],
      "forecast": [
-      "המשך מחאות והימנעות מקבלת ברכות עצמאות רשמיות כמחאה"
+      "המשך מאמצי התעמולה והגברת ההסתה נגד גורמים מתונים"
      ]
     },
     {
-     "actor": "סוריה / שלטונות סוריה",
+     "actor": "לבנון (ממשל רשמי)",
      "declared": [
-      "טיהור שטחים ממוקשים וניהול כלכלה וביטחון פנים"
+      "שמירה על ריבונות המדינה וגינוי הפרות ריבונות מצד ישראל"
      ],
      "inferred": [
-      "ניסיון לשקם מוסדות ולבלום הברחות גבול"
+      "ניסיון לאזן בין לחצים בינלאומיים לבין התמודדות עם תשתיות חיזבאללה בשטחה"
      ],
      "forecast": [
-      "המשך פינוי אמצעי לחימה וניסיונות ייצוב פנים-ארציים"
+      "הגברת הפיקוח בגבול סוריה למניעת הברחות"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_almanar",
-     "url": "https://english.almanar.com.lb/article/153792/",
-     "accessed_at": "2026-11-23T00:45:49+00:00"
-    },
-    {
-     "source_id": "src_anadolu",
-     "url": "https://www.aa.com.tr/en/middle-east/landmine-explosion-kills-4-children-injures-2-in-northwestern-syria/4133764",
-     "accessed_at": "2026-11-23T00:45:49+00:00"
-    },
-    {
-     "source_id": "src_enabbaladi",
-     "url": "https://english.enabbaladi.net/archives/2026/11/syrias-anti-narcotics-department-destroys-drugs-seized-in-security-operations/",
-     "accessed_at": "2026-11-23T00:45:49+00:00"
-    },
-    {
-     "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21910055",
-     "accessed_at": "2026-11-23T00:45:49+00:00"
+     "source_id": "src_alma",
+     "url": "https://israel-alma.org/hezbollah-precision-guided-missile-manufacturing-site-on-syrian-border/",
+     "accessed_at": "2026-11-23T22:19:52+00:00"
     },
     {
      "source_id": "src_lbci",
-     "url": "https://www.lbcgroup.tv/news/lebanon-news/969192/sources-to-lbci-lebanese-army-seizes-264-kilograms-of-explosives-smugg/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969192",
-     "accessed_at": "2026-11-23T00:45:49+00:00"
-    },
-    {
-     "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-carries-out-more-demolitions-southern-lebanon",
-     "accessed_at": "2026-11-23T00:45:49+00:00"
-    },
-    {
-     "source_id": "src_newarab",
-     "url": "https://www.newarab.com/news/landmine-blast-kills-5-children-northwest-syria",
-     "accessed_at": "2026-11-23T00:45:49+00:00"
+     "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/969342/four-smuggling-attempts-733-kilograms-of-explosives-seized-in-lebanon/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969342",
+     "accessed_at": "2026-11-23T22:19:52+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/134053",
-     "accessed_at": "2026-11-23T00:45:49+00:00"
+     "url": "https://t.me/abualiexpress/134075",
+     "accessed_at": "2026-11-23T22:19:52+00:00"
     },
     {
-     "source_id": "src_ynet",
-     "url": "https://www.ynet.co.il/news/article/s1bxcal1qe",
-     "accessed_at": "2026-11-23T00:45:49+00:00"
+     "source_id": "src_walla",
+     "url": "https://www.walla.co.il/news/military/383962633",
+     "accessed_at": "2026-11-23T22:19:52+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-22T07:31:24+00:00",
+  "previous_generated_at": "2026-11-23T00:45:49+00:00",
   "changes": {
-   "NORTH-11230045-01": {
+   "NORTH-11232219-01": {
+    "kind": "new"
+   },
+   "NORTH-11232219-02": {
     "kind": "same",
     "from": "shared_root",
     "to": "shared_root",
-    "prev": "תקיפות צה\"ל בדרום לבנון",
+    "prev": "ביקור דוברת צה\"ל בבית ספר בדרום לבנון",
+    "score": 1.0
+   },
+   "NORTH-11232219-03": {
+    "kind": "same",
+    "from": "initial",
+    "to": "initial",
+    "prev": "תפיסת משלוח חומרי נפץ בגבול לבנון-סוריה",
     "score": 0.65
    },
-   "NORTH-11230045-02": {
-    "kind": "possible",
-    "prev": "הקמת אנדרטאות זיכרון צבאיות בידי חיילי מילואים בדרום לבנון",
-    "score": 0.467
-   },
-   "NORTH-11230045-03": {
-    "kind": "possible",
-    "prev": "העברת סמכויות והחלטות טורקיות בנוגע למוסדות לימוד בצפון סוריה",
-    "score": 0.467
-   },
-   "NORTH-11230045-04": {
-    "kind": "possible",
-    "prev": "אזהרת שר החוץ הטורקי מפני פעילות ישראלית בסוריה",
-    "score": 0.633
-   },
-   "NORTH-11230045-05": {
-    "kind": "new"
-   },
-   "NORTH-11230045-06": {
+   "NORTH-11232219-04": {
     "kind": "new"
    }
   }

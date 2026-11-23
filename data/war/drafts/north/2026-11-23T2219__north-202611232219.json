@@ -1,0 +1,240 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4160374780be",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 3,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-23T22:19:52+00:00",
+  "window": {
+   "from": "2026-11-22T22:19:52+00:00",
+   "to": "2026-11-23T22:19:52+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611232219"
+  },
+  "summary": "הגזרה הצפונית של ישראל מתאפיינת בפעילות צבאית מתמשכת מול חיזבאללה בלבנון ובמרחב הגבול הסורי, לצד מתיחות פוליטית ודיפלומטית סביב נוכחות ישראלית ותקיפות ממוקדמות. במקביל, ממשלת לבנון מתמודדת עם לחצים פנימיים וחיצוניים, כולל ביקורת חריפה על פעילות צה\"ל בתוך מוסדות חינוך ותסכול מול נוכחות צבאית זרה בגבולה.",
+  "fronts": [
+   {
+    "name": "חזית לבנון-ישראל",
+    "status": "פעילה ומתוחה"
+   },
+   {
+    "name": "גבול לבנון-סוריה",
+    "status": "מוקד הברחות ופעילות צבאית"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11232219-01",
+    "title": "תקיפת צה\"ל בברעשית",
+    "summary": "צה\"ל תקף בכפר ברעשית שבדרום לבנון.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T13:21:49+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-23T13:21:49+00:00",
+    "last_update_at": "2026-11-23T13:21:49+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134100",
+      "published_at": "2026-11-23T13:21:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ברעשית, לבנון",
+      "lat": 33.1195,
+      "lon": 35.4328
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11232219-02",
+    "title": "ביקור דוברת צה\"ל בבית ספר בדבל",
+    "summary": "דוברת צה\"ל בערבית ביקרה בבית ספר בכפר דבל ועוררה סערה מדינית ותקשורתית.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-23T04:59:23+00:00",
+    "last_update_at": "2026-11-23T08:48:32+00:00",
+    "what_is_not_verified": "הטענות על אופי הביקור ותאום מוקדם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383962666",
+      "published_at": "2026-11-23T08:48:32+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134075",
+      "published_at": "2026-11-23T06:23:29+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383962633",
+      "published_at": "2026-11-23T04:59:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דבל, לבנון",
+      "lat": 33.2492,
+      "lon": 35.3489
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11232219-03",
+    "title": "סיכול הברחת חלקי חומרי נפץ בגבול לבנון-סוריה",
+    "summary": "הצבא הלבנוני סיכל מספר ניסיונות הברחת חומרי נפץ מסוריה לתוך שטח לבנון ועצר חשודים.",
+    "axis": "לבנון - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-23T15:10:00+00:00",
+    "last_update_at": "2026-11-23T15:10:00+00:00",
+    "what_is_not_verified": "זהות המקבל המיועד של חומרי הנפץ",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_b992fc98216ef237",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/969342/four-smuggling-attempts-733-kilograms-of-explosives-seized-in-lebanon/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969342",
+      "published_at": "2026-11-23T15:10:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11232219-04",
+    "title": "תקיפת מתקן הייצור של חיזבאללה בגבול סוריה",
+    "summary": "צה\"ל תקף מתקן תת-קרקעי לייצור והחסנת טילי מדויקים של חיזבאללה בג'נתא סמוך לגבול סוריה.",
+    "axis": "ישראל - לבנון - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-19T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-23T09:44:28+00:00",
+    "last_update_at": "2026-11-23T09:44:28+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://israel-alma.org/hezbollah-precision-guided-missile-manufacturing-site-on-syrian-border/",
+      "published_at": "2026-11-23T09:44:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'נתא, לבנון",
+      "lat": 33.8391,
+      "lon": 36.0996
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "זהות הגורם המדויק שנועד לקבל את חומרי הנפץ שהוברחו מסוריה ללבנון",
+   "היקף הנזק המלא במתקן הייצור בג'נתא"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3498,
+    "unit": "ILS",
+    "change_pct": 0.21,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התחמשות חיזבאללה והרחקת איומים בגזרה הצפונית"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות צבאיות ותת-קרקעיות של חיזבאללה סמוך לגבול סוריה"
+    ],
+    "forecast": [
+     "המשך תקיפות נקודתיות נגד תשתיות טרור והברחות"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "המשך התנגדות לכינונו של מצב כפוי והללת ציר ההתנגדות"
+    ],
+    "inferred": [
+     "שימור יכולות שיקום וייצור אמצעי לחימה דרך גבול סוריה"
+    ],
+    "forecast": [
+     "המשך מאמצי התעמולה והגברת ההסתה נגד גורמים מתונים"
+    ]
+   },
+   {
+    "actor": "לבנון (ממשל רשמי)",
+    "declared": [
+     "שמירה על ריבונות המדינה וגינוי הפרות ריבונות מצד ישראל"
+    ],
+    "inferred": [
+     "ניסיון לאזן בין לחצים בינלאומיים לבין התמודדות עם תשתיות חיזבאללה בשטחה"
+    ],
+    "forecast": [
+     "הגברת הפיקוח בגבול סוריה למניעת הברחות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/hezbollah-precision-guided-missile-manufacturing-site-on-syrian-border/",
+    "accessed_at": "2026-11-23T22:19:52+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/969342/four-smuggling-attempts-733-kilograms-of-explosives-seized-in-lebanon/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969342",
+    "accessed_at": "2026-11-23T22:19:52+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134075",
+    "accessed_at": "2026-11-23T22:19:52+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383962633",
+    "accessed_at": "2026-11-23T22:19:52+00:00"
+   }
+  ]
+ }
+}
