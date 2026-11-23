@@ -1,282 +1,289 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-22T18:00:00+02:00",
- "generated_at": "2026-11-22T15:40:11+00:00",
- "model": "gemini-3.8-flash",
+ "slot": "2026-11-23T04:00:00+02:00",
+ "generated_at": "2026-11-23T01:40:19+00:00",
+ "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11221540-01",
-     "title": "הסכם שיתוף פעולה להגנת תשתיות קריטיות באיראן",
-     "summary": "חיל האוויר של צבא איראן וארגון ההגנה הסבילה סיכמו על הרחבת שיתוף הפעולה לחיזוק יכולות ההגנה ואבטחת תשתיות חיוניות במדינה.",
-     "axis": "iran",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T14:53:43+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-22T14:53:43+00:00",
-     "last_update_at": "2026-11-22T14:53:43+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_irna",
-       "url": "https://en.irna.ir/news/86329480/Iran-s-Air-Force-civil-defense-body-pledge-to-boost-protection",
-       "published_at": "2026-11-22T14:53:43+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "טהראן, איראן",
-       "lat": 35.6893,
-       "lon": 51.3896
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11221540-02",
-     "title": "חשיפת משגר טילים כפול ומתקן תת-קרקעי באיראן",
-     "summary": "גורמי צבא באיראן חשפו משגר טילים כפול ומתקן טילים תת-קרקעי במסגרת הצגת יכולות צבאיות.",
+     "id": "IRAN-11230140-01",
+     "title": "נפגעים בתקיפה באזור אזרחי בבחריין",
+     "summary": "ממלכת בחריין דיווחה כי שני בני אדם נפצעו כתוצאה מתקיפה איראנית על אתר תעשייתי אזרחי.",
      "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-22T14:20:41+00:00",
+     "occurred_at": "2026-11-22T18:30:24+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-22T14:20:41+00:00",
-     "last_update_at": "2026-11-22T14:20:41+00:00",
-     "what_is_not_verified": "מיקום המתקן ופרטי היכולות מעבר להצהרות והצגת הבכירים לא אומתו באופן בלתי תלוי.",
+     "first_reported_at": "2026-11-22T18:30:24+00:00",
+     "last_update_at": "2026-11-22T18:40:54+00:00",
+     "what_is_not_verified": "היקף הנזק המלא והאחריות הישירה אינם מאומתים ממקור ראשון בלתי תלוי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/11/22/iran-unveils-dual-missile-launcher-new-missile-city-what-to-know?traffic_source=rss",
-       "published_at": "2026-11-22T14:20:41+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_b79bed2078e518be",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bahrain-says-iranian-strike-wounds-two-one-critically",
+       "published_at": "2026-11-22T18:40:54+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_90997303cc125af7",
+       "url": "https://www.al-monitor.com/originals/2026/11/iran-strike-wounds-two-bahrain-saudi-condemns-criminal-attacks",
+       "published_at": "2026-11-22T18:30:24+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "IRAN-11221540-03",
-     "title": "דיווח על תקיפת בסיסים אמריקאיים בבחריין בידי משמרות המהפכה",
-     "summary": "סוכנות הידיעות האיראנית דיווחה כי משמרות המהפכה שיגרו טילים בליסטיים וכלי טיס בלתי מאוישים לעבר שני בסיסים אמריקאיים בבחריין.",
+     "id": "IRAN-11230140-02",
+     "title": "חשיפת משגר טילים חדש באיראן",
+     "summary": "הטלוויזיה הממלכתית באיראן שידרה תיעוד של חשיפת משגר חדש המסוגל לשגר שני טילים מונעים בדלק נוזלי בו-זמנית.",
      "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-22T11:29:48+00:00",
+     "occurred_at": "2026-11-22T18:20:30+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-22T11:29:48+00:00",
-     "last_update_at": "2026-11-22T11:29:48+00:00",
-     "what_is_not_verified": "הפגיעות והנזקים בפועל לא אומתו על ידי מקורות עצמאיים או אמריקאיים.",
+     "first_reported_at": "2026-11-22T18:20:30+00:00",
+     "last_update_at": "2026-11-22T18:20:30+00:00",
+     "what_is_not_verified": "יכולותיו המבצעיות של המשגר אינן מאומתות ממקור חיצוני.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_4b64795fe38ec3e9",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-unveils-new-launcher-can-fire-two-missiles-once",
+       "published_at": "2026-11-22T18:20:30+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "IRAN-11230140-03",
+     "title": "איומי טראמפ על תקיפות מחודשות באיראן",
+     "summary": "נשיא ארצות הברית דונלד טראמפ הצהיר כי הוא … והזהיר מפני פגיעה באניות איראניות שיפרו את המצור.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-22T18:07:14+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-22T18:07:14+00:00",
+     "last_update_at": "2026-11-22T20:58:58+00:00",
+     "what_is_not_verified": "מימוש האיומים בפועל אינו מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/134044",
-       "published_at": "2026-11-22T11:29:48+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "שייח' עיסא, בחריין",
-       "lat": 25.9144,
-       "lon": 50.5926
+       "source_root_id": "fh_d0f43be873d13b31",
+       "url": "https://t.me/abualiexpress/134067",
+       "published_at": "2026-11-22T18:07:14+00:00"
       },
       {
-       "name": "אל-ג'פיר, בחריין",
-       "lat": 26.2146,
-       "lon": 50.6041
+       "source_id": "src_iranintl",
+       "source_root_id": "fh_d0f43be873d13b31",
+       "url": "https://www.iranintl.com/en/202611226299",
+       "published_at": "2026-11-22T20:58:58+00:00"
       }
-     ]
+     ],
+     "places": []
     }
    ]
   },
   "north": {
    "events": [
     {
-     "id": "NORTH-11221540-01",
-     "title": "האשמות שר החוץ הטורקי בנוגע להעברת נשק ישראלי לדרוזים בסוריה",
-     "summary": "שר החוץ הטורקי טען כי ישראל מעבירה מדי שבוע נשק ותחמושת במסוקים לקבוצה דרוזית חמושה בדרום סוריה במטרה להתגרות בצבא הסורי, וציין כי אנקרה התריעה על כך בפני וושינגטון.",
+     "id": "NORTH-11230140-01",
+     "title": "הריסת מבנים בדרום לבנון",
+     "summary": "כוחות צבא ביצעו פיצוצים והרסו מבנים במספר מוקדים בדרום לבנון, בהם הפאתי של אל-קנטרה, זוכטאר א-שרקייה וכפר טיבניט.",
      "axis": "north",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-22T13:46:01+00:00",
+     "occurred_at": "2026-11-22T22:54:33+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-22T13:46:01+00:00",
-     "last_update_at": "2026-11-22T15:14:20+00:00",
-     "what_is_not_verified": "אמיתות הטענות על אספקת הנשק השבועית בידי ישראל לא אומתה.",
+     "first_reported_at": "2026-11-22T22:54:33+00:00",
+     "last_update_at": "2026-11-22T22:54:33+00:00",
+     "what_is_not_verified": "פרטי הפעילות המלאים מדווחים דרך סוכנות הידיעות הלבנונית ולא ממקור ראשון רשמי ישראלי.",
      "is_new_in_window": true,
      "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/134050",
-       "published_at": "2026-11-22T13:46:01+00:00"
-      },
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/news/Why-Turkey-warning-of-Israeli-military-operation-in-Syria",
-       "published_at": "2026-11-22T15:14:20+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-11221540-02",
-     "title": "תחילת עבודות שדרוג והרחבה במעבר אל-בוכמאל בסוריה",
-     "summary": "רשות המעברים והמכס בסוריה הודיעה על תחילת עבודות הכנה לפיתוח והרחבת מעבר הגבול אל-בוכמאל הסמוך לעיראק.",
-     "axis": "north",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T13:41:40+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-22T13:41:40+00:00",
-     "last_update_at": "2026-11-22T13:41:40+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_enabbaladi",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.enabbaladi.net/archives/2026/11/syria-prepares-to-upgrade-and-expand-al-bukamal-crossing/",
-       "published_at": "2026-11-22T13:41:40+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-carries-out-more-demolitions-southern-lebanon",
+       "published_at": "2026-11-22T22:54:33+00:00"
       }
      ],
      "places": [
       {
-       "name": "אל-בוכמאל, סוריה",
-       "lat": 34.4506,
-       "lon": 40.9171
+       "name": "אל-קנטרה, לבנון",
+       "lat": 33.2735,
+       "lon": 35.4591
       },
       {
-       "name": "דיר א-זור, סוריה",
-       "lat": 35.3333,
-       "lon": 40.15
+       "name": "כפר טיבניט, לבנון",
+       "lat": 33.3519,
+       "lon": 35.5186
       }
      ]
     },
     {
-     "id": "NORTH-11221540-03",
-     "title": "פעילות כוחות צה\"ל בכפר זוטר א-שרקיה בדרום לבנון",
-     "summary": "תושבים מקומיים תיעדו כוחות צה\"ל ממלכדים מבנים לקראת הריסה בכפר זוטר א-שרקיה בדרום לבנון, במקביל למחאה בכפר הסמוך.",
+     "id": "NORTH-11230140-02",
+     "title": "התרסקות שיחות הקואליציה בישראל",
+     "summary": "נציגי מפלגות הליכוד ויש עתיד קיימו סבב שיחות נוסף מבלי להגיע להסכם על הקמת ממשלת קואה",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-22T11:40:05+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-22T11:40:05+00:00",
-     "last_update_at": "2026-11-22T14:51:42+00:00",
-     "what_is_not_verified": "היקף המבנים הממולכדים ומועד הפיצוץ המדויק אינם מאומתים.",
+     "occurred_at": "2026-11-22T17:31:36+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-22T17:31:36+00:00",
+     "last_update_at": "2026-11-22T17:31:36+00:00",
+     "what_is_not_verified": "האם יתחדשו המגעים בהמשך אינו מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/134053",
-       "published_at": "2026-11-22T14:51:42+00:00"
-      },
-      {
-       "source_id": "src_almanar",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/153767/",
-       "published_at": "2026-11-22T11:40:05+00:00"
+       "source_id": "src_newarab",
+       "source_root_id": "fh_1e59b7bdebcf0f66",
+       "url": "https://www.newarab.com/news/netanyahu-eisenkot-parties-end-talks-no-israel-govt-deal",
+       "published_at": "2026-11-22T17:31:36+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "הרצליה, ישראל",
+       "lat": 32.1656,
+       "lon": 34.8469
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11230140-03",
+     "title": "פיצוץ מוקש בצפון-מערב סוריה",
+     "summary": "פיצוץ מוקש שהותיר משτár בשלטון אסד גרם למותם של חמישה ילדים ולפציעת ילד נוסף בכפר אום חוזאים שבמרחב אידליב.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-22T22:09:36+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-22T22:09:36+00:00",
+     "last_update_at": "2026-11-22T22:09:36+00:00",
+     "what_is_not_verified": "מקור המוקש המדויק מבוסס על דיווח התקשורת הממלכתית הסורית.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "fh_06688c01d5706b73",
+       "url": "https://www.newarab.com/news/landmine-blast-kills-5-children-northwest-syria",
+       "published_at": "2026-11-22T22:09:36+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אידליב, סוריה",
+       "lat": 35.9302,
+       "lon": 36.6353
+      }
+     ]
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11221540-01",
-     "title": "בלימת ניסיון הסתערות רוסי בגזרת פוקרובסק",
-     "summary": "חטיבת רוביז' של המשמר הלאומי האוקראיני סיכלה ניסיון התקפה של כוחות רוסיים באמצעות כלי רכב משוריינים ואופנועים בגזרת פוקרובסק.",
+     "id": "UKRAINE-11230140-01",
+     "title": "תקיפת כלי שיט בלתי מאוישים מול לוב",
+     "summary": "כלי שיט בלתי מאוישים תקפו את האונייה אסקאלון המקושרת לצי הצללים הרוסי בסמוך לבנגזי שבלוב.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-22T14:58:00+00:00",
+     "occurred_at": "2026-11-22T17:03:45+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-22T14:58:00+00:00",
-     "last_update_at": "2026-11-22T14:58:00+00:00",
-     "what_is_not_verified": "היקף הנפגעים או האבדות בקרב הכוחות הרוסיים לא צוין ולא אומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "or_ukrinform",
-       "url": "https://www.ukrinform.net/rubric-ato/4187407-ukrainian-forces-foil-russian-assault-attempt-in-pokrovsk-sector.html",
-       "published_at": "2026-11-22T14:58:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "פוקרובסק, אוקראינה",
-       "lat": 48.2771,
-       "lon": 37.1772
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11221540-02",
-     "title": "פגיעות רוסיות במתקני גז ותחנות דלק במזרח ובדרום אוקראינה",
-     "summary": "תקיפות אוויריות רוסיות פגעו במתקן גז במחוז דניפרופטרובסק ובשתי תחנות דלק של חברת אוקרנפטה במחוז זפוריז'יה, וגרמו לפציעת עובדים.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T14:56:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-22T14:56:00+00:00",
-     "last_update_at": "2026-11-22T14:56:00+00:00",
-     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/22/8064066/",
-       "published_at": "2026-11-22T14:56:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "מחוז זפוריז'יה, אוקראינה",
-       "lat": 46.4609,
-       "lon": 34.8643
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11221540-03",
-     "title": "דיווחים על פריצת הגבול הרוסי והשתלטות אוקראינית על יישוב במחוז קורסק",
-     "summary": "כלי תקשורת ברוסיה דיווחו כי כוחות צבא אוקראינה חצו את הגבול והשתלטו על היישוב נובי פוט במחוז קורסק.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T11:52:09+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-22T11:52:09+00:00",
-     "last_update_at": "2026-11-22T11:52:09+00:00",
-     "what_is_not_verified": "מידת השליטה המבצעית וההתקדמות בשטח לא אומתו באופן רשמי בידי צבא אוקראינה.",
+     "first_reported_at": "2026-11-22T17:03:45+00:00",
+     "last_update_at": "2026-11-22T20:30:30+00:00",
+     "what_is_not_verified": "האחריות הישירה של אוקראינה על השיגור מבוססת על ציטוט גורמים צבאיים בלבד ולא הודאה רשמית של קייב.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49816",
-       "published_at": "2026-11-22T11:52:09+00:00"
+       "url": "https://t.me/alexmehacarmel/49836",
+       "published_at": "2026-11-22T20:30:30+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49828",
+       "published_at": "2026-11-22T17:03:45+00:00"
       }
      ],
      "places": [
       {
-       "name": "נובי פוט, מחוז קורסק, רוסיה",
-       "lat": 51.2567,
-       "lon": 34.534
+       "name": "בנגזי, לוב",
+       "lat": 32.12,
+       "lon": 20.0812
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11230140-02",
+     "title": "תקיפת בית זיקוק במחוז רוסטוב",
+     "summary": "כוחות אוקראיניים תקפו בית זיקוק לנפט במחוז רוסטוב שברוסיה.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-22T23:12:10+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-22T23:12:10+00:00",
+     "last_update_at": "2026-11-23T01:18:52+00:00",
+     "what_is_not_verified": "היקף הנזק המדויק אינו מאומת ממקור ראשון בשטח.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49843",
+       "published_at": "2026-11-22T23:12:10+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/novoshakhtinsk-oil-refinery-reportedly-burning-after-ukrainian-drone-attack/",
+       "published_at": "2026-11-23T01:18:52+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "רוסטוב, רוסיה",
+       "lat": 47.2223,
+       "lon": 39.7199
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11230140-03",
+     "title": "איתור שברי טילים בפולין",
+     "summary": "רשויות התביעה במחוז לובלין בפולין דיווחו על גילוי שברי טילי שיוט מסוג אקס-101 בשלושה אתרים שונים במדינה.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-22T23:26:30+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-22T23:26:30+00:00",
+     "last_update_at": "2026-11-22T23:26:30+00:00",
+     "what_is_not_verified": "מועד החדירה המדויק למרחב האווירי אינו מפורט.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_0d98fb200aa2a447",
+       "url": "https://kyivindependent.com/polish-authorities-find-russian-missile-remains-at-three-sites-following-airspace-incursion/",
+       "published_at": "2026-11-22T23:26:30+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "לובלין, פולין",
+       "lat": 51.2506,
+       "lon": 22.5701
       }
      ]
     }
@@ -285,103 +292,91 @@ window.DB.war_brief = {
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-11221540-01",
-     "title": "יירוט כלי טיס בלתי מאויש וטיל של החות'ים בסעודיה",
-     "summary": "מערכות ההגנה האווירית של הקואליציה בראשות סעודיה יירטו כטב\"ם ששוגר לעבר ריאד לצד דיווח על יירוט טיל בליסטי.",
+     "id": "YEMEN-11230140-01",
+     "title": "התקפת החות'ים על מתקן זיקוק בסעודיה",
+     "summary": "החות'ים בתימן הודיעו כי ביצעו פעולה כוונה לעבר בית הזיקוק רביג' שבחוף הים האדום בסעודיה והשיגו פגיעה ישירה.",
      "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-22T09:33:15+00:00",
+     "occurred_at": "2026-11-22T16:54:47+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-22T09:33:15+00:00",
-     "last_update_at": "2026-11-22T13:16:45+00:00",
-     "what_is_not_verified": "פרטי הנזק בקרקע או היעד המדויק אינם מאומתים במלואם.",
+     "first_reported_at": "2026-11-22T16:54:47+00:00",
+     "last_update_at": "2026-11-23T00:21:32+00:00",
+     "what_is_not_verified": "אמתת הפגיעה והנזק אינם מאומתים באופן עצמאי או על ידי הרשויות בסעודיה.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
+       "source_id": "src_newarab",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/11/22/houthis-report-attack-on-sanaa-as-saudi-arabia-intercepts-drone?traffic_source=rss",
-       "published_at": "2026-11-22T13:16:45+00:00"
+       "url": "https://www.newarab.com/news/yemens-houthis-attack-saudi-arabias-rabigh-oil-refinery",
+       "published_at": "2026-11-23T00:21:32+00:00"
       },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-they-attacked-saudi-arabias-rabigh-oil-refinery",
+       "published_at": "2026-11-22T16:54:47+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "רביג', סעודיה",
+       "lat": 22.799,
+       "lon": 39.0336
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-11230140-02",
+     "title": "נפגעים מאש חות'ית באזור תעז",
+     "summary": "כוחות חות'יים ביצעו ירי ארטילרי וצלפים באזור הכפרי של תעז, מה שהביא לפציעתם של שישה אזרחים, ביניהם ילדה אחת.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-22T19:05:46+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-22T19:05:46+00:00",
+     "last_update_at": "2026-11-22T19:05:46+00:00",
+     "what_is_not_verified": "מצבם הרפואי המדויק של הפצועים מעבר לדיווח הראשוני אינו מאומת.",
+     "is_new_in_window": true,
+     "reports": [
       {
        "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/156218",
-       "published_at": "2026-11-22T10:09:58+00:00"
-      },
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.newarab.com/news/houthi-missiles-target-saudi-arabia-iran-drones-strike-bahrain",
-       "published_at": "2026-11-22T09:33:15+00:00"
+       "source_root_id": "fh_64ed5b2272aa78ac",
+       "url": "https://www.sabanew.net/viewstory/156251",
+       "published_at": "2026-11-22T19:05:46+00:00"
       }
      ],
      "places": [
       {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
+       "name": "תעז, תימן",
+       "lat": 13.5752,
+       "lon": 44.0215
       }
      ]
     },
     {
-     "id": "YEMEN-11221540-02",
-     "title": "תנועת כוחות חות'יים לעבר גבול מחוז אביין",
-     "summary": "החות'ים החלו לשנע תגבורות לעבר גבול מחוז אביין, שער הכניסה לעיר עדן, כחלק מניסיון להרחיב את חזיתות הלחימה ולכתר את העיר.",
+     "id": "YEMEN-11230140-03",
+     "title": "ירוט כלי טיס בלתי מאויש בתימן",
+     "summary": "הקואליציה הודיעה על יירוט והשמדה של כלי טיס בלתי מאויש ששוגר לעבר האזור הדרומי.",
      "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-22T13:35:25+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-22T13:35:25+00:00",
-     "last_update_at": "2026-11-22T13:35:25+00:00",
-     "what_is_not_verified": "כוונות הכיתור בפועל והיקף הכוחות המדויק לא אומתו.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_newarab",
-       "source_root_id": "or_the_new_arab",
-       "url": "https://www.newarab.com/news/yemens-war-fronts-expand-houthis-attempt-encircle-aden",
-       "published_at": "2026-11-22T13:35:25+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "עדן, תימן",
-       "lat": 12.7896,
-       "lon": 45.0285
-      }
-     ]
-    },
-    {
-     "id": "YEMEN-11221540-03",
-     "title": "דיווח של החות'ים על תקיפה בצנעא",
-     "summary": "כלי תקשורת המזוהים עם החות'ים דיווחו על פציעתם של מספר בני אדם בעקבות תקיפה שפגעה בחברת נפט בצנעא.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T13:16:45+00:00",
+     "occurred_at": "2026-11-22T17:30:08+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-22T13:16:45+00:00",
-     "last_update_at": "2026-11-22T13:16:45+00:00",
-     "what_is_not_verified": "זהות הגורם התוקף ומספר הנפגעים המדויק אינם מאומתים.",
+     "first_reported_at": "2026-11-22T17:30:08+00:00",
+     "last_update_at": "2026-11-22T17:30:08+00:00",
+     "what_is_not_verified": "מקום השיגור המדויק והנזק מנפילת שברים אינם מפורטים.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aljazeera.com/news/2026/11/22/houthis-report-attack-on-sanaa-as-saudi-arabia-intercepts-drone?traffic_source=rss",
-       "published_at": "2026-11-22T13:16:45+00:00"
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_88086f73f7825cc6",
+       "url": "https://www.sabanew.net/viewstory/156249",
+       "published_at": "2026-11-22T17:30:08+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "צנעא, תימן",
-       "lat": 15.3539,
-       "lon": 44.2059
-      }
-     ]
+     "places": []
     }
    ]
   }
