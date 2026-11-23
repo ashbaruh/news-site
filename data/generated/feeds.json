@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-23T10:50:28+00:00",
-  "fetched_at": "2026-11-23T10:50:28+00:00"
+  "checked_at": "2026-11-23T11:17:18+00:00",
+  "fetched_at": "2026-11-23T11:17:18+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-23T10:50:36+00:00",
-  "fetched_at": "2026-11-23T10:50:36+00:00"
+  "checked_at": "2026-11-23T11:17:30+00:00",
+  "fetched_at": "2026-11-23T11:17:30+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-23T10:50:36+00:00",
-  "fetched_at": "2026-11-23T10:50:36+00:00"
+  "checked_at": "2026-11-23T11:17:30+00:00",
+  "fetched_at": "2026-11-23T11:17:30+00:00"
  },
- "generated_at": "2026-11-23T10:50:36+00:00",
+ "generated_at": "2026-11-23T11:17:30+00:00",
  "globes": {
   "data": {
    "top": [
@@ -97,6 +97,16 @@
    ],
    "market": [
     {
+     "title": "עסקת הסייבר הגדולה בהיסטוריה: קראודסטרייק רוכשת את זיסקיילר ב־44 מיליארד דולר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564496",
+     "date": "2026-11-23T11:00:00+00:00"
+    },
+    {
+     "title": "המסחר בת\"א עבר למגמה מעורבת; הדולר נחלש",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564435",
+     "date": "2026-11-23T10:48:00+00:00"
+    },
+    {
      "title": "עליות קלות באירופה; החוזים בוול סטריט מזנקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564447",
      "date": "2026-11-23T10:39:00+00:00"
@@ -107,9 +117,9 @@
      "date": "2026-11-23T10:30:00+00:00"
     },
     {
-     "title": "המסחר בת\"א עבר למגמה מעורבת; הדולר נחלש",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564435",
-     "date": "2026-11-23T10:20:00+00:00"
+     "title": "עיתונאי, בנקאי ולוביסט: המועמד החדש לאיגוד הבנקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564490",
+     "date": "2026-11-23T10:25:00+00:00"
     },
     {
      "title": "הטייסים ביטלו את העסקה לרכישת מניות רוטשטיין באנשי העיר, והיא מאיימת בתביעה",
@@ -195,17 +205,12 @@
      "title": "היא הייתה הבורסה הטובה בעולם מתחילת השנה, ואז נפלה 17.5% בשבוע",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564318",
      "date": "2026-11-22T13:39:00+00:00"
-    },
-    {
-     "title": "הכלכלן שמזהיר ממשבר חמור מזה של 2008, וזה שדווקא בטוח: העליות בדרך",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564331",
-     "date": "2026-11-22T08:02:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-23T10:50:29+00:00",
-  "fetched_at": "2026-11-23T10:50:29+00:00"
+  "checked_at": "2026-11-23T11:17:19+00:00",
+  "fetched_at": "2026-11-23T11:17:19+00:00"
  },
  "ifa": {
   "data": [
@@ -1849,8 +1854,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-23T10:50:29+00:00",
-  "fetched_at": "2026-11-23T10:50:29+00:00"
+  "checked_at": "2026-11-23T11:17:20+00:00",
+  "fetched_at": "2026-11-23T11:17:20+00:00"
  },
  "tv": {
   "data": [
@@ -2794,8 +2799,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-23T10:50:31+00:00",
-  "fetched_at": "2026-11-23T10:50:31+00:00"
+  "checked_at": "2026-11-23T11:17:22+00:00",
+  "fetched_at": "2026-11-23T11:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2930,8 +2935,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-23T10:50:31+00:00",
-  "fetched_at": "2026-11-23T10:50:31+00:00"
+  "checked_at": "2026-11-23T11:17:22+00:00",
+  "fetched_at": "2026-11-23T11:17:22+00:00"
  },
  "ai": {
   "data": {
@@ -2955,8 +2960,7 @@
    ],
    "candidates": 4,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
@@ -3026,18 +3030,28 @@
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 240,
+     "likes": 241,
      "link": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-23T10:50:36+00:00",
-  "fetched_at": "2026-11-23T10:50:36+00:00"
+  "checked_at": "2026-11-23T11:17:29+00:00",
+  "fetched_at": "2026-11-23T11:17:29+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "ברקוביץ' גזען? \"אבו פאני יפתח אצלי בנבחרת, אחזיר את סבע\"",
+     "link": "https://sports.walla.co.il/item/3877331",
+     "date": "2026-11-23T11:49:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מוחמד אבו פאני",
+      "דיא סבע"
+     ]
+    },
     {
      "title": "מעל לאמין ימאל: הנתון בו גלוך מוביל את אירופה",
      "link": "https://www.one.co.il/Article/539637.html?ref=rss",
@@ -3160,15 +3174,6 @@
      "title": "אבדיה: \"הלוואי ויכולתי לחבק את כולם, רעב להיות בטופ של הטופ\"",
      "link": "https://sports.walla.co.il/item/3877178",
      "date": "2026-11-22T10:08:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "ערב מיוחד: אבדיה כבש את ניו יורק, פורטלנד לא ידעה לנצל זאת",
-     "link": "https://sports.walla.co.il/item/3877158",
-     "date": "2026-11-22T08:00:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3375,8 +3380,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-23T10:50:33+00:00",
-  "fetched_at": "2026-11-23T10:50:33+00:00"
+  "checked_at": "2026-11-23T11:17:25+00:00",
+  "fetched_at": "2026-11-23T11:17:25+00:00"
  },
  "idf": {
   "data": [
@@ -3408,7 +3413,7 @@
   ],
   "ok": false,
   "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-23T10:50:33+00:00",
+  "checked_at": "2026-11-23T11:17:25+00:00",
   "fetched_at": "2026-11-23T10:17:39+00:00"
  },
  "feed_health": {
@@ -3416,44 +3421,44 @@
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-23T10:48:00+00:00",
-    "seen_at": "2026-11-23T10:50:36+00:00",
+    "newest": "2026-11-23T11:12:00+00:00",
+    "seen_at": "2026-11-23T11:17:30+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-23T10:39:00+00:00",
-    "seen_at": "2026-11-23T10:50:36+00:00",
+    "newest": "2026-11-23T10:48:00+00:00",
+    "seen_at": "2026-11-23T11:17:30+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-23T09:20:00+00:00",
-    "seen_at": "2026-11-23T10:50:36+00:00",
+    "newest": "2026-11-23T11:00:00+00:00",
+    "seen_at": "2026-11-23T11:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-22T18:42:00+00:00",
-    "seen_at": "2026-11-23T10:50:36+00:00",
+    "seen_at": "2026-11-23T11:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-23T11:02:00+00:00",
-    "seen_at": "2026-11-23T10:50:36+00:00",
+    "seen_at": "2026-11-23T11:17:30+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-23T11:00:00+00:00",
-    "seen_at": "2026-11-23T10:50:36+00:00",
+    "newest": "2026-11-23T11:49:00+00:00",
+    "seen_at": "2026-11-23T11:17:30+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-23T10:25:00+00:00",
-    "seen_at": "2026-11-23T10:50:36+00:00",
+    "newest": "2026-11-23T10:59:00+00:00",
+    "seen_at": "2026-11-23T11:17:30+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3465,44 +3470,49 @@
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-18T21:35:43+00:00",
-    "seen_at": "2026-11-23T10:17:43+00:00",
+    "seen_at": "2026-11-23T11:17:30+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-19T18:00:00+00:00",
-    "seen_at": "2026-11-23T10:50:36+00:00",
+    "seen_at": "2026-11-23T11:17:30+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-23T10:03:41+00:00",
-    "seen_at": "2026-11-23T10:50:36+00:00",
+    "seen_at": "2026-11-23T11:17:30+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-23T10:50:36+00:00",
+    "seen_at": "2026-11-23T11:17:30+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-23T07:00:00+00:00",
-    "seen_at": "2026-11-23T10:50:36+00:00",
+    "newest": "2026-11-23T11:12:22+00:00",
+    "seen_at": "2026-11-23T11:17:30+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
-    "newest": "2026-11-22T15:20:36+00:00",
-    "seen_at": "2026-11-23T10:17:43+00:00",
+    "newest": "2026-11-23T11:02:44+00:00",
+    "seen_at": "2026-11-23T11:17:30+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-23T10:50:36+00:00"
+  "checked_at": "2026-11-23T11:17:30+00:00"
  },
  "health_news": {
   "data": [
+   {
+    "title": "מקרה שלישי בשערי צדק: פעוט בריא שלא חוסן - בטיפול נמרץ עם שפעת",
+    "link": "https://www.walla.co.il/healthy/health-news/383962708",
+    "date": "2026-11-23T11:02:44+00:00"
+   },
    {
     "title": "שנה אחרי ההבטחה: איפה הרחפנים שיטיסו דם בין בתי החולים?",
     "link": "https://www.walla.co.il/healthy/health-news/383962568",
@@ -3647,16 +3657,10 @@
     "title": "נחירות בלילה ועייפות ביום? כך תזהו דום נשימה בשינה ותטפלו בו",
     "link": "https://www.walla.co.il/healthy/health-news/383959815",
     "date": "2026-11-02T13:33:27+00:00"
-   },
-   {
-    "title": "נכשלתם בבחינת התמחות ברפואה? עו״ד אסף פלג מסביר מתי כדאי לערער",
-    "link": "https://www.walla.co.il/healthy/health-news/383959621",
-    "date": "2026-11-01T06:48:57+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-23T10:50:33+00:00",
-  "fetched_at": "2026-11-23T10:17:39+00:00"
+  "ok": true,
+  "checked_at": "2026-11-23T11:17:26+00:00",
+  "fetched_at": "2026-11-23T11:17:26+00:00"
  }
 }
