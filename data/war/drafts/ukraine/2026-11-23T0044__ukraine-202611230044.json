@@ -1,0 +1,606 @@
+{
+ "status": "draft",
+ "received_sha256_12": "aba6b55095df",
+ "preview": {
+  "events": 15,
+  "levels": {
+   "initial": 13,
+   "shared_root": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-23T00:44:14+00:00",
+  "window": {
+   "from": "2026-11-22T00:44:14+00:00",
+   "to": "2026-11-23T00:44:14+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611230044"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת במלוא העוצמה, כאשר רוסיה ממשיכה לבצע תקיפות אוויריות נרחבות נגד תשתיות אזרחיות ואנרגיה בקייב, חארקוב ובמחוזות נוספים, לצד פגיעה במטרות ימיות וספינות מטען ומלחמה גם מחוץ לגבולות אוקראינה (כמו בלוב ובים הבלטי). מנגד, אוקראינה מגיבה בתקיפות נגד נכסים רוסיים, בין היתר באמצעות כלי שיט בלתי מאוישים ופגיעה במתקנים בתוך השטח הרוסי. במקביל, מתנהל לחץ דיפלומטי בינלאומי ומדינות אירופה וארה\"ב דנות בארכיטקטורת הביטחון ובמנגנוני הסיוע הממשלתיים.",
+  "fronts": [
+   {
+    "name": "החזית המזרחית (דונייצק)",
+    "status": "פעילה והתקפית"
+   },
+   {
+    "name": "החזית הצפון-מזרחית (חארקוב)",
+    "status": "פעילה עם הפגזות חוזרות"
+   },
+   {
+    "name": "עורף קייב והמרכז",
+    "status": "תחת מתקפות כטב\"מים וטילים"
+   },
+   {
+    "name": "זירת הים התיכון והים הבלטי",
+    "status": "פעילות ימית ותקיפות כלי שיט"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11230044-01",
+    "title": "עימותים במנזר קייב פצ'רסק",
+    "summary": "התרחשו עימותים בשטח מנזר קייב פצ'רסק.",
+    "axis": "חזית פנים אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T00:30:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-23T00:30:00+00:00",
+    "last_update_at": "2026-11-23T00:30:00+00:00",
+    "what_is_not_verified": "פרטים מלאים על נסיבות העימותים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_aed81a5f2b0a14df",
+      "url": "https://www.ukrinform.net/rubric-emergencies/4187399-clashes-break-out-at-kyiv-pechersk-lavra.html",
+      "published_at": "2026-11-23T00:30:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מנזר קייב פצ'רסק, אוקראינה",
+      "lat": 50.4342,
+      "lon": 30.5587
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11230044-02",
+    "title": "גיוס תרומות באזור לבוב",
+    "summary": "התקיים מכרז צדקה שאסף כספים לתמיכה במגיני אוקראינה.",
+    "axis": "עורף אוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T23:36:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T23:36:00+00:00",
+    "last_update_at": "2026-11-22T23:36:00+00:00",
+    "what_is_not_verified": "לא צויין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_4e7ee6a602ee1917",
+      "url": "https://www.ukrinform.net/rubric-society/4187282-charity-auction-in-lviv-region-raises-uah-60-mln-to-support-ukrainian-defenders.html",
+      "published_at": "2026-11-22T23:36:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11230044-03",
+    "title": "איתור שברי טילי שיוט בפולין",
+    "summary": "הרשויות בפולין איתרו שברי טילי שיוט רוסיים ממספר אתרים במזרח המדינה בעקבות חדירה למרחב האווירי.",
+    "axis": "גבול אוקראינה-פולין/נאט\"ו",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T22:49:25+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T22:49:25+00:00",
+    "last_update_at": "2026-11-22T23:26:30+00:00",
+    "what_is_not_verified": "האם שברי הטילים שייכים לאירוע תקיפה ספציפי או נפלו כתוצאה מיירט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_0d98fb200aa2a447",
+      "url": "https://kyivindependent.com/polish-authorities-find-russian-missile-remains-at-three-sites-following-airspace-incursion/",
+      "published_at": "2026-11-22T23:26:30+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_0d98fb200aa2a447",
+      "url": "https://www.ynet.co.il/news/article/h1ocd5g17g",
+      "published_at": "2026-11-22T22:49:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נובי ליפובייץ, פולין",
+      "lat": 50.4403,
+      "lon": 22.8375
+     },
+     {
+      "name": "רודניק, פולין",
+      "lat": 50.4448,
+      "lon": 22.244
+     },
+     {
+      "name": "מולודיץ', פולין",
+      "lat": 50.1585,
+      "lon": 22.8318
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11230044-04",
+    "title": "תקיפת בית זיקוק במחוז רוסטוב",
+    "summary": "דווח על תקיפת בית זיקוק במחוז רוסטוב על ידי כוחות אוקראיניים.",
+    "axis": "עורף רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T23:12:10+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T23:12:10+00:00",
+    "last_update_at": "2026-11-22T23:12:10+00:00",
+    "what_is_not_verified": "היקף הנזק המלא בבית הזיקוק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_src_tg_carmel",
+      "url": "https://t.me/alexmehacarmel/49843",
+      "published_at": "2026-11-22T23:12:10+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז רוסטוב, רוסיה",
+      "lat": 44.4977,
+      "lon": 42.5301
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11230044-05",
+    "title": "תקיפת ספינת מלחמה רוסית בלוב ותקיפות נוספות",
+    "summary": "סירות נפץ בלתי מאוישות פגעו בספינת המלחמה 'מרקורי' בבנגאזי שבלוב, ובמקביל דווח על תקיפת ספינה בים הבלטי ומתקפת כטב\"מים על אזור קייב.",
+    "axis": "זירת הים התיכון והים הבלטי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T22:49:25+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T22:49:25+00:00",
+    "last_update_at": "2026-11-22T22:49:25+00:00",
+    "what_is_not_verified": "אחריות רשמית של אוקראינה לתקיפה בלוב",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_src_ynet",
+      "url": "https://www.ynet.co.il/news/article/h1ocd5g17g",
+      "published_at": "2026-11-22T22:49:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בנגאזי, לוב",
+      "lat": 32.12,
+      "lon": 20.0812
+     },
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11230044-06",
+    "title": "הפגזות ומניין הרוגים בסלובייאנסק",
+    "summary": "כוחות רוסיים הפגיזו את העיר סלובייאנסק במחוז דונייצק, דבר שהביא למותם של שני בני אדם ולפציעתם של שלושה נוספים.",
+    "axis": "החזית המזרחית (דונייצק)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T21:52:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T21:52:00+00:00",
+    "last_update_at": "2026-11-22T21:52:00+00:00",
+    "what_is_not_verified": "לא צויין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_d642b2229f865b01",
+      "url": "https://www.ukrinform.net/rubric-ato/4187484-russian-forces-strike-sloviansk-killing-two-injuring-three-others.html",
+      "published_at": "2026-11-22T21:52:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סלובייאנסק, אוקראינה",
+      "lat": 48.8523,
+      "lon": 37.6058
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11230044-07",
+    "title": "טיבוע ספינת מלחמה רוסית בבנגאזי",
+    "summary": "קורבטה רוסית בשם 'מרקורי' נפגעה קשות וטבעה בנמל בנגאזי בעקבות מתקפת כלי שיט בלתי מאוישים.",
+    "axis": "זירת הים התיכון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T21:33:44+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T21:33:44+00:00",
+    "last_update_at": "2026-11-22T21:33:44+00:00",
+    "what_is_not_verified": "זהות המפעילים המדויקים של כלי הצי הימי הבלתי מאויש",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_libyan_officials",
+      "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+      "published_at": "2026-11-22T21:33:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בנגאזי, לוב",
+      "lat": 32.12,
+      "lon": 20.0812
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11230044-08",
+    "title": "ניסיונות רוסיים לניתוק מקורות אנרגיה באודסה ובדניפרופטרובסק",
+    "summary": "נשיא אוקראינה ציין כי כוחות רוסיים מנסים לנתק את אזורי אודסה ודניפרופטרובסק ממקורות האנרגיה שלהם.",
+    "axis": "תשתיות אנרגיה ואתרים אסטרטגיים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T21:32:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-22T21:32:00+00:00",
+    "last_update_at": "2026-11-22T21:32:00+00:00",
+    "what_is_not_verified": "הצלחתם המלאה של הניתוקים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_2eb1e9f5a3d4bf79",
+      "url": "https://www.ukrinform.net/rubric-ato/4187483-russia-tries-to-cut-off-odesa-and-dnipropetrovsk-regions-from-energy-sources-zelensky.html",
+      "published_at": "2026-11-22T21:32:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     },
+     {
+      "name": "דניפרופטרובסק, אוקראינה",
+      "lat": 48.468,
+      "lon": 35.0418
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11230044-09",
+    "title": "הפגזות אוקראיניות על הרפובליקה העממית של דונייצק",
+    "summary": "דווח על 45 הפגזות אוקראיניות באזורים מיושבים בדונייצק שהביאו לפציעת שבעה אזרחים.",
+    "axis": "החזית המזרחית",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T21:30:05+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T21:30:05+00:00",
+    "last_update_at": "2026-11-22T21:30:05+00:00",
+    "what_is_not_verified": "אמינות הנתונים הנמסרים מצד רשויות רוסיה/דונייצק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_2953b86a61a1b989",
+      "url": "https://tass.com/defense/2223091",
+      "published_at": "2026-11-22T21:30:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דונייצק, אוקראינה",
+      "lat": 48.0159,
+      "lon": 37.8013
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11230044-10",
+    "title": "פגיעת כטב\"ם ג'אהד בגן ילדים בחארקוב",
+    "summary": "כטב\"ם מסוג שהאד פגע בגן ילדים ברובע נמישליאנסקי שבחארקוב, ומספר בני אדם נפצעו.",
+    "axis": "החזית הצפון-מזרחית (חארקוב)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T21:02:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T21:02:00+00:00",
+    "last_update_at": "2026-11-22T21:02:00+00:00",
+    "what_is_not_verified": "מספר הפצועים המדויק וחומרת פציעתם",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_1a07c5fbbaa31ce9",
+      "url": "https://www.ukrinform.net/rubric-ato/4187482-shahed-drone-strikes-kindergarten-in-kharkiv-several-injured.html",
+      "published_at": "2026-11-22T21:02:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חארקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11230044-11",
+    "title": "נזק לגן ילדים בהורלובקה מתקיפת כטב\"ם אוקראיני",
+    "summary": "כטב\"מים אוקראיניים פגעו וגרמו נזק לגן ילדים, לבנייני מגורים ולרכבים בהורלובקה.",
+    "axis": "החזית המזרחית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T20:48:32+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T20:48:32+00:00",
+    "last_update_at": "2026-11-22T20:48:32+00:00",
+    "what_is_not_verified": "היקף הנזק המלא",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_7bb524ee96c79ccc",
+      "url": "https://tass.com/emergencies/2223089",
+      "published_at": "2026-11-22T20:48:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "הורלובקה, אוקראינה",
+      "lat": 48.3059,
+      "lon": 38.0028
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11230044-12",
+    "title": "תקיפות רוסיות נוספות בחארקוב",
+    "summary": "נמשכות התקיפות הרוסיות בחארקוב, עם דיווח על פגיעה ברובע חולודנוהירסקי.",
+    "axis": "החזית הצפון-מזרחית (חארקוב)",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T20:31:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-22T20:31:00+00:00",
+    "last_update_at": "2026-11-22T20:31:00+00:00",
+    "what_is_not_verified": "פרטים על נפגעים נוספים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_f6a1a995a7cb7510",
+      "url": "https://www.ukrinform.net/rubric-ato/4187481-russian-attacks-on-kharkiv-continue-strike-reported-in-one-district.html",
+      "published_at": "2026-11-22T20:31:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חארקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11230044-13",
+    "title": "חילוץ פעוט וגופות מהריסות בדימר",
+    "summary": "כוחות ההצלה חילצו ילד בחיים ומספר גופות מתחת להריסות של בניין מגורים שהופצץ בדימר שבמחוז קייב.",
+    "axis": "עורף קייב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T19:29:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T19:29:00+00:00",
+    "last_update_at": "2026-11-22T19:29:00+00:00",
+    "what_is_not_verified": "גורלם של נעדרים נוספים תחת ההריסות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_333d42f144bd3f1d",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/22/8064075/",
+      "published_at": "2026-11-22T19:29:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דימר, אוקראינה",
+      "lat": 50.7864,
+      "lon": 30.3039
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11230044-14",
+    "title": "פגיעה בחנות במחוז קייב והרוגים",
+    "summary": "פגיעת כטב\"ם בחנות מכולת ובסופרמרקט ביישוב וישנבֶה שבמחוז קייב גרמה למותם של שלושה בני אדם ולפציעתם של 15 נוספים.",
+    "axis": "עורף קייב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T18:44:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T18:44:00+00:00",
+    "last_update_at": "2026-11-22T18:44:00+00:00",
+    "what_is_not_verified": "מספר סופי של נפגעים מתחת להריסות האזור",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_1380b4c93aecb8a5",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/22/8064090/",
+      "published_at": "2026-11-22T18:44:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וישנבה, אוקראינה",
+      "lat": 50.3917,
+      "lon": 30.3679
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11230044-15",
+    "title": "הפסקות חשמל חירום במספר מחוזות באוקראינה",
+    "summary": "חברת האנרגיה הלאומית של אוקראינה דיווחה על הפסקות חשמל חירום בחמישה מחוזות בעקבות תקיפות רוסיות על מתקני אנרגיה.",
+    "axis": "תשתיות אנרגיה ואתרים אסטרטגיים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T17:30:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-22T17:30:00+00:00",
+    "last_update_at": "2026-11-22T17:30:00+00:00",
+    "what_is_not_verified": "מועד מדויק לתיקון מלא של התשתיות בכל האזורים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_e096a145397852b8",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/22/8064085/",
+      "published_at": "2026-11-22T17:30:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז זפוריז'יה, אוקראינה",
+      "lat": 46.4609,
+      "lon": 34.8643
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מעורבות ישירה ורשמית של אוקראינה בתקיפות הספינות בבנגאזי ובלוב",
+   "דיווחים על קשר של מדינות בלטיות לתקיפות במובלעת קלינינגרד",
+   "היקף הנזק המדויק בבתי הזיקוק במחוז רוסטוב"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.099,
+    "unit": "USD",
+    "change_pct": -0.02,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על שטחי המדינה",
+     "קבלת תמיכה צבאית וכלכלית בינלאומית"
+    ],
+    "inferred": [
+     "שיבוש נתיבי האספקה והלוגיסטיקה הימיים והיבשתיים של רוסיה",
+     "פגיעה בתשתיות עורפיות בתוך רוסיה ובנכסים רוסיים מחוץ לגבולות המדינה"
+    ],
+    "forecast": [
+     "המשך מאמצים להשגת מערכות הגנה אווירית מתקדמות מבני ברית",
+     "הרחבת פעילות הכטב\"מים נגד נכסים ימיים ויבשתיים של רוסיה"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "פגיעה בתשתיות הצבאיות והתומכות של אוקראינה"
+    ],
+    "inferred": [
+     "שחיקת משק האנרגיה האוקראיני לקראת עונת החורף",
+     "שיבוש רשתות החשמל והתשתיות האזרחיות כדי לשבור את הרוח הציבורית"
+    ],
+    "forecast": [
+     "המשך שימוש במתקפות אוויריות מרוכזות של כטב\"מים וטילים ארוכי טווח",
+     "התגוננות מפני מתקפות סימטריות ואסימטריות על צי המטען והמלחמה הימי שלה"
+    ]
+   },
+   {
+    "actor": "ארצות הברית ובעלות בריתה",
+    "declared": [
+     "קיום דיונים על ארכיטקטורת ביטחון לאחר הסכסוך",
+     "בחינת אפשרויות למתן ערבויות ביטחוניות דומות לסעיף 5"
+    ],
+    "inferred": [
+     "שאיפה להפחתת הנטל הכלכלי על ארה\"ב והעברת נטל המימון לאירופה",
+     "ניסיון למנוע זליגה רחבה של העימות למדינות נאט\"ו"
+    ],
+    "forecast": [
+     "המשך לחץ מדיני לקידום פתרונות דיפלומטיים עתידיים",
+     "וויכוחים פנימיים באירופה לגבי מתווה התקציב ותמיכה ישירה באוקראינה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+    "accessed_at": "2026-11-23T00:44:14+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/polish-authorities-find-russian-missile-remains-at-three-sites-following-airspace-incursion/",
+    "accessed_at": "2026-11-23T00:44:14+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/22/8064085/",
+    "accessed_at": "2026-11-23T00:44:14+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/emergencies/2223089",
+    "accessed_at": "2026-11-23T00:44:14+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49843",
+    "accessed_at": "2026-11-23T00:44:14+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4187481-russian-attacks-on-kharkiv-continue-strike-reported-in-one-district.html",
+    "accessed_at": "2026-11-23T00:44:14+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/h1ocd5g17g",
+    "accessed_at": "2026-11-23T00:44:14+00:00"
+   }
+  ]
+ }
+}

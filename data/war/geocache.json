@@ -594,6 +594,10 @@
 32.0027,
 34.8809
 ],
+"benghazi, libya": [
+32.12,
+20.0812
+],
 "beqaa valley, lebanon": null,
 "berdiansk, ukraine": [
 46.7557,
@@ -886,6 +890,10 @@
 33.9388,
 35.5912
 ],
+"debel, lebanon": [
+33.2492,
+35.3489
+],
 "deir ammar, lebanon": [
 34.462,
 35.8994
@@ -1079,6 +1087,7 @@
 6.1466
 ],
 "germany": null,
+"ghanam island, iran": null,
 "ghobeiry, lebanon": [
 33.8598,
 35.5057
@@ -1091,6 +1100,10 @@
 "gorgan, iran": [
 36.8377,
 54.4394
+],
+"gorlovka, ukraine": [
+48.3059,
+38.0028
 ],
 "gulf of aden": [
 12.6147,
@@ -1742,6 +1755,10 @@
 ],
 "kuwayya, syria": null,
 "kyiv oblast, ukraine": null,
+"kyiv pechersk lavra, ukraine": [
+50.4342,
+30.5587
+],
 "kyiv region, ukraine": [
 50.4731,
 30.4674
@@ -1842,6 +1859,7 @@
 49.6113,
 6.1298
 ],
+"lviv region, ukraine": null,
 "lviv, ukraine": [
 49.842,
 24.0316
@@ -1949,6 +1967,7 @@
 33.1031,
 35.445
 ],
+"masharii al-qaa, lebanon": null,
 "mashhad, iran": [
 36.2975,
 59.6059
@@ -2054,6 +2073,10 @@
 "mount hermon, syria": [
 33.4169,
 35.8564
+],
+"mołodycz, poland": [
+50.1585,
+22.8318
 ],
 "msharafieh, beirut, lebanon": null,
 "mudhaykhirah, ibb, yemen": [
@@ -2220,6 +2243,10 @@
 "nowa deba, poland": [
 50.4135,
 21.7541
+],
+"nowy lipowiec, poland": [
+50.4403,
+22.8375
 ],
 "nurtingen, germany": [
 48.6266,
@@ -2556,6 +2583,10 @@
 33.882,
 35.6146
 ],
+"rudnik, poland": [
+50.4448,
+22.244
+],
 "russia": null,
 "ruwaysat al-jadida, beirut, lebanon": null,
 "ryazan, russia": [
@@ -2752,6 +2783,10 @@
 "sirjan, iran": [
 29.4491,
 55.6724
+],
+"sitra island, bahrain": [
+26.148,
+50.6315
 ],
 "slatyne, ukraine": [
 50.2091,
@@ -3031,6 +3066,7 @@
 54.315,
 48.4034
 ],
+"um khuzaym, syria": null,
 "umm al quwain, uae": null,
 "umm al-zaytun, syria": null,
 "united arab emirates": null,

@@ -1,0 +1,347 @@
+{
+ "status": "draft",
+ "received_sha256_12": "08a20c709124",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "verified": 3,
+   "initial": 1,
+   "assessment": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-23T00:40:53+00:00",
+  "window": {
+   "from": "2026-11-22T00:40:53+00:00",
+   "to": "2026-11-23T00:40:53+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611230040"
+  },
+  "summary": "הזירה מאופיינת במתיחות צבאית נמשכת לצד מגעים עקיפים והצהרות איום הדדיות בין איראן לבין ארה\"ב וישראל. איראן ממשיכה לפעול מול בסיסים במפרץ ותשתיות ימיות, בעוד וושינגטון מאיימת בחידוש התקיפות ואכיפת מצור ימי, ומדינות המפרץ מביעות חשש כבד מהסלמה.",
+  "fronts": [
+   {
+    "name": "החזית הימית במפרץ ובמצר הורמוז",
+    "status": "פעיל ומתוח"
+   },
+   {
+    "name": "חזית המפרץ והמדינות השכנות",
+    "status": "פעיל"
+   },
+   {
+    "name": "החזית האיראנית הפנימית (משבר אנרגיה וכלכלה)",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11230040-01",
+    "title": "תקיפה באתר תעשייתי בבחריין",
+    "summary": "בחריין דיווחה כי פגיעה איראנית באתר תעשייתי אזרחי גרמה לפציעתם של שני בני אדם, בהם תושב מקומי ואזרח זר.",
+    "axis": "איראן מול המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T11:46:28+00:00",
+    "last_update_at": "2026-11-22T18:40:54+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והאחריות המדויקת נתונים במחלוקת בין הצדדים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_b79bed2078e518be",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bahrain-says-iranian-strike-wounds-two-one-critically",
+      "published_at": "2026-11-22T18:40:54+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_90997303cc125af7",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-strike-wounds-two-bahrain-saudi-condemns-criminal-attacks",
+      "published_at": "2026-11-22T18:30:24+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_ef74af6c5e78a96d",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-qatar-join-condemnation-iran-attack-bahrain",
+      "published_at": "2026-11-22T13:27:42+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_ab4e08dc0d8b4380",
+      "url": "https://www.al-monitor.com/originals/2026/11/bahrain-says-iran-strikes-industrial-facility-air-defences-intercept-attacks",
+      "published_at": "2026-11-22T11:46:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אי סיתרה, בחריין",
+      "lat": 26.148,
+      "lon": 50.6315
+     },
+     {
+      "name": "מנאמה, בחריין",
+      "lat": 26.2235,
+      "lon": 50.5822
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11230040-02",
+    "title": "פגיעת מוקשים ימיים במכליות נפט מזרחיות למצר הורמוז",
+    "summary": "צי איראן דיווח ששתי מכליות ענק נפגעו ממוקשים ימיים והעלו אש לאחר שנכנסו לאזור אסור ממזרח למצר הורמוז.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-22T16:43:01+00:00",
+    "last_update_at": "2026-11-22T23:59:22+00:00",
+    "what_is_not_verified": "הנסיבות המדויקות של פגיעת המוקשים וזהות כלי השיט במדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_5a3c98123284fa91",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
+      "published_at": "2026-11-22T23:59:22+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_f8599be2608172c3",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-supertankers-hit-mines-near-hormuz-iranian-navy-says",
+      "published_at": "2026-11-22T17:13:51+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_aa0a3fa2ac3d41a5",
+      "url": "https://en.irna.ir/news/86329579/Two-more-violating-oil-tankers-catch-fire-in-Strait-of-Hormuz",
+      "published_at": "2026-11-22T16:43:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11230040-03",
+    "title": "חשיפת משגר טילים חדש באיראן",
+    "summary": "איראן חשפה משגר המסוגל לשגר שני טילים בו-זמנית במסגרת סיור של בכירים בבסיס תת-קרקעי.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-21T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T18:20:30+00:00",
+    "last_update_at": "2026-11-22T18:20:30+00:00",
+    "what_is_not_verified": "יכולותיו המבצעיות האמיתיות של המשגר החדש",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_4b64795fe38ec3e9",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-unveils-new-launcher-can-fire-two-missiles-once",
+      "published_at": "2026-11-22T18:20:30+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11230040-04",
+    "title": "הפרכת דיווחים על תנועת המכלית האיראנית Khat Shekan",
+    "summary": "שירות המעקב TankerTrackers ותקשורת זרה קבעו כי הדיווחים על ניסיון פריצת מצור של מכלית איראנית התבססו על זיוף נתוני מעקב (AIS Spoofing) ושאין מכלית כזו.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T11:44:53+00:00",
+    "last_update_at": "2026-11-22T12:19:42+00:00",
+    "what_is_not_verified": "הזהות המלאה של הגורמים האחראים לזיוף הנתונים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_the_week_tankertrackers",
+      "url": "https://t.me/alexmehacarmel/49818",
+      "published_at": "2026-11-22T12:19:42+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_the_week_tankertrackers",
+      "url": "https://t.me/abualiexpress/134045",
+      "published_at": "2026-11-22T11:44:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "המפרץ הפרסי",
+      "lat": 36.3237,
+      "lon": 50.012
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11230040-05",
+    "title": "הפסקות חשמל מתוזמנות ברחבי איראן",
+    "summary": "איראן החלה בהפסקות חשמל מתוזמנות בשל מחסור בדלק ונזקים לתשתיות האנרגיה מהמלחמה.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-22T11:27:14+00:00",
+    "last_update_at": "2026-11-22T13:17:58+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק בכלל תחנות הכוח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_8e57ea10e100ba90",
+      "url": "https://www.iranintl.com/en/202611223193",
+      "published_at": "2026-11-22T13:17:58+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "fh_8e57ea10e100ba90",
+      "url": "https://t.me/lelotsenzura/95105",
+      "published_at": "2026-11-22T11:27:14+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "הטענה לפיה מומחים מצפון קוריאה ורוסיה מסייעים לכוחות בתימן דרך טיסות של חברת מהאן אייר אינה מאומתת ממקור ראשון.",
+   "הדיווחים על פגיעת האמריקאים במיכלית נפט ועל נסיגת מיכלית שנייה אינם מאומתים.",
+   "היקף הנזק המדויק באתרי הגרעין והטילים באיראן עקב התקיפות הקודמות אינו ברור."
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3428,
+    "unit": "ILS",
+    "change_pct": 1.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "המשכת דרך הדיפלומטיה להפסקת המלחמה",
+     "יצירת הרתעה יציבה ומתמשכת נגד איומים"
+    ],
+    "inferred": [
+     "שיקום יכולות טילים ושימוש בשלוחים באזור למרות התקיפות",
+     "בחינת תגובות ארה\"ב דרך פעילות ימית ותקיפות במפרץ"
+    ],
+    "forecast": [
+     "המשך מאמצי שיקום התשתיות הצבאיות תחת לחץ כלכלי פנימי",
+     "תגובות נקודתיות במרחב הימי נגד מדיניות ארה\"ב"
+    ]
+   },
+   {
+    "actor": "ארה\"ב",
+    "declared": [
+     "איום בחידוש התקיפות נגד איראן בתחילת השנה החדשה אם לא יושג הסכם",
+     "הטבעת כל כשיט שינסה לפרוץ את המצור הימי"
+    ],
+    "inferred": [
+     "שמירה על לחץ צבאי וכלכלי הדוק על טהרן",
+     "מניעת הברחות נפט והתעצמות איראנית"
+    ],
+    "forecast": [
+     "אפשרות ממשית לחידוש המערכה הצבאית אם המשא ומתן ייכשל",
+     "אכיפה קפדנית של המצור הימי"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "שמירה על מוכנות גבוהה לחידוש הלחימה מול איראן"
+    ],
+    "inferred": [
+     "היערכות לאפשרות של הסלמה רב-זירתית הכוללת את שלוחות איראן",
+     "תיאום הדוק עם ארה\"ב בנוגע לאיומי הגרעין והטילים"
+    ],
+    "forecast": [
+     "המשך כוננות גבוהה ושחיקת כוחות סדיר וקבע עקב המתיחות",
+     "היערכות לתגובה אם איראן תחדש את התקיפות הישירות או דרך שליחים"
+    ]
+   },
+   {
+    "actor": "מדינות המפרץ (בחריין, סעודיה, קטאר)",
+    "declared": [
+     "גינוי חריף של התקיפות האיראניות נגד מתקנים אזרחיים ותשתיות",
+     "סולידריות מלאה עם בחריין מול פגיעה בריבונותה"
+    ],
+    "inferred": [
+     "חשש עמוק מהיסחפות לגל חדש של עימותים אזוריים",
+     "הפעלת לחץ מדיני להשגת הסדר שימנע חידוש מלחמה כוללת"
+    ],
+    "forecast": [
+     "דרישה להגברת ההגנה האווירית והימית באזור",
+     "המשך תיווך ולצידו קריאות להרגעת הרוחות מול טהרן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
+    "accessed_at": "2026-11-23T00:40:53+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/bahrain-says-iran-strikes-industrial-facility-air-defences-intercept-attacks",
+    "accessed_at": "2026-11-23T00:40:53+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611223193",
+    "accessed_at": "2026-11-23T00:40:53+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86329579/Two-more-violating-oil-tankers-catch-fire-in-Strait-of-Hormuz",
+    "accessed_at": "2026-11-23T00:40:53+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-unveils-new-launcher-can-fire-two-missiles-once",
+    "accessed_at": "2026-11-23T00:40:53+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134045",
+    "accessed_at": "2026-11-23T00:40:53+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49818",
+    "accessed_at": "2026-11-23T00:40:53+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95105",
+    "accessed_at": "2026-11-23T00:40:53+00:00"
+   }
+  ]
+ }
+}

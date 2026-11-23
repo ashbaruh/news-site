@@ -1,0 +1,335 @@
+{
+ "status": "draft",
+ "received_sha256_12": "155e02e1ce93",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 3,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-23T00:45:49+00:00",
+  "window": {
+   "from": "2026-11-22T00:45:49+00:00",
+   "to": "2026-11-23T00:45:49+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611230045"
+  },
+  "summary": "בזירה הצפונית נמשכות פעולות הנדסיות והרס מבנים מצד כוחות צה\"ל בדרום לבנון, לצד מחאות מקומיות של תושבים וגינויים מצד הנהגת לבנון. במקביל, בגבול סוריה ולבנון מתבצעות תפיסות אמצעי לחימה והברחות, ובדרום סוריה מדווח על פעילות צבאית ישראלית שוטפת והגבלות על חקלאים מקומיים.",
+  "fronts": [
+   {
+    "name": "חזית לבנון",
+    "status": "פעיל חלקית עם פעולות צה\"ל והתרחשויות בגבול"
+   },
+   {
+    "name": "חזית סוריה",
+    "status": "פעיל עם עימותים מקומיים, מוקשים, ופעילות צבאית באזור הגבול"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11230045-01",
+    "title": "ביקור דוברת צה\"ל בבית ספר בדרום לבנון",
+    "summary": "דוברת צה\"ל בערבית ביקרה בבית ספר בכפר דבל ועוררה ביקורת מצד ראש ממשלת לבנון והעירייה.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T21:06:23+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T21:06:23+00:00",
+    "last_update_at": "2026-11-22T22:55:18+00:00",
+    "what_is_not_verified": "הטענות על אופי הביקור וההקשר שלו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/s1bxcal1qe",
+      "published_at": "2026-11-22T22:55:18+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21910055",
+      "published_at": "2026-11-22T21:06:23+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דבל",
+      "lat": 33.2492,
+      "lon": 35.3489
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11230045-02",
+    "title": "פיצוצים והריסת מבנים בדרום לבנון",
+    "summary": "כוחות צה\"ל ביצעו פיצוצים והרס מבנים במספר מוקדים בדרום לבנון.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-22T11:02:22+00:00",
+    "last_update_at": "2026-11-22T22:54:33+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק בכל כפר וכפר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-carries-out-more-demolitions-southern-lebanon",
+      "published_at": "2026-11-22T22:54:33+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134053",
+      "published_at": "2026-11-22T14:51:42+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/153742/",
+      "published_at": "2026-11-22T11:02:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קנטרה",
+      "lat": 33.2735,
+      "lon": 35.4591
+     },
+     {
+      "name": "כפר טיבנית",
+      "lat": 33.3519,
+      "lon": 35.5186
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11230045-03",
+    "title": "פיצוץ מוקש בצפון-מערב סוריה",
+    "summary": "פיצוץ מוקש נותר מעברה של מלחמת האזרחים הרג חמישה ילדים בכפר בסוריה.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T17:30:44+00:00",
+    "last_update_at": "2026-11-22T22:09:36+00:00",
+    "what_is_not_verified": "זהות הגורם המדויק שהניח את המוקש הספציפי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/landmine-blast-kills-5-children-northwest-syria",
+      "published_at": "2026-11-22T22:09:36+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/landmine-explosion-kills-4-children-injures-2-in-northwestern-syria/4133764",
+      "published_at": "2026-11-22T17:30:44+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11230045-04",
+    "title": "השמדת חומרי נפץ וסמים בסוריה",
+    "summary": "מחלקת המלחמה בסמים של סוריה השמידה כמויות גדולות של סמים וחומרים אסורים.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T18:21:01+00:00",
+    "last_update_at": "2026-11-22T18:21:01+00:00",
+    "what_is_not_verified": "היקף התפשטות הרשתות מעבר לנתונים הרשמיים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_73c06d2022eb4871",
+      "url": "https://english.enabbaladi.net/archives/2026/11/syrias-anti-narcotics-department-destroys-drugs-seized-in-security-operations/",
+      "published_at": "2026-11-22T18:21:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11230045-05",
+    "title": "תפיסת משלוח חומרי נפץ בגבול לבנון-סוריה",
+    "summary": "הצבא הלבנוני תפס משלוח חומרי נפץ מסוג סי-פור וטי-אנ-טי שהוברחו מסוריה ועצר חשודים.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-22T10:43:03+00:00",
+    "last_update_at": "2026-11-22T10:43:03+00:00",
+    "what_is_not_verified": "היעד הסופי של משלוח חומרי הנפץ ומעורבות ארגונים נסתרים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/969192/sources-to-lbci-lebanese-army-seizes-264-kilograms-of-explosives-smugg/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969192",
+      "published_at": "2026-11-22T10:43:03+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11230045-06",
+    "title": "מניעת מסיק זיתים והגבלות על חקלאים בדרום סוריה",
+    "summary": "כוחות ישראליים מנעו מחקלאים מקומיים לקטוף זיתים באזור קוניטרה ודרעא ודרשו מהם לעזוב את האדמות.",
+    "axis": "הזירה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-22T12:59:14+00:00",
+    "last_update_at": "2026-11-22T12:59:14+00:00",
+    "what_is_not_verified": "היקף הפעילות המלא של הביצורים בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/153792/",
+      "published_at": "2026-11-22T12:59:14+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-ראפד",
+      "lat": 32.9559,
+      "lon": 35.9009
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות שר החוץ הטורקי על חימוש שבוע של פלגים דרוזים בסוריה על ידי ישראל",
+   "הקשר המדויק בין משלוחי חומרי הנפץ שהוברחו מסוריה לבין גורמים צבאיים ספציפיים",
+   "מניעי החטיפה של הפעיל בסווידא בידי משמרות הלאום"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3428,
+    "unit": "ILS",
+    "change_pct": 1.65,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-20T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "פירוק תשתיות טרור ומניעת התבססות"
+    ],
+    "inferred": [
+     "יצירת אזורי חיץ ביטחוניים בדרום לבנון ובדרום סוריה"
+    ],
+    "forecast": [
+     "המשך פעולות הנדסיות וסיכול איומים בגבולות הצפון"
+    ]
+   },
+   {
+    "actor": "לבנון / ממשלת לבנון",
+    "declared": [
+     "שמירה על ריבונות המדינה וגינוי פעולות צבאיות זרות"
+    ],
+    "inferred": [
+     "ניסיון להפעיל לחץ מדיני נגד הנוכחות הישראלית בשטחי הגבול"
+    ],
+    "forecast": [
+     "המשך מחאות והימנעות מקבלת ברכות עצמאות רשמיות כמחאה"
+    ]
+   },
+   {
+    "actor": "סוריה / שלטונות סוריה",
+    "declared": [
+     "טיהור שטחים ממוקשים וניהול כלכלה וביטחון פנים"
+    ],
+    "inferred": [
+     "ניסיון לשקם מוסדות ולבלום הברחות גבול"
+    ],
+    "forecast": [
+     "המשך פינוי אמצעי לחימה וניסיונות ייצוב פנים-ארציים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/153792/",
+    "accessed_at": "2026-11-23T00:45:49+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/landmine-explosion-kills-4-children-injures-2-in-northwestern-syria/4133764",
+    "accessed_at": "2026-11-23T00:45:49+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/11/syrias-anti-narcotics-department-destroys-drugs-seized-in-security-operations/",
+    "accessed_at": "2026-11-23T00:45:49+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21910055",
+    "accessed_at": "2026-11-23T00:45:49+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/969192/sources-to-lbci-lebanese-army-seizes-264-kilograms-of-explosives-smugg/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969192",
+    "accessed_at": "2026-11-23T00:45:49+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-carries-out-more-demolitions-southern-lebanon",
+    "accessed_at": "2026-11-23T00:45:49+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/landmine-blast-kills-5-children-northwest-syria",
+    "accessed_at": "2026-11-23T00:45:49+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134053",
+    "accessed_at": "2026-11-23T00:45:49+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/s1bxcal1qe",
+    "accessed_at": "2026-11-23T00:45:49+00:00"
+   }
+  ]
+ }
+}
