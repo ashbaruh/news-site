@@ -1,0 +1,336 @@
+{
+ "status": "draft",
+ "received_sha256_12": "454c56bd2008",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 3,
+   "verified": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-24T03:40:46+00:00",
+  "window": {
+   "from": "2026-11-23T03:40:46+00:00",
+   "to": "2026-11-24T03:40:46+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611240340"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל מתנהל במספר חזיתות הכוללות מתיחות ימית במצר הורמוז, מתקפות סייבר נגד מכליות אנרגיה והחמרת סנקציות כלכליות אמריקניות. במקביל, נמשכים מאמצים דיפלומטיים של מדינות כמו קטאר לחידוש המגעים, לצד פעילות של שלוחות איראניות באזור וחילופי איומים פומביים סביב יכולות טילים וחסמי סחר.",
+  "fronts": [
+   {
+    "name": "החזית הימית (המפרץ והורמוז)",
+    "status": "פעילה עם פגיעה במכליות, מוקשים ימיים ואיומי סגר"
+   },
+   {
+    "name": "חזית הסייבר והכלכלה",
+    "status": "הסлаמה בסנקציות אמריקניות וחקירות מתקפות סייבר על תשתיות"
+   },
+   {
+    "name": "חזית השלוחות האזוריות",
+    "status": "ניסיונות הפעלת מיליציות וסיכול פעילות טרור בירדן ובעיראק"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11240340-01",
+    "title": "מתקפות סייבר ואיומים על מכליות נפט וגז",
+    "summary": "חקירה בארצות הברית על מעורבות אפשרית של איראן בעשרות מתקפות סייבר נגד מכליות אנרגיה, לצד איומי פצצה ודרישות שלא להעמיס סחורה אמריקנית.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-24T00:46:31+00:00",
+    "last_update_at": "2026-11-24T03:02:53+00:00",
+    "what_is_not_verified": "האחריות הישירה של איראן למתקפות וטענות ממשל טראמפ כי טרם נמצאו ראיות חד-משמעיות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21917662",
+      "published_at": "2026-11-24T03:02:53+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rjsn4imyml",
+      "published_at": "2026-11-24T01:36:44+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-eyes-iran-possible-culprit-dozens-new-cyberattacks-against-ships-wsj-reports",
+      "published_at": "2026-11-24T00:46:31+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11240340-02",
+    "title": "פיצוץ מכליות נפט במצר הורמוז",
+    "summary": "שלוש מכליות נפט נפגעו ממוקשים ימיים במצר הורמוז ועלו באש, לפי דיווח של משמרות המהפכה האיראניים.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-23T21:48:40+00:00",
+    "last_update_at": "2026-11-24T00:00:00+00:00",
+    "what_is_not_verified": "נסיבות פגיעת המכליות והדיווחים על כישלון הכיסוי האווירי האמריקני",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines?traffic_source=rss",
+      "published_at": "2026-11-24T00:00:00+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/three-tankers-explode-strait-hormuz",
+      "published_at": "2026-11-23T21:48:40+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11240340-03",
+    "title": "סנקציות אמריקניות חדשות והצעת פרס כספי נגד בנקאות הצללים",
+    "summary": "מחלקת המדינה ומשרד האוצר בארה\"ב הטילו סנקציות על עשרות גופים ואישים הקשורים לבנקאות הצללים של איראן והציעו פרס כספי של עד 15 מיליון דולר.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-23T19:46:31+00:00",
+    "last_update_at": "2026-11-24T00:09:35+00:00",
+    "what_is_not_verified": "ההיקף המדויק של סיכול הפעילות בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_96823e02719e1135",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21917561",
+      "published_at": "2026-11-24T00:09:35+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_d5fe33b4eed8d2bc",
+      "url": "https://www.maariv.co.il/breaking-news/article-1391613",
+      "published_at": "2026-11-23T22:19:25+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_bc14626185b1d2f4",
+      "url": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss",
+      "published_at": "2026-11-23T21:30:40+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_d502521aa8120198",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-imposes-sanctions-dozens-linked-irans-shadow-banking-networks",
+      "published_at": "2026-11-23T19:46:31+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11240340-04",
+    "title": "כניסת כוחות עיראקיים למעוז מיליציה פרו-איראנית בג'ורף אל-צח'ר",
+    "summary": "כוחות הביטחון של עיראק נכנסו למעוז של מיליציית קטאיב חזבאללה בעקבות חקירת הברחות נפט.",
+    "axis": "שלוחות איראן בעיראק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-20T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-23T21:13:03+00:00",
+    "last_update_at": "2026-11-24T03:00:43+00:00",
+    "what_is_not_verified": "האם ממשלת בגדאד תצליח לבסס שליטה מלאה או שמדובר בפשרה בלבד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611242077",
+      "published_at": "2026-11-24T03:00:43+00:00"
+     },
+     {
+      "source_id": "src_lwj",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.longwarjournal.org/archives/2026/11/iraqi-forces-enter-jurf-al-sakhar-militia-stronghold-as-pm-seeks-to-consolidate-power.php",
+      "published_at": "2026-11-23T21:13:03+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'ורף אל-צח'ר, עיראק",
+      "lat": 32.8682,
+      "lon": 44.2159
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11240340-05",
+    "title": "הכחשת שיירת פריצת המצור ודרישת פיצויים מצד איראן",
+    "summary": "תאגיד השידור האיראני הכחיש את קיומה של שיירת מכליות לפריצת המצור האמריקני וטען שמדובר בפרשנות שגויה, לצד דרישת פיצויים כספיים מארה\"ב.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-23T12:42:18+00:00",
+    "last_update_at": "2026-11-23T12:42:18+00:00",
+    "what_is_not_verified": "אמיתות הטענות על דרכים חלופיות לפריצת המצור וסיכויי קבלת הפיצויים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/r10vghwjqg",
+      "published_at": "2026-11-23T12:42:18+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11240340-06",
+    "title": "סיכול ניסיונות חדירת חות'ים לישראל דרך ירדן",
+    "summary": "שירותי המודיעין בירדן סיכלו מספר ניסיונות של חוליות חות'יות לחדור לשטח ישראל דרך ירדן ועצרו חברי חוליית טרור בעמאן.",
+    "axis": "שלוחות איראן מול ישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T15:19:09+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-23T15:19:09+00:00",
+    "last_update_at": "2026-11-23T15:19:09+00:00",
+    "what_is_not_verified": "מלוא היקף הפעילות והפרטים המדויקים על הקשר הישיר בין החוליות להנחיות איראניות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49854",
+      "published_at": "2026-11-23T15:19:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עמאן, ירדן",
+      "lat": 31.9516,
+      "lon": 35.924
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מעורבות ישירה של איראן במתקפות הסייבר על כלי השיט בארה\"ב והעולם",
+   "היקף היכולת האיראנית לפגוע ביעדים באירופה באמצעות טילים לטווח של 4,500 קילומטרים",
+   "הפרטים המלאים אודות ניסיונות החדירה של חות'ים מירדן לישראל"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3498,
+    "unit": "ILS",
+    "change_pct": 0.21,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "להשתמש בכל הכלים העומדים לרשותה נגד מה שהיא מגדירה כתוקפנות אמריקנית וסגר ימי",
+     "לדרוש פיצויים כספיים עצומים מארה\"ב ומדינות המפרץ על רקע עימותים קודמים",
+     "להציג הרתעה באמצעות פיתוח טילים מתקדמים"
+    ],
+    "inferred": [
+     "לנסות לשлеות מחירים כלכליים ואנרגטיים על ארה\"ב ובנות בריתה במפרץ כדי להקל את לחץ הסנקציות",
+     "לשמר את רשת ההשפעה של שלוחותיה האזוריות למרות לחצים פנימיים וחיצוניים"
+    ],
+    "forecast": [
+     "המשך שימוש בלוחמה אסימטרית, סייבר ומוקשים ימיים במפרץ",
+     "דחיית דרישות לכניעה מוחלטת והיצמדות לעמדה נוקשה במשא ומתן אפשרי"
+    ]
+   },
+   {
+    "actor": "ארה\"ב וישראל",
+    "declared": [
+     "לנתק את ערוצי המימון ועסקאות הנפט של משמרות המהפכה באמצעות סנקציות רחבות ובנקאות צללים",
+     "לשבש את יכולות ההתעצמות והתשתיות של המשטר האיראני ושלוחותיו"
+    ],
+    "inferred": [
+     "להפעיל לחץ מקסימלי כלכלי וצבאי כדי לכפות על טהרן שינוי התנהגות או כניעה לתנאים",
+     "למנוע מהשלוחות האיראניות לפתוח חזיתות חדשות נגד ישראל ומדינות המפרץ"
+    ],
+    "forecast": [
+     "הידוק נוסף של הפיקוח הימי והפיננסי על איראן",
+     "המשך ויכוחים פנימיים ודיונים סביב הצורך בפעולות צבאיות נוספות מול טהרן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss",
+    "accessed_at": "2026-11-24T03:40:46+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/us-imposes-sanctions-dozens-linked-irans-shadow-banking-networks",
+    "accessed_at": "2026-11-24T03:40:46+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611242077",
+    "accessed_at": "2026-11-24T03:40:46+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21917561",
+    "accessed_at": "2026-11-24T03:40:46+00:00"
+   },
+   {
+    "source_id": "src_lwj",
+    "url": "https://www.longwarjournal.org/archives/2026/11/iraqi-forces-enter-jurf-al-sakhar-militia-stronghold-as-pm-seeks-to-consolidate-power.php",
+    "accessed_at": "2026-11-24T03:40:46+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1391613",
+    "accessed_at": "2026-11-24T03:40:46+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/three-tankers-explode-strait-hormuz",
+    "accessed_at": "2026-11-24T03:40:46+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49854",
+    "accessed_at": "2026-11-24T03:40:46+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/r10vghwjqg",
+    "accessed_at": "2026-11-24T03:40:46+00:00"
+   }
+  ]
+ }
+}
