@@ -750,76 +750,132 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-11-23T2219__ukraine-202611232219.json",
+  "draft": "drafts/ukraine/2026-11-24T1140__ukraine-202611241140.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-11-23T22:19:08+00:00",
+   "generated_at": "2026-11-24T11:40:30+00:00",
    "window": {
-    "from": "2026-11-22T22:19:08+00:00",
-    "to": "2026-11-23T22:19:08+00:00"
+    "from": "2026-11-23T11:40:30+00:00",
+    "to": "2026-11-24T11:40:30+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "ukraine-202611232219"
+    "run_id": "ukraine-202611241140"
    },
-   "summary": "המלחמה בין רוסיה לאוקראינה נמשכת בלחימה אקטיבית הכוללת תקיפות אוויריות וימיות הדדיות, לצד מאבקים דיפלומטיים וכלכליים רחבים. אוקראינה ממשיכה לבצע תקיפות ארוכות טווח נגד תשתיות אנרגיה וכלים ימיים של רוסיה, בעוד רוסיה ממשיכה להפציץ את רשת החשמל והערים האוקראיניות. במקביל, מעצמות המערב מקדמות חבילות סנקציות חדשות ודנות בחיזוק הערבויות הביטחוניות לאוקראינה.",
+   "summary": "הלחימה הקרקעית באוקראינה נותרה קפואה ברובה, אך המלחמה מתעצמת במרחב האווירי ובעומק שטחי שתי המדינות באמצעות מתקפות כטב\"מים וטילים רחבות היקף. רוסיה ממשיכה להטיל אש כבדה על תשתיות אנרגיה ואזורים עירוניים באוקראינה, בעוד אוקראינה מרחיבה את טווח הפעולה ההתקפי שלה ומבצעת תקיפות עומק חריגות, כולל בזירות בינלאומיות ובתוך שטח רוסיה. במקביל, אירועים חריגים כמו חדירת כטב\"ם לפולין מעלים את מפלס המתיחות מול נאט\"ו.",
    "fronts": [
     {
-     "name": "חזית המזרח והדרום באוקראינה",
-     "status": "פעיל וקבוע"
+     "name": "חזית המזרח (דונבאס)",
+     "status": "קפואה/לחימה קרקעית מוגבלת"
     },
     {
-     "name": "חזית התשתיות והאנרגיה",
-     "status": "הסלמה בתקיפות ההדדיות"
+     "name": "חזית הדרום (זפוריז'ה, אודסה)",
+     "status": "פעילה תחת תקיפות אוויריות וטילים"
     },
     {
-     "name": "החזית הימית (הים השחור ולוב)",
-     "status": "פעילות אוקראינית התקפית"
+     "name": "מרחב האוויר ועומק רוסיה",
+     "status": "פעיל מאוד עם מתקפות כטב\"מים הדדיות"
+    },
+    {
+     "name": "החזית המזרח-אירופאית (פולין ואסטוניה)",
+     "status": "מתיחות גוברת עקב זליגת אמצעי לחימה וצעדי אבטחה"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-11232219-01",
-     "title": "תקיפת כלי שיט רוסיים מול חופי לוב",
-     "summary": "כוחות אוקראיניים ביצעו מתקפה באמצעות רחופי ימיה נגד קורבטה ואוניית מטען רוסיות מול חופי לוב.",
-     "axis": "תקיפות והגנה",
+     "id": "UKRAINE-11241140-01",
+     "title": "תקיפת רכבת אוקראינית במחוז ז'יטומיר",
+     "summary": "רוסיה תקפה רכבת אוקראינית ותשתיות אנרגיה במחוז ז'יטומיר בלילה.",
+     "axis": "תקיפות אוויריות",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-23T00:00:00+00:00",
+     "occurred_at": "2026-11-24T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-23T15:41:23+00:00",
-     "last_update_at": "2026-11-23T21:00:00+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק מחוץ לדיווחים הרשמיים והתקשורתיים.",
+     "first_reported_at": "2026-11-24T10:21:00+00:00",
+     "last_update_at": "2026-11-24T11:36:30+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_fdf054c78e7193e0",
+       "url": "https://t.me/alexmehacarmel/49880",
+       "published_at": "2026-11-24T11:36:30+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_fdf054c78e7193e0",
+       "url": "https://www.ukrinform.net/rubric-ato/4188006-zelensky-russia-focused-its-attacks-on-zhytomyr-region-last-night-defenses-worked.html",
+       "published_at": "2026-11-24T10:21:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11241140-02",
+     "title": "פגיעה בבית חולים עירוני באודסה",
+     "summary": "מתקפה רוסית פגעה בבניין בית חולים עירוני באודסה.",
+     "axis": "תקיפות אוויריות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-24T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-24T11:36:00+00:00",
+     "last_update_at": "2026-11-24T11:36:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_ukrinform",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.ukrinform.net/rubric-ato/4187865-zelensky-ukraine-to-continue-naval-strikes-after-hitting-two-russian-vessels-off-libya.html",
-       "published_at": "2026-11-23T21:00:00+00:00"
-      },
+       "source_root_id": "fh_8934e795d121807d",
+       "url": "https://www.ukrinform.net/rubric-ato/4188038-hospital-damaged-in-russian-attack-on-odesa.html",
+       "published_at": "2026-11-24T11:36:00+00:00"
+      }
+     ],
+     "places": [
       {
-       "source_id": "src_tass",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/world/2223623",
-       "published_at": "2026-11-23T19:46:08+00:00"
+       "name": "אודסה, אוקראינה",
+       "lat": 46.4843,
+       "lon": 30.7323
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11241140-03",
+     "title": "תקיפת כטב\"ם אוקראיני על ספינה רוסית בלוב",
+     "summary": "נשיא אוקראינה אישר שאוקראינה ביצעה מתקפת כטב\"ם נגד ספינת מטען/מלחמה רוסית בנמל בבנגאזי שבלוב.",
+     "axis": "זירות ימיות ובינלאומיות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-21T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-23T15:41:23+00:00",
+     "last_update_at": "2026-11-24T11:29:15+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "fh_046b66da205f5450",
+       "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates",
+       "published_at": "2026-11-24T11:29:15+00:00"
       },
       {
        "source_id": "src_kyivind",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://kyivindependent.com/ukraine-war-latest-russian-warship-sinks-off-libyan-coast-following-exemplary-ukrainian-drone-attack/",
-       "published_at": "2026-11-23T19:11:38+00:00"
+       "source_root_id": "fh_046b66da205f5450",
+       "url": "https://kyivindependent.com/strikes-on-russian-ship-in-libya-are-lawful-self-defense-ukraine-says/",
+       "published_at": "2026-11-24T10:56:53+00:00"
       },
       {
        "source_id": "src_guardian",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.theguardian.com/world/video/2026/nov/23/footage-shows-ukrainian-marine-drones-targeting-russian-ships-video",
-       "published_at": "2026-11-23T16:12:44+00:00"
+       "source_root_id": "fh_046b66da205f5450",
+       "url": "https://www.theguardian.com/world/2026/nov/24/ukraine-war-briefing-kyiv-strike-on-russian-ships-in-benghazi-condemned-by-un-backed-libya-government",
+       "published_at": "2026-11-24T01:08:35+00:00"
       },
       {
        "source_id": "src_bbc",
-       "source_root_id": "or_unknown_origin",
+       "source_root_id": "fh_534e9b3fd87e580e",
        "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
        "published_at": "2026-11-23T15:41:23+00:00"
       }
@@ -833,132 +889,217 @@ window.DB.war_published = {
      ]
     },
     {
-     "id": "UKRAINE-11232219-02",
-     "title": "תקיפת בתי זיקוק ותשתיות אנרגיה ברוסיה",
-     "summary": "כוחות אוקראיניים תקפו בית זיקוק לנפט ותחנת שאיבה ברוסיה, ופגעו במתקני אנרגיה נוספים.",
-     "axis": "תקיפות והגנה",
+     "id": "UKRAINE-11241140-04",
+     "title": "החלטת אסטוניה לסגור את מעברי הגבול עם רוסיה",
+     "summary": "אסטוניה הודיעה על סגירת מעברי הגבול היבשתיים עם רוסיה החל מה-1 בדצמבר בעקבות ניסיון הצתה שיוחס למודיעין הרוסי.",
+     "axis": "סנקציות ומדיניות גבולות",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-23T00:00:00+00:00",
+     "occurred_at": "2026-11-24T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-23T18:36:00+00:00",
-     "last_update_at": "2026-11-23T19:53:00+00:00",
-     "what_is_not_verified": "מלוא היקף הפגיעה במתקנים.",
+     "first_reported_at": "2026-11-24T11:25:49+00:00",
+     "last_update_at": "2026-11-24T11:25:49+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_7f0d4a1041498c84",
-       "url": "https://www.ukrinform.net/rubric-ato/4187846-general-staff-confirms-strike-on-lukoil-oil-refinery-in-perm.html",
-       "published_at": "2026-11-23T19:53:00+00:00"
-      },
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_7f0d4a1041498c84",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/23/8064292/",
-       "published_at": "2026-11-23T18:36:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "פרם, רוסיה",
-       "lat": 58.0109,
-       "lon": 56.2319
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11232219-03",
-     "title": "פגיעה בתשתיות אנרגיה באוקראינה",
-     "summary": "תקיפות פגעו במערכות החשמל ובמתקני אנרגיה באזורים שונים באוקראינה, והותירו מאות אלפי בתי אב ללא חשמל.",
-     "axis": "תקיפות והגנה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-22T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-23T19:19:18+00:00",
-     "last_update_at": "2026-11-23T19:19:18+00:00",
-     "what_is_not_verified": "זהות אמצעי הלחימה המדויקים בכל אתר ואתר.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "fh_e456cb702a7ea052",
-       "url": "https://kyivindependent.com/over-350-000-homes-without-power-as-energy-crisis-deepens-in-dnipropetrovsk-oblast/",
-       "published_at": "2026-11-23T19:19:18+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "דניפרו, אוקראינה",
-       "lat": 51.5567,
-       "lon": 30.6122
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11232219-04",
-     "title": "יירוט רחפן שיוט רוסי באמצעות רחפן יירוט אוקראיני",
-     "summary": "הצד האוקראיני דיווח על יירוט מוצלח ראשון של טיסן תוקף מסוג גראן-5 באמצעות רחפן יירוט מסוג SPYS.",
-     "axis": "טכנולוגיה ואמצעי לחימה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-23T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-23T17:47:53+00:00",
-     "last_update_at": "2026-11-23T19:35:00+00:00",
-     "what_is_not_verified": "אמינות מלאה של התיעוד הוויזואלי ופרטי הביצוע המלאים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_b93f8aa6c024e120",
-       "url": "https://www.ukrinform.net/rubric-defense/4187843-germanukrainian-spys-interceptor-drone-shoots-down-russian-jetpowered-geran5.html",
-       "published_at": "2026-11-23T19:35:00+00:00"
-      },
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "fh_b93f8aa6c024e120",
-       "url": "https://t.me/alexmehacarmel/49858",
-       "published_at": "2026-11-23T17:47:53+00:00"
+       "source_id": "src_meduza",
+       "source_root_id": "fh_e06abd56cf780dab",
+       "url": "https://meduza.io/en/feature/2026/11/24/why-is-estonia-closing-its-border-with-russia-estonian-foreign-minister-margus-tsahkna-explains-in-a-column-for-politico",
+       "published_at": "2026-11-24T11:25:49+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "UKRAINE-11232219-05",
-     "title": "זימון נציג אסטוניה במשרד החוץ הרוסי",
-     "summary": "רוסיה זימנה את הממונה על העסקים של אסטוניה והגישה מחאה חריפה על סגירת הגבול והאשמות נגד מוסקבה.",
-     "axis": "דיפלומטיה וסנקציות",
-     "claim_type": "statement",
+     "id": "UKRAINE-11241140-05",
+     "title": "תקיפת ריכוז משאיות צבאיות רוסיות במחוז בריאנסק",
+     "summary": "הכוחות המזוינים של אוקראינה תקפו אזור שבו רוכזו משאיות צבאיות רוסיות ליד ברסטוק ברוסיה.",
+     "axis": "תקיפות שטח",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-23T00:00:00+00:00",
+     "occurred_at": "2026-11-24T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-23T22:09:24+00:00",
-     "last_update_at": "2026-11-23T22:09:24+00:00",
-     "what_is_not_verified": "טענות הדדיות לגבי שימוש במרחב אווירי.",
+     "first_reported_at": "2026-11-24T11:19:00+00:00",
+     "last_update_at": "2026-11-24T11:19:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_66eaaf21632bf6da",
+       "url": "https://www.ukrinform.net/rubric-ato/4188026-ukrainian-forces-hit-russian-military-truck-concentration-area-in-bryansk-region.html",
+       "published_at": "2026-11-24T11:19:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11241140-06",
+     "title": "תקיפת כטב\"ם אוקראיני על תחנת אוטובוס בדונייצק",
+     "summary": "דווח על פציעת שבעה בני אדם כתוצאה מתקיפת כטב\"ם אוקראיני בתחנת אוטובוס בדונייצק.",
+     "axis": "תקיפות שטח",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-24T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-24T11:17:27+00:00",
+     "last_update_at": "2026-11-24T11:17:27+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tass",
+       "source_root_id": "fh_cfe12c4d3c940a81",
+       "url": "https://tass.com/politics/2223899",
+       "published_at": "2026-11-24T11:17:27+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11241140-07",
+     "title": "כרטיסי סל ליטאיים בכטב\"מים רוסיים",
+     "summary": "בדיקות גילו כרטיסי סל ליטאיים בתוך כטב\"מים רוסיים שתקפו את אוקראינה.",
+     "axis": "טכנולוגיה ומודיעין",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-24T10:40:19+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-24T10:40:19+00:00",
+     "last_update_at": "2026-11-24T10:40:19+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_meduza",
-       "source_root_id": "fh_680a98a52e01ceb9",
-       "url": "https://meduza.io/en/news/2026/11/24/russia-protests-estonia-s-planned-land-border-closure-and-again-accuses-it-of-letting-ukrainian-drones-use-its-airspace",
-       "published_at": "2026-11-23T22:09:24+00:00"
+       "source_root_id": "or_15min",
+       "url": "https://meduza.io/en/news/2026/11/24/lithuanian-sim-cards-found-in-russian-drones-that-attacked-ukraine",
+       "published_at": "2026-11-24T10:40:19+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11241140-08",
+     "title": "הענקת אזרחות סרבית לאלי קדירוב",
+     "summary": "שלטונות סרביה העניקו אזרחות לאלי קדירוב, בנו של מנהיג צ'צ'ניה רמזן קדירוב.",
+     "axis": "דיפלומטיה ומדיניות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-24T10:30:04+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-24T10:30:04+00:00",
+     "last_update_at": "2026-11-24T10:30:04+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/11/24/chechen-leader-ramzan-kadyrov-s-son-granted-serbian-citizenship",
+       "published_at": "2026-11-24T10:30:04+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "סרביה",
+       "lat": 44.0243,
+       "lon": 21.0766
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11241140-09",
+     "title": "תקיפת כטב\"ם FPV בזפוריז'ה",
+     "summary": "מתקפת כטב\"ם רוסית זורעת הרס רב והורגת שני בני אדם, ופוגעת באישה באורח קשה בזפוריז'ה.",
+     "axis": "תקיפות אוויריות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-24T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-24T08:11:10+00:00",
+     "last_update_at": "2026-11-24T10:05:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_2c746d2cc3f1553b",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/24/8064366/",
+       "published_at": "2026-11-24T10:05:00+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "fh_35561fdb62b7fdde",
+       "url": "https://meduza.io/en/news/2026/11/24/russian-strikes-kill-two-in-ukraine-s-zaporizhzhia-injure-dozens",
+       "published_at": "2026-11-24T08:11:10+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11241140-10",
+     "title": "שיגור מאות כטב\"מים אוקראיניים לעבר מוסקבה ורוסיה",
+     "summary": "מאות כטב\"מים אוקראיניים שוגרו לעבר מוסקבה ויעדים נוספים ברוסיה, והובילו לשיבושים בנתב\"ג המקומיים.",
+     "axis": "תקיפות אוויריות",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-24T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-24T08:22:29+00:00",
+     "last_update_at": "2026-11-24T08:22:29+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "fh_b772c3ab1235b985",
+       "url": "https://meduza.io/en/news/2026/11/24/355-ukrainian-drones-flew-toward-moscow-overnight-prompting-flight-restrictions-at-two-airports",
+       "published_at": "2026-11-24T08:22:29+00:00"
       }
      ],
      "places": [
       {
        "name": "מוסקבה, רוסיה",
-       "lat": 55.7505,
-       "lon": 37.6175
+       "lat": 55.7098,
+       "lon": 37.0537
       }
      ]
+    },
+    {
+     "id": "UKRAINE-11241140-11",
+     "title": "חדירת כטב\"ם רוסי למרחב האווירי של פולין",
+     "summary": "כטב\"ם מונע מנוע סילון רוסי חדר לשטח פולין לעומק של כ-20 קילומטרים ושהה שם תשע דקות לפני שחזר לאוקראינה.",
+     "axis": "הפרת מרחב אוווירי",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-23T23:17:52+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-23T23:17:52+00:00",
+     "last_update_at": "2026-11-24T09:12:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_969cfd8e26b6e9a4",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/24/8064356/",
+       "published_at": "2026-11-24T09:12:00+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_969cfd8e26b6e9a4",
+       "url": "https://t.me/alexmehacarmel/49866",
+       "published_at": "2026-11-23T23:17:52+00:00"
+      }
+     ],
+     "places": []
     }
    ],
    "not_verified": [
-    "טענת רוסיה כי אסטוניה מאפשרת למל\"טים אוקראיניים לעבור במרחב האווירי שלה",
-    "מספר האבדות המדויק בצבא רוסיה המבוסס על נתונים מודלפים",
-    "טענות על היערכות רוסית לשגר לוויין עם נשק גרעיני"
+    "טענות רוסיות לגבי המספר המדויק של מאות כטב\"מים שהופלו",
+    "ההערכות המלאות לגבי הנזקים המדויקים בספינה בלוב"
    ],
    "map": {
     "confidence": "high",
@@ -980,47 +1121,31 @@ window.DB.war_published = {
     {
      "actor": "אוקראינה",
      "declared": [
-      "השגת הפסקת אש מיידית ומקיפה על בסיס מגילת האו\"ם",
-      "קבלת ערבויות ביטחוניות איתנות",
-      "המשכת הפעילות הצבאית הימית והאווירית נגד נכסים רוסיים"
+      "הגנה על ריבונות המדינה",
+      "פגיעה ביעדים צבאיים ולגיטימיים של רוסיה גם במרחב הימי ובעומק שטחה"
      ],
      "inferred": [
-      "פגיעה ביכולת הכלכלית והאנרגטית של רוסיה כדי לשחוק את מאמץ המלחמה שלה",
-      "שמירת תמיכת המערב ואספקת אמצעי הגנה אווירית מתקדמים"
+      "יצירת הרתעה מול התשתיות הרוסיות",
+      "גיוס תמיכה מערבית רחבה באמצעות הוכחת יכולות התקפיות"
      ],
      "forecast": [
-      "אוקראינה תמשיך בניסיונות לפגוע בתשתיות עומק ברוסיה ובנכסיה הימיים",
-      "הגברת התלות בסיוע טכנולוגי וצבאי מערבי להגנה מפני מל\"טים"
+      "המשך מתקפות כטב\"מים בעומק רוסיה ובנמלים זרים שבהם יש נוכחות רוסית",
+      "הדגשת הצורך בסיוע הגנה אווירית"
      ]
     },
     {
      "actor": "רוסיה",
      "declared": [
-      "המשכת הפעילות הצבאית עד להשגת היעדים",
-      "מניעת התרחבות נאט\"ו ותגובה על צעדים עוינים מצד מדינות אירופה"
+      "המשך המבצע הצבאי המיוחד",
+      "פגיעה בתשתיות האנרגיה והצבא של אוקראינה"
      ],
      "inferred": [
-      "המשך שחיקת תשתיות האנרגיה של אוקראינה לקראת עונת החורף",
-      "ניסיון לערער את הלגיטימציה של הסיוע המערבי לאוקראינה"
+      "שחיקת משק החשמל האוקראיני לקראת החורף",
+      "ניסיון להכתיב תנאי משא ומתן שישמרו על השפעתה באזור"
      ],
      "forecast": [
-      "הגברת התקיפות על מתקני אנרגיה ותחבורה באוקראינה",
-      "המרת אמצעי תקיפה אוויריים בייצור מוגבר של כלי טיס בלתי מאוישים מתקדמים"
-     ]
-    },
-    {
-     "actor": "המערב (נאט\"ו והאיחוד האירופי)",
-     "declared": [
-      "שמירת התמיכה באוקראינה ואספקת ציוד הגנה אווירי",
-      "הטלת סנקציות כלכליות נוספות על רוסיה ומניעת עקפתן"
-     ],
-     "inferred": [
-      "היערכות ארוכת טווח לעימות אפשרי מול רוסיה וחיזוק הגבולות המזרחיים",
-      "מניעת גלישה של העימות מחוץ לגבולות אוקראינה"
-     ],
-     "forecast": [
-      "אישור חבילות סנקציות נוספות נגד מגזר האנרגיה הרוסי",
-      "הרחבת הנוכחות והתרגילים הצבאיים במדינות הבלטיות"
+      "המשך הפצצות אוויריות כבדות על מתקני אנרגיה באוקראינה",
+      "שמירה על לחץ קרקעי ואי-קידום הסכמות שלום בתנאים לא נוחים"
      ]
     }
    ],
@@ -1028,67 +1153,83 @@ window.DB.war_published = {
     {
      "source_id": "src_bbc",
      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-11-23T22:19:08+00:00"
+     "accessed_at": "2026-11-24T11:40:30+00:00"
     },
     {
      "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/world/video/2026/nov/23/footage-shows-ukrainian-marine-drones-targeting-russian-ships-video",
-     "accessed_at": "2026-11-23T22:19:08+00:00"
+     "url": "https://www.theguardian.com/world/2026/nov/24/ukraine-war-briefing-kyiv-strike-on-russian-ships-in-benghazi-condemned-by-un-backed-libya-government",
+     "accessed_at": "2026-11-24T11:40:30+00:00"
     },
     {
      "source_id": "src_kyivind",
-     "url": "https://kyivindependent.com/over-350-000-homes-without-power-as-energy-crisis-deepens-in-dnipropetrovsk-oblast/",
-     "accessed_at": "2026-11-23T22:19:08+00:00"
+     "url": "https://kyivindependent.com/strikes-on-russian-ship-in-libya-are-lawful-self-defense-ukraine-says/",
+     "accessed_at": "2026-11-24T11:40:30+00:00"
     },
     {
      "source_id": "src_meduza",
-     "url": "https://meduza.io/en/news/2026/11/24/russia-protests-estonia-s-planned-land-border-closure-and-again-accuses-it-of-letting-ukrainian-drones-use-its-airspace",
-     "accessed_at": "2026-11-23T22:19:08+00:00"
+     "url": "https://meduza.io/en/news/2026/11/24/355-ukrainian-drones-flew-toward-moscow-overnight-prompting-flight-restrictions-at-two-airports",
+     "accessed_at": "2026-11-24T11:40:30+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/23/8064292/",
-     "accessed_at": "2026-11-23T22:19:08+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/24/8064356/",
+     "accessed_at": "2026-11-24T11:40:30+00:00"
     },
     {
      "source_id": "src_tass",
-     "url": "https://tass.com/world/2223623",
-     "accessed_at": "2026-11-23T22:19:08+00:00"
+     "url": "https://tass.com/politics/2223899",
+     "accessed_at": "2026-11-24T11:40:30+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49858",
-     "accessed_at": "2026-11-23T22:19:08+00:00"
+     "url": "https://t.me/alexmehacarmel/49866",
+     "accessed_at": "2026-11-24T11:40:30+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-defense/4187843-germanukrainian-spys-interceptor-drone-shoots-down-russian-jetpowered-geran5.html",
-     "accessed_at": "2026-11-23T22:19:08+00:00"
+     "url": "https://www.ukrinform.net/rubric-ato/4188026-ukrainian-forces-hit-russian-military-truck-concentration-area-in-bryansk-region.html",
+     "accessed_at": "2026-11-24T11:40:30+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-23T00:44:14+00:00",
+  "previous_generated_at": "2026-11-23T22:19:08+00:00",
   "changes": {
-   "UKRAINE-11232219-01": {
-    "kind": "same",
-    "from": "initial",
-    "to": "shared_root",
-    "prev": "תקיפת ספינת מלחמה רוסית בלוב ותקיפות נוספות",
-    "score": 0.817
-   },
-   "UKRAINE-11232219-02": {
-    "kind": "possible",
-    "prev": "תקיפת בית זיקוק במחוז רוסטוב",
-    "score": 0.467
-   },
-   "UKRAINE-11232219-03": {
+   "UKRAINE-11241140-01": {
     "kind": "new"
    },
-   "UKRAINE-11232219-04": {
+   "UKRAINE-11241140-02": {
     "kind": "new"
    },
-   "UKRAINE-11232219-05": {
+   "UKRAINE-11241140-03": {
+    "kind": "up",
+    "from": "shared_root",
+    "to": "verified",
+    "prev": "תקיפת כלי שיט רוסיים מול חופי לוב",
+    "score": 1.0
+   },
+   "UKRAINE-11241140-04": {
+    "kind": "new"
+   },
+   "UKRAINE-11241140-05": {
+    "kind": "new"
+   },
+   "UKRAINE-11241140-06": {
+    "kind": "new"
+   },
+   "UKRAINE-11241140-07": {
+    "kind": "new"
+   },
+   "UKRAINE-11241140-08": {
+    "kind": "new"
+   },
+   "UKRAINE-11241140-09": {
+    "kind": "new"
+   },
+   "UKRAINE-11241140-10": {
+    "kind": "new"
+   },
+   "UKRAINE-11241140-11": {
     "kind": "new"
    }
   }

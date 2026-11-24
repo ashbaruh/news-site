@@ -1,0 +1,227 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a52ca59dccaf",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-24T11:51:28+00:00",
+  "window": {
+   "from": "2026-11-23T11:51:28+00:00",
+   "to": "2026-11-24T11:51:28+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611241151"
+  },
+  "summary": "בגזרה הצפונית נמשכות פעולות צבאיות הכוללות תקיפות והריסות של צה\"ל בדרום לבנון, לצד פשיטות והקמת מחסומים בדרום סוריה. במקביל, הדרג הפוליטי בלבנון דון בהסדרים עתידיים לקראת סיום מנדט יוניפי\"ל ובאבטחת המרחב הציבורי.",
+  "fronts": [
+   {
+    "name": "חזית לבנון",
+    "status": "פעילה עם תקיפות והריסות של צה\"ל לצד דיונים פוליטיים על הסדרי בטחון"
+   },
+   {
+    "name": "חזית סוריה",
+    "status": "פעילה עם פשיטות קרקעיות והקמת מחסומים מצד צה\"ל בדרום המדינה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11241151-01",
+    "title": "פעולות הריסה של צה\"ל בדרום לבנון",
+    "summary": "כתב אל-מנאר דיווח על פעולות הריסה שמבצע צה\"ל בכפרים בדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T10:50:32+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-24T10:50:32+00:00",
+    "last_update_at": "2026-11-24T10:50:32+00:00",
+    "what_is_not_verified": "היקף ההרס המלא והפרטים המדויקים אינם מאומתים מעבר לדיווח העיתונאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_544191f2e53d8993",
+      "url": "https://english.almanar.com.lb/article/154452/",
+      "published_at": "2026-11-24T10:50:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "טייבה, לבנון",
+      "lat": 33.275,
+      "lon": 35.5205
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11241151-02",
+    "title": "תקיפות צה\"ל בדרום לבנון",
+    "summary": "צה\"ל תקף במספר כפרים בדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T08:44:02+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-24T08:44:02+00:00",
+    "last_update_at": "2026-11-24T08:44:02+00:00",
+    "what_is_not_verified": "הנזק המדויק וזהות הנפגעים אינם מאומתים במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134148",
+      "published_at": "2026-11-24T08:44:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קבריח'א, לבנון",
+      "lat": 33.2463,
+      "lon": 35.4634
+     },
+     {
+      "name": "תולין, לבנון",
+      "lat": 33.2482,
+      "lon": 35.4435
+     },
+     {
+      "name": "כפר תבנית, לבנון",
+      "lat": 33.35,
+      "lon": 35.5111
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11241151-03",
+    "title": "תקיפות נוספות של צה\"ל בדרום לבנון",
+    "summary": "דווח על תקיפה של צה\"ל בכפר ברעשית שבדרום לבנון.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T13:21:49+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-23T13:21:49+00:00",
+    "last_update_at": "2026-11-23T13:21:49+00:00",
+    "what_is_not_verified": "תוצאות התקיפה אינן מאומתות ממקור רשמי ישראלי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134100",
+      "published_at": "2026-11-23T13:21:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ברעשית, לבנון",
+      "lat": 33.1755,
+      "lon": 35.4419
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11241151-04",
+    "title": "פשיטות ופעילות צבאיות של צה\"ל בדרום סוריה",
+    "summary": "כוחות צה\"ל ביצעו פשיטות, הקימו מחסומים וערכו חיפושים במחוזות דרעא ואל-קוניטרה בדרום סוריה.",
+    "axis": "הגזרה הצפונית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T10:42:48+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-24T10:42:48+00:00",
+    "last_update_at": "2026-11-24T10:42:48+00:00",
+    "what_is_not_verified": "פרטי הפעולות המדויקים והיקף הנזק האזרחי מבוססים על דיווחים מקומיים בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/syrian-soldiers-wounded-attack-israel-raids-southern-syria",
+      "published_at": "2026-11-24T10:42:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עין אל-בידא, סוריה",
+      "lat": 35.8607,
+      "lon": 36.1756
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על מטרות המעצר של חמשת העצורים בלבנון והקשר שלהם לאירועים סקטריאניים",
+   "פרטי סיבת שקיעת אוניית החיטה מול חופי בולגריה",
+   "היקף הנזק המדויק מהתקיפות בדרום סוריה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3498,
+    "unit": "ILS",
+    "change_pct": 0.21,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [],
+    "inferred": [
+     "פגעה בתשתיות ובפעילות צבאית של חיזבאללה ואיומים סוריים בגבולות",
+     "מניעת התבססות עוינת בדרום לבנון ובדרום סוריה"
+    ],
+    "forecast": [
+     "המשך פעילות צבאית ממוקדת בהתאם להתפתחויות בשטח"
+    ]
+   },
+   {
+    "actor": "לבנון",
+    "declared": [
+     "שמירה על ריבונות המדינה ואכיפת החוק והסדר",
+     "היערכות לתקופה שלאחר סיום מנדט יוניפי\"ל"
+    ],
+    "inferred": [
+     "ניסיון לייצב את המצב הביטחוני והכלכלי מול לחצים חיצוניים"
+    ],
+    "forecast": [
+     "המשך מגעים דיפלומטיים עם גורמים בינלאומיים להשגת הסדרים חדשים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/154452/",
+    "accessed_at": "2026-11-24T11:51:28+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/syrian-soldiers-wounded-attack-israel-raids-southern-syria",
+    "accessed_at": "2026-11-24T11:51:28+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134100",
+    "accessed_at": "2026-11-24T11:51:28+00:00"
+   }
+  ]
+ }
+}
