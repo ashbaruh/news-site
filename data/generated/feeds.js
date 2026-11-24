@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-24T20:17:21+00:00",
-  "fetched_at": "2026-11-24T20:17:21+00:00"
+  "checked_at": "2026-11-24T21:17:26+00:00",
+  "fetched_at": "2026-11-24T21:17:26+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T20:17:30+00:00",
-  "fetched_at": "2026-11-24T20:17:30+00:00"
+  "checked_at": "2026-11-24T21:17:40+00:00",
+  "fetched_at": "2026-11-24T21:17:40+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T20:17:32+00:00",
-  "fetched_at": "2026-11-24T20:17:32+00:00"
+  "checked_at": "2026-11-24T21:17:42+00:00",
+  "fetched_at": "2026-11-24T21:17:42+00:00"
  },
- "generated_at": "2026-11-24T20:17:32+00:00",
+ "generated_at": "2026-11-24T21:17:42+00:00",
  "globes": {
   "data": {
    "top": [
@@ -114,7 +114,7 @@ window.DB.generated = {
      "date": "2026-11-24T17:14:00+00:00"
     },
     {
-     "title": "המועמד הרדיקלי לנשיאות צרפת בן ה־75 שכובש את הצעירים",
+     "title": "המועמד לנשיאות שמבטיח לצרפתים כסף ומאבק צבאי מול ישראל",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564723",
      "date": "2026-11-24T17:08:00+00:00"
     },
@@ -221,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-24T20:17:21+00:00",
-  "fetched_at": "2026-11-24T20:17:21+00:00"
+  "checked_at": "2026-11-24T21:17:28+00:00",
+  "fetched_at": "2026-11-24T21:17:28+00:00"
  },
  "ifa": {
   "data": [
@@ -1866,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T20:17:22+00:00",
-  "fetched_at": "2026-11-24T20:17:22+00:00"
+  "checked_at": "2026-11-24T21:17:29+00:00",
+  "fetched_at": "2026-11-24T21:17:29+00:00"
  },
  "tv": {
   "data": [
@@ -2699,8 +2699,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T20:17:23+00:00",
-  "fetched_at": "2026-11-24T20:17:23+00:00"
+  "checked_at": "2026-11-24T21:17:30+00:00",
+  "fetched_at": "2026-11-24T21:17:30+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2835,8 +2835,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-24T20:17:23+00:00",
-  "fetched_at": "2026-11-24T20:17:23+00:00"
+  "checked_at": "2026-11-24T21:17:30+00:00",
+  "fetched_at": "2026-11-24T21:17:30+00:00"
  },
  "ai": {
   "data": {
@@ -2858,16 +2858,17 @@ window.DB.generated = {
      "translated_by": "mymemory"
     }
    ],
-   "candidates": 7,
+   "candidates": 6,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 324,
+     "likes": 325,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
@@ -2881,7 +2882,7 @@ window.DB.generated = {
      "title": "pi-H3",
      "desc_en": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
      "desc_he": "סרטון Minimax H3 ב-2–4 שלבים ללא מפענח VAE",
-     "likes": 157,
+     "likes": 158,
      "link": "https://huggingface.co/spaces/Lakonik/pi-H3"
     },
     {
@@ -2895,7 +2896,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Revamped: Image Editor",
      "desc_en": "Edit one image from a prompt. Keep the look consistent.",
      "desc_he": "ערוך תמונה אחת מתוך הנחיה. שמור על המראה עקבי.",
-     "likes": 164,
+     "likes": 166,
      "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
     },
     {
@@ -2909,7 +2910,7 @@ window.DB.generated = {
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
-     "likes": 262,
+     "likes": 263,
      "link": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros"
     },
     {
@@ -2923,33 +2924,42 @@ window.DB.generated = {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף ה-Qwen Image Edit LoRAs",
-     "likes": 636,
+     "likes": 637,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
-     "title": "Text To Pixel Art",
-     "desc_en": "Text-to-pixel-art diffusion LLM with live unmasking",
-     "desc_he": "הפצת טקסט לפיקסל-ארט LLM עם חשיפה חיה",
-     "likes": 88,
-     "link": "https://huggingface.co/spaces/thejagstudio/tessera-pixel-studio"
+     "title": "TRELLIS.2",
+     "desc_en": "High-fidelity 3D Generation from images",
+     "desc_he": "יצירת תלת מימד בנאמנות גבוהה מתמונות",
+     "likes": 2469,
+     "link": "https://huggingface.co/spaces/microsoft/TRELLIS.2"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-24T20:17:30+00:00",
-  "fetched_at": "2026-11-24T20:17:30+00:00"
+  "checked_at": "2026-11-24T21:17:39+00:00",
+  "fetched_at": "2026-11-24T21:17:39+00:00"
  },
  "abroad": {
   "data": {
    "items": [
     {
-     "title": "חי מהצ'מפיונשיפ: דניאל פרץ ומנור סולומון מחפשים ניצחון",
+     "title": "חי מהצ'מפיונשיפ: דניאל פרץ חגג, מנור סולומון שוב הסתבך",
      "link": "https://sports.walla.co.il/item/3877507",
      "date": "2026-11-24T20:45:00+00:00",
      "source": "וואלה",
      "players": [
       "מנור סולומון",
       "דניאל פרץ"
+     ]
+    },
+    {
+     "title": "\"רביבו זרח והצליח לשנות את המשחק של אלצ'ה\"",
+     "link": "https://www.one.co.il/Article/539766.html?ref=rss",
+     "date": "2026-11-24T19:50:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
      ]
     },
     {
@@ -2986,6 +2996,15 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "דני וולף"
+     ]
+    },
+    {
+     "title": "רביבו מעל כולם: ההצגה של הישראלי בפנטזי הספרדי",
+     "link": "https://www.one.co.il/Article/539695.html?ref=rss",
+     "date": "2026-11-24T08:12:00+00:00",
+     "source": "ONE",
+     "players": [
+      "רועי רביבו"
      ]
     },
     {
@@ -3058,24 +3077,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "מסנטר לשוטינג גארד: כך הפך דני וולף לסיפור הצלחה בברוקלין",
-     "link": "https://sports.walla.co.il/item/3877377",
-     "date": "2026-11-23T17:10:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני וולף"
-     ]
-    },
-    {
-     "title": "דני אבדיה בדרך הבטוחה לאולסטאר, בארצות הברית ממשיכים להתפעל",
-     "link": "https://sports.walla.co.il/item/3877373",
-     "date": "2026-11-23T16:31:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -3279,8 +3280,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-24T20:17:26+00:00",
-  "fetched_at": "2026-11-24T20:17:26+00:00"
+  "checked_at": "2026-11-24T21:17:33+00:00",
+  "fetched_at": "2026-11-24T21:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -3311,58 +3312,58 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T20:17:27+00:00",
-  "fetched_at": "2026-11-24T20:17:27+00:00"
+  "checked_at": "2026-11-24T21:17:34+00:00",
+  "fetched_at": "2026-11-24T21:17:34+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-24T20:10:00+00:00",
-    "seen_at": "2026-11-24T20:17:32+00:00",
+    "newest": "2026-11-24T21:00:00+00:00",
+    "seen_at": "2026-11-24T21:17:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-24T18:56:00+00:00",
-    "seen_at": "2026-11-24T20:17:32+00:00",
+    "seen_at": "2026-11-24T21:17:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-24T18:56:00+00:00",
-    "seen_at": "2026-11-24T20:17:32+00:00",
+    "newest": "2026-11-24T20:10:00+00:00",
+    "seen_at": "2026-11-24T21:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-24T18:44:00+00:00",
-    "seen_at": "2026-11-24T20:17:32+00:00",
+    "seen_at": "2026-11-24T21:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-24T21:10:00+00:00",
-    "seen_at": "2026-11-24T20:17:32+00:00",
+    "seen_at": "2026-11-24T21:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-24T18:15:00+00:00",
-    "seen_at": "2026-11-24T20:17:32+00:00",
+    "seen_at": "2026-11-24T21:17:42+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-24T20:03:00+00:00",
-    "seen_at": "2026-11-24T20:17:32+00:00",
+    "newest": "2026-11-24T20:47:00+00:00",
+    "seen_at": "2026-11-24T21:17:42+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-24T16:57:05+00:00",
-    "seen_at": "2026-11-24T20:17:32+00:00",
+    "seen_at": "2026-11-24T21:17:42+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3374,35 +3375,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-24T16:00:00+00:00",
-    "seen_at": "2026-11-24T20:17:32+00:00",
+    "seen_at": "2026-11-24T21:17:42+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-24T16:31:28+00:00",
-    "seen_at": "2026-11-24T20:17:32+00:00",
+    "seen_at": "2026-11-24T21:17:42+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-24T20:17:32+00:00",
+    "seen_at": "2026-11-24T21:17:42+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-24T16:49:08+00:00",
-    "seen_at": "2026-11-24T20:17:32+00:00",
+    "seen_at": "2026-11-24T21:17:42+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-24T19:32:21+00:00",
-    "seen_at": "2026-11-24T20:17:32+00:00",
+    "seen_at": "2026-11-24T21:17:42+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-24T20:17:32+00:00"
+  "checked_at": "2026-11-24T21:17:42+00:00"
  },
  "health_news": {
   "data": [
@@ -3558,7 +3559,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T20:17:27+00:00",
-  "fetched_at": "2026-11-24T20:17:27+00:00"
+  "checked_at": "2026-11-24T21:17:35+00:00",
+  "fetched_at": "2026-11-24T21:17:35+00:00"
  }
 };
