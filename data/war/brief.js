@@ -1,89 +1,83 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-23T18:00:00+02:00",
- "generated_at": "2026-11-23T16:10:10+00:00",
- "model": "gemini-3.5-flash-lite",
+ "slot": "2026-11-24T04:00:00+02:00",
+ "generated_at": "2026-11-24T02:40:15+00:00",
+ "model": "gemini-3.8-flash",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11231610-01",
-     "title": "סיכול ניסיונות חדירה מירדן",
-     "summary": "לפי דיווח, שירותי המודיעין של ירדן סיכלו ועצרו חוליות חות'יות שניסו לחדור לישראל דרך שטחה.",
-     "axis": "איראן והשלוחות",
+     "id": "IRAN-11240240-01",
+     "title": "פיצוץ מכליות נפט במצר הורמוז",
+     "summary": "משמרות המהפכה באיראן טוענים כי שלוש מכליות נפט עלו באש והתפוצצו לאחר שפגעו במוקשים ימיים במצר הורמוז.",
+     "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-23T15:19:09+00:00",
+     "occurred_at": "2026-11-23T21:48:40+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-23T15:19:09+00:00",
-     "last_update_at": "2026-11-23T15:19:09+00:00",
-     "what_is_not_verified": "המידע מבוסס על דיווח עיתונאי בלבד ולא על הודעה רשמית מאומתת.",
+     "first_reported_at": "2026-11-23T21:48:40+00:00",
+     "last_update_at": "2026-11-24T00:00:00+00:00",
+     "what_is_not_verified": "הדיווח מתבסס על טענת משמרות המהפכה וטרם אומת באופן בלתי תלוי.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_aljazeera",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49854",
-       "published_at": "2026-11-23T15:19:09+00:00"
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines?traffic_source=rss",
+       "published_at": "2026-11-24T00:00:00+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/three-tankers-explode-strait-hormuz",
+       "published_at": "2026-11-23T21:48:40+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "עמאן, ירדן",
-       "lat": 31.9516,
-       "lon": 35.924
-      }
-     ]
+     "places": []
     },
     {
-     "id": "IRAN-11231610-02",
-     "title": "פיצוצים במצר הורמוז",
-     "summary": "כלי תקשורת מקומיים דיווחו על שמיעת פיצוצים בשעות הערב המוקדמות באזור מצר הורמוז.",
-     "axis": "איראן והמפרץ",
-     "claim_type": "incident",
+     "id": "IRAN-11240240-02",
+     "title": "אזהרה איראנית מפני הסגר הימי האמריקני",
+     "summary": "דובר משרד החוץ של איראן הצהיר כי ארצו תשתמש בכל האמצעים העומדים לרשותה כדי להגיב על המצור הימי שמטילה ארצות הברית על יצוא הנפט שלה.",
+     "axis": "iran",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-23T15:43:37+00:00",
+     "occurred_at": "2026-11-23T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-23T15:43:37+00:00",
-     "last_update_at": "2026-11-23T15:43:37+00:00",
-     "what_is_not_verified": "סיבת הפיצוצים וזהות האחראים אינם מפורטים בטקסט.",
+     "first_reported_at": "2026-11-24T01:20:33+00:00",
+     "last_update_at": "2026-11-24T01:20:33+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-reported-strait-hormuz",
-       "published_at": "2026-11-23T15:43:37+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-vows-use-all-avaliable-tools-confront-us-naval-blockade",
+       "published_at": "2026-11-24T01:20:33+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "מצר הורמוז",
-       "lat": 26.4494,
-       "lon": 56.2028
-      }
-     ]
+     "places": []
     },
     {
-     "id": "IRAN-11231610-03",
-     "title": "הרעלת משקאות אלכוהוליים באיראן",
-     "summary": "התפשטות הרעלות המוניות עקב צריכת משקאות אלכוהולים מזויפים באיראן הובילה לפגיעה בעשרות בני אדם ולביקורת ציבורית.",
-     "axis": "איראן פנים",
-     "claim_type": "data",
+     "id": "IRAN-11240240-03",
+     "title": "סנקציות אמריקניות חדשות נגד רשתות פיננסיות איראניות",
+     "summary": "משרד האוצר של ארצות הברית הטיל סנקציות על עשרות ישויות ואישים שלטענתו מעורבים ברשתות בנקאות צללים של המשטר האיראני.",
+     "axis": "iran",
+     "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-23T12:30:17+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-23T12:30:17+00:00",
-     "last_update_at": "2026-11-23T12:30:17+00:00",
-     "what_is_not_verified": "האחריות הישירה של מוסדות המדינה בהפצת המשקאות המזויפים נתונה לטענות ציבוריות בלבד.",
+     "occurred_at": "2026-11-23T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-23T21:30:40+00:00",
+     "last_update_at": "2026-11-23T21:30:40+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_iranintl",
+       "source_id": "src_aljazeera",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202611237477",
-       "published_at": "2026-11-23T12:30:17+00:00"
+       "url": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss",
+       "published_at": "2026-11-23T21:30:40+00:00"
       }
      ],
      "places": []
@@ -93,198 +87,280 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-11231610-01",
-     "title": "תקיפות אוויריות בדרום לבנון",
-     "summary": "הצבא הישראלי תקף באמצעות כלי טיס מספר עיירות בדרום לבנון, בהן בראשיִת וחדיתא.",
-     "axis": "הזירה הצפונית",
+     "id": "NORTH-11240240-01",
+     "title": "פעילות כוחות צה\"ל בכפרים בדרום סוריה",
+     "summary": "כוחות ישראליים פשטו על בתים בכפר עאבדין שבמחוז דרעא והקימו מחסום בידוק בכפר עין אל-בידא שבצפון מחוז קוניטרה.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-23T14:48:43+00:00",
+     "occurred_at": "2026-11-24T02:16:44+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-23T14:48:43+00:00",
-     "last_update_at": "2026-11-23T14:48:43+00:00",
-     "what_is_not_verified": "פרטים מלאים על היקף הנזקים אינם מצוינים מעבר לדיווח על עצם התקיפות.",
+     "first_reported_at": "2026-11-24T02:16:44+00:00",
+     "last_update_at": "2026-11-24T02:16:44+00:00",
+     "what_is_not_verified": "הדיווח לא אומת בידי גורמים רשמיים בישראל.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_almanar",
+       "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/154112/",
-       "published_at": "2026-11-23T14:48:43+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-storms-syrian-village",
+       "published_at": "2026-11-24T02:16:44+00:00"
       }
      ],
      "places": [
       {
-       "name": "בראשיִת, לבנון",
-       "lat": 33.1785,
-       "lon": 35.4372
+       "name": "עאבדין, סוריה",
+       "lat": 32.7841,
+       "lon": 35.8706
       },
       {
-       "name": "חדיתא, לבנון",
-       "lat": 33.1561,
-       "lon": 35.3912
+       "name": "עין אל-בידא, סוריה",
+       "lat": 35.7704,
+       "lon": 36.1549
       }
      ]
     },
     {
-     "id": "NORTH-11231610-02",
-     "title": "פשיטות כוחות ישראליים בדרום סוריה",
-     "summary": "כוחות צבא הכיבוש הישראלי ביצעו פשיטות קרקעיות באזורי קוניטרה ודרעא, וערכו חיפושים בבתי אזרחים.",
-     "axis": "הזירה הצפונית",
-     "claim_type": "incident",
+     "id": "NORTH-11240240-02",
+     "title": "בחינת תוכנית אמריקנית לאימון צבא סוריה",
+     "summary": "בארצות הברית נבחנת הצעה לשלוח חיילים לאמן חיילים סורים בפינוי מוקשים, משימת אימונים ראשונה מסוגה מאז חילופי השלטון בדמשק.",
+     "axis": "north",
+     "claim_type": "assessment",
      "lifecycle": "active",
-     "occurred_at": "2026-11-23T13:04:20+00:00",
+     "occurred_at": "2026-11-23T17:08:43+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-23T13:04:20+00:00",
-     "last_update_at": "2026-11-23T13:04:20+00:00",
-     "what_is_not_verified": "אין אימות רשמי נוסף מעבר לדיווח מרכז המעקב הסורי.",
+     "first_reported_at": "2026-11-23T17:08:43+00:00",
+     "last_update_at": "2026-11-23T20:32:28+00:00",
+     "what_is_not_verified": "מדובר בהצעה שנמצאת בדיונים ומותנית באישור משפטי, ללא הכרזה רשמית סופית.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/news/us-could-send-troops-back-syria-military-training-report",
+       "published_at": "2026-11-23T20:32:28+00:00"
+      },
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/us-weighs-return-syria-train-soldiers-demining",
+       "published_at": "2026-11-23T17:08:43+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "NORTH-11240240-03",
+     "title": "חיזבאללה: הפסקת הפעולות בלבנון היא תנאי איראני במגעים",
+     "summary": "בכיר חיזבאללה עלי דעמוש טוען כי איראן מתנה כל הסכמה במשא ומתן מול ארצות הברית בעצירת הפעולות הצבאיות של ישראל בלבנון.",
+     "axis": "north",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-23T18:23:29+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-23T18:23:29+00:00",
+     "last_update_at": "2026-11-23T18:23:29+00:00",
+     "what_is_not_verified": "אין אימות רשמי מאיראן או מארצות הברית על תנאי כזה במשא ומתן.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_almanar",
        "source_root_id": "or_unknown_origin",
-       "url": "https://english.almanar.com.lb/article/154077/",
-       "published_at": "2026-11-23T13:04:20+00:00"
+       "url": "https://english.almanar.com.lb/article/154222/",
+       "published_at": "2026-11-23T18:23:29+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "דרעא, סוריה",
-       "lat": 32.6228,
-       "lon": 36.1068
-      }
-     ]
-    },
-    {
-     "id": "NORTH-11231610-03",
-     "title": "עימותים ופצועים בכוחות הביטחון בסוואידא",
-     "summary": "ארגונים חמושים תקפו עמדת ביטחון פנים בכפר רימא חאזם במרחב סוואידא, וכתוצאה מכך נפצעו ארבעה אנשי ביטחון.",
-     "axis": "הזירה הצפונית",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-23T12:55:48+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-23T12:55:48+00:00",
-     "last_update_at": "2026-11-23T12:55:48+00:00",
-     "what_is_not_verified": "זהותם המדויקת של התוקפים מוגדרת כקבוצות מחוץ לחוק על פי דיווחים מקומיים.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_anadolu",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.aa.com.tr/en/middle-east/4-security-personnel-injured-in-attack-by-outlaw-groups-in-syria-s-suwayda/4134634",
-       "published_at": "2026-11-23T12:55:48+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "סוואידא, סוריה",
-       "lat": 32.7094,
-       "lon": 36.5687
-      }
-     ]
+     "places": []
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11231610-01",
-     "title": "פגיעת רחפנים באונייה רוסית בלוב",
-     "summary": "נשיא אוקראינה דיווח על פגיעת רחפנים אוקראיניים באוניית מלחמה רוסית שהייתה בשטח לוב.",
-     "axis": "רוסיה-אוקראינה",
+     "id": "UKRAINE-11240240-01",
+     "title": "חדירת כלי טיס בלתי מאויש רוסי למרחב האווירי של פולין",
+     "summary": "פיקוד המבצעים של צבא פולין מסר כי כטב\"ם מרוסיה שהה במרחב האווירי שלה למשך מספר דקות במהלך תקיפה על מערב אוקראינה, ושב לשטח אוקראינה מבלי שיורט.",
+     "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-23T15:41:23+00:00",
+     "occurred_at": "2026-11-23T23:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-23T15:41:23+00:00",
-     "last_update_at": "2026-11-23T15:41:23+00:00",
-     "what_is_not_verified": "הקרמלין נמנע ממתן תגובה ישירה לאירוע ורק הזהיר מפני הסלמה אזורית.",
+     "first_reported_at": "2026-11-23T23:17:52+00:00",
+     "last_update_at": "2026-11-24T00:48:51+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_bbc",
+       "source_id": "src_tg_carmel",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-11-23T15:41:23+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11231610-02",
-     "title": "ניסוי מוצלח לרחפן יירוט מהיר באוקראינה",
-     "summary": "חברה משותפת השלימה ניסוי טיסה לרחפן יירוט נגד מטוסים המסוגל להגיע למהירויות גבוהות במיוחד.",
-     "axis": "רוסיה-אוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-23T15:08:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-23T15:08:00+00:00",
-     "last_update_at": "2026-11-23T15:08:00+00:00",
-     "what_is_not_verified": "יעילות מבצעית בשדה הקורב עדיין אינה מוכחת מעבר לניסויים המוצגים.",
-     "is_new_in_window": true,
-     "reports": [
+       "url": "https://t.me/alexmehacarmel/49866",
+       "published_at": "2026-11-23T23:17:52+00:00"
+      },
       {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_93fdde8668238b1e",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/23/8064245/",
-       "published_at": "2026-11-23T15:08:00+00:00"
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/russian-unmanned-aerial-vehicle-violates-polish-airspace-days-after-missile-incursion/",
+       "published_at": "2026-11-24T00:48:51+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "לובלין, פולין",
+       "lat": 51.2506,
+       "lon": 22.5701
+      }
+     ]
     },
     {
-     "id": "UKRAINE-11231610-03",
-     "title": "חבילת עיצוב אירופית חדשה נגד רוסיה",
-     "summary": "הנציבות האירופית הציגה חבילת עיצומים המכוונת לפסול פעילויות ספורט, ויזות וקריפטו כדי לשמור על לחץ כלכלי.",
-     "axis": "רוסיה-אוקראינה",
+     "id": "UKRAINE-11240240-02",
+     "title": "זלנסקי קרא לצרף את אוקראינה לברית נאט\"ו",
+     "summary": "נשיא אוקראינה וולודימיר זלנסקי פנה לאספת נאט\"ו ותהה האם צירוף ישיר של אוקראינה לברית אינו הצעד היעיל והבטוח ביותר עבור כולם.",
+     "axis": "ukraine",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-23T15:12:37+00:00",
+     "occurred_at": "2026-11-23T23:50:31+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-23T15:12:37+00:00",
-     "last_update_at": "2026-11-23T15:12:37+00:00",
-     "what_is_not_verified": "טרם אושרו סופית כלל הסעיפים הכלולים בהצעה.",
+     "first_reported_at": "2026-11-23T23:50:31+00:00",
+     "last_update_at": "2026-11-23T23:50:31+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_kyivind",
-       "source_root_id": "fh_854464ca936584e0",
-       "url": "https://kyivindependent.com/eu-proposes-package-of-russian-sports-sanctions-visa-bans-and-a-krygyzstan-crypto-blockade/",
-       "published_at": "2026-11-23T15:12:37+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/zelensky-calls-for-nato-to-admit-ukraine-at-alliance-assembly/",
+       "published_at": "2026-11-23T23:50:31+00:00"
       }
      ],
      "places": []
+    },
+    {
+     "id": "UKRAINE-11240240-03",
+     "title": "טענות רוסיות על ניסיונות אוקראיניים להשבית את תחנת זפוריז'יה",
+     "summary": "דיפלומט רוסי טוען כי אוקראינה עושה כל שביכולתה כדי להביא להשבתת תחנת הכוח הגרעינית בזפוריז'יה ומגבירה תקיפות בסביבתה.",
+     "axis": "ukraine",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-24T00:30:31+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-24T00:30:31+00:00",
+     "last_update_at": "2026-11-24T01:45:33+00:00",
+     "what_is_not_verified": "מדובר בהאשמה של גורם רוסי שלא אושרה על ידי מקורות ניטרליים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/politics/2223661",
+       "published_at": "2026-11-24T01:45:33+00:00"
+      },
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/politics/2223655",
+       "published_at": "2026-11-24T00:30:31+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אנרגודאר, אוקראינה",
+       "lat": 47.4901,
+       "lon": 34.6603
+      }
+     ]
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-11231610-01",
-     "title": "הרוגים בתקיפה על מתקני תקשורת בתימן",
-     "summary": "ארגון החות'ים דיווח כי מתקפה של הקואליציה פגעה במתקני תקשורת ומבנים אזרחיים בנפת אל-חודיידה וגרמה להרוגים ופצועים.",
-     "axis": "תימן והחות'ים",
+     "id": "YEMEN-11240240-01",
+     "title": "יירוט כלי טיס בלתי מאויש ששוגר לעבר סעודיה",
+     "summary": "הקואליציה הודיעה על יירוט והשמדה של כטב\"ם ששילחו החות'ים לעבר שטח ערב הסעודית.",
+     "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-23T15:02:48+00:00",
+     "occurred_at": "2026-11-23T23:30:48+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-23T15:02:48+00:00",
-     "last_update_at": "2026-11-23T15:02:48+00:00",
-     "what_is_not_verified": "הנתונים והאחריות לתקיפה מבוססים על הודעות גורמי החות'ים בלבד.",
+     "first_reported_at": "2026-11-23T23:30:48+00:00",
+     "last_update_at": "2026-11-23T23:30:48+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
      "is_new_in_window": true,
      "reports": [
       {
+       "source_id": "src_saba_aden",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.sabanew.net/viewstory/156310",
+       "published_at": "2026-11-23T23:30:48+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "YEMEN-11240240-02",
+     "title": "חילופי האשמות על פגיעה באוטובוסים ובאזרחים במחוז לחג'",
+     "summary": "גורמי ממשל בתימן האשימו את החות'ים בהרג אזרחים במתקפה על אוטובוס בלחג', בעוד החות'ים טוענים כי הנפגעים נהרגו מתקיפות אוויריות סעודיות.",
+     "axis": "yemen",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-23T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-23T16:30:04+00:00",
+     "last_update_at": "2026-11-23T19:27:43+00:00",
+     "what_is_not_verified": "זהות התוקף ומספר הנפגעים המדויק שנויים במחלוקת מוחלטת בין הצדדים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_saba_aden",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.sabanew.net/viewstory/156308",
+       "published_at": "2026-11-23T19:27:43+00:00"
+      },
+      {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-saudi-attack-telecoms-facilities-kills-17",
-       "published_at": "2026-11-23T15:02:48+00:00"
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-run-government-says-saudi-airstrikes-killed-injured-civilians",
+       "published_at": "2026-11-23T18:04:42+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-backed-yemeni-government-civilians-killed-injured-houthi-attack",
+       "published_at": "2026-11-23T16:30:04+00:00"
       }
      ],
      "places": [
       {
-       "name": "אל-חודיידה, תימן",
+       "name": "לחג', תימן",
+       "lat": 13.0578,
+       "lon": 44.8836
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-11240240-03",
+     "title": "טענה חות'ית להרוגים בתקיפות הקואליציה בחודיידה",
+     "summary": "החות'ים מסרו כי שבעה עשר בני אדם נהרגו ומבנים נהרסו בתקיפות של הקואליציה בראשות סעודיה על מתקני תקשורת במחוז חודיידה.",
+     "axis": "yemen",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-23T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-23T16:24:20+00:00",
+     "last_update_at": "2026-11-23T16:24:20+00:00",
+     "what_is_not_verified": "מספר הנפגעים ואופי היעדים שהותקפו מתבססים על הודעת החות'ים בלבד.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_newarab",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.newarab.com/news/yemens-houthis-say-saudi-attack-kills-17",
+       "published_at": "2026-11-23T16:24:20+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "חודיידה, תימן",
        "lat": 14.7979,
        "lon": 42.9545
       }
