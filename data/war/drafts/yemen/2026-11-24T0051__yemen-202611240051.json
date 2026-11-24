@@ -1,0 +1,362 @@
+{
+ "status": "draft",
+ "received_sha256_12": "9ef6fdbcf8ef",
+ "preview": {
+  "events": 7,
+  "levels": {
+   "initial": 4,
+   "shared_root": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-24T00:51:30+00:00",
+  "window": {
+   "from": "2026-11-23T00:51:30+00:00",
+   "to": "2026-11-24T00:51:30+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611240051"
+  },
+  "summary": "הזירה בתימן וסביבתה כוללת עימותים מתמשכים בין החות'ים לבין הקואליציה בהובלת סעודיה וממשלת תימן המוכרת, לצד ניסיונות תקיפה חות'יים לעבר סעודיה ופעילות התרחבות פנימית של החות'ים במחוזות כמו תאיז. במקביל, מתנהלים דיווחים על מעורבות אזורית פוטנציאלית ופעילות למניעת חדירות באזורים שכנים.",
+  "fronts": [
+   {
+    "name": "חזית תימן הפנימית (תאיז, לחג' וחודיידה)",
+    "status": "פעיל"
+   },
+   {
+    "name": "חזית סעודיה-תימן (שיגורים ותקיפות אוויריות)",
+    "status": "פעיל"
+   },
+   {
+    "name": "חזית הים האדום ומצר באב אל-מנדב",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11240051-01",
+    "title": "יירוט כטב\"ם חות'י לכגאה סעודיה",
+    "summary": "הקואליציה הודיעה על יירוט והשמדת כטב\"ם ששוגר על ידי המיליציה החות\"ית לכיוון סעודיה.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T23:30:48+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-23T23:30:48+00:00",
+    "last_update_at": "2026-11-23T23:30:48+00:00",
+    "what_is_not_verified": "פרטים נוספים מעבר להודעת הקואליציה אינם מאומתים ממקור נוסף.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_3567d8e979d41309",
+      "url": "https://www.sabanew.net/viewstory/156310",
+      "published_at": "2026-11-23T23:30:48+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11240051-02",
+    "title": "תקיפה אווירית של הקואליציה בעיר חודיידה",
+    "summary": "ממשלת החות'ים דיווחה כי תקיפה של הקואליציה בהובלת סעודיה פגעה במתקן תקשורת במחוז חודיידה וגרמה להרוגים ופצועים.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-23T07:44:03+00:00",
+    "last_update_at": "2026-11-23T18:04:42+00:00",
+    "what_is_not_verified": "הטענות על מספר הנפגעים והנזק אינן מאומתות באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-run-government-says-saudi-airstrikes-killed-injured-civilians",
+      "published_at": "2026-11-23T18:04:42+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemens-houthis-say-saudi-attack-kills-17",
+      "published_at": "2026-11-23T16:24:20+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-and-us-trade-threats-tankers-burn-hormuz",
+      "published_at": "2026-11-23T07:44:03+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חודיידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11240051-03",
+    "title": "פגיעה באוטובוסים ובכלי רכב במחוז לחג' באמצעות תקיפה",
+    "summary": "התקיימו דיווחים סותרים לגבי הגורם האחראי לתקיפת אוטובוסים ומשאיות מסחר במחוז לחג', כאשר ממשלת תימן הנתמכת בידי סעודיה מאשימה את החות'ים, ומנגד החות'ים מאשימים את תקיפות הקואליציה הסעודית.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-23T14:28:39+00:00",
+    "last_update_at": "2026-11-23T19:27:43+00:00",
+    "what_is_not_verified": "זהות התוקף המדויק ומספר הנפגעים המדויקים אינם מאומתים ממקור עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/156308",
+      "published_at": "2026-11-23T19:27:43+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-run-government-says-saudi-airstrikes-killed-injured-civilians",
+      "published_at": "2026-11-23T18:04:42+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-backed-yemeni-government-civilians-killed-injured-houthi-attack",
+      "published_at": "2026-11-23T16:30:04+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemens-houthis-say-saudi-attack-kills-17",
+      "published_at": "2026-11-23T16:24:20+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/156287",
+      "published_at": "2026-11-23T14:28:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "לחג', תימן",
+      "lat": 13.0578,
+      "lon": 44.8836
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11240051-04",
+    "title": "שיגור טיל בליסטי לעבר מערב סעודיה ויירוטו",
+    "summary": "הקואליציה דיווחה כי יירוט והשמדת טיל בליסטי ששוגר על ידי החות'ים לעבר האזור המערבי של סעודיה.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-23T00:21:32+00:00",
+    "last_update_at": "2026-11-23T16:24:20+00:00",
+    "what_is_not_verified": "הנזק המדויק בשטח אינו מאומת ממקור עצמאי.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemens-houthis-say-saudi-attack-kills-17",
+      "published_at": "2026-11-23T16:24:20+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemens-houthis-attack-saudi-arabias-rabigh-oil-refinery",
+      "published_at": "2026-11-23T00:21:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "רביג', סעודיה",
+      "lat": 22.799,
+      "lon": 39.0336
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11240051-05",
+    "title": "שיגור טיל בליסטי מצדה ונפילה בדמר",
+    "summary": "הכוחות אלמסלחה של ממשלת תימן דיווחו על זיהוי שיגור טיל בליסטי חות'י מסדה שנפל בדמאר.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-23T16:16:22+00:00",
+    "last_update_at": "2026-11-23T16:16:22+00:00",
+    "what_is_not_verified": "פרטי הנפילה והנזק אינם מאומתים ממקור ראשוני נייטרלי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.sabanew.net/viewstory/156294",
+      "published_at": "2026-11-23T16:16:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צדה, תימן",
+      "lat": 16.9409,
+      "lon": 43.763
+     },
+     {
+      "name": "דמר, תימן",
+      "lat": 14.543,
+      "lon": 44.4001
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11240051-06",
+    "title": "תקיפה נטענת על בית זיקוק לנפט ברביג'",
+    "summary": "החות'ים טענו כי ביצעו פעולה שפעה ישירות על בית הזיקוק לנפט רביג' שבחוף הים האדום בסעודיה.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-22T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-23T00:21:32+00:00",
+    "last_update_at": "2026-11-23T00:51:30+00:00",
+    "what_is_not_verified": "היקף הנזק לא אושר על ידי הרשויות בסעודיה וסרטוני התיעוד לא אומתו.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/yemens-houthis-attack-saudi-arabias-rabigh-oil-refinery",
+      "published_at": "2026-11-23T00:21:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "רביג', סעודיה",
+      "lat": 22.799,
+      "lon": 39.0336
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11240051-07",
+    "title": "סיכול ניסיונות חדירה של חוליות חות'יות מירדן לישראל",
+    "summary": "דווח כי סוכלו מספר ניסיונות של חוליות חות'יות לחדור לישראל דרך ירדן, כולל מעצר של חוליית 'בריגדות המוות' בעמאן.",
+    "axis": "זירת תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T15:19:09+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-23T15:19:09+00:00",
+    "last_update_at": "2026-11-23T15:19:09+00:00",
+    "what_is_not_verified": "פרטי הפעילות החשאית והדיווח אינם מאומתים בהודעה רשמית של ממשלת ישראל או ירדן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49854",
+      "published_at": "2026-11-23T15:19:09+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "עמאן, ירדן",
+      "lat": 31.9516,
+      "lon": 35.924
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "פריסת 10,000 חיילים סודאנים בתימן לסיוע לסעודיה",
+   "הגעת יועצים צבאיים סורים או מומחי רחפנים סורים לתימן לסיוע לסעודיה",
+   "דיווחים על היקף הנזק המדויק בתקיפות על מתקני הנפט ברביג' ובחודיידה",
+   "פרטי סיכול ניסיונות החדירה של חוליות חות'יות מירדן לישראל"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3498,
+    "unit": "ILS",
+    "change_pct": 0.21,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-23T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה בתשתיות אנרגיה וביטחון בסעודיה",
+     "תמיכה בפעילות נגד קואליציה וגורמים יריבים בתימן"
+    ],
+    "inferred": [
+     "הרחבת ההשפעה האזורית והפעלת לחץ על ישראל וסעודיה",
+     "הרחבת גיוס כוח אדם מקומי באזורי שליטה כמו תאיז"
+    ],
+    "forecast": [
+     "המשך שיגורי טילים וכטב\"מים לעבר יעדים בסעודיה",
+     "המשך מאמצי גיוס לחיזוק הקווים הקדמיים בתימן"
+    ]
+   },
+   {
+    "actor": "הקואליציה בהובלת סעודיה וממשלת תימן",
+    "declared": [
+     "יירוט איומים אוויריים והגנה על תשתיות הממלכה",
+     "בלימת ההתקדמות והפעילות של המיליציה החות'ית"
+    ],
+    "inferred": [
+     "שמירה על יציבות שלטונית בתימן ומניעת שליטה מוחלטת של החות'ים במוקדי אוכלוסייה",
+     "בחינת שיתופי פעולה אזוריים להגברת הלחץ על החות'ים"
+    ],
+    "forecast": [
+     "המשך תקיפות אוויריות נגד ריכוזי חות'ים ומתקנים",
+     "חיזוק אמצעי ההגנה האווירית והמודיעין"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-backed-yemeni-government-civilians-killed-injured-houthi-attack",
+    "accessed_at": "2026-11-24T00:51:30+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/yemens-houthis-attack-saudi-arabias-rabigh-oil-refinery",
+    "accessed_at": "2026-11-24T00:51:30+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/156294",
+    "accessed_at": "2026-11-24T00:51:30+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49854",
+    "accessed_at": "2026-11-24T00:51:30+00:00"
+   }
+  ]
+ }
+}
