@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-24T16:17:11+00:00",
-  "fetched_at": "2026-11-24T16:17:11+00:00"
+  "checked_at": "2026-11-24T17:17:30+00:00",
+  "fetched_at": "2026-11-24T17:17:30+00:00"
  },
  "animals": {
   "data": [
@@ -44,46 +44,45 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T16:17:22+00:00",
-  "fetched_at": "2026-11-24T16:17:22+00:00"
+  "checked_at": "2026-11-24T17:17:38+00:00",
+  "fetched_at": "2026-11-24T17:17:38+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "Need an affordable solution for music on the move? These Award-winning Sony wireless earbuds are almost half-price!",
+    "title_he": "צריכים פתרון משתלם למוזיקה בתנועה? האוזניות האלחוטיות עטורי הפרסים הללו של Sony הן כמעט בחצי מחיר!",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wireless-earbuds/need-an-affordable-solution-for-music-on-the-move-these-award-winning-sony-wireless-earbuds-are-almost-half-price",
+    "date": "2026-11-24T16:46:18+00:00"
+   },
+   {
+    "title_en": "JBL Cove M1",
+    "title_he": null,
+    "translated_by": null,
+    "link": "https://www.whathifi.com/speakers/wireless-speakers/jbl-cove-m1",
+    "date": "2026-11-24T15:58:40+00:00"
+   },
+   {
+    "title_en": "Wired earbuds are having a moment – and this Award-winning pair are now at their lowest ever price",
+    "title_he": "לאוזניות חוטיות יש רגע - והזוג עטור הפרסים הזה נמצא כעת במחיר הנמוך ביותר אי פעם",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/headphones/wired-earbuds/wired-earbuds-are-having-a-moment-and-this-award-winning-pair-are-now-at-their-lowest-ever-price",
+    "date": "2026-11-24T14:46:44+00:00"
+   },
    {
     "title_en": "Tired of constantly recharging your wireless headphones? These budget Sonys have a 50-hour battery life – and are now at their lowest ever price",
     "title_he": "נמאס לכם כל הזמן לטעון את האוזניות האלחוטיות שלכם? לאוזניות סוני התקציביות האלה יש חיי סוללה של 50 שעות – וכעת הן במחיר הנמוך ביותר אי פעם",
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/headphones/wireless-headphones/tired-of-constantly-recharging-your-wireless-headphones-these-budget-sonys-have-a-50-plus-hour-battery-life-and-are-now-at-their-lowest-ever-price",
     "date": "2026-11-24T11:04:10+00:00"
-   },
-   {
-    "title_en": "Looking for a projector that won't disrupt your living room? We recommend this Award-winning UST model, now £1000 off",
-    "title_he": "מחפשים מקרן שלא ישבש את הסלון שלכם? אנחנו ממליצים על דגם ה-UST עטור הפרסים הזה, שעכשיו מוצע בהנחה של £1000",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/tv-home-cinema/projectors/looking-for-a-projector-that-wont-disrupt-your-living-room-we-recommend-this-award-winning-ust-model-now-gbp1000-off",
-    "date": "2026-11-24T10:55:07+00:00"
-   },
-   {
-    "title_en": "\"Keep listening to radio, because it's not going anywhere\" – we speak to Roberts' CEO about analogue radio's enduring appeal",
-    "title_he": "\"תמשיך להאזין לרדיו, כי זה לא הולך לשום מקום\" - אנחנו מדברים עם המנכ\"ל של רוברטס על המשיכה המתמשכת של הרדיו האנלוגי",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/hi-fi/radio/keep-listening-to-radio-because-its-not-going-anywhere-we-speak-to-roberts-ceo-about-analogue-radios-enduring-appeal",
-    "date": "2026-11-23T17:08:51+00:00"
-   },
-   {
-    "title_en": "Rega’s brilliant budget turntable tested, Sky’s big OS upgrade, Audiolab's new budget hi-fi unveiled and more",
-    "title_he": "בדיקה של פטיפון התקציב המבריק של Rega, שדרוג מערכת ההפעלה הגדול של Sky, חשיפת מערכת ההיי-פיי התקציבית החדשה של Audiolab ועוד",
-    "translated_by": "mymemory",
-    "link": "https://www.whathifi.com/av/regas-brilliant-budget-turntable-tested-skys-big-os-upgrade-audiolabs-new-budget-hi-fi-unveiled-and-more",
-    "date": "2026-11-23T07:00:00+00:00"
    }
   ],
-  "ok": false,
-  "error": "HTTP Error 404: Not Found",
-  "checked_at": "2026-11-24T16:17:22+00:00",
-  "fetched_at": "2026-11-24T14:17:30+00:00"
+  "ok": true,
+  "checked_at": "2026-11-24T17:17:42+00:00",
+  "fetched_at": "2026-11-24T17:17:42+00:00"
  },
- "generated_at": "2026-11-24T16:17:22+00:00",
+ "generated_at": "2026-11-24T17:17:42+00:00",
  "globes": {
   "data": {
    "top": [
@@ -100,14 +99,24 @@ window.DB.generated = {
    ],
    "market": [
     {
-     "title": "המשבר באנבידיה: כשהמניה מזנקת, מי זוכר את כללי האחריות התאגידית?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564792",
-     "date": "2026-11-24T16:00:00+00:00"
+     "title": "הוט מובייל, ברגר קינג וזאפה בדרך לבורסה. זה השווי המבוקש",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564807",
+     "date": "2026-11-24T16:28:00+00:00"
+    },
+    {
+     "title": "התזמון האומלל של משקיעת העל: מכרה אנבידיה בשפל, והואנג חזר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564764",
+     "date": "2026-11-24T16:20:00+00:00"
     },
     {
      "title": "וול סטריט מאבדת גובה: נאסד\"ק יורד ב-2%, אנבידיה ואנתרופיק צונחות",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564599",
-     "date": "2026-11-24T15:38:00+00:00"
+     "date": "2026-11-24T16:06:00+00:00"
+    },
+    {
+     "title": "המשבר באנבידיה: כשהמניה מזנקת, מי זוכר את כללי האחריות התאגידית?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564792",
+     "date": "2026-11-24T16:00:00+00:00"
     },
     {
      "title": "נעילה מעורבת בת\"א: ת\"א 35 ירד ב-0.9% ות\"א 90 עלה ב-0.7%; הדולר זינק",
@@ -165,19 +174,9 @@ window.DB.generated = {
      "date": "2026-11-24T10:15:00+00:00"
     },
     {
-     "title": "לא רק 44 מיליארד דולר: עסקת הסייבר שעשויה לשנות את מאזן הכוחות בענף",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564566",
-     "date": "2026-11-24T09:56:00+00:00"
-    },
-    {
      "title": "מספנות ישראל מכפילה את הרווח ומזנקת; מנועי בית שמש מאכזבת וצונחת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564639",
      "date": "2026-11-24T09:27:00+00:00"
-    },
-    {
-     "title": "נומריוס של גדעון תדמור משלימה גיוס לפי שווי מוערך של 1.2 מיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564624",
-     "date": "2026-11-24T09:07:00+00:00"
     },
     {
      "title": "חוה זינגבוים בדרך לבורסה: פועלת למיזוג לפי שווי של 270 מיליון שקל",
@@ -188,11 +187,6 @@ window.DB.generated = {
      "title": "\"נסחרות בתמחור נמוך מאוד\": האנליסט שמסמן 3 מניות מבטיחות בת\"א",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564527",
      "date": "2026-11-24T08:33:00+00:00"
-    },
-    {
-     "title": "החברה הממשלתית הביטחונית תומר מגייסת חוב",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564612",
-     "date": "2026-11-24T08:01:00+00:00"
     },
     {
      "title": "לא עוד ת\"א 35: הבורסה מקדמת שינוי דרמטי במדדי הדגל",
@@ -222,8 +216,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-24T16:17:12+00:00",
-  "fetched_at": "2026-11-24T16:17:12+00:00"
+  "checked_at": "2026-11-24T17:17:31+00:00",
+  "fetched_at": "2026-11-24T17:17:31+00:00"
  },
  "ifa": {
   "data": [
@@ -1867,8 +1861,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T16:17:13+00:00",
-  "fetched_at": "2026-11-24T16:17:13+00:00"
+  "checked_at": "2026-11-24T17:17:32+00:00",
+  "fetched_at": "2026-11-24T17:17:32+00:00"
  },
  "tv": {
   "data": [
@@ -2700,8 +2694,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T16:17:14+00:00",
-  "fetched_at": "2026-11-24T16:17:14+00:00"
+  "checked_at": "2026-11-24T17:17:35+00:00",
+  "fetched_at": "2026-11-24T17:17:35+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2836,19 +2830,12 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-24T16:17:14+00:00",
-  "fetched_at": "2026-11-24T16:17:14+00:00"
+  "checked_at": "2026-11-24T17:17:35+00:00",
+  "fetched_at": "2026-11-24T17:17:35+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/dante-security-thinks-ai-agents-are-no-divine-comedy/",
-     "date": "2026-11-24T13:10:48+00:00",
-     "launch": false,
-     "title": "\"הסוכן הוא רק הצינור\": יוצאי אימפרבה מגייסים 10 מיליון דולר כדי לשמור על סוכני ה-AI שלכם"
-    },
     {
      "source": "Google",
      "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
@@ -2857,12 +2844,21 @@ window.DB.generated = {
      "title_en": "How Gemini is changing the game for Golden State's organization and fans.",
      "title_he": "איך Gemini משנה את כללי המשחק עבור הארגון והאוהדים של גולדן סטייט.",
      "translated_by": "mymemory"
+    },
+    {
+     "source": "Google DeepMind",
+     "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+     "date": "2026-11-23T16:59:40+00:00",
+     "launch": false,
+     "title_en": "Finding faster quantum algorithms with agents and formal verification",
+     "title_he": "מציאת אלגוריתמים קוונטיים מהירים יותר עם סוכנים ואימות רשמי",
+     "translated_by": "google"
     }
    ],
-   "candidates": 6,
+   "candidates": 4,
    "failed_sources": [
     "Anthropic",
-    "Google DeepMind"
+    "גיקטיים"
    ],
    "tools": [
     {
@@ -2880,18 +2876,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
+     "title": "pi-H3",
+     "desc_en": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
+     "desc_he": "סרטון Minimax H3 ב-2–4 שלבים ללא מפענח VAE",
+     "likes": 151,
+     "link": "https://huggingface.co/spaces/Lakonik/pi-H3"
+    },
+    {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
      "likes": 546,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
-    },
-    {
-     "title": "pi-H3",
-     "desc_en": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
-     "desc_he": "סרטון Minimax H3 ב-2–4 שלבים ללא מפענח VAE",
-     "likes": 150,
-     "link": "https://huggingface.co/spaces/Lakonik/pi-H3"
     },
     {
      "title": "Krea 2 Turbo Revamped: Image Editor",
@@ -2904,7 +2900,7 @@ window.DB.generated = {
      "title": "Slack Moji",
      "desc_en": "Describe an emoji. A tiny model paints it in your browser.",
      "desc_he": "תארו אימוג'י. מודל קטן מצייר אותו בדפדפן שלכם.",
-     "likes": 103,
+     "likes": 104,
      "link": "https://huggingface.co/spaces/cfahlgren1/slack-moji"
     },
     {
@@ -2918,8 +2914,15 @@ window.DB.generated = {
      "title": "Clairic",
      "desc_en": "Cloudflare Clairic 27B typed structured extraction",
      "desc_he": "Cloudflare Clairic 27B חילוץ מובנה מוקלד",
-     "likes": 63,
+     "likes": 64,
      "link": "https://huggingface.co/spaces/hugging-apps/clairic"
+    },
+    {
+     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
+     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
+     "desc_he": "הדגמה של אוסף ה-Qwen Image Edit LoRAs",
+     "likes": 635,
+     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
      "title": "Text To Pixel Art",
@@ -2927,19 +2930,12 @@ window.DB.generated = {
      "desc_he": "הפצת טקסט לפיקסל-ארט LLM עם חשיפה חיה",
      "likes": 87,
      "link": "https://huggingface.co/spaces/thejagstudio/tessera-pixel-studio"
-    },
-    {
-     "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
-     "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
-     "desc_he": "הדגמה של אוסף ה-Qwen Image Edit LoRAs",
-     "likes": 634,
-     "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-24T16:17:21+00:00",
-  "fetched_at": "2026-11-24T16:17:21+00:00"
+  "checked_at": "2026-11-24T17:17:38+00:00",
+  "fetched_at": "2026-11-24T17:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -3281,8 +3277,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-24T16:17:17+00:00",
-  "fetched_at": "2026-11-24T16:17:17+00:00"
+  "checked_at": "2026-11-24T17:17:37+00:00",
+  "fetched_at": "2026-11-24T17:17:37+00:00"
  },
  "idf": {
   "data": [
@@ -3314,7 +3310,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-24T16:17:17+00:00",
+  "checked_at": "2026-11-24T17:17:37+00:00",
   "fetched_at": "2026-11-24T15:17:29+00:00"
  },
  "feed_health": {
@@ -3322,44 +3318,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-24T16:06:00+00:00",
-    "seen_at": "2026-11-24T16:17:22+00:00",
+    "newest": "2026-11-24T17:08:00+00:00",
+    "seen_at": "2026-11-24T17:17:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-24T16:00:00+00:00",
-    "seen_at": "2026-11-24T16:17:22+00:00",
+    "newest": "2026-11-24T16:28:00+00:00",
+    "seen_at": "2026-11-24T17:17:42+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-24T15:38:00+00:00",
-    "seen_at": "2026-11-24T16:17:22+00:00",
+    "newest": "2026-11-24T16:20:00+00:00",
+    "seen_at": "2026-11-24T17:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-24T15:54:00+00:00",
-    "seen_at": "2026-11-24T16:17:22+00:00",
+    "seen_at": "2026-11-24T17:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-24T16:45:00+00:00",
-    "seen_at": "2026-11-24T16:17:22+00:00",
+    "newest": "2026-11-24T17:43:00+00:00",
+    "seen_at": "2026-11-24T17:17:42+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-24T17:00:00+00:00",
-    "seen_at": "2026-11-24T16:17:22+00:00",
+    "newest": "2026-11-24T18:15:00+00:00",
+    "seen_at": "2026-11-24T17:17:42+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-24T16:08:00+00:00",
-    "seen_at": "2026-11-24T16:17:22+00:00",
+    "newest": "2026-11-24T16:58:00+00:00",
+    "seen_at": "2026-11-24T17:17:42+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3371,13 +3367,13 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-23T16:59:40+00:00",
-    "seen_at": "2026-11-24T15:17:34+00:00",
+    "seen_at": "2026-11-24T17:17:42+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-24T16:00:00+00:00",
-    "seen_at": "2026-11-24T16:17:22+00:00",
+    "seen_at": "2026-11-24T17:17:42+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3389,13 +3385,13 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-24T16:17:22+00:00",
+    "seen_at": "2026-11-24T17:17:42+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-24T13:32:15+00:00",
-    "seen_at": "2026-11-24T14:17:30+00:00",
+    "newest": "2026-11-24T16:49:08+00:00",
+    "seen_at": "2026-11-24T17:17:42+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3405,7 +3401,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-11-24T16:17:22+00:00"
+  "checked_at": "2026-11-24T17:17:42+00:00"
  },
  "health_news": {
   "data": [
@@ -3562,7 +3558,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-24T16:17:17+00:00",
+  "checked_at": "2026-11-24T17:17:37+00:00",
   "fetched_at": "2026-11-24T15:17:29+00:00"
  }
 };
