@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-24T06:17:27+00:00",
-  "fetched_at": "2026-11-24T06:17:27+00:00"
+  "checked_at": "2026-11-24T06:27:43+00:00",
+  "fetched_at": "2026-11-24T06:27:43+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T06:17:36+00:00",
-  "fetched_at": "2026-11-24T06:17:36+00:00"
+  "checked_at": "2026-11-24T06:27:52+00:00",
+  "fetched_at": "2026-11-24T06:27:52+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T06:17:36+00:00",
-  "fetched_at": "2026-11-24T06:17:36+00:00"
+  "checked_at": "2026-11-24T06:27:53+00:00",
+  "fetched_at": "2026-11-24T06:27:53+00:00"
  },
- "generated_at": "2026-11-24T06:17:36+00:00",
+ "generated_at": "2026-11-24T06:27:53+00:00",
  "globes": {
   "data": {
    "top": [
@@ -98,6 +98,11 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564573",
+     "date": "2026-11-24T06:06:00+00:00"
+    },
     {
      "title": "המניה הישראלית שהרוויחה בגדול מהקאמבק באנבידיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564584",
@@ -124,7 +129,7 @@ window.DB.generated = {
      "date": "2026-11-24T04:18:00+00:00"
     },
     {
-     "title": "\"נסחרות בתמחור נמוך מאוד\": האנליסט שמסמן 3 מניות מבטיחות בת\"א סקטורים מומלצים",
+     "title": "\"נסחרות בתמחור נמוך מאוד\": האנליסט שמסמן 3 מניות מבטיחות בת\"א",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564527",
      "date": "2026-11-24T04:12:00+00:00"
     },
@@ -194,11 +199,6 @@ window.DB.generated = {
      "date": "2026-11-23T13:11:00+00:00"
     },
     {
-     "title": "חיים כצמן הודיע: יוצא מארה\"ב כמעט 40 שנה אחרי שהגיע אליה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564474",
-     "date": "2026-11-23T11:55:00+00:00"
-    },
-    {
      "title": "\"זה מטורף\": מנהל ההשקעות שמצביע על דפוס חדש בשווקים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564386",
      "date": "2026-11-23T09:20:00+00:00"
@@ -211,8 +211,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-24T06:17:28+00:00",
-  "fetched_at": "2026-11-24T06:17:28+00:00"
+  "checked_at": "2026-11-24T06:27:44+00:00",
+  "fetched_at": "2026-11-24T06:27:44+00:00"
  },
  "ifa": {
   "data": [
@@ -1856,8 +1856,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T06:17:29+00:00",
-  "fetched_at": "2026-11-24T06:17:29+00:00"
+  "checked_at": "2026-11-24T06:27:45+00:00",
+  "fetched_at": "2026-11-24T06:27:45+00:00"
  },
  "tv": {
   "data": [
@@ -2682,8 +2682,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T06:17:30+00:00",
-  "fetched_at": "2026-11-24T06:17:30+00:00"
+  "checked_at": "2026-11-24T06:27:47+00:00",
+  "fetched_at": "2026-11-24T06:27:47+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2818,19 +2818,12 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-24T06:17:30+00:00",
-  "fetched_at": "2026-11-24T06:17:30+00:00"
+  "checked_at": "2026-11-24T06:27:47+00:00",
+  "fetched_at": "2026-11-24T06:27:47+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/python-to-go-migration-ai-agents/",
-     "date": "2026-11-22T16:07:00+00:00",
-     "launch": false,
-     "title": "9 שנות קוד ב-7 ימי עבודה: כך העברנו בעזרת AI מערכת בפרודקשן מ-Python ל-Go"
-    },
     {
      "source": "Google DeepMind",
      "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
@@ -2839,11 +2832,21 @@ window.DB.generated = {
      "title_en": "Finding faster quantum algorithms with agents and formal verification",
      "title_he": "מציאת אלגוריתמים קוונטיים מהירים יותר עם סוכנים ואימות רשמי",
      "translated_by": "google"
+    },
+    {
+     "source": "Google",
+     "link": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+     "date": "2026-11-23T17:00:00+00:00",
+     "launch": false,
+     "title_en": "A more tailored Google Search that’s uniquely yours",
+     "title_he": "חיפוש Google מותאם יותר שהוא ייחודי שלך",
+     "translated_by": "google"
     }
    ],
-   "candidates": 6,
+   "candidates": 3,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "גיקטיים"
    ],
    "tools": [
     {
@@ -2919,8 +2922,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-24T06:17:35+00:00",
-  "fetched_at": "2026-11-24T06:17:35+00:00"
+  "checked_at": "2026-11-24T06:27:52+00:00",
+  "fetched_at": "2026-11-24T06:27:52+00:00"
  },
  "abroad": {
   "data": {
@@ -3261,8 +3264,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-24T06:17:32+00:00",
-  "fetched_at": "2026-11-24T06:17:32+00:00"
+  "checked_at": "2026-11-24T06:27:51+00:00",
+  "fetched_at": "2026-11-24T06:27:51+00:00"
  },
  "idf": {
   "data": [
@@ -3292,8 +3295,9 @@ window.DB.generated = {
     "date": "2026-11-22T13:58:12+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-24T06:17:32+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-24T06:27:51+00:00",
   "fetched_at": "2026-11-24T06:17:32+00:00"
  },
  "feed_health": {
@@ -3302,43 +3306,43 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-24T06:06:00+00:00",
-    "seen_at": "2026-11-24T06:17:36+00:00",
+    "seen_at": "2026-11-24T06:27:53+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-24T05:43:00+00:00",
-    "seen_at": "2026-11-24T06:17:36+00:00",
+    "newest": "2026-11-24T06:06:00+00:00",
+    "seen_at": "2026-11-24T06:27:53+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-24T05:43:00+00:00",
-    "seen_at": "2026-11-24T06:17:36+00:00",
+    "seen_at": "2026-11-24T06:27:53+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-24T06:15:00+00:00",
-    "seen_at": "2026-11-24T06:17:36+00:00",
+    "seen_at": "2026-11-24T06:27:53+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-24T07:11:00+00:00",
-    "seen_at": "2026-11-24T06:17:36+00:00",
+    "seen_at": "2026-11-24T06:27:53+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-24T06:59:00+00:00",
-    "seen_at": "2026-11-24T06:17:36+00:00",
+    "seen_at": "2026-11-24T06:27:53+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
     "newest": "2026-11-24T06:03:00+00:00",
-    "seen_at": "2026-11-24T06:17:36+00:00",
+    "seen_at": "2026-11-24T06:27:53+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3350,13 +3354,13 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-23T16:59:40+00:00",
-    "seen_at": "2026-11-24T06:17:36+00:00",
+    "seen_at": "2026-11-24T06:27:53+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-23T17:00:00+00:00",
-    "seen_at": "2026-11-24T06:17:36+00:00",
+    "seen_at": "2026-11-24T06:27:53+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3368,13 +3372,13 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-24T06:17:36+00:00",
+    "seen_at": "2026-11-24T06:27:53+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-23T17:08:51+00:00",
-    "seen_at": "2026-11-24T06:17:36+00:00",
+    "seen_at": "2026-11-24T06:27:53+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3384,7 +3388,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-11-24T06:17:36+00:00"
+  "checked_at": "2026-11-24T06:27:53+00:00"
  },
  "health_news": {
   "data": [
@@ -3541,7 +3545,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-24T06:17:32+00:00",
+  "checked_at": "2026-11-24T06:27:51+00:00",
   "fetched_at": "2026-11-24T05:17:30+00:00"
  }
 };
