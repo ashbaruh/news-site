@@ -2,13 +2,13 @@
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-11-23",
+   "as_of": "2026-11-24",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-24T03:17:22+00:00",
-  "fetched_at": "2026-11-24T03:17:22+00:00"
+  "checked_at": "2026-11-24T04:17:13+00:00",
+  "fetched_at": "2026-11-24T04:17:13+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T03:17:49+00:00",
-  "fetched_at": "2026-11-24T03:17:49+00:00"
+  "checked_at": "2026-11-24T04:17:21+00:00",
+  "fetched_at": "2026-11-24T04:17:21+00:00"
  },
  "av_en": {
   "data": [
@@ -77,17 +77,17 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T03:17:50+00:00",
-  "fetched_at": "2026-11-24T03:17:50+00:00"
+  "checked_at": "2026-11-24T04:17:21+00:00",
+  "fetched_at": "2026-11-24T04:17:21+00:00"
  },
- "generated_at": "2026-11-24T03:17:50+00:00",
+ "generated_at": "2026-11-24T04:17:21+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מאה מיליונרים חדשים נולדו היום בהייטק הישראלי. וגם 3 מיליארדרים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564525",
-     "date": "2026-11-23T19:10:00+00:00"
+     "title": "המניה הישראלית שהרוויחה בגדול מהקאמבק באנבידיה",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564584",
+     "date": "2026-11-24T03:59:00+00:00"
     },
     {
      "title": "\"להנחית את המכה הראשונה\": המסרים מאיראן לארה\"ב ואירופה",
@@ -97,9 +97,24 @@
    ],
    "market": [
     {
+     "title": "\"נסחרות בתמחור נמוך מאוד\": האנליסט שמסמן 3 מניות מבטיחות בת\"א סקטורים מומלצים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564527",
+     "date": "2026-11-24T04:12:00+00:00"
+    },
+    {
+     "title": "האג\"ח בתשואת זבל והמניה בשפל: כצמן יציל שוב את אימפריית הנדל\"ן שלו?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564554",
+     "date": "2026-11-24T04:09:00+00:00"
+    },
+    {
+     "title": "ב-8200 אין דילמות כאלה: הם אמרו לא לאקזיט ענק ומיד דילגו לאחר",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564586",
+     "date": "2026-11-24T04:04:00+00:00"
+    },
+    {
      "title": "המניה הישראלית שהרוויחה בגדול מהקאמבק באנבידיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564584",
-     "date": "2026-11-23T21:17:00+00:00"
+     "date": "2026-11-24T03:59:00+00:00"
     },
     {
      "title": "היום הטוב מזה כשנה וחצי: וול סטריט סגרה בעליות חדות, אנבידיה טסה 31%",
@@ -130,11 +145,6 @@
      "title": "מהואנג ועד סטיב ג’ובס: הקאמבקים הגדולים של עולם הטכנולוגיה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564587",
      "date": "2026-11-23T16:50:00+00:00"
-    },
-    {
-     "title": "ב-8200 אין דילמות כאלה: הם אמרו לא לאקזיט ענק ומיד דילגו לאחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564586",
-     "date": "2026-11-23T16:45:00+00:00"
     },
     {
      "title": "טראמפ חושף: כך שכנעתי את דירקטוריון אנבידיה להחזיר את ג'נסן הואנג",
@@ -177,19 +187,9 @@
      "date": "2026-11-23T13:11:00+00:00"
     },
     {
-     "title": "בזכות ההייטק: ישראל מזנקת לצמרת הכלכלית של העולם",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564488",
-     "date": "2026-11-23T13:00:00+00:00"
-    },
-    {
      "title": "חיים כצמן הודיע: יוצא מארה\"ב כמעט 40 שנה אחרי שהגיע אליה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564474",
      "date": "2026-11-23T11:55:00+00:00"
-    },
-    {
-     "title": "הכנסות של 2 מיליארד דולר: רבעון השיא של מאגרי הגז",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564427",
-     "date": "2026-11-23T11:38:00+00:00"
     },
     {
      "title": "הוכרזה עסקת הסייבר הגדולה בהיסטוריה: 44 מיליארד דולר",
@@ -212,11 +212,6 @@
      "date": "2026-11-23T09:20:00+00:00"
     },
     {
-     "title": "כך הפך השקל לאחד המטבעות החלשים בעולם מאז הבחירות בישראל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564407",
-     "date": "2026-11-23T05:07:00+00:00"
-    },
-    {
      "title": "מנהלת ההשקעות של אלטשולר שחם מגלה: כך הגבנו למפולת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564388",
      "date": "2026-11-23T03:30:00+00:00"
@@ -224,8 +219,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-24T03:17:24+00:00",
-  "fetched_at": "2026-11-24T03:17:24+00:00"
+  "checked_at": "2026-11-24T04:17:14+00:00",
+  "fetched_at": "2026-11-24T04:17:14+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1864,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T03:17:24+00:00",
-  "fetched_at": "2026-11-24T03:17:24+00:00"
+  "checked_at": "2026-11-24T04:17:14+00:00",
+  "fetched_at": "2026-11-24T04:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2695,8 +2690,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-24T03:17:27+00:00",
-  "fetched_at": "2026-11-24T03:17:27+00:00"
+  "checked_at": "2026-11-24T04:17:15+00:00",
+  "fetched_at": "2026-11-24T04:17:15+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2831,8 +2826,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-24T03:17:27+00:00",
-  "fetched_at": "2026-11-24T03:17:27+00:00"
+  "checked_at": "2026-11-24T04:17:15+00:00",
+  "fetched_at": "2026-11-24T04:17:15+00:00"
  },
  "ai": {
   "data": {
@@ -2845,18 +2840,19 @@
      "title": "9 שנות קוד ב-7 ימי עבודה: כך העברנו בעזרת AI מערכת בפרודקשן מ-Python ל-Go"
     },
     {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-     "date": "2026-11-23T16:59:40+00:00",
+     "source": "Google",
+     "link": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+     "date": "2026-11-23T17:00:00+00:00",
      "launch": false,
-     "title_en": "Finding faster quantum algorithms with agents and formal verification",
-     "title_he": "מציאת אלגוריתמים קוונטיים מהירים יותר עם סוכנים ואימות רשמי",
+     "title_en": "A more tailored Google Search that’s uniquely yours",
+     "title_he": "חיפוש Google מותאם יותר שהוא ייחודי שלך",
      "translated_by": "google"
     }
    ],
-   "candidates": 6,
+   "candidates": 5,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2877,7 +2873,7 @@
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 534,
+     "likes": 537,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -2926,18 +2922,27 @@
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף ה-Qwen Image Edit LoRAs",
-     "likes": 632,
+     "likes": 633,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-24T03:17:48+00:00",
-  "fetched_at": "2026-11-24T03:17:48+00:00"
+  "checked_at": "2026-11-24T04:17:21+00:00",
+  "fetched_at": "2026-11-24T04:17:21+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "ענק: 31 נקודות לדני אבדיה בניצחון על פילדלפיה",
+     "link": "https://www.one.co.il/Article/539682.html?ref=rss",
+     "date": "2026-11-24T03:57:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
     {
      "title": "\"לא יישאר הרבה זמן באלצ'ה\": בספרד מתלהבים מרוי רביבו",
      "link": "https://sports.walla.co.il/item/3877406",
@@ -3064,15 +3069,6 @@
      "source": "וואלה",
      "players": [
       "אוסקר גלוך"
-     ]
-    },
-    {
-     "title": "דריימונד גרין החמיא לאבדיה: \"עם דני תמיד יש סיכוי לנצח\"",
-     "link": "https://sports.walla.co.il/item/3877252",
-     "date": "2026-11-22T18:42:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
      ]
     }
    ],
@@ -3276,8 +3272,8 @@
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-24T03:17:30+00:00",
-  "fetched_at": "2026-11-24T03:17:30+00:00"
+  "checked_at": "2026-11-24T04:17:18+00:00",
+  "fetched_at": "2026-11-24T04:17:18+00:00"
  },
  "idf": {
   "data": [
@@ -3307,8 +3303,9 @@
     "date": "2026-11-22T07:19:26+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-24T03:17:31+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-24T04:17:18+00:00",
   "fetched_at": "2026-11-24T03:17:31+00:00"
  },
  "feed_health": {
@@ -3316,44 +3313,44 @@
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-23T21:17:00+00:00",
-    "seen_at": "2026-11-24T03:17:50+00:00",
+    "newest": "2026-11-24T04:12:00+00:00",
+    "seen_at": "2026-11-24T04:17:21+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-23T21:17:00+00:00",
-    "seen_at": "2026-11-24T03:17:50+00:00",
+    "newest": "2026-11-24T04:12:00+00:00",
+    "seen_at": "2026-11-24T04:17:21+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-23T21:17:00+00:00",
-    "seen_at": "2026-11-24T03:17:50+00:00",
+    "newest": "2026-11-24T04:09:00+00:00",
+    "seen_at": "2026-11-24T04:17:21+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-23T21:11:00+00:00",
-    "seen_at": "2026-11-24T03:17:50+00:00",
+    "seen_at": "2026-11-24T04:17:21+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-23T22:32:00+00:00",
-    "seen_at": "2026-11-24T03:17:50+00:00",
+    "seen_at": "2026-11-24T04:17:21+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-23T20:19:00+00:00",
-    "seen_at": "2026-11-24T03:17:50+00:00",
+    "seen_at": "2026-11-24T04:17:21+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-23T22:02:00+00:00",
-    "seen_at": "2026-11-24T03:17:50+00:00",
+    "newest": "2026-11-24T03:57:00+00:00",
+    "seen_at": "2026-11-24T04:17:21+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3371,25 +3368,25 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-23T17:00:00+00:00",
-    "seen_at": "2026-11-24T03:17:50+00:00",
+    "seen_at": "2026-11-24T04:17:21+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-23T16:43:17+00:00",
-    "seen_at": "2026-11-24T03:17:50+00:00",
+    "seen_at": "2026-11-24T04:17:21+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-24T03:17:50+00:00",
+    "seen_at": "2026-11-24T04:17:21+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-23T17:08:51+00:00",
-    "seen_at": "2026-11-24T03:17:50+00:00",
+    "seen_at": "2026-11-24T04:17:21+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3399,7 +3396,7 @@
     "stuck": false
    }
   },
-  "checked_at": "2026-11-24T03:17:50+00:00"
+  "checked_at": "2026-11-24T04:17:21+00:00"
  },
  "health_news": {
   "data": [
@@ -3554,8 +3551,9 @@
     "date": "2026-11-02T13:33:27+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-24T03:17:31+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-24T04:17:18+00:00",
   "fetched_at": "2026-11-24T03:17:31+00:00"
  }
 }
