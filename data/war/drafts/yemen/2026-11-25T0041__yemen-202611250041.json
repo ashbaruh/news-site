@@ -1,0 +1,236 @@
+{
+ "status": "draft",
+ "received_sha256_12": "3ccd07a1b284",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "shared_root": 2,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-25T00:41:35+00:00",
+  "window": {
+   "from": "2026-11-24T00:41:35+00:00",
+   "to": "2026-11-25T00:41:35+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611250041"
+  },
+  "summary": "הלחימה בתימן מתנהלת במקביל להסלמה אזורית הכוללת תקיפות של החות'ים לעבר מטרות בסעודיה ובפרט בריאד, לצד התקדמות קרקעית של החות'ים לעבר עדן ותקיפות נגד של כוחות הממשלה והקואליציה בראשות סעודיה.",
+  "fronts": [
+   {
+    "name": "חזית עדן ומאריב",
+    "status": "פעיל"
+   },
+   {
+    "name": "החזית מול סעודיה (ריאד ואל-חודיידה)",
+    "status": "פעיל"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11250041-01",
+    "title": "תקיפת מגדל בריאד",
+    "summary": "פגיעה במגדל המרכז הפיננסי בריאד על ידי כטב\"ם, שהביאה לפציעת בני אדם",
+    "axis": "תימן-סעודיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T16:28:17+00:00",
+    "last_update_at": "2026-11-24T20:29:05+00:00",
+    "what_is_not_verified": "האחריות המלאה טרם אומתה באופן עצמאי לחלוטין מעבר להודעות הקואליציה והדיווחים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_b6e6fc17e0afce0e",
+      "url": "https://www.sabanew.net/viewstory/156395",
+      "published_at": "2026-11-24T20:29:05+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_b6e6fc17e0afce0e",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/riyadhs-landmark-pif-tower-struck-aerial-attack-second-time-five-days",
+      "published_at": "2026-11-24T17:22:48+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_b6e6fc17e0afce0e",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eleven-hurt-second-houthi-strike-within-days-riyadhs-tallest-tower",
+      "published_at": "2026-11-24T16:48:08+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_b6e6fc17e0afce0e",
+      "url": "https://www.newarab.com/news/saudi-skyscraper-hit-again-coalition-slams-terrorist-attack",
+      "published_at": "2026-11-24T16:28:17+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11250041-02",
+    "title": "דרישת פינוי נמל אל-חודיידה",
+    "summary": "הקואליציה בראשות סעודיה הוציאה הוראת פינוי לאזרחים מנמל אל-חודיידה",
+    "axis": "תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T23:05:36+00:00",
+    "last_update_at": "2026-11-25T00:00:00+00:00",
+    "what_is_not_verified": "לא ידוע האם הפינוי בוצע בפועל בידי כל התושבים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_f1fdf620cab9ff11",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order?traffic_source=rss",
+      "published_at": "2026-11-25T00:00:00+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_f1fdf620cab9ff11",
+      "url": "https://www.sabanew.net/viewstory/156397",
+      "published_at": "2026-11-24T23:08:44+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_f1fdf620cab9ff11",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-says-saudi-led-coalition-attacked-yemens-hodeidah-port",
+      "published_at": "2026-11-24T23:05:36+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-חודיידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11250041-03",
+    "title": "דיווח על תקיפות נגד החות'ים מאת כוחות ממשלת תימן",
+    "summary": "כוחות ממשלת תימן דיווחו על ביצוע מאות תקיפות נגד עמדות ונכסים של החות'ים",
+    "axis": "תימן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-24T18:21:25+00:00",
+    "last_update_at": "2026-11-24T22:27:49+00:00",
+    "what_is_not_verified": "מספר הנפגעים וההרוגים המדויק אינו מאומת ממקור ניטרלי",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_7918c310e69e3579",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-report-nearly-700-strikes-against-houthis",
+      "published_at": "2026-11-24T22:27:49+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_7918c310e69e3579",
+      "url": "https://www.sabanew.net/viewstory/156389",
+      "published_at": "2026-11-24T18:21:25+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תאיז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים המדויק בתקיפות על עמדות החות'ים",
+   "היקף הנזק המלא בנמל אל-חודיידה",
+   "נסיבות היעלמותו של אדל אל-חסאני בטורקיה"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3401,
+    "unit": "ILS",
+    "change_pct": -0.29,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-24T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה במטרות ויעדים בסעודיה",
+     "התנגדות לקואליציה ולכוחות הממשלה"
+    ],
+    "inferred": [
+     "הרחבת השליטה בשטחים בתימן",
+     "הפעלת לחץ על סעודיה באמצעות פגיעה בתשתיות אזרחיות וכלכליות"
+    ],
+    "forecast": [
+     "המשך שיגורי כטב\"מים וטילים",
+     "ניסיונות נוספים להתקדם לעבר עדן"
+    ]
+   },
+   {
+    "actor": "הקואליציה בהובלת סעודיה וממשלת תימן",
+    "declared": [
+     "הגנה על עדן בלימה ודחיית התקיפות החות'יות",
+     "תגובה נחרצת להתקפות החות'יות"
+    ],
+    "inferred": [
+     "בלימת ההתקדמות החות'ית ומניעת נפילת אזורים אסטרטגיים",
+     "פגעה בתשתיות חות'יות באמצעות תקיפות אוויריות וימיות"
+    ],
+    "forecast": [
+     "הגנה מתמשכת על הבירה אלמוקתת עדן",
+     "בקשת סיוע והגנה אווירית נוספת מבעלות ברית בינלאומיות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order?traffic_source=rss",
+    "accessed_at": "2026-11-25T00:41:35+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-report-nearly-700-strikes-against-houthis",
+    "accessed_at": "2026-11-25T00:41:35+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-skyscraper-hit-again-coalition-slams-terrorist-attack",
+    "accessed_at": "2026-11-25T00:41:35+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/156389",
+    "accessed_at": "2026-11-25T00:41:35+00:00"
+   }
+  ]
+ }
+}

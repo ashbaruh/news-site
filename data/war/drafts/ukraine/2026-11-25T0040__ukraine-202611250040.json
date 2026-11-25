@@ -1,0 +1,389 @@
+{
+ "status": "draft",
+ "received_sha256_12": "362f50d6d186",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 4,
+   "initial": 4
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-25T00:40:57+00:00",
+  "window": {
+   "from": "2026-11-24T00:40:57+00:00",
+   "to": "2026-11-25T00:40:57+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611250040"
+  },
+  "summary": "המלחמה בין רוסיה ואוקראינה נמשכת תוך שילוב של תקיפות אוויריות וימיות ממוקדות מצד אוקראינה נגד תשתיות ויעדים רוסיים, לצד הפצצות בלתי פוסקות של כוחות רוסיה על מרכזים אזרחיים ואנרגיה באוקראינה. במקביל, מתנהל מאבק דיפלומטי והסברתי רחב הכולל הפעלת לוחמה פסיכולוגית, לחץ סנקציות עתידי ומאמצי גיוס סיוע בינלאומי.",
+  "fronts": [
+   {
+    "name": "חזית האוויר והאנרגיה באוקראינה",
+    "status": "פעיל מאוד עם תקיפות הדדיות על תשתיות אנרגיה ועורף אזרחי"
+   },
+   {
+    "name": "החזית הימית (כולל הים התיכון/לוב)",
+    "status": "פעיל עם פעילות מל\"טים ימיים אוקראיניים נגד נכסים רוסיים מרוחקים"
+   },
+   {
+    "name": "הזירה הדיפלומטית והבינלאומית",
+    "status": "פעיל סביב דיונים על הצטרפות לאיחוד האירופי, סיוע צבאי וסנקציות"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11250040-01",
+    "title": "תקיפות רוסיות באזור אודסה",
+    "summary": "כוחות רוסיים תקפו את מחוז אודסה וגרמו להרג של שני בני אדם, כולל קטין, ולפציעת בני אדם נוספים.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T19:52:00+00:00",
+    "last_update_at": "2026-11-24T23:08:00+00:00",
+    "what_is_not_verified": "פרטים מדויקים על כלל ההיקף של הנזק שטרם אומתו ממקורות בלתי תלויים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "fh_c7ce6817f7456d90",
+      "url": "https://kyivindependent.com/russian-attacks-kill-2-in-odesa-oblast-including-child-injure-more-in-kyiv/",
+      "published_at": "2026-11-24T23:08:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_c7ce6817f7456d90",
+      "url": "https://www.ukrinform.net/rubric-ato/4188254-russian-strikes-on-odesa-region-kill-two-including-17yearold-boy-injure-three.html",
+      "published_at": "2026-11-24T20:58:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_c7ce6817f7456d90",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/24/8064502/",
+      "published_at": "2026-11-24T19:52:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11250040-02",
+    "title": "פגיעה בקייב מרסיסי מל\"ט",
+    "summary": "רסיסי מל\"ט רוסי נפלו על בניין מגורים רב-קומות בקייב וגרמו לשריפה ולפצועים.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T21:57:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T21:57:00+00:00",
+    "last_update_at": "2026-11-24T23:08:00+00:00",
+    "what_is_not_verified": "היקף הנזק המלא בבניין הדירות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://kyivindependent.com/russian-attacks-kill-2-in-odesa-oblast-including-child-injure-more-in-kyiv/",
+      "published_at": "2026-11-24T23:08:00+00:00"
+     },
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_kyiv_independent",
+      "url": "https://www.ukrinform.net/rubric-ato/4188265-debris-from-russian-drone-causes-fire-in-16story-residential-building-in-kyiv.html",
+      "published_at": "2026-11-24T21:57:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11250040-03",
+    "title": "מעצר חשוד בריגול בקרמטורסק",
+    "summary": "שירות הביטחון של אוקראינה עצר איש צבא לשעבר שערק וסייע לכוחות רוסיה להכוונת תקיפות בקרמטורסק.",
+    "axis": "חזית פנים וביטחון שוטף",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T22:42:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T22:42:00+00:00",
+    "last_update_at": "2026-11-24T22:42:00+00:00",
+    "what_is_not_verified": "הודאת החשוד בבית המשפט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_3b4596444aa4021d",
+      "url": "https://www.ukrinform.net/rubric-crime/4187892-ssu-arrests-suspected-russian-agent-posing-as-volunteer-to-direct-strikes-on-kramatorsk.html",
+      "published_at": "2026-11-24T22:42:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קרמטורסק, אוקראינה",
+      "lat": 48.7389,
+      "lon": 37.5844
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11250040-04",
+    "title": "תקיפות רחפנים בחרקוב",
+    "summary": "רחפנים רוסיים פגעו בערים מרפה ולוזובה במחוז חרקוב וגרמו לפציעת מספר בני אדם.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T21:17:00+00:00",
+    "last_update_at": "2026-11-24T21:17:00+00:00",
+    "what_is_not_verified": "חומרת מצבם הרפואי המלא של כלל הפצועים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_ukrinform",
+      "url": "https://www.ukrinform.net/rubric-ato/4188257-russian-drones-strike-merefa-lozova-in-kharkiv-region-six-injured.html",
+      "published_at": "2026-11-24T21:17:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מרפה, אוקראינה",
+      "lat": 49.8183,
+      "lon": 36.0629
+     },
+     {
+      "name": "לוזובה, אוקראינה",
+      "lat": 48.8842,
+      "lon": 36.316
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11250040-05",
+    "title": "הריגת אזרח בתקיפת רחפן בסומי",
+    "summary": "רחפן רוסי פגע ברכב אזרחי בעיר סומי והרג אדם אחד.",
+    "axis": "תקיפות והפצצות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T18:42:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T18:42:00+00:00",
+    "last_update_at": "2026-11-24T18:42:00+00:00",
+    "what_is_not_verified": "פרטים נוספים על נסיבות ההפעלה של הרחפן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_96abd9f5056dd9c3",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/24/8064493/",
+      "published_at": "2026-11-24T18:42:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סומי, אוקראינה",
+      "lat": 50.912,
+      "lon": 34.8028
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11250040-06",
+    "title": "פגיעה ברכב חיל הים הרוסי בלוב",
+    "summary": "אוקראינה ביצעה תקיפת מל\"טים ימיים נגד כלי שיט רוסיים בנמל בנופזי בלוב.",
+    "axis": "זירות ימיות ומרוחקות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T01:08:35+00:00",
+    "last_update_at": "2026-11-24T16:24:49+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק לכלי השיט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_guardian_ukraine_confirmation",
+      "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates",
+      "published_at": "2026-11-24T16:24:49+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_guardian_ukraine_confirmation",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/24/ukraine-russia-war-escalating-global-europe-trump",
+      "published_at": "2026-11-24T08:00:10+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_guardian_ukraine_confirmation",
+      "url": "https://www.theguardian.com/world/2026/nov/24/ukraine-war-briefing-kyiv-strike-on-russian-ships-in-benghazi-condemned-by-un-backed-libya-government",
+      "published_at": "2026-11-24T01:08:35+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בנופזי, לוב",
+      "lat": 32.12,
+      "lon": 20.0812
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11250040-07",
+    "title": "פגישה בין זלנסקי לראש ממשלת הונגריה באוז'ורהוד",
+    "summary": "נשיא אוקראינה נפגש עם ראש ממשלת הונגריה באוז'ורהוד לדיון בנושאי אנרגיה, מסחר ותמיכה הומניטרית.",
+    "axis": "דיפלומטיה וסיוע",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T19:01:00+00:00",
+    "last_update_at": "2026-11-24T21:37:00+00:00",
+    "what_is_not_verified": "יישום בפועל של ההבנות שהושגו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_befe5b91e4753b64",
+      "url": "https://www.ukrinform.net/rubric-polytics/4188264-zelensky-presents-magyar-with-1942-newspapers-mentioning-his-greatgrandfather-who-worked-in-mukachevo.html",
+      "published_at": "2026-11-24T21:37:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_befe5b91e4753b64",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/24/8064497/",
+      "published_at": "2026-11-24T19:01:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אוז'ורהוד, אוקראינה",
+      "lat": 48.6224,
+      "lon": 22.3023
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11250040-08",
+    "title": "מעצר מושל מורמנסק אנדריי צ'יביס במוסקבה",
+    "summary": "רשויות האכיפה ברוסיה עצרו את מושל מורמנסק בחשד למעילה והונאה.",
+    "axis": "חזית פנים וביטחון שוטף",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T17:39:48+00:00",
+    "last_update_at": "2026-11-24T17:39:48+00:00",
+    "what_is_not_verified": "תוצאות ההליך המשפטי נגדו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_meduza_report",
+      "url": "https://meduza.io/en/feature/2026/11/24/andrey-chibis-spent-seven-years-consolidating-power-in-russia-s-arctic-murmansk-region-now-the-kremlin-loyalist-is-in-police-custody-on-charges-of-funneling-public-money-abroad",
+      "published_at": "2026-11-24T17:39:48+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מוסקבה, רוסיה",
+      "lat": 55.7505,
+      "lon": 37.6175
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר אבדות מדויק של חיילי רוסיה המבוסס על נתוני הדלפות רשמיות",
+   "טענות רוסיות על פעילות חבלה מצד אוקראינה או נאט\"ו באירופה",
+   "ההיקף המלא של תוכניות רוסיה למתקפות סייבר ופגיעה בחברות זרות"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.0963,
+    "unit": "USD",
+    "change_pct": 0.22,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-24T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "עצירת הפלישה הרוסית ושחרור כל השטחים",
+     "המשך קבלת סיוע צבאי וכלכלי מהמערב וקידום חברות באיחוד האירופי"
+    ],
+    "inferred": [
+     "פגיעה בתשתיות עורף ואנרגיה רוסיות כדי לאלץ את רוסיה לשאת ולתת",
+     "הרחבת מנופי הלחץ הבינלאומיים והימיים גם מחוץ לגבולות אוקראינה"
+    ],
+    "forecast": [
+     "דרישה להגברת הסנקציות אם ארצות הברית לא תצליח להביא להסכם שלום לשביעות רצונם",
+     "המשך תקיפות נגד נכסים צבאיים וימיים רוסיים גם בזירות מרוחקות"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "המשך המבצע הצבאי והשגת מטרות ההשתלטות",
+     "מניעת תמיכה מערבית באוקראינה וסיכול מתקפות על מתקני אנרגיה רוסיים"
+    ],
+    "inferred": [
+     "שחיקת היכולות הכלכליות והפיזיות של אוקראינה באמצעות מתקפות שיטתיות על האנרגיה",
+     "הסתרת היקף האבדות הכבד בקרב חייליה מפני דעת הקהל בבית"
+    ],
+    "forecast": [
+     "המשך הלחץ על העורף האוקראיני באמצעות תקיפות אוויריות במהלך החורף",
+     "הגברת פעילות ההיברידית והמודיעינית מול מדינות המערב המסייעות לאוקראינה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/24/ukraine-war-briefing-kyiv-strike-on-russian-ships-in-benghazi-condemned-by-un-backed-libya-government",
+    "accessed_at": "2026-11-25T00:40:57+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/russian-attacks-kill-2-in-odesa-oblast-including-child-injure-more-in-kyiv/",
+    "accessed_at": "2026-11-25T00:40:57+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/feature/2026/11/24/andrey-chibis-spent-seven-years-consolidating-power-in-russia-s-arctic-murmansk-region-now-the-kremlin-loyalist-is-in-police-custody-on-charges-of-funneling-public-money-abroad",
+    "accessed_at": "2026-11-25T00:40:57+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/24/8064497/",
+    "accessed_at": "2026-11-25T00:40:57+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4188264-zelensky-presents-magyar-with-1942-newspapers-mentioning-his-greatgrandfather-who-worked-in-mukachevo.html",
+    "accessed_at": "2026-11-25T00:40:57+00:00"
+   }
+  ]
+ }
+}

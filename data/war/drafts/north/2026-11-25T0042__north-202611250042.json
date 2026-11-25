@@ -1,0 +1,285 @@
+{
+ "status": "draft",
+ "received_sha256_12": "3c30a5b6caec",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "initial": 5,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-25T00:42:12+00:00",
+  "window": {
+   "from": "2026-11-24T00:42:12+00:00",
+   "to": "2026-11-25T00:42:12+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611250042"
+  },
+  "summary": "הזירה הצפונית מתאפיינת בהמשך העימות המוגבל בין ישראל לחיזבאללה בלבנון הכולל תקיפות אוטונומיות ורחפנים, לצד פעילות של צה\"ל לאורך הגבול. במקביל, נמשכים המאמצים המדיניים הבינלאומיים ללחוץ על פירוק חיזבאללה מנשקו, בעוד גורמים באיראן וחיזבאללה נערכים להסלמה אפשרית הכוללת פינוי בסיסים בביירות.",
+  "fronts": [
+   {
+    "name": "החזית הישראלית-לבנונית",
+    "status": "פעיל"
+   },
+   {
+    "name": "גבול לבנון-סוריה",
+    "status": "פעיל בהקשרי הברחות"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11250042-01",
+    "title": "פיצוץ רחפן ישראלי סמוך לטכנאים בדרום לבנון",
+    "summary": "הכוחות הישראליים פצצו רחפן ליד טכנאים שביצעו עבודות תחזוקה חשמליות בקבריח'א ובמייפדון שבדרום לבנון.",
+    "axis": "ישראל - לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T18:00:49+00:00",
+    "last_update_at": "2026-11-24T18:00:49+00:00",
+    "what_is_not_verified": "האם מדובר בסיכול ממוקד או תקלה טכנית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_d8ef470949da3031",
+      "url": "https://english.almanar.com.lb/article/154652/",
+      "published_at": "2026-11-24T18:00:49+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קבריח'א, לבנון",
+      "lat": 33.2524,
+      "lon": 35.4663
+     },
+     {
+      "name": "מייפדון, לבנון",
+      "lat": 33.3485,
+      "lon": 35.4772
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11250042-02",
+    "title": "תקיפות צה\"ל בכפרים בדרום לבנון",
+    "summary": "צה\"ל ביצע תקיפות במספר כפרים בדרום לבנון בהם קבריח'א, תולין וכפר תבנית.",
+    "axis": "ישראל - לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T08:44:02+00:00",
+    "last_update_at": "2026-11-24T08:44:02+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והמטרות הספציפיות שהותקפו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134148",
+      "published_at": "2026-11-24T08:44:02+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קבריח'א, לבנון",
+      "lat": 33.2524,
+      "lon": 35.4663
+     },
+     {
+      "name": "כפר תבנית, לבנון",
+      "lat": 33.3519,
+      "lon": 35.5186
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11250042-03",
+    "title": "פינוי מפקדות משמרות המהפכה בדאחיה",
+    "summary": "משמרות המהפכה של איראן החלו לפנות את מפקדותיהן ברובע הדאחיה בביירות ובסביבתו מחשש לתקיפה ישראלית.",
+    "axis": "ישראל - לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-24T12:00:34+00:00",
+    "last_update_at": "2026-11-24T12:00:34+00:00",
+    "what_is_not_verified": "היקף הפינוי בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95127",
+      "published_at": "2026-11-24T12:00:34+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11250042-04",
+    "title": "אימון מפקדי חטיבה 7 לאחר חודשים בלבנון",
+    "summary": "למעלה מ-100 מפקדים בחטיבה 7 של צה\"ל קיימו סדרת אימונים המבוססת על קרבותיהם בלבנון.",
+    "axis": "ישראל - לבנון וחיזבאללה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T18:15:42+00:00",
+    "last_update_at": "2026-11-24T18:15:42+00:00",
+    "what_is_not_verified": "לוח הזמנים המדויק להמשך הפעילות המבצעית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25684",
+      "published_at": "2026-11-24T18:15:42+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11250042-05",
+    "title": "חשיפת פעולת הברחת חומרי נפץ בגבול לבנון-סוריה",
+    "summary": "הצבא הלבanוני חשף פעילות הברחה של 264 קילוגרם חומרי נפץ מאזור סוריה ללבנון באזור משארי אל-קאע.",
+    "axis": "לבנון וחיזבאללה - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T14:55:00+00:00",
+    "last_update_at": "2026-11-24T14:55:00+00:00",
+    "what_is_not_verified": "היעד הסופי של משלוח חומרי הנפץ",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "fh_ad963416fb2cb714",
+      "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/969470/lebanese-army-uncovers-details-of-264-kg-explosives-smuggling-operatio/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969470",
+      "published_at": "2026-11-24T14:55:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11250042-06",
+    "title": "איסור פעילות עמותת אל-אירושאד בברלין הקשורה לחיזבאללה",
+    "summary": "הרשויות בברלין אסרו את פעילות עמותת אל-אירושאד וארגונים נוספים המקושרים אליה, עקב מתן תמיכה כספית וארגונית לחיזבאללה והפצת האידיאולוגיה שלו בגרמניה.",
+    "axis": "לבנון וחיזבאללה - אירופה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-17T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T13:31:24+00:00",
+    "last_update_at": "2026-11-24T13:31:24+00:00",
+    "what_is_not_verified": "היקף הנכסים הכספיים המדויק שנתפסו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_alma",
+      "source_root_id": "or_alma",
+      "url": "https://israel-alma.org/the-el-irschad-association-in-berlin-and-hezbollahs-civilian-activities-outside-lebanon/",
+      "published_at": "2026-11-24T13:31:24+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ברלין, גרמניה",
+      "lat": 52.5174,
+      "lon": 13.3951
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "האם משמרות המהפכה פינו לחלוטין את כלל מפקדותיהם מדאחיה",
+   "היעד המדויק של משלוח חומרי הנפץ שנתפס בגבול סוריה-לבנון"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3401,
+    "unit": "ILS",
+    "change_pct": -0.29,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-24T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת התבססות חיזבאללה",
+     "החזקת רצועות ביטחון"
+    ],
+    "inferred": [
+     "שחיקת יכולות צבאיות של חיזבאללה באמצעות תקיפות נקודתיות"
+    ],
+    "forecast": [
+     "המשך פעילות צבאיה ממוקדת בלבנון",
+     "היערכות להסלמה רחבה מול איראן ושלוחיה"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [
+     "המשך תמיכה בציר ההתנגדות",
+     "הנצחת מורשת מנהיגיו"
+    ],
+    "inferred": [
+     "שימור יכולות צבאיות למרות מכות קשות וניסיונות סיכול הברחות"
+    ],
+    "forecast": [
+     "המשך פעילות חשאית והיערכות לתקיפות נגד"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_alma",
+    "url": "https://israel-alma.org/the-el-irschad-association-in-berlin-and-hezbollahs-civilian-activities-outside-lebanon/",
+    "accessed_at": "2026-11-25T00:42:12+00:00"
+   },
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/154652/",
+    "accessed_at": "2026-11-25T00:42:12+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/news-bulletin-reports/969470/lebanese-army-uncovers-details-of-264-kg-explosives-smuggling-operatio/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969470",
+    "accessed_at": "2026-11-25T00:42:12+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134148",
+    "accessed_at": "2026-11-25T00:42:12+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25684",
+    "accessed_at": "2026-11-25T00:42:12+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95127",
+    "accessed_at": "2026-11-25T00:42:12+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,293 @@
+{
+ "status": "draft",
+ "received_sha256_12": "aed327e09145",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 2,
+   "verified": 1,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-25T00:40:20+00:00",
+  "window": {
+   "from": "2026-11-24T00:40:20+00:00",
+   "to": "2026-11-25T00:40:20+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611250040"
+  },
+  "summary": "העימות בין איראן לבין ישראל וארצות הברית נמשך על רקע לחץ כלכלי חריף, הכולל צניחה חדה של המטבע האיראני והחמרת סנקציות אמריקאיות. במקביל, ישראל וארה\"ב מתריעות מפני כוונות איראניות לפתח נשק כימי ולפגוע בבסיסים ובאישים אמריקאיים, בעוד איראן ממשיכה באיומים על בסיסי ארה\"ב באזור ובאירופה וזרועותיה פועלות במרחב.",
+  "fronts": [
+   {
+    "name": "החזית האיראנית-ישראלית-אמריקאית הישירה",
+    "status": "פעיל עם איומים הדדיים, אזהרות על פיתוח כימי וגרעיני, והיערכות לתקיפות"
+   },
+   {
+    "name": "חזית המפרץ והספנות",
+    "status": "מתיחות ואיומים על תשתיות ומסחר ימי, לצד התאוששות חלקית של ייצוא נפט"
+   },
+   {
+    "name": "החזית הלבנונית",
+    "status": "פעילות היערכות ופינוי מפקדות של משמרות המהפכה"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11250040-01",
+    "title": "אזהרת ביטחון של שגרירות ארה\"ב בבחריין",
+    "summary": "שגרירות ארצות הברית בבחריין פרסמה אזהרת ביטחון בעקבות איומים ותקיפות איראניות נגד יעדים אמריקניים במדינה ובכווית.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T23:44:16+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T23:44:16+00:00",
+    "last_update_at": "2026-11-24T23:44:16+00:00",
+    "what_is_not_verified": "פרטים מדויקים על מלוא היקף הנזק בכל אתר ואתר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21926227",
+      "published_at": "2026-11-24T23:44:16+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11250040-02",
+    "title": "הפלת ערך המטבע האיראני לשפל",
+    "summary": "שער הריאל האיראני צנח בשוק החופשי לשפל היסטורי חדש של כ-2.83 מיליון ריאל לדולר אמריקאי אחד, על רקע הלחץ האמריקאי והמשבר הכלכלי.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-24T10:38:25+00:00",
+    "last_update_at": "2026-11-24T11:27:01+00:00",
+    "what_is_not_verified": "ההשפעה המדויקת לטווח הקצר על מהלכי המשטר",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134160",
+      "published_at": "2026-11-24T11:27:01+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/alexmehacarmel/49872",
+      "published_at": "2026-11-24T10:38:25+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11250040-03",
+    "title": "פיתוח נשק כימי ותוכניות תקיפה לפי שר הביטחון הישראלי",
+    "summary": "שר הביטחון ישראל כ\"ץ הצהיר כי איראן מפתחת נשק כימי כשובר שוויון וסימנה את הנשיא טראמפ כמטרה, לצד אינדיקציות לחידוש פרויקט הגרעין.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T16:57:05+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-24T16:57:05+00:00",
+    "last_update_at": "2026-11-24T17:03:34+00:00",
+    "what_is_not_verified": "האם איראן אכן השלימה את פיתוח היכולות הכמיות והגרעיניות בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95130",
+      "published_at": "2026-11-24T17:03:34+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rkqtbfqy7l",
+      "published_at": "2026-11-24T16:59:27+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383962941",
+      "published_at": "2026-11-24T16:57:05+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11250040-04",
+    "title": "הרשעת וואווי בארה\"ב בהפרת סנקציות",
+    "summary": "חבר מושבעים בניו יורק הרשיע את חברת הטכנולוגיה הסינית וואווי בעשרת סעיפי האישום הקשורים להסתרה של עסקים באיראן והפרת סנקציות.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T22:46:32+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-24T22:46:32+00:00",
+    "last_update_at": "2026-11-25T00:20:26+00:00",
+    "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/article/21926255",
+      "published_at": "2026-11-25T00:20:26+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/chinas-huawei-convicted-sprawling-us-criminal-trial-over-iran-business",
+      "published_at": "2026-11-24T22:46:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ניו יורק, ארצות הברית",
+      "lat": 40.7127,
+      "lon": -74.006
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11250040-05",
+    "title": "פינוי מפקדות משמרות המהפכה בדאחיה",
+    "summary": "… בביירות מחשש לתקיפה ישראלית.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T12:00:34+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-24T12:00:34+00:00",
+    "last_update_at": "2026-11-24T12:00:34+00:00",
+    "what_is_not_verified": "היקף הפינוי המדויק ומידת ההצלחה שלו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95127",
+      "published_at": "2026-11-24T12:00:34+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "טענות על קידום תוכניות לתקיפה כימית וחידוש פרויקט הגרעין מצד איראן",
+   "דיונים פנימיים בממשל טראמפ לגבי חיסול בכירים בהנהגה האיראנית",
+   "תוכניות איראניות לפגוע בנשיא לשעבר או הנשיא המכהן טראמפ ובבסיסים באירופה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3401,
+    "unit": "ILS",
+    "change_pct": -0.29,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-24T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "להמשיך לפתח יכולות טילים צבאיים לפי צורך",
+     "להבהיר שכל בסיס אמריקאי באזור נמצא בטווח פגיעה"
+    ],
+    "inferred": [
+     "לנסות לשרוד את הלחץ הכלכלי ומצוקת מטבע החוץ",
+     "להפעיל שלוחות ולתכנן מענה הרתעתי מול ארה\"ב וישראל"
+    ],
+    "forecast": [
+     "המשך הסתמכות על יכולות בלסטיות ולוחמה אסימטרית",
+     "הידוק שיתוף פעולה או ארגון מחדש של מנגנוני הביטחון"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "למנוע מאיראן להשיג נשק כימי ויכולות שוברי שוויון",
+     "להיערך לאפשרות של פעולה צבאית עצמאית או משולבת מול איראן"
+    ],
+    "inferred": [
+     "לנסות לגייס את ארה\"ב למהלך התקפי משולב נגד תשתיות איראניות",
+     "להפחית תלות במטוסי קרב אמריקאיים באמצעות פיתוח אמצעי לחימה חלופיים"
+    ],
+    "forecast": [
+     "המשך איסוף מודיעין והיערכות מול התבססות איראנית ושלוחותיה",
+     "מתן דגש על פיתוח חימוש מדויק וכטב\"מים"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "אכיפת סנקציות כלכליות ומצור למניעת מימון איראני",
+     "הגנה על מתקנים ונציגים אמריקאיים במזרח התיכון"
+    ],
+    "inferred": [
+     "הגברת הלחץ הכלכלי דרך חסימת רשתות בנקאות צללים ומאבק בחברות מפרות סנקציות",
+     "בחינת צעדים מדיניים וצבאיים בלי להיגרר למלחמה כוללת מהירה"
+    ],
+    "forecast": [
+     "המשך אכיפת חוקי סנקציות קפדניים",
+     "שמירה על כוננות גבוהה בבסיסים האזוריים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/chinas-huawei-convicted-sprawling-us-criminal-trial-over-iran-business",
+    "accessed_at": "2026-11-25T00:40:20+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/article/21926255",
+    "accessed_at": "2026-11-25T00:40:20+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134160",
+    "accessed_at": "2026-11-25T00:40:20+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49872",
+    "accessed_at": "2026-11-25T00:40:20+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95127",
+    "accessed_at": "2026-11-25T00:40:20+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383962941",
+    "accessed_at": "2026-11-25T00:40:20+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rkqtbfqy7l",
+    "accessed_at": "2026-11-25T00:40:20+00:00"
+   }
+  ]
+ }
+}

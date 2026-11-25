@@ -1329,6 +1329,7 @@
 36.6369
 ],
 "israel": null,
+"israel-lebanon border": null,
 "istanbul airport, turkey": [
 41.2749,
 28.7323
@@ -1990,6 +1991,7 @@
 33.1031,
 35.445
 ],
+"mashari al-qaa, lebanon": null,
 "mashari el-qaa, lebanon": null,
 "masharii al-qaa, lebanon": null,
 "mashhad, iran": [
@@ -2052,6 +2054,10 @@
 35.5242
 ],
 "melitopol, zaporizhzhia oblast, ukraine": null,
+"merefa, ukraine": [
+49.8183,
+36.0629
+],
 "metz, france": [
 49.1197,
 6.1764
@@ -3071,6 +3077,7 @@
 54.193,
 37.6175
 ],
+"tulin, lebanon": null,
 "tur al-bahah, yemen": [
 12.9995,
 44.4645
@@ -3098,6 +3105,10 @@
 "ust-luga, russia": [
 59.6592,
 28.2695
+],
+"uzhhorod, ukraine": [
+48.6224,
+22.3023
 ],
 "vasylivka, donetsk oblast, ukraine": [
 48.1717,
