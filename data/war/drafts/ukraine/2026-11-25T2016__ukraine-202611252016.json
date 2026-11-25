@@ -1,0 +1,307 @@
+{
+ "status": "draft",
+ "received_sha256_12": "93709bc4a5ba",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 4,
+   "initial": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-25T20:16:39+00:00",
+  "window": {
+   "from": "2026-11-24T20:16:39+00:00",
+   "to": "2026-11-25T20:16:39+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611252016"
+  },
+  "summary": "המלחמה בין רוסיה לאוקראינה נמשכת תוך כדי תקיפות אוויריות הדדיות, לרבות תקיפה אוקראינית בולטת נגד בסיס חיל אוויר ובתי זיקוק ברוסיה, לצד המשך הפגזות רוסיות על תשתיות אנרגיה באוקראינה. במקביל, חלו התפתחויות דיפלומטיות הכוללות פגישה ראשונה בין נשיא אוקראינה לראש ממשלת הונגריה החדש לחיזוק שיתוף הפעולה, ודיונים בנאט\"ו על הצעות הגנה אווירית פולניות.",
+  "fronts": [
+   {
+    "name": "חזית חרקוב",
+    "status": "פעילה עם ניסיונות תקיפה ממוכנים של רוסיה והדיפה אוקראינה"
+   },
+   {
+    "name": "תשתיות אנרגיה באוקראינה",
+    "status": "תחת מתקפות רוסיות בלתי פוסקות ועבודות שיקום"
+   },
+   {
+    "name": "העומק הרוסי",
+    "status": "תחת תקיפות כטב\"מים ואוויריות אוקראיניות על בסיסים ובתי זיקוק"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11252016-01",
+    "title": "Ukrainian strike on Savasleyka air base",
+    "summary": "הצבא האוקראיני תקף בבסיס חיל האוויר הרוסי סבסלייקה וגרם לפגיעה במטוסי קרב ומפציצים.",
+    "axis": "תקיפות אוויריות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T12:08:29+00:00",
+    "last_update_at": "2026-11-25T14:46:41+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק טרם אומת באופן מלא על ידי גורמים בלתי תלויים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_bbc",
+      "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T14:46:41+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_bbc",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21930061",
+      "published_at": "2026-11-25T13:26:53+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_bbc",
+      "url": "https://t.me/alexmehacarmel/49911",
+      "published_at": "2026-11-25T12:08:29+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11252016-02",
+    "title": "Ukrainian strikes on Samara Oblast oil refineries",
+    "summary": "כוחות אוקראינה תקפו בתי זיקוק לנפט במחוז סמרה ברוסיה.",
+    "axis": "תקיפות תשתיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T12:08:29+00:00",
+    "last_update_at": "2026-11-25T18:53:38+00:00",
+    "what_is_not_verified": "הנזק המדויק למתקני הזיקוק.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_general_staff",
+      "url": "https://kyivindependent.com/ukraine-war-latest-poland-plans-no-fly-zone-near-ukraine-border-asks-nato-to-intercept-russian-missiles-over-ukraine/",
+      "published_at": "2026-11-25T18:53:38+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_general_staff",
+      "url": "https://t.me/alexmehacarmel/49911",
+      "published_at": "2026-11-25T12:08:29+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11252016-03",
+    "title": "Meeting between Zelenskyy and Hungarian PM Magyar",
+    "summary": "נשיא אוקראינה וראש ממשלת הונגריה נפגשו לשיחות על הידוק היחסים, שיתוף פעולה אנרגטי וסיוע.",
+    "axis": "דיפלומטיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T02:21:53+00:00",
+    "last_update_at": "2026-11-25T19:55:11+00:00",
+    "what_is_not_verified": "פרטים מלאים על לוח הזמנים ליישום זכויות המיעוטים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_the_guardian",
+      "url": "https://www.theguardian.com/world/video/2026/nov/25/zelensky-and-hungarys-magyar-play-volleyball-video",
+      "published_at": "2026-11-25T19:55:11+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_the_guardian",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/25/8064672/",
+      "published_at": "2026-11-25T17:37:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_the_guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/25/ukraine-war-briefing-zelenskyy-and-hungary-pm-hail-new-era-of-cooperation-after-orban",
+      "published_at": "2026-11-25T02:21:53+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ברגוב, אוקראינה",
+      "lat": 48.2051,
+      "lon": 22.6453
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11252016-04",
+    "title": "Russian mechanized assault repelled in Kharkiv region",
+    "summary": "משמר הגבול האוקראיני הדף מתקפה ממוכנת רוסית צפונית לוובצ'נסקי חוטורי.",
+    "axis": "חזית הקרקע",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T18:58:00+00:00",
+    "last_update_at": "2026-11-25T18:58:00+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק בצד הרוסי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_aea99555b3f8d10e",
+      "url": "https://www.ukrinform.net/rubric-ato/4188651-border-guards-foil-russian-mechanized-assault-in-northern-kharkiv-region.html",
+      "published_at": "2026-11-25T18:58:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "וובצ'נסקי חוטורי, אוקראינה",
+      "lat": 50.3008,
+      "lon": 37.0393
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11252016-05",
+    "title": "Polish proposal to NATO regarding missile interception",
+    "summary": "פולין הציעה לבחון יירוט טילי שיוט רוסיים מעל שטח אוקראינה כאשר הם מנווטים לעבר שטח הברית.",
+    "axis": "הגנה אזורית",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-23T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T14:36:52+00:00",
+    "last_update_at": "2026-11-25T18:53:38+00:00",
+    "what_is_not_verified": "האם תושג הסכמה פה אחד בנאט\"ו למהלך.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_bloomberg",
+      "url": "https://kyivindependent.com/ukraine-war-latest-poland-plans-no-fly-zone-near-ukraine-border-asks-nato-to-intercept-russian-missiles-over-ukraine/",
+      "published_at": "2026-11-25T18:53:38+00:00"
+     },
+     {
+      "source_id": "src_meduza",
+      "source_root_id": "or_bloomberg",
+      "url": "https://meduza.io/en/news/2026/11/25/bloomberg-poland-proposes-that-nato-consider-shooting-down-russian-missiles-over-ukraine-headed-toward-alliance-territory",
+      "published_at": "2026-11-25T14:36:52+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בריסל, בלגיה",
+      "lat": 50.8467,
+      "lon": 4.3525
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר האבדות המדויק של חיילים רוסים מבוסס על הערכות האקרים ונתונים דלפים שאינם רשמיים לחלוטין",
+   "היקף הנזק המדויק בבסיס סבסלייקה ובבתי הזיקוק הרוסיים טרם אושר ממקור ניטרלי",
+   "האם תתקבל הסכמה בנאט\"ו להצעת פולין ליירט טילים מעל שטח אוקראינה"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.0935,
+    "unit": "USD",
+    "change_pct": -0.26,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "להשמיד יעדים צבאיים לגגיטימיים הכוללים מטוסים, ספינות וכלי שיט נושאי נשק של רוסיה",
+     "להאיץ את קבלת טילי ההגנה האווירית ואמצעי הגנה נוספים מהמערב",
+     "לחזק את הקשרים הדיפלומטיים והכלכליים עם שכנות כמו הונגריה לצורך שילוב באיחוד האירופי"
+    ],
+    "inferred": [
+     "פגיעה ביכולות ההפצצה האסטרטגיות של רוסיה באמצעות תקיפת בסיסי עומק",
+     "הרחבת שיתופי הפעולה האזוריים כדי לפצות על אי-יציבות בשותפויות בינלאומיות רחבות"
+    ],
+    "forecast": [
+     "אוקראינה תמשיך לנסות לפגוע בתשתיות ובבסיסים צבאיים בשטח רוסיה",
+     "יחסי אוקראינה-הונגריה צפויים להשתפר במסגרת ההבנות החדשות"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "להמשיך במערכת התקיפות נגד תשתיות האנרגיה של אוקראינה במטרה לשבש את הולכת החשמל",
+     "לייצר ולהפעיל אלפי כטב\"מים נגד אוקראינה"
+    ],
+    "inferred": [
+     "ניסיון לערער את הלגיטימציה של ההנהגה באוקראינה ולהפעיל לחץ התשה כבד",
+     "הסתרת היקף האבדות האמיתי של חיילים כדי למנוע זעזוע פנימי"
+    ],
+    "forecast": [
+     "רוסיה תמשיך במדיניות התקיפות המכוונות נגד רשת החשמל לקראת חודשי החורף",
+     "מאמצי ההצטיידות והייצור של כטב\"מים ימשיכו בקצב גבוה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-25T20:16:39+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/25/ukraine-war-briefing-zelenskyy-and-hungary-pm-hail-new-era-of-cooperation-after-orban",
+    "accessed_at": "2026-11-25T20:16:39+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21930061",
+    "accessed_at": "2026-11-25T20:16:39+00:00"
+   },
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-war-latest-poland-plans-no-fly-zone-near-ukraine-border-asks-nato-to-intercept-russian-missiles-over-ukraine/",
+    "accessed_at": "2026-11-25T20:16:39+00:00"
+   },
+   {
+    "source_id": "src_meduza",
+    "url": "https://meduza.io/en/news/2026/11/25/bloomberg-poland-proposes-that-nato-consider-shooting-down-russian-missiles-over-ukraine-headed-toward-alliance-territory",
+    "accessed_at": "2026-11-25T20:16:39+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/25/8064672/",
+    "accessed_at": "2026-11-25T20:16:39+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49911",
+    "accessed_at": "2026-11-25T20:16:39+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4188651-border-guards-foil-russian-mechanized-assault-in-northern-kharkiv-region.html",
+    "accessed_at": "2026-11-25T20:16:39+00:00"
+   }
+  ]
+ }
+}
