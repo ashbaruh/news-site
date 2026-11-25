@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-25T10:17:12+00:00",
-  "fetched_at": "2026-11-25T10:17:12+00:00"
+  "checked_at": "2026-11-25T11:17:10+00:00",
+  "fetched_at": "2026-11-25T11:17:10+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-25T10:17:23+00:00",
-  "fetched_at": "2026-11-25T10:17:23+00:00"
+  "checked_at": "2026-11-25T11:17:18+00:00",
+  "fetched_at": "2026-11-25T11:17:18+00:00"
  },
  "av_en": {
   "data": [
@@ -79,34 +79,39 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-25T10:17:25+00:00",
-  "fetched_at": "2026-11-25T10:17:25+00:00"
+  "checked_at": "2026-11-25T11:17:24+00:00",
+  "fetched_at": "2026-11-25T11:17:24+00:00"
  },
- "generated_at": "2026-11-25T10:17:25+00:00",
+ "generated_at": "2026-11-25T11:17:24+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "עם הגב לקיר: כצמן מגייס בדיסקאונט ענק, ומניית נורסטאר מתרסקת",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564882",
-     "date": "2026-11-25T09:01:00+00:00"
+     "title": "הודעה דרמטית של השופטים במשפט נתניהו: לוותר על תיקים 4000 ו-2000",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564860",
+     "date": "2026-11-25T10:40:00+00:00"
     },
     {
      "title": "צה\"ל מבטל את רידוד הכוחות ביישובים בעוטף עזה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564847",
-     "date": "2026-11-25T09:45:00+00:00"
+     "date": "2026-11-25T10:37:00+00:00"
     }
    ],
    "market": [
     {
+     "title": "בזמן שמניות השבבים מתרסקות: הבורסה שאליה זורמים מיליארדי דולרים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564907",
+     "date": "2026-11-25T10:48:00+00:00"
+    },
+    {
+     "title": "ירידות בת\"א; מניות רימון ואר פי אופטיקל צונחות",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564769",
+     "date": "2026-11-25T10:44:00+00:00"
+    },
+    {
      "title": "חוזי הנאסד\"ק צונחים ואנבידיה מאבדת כ-5% בטרום-מסחר; אירופה עוברת למגמה מעורבת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564802",
      "date": "2026-11-25T09:59:00+00:00"
-    },
-    {
-     "title": "הירידות בת\"א מעמיקות; הדולר מזנק וחוצה את רף 3.38 השקלים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564769",
-     "date": "2026-11-25T09:58:00+00:00"
     },
     {
      "title": "מניית אנבידיה זינקה בפראות, ולמחרת נסוגה. מה זה אומר לגבי ההמשך?",
@@ -164,11 +169,6 @@ window.DB.generated = {
      "date": "2026-11-25T07:04:00+00:00"
     },
     {
-     "title": "הפניקס: רווח של 2.1 מיליארד שקל מתחילת השנה. הירידות בשוק ההון כירסמו ברבעון",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564855",
-     "date": "2026-11-25T06:12:00+00:00"
-    },
-    {
      "title": "ג'נסן הואנג לעובדי אנבידיה: \"אני הולך לטיפול שעה וחצי בכל יום\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564846",
      "date": "2026-11-25T04:10:00+00:00"
@@ -209,11 +209,6 @@ window.DB.generated = {
      "date": "2026-11-24T16:20:00+00:00"
     },
     {
-     "title": "המשבר באנבידיה: כשהמניה מזנקת, מי זוכר את כללי האחריות התאגידית?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564792",
-     "date": "2026-11-24T16:00:00+00:00"
-    },
-    {
      "title": "מלחמת הסחר חוזרת? טראמפ מתכנן סבב מכסים חדש כבר השבוע",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564686",
      "date": "2026-11-24T14:04:00+00:00"
@@ -226,8 +221,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-25T10:17:13+00:00",
-  "fetched_at": "2026-11-25T10:17:13+00:00"
+  "checked_at": "2026-11-25T11:17:11+00:00",
+  "fetched_at": "2026-11-25T11:17:11+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1866,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-25T10:17:14+00:00",
-  "fetched_at": "2026-11-25T10:17:14+00:00"
+  "checked_at": "2026-11-25T11:17:12+00:00",
+  "fetched_at": "2026-11-25T11:17:12+00:00"
  },
  "tv": {
   "data": [
@@ -2669,8 +2664,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-25T10:17:16+00:00",
-  "fetched_at": "2026-11-25T10:17:16+00:00"
+  "checked_at": "2026-11-25T11:17:13+00:00",
+  "fetched_at": "2026-11-25T11:17:13+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2844,8 +2839,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-25T10:17:16+00:00",
-  "fetched_at": "2026-11-25T10:17:16+00:00"
+  "checked_at": "2026-11-25T11:17:13+00:00",
+  "fetched_at": "2026-11-25T11:17:13+00:00"
  },
  "ai": {
   "data": {
@@ -2867,17 +2862,16 @@ window.DB.generated = {
      "translated_by": "mymemory"
     }
    ],
-   "candidates": 6,
+   "candidates": 7,
    "failed_sources": [
-    "Anthropic",
-    "Google DeepMind"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 335,
+     "likes": 336,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
@@ -2905,7 +2899,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Revamped: Image Editor",
      "desc_en": "Edit one image from a prompt. Keep the look consistent.",
      "desc_he": "ערוך תמונה אחת מתוך הנחיה. שמור על המראה עקבי.",
-     "likes": 173,
+     "likes": 174,
      "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
     },
     {
@@ -2930,24 +2924,24 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/hugging-apps/clairic"
     },
     {
+     "title": "TRELLIS.2",
+     "desc_en": "High-fidelity 3D Generation from images",
+     "desc_he": "יצירת תלת מימד בנאמנות גבוהה מתמונות",
+     "likes": 2471,
+     "link": "https://huggingface.co/spaces/microsoft/TRELLIS.2"
+    },
+    {
      "title": "QIE-2511 Rapid-AIO LoRAs Fast (Experimental)",
      "desc_en": "Demo of the Collection of Qwen Image Edit LoRAs",
      "desc_he": "הדגמה של אוסף ה-Qwen Image Edit LoRAs",
      "likes": 642,
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
-    },
-    {
-     "title": "minimax h3 turbo + lora's",
-     "desc_en": "Video generation with a synchronized soundtrack",
-     "desc_he": "יצירת סרטון עם פסקול מסונכרן",
-     "likes": 141,
-     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3-turbo"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-25T10:17:22+00:00",
-  "fetched_at": "2026-11-25T10:17:22+00:00"
+  "checked_at": "2026-11-25T11:17:18+00:00",
+  "fetched_at": "2026-11-25T11:17:18+00:00"
  },
  "abroad": {
   "data": {
@@ -2955,19 +2949,10 @@ window.DB.generated = {
     {
      "title": "חלאילי ופאלאס רוצים להתאושש באירופית, בורנמות' תיעצר בספרד?",
      "link": "https://sports.walla.co.il/item/3877509",
-     "date": "2026-11-25T11:35:00+00:00",
+     "date": "2026-11-25T11:19:00+00:00",
      "source": "וואלה",
      "players": [
       "ענאן חלאילי"
-     ]
-    },
-    {
-     "title": "21 נקודות ו-10 אסיסטים לבן שרף בג'י ליג",
-     "link": "https://www.one.co.il/Article/539794.html?ref=rss",
-     "date": "2026-11-25T07:19:00+00:00",
-     "source": "ONE",
-     "players": [
-      "בן שרף"
      ]
     },
     {
@@ -3017,24 +3002,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "\"האט את המשחק\": ביקורת באנגליה על סולומון",
-     "link": "https://www.one.co.il/Article/539777.html?ref=rss",
-     "date": "2026-11-24T22:36:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
-     "title": "69 דקות לסולומון בהפסד של ווסטהאם, תיקו לפרץ",
-     "link": "https://www.one.co.il/Article/539728.html?ref=rss",
-     "date": "2026-11-24T19:45:00+00:00",
-     "source": "ONE",
-     "players": [
-      "מנור סולומון"
-     ]
-    },
-    {
      "title": "טוב מאי פעם: דני אבדיה גורם לארה\"ב להיזכר בטרייד המפוקפק",
      "link": "https://sports.walla.co.il/item/3877508",
      "date": "2026-11-24T18:44:00+00:00",
@@ -3062,15 +3029,6 @@ window.DB.generated = {
      ]
     },
     {
-     "title": "רביבו מעל כולם: ההצגה של הישראלי בפנטזי הספרדי",
-     "link": "https://www.one.co.il/Article/539695.html?ref=rss",
-     "date": "2026-11-24T08:12:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
-     ]
-    },
-    {
      "title": "חיים רביבו על רוי: \"שמח מהשער שלו, יותר מהשער הראשון שלי\"",
      "link": "https://sports.walla.co.il/item/3877429",
      "date": "2026-11-24T08:03:00+00:00",
@@ -3086,6 +3044,42 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
+     ]
+    },
+    {
+     "title": "\"לא מתאים אפילו לליגות החובבים\": ביקורת ארסית על מנור סולומון",
+     "link": "https://sports.walla.co.il/item/3877407",
+     "date": "2026-11-24T06:43:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "מנור סולומון"
+     ]
+    },
+    {
+     "title": "צפו בטירוף סביב אבדיה בפילדלפיה. הישראלי על לברון: \"לא פוחד מאף אחד\"",
+     "link": "https://sports.walla.co.il/item/3877415",
+     "date": "2026-11-24T06:15:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "כוכב פילדלפיה: \"קשה לשמור על אבדיה\". מאמן פורטלנד: \"פנומנלי\"",
+     "link": "https://sports.walla.co.il/item/3877414",
+     "date": "2026-11-24T05:57:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
+    {
+     "title": "ערב ענק: אבדיה כיכב עם 31 נקודות, פורטלנד חגגה בפילדלפיה",
+     "link": "https://sports.walla.co.il/item/3877413",
+     "date": "2026-11-24T05:14:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
      ]
     }
    ],
@@ -3289,8 +3283,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-25T10:17:19+00:00",
-  "fetched_at": "2026-11-25T10:17:19+00:00"
+  "checked_at": "2026-11-25T11:17:15+00:00",
+  "fetched_at": "2026-11-25T11:17:15+00:00"
  },
  "idf": {
   "data": [
@@ -3322,7 +3316,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-25T10:17:19+00:00",
+  "checked_at": "2026-11-25T11:17:15+00:00",
   "fetched_at": "2026-11-25T09:17:33+00:00"
  },
  "feed_health": {
@@ -3330,38 +3324,38 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-25T10:15:00+00:00",
-    "seen_at": "2026-11-25T10:17:25+00:00",
+    "newest": "2026-11-25T10:48:00+00:00",
+    "seen_at": "2026-11-25T11:17:24+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-25T09:59:00+00:00",
-    "seen_at": "2026-11-25T10:17:25+00:00",
+    "newest": "2026-11-25T10:48:00+00:00",
+    "seen_at": "2026-11-25T11:17:24+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-25T09:47:00+00:00",
-    "seen_at": "2026-11-25T10:17:25+00:00",
+    "newest": "2026-11-25T10:48:00+00:00",
+    "seen_at": "2026-11-25T11:17:24+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-25T06:04:00+00:00",
-    "seen_at": "2026-11-25T10:17:25+00:00",
+    "seen_at": "2026-11-25T11:17:24+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-25T11:35:00+00:00",
-    "seen_at": "2026-11-25T10:17:25+00:00",
+    "newest": "2026-11-25T12:07:00+00:00",
+    "seen_at": "2026-11-25T11:17:24+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-25T10:55:00+00:00",
-    "seen_at": "2026-11-25T10:17:25+00:00",
+    "newest": "2026-11-25T11:38:00+00:00",
+    "seen_at": "2026-11-25T11:17:24+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
@@ -3379,31 +3373,31 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-23T16:59:40+00:00",
-    "seen_at": "2026-11-25T09:17:39+00:00",
+    "seen_at": "2026-11-25T11:17:24+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-24T16:00:00+00:00",
-    "seen_at": "2026-11-25T10:17:25+00:00",
+    "seen_at": "2026-11-25T11:17:24+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-25T09:28:27+00:00",
-    "seen_at": "2026-11-25T10:17:25+00:00",
+    "newest": "2026-11-25T10:41:51+00:00",
+    "seen_at": "2026-11-25T11:17:24+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-25T10:17:25+00:00",
+    "seen_at": "2026-11-25T11:17:24+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-25T10:04:29+00:00",
-    "seen_at": "2026-11-25T10:17:25+00:00",
+    "newest": "2026-11-25T10:59:15+00:00",
+    "seen_at": "2026-11-25T11:17:24+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3413,7 +3407,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-11-25T10:17:25+00:00"
+  "checked_at": "2026-11-25T11:17:24+00:00"
  },
  "health_news": {
   "data": [
@@ -3568,8 +3562,9 @@ window.DB.generated = {
     "date": "2026-11-03T09:58:46+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-25T10:17:20+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-25T11:17:15+00:00",
   "fetched_at": "2026-11-25T10:17:20+00:00"
  }
 };
