@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-25T07:17:20+00:00",
-  "fetched_at": "2026-11-25T07:17:20+00:00"
+  "checked_at": "2026-11-25T08:17:15+00:00",
+  "fetched_at": "2026-11-25T08:17:15+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-25T07:17:31+00:00",
-  "fetched_at": "2026-11-25T07:17:31+00:00"
+  "checked_at": "2026-11-25T08:17:24+00:00",
+  "fetched_at": "2026-11-25T08:17:24+00:00"
  },
  "av_en": {
   "data": [
@@ -79,17 +79,17 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-25T07:17:32+00:00",
-  "fetched_at": "2026-11-25T07:17:32+00:00"
+  "checked_at": "2026-11-25T08:17:26+00:00",
+  "fetched_at": "2026-11-25T08:17:26+00:00"
  },
- "generated_at": "2026-11-25T07:17:32+00:00",
+ "generated_at": "2026-11-25T08:17:26+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "האפקט הולך וגדל: הכוחות שהעלו את השקל עכשיו מורידים אותו",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564743",
-     "date": "2026-11-25T03:47:00+00:00"
+     "title": "42 אנליסטים מעריכים: זה מה שצפוי בוול סטריט",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564853",
+     "date": "2026-11-25T07:17:00+00:00"
     },
     {
      "title": "טראמפ במסר לאיראן: מימון למלחמה עד סוף ינואר",
@@ -99,9 +99,24 @@ window.DB.generated = {
    ],
    "market": [
     {
+     "title": "הבורסה בתל אביב נפתחה במגמה שלילית; הדולר קופץ",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564769",
+     "date": "2026-11-25T08:05:00+00:00"
+    },
+    {
+     "title": "42 אנליסטים מעריכים: זה מה שצפוי בוול סטריט",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564853",
+     "date": "2026-11-25T07:17:00+00:00"
+    },
+    {
      "title": "הודות לפעילות הישראלית: הכנסות שיכון ובינוי צמחו ב-6%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564859",
      "date": "2026-11-25T07:12:00+00:00"
+    },
+    {
+     "title": "שטראוס מציגה קפיצה ברווח ומתכננת תוכנית התייעלות נרחבת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564861",
+     "date": "2026-11-25T07:04:00+00:00"
     },
     {
      "title": "ההכנסות זינקו, צבר העבודות גדל, אז למה הרווח הנקי של אלקטרה נותר ללא שינוי?",
@@ -114,19 +129,9 @@ window.DB.generated = {
      "date": "2026-11-25T06:12:00+00:00"
     },
     {
-     "title": "הדולר שוב קופץ, והמניות האלו צפויות להכביד על ת\"א: חמישה דברים לקראת פתיחת המסחר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564769",
-     "date": "2026-11-25T06:09:00+00:00"
-    },
-    {
      "title": "הג'וב החדש של הרמטכ\"ל לשעבר אביב כוכבי",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564854",
      "date": "2026-11-25T05:53:00+00:00"
-    },
-    {
-     "title": "42 אנליסטים מעריכים: זה מה שצפוי בוול סטריט",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564853",
-     "date": "2026-11-25T05:18:00+00:00"
     },
     {
      "title": "הפסימיות חזרה, והיא מפילה את הבורסות באסיה ואת החוזים בוול סטריט",
@@ -162,11 +167,6 @@ window.DB.generated = {
      "title": "מנכ\"ל אנבידיה התנצל בפני עובדי החברה והבהיר: אין צורך בתוכנית המשכיות ניהולית",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564843",
      "date": "2026-11-24T20:59:00+00:00"
-    },
-    {
-     "title": "אל על רוכשת חזרה את חלקה במועדון הנוסע המתמיד לפי שווי של 4.2 מיליארד שקל",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564832",
-     "date": "2026-11-24T17:14:00+00:00"
     },
     {
      "title": "המועמד לנשיאות שמבטיח לצרפתים כסף ומאבק צבאי מול ישראל",
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-25T07:17:21+00:00",
-  "fetched_at": "2026-11-25T07:17:21+00:00"
+  "checked_at": "2026-11-25T08:17:17+00:00",
+  "fetched_at": "2026-11-25T08:17:17+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-25T07:17:22+00:00",
-  "fetched_at": "2026-11-25T07:17:22+00:00"
+  "checked_at": "2026-11-25T08:17:17+00:00",
+  "fetched_at": "2026-11-25T08:17:17+00:00"
  },
  "tv": {
   "data": [
@@ -1955,6 +1955,13 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-25",
+    "time": "19:00",
+    "channel": "ONE",
+    "sport": "כדורסל",
+    "title": "וירג'יניה קבאלירס - מרקט גולדן איגלס"
+   },
+   {
+    "date": "2026-11-25",
     "time": "19:45",
     "channel": "ספורט 5",
     "sport": "כדורגל",
@@ -1966,13 +1973,6 @@ window.DB.generated = {
     "channel": "5 סטארס",
     "sport": "כדורגל",
     "title": "קרמונזה - אבלינו"
-   },
-   {
-    "date": "2026-11-25",
-    "time": "20:00",
-    "channel": "ONE",
-    "sport": "כדורסל",
-    "title": "מיאמי רדהוקס - איסטרן קנטקי קולונלס"
    },
    {
     "date": "2026-11-25",
@@ -2354,6 +2354,48 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-28",
+    "time": "14:00",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "הרטה ברלין - קרלסרוהה"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "14:05",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי חיפה - הפועל כפר סבא"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "14:10",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "בני יהודה - הפועל תל אביב"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "14:15",
+    "channel": "ספורט 5",
+    "sport": "כדורגל",
+    "title": "מכבי פתח תקווה - הפועל ראשון לציון"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "14:30",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "פרסטון - נוריץ'"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "15:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "בני סכנין - מכבי חיפה"
+   },
+   {
+    "date": "2026-11-28",
     "time": "15:00",
     "channel": "ONE",
     "sport": "כדורגל",
@@ -2369,9 +2411,51 @@ window.DB.generated = {
    {
     "date": "2026-11-28",
     "time": "16:00",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "פרוסינונה - פארמה"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "16:00",
     "channel": "ספורט 5",
     "sport": "כדורגל",
     "title": "אמפולי - ורונה"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "16:30",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "המבורג - באיירן מינכן"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "16:30",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "פ.צ. קלן - אלברסברג"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "17:00",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "לידס - קובנטרי"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "17:00",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "מנצ'סטר יונייטד - ברנטפורד"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "17:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "ווסט ברומיץ' - בריסטול סיטי"
    },
    {
     "date": "2026-11-28",
@@ -2396,6 +2480,20 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-28",
+    "time": "18:00",
+    "channel": "5 גולד",
+    "sport": "כדורגל",
+    "title": "אספרנסה - וויליטה בנגואלה"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "18:00",
+    "channel": "ספורט 5+",
+    "sport": "כדורגל",
+    "title": "פירמידס - מאס פס"
+   },
+   {
+    "date": "2026-11-28",
     "time": "18:15",
     "channel": "ספורט 5 מקס",
     "sport": "כדורגל",
@@ -2403,10 +2501,45 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-28",
+    "time": "19:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "טורינו - לאציו"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "19:00",
+    "channel": "ספורט 4",
+    "sport": "כדורגל",
+    "title": "מכבי תל אביב - הפועל פתח תקווה"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "19:30",
+    "channel": "ספורט 1",
+    "sport": "כדורגל",
+    "title": "איפסוויץ' - אסטון וילה"
+   },
+   {
+    "date": "2026-11-28",
     "time": "19:30",
     "channel": "ONE",
     "sport": "כדורגל",
     "title": "אלצ'ה - אתלטיקו מדריד"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "19:30",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "שטוטגרט - איינטרכט פרנקפורט"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "19:45",
+    "channel": "ספורט 6",
+    "sport": "כדורגל",
+    "title": "פ.ס.וו. איינדהובן - גו אהד איגלס"
    },
    {
     "date": "2026-11-28",
@@ -2438,6 +2571,34 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-28",
+    "time": "21:00",
+    "channel": "ספורט 5 מקס",
+    "sport": "כדורגל",
+    "title": "ראג'ה קזבלנקה - אסקו קארה"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "21:30",
+    "channel": "ספורט 2",
+    "sport": "כדורגל",
+    "title": "אוסנאברוק - האנובר 96"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "21:45",
+    "channel": "ONE2",
+    "sport": "כדורגל",
+    "title": "אינטר - גנואה"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "21:45",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "לה מאן - ליל"
+   },
+   {
+    "date": "2026-11-28",
     "time": "21:45",
     "channel": "ספורט 5+",
     "sport": "כדורגל",
@@ -2445,10 +2606,31 @@ window.DB.generated = {
    },
    {
     "date": "2026-11-28",
+    "time": "21:45",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "לה האבר - שטרסבורג"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "21:45",
+    "channel": "ספורט 5+ לייב",
+    "sport": "כדורגל",
+    "title": "ניס - טרואה"
+   },
+   {
+    "date": "2026-11-28",
     "time": "22:00",
     "channel": "ONE",
     "sport": "כדורגל",
     "title": "ריאל מדריד - אלאבס"
+   },
+   {
+    "date": "2026-11-28",
+    "time": "22:00",
+    "channel": "ספורט 3",
+    "sport": "כדורגל",
+    "title": "פלמייראס - אסטודיאנטס לה פלטה"
    },
    {
     "date": "2026-11-29",
@@ -2487,8 +2669,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-25T07:17:24+00:00",
-  "fetched_at": "2026-11-25T07:17:24+00:00"
+  "checked_at": "2026-11-25T08:17:18+00:00",
+  "fetched_at": "2026-11-25T08:17:18+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2520,6 +2702,15 @@ window.DB.generated = {
     },
     {
      "date": "2026-11-28",
+     "time": "15:00",
+     "home": "בני סכנין",
+     "away": "מכבי חיפה",
+     "channels": [
+      "ספורט 3"
+     ]
+    },
+    {
+     "date": "2026-11-28",
      "time": "17:30",
      "home": "הפועל ר\"ג",
      "away": "עירוני ק\"ש",
@@ -2534,6 +2725,15 @@ window.DB.generated = {
      "away": "עירוני טבריה",
      "channels": [
       "5 סטארס"
+     ]
+    },
+    {
+     "date": "2026-11-28",
+     "time": "19:00",
+     "home": "מכבי ת\"א",
+     "away": "הפועל פ\"ת",
+     "channels": [
+      "ספורט 4"
      ]
     },
     {
@@ -2619,16 +2819,44 @@ window.DB.generated = {
      "channel": "ספורט 1",
      "israeli_team": "הפועל ב\"ש",
      "title": "בשיקטאש - הפועל באר שבע"
+    },
+    {
+     "date": "2026-11-28",
+     "time": "14:05",
+     "channel": "ספורט 5",
+     "israeli_team": "מכבי חיפה",
+     "title": "מכבי חיפה - הפועל כפר סבא"
+    },
+    {
+     "date": "2026-11-28",
+     "time": "14:10",
+     "channel": "ספורט 5",
+     "israeli_team": "הפועל ת\"א",
+     "title": "בני יהודה - הפועל תל אביב"
+    },
+    {
+     "date": "2026-11-28",
+     "time": "14:15",
+     "channel": "ספורט 5",
+     "israeli_team": "מכבי פ\"ת",
+     "title": "מכבי פתח תקווה - הפועל ראשון לציון"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-25T07:17:24+00:00",
-  "fetched_at": "2026-11-25T07:17:24+00:00"
+  "checked_at": "2026-11-25T08:17:18+00:00",
+  "fetched_at": "2026-11-25T08:17:18+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/claude-can-now-install-as-app/",
+     "date": "2026-11-25T07:56:36+00:00",
+     "launch": false,
+     "title": "פיצ'ר האפליקציות החדש של אנת'רופיק הוא איום ישיר על אפל וגוגל"
+    },
     {
      "source": "Google",
      "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
@@ -2637,21 +2865,12 @@ window.DB.generated = {
      "title_en": "How Gemini is changing the game for Golden State's organization and fans.",
      "title_he": "איך Gemini משנה את כללי המשחק עבור הארגון והאוהדים של גולדן סטייט.",
      "translated_by": "mymemory"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-     "date": "2026-11-23T16:59:40+00:00",
-     "launch": false,
-     "title_en": "Finding faster quantum algorithms with agents and formal verification",
-     "title_he": "מציאת אלגוריתמים קוונטיים מהירים יותר עם סוכנים ואימות רשמי",
-     "translated_by": "google"
     }
    ],
-   "candidates": 3,
+   "candidates": 6,
    "failed_sources": [
     "Anthropic",
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -2662,18 +2881,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
-     "title": "The Ultimate MoE Training Handbook",
-     "desc_en": "A hands-on guide to training Mixture-of-Experts models",
-     "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 848,
-     "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
-    },
-    {
      "title": "pi-H3",
      "desc_en": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
      "desc_he": "סרטון Minimax H3 ב-2–4 שלבים ללא מפענח VAE",
-     "likes": 164,
+     "likes": 165,
      "link": "https://huggingface.co/spaces/Lakonik/pi-H3"
+    },
+    {
+     "title": "The Ultimate MoE Training Handbook",
+     "desc_en": "A hands-on guide to training Mixture-of-Experts models",
+     "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
+     "likes": 849,
+     "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Harness Leaderboard",
@@ -2686,7 +2905,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Revamped: Image Editor",
      "desc_en": "Edit one image from a prompt. Keep the look consistent.",
      "desc_he": "ערוך תמונה אחת מתוך הנחיה. שמור על המראה עקבי.",
-     "likes": 171,
+     "likes": 172,
      "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
     },
     {
@@ -2727,12 +2946,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-25T07:17:29+00:00",
-  "fetched_at": "2026-11-25T07:17:29+00:00"
+  "checked_at": "2026-11-25T08:17:24+00:00",
+  "fetched_at": "2026-11-25T08:17:24+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "21 נקודות ו-10 אסיסטים לבן שרף בג'י ליג",
+     "link": "https://www.one.co.il/Article/539794.html?ref=rss",
+     "date": "2026-11-25T07:19:00+00:00",
+     "source": "ONE",
+     "players": [
+      "בן שרף"
+     ]
+    },
     {
      "title": "חיים רביבו חשף מדוע רוי הוחלף וסיפר על החששות בקיץ",
      "link": "https://sports.walla.co.il/item/3877537",
@@ -2858,15 +3086,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "\"לא מתאים אפילו לליגות החובבים\": ביקורת ארסית על מנור סולומון",
-     "link": "https://sports.walla.co.il/item/3877407",
-     "date": "2026-11-24T06:43:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "מנור סולומון"
      ]
     }
    ],
@@ -3070,8 +3289,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-25T07:17:27+00:00",
-  "fetched_at": "2026-11-25T07:17:27+00:00"
+  "checked_at": "2026-11-25T08:17:20+00:00",
+  "fetched_at": "2026-11-25T08:17:20+00:00"
  },
  "idf": {
   "data": [
@@ -3103,7 +3322,7 @@ window.DB.generated = {
   ],
   "ok": false,
   "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-25T07:17:27+00:00",
+  "checked_at": "2026-11-25T08:17:20+00:00",
   "fetched_at": "2026-11-25T05:17:31+00:00"
  },
  "feed_health": {
@@ -3111,44 +3330,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-25T07:13:00+00:00",
-    "seen_at": "2026-11-25T07:17:32+00:00",
+    "newest": "2026-11-25T08:05:00+00:00",
+    "seen_at": "2026-11-25T08:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-25T07:12:00+00:00",
-    "seen_at": "2026-11-25T07:17:32+00:00",
+    "newest": "2026-11-25T08:05:00+00:00",
+    "seen_at": "2026-11-25T08:17:26+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-25T05:18:00+00:00",
-    "seen_at": "2026-11-25T07:17:32+00:00",
+    "newest": "2026-11-25T07:17:00+00:00",
+    "seen_at": "2026-11-25T08:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-25T06:04:00+00:00",
-    "seen_at": "2026-11-25T07:17:32+00:00",
+    "seen_at": "2026-11-25T08:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-25T07:35:00+00:00",
-    "seen_at": "2026-11-25T07:17:32+00:00",
+    "newest": "2026-11-25T08:32:00+00:00",
+    "seen_at": "2026-11-25T08:17:26+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-25T08:10:00+00:00",
-    "seen_at": "2026-11-25T07:17:32+00:00",
+    "newest": "2026-11-25T08:45:00+00:00",
+    "seen_at": "2026-11-25T08:17:26+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-25T06:32:00+00:00",
-    "seen_at": "2026-11-25T07:17:32+00:00",
+    "newest": "2026-11-25T08:05:00+00:00",
+    "seen_at": "2026-11-25T08:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3166,25 +3385,25 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-24T16:00:00+00:00",
-    "seen_at": "2026-11-25T07:17:32+00:00",
+    "seen_at": "2026-11-25T08:17:26+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-24T16:31:28+00:00",
-    "seen_at": "2026-11-25T05:17:39+00:00",
+    "newest": "2026-11-25T07:56:36+00:00",
+    "seen_at": "2026-11-25T08:17:26+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-25T07:17:32+00:00",
+    "seen_at": "2026-11-25T08:17:26+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-24T16:49:08+00:00",
-    "seen_at": "2026-11-25T07:17:32+00:00",
+    "seen_at": "2026-11-25T08:17:26+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3194,7 +3413,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-11-25T07:17:32+00:00"
+  "checked_at": "2026-11-25T08:17:26+00:00"
  },
  "health_news": {
   "data": [
@@ -3349,8 +3568,9 @@ window.DB.generated = {
     "date": "2026-11-03T09:58:46+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-25T07:17:28+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-25T08:17:21+00:00",
   "fetched_at": "2026-11-25T07:17:28+00:00"
  }
 };
