@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-25T09:17:26+00:00",
-  "fetched_at": "2026-11-25T09:17:26+00:00"
+  "checked_at": "2026-11-25T10:17:12+00:00",
+  "fetched_at": "2026-11-25T10:17:12+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-25T09:17:37+00:00",
-  "fetched_at": "2026-11-25T09:17:37+00:00"
+  "checked_at": "2026-11-25T10:17:23+00:00",
+  "fetched_at": "2026-11-25T10:17:23+00:00"
  },
  "av_en": {
   "data": [
@@ -79,42 +79,62 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-25T09:17:39+00:00",
-  "fetched_at": "2026-11-25T09:17:39+00:00"
+  "checked_at": "2026-11-25T10:17:25+00:00",
+  "fetched_at": "2026-11-25T10:17:25+00:00"
  },
- "generated_at": "2026-11-25T09:17:39+00:00",
+ "generated_at": "2026-11-25T10:17:25+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מתחת לרדאר: האחים סוסן משיקים מיזם חדש שכבר שווה יותר ממיליארד דולר",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564864",
-     "date": "2026-11-25T08:30:00+00:00"
+     "title": "עם הגב לקיר: כצמן מגייס בדיסקאונט ענק, ומניית נורסטאר מתרסקת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564882",
+     "date": "2026-11-25T09:01:00+00:00"
     },
     {
-     "title": "טראמפ במסר לאיראן: מימון למלחמה עד סוף ינואר",
+     "title": "צה\"ל מבטל את רידוד הכוחות ביישובים בעוטף עזה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564847",
-     "date": "2026-11-25T07:51:00+00:00"
+     "date": "2026-11-25T09:45:00+00:00"
     }
    ],
    "market": [
     {
-     "title": "פיטורים בטבע: 150 עובדים ילכו הביתה ב-2027",
+     "title": "חוזי הנאסד\"ק צונחים ואנבידיה מאבדת כ-5% בטרום-מסחר; אירופה עוברת למגמה מעורבת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564802",
+     "date": "2026-11-25T09:59:00+00:00"
+    },
+    {
+     "title": "הירידות בת\"א מעמיקות; הדולר מזנק וחוצה את רף 3.38 השקלים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564769",
+     "date": "2026-11-25T09:58:00+00:00"
+    },
+    {
+     "title": "מניית אנבידיה זינקה בפראות, ולמחרת נסוגה. מה זה אומר לגבי ההמשך?",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564778",
+     "date": "2026-11-25T09:47:00+00:00"
+    },
+    {
+     "title": "אשטרום עברה להפסד של 16.2 מיליון שקל; מכירות הדירות צנחו",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564894",
+     "date": "2026-11-25T09:31:00+00:00"
+    },
+    {
+     "title": "רשות שוק ההון מהדקת את הפיקוח על מתן האופציות לבכירי הגופים המוסדיים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564890",
+     "date": "2026-11-25T09:24:00+00:00"
+    },
+    {
+     "title": "עזריאלי: הפדיונות בקניונים ירדו, ה-FFO עלה ב-11%",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564888",
+     "date": "2026-11-25T09:20:00+00:00"
+    },
+    {
+     "title": "פיטורים בטבע: 150 עובדים יילכו הביתה ב-2027",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564887",
      "date": "2026-11-25T09:15:00+00:00"
     },
     {
-     "title": "אירופה עולה, אך גל המימושים ב-AI מפיל את חוזי הנאסד\"ק",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564802",
-     "date": "2026-11-25T09:14:00+00:00"
-    },
-    {
-     "title": "ירידות קלות בת\"א; אר פי אופטיקל מתרסקת ביותר מ-20% לאחר הדוחות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564769",
-     "date": "2026-11-25T09:07:00+00:00"
-    },
-    {
-     "title": "עם הגב לקיר: כצמן מגייס בדיסקאונט ענק ומניית נורסטאר מתרסקת",
+     "title": "עם הגב לקיר: כצמן מגייס בדיסקאונט ענק, ומניית נורסטאר מתרסקת",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564882",
      "date": "2026-11-25T09:01:00+00:00"
     },
@@ -134,19 +154,9 @@ window.DB.generated = {
      "date": "2026-11-25T08:17:00+00:00"
     },
     {
-     "title": "מנורה מבטחים: הרווח הכולל המתואם עלה ב-7% - שוק ההון שחק את התוצאות",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564872",
-     "date": "2026-11-25T08:15:00+00:00"
-    },
-    {
      "title": "42 אנליסטים מעריכים: זה מה שצפוי בוול סטריט",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564853",
      "date": "2026-11-25T07:17:00+00:00"
-    },
-    {
-     "title": "הודות לפעילות הישראלית: הכנסות שיכון ובינוי צמחו ב-6%",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564859",
-     "date": "2026-11-25T07:12:00+00:00"
     },
     {
      "title": "שטראוס מציגה קפיצה ברווח ומתכננת תוכנית התייעלות נרחבת",
@@ -154,19 +164,9 @@ window.DB.generated = {
      "date": "2026-11-25T07:04:00+00:00"
     },
     {
-     "title": "ההכנסות זינקו, צבר העבודות גדל, אז למה הרווח הנקי של אלקטרה נותר ללא שינוי?",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564857",
-     "date": "2026-11-25T06:42:00+00:00"
-    },
-    {
      "title": "הפניקס: רווח של 2.1 מיליארד שקל מתחילת השנה. הירידות בשוק ההון כירסמו ברבעון",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001564855",
      "date": "2026-11-25T06:12:00+00:00"
-    },
-    {
-     "title": "הג'וב החדש של הרמטכ\"ל לשעבר אביב כוכבי",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564854",
-     "date": "2026-11-25T05:53:00+00:00"
     },
     {
      "title": "ג'נסן הואנג לעובדי אנבידיה: \"אני הולך לטיפול שעה וחצי בכל יום\"",
@@ -219,15 +219,15 @@ window.DB.generated = {
      "date": "2026-11-24T14:04:00+00:00"
     },
     {
-     "title": "הראלי שהקפיץ את וול סטריט עלול להיות דווקא תמרור אזהרה",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564654",
-     "date": "2026-11-24T11:26:00+00:00"
+     "title": "אוקספורד ו־MIT לא נענו להצעה אז קן גריפין מצא בית אחר לקמפוס שלו במיאמי",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564505",
+     "date": "2026-11-23T12:43:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-25T09:17:27+00:00",
-  "fetched_at": "2026-11-25T09:17:27+00:00"
+  "checked_at": "2026-11-25T10:17:13+00:00",
+  "fetched_at": "2026-11-25T10:17:13+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-25T09:17:28+00:00",
-  "fetched_at": "2026-11-25T09:17:28+00:00"
+  "checked_at": "2026-11-25T10:17:14+00:00",
+  "fetched_at": "2026-11-25T10:17:14+00:00"
  },
  "tv": {
   "data": [
@@ -2669,8 +2669,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-25T09:17:29+00:00",
-  "fetched_at": "2026-11-25T09:17:29+00:00"
+  "checked_at": "2026-11-25T10:17:16+00:00",
+  "fetched_at": "2026-11-25T10:17:16+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2844,12 +2844,19 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-25T09:17:29+00:00",
-  "fetched_at": "2026-11-25T09:17:29+00:00"
+  "checked_at": "2026-11-25T10:17:16+00:00",
+  "fetched_at": "2026-11-25T10:17:16+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/israeli-employment-service-ai-replaces-software-developers/",
+     "date": "2026-11-25T09:06:53+00:00",
+     "launch": false,
+     "title": "דוח ה-AI של שירות התעסוקה: 211% יותר מתכנתים דורשי עבודה"
+    },
     {
      "source": "Google",
      "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
@@ -2858,35 +2865,26 @@ window.DB.generated = {
      "title_en": "How Gemini is changing the game for Golden State's organization and fans.",
      "title_he": "איך Gemini משנה את כללי המשחק עבור הארגון והאוהדים של גולדן סטייט.",
      "translated_by": "mymemory"
-    },
-    {
-     "source": "Google DeepMind",
-     "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-     "date": "2026-11-23T16:59:40+00:00",
-     "launch": false,
-     "title_en": "Finding faster quantum algorithms with agents and formal verification",
-     "title_he": "מציאת אלגוריתמים קוונטיים מהירים יותר עם סוכנים ואימות רשמי",
-     "translated_by": "google"
     }
    ],
-   "candidates": 3,
+   "candidates": 6,
    "failed_sources": [
     "Anthropic",
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 333,
+     "likes": 335,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
      "title": "pi-H3",
      "desc_en": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
      "desc_he": "סרטון Minimax H3 ב-2–4 שלבים ללא מפענח VAE",
-     "likes": 165,
+     "likes": 167,
      "link": "https://huggingface.co/spaces/Lakonik/pi-H3"
     },
     {
@@ -2900,7 +2898,7 @@ window.DB.generated = {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 549,
+     "likes": 550,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -2939,21 +2937,30 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
     },
     {
-     "title": "TRELLIS.2",
-     "desc_en": "High-fidelity 3D Generation from images",
-     "desc_he": "יצירת תלת מימד בנאמנות גבוהה מתמונות",
-     "likes": 2470,
-     "link": "https://huggingface.co/spaces/microsoft/TRELLIS.2"
+     "title": "minimax h3 turbo + lora's",
+     "desc_en": "Video generation with a synchronized soundtrack",
+     "desc_he": "יצירת סרטון עם פסקול מסונכרן",
+     "likes": 141,
+     "link": "https://huggingface.co/spaces/observantdistressed/minimax-h3-turbo"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-25T09:17:35+00:00",
-  "fetched_at": "2026-11-25T09:17:35+00:00"
+  "checked_at": "2026-11-25T10:17:22+00:00",
+  "fetched_at": "2026-11-25T10:17:22+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "חלאילי ופאלאס רוצים להתאושש באירופית, בורנמות' תיעצר בספרד?",
+     "link": "https://sports.walla.co.il/item/3877509",
+     "date": "2026-11-25T11:35:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "ענאן חלאילי"
+     ]
+    },
     {
      "title": "21 נקודות ו-10 אסיסטים לבן שרף בג'י ליג",
      "link": "https://www.one.co.il/Article/539794.html?ref=rss",
@@ -3016,15 +3023,6 @@ window.DB.generated = {
      "source": "ONE",
      "players": [
       "מנור סולומון"
-     ]
-    },
-    {
-     "title": "\"רביבו זרח והצליח לשנות את המשחק של אלצ'ה\"",
-     "link": "https://www.one.co.il/Article/539766.html?ref=rss",
-     "date": "2026-11-24T19:50:00+00:00",
-     "source": "ONE",
-     "players": [
-      "רועי רביבו"
      ]
     },
     {
@@ -3291,8 +3289,8 @@ window.DB.generated = {
    "europe": []
   },
   "ok": true,
-  "checked_at": "2026-11-25T09:17:32+00:00",
-  "fetched_at": "2026-11-25T09:17:32+00:00"
+  "checked_at": "2026-11-25T10:17:19+00:00",
+  "fetched_at": "2026-11-25T10:17:19+00:00"
  },
  "idf": {
   "data": [
@@ -3322,8 +3320,9 @@ window.DB.generated = {
     "date": "2026-11-24T03:20:37+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-25T09:17:33+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-25T10:17:19+00:00",
   "fetched_at": "2026-11-25T09:17:33+00:00"
  },
  "feed_health": {
@@ -3331,44 +3330,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-25T09:15:00+00:00",
-    "seen_at": "2026-11-25T09:17:39+00:00",
+    "newest": "2026-11-25T10:15:00+00:00",
+    "seen_at": "2026-11-25T10:17:25+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-25T09:14:00+00:00",
-    "seen_at": "2026-11-25T09:17:39+00:00",
+    "newest": "2026-11-25T09:59:00+00:00",
+    "seen_at": "2026-11-25T10:17:25+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-25T09:15:00+00:00",
-    "seen_at": "2026-11-25T09:17:39+00:00",
+    "newest": "2026-11-25T09:47:00+00:00",
+    "seen_at": "2026-11-25T10:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-25T06:04:00+00:00",
-    "seen_at": "2026-11-25T09:17:39+00:00",
+    "seen_at": "2026-11-25T10:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-25T08:32:00+00:00",
-    "seen_at": "2026-11-25T09:17:39+00:00",
+    "newest": "2026-11-25T11:35:00+00:00",
+    "seen_at": "2026-11-25T10:17:25+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-25T09:21:00+00:00",
-    "seen_at": "2026-11-25T09:17:39+00:00",
+    "newest": "2026-11-25T10:55:00+00:00",
+    "seen_at": "2026-11-25T10:17:25+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-25T08:57:00+00:00",
-    "seen_at": "2026-11-25T09:17:39+00:00",
+    "newest": "2026-11-25T09:59:00+00:00",
+    "seen_at": "2026-11-25T10:17:25+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3386,35 +3385,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-24T16:00:00+00:00",
-    "seen_at": "2026-11-25T09:17:39+00:00",
+    "seen_at": "2026-11-25T10:17:25+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-25T07:56:36+00:00",
-    "seen_at": "2026-11-25T08:17:26+00:00",
+    "newest": "2026-11-25T09:28:27+00:00",
+    "seen_at": "2026-11-25T10:17:25+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-25T09:17:39+00:00",
+    "seen_at": "2026-11-25T10:17:25+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-24T16:49:08+00:00",
-    "seen_at": "2026-11-25T09:17:39+00:00",
+    "newest": "2026-11-25T10:04:29+00:00",
+    "seen_at": "2026-11-25T10:17:25+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-24T19:32:21+00:00",
-    "seen_at": "2026-11-25T09:17:39+00:00",
+    "seen_at": "2026-11-25T10:17:25+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-25T09:17:39+00:00"
+  "checked_at": "2026-11-25T10:17:25+00:00"
  },
  "health_news": {
   "data": [
@@ -3570,7 +3569,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-25T09:17:34+00:00",
-  "fetched_at": "2026-11-25T09:17:34+00:00"
+  "checked_at": "2026-11-25T10:17:20+00:00",
+  "fetched_at": "2026-11-25T10:17:20+00:00"
  }
 };
