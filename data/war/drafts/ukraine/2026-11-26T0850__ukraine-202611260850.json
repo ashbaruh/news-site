@@ -1,0 +1,372 @@
+{
+ "status": "draft",
+ "received_sha256_12": "7e2fe2a89ff0",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "initial": 6,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-26T08:50:17+00:00",
+  "window": {
+   "from": "2026-11-25T08:50:17+00:00",
+   "to": "2026-11-26T08:50:17+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611260850"
+  },
+  "summary": "הלחימה בין רוסיה לאוקראינה נמשכת בעצימות גבוהה תוך חילופי תקיפות אוויריות נרחבות ועצירת התקדמות משמעותית במשא ומתן מדיני. אוקראינה מתמודדת עם לחץ כבד בחזית הקרקעית ותקיפות על תשתיות ואזורי מגורים, אך במקביל ממשיכה לבצע תקיפות כטב\"מים וטילים לעבר בסיסים ומפעלים בתוך שטחי רוסיה, ומקבלת סיוע כלכלי וצבאי ממדינות המערב.",
+  "fronts": [
+   {
+    "name": "חזית המזרח (גזרת פוקרובסק)",
+    "status": "פעיל ביותר ומרכז הלחימה הקרקעית"
+   },
+   {
+    "name": "תשתיות אנרגיה ועורף אוקראיני",
+    "status": "תחת מתקפות כטב\"מים וטילים בלתי פוסקות"
+   },
+   {
+    "name": "מרחב התעופה והבסיסים בעומק רוסיה",
+    "status": "מוקד לתקיפות כטב\"מים אוקראיניים"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11260850-01",
+    "title": "תקיפת כטב\"מים באזור המעשייה בנבינומוסק",
+    "summary": "שני בני אדם ביקשו טיפול רפואי בעקבות תקיפת כטב\"מים באזור התעשייה בנבינומוסק",
+    "axis": "תקיפות אוויריות בעומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T08:30:41+00:00",
+    "last_update_at": "2026-11-26T08:30:41+00:00",
+    "what_is_not_verified": "פרטים מלאים על היקף הנזק אינם מאומתים מלבד הפצועים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_tass",
+      "url": "https://tass.com/emergencies/2225101",
+      "published_at": "2026-11-26T08:30:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נבינומוסק, רוסיה",
+      "lat": 44.6246,
+      "lon": 41.9476
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11260850-02",
+    "title": "יירוט כטב\"ם מונע סילון באמצעות לייזר אוקראיני",
+    "summary": "מערכת הגנה אווירית אוקראינית מבוססת לייזר בשם בליסק ייירטה כטב\"ם רוסי בעל מנוע סילון",
+    "axis": "הגנה אווירית וטכנולוגיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T08:29:53+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T08:29:53+00:00",
+    "last_update_at": "2026-11-26T08:29:53+00:00",
+    "what_is_not_verified": "היעילות המבצעית הרחבה של המערכת, שכן היא נמצאת בשלב ניסויים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134257",
+      "published_at": "2026-11-26T08:29:53+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11260850-03",
+    "title": "פגיעה במפעל התעשייה הביטחונית בקייב",
+    "summary": "משרד ההגנה הרוסי דיווח על פגיעה במפעל התעשייתי חימוולוקנו בקייב שייצר רכיבי ראשי קרב לכטב\"מים",
+    "axis": "תקיפות באוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T08:27:22+00:00",
+    "last_update_at": "2026-11-26T08:27:22+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק במפעל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://tass.com/politics/2225093",
+      "published_at": "2026-11-26T08:27:22+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11260850-04",
+    "title": "עימותים בגזרת הקו החזית",
+    "summary": "תועדו 167 עימותים צבאיים לאורך קו החזית ביממה האחרונה, כאשר גזרת פוקרובסק ממשיכה להיות המוקד הלוהט ביותר",
+    "axis": "קו החזית הקרקעי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-26T08:17:00+00:00",
+    "last_update_at": "2026-11-26T08:17:00+00:00",
+    "what_is_not_verified": "המספר המדויק של נפגעים בכל עימות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_d47a1b2205f6cee7",
+      "url": "https://www.ukrinform.net/rubric-ato/4188741-167-clashes-reported-along-front-line-in-past-24-hours-with-pokrovsk-sector-remaining-hottest-spot.html",
+      "published_at": "2026-11-26T08:17:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פוקרובסק, אוקראינה",
+      "lat": 48.2771,
+      "lon": 37.1772
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11260850-05",
+    "title": "סיכול פיגוע נגד איש ביטחון רוסי בסוצ'י",
+    "summary": "השירות הפדרלי של רוסיה דיווח על סיכול מזימת טרור נגד אזרח רוסי בסוצ'י",
+    "axis": "סיכול טרור ומודיעין",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T07:29:11+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T07:29:11+00:00",
+    "last_update_at": "2026-11-26T07:29:11+00:00",
+    "what_is_not_verified": "פרטי המזימה המלאים והזהות המדויקת של המעורבים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tass",
+      "source_root_id": "fh_c11ce179c41bd18e",
+      "url": "https://tass.com/society/2225065",
+      "published_at": "2026-11-26T07:29:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סוצ'י, רוסיה",
+      "lat": 43.5855,
+      "lon": 39.7231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11260850-06",
+    "title": "השגת מימון בריטי להקמת חוות רוחות באוקראינה",
+    "summary": "בריטניה מתחייבת להשקיע מיליונים בהקמת חוות רוחות באוקראינה לחיזוק מערכת האנרגיה",
+    "axis": "סיוע כלכלי ותשתיות",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T05:00:46+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T05:00:46+00:00",
+    "last_update_at": "2026-11-26T07:27:00+00:00",
+    "what_is_not_verified": "המיקום המדויק של חוות הרוחות מטעמי ביטחון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_european_pravda",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/26/8064733/",
+      "published_at": "2026-11-26T07:27:00+00:00"
+     },
+     {
+      "source_id": "src_guardian",
+      "source_root_id": "or_european_pravda",
+      "url": "https://www.theguardian.com/business/2026/nov/26/uk-to-invest-95m-in-ukraine-windfarm-war-hit-energy-system",
+      "published_at": "2026-11-26T05:00:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קייב, אוקראינה",
+      "lat": 50.45,
+      "lon": 30.5241
+     },
+     {
+      "name": "אודסה, אוקראינה",
+      "lat": 46.4843,
+      "lon": 30.7323
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11260850-07",
+    "title": "פגיעת כטב\"ם בבניין מגורים בחארקוב",
+    "summary": "שני בני אדם נהרגו כתוצאה מפגיעת כטב\"ם רוסי בבניין מגורים רב קומות במחוז נובוסוורסקי בחארקוב",
+    "axis": "תקיפות באוקראינה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T07:27:00+00:00",
+    "last_update_at": "2026-11-26T07:27:00+00:00",
+    "what_is_not_verified": "מספר הפצועים המלא מעבר להרוגים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "fh_6bec521d447c7dda",
+      "url": "https://www.ukrinform.net/rubric-ato/4188730-drone-strike-on-highrise-building-in-kharkiv-kills-two-people.html",
+      "published_at": "2026-11-26T07:27:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חארקוב, אוקראינה",
+      "lat": 49.9923,
+      "lon": 36.231
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11260850-08",
+    "title": "תקיפת בסיס התעופה סבאסלייקה",
+    "summary": "כוחות אוקראינה תקפו את בסיס התעופה סבאסלייקה במחוז ניז'ני נובגורוד ופגעו במספר מטוסי קרב",
+    "axis": "תקיפות אוויריות בעומק רוסיה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T12:08:29+00:00",
+    "last_update_at": "2026-11-25T14:46:41+00:00",
+    "what_is_not_verified": "מצבם המדויק של המטוסים שנפגעו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_bbc",
+      "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T14:46:41+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_bbc",
+      "url": "https://t.me/alexmehacarmel/49911",
+      "published_at": "2026-11-25T12:08:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "סבאסלייקה, רוסיה",
+      "lat": 55.4552,
+      "lon": 42.3116
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על היקף האבידות המדויק של הצדדים",
+   "טענות סותרות סביב ניסיון התקיפה לכאורה על מעון פוטין בוולדאי",
+   "ההיתכנות המבצעית והמשפטית של יירוט טילי רוסיה על ידי נאט\"ו משטח פולין"
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.0935,
+    "unit": "USD",
+    "change_pct": -0.26,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "השגת יעדי המבצע הצבאי והחלשת התעשייה הצבאית האוקראינית"
+    ],
+    "inferred": [
+     "שחיקת היכולות הכלכליות והצבאיות של אוקראינה באמצעות מתקפות בלתי פוסקות על תשתיות",
+     "הורדת המוטיבציה של המערב להמשיך ולתמוך באוקראינה"
+    ],
+    "forecast": [
+     "המשך לחץ צבאי בחפירות ובמוקדי החזית המרכזיים עד להשגת הישגים טריטוריאליים נוספים"
+    ]
+   },
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "הגנה על ריבונות המדינה ושחרור שטחים כבושים",
+     "קבלת מערכות הגנה מתקדמות וסיוע כלכלי לשיקום תשתיות"
+    ],
+    "inferred": [
+     "העברת הלחימה לעומק השטח הרוסי באמצעות כטב\"מים ופגיעה במתקנים צבאיים ותעשייתיים",
+     "בניית יכולות הגנה אוויריות עצמאיות חדשניות"
+    ],
+    "forecast": [
+     "המשך פיתוח אמצעי לחימה טכנולוגיים וחיזוק התשתיות האנרגטיות בעזרת שותפות בינלאומיות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-26T08:50:17+00:00"
+   },
+   {
+    "source_id": "src_guardian",
+    "url": "https://www.theguardian.com/business/2026/nov/26/uk-to-invest-95m-in-ukraine-windfarm-war-hit-energy-system",
+    "accessed_at": "2026-11-26T08:50:17+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/26/8064733/",
+    "accessed_at": "2026-11-26T08:50:17+00:00"
+   },
+   {
+    "source_id": "src_tass",
+    "url": "https://tass.com/society/2225065",
+    "accessed_at": "2026-11-26T08:50:17+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134257",
+    "accessed_at": "2026-11-26T08:50:17+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49911",
+    "accessed_at": "2026-11-26T08:50:17+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4188730-drone-strike-on-highrise-building-in-kharkiv-kills-two-people.html",
+    "accessed_at": "2026-11-26T08:50:17+00:00"
+   }
+  ]
+ }
+}

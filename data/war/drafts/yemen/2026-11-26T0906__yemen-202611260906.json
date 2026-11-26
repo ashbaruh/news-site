@@ -1,0 +1,291 @@
+{
+ "status": "draft",
+ "received_sha256_12": "aa1b89e8bcdd",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 2,
+   "verified": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-26T09:06:53+00:00",
+  "window": {
+   "from": "2026-11-25T09:06:53+00:00",
+   "to": "2026-11-26T09:06:53+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611260906"
+  },
+  "summary": "החות'ים ממשיכים להרחיב את התקיפות שלהם לעבר תשתיות אסטרטגיות ונמלים בסעודיה, כולל ריאד, ג'דה, ג'זאן ומתקן הנפט בראס תנורה, בתגובה לתקיפות נגדיות של הקואליציה בראשות סעודיה על נמל חודיידה בתימן. במקביל, במסגרת מלחמת האזרחים בתימן, החות'ים מתקדמים ומפעילים לחץ קרקעי משמעותי סביב אזורים מרכזיים כמו תיז, מאריב ואל-ג'וף, תוך איום מתמשך על אזור עדן.",
+  "fronts": [
+   {
+    "name": "חזית סעודיה - תימן",
+    "status": "פעילה (תקיפות טילים וכטב\"מים חות'יות לעבר סעודיה ותקיפות אוויריות סעודיות בתימן)"
+   },
+   {
+    "name": "חזית הפנים בתימן",
+    "status": "פעילה (התקדמות קרקעית של החות'ים מול ממשלת תימן במחוזות שונים כמו תיז, מאריב ואל-ג'וף)"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11260906-01",
+    "title": "פגז חות'י בתיז פגע באזרחים",
+    "summary": "ירי פגזים של החות'ים בדרום-מזרח תיז הרג אישה ופצע שבעה אחרים, כולל ילד.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T05:25:44+00:00",
+    "last_update_at": "2026-11-26T07:44:49+00:00",
+    "what_is_not_verified": "ההאשמות כלפי החות'ים באחריות לירי לא אומתו בידי גורם נייטרלי עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_61376012381b15b6",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-681",
+      "published_at": "2026-11-26T07:44:49+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_61376012381b15b6",
+      "url": "https://www.sabanew.net/viewstory/156495",
+      "published_at": "2026-11-26T05:50:28+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_61376012381b15b6",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-shelling-reportedly-kills-woman-yemens-taiz",
+      "published_at": "2026-11-26T05:25:44+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תיז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11260906-02",
+    "title": "מתקפות חות'יות על נמלים ומתקני אנרגיה בסעודיה",
+    "summary": "החות'ים תקפו את נמלי הים האדום ג'דה וג'זאן, ואת מתקן הזיקוק בראס תנורה. הקואליציה בראשות סעודיה דיווחה על יירוט כטב\"מים וטילים והודתה בנזק קל בנמל ג'זאן.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-25T09:49:11+00:00",
+    "last_update_at": "2026-11-26T02:04:30+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק במתקנים והדיווחים על פגיעות מוצלחות נוספות לא אומתו באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_d95dd5be1ac0858a",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/loud-explosions-rock-riyadh-houthis-attack-saudi-ports",
+      "published_at": "2026-11-26T02:04:30+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_d95dd5be1ac0858a",
+      "url": "https://www.al-monitor.com/originals/2026/11/saudis-down-missiles-targeting-capital-after-yemen-port-strikes",
+      "published_at": "2026-11-25T22:30:27+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_d95dd5be1ac0858a",
+      "url": "https://www.sabanew.net/viewstory/156481",
+      "published_at": "2026-11-25T21:29:47+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_b6ac68799d46d921",
+      "url": "https://www.sabanew.net/viewstory/156479",
+      "published_at": "2026-11-25T21:14:25+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_d95dd5be1ac0858a",
+      "url": "https://www.maariv.co.il/breaking-news/article-1392317",
+      "published_at": "2026-11-25T19:59:16+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_7f473c5efc602399",
+      "url": "https://www.sabanew.net/viewstory/156477",
+      "published_at": "2026-11-25T19:44:59+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_d95dd5be1ac0858a",
+      "url": "https://www.newarab.com/news/saudi-led-coalition-strikes-hodeidah-houthis-threaten-ports",
+      "published_at": "2026-11-25T09:49:11+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ג'דה, סעודיה",
+      "lat": 21.5504,
+      "lon": 39.1742
+     },
+     {
+      "name": "ג'זאן, סעודיה",
+      "lat": 16.8947,
+      "lon": 42.558
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11260906-03",
+    "title": "תקיפות נגדיות של הקואליציה בתימן",
+    "summary": "הקואליציה בהובלת סעודיה תקפה את נמל חודיידה בתימן וכן מטרות במחוזות סעדה ועמראן.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T07:42:27+00:00",
+    "last_update_at": "2026-11-25T09:49:11+00:00",
+    "what_is_not_verified": "התוצאות המלאות של התקיפות והנזק שנגרם לא אומתו ממקור עצמאי.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-led-coalition-strikes-hodeidah-houthis-threaten-ports",
+      "published_at": "2026-11-25T09:49:11+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/diplomacy-or-war-tensions-simmer-us-mulls-next-steps-iran",
+      "published_at": "2026-11-25T07:42:27+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חודיידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11260906-04",
+    "title": "פעילות מבצעית של הכוחות המזוינים נגד החות'ים",
+    "summary": "הכוחות המזוינים של ממשלת תימן דיווחו על ביצוע מאות פעולות סיכול נגד עמדות ותשתיות של החות'ים.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-25T17:24:51+00:00",
+    "last_update_at": "2026-11-25T17:24:51+00:00",
+    "what_is_not_verified": "נתוני הפעולות וממדיהן מבוססים על דיווח רשמי בלבד ללא אימות חיצוני.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_359708a40e76a395",
+      "url": "https://www.sabanew.net/viewstory/156465",
+      "published_at": "2026-11-25T17:24:51+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "היקף הנזק המדויק במתקני האנרגיה והזיקוק בסעודיה לאחר התקיפות",
+   "מספר הנפגעים המדויק בצד הסעודי והתימני כתוצאה מחילופי האש"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3789,
+    "unit": "ILS",
+    "change_pct": 1.16,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "להגיב על תקיפות הקואליציה בנמל חודיידה",
+     "לפגוע בנמלים ובתשתיות של סעודיה"
+    ],
+    "inferred": [
+     "לערער את יציבות המשק ומתקני האנרגיה בסעודיה",
+     "להרחיב את השליטה הקרקעית בתוך תימן ואזורי המפתח"
+    ],
+    "forecast": [
+     "המשך שיגור כטב\"מים וטילים לעבר יעדים בסעודיה",
+     "הגברת הלחץ הקרקעי לעבר עדן ואזורים נוספים בתימן"
+    ]
+   },
+   {
+    "actor": "הקואליציה בהובלת סעודיה",
+    "declared": [
+     "להגיב בעוצמה על מתקפות החות'ים נגד אזרחים ותשתיות אזרחיות",
+     "ליירט איומים אוויריים המכוונים לשטחי הממלכה"
+    ],
+    "inferred": [
+     "לבלום את ההתקדמות הקרקעית של החות'ים בתוך תימן",
+     "להגן על תשתיות האנרגיה הקריטיות של הממלכה"
+    ],
+    "forecast": [
+     "המשך התקיפות האוויריות נגד מעוזי החות'ים בתימן, כולל חודיידה",
+     "ניסיונות לחיזוק שיתוף הפעולה ההגנתי והאווירי"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/saudis-down-missiles-targeting-capital-after-yemen-port-strikes",
+    "accessed_at": "2026-11-26T09:06:53+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1392317",
+    "accessed_at": "2026-11-26T09:06:53+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/loud-explosions-rock-riyadh-houthis-attack-saudi-ports",
+    "accessed_at": "2026-11-26T09:06:53+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/diplomacy-or-war-tensions-simmer-us-mulls-next-steps-iran",
+    "accessed_at": "2026-11-26T09:06:53+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/156465",
+    "accessed_at": "2026-11-26T09:06:53+00:00"
+   }
+  ]
+ }
+}
