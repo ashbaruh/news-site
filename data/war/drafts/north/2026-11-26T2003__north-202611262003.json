@@ -1,0 +1,256 @@
+{
+ "status": "draft",
+ "received_sha256_12": "d6fbb859fefb",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "verified": 1,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-26T20:03:59+00:00",
+  "window": {
+   "from": "2026-11-25T20:03:59+00:00",
+   "to": "2026-11-26T20:03:59+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "north-202611262003"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בלחימה נקודתית ופשיטות של צה\"ל בלבנון ובסוריה לצד מתיחות גוברת סביב מעורבות טורקית ואיומים אזוריים. בזמן שצה\"ל תוקף תשתיות ואמצעי לחימה של חיזבאללה בדרום לבנון ובבקעת הלבנון במסגרת הסכם הפסקת האש, במקביל מתנהל מעקב ישראלי מודאג אחר שיתוף הפעולה בין סוריה לטורקיה. בנוסף, נרשמות פעילויות קרקעיות והפרות ריבונות הדדיות בין ישראל לכוחות בסוריה.",
+  "fronts": [
+   {
+    "name": "חזית לבנון",
+    "status": "פעילה (תקיפות אוויריות של צה\"ל נגד תשתיות חיזבאללה)"
+   },
+   {
+    "name": "חזית סוריה",
+    "status": "מתוחה (פשיטות קרקעיות ישראליות בקוניטרה ושיתוף פעולה מתהדק בין סוריה לטורקיה)"
+   },
+   {
+    "name": "הציר האזורי (ישראל-טורקיה)",
+    "status": "הסלמה מדינית והאשמות הדדיות בנוגע לדרום סוריה"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11262003-01",
+    "title": "תקיפת מחנה אימונים ואמצעי לחימה של חיזבאללה בדרום לבנון ובבקעת הלבנון",
+    "summary": "צה\"ל תקף עשרות רקטות וקני שיגור במחנה אימונים של כוח רדואן וכן אמצעי לחימה של חיזבאללה באזורים שונים בדרום לבנון ובבקעת הלבנון.",
+    "axis": "ישראל - לבנון",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T12:49:41+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T12:49:41+00:00",
+    "last_update_at": "2026-11-26T19:38:18+00:00",
+    "what_is_not_verified": "לא מאומת האם התקיפות גרמו לנפגעים בנפש או מה היקף הנזק המדויק מעבר להשמדת המשגרים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134300",
+      "published_at": "2026-11-26T19:38:18+00:00"
+     },
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383963336",
+      "published_at": "2026-11-26T19:37:05+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1392679",
+      "published_at": "2026-11-26T19:31:36+00:00"
+     },
+     {
+      "source_id": "src_tg_idf",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/idf_telegram/25702",
+      "published_at": "2026-11-26T19:24:53+00:00"
+     },
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/lelotsenzura/95145",
+      "published_at": "2026-11-26T19:18:38+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134270",
+      "published_at": "2026-11-26T12:49:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "חדאת'א, לבנון",
+      "lat": 33.1561,
+      "lon": 35.3912
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11262003-02",
+    "title": "מעצר ושחרור אזרחי סורי בג'ובת אל-חשאב",
+    "summary": "כוח צבאי ישראלי ביצע פלישה לכפר ג'ובת אל-חשאב שבמרחב קוניטרה, ערך חיפושים בבתים, עצר אזרח סורי צעיר ושחרר אותו למחרת בבוקר.",
+    "axis": "ישראל - סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T18:30:59+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T18:30:59+00:00",
+    "last_update_at": "2026-11-25T20:03:59+00:00",
+    "what_is_not_verified": "הטענות על חטיפת אזרחים והימצאותם במקומות לא ידועים כתוצאה מפעולות דומות אחרות.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "fh_b94ecf62073bef44",
+      "url": "https://english.enabbaladi.net/archives/2026/11/israel-releases-syrian-man-detained-during-quneitra-incursion/",
+      "published_at": "2026-11-25T18:30:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'ובת אל-חשאב, סוריה",
+      "lat": 33.2258,
+      "lon": 35.8341
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11262003-03",
+    "title": "האשמות טורקיות כלפי ישראל בנוגע לדרום סוריה",
+    "summary": "שר החוץ הטורקי האשים את ישראל בחימוש קבוצות דרוזיות בדרום סוריה ובהכנת תרחיש לפעולות צבאיות שעלולות להוביל לעימות אזורי.",
+    "axis": "ישראל - טורקיה - סוריה",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T19:21:26+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-25T19:21:26+00:00",
+    "last_update_at": "2026-11-25T20:03:59+00:00",
+    "what_is_not_verified": "נכונות האשמותיו של שר החוץ הטורקי על חימוש קבוצות דרוזיות ותוכניות צבאיות ישראליות.",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383963155",
+      "published_at": "2026-11-25T19:21:26+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דרום סוריה",
+      "lat": 35.9664,
+      "lon": 40.8012
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "הערכות מערכת הביטחון לגבי השאלה האם חיזבאללה יצטרף לעימות ישיר בין איראן לארצות הברית וישראל",
+   "טענות טורקיות על מעורבות ישראלית בחימוש קבוצות דרוזיות בדרום סוריה",
+   "היקף וזהות הלוחמים הזרים בסוריה והשתלבותם במבנים הצבאיים החדשים"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3273,
+    "unit": "ILS",
+    "change_pct": -1.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-26T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הסרת איומים והשמדת רקטות וקני שיגור של חיזבאללה",
+     "מחויבות להסכם הפסקת האש לצד מניעת פגיעה באזרחי מדינת ישראל"
+    ],
+    "inferred": [
+     "שמירה על חופש פעולה מבצעי בלבנון ובסוריה",
+     "מעקב ובלמום צעדים אסטרטגיים של טורקיה וגורמים עוינים בסוריה"
+    ],
+    "forecast": [
+     "המשך תקיפות ממוקדמות נגד תשתיות טרור בלבנון בעת זיהוי איומים",
+     "הגברת המעקב המודיעיני אחר ציר סוריה-טורקיה",
+     "תגובה צבאית נקודתית לכל ניסיון הפרה של ריבונות בגבול סוריה"
+    ]
+   },
+   {
+    "actor": "חיזבאללה",
+    "declared": [],
+    "inferred": [
+     "שימור יכולות לחימה ומוכנות מבצעית בעורף לבנון למרות הפסקת האש",
+     "הכנה לאפשרות של עימות כולל במקרה של התפרצות מערכה בין איראן לישראל"
+    ],
+    "forecast": [
+     "המשך שיקום כוחות ואימונים של יחידות כוח רדואן בסתר",
+     "שמירה על עמימות בנוגע להצטרפות למערכה אזורית רחבה"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "חיזוק שיתוף הפעולה האסטרטגי והקמת ועדה עליונה משותפת עם ממשלת סוריה"
+    ],
+    "inferred": [
+     "ניסיון לאגף את ישראל מבחינה אסטרטגית באמצעות השפעה בסוריה",
+     "ביסוס מעורבות אזורית מול צעדים ישראליים בגבולות סוריה"
+    ],
+    "forecast": [
+     "העמקת התיאום המדיני והביטחוני עם משטר המעבר בסוריה",
+     "המשך מתיחות דיפלומטית ואזהרות פומביות כלפי ישראל"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/11/israel-releases-syrian-man-detained-during-quneitra-incursion/",
+    "accessed_at": "2026-11-26T20:03:59+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1392679",
+    "accessed_at": "2026-11-26T20:03:59+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134270",
+    "accessed_at": "2026-11-26T20:03:59+00:00"
+   },
+   {
+    "source_id": "src_tg_idf",
+    "url": "https://t.me/idf_telegram/25702",
+    "accessed_at": "2026-11-26T20:03:59+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95145",
+    "accessed_at": "2026-11-26T20:03:59+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383963155",
+    "accessed_at": "2026-11-26T20:03:59+00:00"
+   }
+  ]
+ }
+}

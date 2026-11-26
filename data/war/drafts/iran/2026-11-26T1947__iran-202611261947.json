@@ -1,0 +1,372 @@
+{
+ "status": "draft",
+ "received_sha256_12": "09bfeb6deb5d",
+ "preview": {
+  "events": 6,
+  "levels": {
+   "shared_root": 2,
+   "initial": 3,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-26T19:47:32+00:00",
+  "window": {
+   "from": "2026-11-25T19:47:32+00:00",
+   "to": "2026-11-26T19:47:32+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611261947"
+  },
+  "summary": "הזירה מאופיינת במתיחות רבה סביב תקיפות במפרץ הכוללות פגיעה במכליות נפט במיצר הורמוז ואירוע כטב\"מים בכוויית שאיראן מכחישה את מעורבותה בו. במקביל נמשכים המאמצים הדיפלומטיים והגרעיניים לצד פעילות מעקב מערבית אחר אתרי הגרעין של איראן והברחות נשק לשלוחותיה.",
+  "fronts": [
+   {
+    "name": "חזית המפרץ והספנות",
+    "status": "פעיל ומתוח"
+   },
+   {
+    "name": "חזית הגרעין והעימות המדיני",
+    "status": "הסלמה בבנייה ובאיומים"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11261947-01",
+    "title": "תקיפת כטב\"מים בכוויית והריגת שני טכנאים",
+    "summary": "כוויית ואיטליה דיווחו על תקיפת כטב\"מים שפגעה במתקן בכוויית וגרמה להריגת שני טכנאים איטלקים ולפציעת אזרחים. איראן הכחישה קשר לתקיפה.",
+    "axis": "איראן מול המפרץ וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T14:09:40+00:00",
+    "last_update_at": "2026-11-26T18:15:56+00:00",
+    "what_is_not_verified": "האחריות של איראן לתקיפה בכוויית נתונה במחלוקת ובדיקה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-iran-not-behind-drone-attack-killed-two-kuwait",
+      "published_at": "2026-11-26T18:15:56+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134290",
+      "published_at": "2026-11-26T17:04:35+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134289",
+      "published_at": "2026-11-26T16:45:29+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86333502/Iran-denies-Kuwaiti-claims-of-attack-by-Iranian-forces",
+      "published_at": "2026-11-26T16:43:01+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-denies-responsibility-attack-kuwait-killed-two-italians",
+      "published_at": "2026-11-26T16:40:26+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
+      "published_at": "2026-11-26T16:32:31+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
+      "published_at": "2026-11-26T15:55:15+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/iranian-drone-attack-kuwait-leaves-two-italians-dead",
+      "published_at": "2026-11-26T15:22:33+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/meloni-expresses-deepest-sorrow-deaths-italian-nationals-kuwait",
+      "published_at": "2026-11-26T14:47:15+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwait-says-two-killed-intercepted-iranian-drone-shrapnel",
+      "published_at": "2026-11-26T14:36:18+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/bjtx9hskml",
+      "published_at": "2026-11-26T14:10:44+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/article/21941133",
+      "published_at": "2026-11-26T14:09:40+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11261947-02",
+    "title": "פיצוצי מכליות נפט ממכשירי נפגעים במפרץ הורמוז",
+    "summary": "משמרות המהפכה של איראן דיווחו על פיצוצי מכליות נפט לאחר שפגעו במוקשים ימיים בנתיבים אסורים במיצר הורמוז.",
+    "axis": "איראן מול המפרץ וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T11:55:31+00:00",
+    "last_update_at": "2026-11-26T12:21:49+00:00",
+    "what_is_not_verified": "הנסיבות המדויקות של פגיעת המכליות במוקשים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86333327/Two-more-offending-oil-tankers-hit-naval-mines-in-Strait-of-Hormuz",
+      "published_at": "2026-11-26T12:21:49+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-revolutionary-guards-say-two-oil-tankers-hit-sea-mines-near-omans",
+      "published_at": "2026-11-26T11:55:31+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ח'סאב, עומאן",
+      "lat": 26.1841,
+      "lon": 56.247
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11261947-03",
+    "title": "עצירת מעברי גבול בעיראק מול סוריה ואיראן",
+    "summary": "כוחות הגבול של עיראק סגרו שני מעברי גבול המנוהלים בידי ממשלת האוטונומיה בכורדיסטאן עם סוריה ואיראן, בהתאם לפסיקת בית משפט.",
+    "axis": "איראן מול עיראק",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T17:36:31+00:00",
+    "last_update_at": "2026-11-26T17:36:31+00:00",
+    "what_is_not_verified": "השפעת הסגירה המלאה על תנועת הסחר וההברחות האזוריות.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-closes-two-border-crossings-kurdistan-region-syria-and-iran",
+      "published_at": "2026-11-26T17:36:31+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11261947-04",
+    "title": "תפיסת נשק איראני המיועד ללבנון בסוריה",
+    "summary": "הכוחות סוריים תפסו אמצעי לחימה של משמרות המהפכה האיראניים שהיו בדרכם ללבנון, לפי דיווח פיקוד המרכז של ארה\"ב.",
+    "axis": "איראן מול ישראל וארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T08:38:45+00:00",
+    "last_update_at": "2026-11-26T08:38:45+00:00",
+    "what_is_not_verified": "פרטים מלאים על היקף אמצעי הלחימה שנתפסו.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611260647",
+      "published_at": "2026-11-26T08:38:45+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11261947-05",
+    "title": "מעצר עיראקים בגרמניה בחשד לתכנון פיגועים",
+    "summary": "משטרת גרמניה עצרה שני אזרחים עיראקים בחשד לחברות בקבוצה פרו-איראנית שתכננה לתקוף בתי כנסת.",
+    "axis": "איראן מול אירופה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T12:24:40+00:00",
+    "last_update_at": "2026-11-26T12:24:40+00:00",
+    "what_is_not_verified": "הקשר הישיר והמוכח להנחיות מדרג גבוה באיראן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_c9fb54d4490fa79d",
+      "url": "https://www.iranintl.com/en/202611263377",
+      "published_at": "2026-11-26T12:24:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "קלן, גרמניה",
+      "lat": 50.9384,
+      "lon": 6.96
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11261947-06",
+    "title": "תצלומי לוויין על בנייה תת-קרקעי באיראן",
+    "summary": "תצלומי לוויין חדשים תיעדו בנייה מהירה במתחם תת-קרקעי מבוצר בין אתרי גרעין באיראן.",
+    "axis": "איראן מול המערב",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-26T10:28:05+00:00",
+    "last_update_at": "2026-11-26T14:06:18+00:00",
+    "what_is_not_verified": "הייעוד המדויק של המתחם התת-קרקעי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_aca4489455b5138a",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-vows-advance-nuclear-program-west-presses-inspections",
+      "published_at": "2026-11-26T14:06:18+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_aca4489455b5138a",
+      "url": "https://www.iranintl.com/en/202611269924",
+      "published_at": "2026-11-26T10:28:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נתנז, איראן",
+      "lat": 33.5071,
+      "lon": 51.9136
+     },
+     {
+      "name": "אספהאן, איראן",
+      "lat": 32.6708,
+      "lon": 51.665
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מעורבות ישירה של איראן במתקפת הכטב\"מים בכוויית",
+   "הייעוד המדויק של המתחם התת-קרקעי החדש באיראן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3273,
+    "unit": "ILS",
+    "change_pct": -1.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-26T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "קידום תוכנית הגרעין",
+     "הכחשת מעורבות בתקיפות אזוריות"
+    ],
+    "inferred": [
+     "המשך הפעלת לחץ באמצעות שלוחות ונתיבי יצוא נפט",
+     "הרחבת תשתית תת-קרקעית מוגנת"
+    ],
+    "forecast": [
+     "הגברת החיכוך הימי במפרץ",
+     "המשך פיתוח מתקני הגרעין תחת הסוואה"
+    ]
+   },
+   {
+    "actor": "ישראל וארה\"ב",
+    "declared": [
+     "מניעת התעצמות צבאית של איראן ושלוחותיה",
+     "בלימת הברחות אמצעי לחימה"
+    ],
+    "inferred": [
+     "הכנה אפשרית למהלך צבאי נגד מתקנים באיראן",
+     "הדגשת האיומים האיראניים באזור"
+    ],
+    "forecast": [
+     "המשך סיכול הברחות נשק יבשתיות וימיות",
+     "הגברת הלחץ הדיפלומטי והמודיעיני"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
+    "accessed_at": "2026-11-26T19:47:32+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/iran-vows-advance-nuclear-program-west-presses-inspections",
+    "accessed_at": "2026-11-26T19:47:32+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611269924",
+    "accessed_at": "2026-11-26T19:47:32+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86333327/Two-more-offending-oil-tankers-hit-naval-mines-in-Strait-of-Hormuz",
+    "accessed_at": "2026-11-26T19:47:32+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/article/21941133",
+    "accessed_at": "2026-11-26T19:47:32+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-closes-two-border-crossings-kurdistan-region-syria-and-iran",
+    "accessed_at": "2026-11-26T19:47:32+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134289",
+    "accessed_at": "2026-11-26T19:47:32+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/bjtx9hskml",
+    "accessed_at": "2026-11-26T19:47:32+00:00"
+   }
+  ]
+ }
+}
