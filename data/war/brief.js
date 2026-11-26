@@ -1,230 +1,273 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-26T12:00:00+02:00",
- "generated_at": "2026-11-26T09:40:12+00:00",
+ "slot": "2026-11-26T18:00:00+02:00",
+ "generated_at": "2026-11-26T15:40:28+00:00",
  "model": "gemini-3.5-flash-lite",
  "arenas": {
-  "north": {
+  "iran": {
    "events": [
     {
-     "id": "NORTH-11260940-01",
-     "title": "פירוק רשת ריגול בטורקיה",
-     "summary": "ארגון הביון הלאומי של טורקיה פירק רשת סייבר-ריגול שהתמקדה ברשתות אלחוטיות במוסדות ציבוריים קריטיים.",
-     "axis": "north",
+     "id": "IRAN-11261540-01",
+     "title": "הרוגים ופצועים בתקיפת כטב\"מים בכווית",
+     "summary": "שני טכנאים איטלקים נהרגו ואחרים נפצעו כתוצאה מפגיעת שברי כטב\"מים איראניים שיורטו בכווית.",
+     "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-26T07:43:00+00:00",
+     "occurred_at": "2026-11-26T14:36:18+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-26T07:43:00+00:00",
-     "last_update_at": "2026-11-26T07:43:00+00:00",
-     "what_is_not_verified": "זהות המפעילים של הרשת אינה מאומתת לחלוטין.",
+     "first_reported_at": "2026-11-26T14:36:18+00:00",
+     "last_update_at": "2026-11-26T14:36:18+00:00",
+     "what_is_not_verified": "האם כל הנפגעים נפגעו ישירות או רק מרסיסים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_dailysabah",
-       "source_root_id": "fh_bf5a17147e398c73",
-       "url": "https://www.dailysabah.com/politics/turkish-intelligence-busts-spy-network-targeting-critical-institutions/news",
-       "published_at": "2026-11-26T07:43:00+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_b1101760404c37d0",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwait-says-two-killed-intercepted-iranian-drone-shrapnel",
+       "published_at": "2026-11-26T14:36:18+00:00"
       }
      ],
      "places": []
     },
     {
-     "id": "NORTH-11260940-02",
-     "title": "מתן אזרחות לילדי לוחמים זרים בסוריה",
-     "summary": "שלטונות סוריה שוקלים שינויי חקיקה שיאפשרו מתן אזרחות לילדים שנולדו ללוחמי דאעש זרים.",
-     "axis": "north",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T02:30:38+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T02:30:38+00:00",
-     "last_update_at": "2026-11-26T02:30:38+00:00",
-     "what_is_not_verified": "האם החוק יאושר ויעבור בפועל אינו מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/syria-mulls-law-could-give-nationality-children-foreign-fighters",
-       "published_at": "2026-11-26T02:30:38+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "NORTH-11260940-03",
-     "title": "משפט מחבלים בעיראק",
-     "summary": "בית משפט בעיראק גזר עונשי מאסר על אזרחים זרים בגין חברות בארגון המדינה האסלאמית.",
-     "axis": "north",
+     "id": "IRAN-11261540-02",
+     "title": "פגיעת מוקשים ימיים במכליות נפט במצר הורמוז",
+     "summary": "משמר המהפכה האיראני דיווח על פיצוץ של שתי מכליות נפט לאחר שפגעו במוקשים ימיים סמוך לעומאן.",
+     "axis": "iran",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-26T06:28:48+00:00",
+     "occurred_at": "2026-11-26T11:55:31+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-26T06:28:48+00:00",
-     "last_update_at": "2026-11-26T06:28:48+00:00",
-     "what_is_not_verified": "האם יוגשו ערעורים על פסק הדין אינו מאומת.",
+     "first_reported_at": "2026-11-26T11:55:31+00:00",
+     "last_update_at": "2026-11-26T12:21:49+00:00",
+     "what_is_not_verified": "הנסיבות המדויקות של מיקום המכליות ומצב הצוותים",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_france24",
-       "source_root_id": "fh_b76daac8962313ac",
-       "url": "https://www.france24.com/en/middle-east/20261126-iraqi-court-to-sentence-20-french-nationals-for-is-group-membership",
-       "published_at": "2026-11-26T06:28:48+00:00"
+       "source_id": "src_irna",
+       "source_root_id": "fh_4a5f3ff22210ad58",
+       "url": "https://en.irna.ir/news/86333327/Two-more-offending-oil-tankers-hit-naval-mines-in-Strait-of-Hormuz",
+       "published_at": "2026-11-26T12:21:49+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_4a5f3ff22210ad58",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-revolutionary-guards-say-two-oil-tankers-hit-sea-mines-near-omans",
+       "published_at": "2026-11-26T11:55:31+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "ח'סב, עומאן",
+       "lat": 26.1841,
+       "lon": 56.247
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11261540-03",
+     "title": "מעצר חשודים בתכנון פיגועים בגרמניה",
+     "summary": "המשטרה הפדרלית בגרמניה עצרה שני אזרחי עיראק בחשד לחברות בארגון טרור המזוהה עם איראן שתכנן לתקוף בתי כנסת.",
+     "axis": "iran",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-26T12:24:40+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-26T12:24:40+00:00",
+     "last_update_at": "2026-11-26T12:24:40+00:00",
+     "what_is_not_verified": "הקשר הישיר של העצורים להנחיות איראניות",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "fh_c9fb54d4490fa79d",
+       "url": "https://www.iranintl.com/en/202611263377",
+       "published_at": "2026-11-26T12:24:40+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קלן, גרמניה",
+       "lat": 50.9384,
+       "lon": 6.96
+      }
+     ]
     }
    ]
   },
   "ukraine": {
    "events": [
     {
-     "id": "UKRAINE-11260940-01",
-     "title": "יירוט מוצלח בלייזר באוקראינה",
-     "summary": "מערכת הגנה אווירית אוקראינית המבוססת על לייזר יירטה לראשונה כטב\"ם סילון רוסי.",
+     "id": "UKRAINE-11261540-01",
+     "title": "הפסקת חשמל נרחבת בחצי האי קרים",
+     "summary": "הפסקת חשמל רחבת היקף פגעה בחצי האי קרים שנמצא בשליטה רוסית ושיבשה את התחבורה.",
      "axis": "ukraine",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-26T08:29:53+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T08:29:53+00:00",
-     "last_update_at": "2026-11-26T08:29:53+00:00",
-     "what_is_not_verified": "קצב ייצור המוני של המערכת אינו מאומת.",
+     "occurred_at": "2026-11-26T15:05:36+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-26T15:05:36+00:00",
+     "last_update_at": "2026-11-26T15:05:36+00:00",
+     "what_is_not_verified": "הסיבה המדויקת להפסקת החשמל הנוכחית",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_abualiexpress",
+       "source_id": "src_kyivind",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/134257",
-       "published_at": "2026-11-26T08:29:53+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11260940-02",
-     "title": "הצטרפות הונגריה לקואליציית הילדים",
-     "summary": "שרת החוץ של הונגריה הודיעה על הצטרפות ארצה לקואליציה הבינלאומית להשבת ילדים אוקראינים שהורחקו.",
-     "axis": "ukraine",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T08:40:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T08:40:00+00:00",
-     "last_update_at": "2026-11-26T08:40:00+00:00",
-     "what_is_not_verified": "היקף ההחזרות בפועל אינו מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "fh_7d76f7dc608621c5",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/26/8064742/",
-       "published_at": "2026-11-26T08:40:00+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11260940-03",
-     "title": "פגיעות טילים ותקיפות באוקראינה",
-     "summary": "כוחות רוסיים תקפו יעדים באוקראינה, והסבו נזק לתשתיות אזרחיות ותעשייתיות ולנפגעים בנפש.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T09:30:14+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T09:30:14+00:00",
-     "last_update_at": "2026-11-26T09:30:14+00:00",
-     "what_is_not_verified": "מספר הנפגעים הסופי בכלל הזירות אינו מאומת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_meduza",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://meduza.io/en/news/2026/11/26/russian-strikes-on-ukraine-kill-two-in-kharkiv-and-injure-seven-in-kyiv",
-       "published_at": "2026-11-26T09:30:14+00:00"
+       "url": "https://kyivindependent.com/large-scale-power-outage-hits-russian-occupied-crimea-disrupts-transport/",
+       "published_at": "2026-11-26T15:05:36+00:00"
       }
      ],
      "places": [
       {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      },
-      {
-       "name": "חארקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
+       "name": "קרים",
+       "lat": 45.2835,
+       "lon": 34.2008
       }
      ]
+    },
+    {
+     "id": "UKRAINE-11261540-02",
+     "title": "תקיפה אווירית אוקראינית בגולאיפולה",
+     "summary": "כלי טיס אוקראיניים השמידו נקודת ריכוז כוחות רוסית במרכז העיר גולאיפולה.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-26T15:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-26T15:00:00+00:00",
+     "last_update_at": "2026-11-26T15:00:00+00:00",
+     "what_is_not_verified": "מספר הנפגעים המדויק בצד הרוסי",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_5168189ad8a0622b",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/26/8064829/",
+       "published_at": "2026-11-26T15:00:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "גולאיפולה, אוקראינה",
+       "lat": 47.6655,
+       "lon": 36.2657
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11261540-03",
+     "title": "העברת כספים מהבנק העולמי לאוקראינה",
+     "summary": "אוקראינה קיבלה סך של 450 מיליון דולר מהבנק העולמי בערבות ממשלת יפן עבור תמיכה בעסקים ובשיקום.",
+     "axis": "ukraine",
+     "claim_type": "data",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-26T14:59:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-26T14:59:00+00:00",
+     "last_update_at": "2026-11-26T14:59:00+00:00",
+     "what_is_not_verified": "לוח הזמנים המלא לניצול הכספים בפועל",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_ae7229099f3e930c",
+       "url": "https://www.ukrinform.net/rubric-economy/4188958-ukraine-receives-450-mln-from-world-bank-with-japanese-government-support.html",
+       "published_at": "2026-11-26T14:59:00+00:00"
+      }
+     ],
+     "places": []
     }
    ]
   },
   "yemen": {
    "events": [
     {
-     "id": "YEMEN-11260940-01",
-     "title": "תקיפות נמלים בסעודיה",
-     "summary": "החות'ים בתימן טענו שביצעו תקיפות לעבר נמלי הים האדום בסעודיה, ופיצוצים נשמעו באזור ריאד.",
+     "id": "YEMEN-11261540-01",
+     "title": "השמדת משטרה טילים בוחודיידה",
+     "summary": "הקואליציה בהובלת סעודיה הודיעה כי השמידה משגר טילים בליסטיים בעיר חודיידה בתימן.",
      "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-26T02:04:30+00:00",
+     "occurred_at": "2026-11-26T15:17:41+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-26T02:04:30+00:00",
-     "last_update_at": "2026-11-26T02:04:30+00:00",
-     "what_is_not_verified": "מלוא היקף הנזק שנגרם לתשתיות הנמלים אינו מאומת.",
+     "first_reported_at": "2026-11-26T15:17:41+00:00",
+     "last_update_at": "2026-11-26T15:17:41+00:00",
+     "what_is_not_verified": "היקף הנזק המשני שנגרם סביב אתר השיגור",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/loud-explosions-rock-riyadh-houthis-attack-saudi-ports",
-       "published_at": "2026-11-26T02:04:30+00:00"
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_81e0cc4553601354",
+       "url": "https://www.sabanew.net/viewstory/156549",
+       "published_at": "2026-11-26T15:17:41+00:00"
       }
      ],
      "places": [
       {
-       "name": "ריאד, סעודיה",
-       "lat": 24.6389,
-       "lon": 46.716
-      },
+       "name": "חודיידה, תימן",
+       "lat": 14.7979,
+       "lon": 42.9545
+      }
+     ]
+    },
+    {
+     "id": "YEMEN-11261540-02",
+     "title": "מתקפה חות'ית על מתקן זיקוק בסעודיה",
+     "summary": "הקואליציה דיווחה על מתקפה של המיליציות החות'יות נגד בית זיקוק לנפט באזור ג'אזאן.",
+     "axis": "yemen",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-26T14:55:20+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-26T14:55:20+00:00",
+     "last_update_at": "2026-11-26T14:55:20+00:00",
+     "what_is_not_verified": "האם נגרמה עצירה מוחלטת בפעילות הזיקוק במקום",
+     "is_new_in_window": true,
+     "reports": [
       {
-       "name": "ג'דה, סעודיה",
-       "lat": 21.5504,
-       "lon": 39.1742
-      },
+       "source_id": "src_saba_aden",
+       "source_root_id": "fh_bb0fe7292db1872e",
+       "url": "https://www.sabanew.net/viewstory/156545",
+       "published_at": "2026-11-26T14:55:20+00:00"
+      }
+     ],
+     "places": [
       {
-       "name": "ג'זאן, סעודיה",
+       "name": "ג'אזאן, סעודיה",
        "lat": 16.8947,
        "lon": 42.558
       }
      ]
     },
     {
-     "id": "YEMEN-11260940-02",
-     "title": "נפגעים מהפגזות בחורף תימן",
-     "summary": "הפגזות של החות'ים באזור תעז בתימן גרמו למותה של אישה ולפציעת אזרחים נוספים.",
+     "id": "YEMEN-11261540-03",
+     "title": "חילופי אש ותקיפות בין הצדדים בתימן",
+     "summary": "מטוסי הקואליציה תקפו את הבירה צנעא, בעוד חילופי הפגזות בין הכוחות בתימן גרמו לנפגעים בתעז.",
      "axis": "yemen",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-26T05:25:44+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T05:25:44+00:00",
-     "last_update_at": "2026-11-26T05:25:44+00:00",
-     "what_is_not_verified": "מצבו הרפואי המעודכן של כלל הפצועים אינו מאומת.",
+     "occurred_at": "2026-11-26T11:36:57+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-26T11:36:57+00:00",
+     "last_update_at": "2026-11-26T11:36:57+00:00",
+     "what_is_not_verified": "המספר המלא של הנפגעים מכלל זירות העימות בתימן באותו יום",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_mee",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-shelling-reportedly-kills-woman-yemens-taiz",
-       "published_at": "2026-11-26T05:25:44+00:00"
+       "url": "https://www.middleeasteye.net/news/houthi-shelling-kills-one-woman-yemens-taiz",
+       "published_at": "2026-11-26T11:36:57+00:00"
       }
      ],
      "places": [
+      {
+       "name": "צנעא, תימן",
+       "lat": 15.3539,
+       "lon": 44.2059
+      },
       {
        "name": "תעז, תימן",
        "lat": 13.5752,
@@ -234,36 +277,68 @@ window.DB.war_brief = {
     }
    ]
   },
-  "iran": {
+  "north": {
    "events": [
     {
-     "id": "IRAN-11260140-02",
-     "title": "המיליציה כתאאב חזבאללה נערכת לעימות מחודש בין ארצות הברית לאיראן",
-     "summary": "המיליציה העיראקית הנתמכת בידי איראן העבירה ציוד צבאי ותפסה עמדות חדשות במערב עיראק לקראת אפשרות של התחדשות הלחימה בין ארצות הברית לאיראן.",
-     "axis": "iran",
+     "id": "NORTH-11261540-01",
+     "title": "תקיפת צה\"ל בדרום לבנון",
+     "summary": "מטוסי קרב של צה\"ל תקפו בכפר חדאת'א שבדרום לבנון.",
+     "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-26T00:22:53+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-26T00:22:53+00:00",
-     "last_update_at": "2026-11-26T00:22:53+00:00",
-     "what_is_not_verified": "המידע נסמך על גורמי תקשורת עיראקיים ומכוני מחקר אמריקניים ולא אומת באופן רשמי.",
+     "occurred_at": "2026-11-26T12:49:41+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-26T12:49:41+00:00",
+     "last_update_at": "2026-11-26T12:49:41+00:00",
+     "what_is_not_verified": "פרטים נוספים על נזק או נפגעים אינם מפורטים בטקסט.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_iranintl",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202611265119",
-       "published_at": "2026-11-26T00:22:53+00:00"
+       "url": "https://t.me/abualiexpress/134270",
+       "published_at": "2026-11-26T12:49:41+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "חדאת'א",
+       "lat": 33.1561,
+       "lon": 35.3912
+      }
+     ]
+    },
+    {
+     "id": "NORTH-11261540-02",
+     "title": "ירי אוטומטי בדאחיה של ביירות",
+     "summary": "נהגי מיניבוס תועדו כשהם מתווכחים באמצעות ירי תת מקלע אוטומטי בשכונת סאלם שבדאחיה בביירות.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-26T11:08:46+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-26T11:08:46+00:00",
+     "last_update_at": "2026-11-26T11:08:46+00:00",
+     "what_is_not_verified": "האם היו נפגעים באירוע אינו מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/abualiexpress/134265",
+       "published_at": "2026-11-26T11:08:46+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "ביירות",
+       "lat": 33.8892,
+       "lon": 35.5026
+      }
+     ]
     }
-   ],
-   "from_slot": "2026-11-26T04:00:00+02:00"
+   ]
   }
  },
- "skipped": {
-  "iran": "אותיות בשפה זרה בתוך הטקסט העברי (1) (לא נשאר זמן לניסיון חוזר)"
- }
+ "skipped": {}
 };
