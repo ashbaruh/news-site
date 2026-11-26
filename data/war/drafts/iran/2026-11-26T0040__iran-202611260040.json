@@ -1,0 +1,415 @@
+{
+ "status": "draft",
+ "received_sha256_12": "4d2cd08bc4eb",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "assessment": 3,
+   "shared_root": 2,
+   "initial": 3
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-26T00:40:34+00:00",
+  "window": {
+   "from": "2026-11-25T00:40:34+00:00",
+   "to": "2026-11-26T00:40:34+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "iran-202611260040"
+  },
+  "summary": "העימות בין איראן לבין ארצות הברית וישראל מתאפיין בהסלמה צבאית רב-זירתית הכוללת מצור ימי במצר הורמוז וחילופי מהלומות כבדים בין החות'ים לקואליציה בהובלת סעודיה. במקביל, המיליציות הפרו-איראניות בעיראק מתבצרות מחדש לקראת חידוש הלחימה, וטהראן מאיצה בניית מתקן תת-קרקעי מבוצר בסמוך לאתרי הגרעין המרכזיים שלה. הצדדים מחזיקים בעמדות נוקשות סביב המצור הכלכלי וההסכמים העתידיים לקראת שינויים פוליטיים ומדיניים צפויים.",
+  "fronts": [
+   {
+    "name": "מצר הורמוז והמפרץ",
+    "status": "מתיחות סביב מצור ימי, תקריות פגיעה במכליות ואיומים הדדיים"
+   },
+   {
+    "name": "חצי האי ערב והמפרץ (שלוחות איראן מול סעודיה)",
+    "status": "חילופי אש נרחבים הכוללים שיגור טילים וכטב\"מים לעבר מתקני נפט ונמלים סעודיים ותקיפות קואליציה"
+   },
+   {
+    "name": "עיראק",
+    "status": "היערכות צבאית של המיליציות הפרו-איראניות וסירוב לפירוק נשק"
+   },
+   {
+    "name": "החזית הישירה איראן מול ישראל וארה\"ב",
+    "status": "בניית מתקנים מבוצרים באיראן, דריכות ביטחונית גבוהה ואיומים בהתקפות נגד"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11260040-01",
+    "title": "היערכות גדודי חזבאללה בעיראק לעימות צבאי מחודש",
+    "summary": "המיליציה הפרו-איראנית העבירה ציוד צבאי והקימה עמדות חדשות במערב עיראק כהיערכות לאפשרות של עימות בין ארצות הברית לאיראן, תוך שמירה על מעוזיה בניגוד להוראת הממשלה.",
+    "axis": "עיראק מול ארה\"ב",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:22:53+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-26T00:22:53+00:00",
+    "last_update_at": "2026-11-26T00:22:53+00:00",
+    "what_is_not_verified": "היקף הציוד והמיקומים המדויקים מבוססים על דיווחי תקשורת ומכוני מחקר ולא אומתו רשמית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611265119",
+      "published_at": "2026-11-26T00:22:53+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11260040-02",
+    "title": "תקיפות ויירוטי טילים ורחפנים בסעודיה ובתימן",
+    "summary": "פיצוצים נשמעו בריאד ויירוטים בוצעו מעל העיר, במקביל לתקיפה על נמלי ג'דה וג'זאן ותקיפת בית הזיקוק בראס תנורה על ידי החות'ים, כאשר הקואליציה פגעה בחודיידה ובצנעא.",
+    "axis": "שלוחות איראן (חות'ים) מול סעודיה והמפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-25T16:59:05+00:00",
+    "last_update_at": "2026-11-26T00:00:00+00:00",
+    "what_is_not_verified": "מידת הנזק בפועל בנמלים ובמתקני הנפט שנויה במחלוקת בין טענות החות'ים לדיווח הסעודי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh?traffic_source=rss",
+      "published_at": "2026-11-26T00:00:00+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/houthis-say-hit-two-saudi-ports-response-coalition-strikes",
+      "published_at": "2026-11-25T22:30:27+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/loud-booms-rock-riyadh-houthis-attack-saudi-ports",
+      "published_at": "2026-11-25T21:42:56+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepts-houthi-drone-near-jeddah-islamic",
+      "published_at": "2026-11-25T20:07:13+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/news/yemen-houthis-claim-saudi-arabia-ras-tanura-attack-retaliation-deadly-strikes",
+      "published_at": "2026-11-25T16:59:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     },
+     {
+      "name": "ג'דה, סעודיה",
+      "lat": 21.5504,
+      "lon": 39.1742
+     },
+     {
+      "name": "ג'זאן, סעודיה",
+      "lat": 16.8947,
+      "lon": 42.558
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11260040-03",
+    "title": "איומי איראן על רקע המצור הימי האמריקני",
+    "summary": "איראן החריפה את אזהרותיה כלפי ארצות הברית, ישראל ומדינות המפרץ, איימה בהפעלת יכולות צבאיות חדשות ודרשה פיצויים על סיוע לתקיפות נגדה.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T19:08:50+00:00",
+    "last_update_at": "2026-11-25T19:08:50+00:00",
+    "what_is_not_verified": "מהות היכולות הצבאיות החדשות שבהן איימה טהראן.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611254651",
+      "published_at": "2026-11-25T19:08:50+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11260040-04",
+    "title": "חשיפת הקמת מתקן תת-קרקעי מבוצר באיראן",
+    "summary": "תצלומי לוויין חשפו מתחם תת-קרקעי הנבנה בתוך הר באזור שבין נתנז לאיספהאן בקצב מואץ, המוערך כבעל ייעוד צבאי או גרעיני.",
+    "axis": "גרעין וביטחון באיראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T17:55:08+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-25T17:55:08+00:00",
+    "last_update_at": "2026-11-25T18:58:46+00:00",
+    "what_is_not_verified": "ייעודו המדויק של המתקן (האם הוא מיועד לנשק גרעיני או למערכות טילים).",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21933606",
+      "published_at": "2026-11-25T18:58:46+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ynet.co.il/news/article/rkcfuq4yql",
+      "published_at": "2026-11-25T17:55:08+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נתנז, איראן",
+      "lat": 33.5071,
+      "lon": 51.9136
+     },
+     {
+      "name": "איספהאן, איראן",
+      "lat": 32.6708,
+      "lon": 51.665
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11260040-05",
+    "title": "איום של בכיר בפרלמנט האיראני נגד ארה\"ב",
+    "summary": "סגן יושב ראש ועדת הביטחון הלאומי בפרלמנט של איראן איים בפגיעה בבית הלבן במקרה של תקיפה נגד הר המכוש.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T17:58:56+00:00",
+    "last_update_at": "2026-11-25T17:58:56+00:00",
+    "what_is_not_verified": "היכולת המעשית של טהראן לממש את האיום.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134234",
+      "published_at": "2026-11-25T17:58:56+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11260040-06",
+    "title": "תקרית ימית ופגיעה במכליות באזור מצר הורמוז",
+    "summary": "חיל הים האיראני דיווח שמכלית עלתה על מוקש ימי ממזרח למצר הורמוז ועלתה באש, בעוד דיווחים אחרים ייחסו פגיעה במכלית איראנית לתקיפה באזור המצר.",
+    "axis": "המצור הימי ומצר הורמוז",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T16:16:00+00:00",
+    "last_update_at": "2026-11-25T16:31:04+00:00",
+    "what_is_not_verified": "האם כלי השיט נפגע ממוקש כטענת איראן או מתקיפה צבאית יזומה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_lelotsenzura",
+      "source_root_id": "fh_7593e40b89e8ac23",
+      "url": "https://t.me/lelotsenzura/95140",
+      "published_at": "2026-11-25T16:31:04+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_7593e40b89e8ac23",
+      "url": "https://en.irna.ir/news/86332672/Violating-tanker-catches-fire-after-striking-mine-east-of-Hormuz",
+      "published_at": "2026-11-25T16:16:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11260040-07",
+    "title": "הצהרת נשיא ארה\"ב על מטרות המערכה והמצור על איראן",
+    "summary": "הנשיא טראמפ הצהיר כי מטרתו המרכזית היא מניעת נשק גרעיני מאיראן באמצעות המשך המצור הכלכלי, וציין כי המימון לפעולה מובטח עד ינואר.",
+    "axis": "ארה\"ב מול איראן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-25T08:28:54+00:00",
+    "last_update_at": "2026-11-25T08:28:54+00:00",
+    "what_is_not_verified": "משך תוקף המימון האמריקני לפעילות המבצעית.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134199",
+      "published_at": "2026-11-25T08:28:54+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11260040-08",
+    "title": "שינוי מבני במנגנון המודיעין האיראני",
+    "summary": "המנהיג העליון של איראן מקדם שינוי מבני במשרד המודיעין להגברת כפיפותו הישירה ולחיזוק הפיקוח הפנימי לאחר סיכול בכירים ופגיעות מודיעיניות.",
+    "axis": "מודיעין וביטחון פנים באיראן",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T02:51:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-25T02:51:00+00:00",
+    "last_update_at": "2026-11-25T02:51:00+00:00",
+    "what_is_not_verified": "זהות המועמד הסופי שייבחר לעמוד בראש המשרד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_fdd",
+      "source_root_id": "or_fdd",
+      "url": "https://www.fdd.org/analysis/iran-moves-to-restructure-intelligence-ministry-as-5-contenders-emerge-to-lead-it/",
+      "published_at": "2026-11-25T02:51:00+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "ייעודו המדויק של המתקן התת-קרקעי החדש בין איספהאן לנתנז (צבאי קונבנציונלי או גרעיני)",
+   "הסיבה המדויקת לפגיעה במכלית במצר הורמוז - פיצוץ מוקש ימי או תקיפת כטב\"ם/פעולה יזומה",
+   "מידת הנזק המדויקת בבתי הזיקוק בראס תנורה ובנמלים בסעודיה בעקבות תקיפות החות'ים",
+   "דיווחים על הסכם סודי בין מנהיגי ארה\"ב, רוסיה וסין בנוגע לאיראן"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3789,
+    "unit": "ILS",
+    "change_pct": 1.16,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן ושלוחותיה",
+    "declared": [
+     "תגובה ותקיפת יעדים סעודיים ונמלים בים האדום בתגובה לתקיפות נגד תימן",
+     "דרישת פיצויים ממדינות האזור המאפשרות תקיפות נגד איראן",
+     "התנגדות מלאה לפירוק נשק של המיליציות והשלוחות בעיראק ובלבנון"
+    ],
+    "inferred": [
+     "שמירה על מרחב תמרון גרעיני וצבאי באמצעות העברת תשתיות לעומק תת-קרקעי מבוצר",
+     "הפעלת לחץ כלכלי ואנרגטי על מדינות המפרץ כדי לפגוע בלכידות הקואליציה האמריקנית"
+    ],
+    "forecast": [
+     "המשך ביצור מתקני הגרעין והטילים למניעת פגיעה מתקיפות אוויריות אפשריות",
+     "החרפת התקיפות באמצעות מיליציות ככל שיימשך המצור הכלכלי והימי"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "מניעת השגת נשק גרעיני בידי המשטר האיראני",
+     "המשך הטלת מצור על איראן כדי לאלץ אותה לחתום על הסכם גרעין"
+    ],
+    "inferred": [
+     "הימנעות מקריאה ישירה להפלת המשטר תוך התמקדות בבלימת היכולות הגרעיניות והכלכליות",
+     "שימור התיאום הביטחוני וההגנתי עם מדינות המפרץ ובראשן סעודיה"
+    ],
+    "forecast": [
+     "המשך אכיפת המצור הכלכלי והימי לפחות עד תחילת השנה האזרחית החדשה",
+     "הגברת הלחץ הדיפלומטי והצבאי למניעת התקדמות של טהראן במתקנים החדשים"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "המשך פעולות לסיכול התעצמות והברחות אמצעי לחימה של שלוחות איראן באזור"
+    ],
+    "inferred": [
+     "שאיפה לפגיעה מהותית ביציבות המשטר האיראני ובתוכנית הגרעין שלו",
+     "היערכות לפעולה צבאית נרחבת משותפת או עצמאית נגד מתקני הגרעין באיראן"
+    ],
+    "forecast": [
+     "שמירה על רמת כוננות גבוהה מפני תקיפות תגובה איראניות",
+     "המשך סיכול מטרות שלוחות איראן לאורך הגבולות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh?traffic_source=rss",
+    "accessed_at": "2026-11-26T00:40:34+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/houthis-say-hit-two-saudi-ports-response-coalition-strikes",
+    "accessed_at": "2026-11-26T00:40:34+00:00"
+   },
+   {
+    "source_id": "src_fdd",
+    "url": "https://www.fdd.org/analysis/iran-moves-to-restructure-intelligence-ministry-as-5-contenders-emerge-to-lead-it/",
+    "accessed_at": "2026-11-26T00:40:34+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611254651",
+    "accessed_at": "2026-11-26T00:40:34+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86332672/Violating-tanker-catches-fire-after-striking-mine-east-of-Hormuz",
+    "accessed_at": "2026-11-26T00:40:34+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21933606",
+    "accessed_at": "2026-11-26T00:40:34+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/news/yemen-houthis-claim-saudi-arabia-ras-tanura-attack-retaliation-deadly-strikes",
+    "accessed_at": "2026-11-26T00:40:34+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134199",
+    "accessed_at": "2026-11-26T00:40:34+00:00"
+   },
+   {
+    "source_id": "src_tg_lelotsenzura",
+    "url": "https://t.me/lelotsenzura/95140",
+    "accessed_at": "2026-11-26T00:40:34+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/rkcfuq4yql",
+    "accessed_at": "2026-11-26T00:40:34+00:00"
+   }
+  ]
+ }
+}

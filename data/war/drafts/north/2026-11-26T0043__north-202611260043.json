@@ -1,0 +1,438 @@
+{
+ "status": "draft",
+ "received_sha256_12": "a3212b8e6652",
+ "preview": {
+  "events": 8,
+  "levels": {
+   "shared_root": 1,
+   "initial": 5,
+   "assessment": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "north",
+  "generated_at": "2026-11-26T00:43:13+00:00",
+  "window": {
+   "from": "2026-11-25T00:43:13+00:00",
+   "to": "2026-11-26T00:43:13+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "north-202611260043"
+  },
+  "summary": "הגזרה הצפונית מתאפיינת בלחץ פנימי וחיצוני גובר על חזבאללה בלבנון, לצד הידוק הברית המדינית-ביטחונית בין המשטר החדש בסוריה לבין טורקיה אל מול ישראל. במקביל, ישראל ממשיכה בפעילות סיכול הברחות נשק מסוריה ובפשיטות נקודתיות בדרום סוריה, בעוד סוריה סובלת מחוסר יציבות פנימי ומתקיפות של ארגון דאעש. בתוך לבנון מחריף העימות בין השלטונות לחזבאללה על רקע מעצר פעילי הארגון ודרישות לפירוקו מנשקו.",
+  "fronts": [
+   {
+    "name": "דרום לבנון וגבול ישראל-לבנון",
+    "status": "מתיחות צבאית, המשך סיכול הברחות אמל\"ח והיערכות לסיום מנדט יוניפי\"ל"
+   },
+   {
+    "name": "פנים לבנון (ממשל מול חזבאללה)",
+    "status": "חיכוך פוליטי ומשפטי סביב מעצר חוליות חמושות ודרישות לפירוק נשק הארגון"
+   },
+   {
+    "name": "דרום סוריה וגבול ישראל-סוריה",
+    "status": "פשיטות קרקעיות ישראליות מוגבלות וחשש מעימות אזורי סביב חימוש קבוצות מקומיות"
+   },
+   {
+    "name": "צפון ומזרח סוריה",
+    "status": "התקפות טרור של דאעש וסיכוני מוקשים נגד כוחות הביטחון ואזרחים"
+   },
+   {
+    "name": "ציר אנקרה-דמשק",
+    "status": "התקרבות אסטרטגית והקמת ועדה עליונה משותפת מול מהלכי ישראל"
+   }
+  ],
+  "events": [
+   {
+    "id": "NORTH-11260043-01",
+    "title": "מתקפת דאעש על מפקדת ביטחון בחסכה",
+    "summary": "פיגוע שכלל אופנוע תופת וארבעה מחבלים, אשר שניים מהם פוצצו את עצמם, גרם למותם של שני אנשי כוחות ביטחון פנים ולפציעת חמישה נוספים בסמוך למפקדה בשכונת אל-מושירפה.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T20:40:27+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T20:40:27+00:00",
+    "last_update_at": "2026-11-25T23:46:48+00:00",
+    "what_is_not_verified": "זהות המפקדה המדויקת והאם היו נפגעים נוספים מקרב התוקפים מלבד שני המתאבדים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21934723",
+      "published_at": "2026-11-25T23:46:48+00:00"
+     },
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/isis-attack-on-military-headquarters-kills-2-in-northeastern-syria-official-says/4138076",
+      "published_at": "2026-11-25T20:47:15+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.almanar.com.lb/article/155167/",
+      "published_at": "2026-11-25T20:40:27+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11260043-02",
+    "title": "הרוגים בהתפוצצות מוקש בצפון סוריה",
+    "summary": "שלושה בני אדם, בהם נער ושני גברים בשנות השישים לחייהם, נהרגו ושניים נוספים נפצעו כתוצאה מפיצוץ מוקש באזור כפרי.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T19:30:38+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T19:30:38+00:00",
+    "last_update_at": "2026-11-25T19:30:38+00:00",
+    "what_is_not_verified": "זהות מניחי המוקש והנסיבות המדויקות של הפיצוץ",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_anadolu",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aa.com.tr/en/middle-east/3-killed-including-teenage-boy-2-injured-in-landmine-explosion-in-northern-syria/4137955",
+      "published_at": "2026-11-25T19:30:38+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "א-רקה, סוריה",
+      "lat": 35.9497,
+      "lon": 39.0089
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11260043-03",
+    "title": "פשיטה של צה\"ל ושחרור אזרח באזור קוניטרה",
+    "summary": "כוח צבאי ישראלי שכלל עשרה כלי רכב פשט על עיירה וכפר סמוך, ביצע חיפושים בבתים, עיכב אזרח לחקירה ושחרר אותו למחרת בבוקר.",
+    "axis": "ישראל-סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-24T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T18:30:59+00:00",
+    "last_update_at": "2026-11-25T18:30:59+00:00",
+    "what_is_not_verified": "סיבת העיכוב והמקום המדויק שבו הוחזק האזרח טרם שחרורו",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.enabbaladi.net/archives/2026/11/israel-releases-syrian-man-detained-during-quneitra-incursion/",
+      "published_at": "2026-11-25T18:30:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'ובאתא אל-חשב, סוריה",
+      "lat": 33.2258,
+      "lon": 35.8341
+     },
+     {
+      "name": "עין אל-בידא, סוריה",
+      "lat": 35.7704,
+      "lon": 36.1549
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11260043-04",
+    "title": "הידוק שיתוף הפעולה בין סוריה לטורקיה והאשמות נגד ישראל",
+    "summary": "גורמי ביטחון בישראל עוקבים אחר התקרבות אסטרטגית והקמת ועדה עליונה משותפת בין הנשיאים ארדואן וא-שרע, בעוד שר החוץ הטורקי מאשים את ישראל בחימוש גורמים דרוזים ובהכנת תקיפה בדרום סוריה.",
+    "axis": "סוריה-טורקיה-ישראל",
+    "claim_type": "assessment",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T19:21:26+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-25T19:21:26+00:00",
+    "last_update_at": "2026-11-25T19:21:26+00:00",
+    "what_is_not_verified": "האם אכן מועבר נשק ישראלי לקבוצות דרוזיות בדרום סוריה",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383963155",
+      "published_at": "2026-11-25T19:21:26+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "NORTH-11260043-05",
+    "title": "מעצר חוליית חזבאללה בצפון לבנון ואיומי הנהגת הארגון",
+    "summary": "שופט בלבנון הוציא צווי מעצר נגד חמישה פעילי חזבאללה שנתפסו עם מפות ומסמכים בחשד להקמת חוליה חמושה, והורה לחקור שלושה נוספים; מנהיג הארגון נעים קאסם דרש את שחרורם והזהיר מפני פגיעה בשלום האזרחי.",
+    "axis": "לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-25T17:52:29+00:00",
+    "last_update_at": "2026-11-25T21:12:43+00:00",
+    "what_is_not_verified": "היקף התוכניות המבצעיות של החוליה שנעצרה בצפון לבנון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_424d8b22b343bf60",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-chief-demands-release-five-detained-members",
+      "published_at": "2026-11-25T21:12:43+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_424d8b22b343bf60",
+      "url": "https://www.newarab.com/news/lebanon-judge-issues-warrants-detained-hezbollah-members",
+      "published_at": "2026-11-25T20:40:58+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_424d8b22b343bf60",
+      "url": "https://english.almanar.com.lb/article/155132/",
+      "published_at": "2026-11-25T18:30:58+00:00"
+     },
+     {
+      "source_id": "src_almanar",
+      "source_root_id": "fh_7579e57c679cc511",
+      "url": "https://english.almanar.com.lb/article/155122/",
+      "published_at": "2026-11-25T17:52:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בתרון, לבנון",
+      "lat": 34.2549,
+      "lon": 35.6589
+     },
+     {
+      "name": "בשארי, לבנון",
+      "lat": 34.2507,
+      "lon": 36.01
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11260043-06",
+    "title": "הצהרת שר הביטחון על סיכול הברחות נשק והרס תשתיות בדרום לבנון",
+    "summary": "שר הביטחון הישראלי הצהיר כי חיל האוויר סיכל ניסיונות להברחת אמצעי לחימה מסוריה ללבנון, כולל תקיפה בנבי שית, וציין כי צה\"ל השמיד כ-23,000 מבנים ותשתיות טרור בעשרות כפרים בדרום לבנון.",
+    "axis": "ישראל-לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T09:46:32+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-25T09:46:32+00:00",
+    "last_update_at": "2026-11-25T09:46:32+00:00",
+    "what_is_not_verified": "האימות העצמאי של מספר המבנים המדויק שנהרסו בדרום לבנון",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.walla.co.il/news/military/383963018",
+      "published_at": "2026-11-25T09:46:32+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נבי שית, לבנון",
+      "lat": 33.8887,
+      "lon": 36.1181
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11260043-07",
+    "title": "שיחות דיפלומטיות בביירות על עתיד הביטחון בדרום לבנון",
+    "summary": "שר החוץ הלבנוני דן עם שגרירי רוסיה וסין בהיערכות למניעת ואקום ביטחוני בדרום המדינה לקראת סיום מנדט יוניפי\"ל וביציאת הכוחות הבינלאומיים.",
+    "axis": "לבנון",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T10:35:42+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T10:35:42+00:00",
+    "last_update_at": "2026-11-25T10:35:42+00:00",
+    "what_is_not_verified": "המתווה המדויק שיחליף את כוחות יוניפי\"ל בשטח",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_lbci",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.lbcgroup.tv/news/lebanon-news/969638/fm-rajji-discusses-post-unifil-security-and-bilateral-ties-with-foreig/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969638",
+      "published_at": "2026-11-25T10:35:42+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ביירות, לבנון",
+      "lat": 33.8892,
+      "lon": 35.5026
+     }
+    ]
+   },
+   {
+    "id": "NORTH-11260043-08",
+    "title": "חקיקה חדשה בסוריה המאפשרת עתירות נגד החלטות ממשל",
+    "summary": "נשיא סוריה אחמד א-שרע חתם על חוק המבטל הוראות שמנעו ביקורת שיפוטית על החלטות הרשות המבצעת והממשל, לאחר אישור הפרלמנט.",
+    "axis": "סוריה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-25T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-25T19:00:57+00:00",
+    "last_update_at": "2026-11-25T19:00:57+00:00",
+    "what_is_not_verified": "מידת היישום המעשי של החוק במערכת המשפט הסורית",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_enabbaladi",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://english.enabbaladi.net/archives/2026/11/al-sharaa-lifts-bar-on-court-challenges-to-government-decisions/",
+      "published_at": "2026-11-25T19:00:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "דמשק, סוריה",
+      "lat": 33.5131,
+      "lon": 36.3096
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענת שר החוץ הטורקי כי ישראל מחמשת קבוצות דרוזיות בדרום סוריה ומכינה פעולה צבאית",
+   "מספר המבנים ותשתיות הטרור המדויק שהושמדו בכפרי דרום לבנון לפי הצהרת שר הביטחון הישראלי",
+   "פרטי התשתית והיעדים של חוליית חזבאללה שנעצרה בצפון לבנון עם מפות ומסמכים",
+   "מידת ההתערבות הצבאית שטורקיה או סוריה ינקטו אם תתרחש פעולה ישראלית בדרום סוריה"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3789,
+    "unit": "ILS",
+    "change_pct": 1.16,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-25T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "ישראל",
+    "declared": [
+     "מניעת הברחות אמצעי לחימה מסוריה לידי חזבאללה בלבנון",
+     "פגיעה בתשתיות הטרור וסיכול התעצמות מחודשת בדרום לבנון"
+    ],
+    "inferred": [
+     "יצירת חיץ ביטחוני ומעקב הדוק אחר ההתקרבות בין דמשק לאנקרה",
+     "שימור חופש פעולה מבצעי בתוך שטח סוריה ולבנון"
+    ],
+    "forecast": [
+     "המשך תקיפות אוויריות ממוקדות בנתיבי הברחה ובגבול סוריה-לבנון",
+     "הגברת החיכוך המדיני מול טורקיה על רקע הפעילות בדרום סוריה"
+    ]
+   },
+   {
+    "actor": "חזבאללה",
+    "declared": [
+     "הגנה על קיום הארגון ושמירה על נשקו למרות הלחצים",
+     "דרישה לשחרור מיידי של פעיליו העצורים בידי רשויות לבנון"
+    ],
+    "inferred": [
+     "שיקום מערכי ההברחה וההתארגנות בצפון לבנון לאחר הפגיעות שספג",
+     "הרתעת הממשל הלבנוני מנקיטת צעדים ממשיים לפירוקו מנשק"
+    ],
+    "forecast": [
+     "החרפת העימות המילולי והפוליטי מול נשיאות לבנון ומערכת המשפט",
+     "ניסיונות מתמשכים לייבא אמל\"ח דרך נתיבים חלופיים מסוריה"
+    ]
+   },
+   {
+    "actor": "טורקיה",
+    "declared": [
+     "אזהרה מפני פעולה צבאית ישראלית בדרום סוריה ומניעת עימות אזורי",
+     "הידוק שיתוף הפעולה הביטחוני והמדיני עם סוריה באמצעות ועדה עליונה משותפת"
+    ],
+    "inferred": [
+     "הגבלת חופש הפעולה וההשפעה הישראלית בסוריה",
+     "ביסוס מעמדה של אנקרה כגורם המשפיע והמגן המרכזי של המשטר הסורי החדש"
+    ],
+    "forecast": [
+     "העמקת התיאום הביטחוני עם סוריה לקראת בלימת מהלכים ישראליים",
+     "המשך קו דיפלומטי תוקפני כלפי ישראל בזירה הבינלאומית"
+    ]
+   },
+   {
+    "actor": "סוריה (משטר א-שרע)",
+    "declared": [
+     "ביסוס שלטון החוק ופתיחת החלטות ממשל לביקורת שיפוטית",
+     "התנגדות לפשיטות צבאיות ישראליות והפרת הריבונות"
+    ],
+    "inferred": [
+     "הישענות על תמיכת טורקיה כדי לבסס שליטה מול אתגרי פנים ואיומי חוץ",
+     "התמודדות עם חוסר היציבות והטרור הגובר מצד דאעש במזרח המדינה"
+    ],
+    "forecast": [
+     "המשך מאמצים לייצוב השלטון הפנימי תוך הימנעות מעימות צבאי ישיר עם צה\"ל",
+     "הגברת שיתוף הפעולה הצבאי והמודיעיני עם טורקיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_almanar",
+    "url": "https://english.almanar.com.lb/article/155122/",
+    "accessed_at": "2026-11-26T00:43:13+00:00"
+   },
+   {
+    "source_id": "src_anadolu",
+    "url": "https://www.aa.com.tr/en/middle-east/3-killed-including-teenage-boy-2-injured-in-landmine-explosion-in-northern-syria/4137955",
+    "accessed_at": "2026-11-26T00:43:13+00:00"
+   },
+   {
+    "source_id": "src_enabbaladi",
+    "url": "https://english.enabbaladi.net/archives/2026/11/al-sharaa-lifts-bar-on-court-challenges-to-government-decisions/",
+    "accessed_at": "2026-11-26T00:43:13+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/middle-east/article/21934723",
+    "accessed_at": "2026-11-26T00:43:13+00:00"
+   },
+   {
+    "source_id": "src_lbci",
+    "url": "https://www.lbcgroup.tv/news/lebanon-news/969638/fm-rajji-discusses-post-unifil-security-and-bilateral-ties-with-foreig/en?src=rss&utm_campaign=rss&utm_source=Rss-articles&utm_term=Rss&utm_medium=Rss-969638",
+    "accessed_at": "2026-11-26T00:43:13+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-chief-demands-release-five-detained-members",
+    "accessed_at": "2026-11-26T00:43:13+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/lebanon-judge-issues-warrants-detained-hezbollah-members",
+    "accessed_at": "2026-11-26T00:43:13+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383963018",
+    "accessed_at": "2026-11-26T00:43:13+00:00"
+   }
+  ]
+ }
+}
