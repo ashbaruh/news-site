@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-26T11:17:29+00:00",
-  "fetched_at": "2026-11-26T11:17:29+00:00"
+  "checked_at": "2026-11-26T12:17:24+00:00",
+  "fetched_at": "2026-11-26T12:17:24+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,25 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-26T11:17:40+00:00",
-  "fetched_at": "2026-11-26T11:17:40+00:00"
+  "checked_at": "2026-11-26T12:17:35+00:00",
+  "fetched_at": "2026-11-26T12:17:35+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "How to watch Macy’s Thanksgiving Day Parade 2026 – live stream from anywhere",
+    "title_he": "איך לצפות במצעד חג ההודיה של מייסי'ס 2026 – שידור חי מכל מקום",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/macys-thanksgiving-day-parade-2026-live-stream",
+    "date": "2026-11-26T12:15:00+00:00"
+   },
+   {
+    "title_en": "Travelling over Christmas? Don’t let endless festive songs ruin your journey with these noise-cancelling headphones our experts love",
+    "title_he": "נוסעים בחג המולד? אל תתנו לשירים החגיגיים האינסופיים להרוס לכם את הנסיעה עם אוזניות ביטול רעשים אלה שהמומחים שלנו אוהבים",
+    "translated_by": "mymemory",
+    "link": "https://www.whathifi.com/headphones/wireless-headphones/bose-quietcomfort-ultra-headphones-black-friday-2026",
+    "date": "2026-11-26T11:16:02+00:00"
+   },
    {
     "title_en": "Tidal bans 100% AI-generated music in a first for major streaming services",
     "title_he": "Tidal אוסרת על מוזיקה שנוצרה ב-100% על ידי בינה מלאכותית, לראשונה בשירותי סטרימינג גדולים",
@@ -62,34 +76,20 @@ window.DB.generated = {
     "translated_by": "mymemory",
     "link": "https://www.whathifi.com/hi-fi/vinyl/looking-to-get-into-70s-prog-rock-and-vinyl-i-built-the-ultimate-hi-fi-starter-pack-to-help",
     "date": "2026-11-25T11:16:45+00:00"
-   },
-   {
-    "title_en": "Need an affordable solution for music on the move? These Award-winning Sony wireless earbuds are almost half-price!",
-    "title_he": "צריכים פתרון משתלם למוזיקה בתנועה? האוזניות האלחוטיות עטורי הפרסים הללו של Sony הן כמעט בחצי מחיר!",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/headphones/wireless-earbuds/need-an-affordable-solution-for-music-on-the-move-these-award-winning-sony-wireless-earbuds-are-almost-half-price",
-    "date": "2026-11-24T16:46:18+00:00"
-   },
-   {
-    "title_en": "JBL Cove M1",
-    "title_he": null,
-    "translated_by": null,
-    "link": "https://www.whathifi.com/speakers/wireless-speakers/jbl-cove-m1",
-    "date": "2026-11-24T15:58:40+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-26T11:17:41+00:00",
-  "fetched_at": "2026-11-26T11:17:41+00:00"
+  "checked_at": "2026-11-26T12:17:38+00:00",
+  "fetched_at": "2026-11-26T12:17:38+00:00"
  },
- "generated_at": "2026-11-26T11:17:41+00:00",
+ "generated_at": "2026-11-26T12:17:38+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "הטבת המס הדרמטית שנהנים ממנה בעיקר בעשירונים העליונים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564996",
-     "date": "2026-11-26T09:27:00+00:00"
+     "title": "המכירות עולות, הרווחים נשחקים: מה מלמדים דוחות חברות הנדל\"ן על מצב השוק",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564695",
+     "date": "2026-11-26T11:35:00+00:00"
     },
     {
      "title": "\"עשוי לשמש לגרעין\": המתקן החדש שנחשף באיראן",
@@ -98,6 +98,16 @@ window.DB.generated = {
     }
    ],
    "market": [
+    {
+     "title": "עונת הדוחות מקפיצה את הבורסה, הקלינטק והטכנולוגיה מזנקים",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001565016",
+     "date": "2026-11-26T11:27:00+00:00"
+    },
+    {
+     "title": "עליות חדות באירופה בעקבות הריבאונד בוול סטריט",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001565054",
+     "date": "2026-11-26T11:20:00+00:00"
+    },
     {
      "title": "גד ביטלה העלאת מחירים, הסוכר של סוגת צנח, ו-IBI הגיע ל-95 אלף סוחרים עצמאיים",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001565113",
@@ -119,11 +129,6 @@ window.DB.generated = {
      "date": "2026-11-26T10:56:00+00:00"
     },
     {
-     "title": "עונת הדוחות מקפיצה את הבורסה, הקלינטק והטכנולוגיה מזנקים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001565016",
-     "date": "2026-11-26T10:43:00+00:00"
-    },
-    {
      "title": "המניה הביטחונית הזו בעיקר ירדה מאז ההנפקה. היום היא ממריאה ב־30%",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001565121",
      "date": "2026-11-26T10:25:00+00:00"
@@ -137,11 +142,6 @@ window.DB.generated = {
      "title": "\"רוב יצירת הערך היום היא בשווקים הפרטיים. מי שלא חשוף יפספס הזדמנויות\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001565034",
      "date": "2026-11-26T09:25:00+00:00"
-    },
-    {
-     "title": "עליות חדות באירופה בעקבות הריבאונד בוול סטריט",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001565054",
-     "date": "2026-11-26T09:23:00+00:00"
     },
     {
      "title": "מגדל מכרה מניות רימון ב-47 מיליון שקל, יום לפני הצניחה במניה",
@@ -219,15 +219,15 @@ window.DB.generated = {
      "date": "2026-11-25T13:08:00+00:00"
     },
     {
-     "title": "בזמן שמניות השבבים מתרסקות: הבורסה שאליה זורמים מיליארדי דולרים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564907",
-     "date": "2026-11-25T10:48:00+00:00"
+     "title": "42 אנליסטים מעריכים: זה מה שצפוי בוול סטריט",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564853",
+     "date": "2026-11-25T07:17:00+00:00"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-26T11:17:30+00:00",
-  "fetched_at": "2026-11-26T11:17:30+00:00"
+  "checked_at": "2026-11-26T12:17:25+00:00",
+  "fetched_at": "2026-11-26T12:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-26T11:17:30+00:00",
-  "fetched_at": "2026-11-26T11:17:30+00:00"
+  "checked_at": "2026-11-26T12:17:25+00:00",
+  "fetched_at": "2026-11-26T12:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2662,8 +2662,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-26T11:17:31+00:00",
-  "fetched_at": "2026-11-26T11:17:31+00:00"
+  "checked_at": "2026-11-26T12:17:26+00:00",
+  "fetched_at": "2026-11-26T12:17:26+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -2837,8 +2837,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-26T11:17:31+00:00",
-  "fetched_at": "2026-11-26T11:17:31+00:00"
+  "checked_at": "2026-11-26T12:17:26+00:00",
+  "fetched_at": "2026-11-26T12:17:26+00:00"
  },
  "ai": {
   "data": {
@@ -2860,16 +2860,17 @@ window.DB.generated = {
      "translated_by": "mymemory"
     }
    ],
-   "candidates": 7,
+   "candidates": 5,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 358,
+     "likes": 359,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
@@ -2887,18 +2888,18 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
+     "title": "Krea 2 Turbo Revamped: Image Editor",
+     "desc_en": "Edit one image from a prompt. Keep the look consistent.",
+     "desc_he": "ערוך תמונה אחת מתוך הנחיה. שמור על המראה עקבי.",
+     "likes": 183,
+     "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
+    },
+    {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
      "likes": 559,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
-    },
-    {
-     "title": "Krea 2 Turbo Revamped: Image Editor",
-     "desc_en": "Edit one image from a prompt. Keep the look consistent.",
-     "desc_he": "ערוך תמונה אחת מתוך הנחיה. שמור על המראה עקבי.",
-     "likes": 182,
-     "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
     },
     {
      "title": "LTX 2.3 10Eros Image-to-Video",
@@ -2918,14 +2919,14 @@ window.DB.generated = {
      "title": "Qwen-Image-2.1-Studio",
      "desc_en": "Edit, swap & batch-generate images with Qwen-Image 2.1",
      "desc_he": "עריכה, החלפה ויצירה של תמונות באצווה באמצעות Qwen-Image 2.1",
-     "likes": 83,
+     "likes": 84,
      "link": "https://huggingface.co/spaces/xyzanonimous5/Qwen-Image-2.1-Studio"
     },
     {
      "title": "TRELLIS.2",
      "desc_en": "High-fidelity 3D Generation from images",
      "desc_he": "יצירת תלת מימד בנאמנות גבוהה מתמונות",
-     "likes": 2476,
+     "likes": 2477,
      "link": "https://huggingface.co/spaces/microsoft/TRELLIS.2"
     },
     {
@@ -2938,12 +2939,21 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-26T11:17:38+00:00",
-  "fetched_at": "2026-11-26T11:17:38+00:00"
+  "checked_at": "2026-11-26T12:17:34+00:00",
+  "fetched_at": "2026-11-26T12:17:34+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "\"מאמין במרקו וולף, ונטורה מזכיר לי את אוגו\"",
+     "link": "https://www.one.co.il/Article/539930.html?ref=rss",
+     "date": "2026-11-26T11:38:00+00:00",
+     "source": "ONE",
+     "players": [
+      "דני וולף"
+     ]
+    },
     {
      "title": "דני אבדיה לא עוצר, ובארה\"ב תוהים: \"האם פורטלנד הטובה במערב?\"",
      "link": "https://sports.walla.co.il/item/3877711",
@@ -3048,15 +3058,6 @@ window.DB.generated = {
      "link": "https://sports.walla.co.il/item/3877685",
      "date": "2026-11-25T22:47:00+00:00",
      "source": "וואלה",
-     "players": [
-      "ליאל עבדה"
-     ]
-    },
-    {
-     "title": "דיווח: וולבס וברמינגהאם נאבקות על ליאל עבדה",
-     "link": "https://www.one.co.il/Article/539864.html?ref=rss",
-     "date": "2026-11-25T21:24:00+00:00",
-     "source": "ONE",
      "players": [
       "ליאל עבדה"
      ]
@@ -3290,11 +3291,16 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-26T11:17:34+00:00",
-  "fetched_at": "2026-11-26T11:17:34+00:00"
+  "checked_at": "2026-11-26T12:17:29+00:00",
+  "fetched_at": "2026-11-26T12:17:29+00:00"
  },
  "idf": {
   "data": [
+   {
+    "title": "כ\"ץ מזהיר: אם חמאס לא יתפרק מנשקו - צה\"ל עשוי לחזור לתמרון רחב",
+    "link": "https://www.walla.co.il/news/military/383963170",
+    "date": "2026-11-26T11:11:02+00:00"
+   },
    {
     "title": "צה\"ל חיסל את איש הכספים והחינוך של חמאס ברצועת עזה",
     "link": "https://www.walla.co.il/news/military/383963179",
@@ -3314,67 +3320,61 @@ window.DB.generated = {
     "title": "על רקע החשש מ״היפוך קנים״ ביו״ש: צה״ל פתח במבצע תחקורים נגד פעילי תנזים בקלקיליה",
     "link": "https://www.walla.co.il/news/military/383962978",
     "date": "2026-11-25T05:55:28+00:00"
-   },
-   {
-    "title": "צה\"ל ושב\"כ חיסלו את ראש מנגנון ביטחון הפנים של חמאס בעזה",
-    "link": "https://www.walla.co.il/news/military/383962879",
-    "date": "2026-11-24T10:43:26+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-26T11:17:34+00:00",
-  "fetched_at": "2026-11-26T09:17:27+00:00"
+  "ok": true,
+  "checked_at": "2026-11-26T12:17:30+00:00",
+  "fetched_at": "2026-11-26T12:17:30+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-26T11:13:00+00:00",
-    "seen_at": "2026-11-26T11:17:41+00:00",
+    "newest": "2026-11-26T12:15:00+00:00",
+    "seen_at": "2026-11-26T12:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
-    "newest": "2026-11-26T11:10:00+00:00",
-    "seen_at": "2026-11-26T11:17:41+00:00",
+    "newest": "2026-11-26T11:27:00+00:00",
+    "seen_at": "2026-11-26T12:17:38+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
-    "newest": "2026-11-26T10:58:00+00:00",
-    "seen_at": "2026-11-26T11:17:41+00:00",
+    "newest": "2026-11-26T11:20:00+00:00",
+    "seen_at": "2026-11-26T12:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-26T10:42:00+00:00",
-    "seen_at": "2026-11-26T11:17:41+00:00",
+    "seen_at": "2026-11-26T12:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-26T11:33:00+00:00",
-    "seen_at": "2026-11-26T11:17:41+00:00",
+    "seen_at": "2026-11-26T12:17:38+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-26T11:55:00+00:00",
-    "seen_at": "2026-11-26T11:17:41+00:00",
+    "newest": "2026-11-26T13:03:00+00:00",
+    "seen_at": "2026-11-26T12:17:38+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-26T11:00:00+00:00",
-    "seen_at": "2026-11-26T11:17:41+00:00",
+    "newest": "2026-11-26T11:58:00+00:00",
+    "seen_at": "2026-11-26T12:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
-    "newest": "2026-11-26T09:00:44+00:00",
-    "seen_at": "2026-11-26T09:17:31+00:00",
+    "newest": "2026-11-26T11:11:02+00:00",
+    "seen_at": "2026-11-26T12:17:38+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3386,38 +3386,43 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-24T16:00:00+00:00",
-    "seen_at": "2026-11-26T11:17:41+00:00",
+    "seen_at": "2026-11-26T12:17:38+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-26T09:43:58+00:00",
-    "seen_at": "2026-11-26T11:17:41+00:00",
+    "newest": "2026-11-26T12:00:30+00:00",
+    "seen_at": "2026-11-26T12:17:38+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-26T11:17:41+00:00",
+    "seen_at": "2026-11-26T12:17:38+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-26T11:10:40+00:00",
-    "seen_at": "2026-11-26T11:17:41+00:00",
+    "newest": "2026-11-26T12:15:00+00:00",
+    "seen_at": "2026-11-26T12:17:38+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
-    "newest": "2026-11-26T09:30:03+00:00",
-    "seen_at": "2026-11-26T10:17:36+00:00",
+    "newest": "2026-11-26T10:38:03+00:00",
+    "seen_at": "2026-11-26T12:17:38+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-26T11:17:41+00:00"
+  "checked_at": "2026-11-26T12:17:38+00:00"
  },
  "health_news": {
   "data": [
+   {
+    "title": "משרד הבריאות במכתב הערכה ליוסי אמבולנס על פעילותה ב\"עם כלביא\"",
+    "link": "https://www.walla.co.il/healthy/health-news/383963248",
+    "date": "2026-11-26T10:38:03+00:00"
+   },
    {
     "title": "עשיתם סקר גנטי לפני הריון? עכשיו מתברר שהיו הרבה פספוסים",
     "link": "https://www.walla.co.il/healthy/health-news/383963231",
@@ -3562,16 +3567,10 @@ window.DB.generated = {
     "title": "הילד בריא, אז למה לחסן? מומחית עונה על השאלה של הורים רבים",
     "link": "https://www.walla.co.il/healthy/health-news/383959808",
     "date": "2026-11-04T16:04:01+00:00"
-   },
-   {
-    "title": "זינוק ברכישת נוגדי דיכאון בישראל: זו העיר המובילה",
-    "link": "https://www.walla.co.il/healthy/health-news/383959968",
-    "date": "2026-11-03T16:29:05+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-26T11:17:34+00:00",
-  "fetched_at": "2026-11-26T10:17:29+00:00"
+  "ok": true,
+  "checked_at": "2026-11-26T12:17:30+00:00",
+  "fetched_at": "2026-11-26T12:17:30+00:00"
  }
 };
