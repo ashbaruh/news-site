@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-27T14:17:19+00:00",
-  "fetched_at": "2026-11-27T14:17:19+00:00"
+  "checked_at": "2026-11-27T15:17:22+00:00",
+  "fetched_at": "2026-11-27T15:17:22+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T14:17:31+00:00",
-  "fetched_at": "2026-11-27T14:17:31+00:00"
+  "checked_at": "2026-11-27T15:17:31+00:00",
+  "fetched_at": "2026-11-27T15:17:31+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T14:17:31+00:00",
-  "fetched_at": "2026-11-27T14:17:31+00:00"
+  "checked_at": "2026-11-27T15:17:31+00:00",
+  "fetched_at": "2026-11-27T15:17:31+00:00"
  },
- "generated_at": "2026-11-27T14:17:31+00:00",
+ "generated_at": "2026-11-27T15:17:31+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-27T14:17:20+00:00",
-  "fetched_at": "2026-11-27T14:17:20+00:00"
+  "checked_at": "2026-11-27T15:17:23+00:00",
+  "fetched_at": "2026-11-27T15:17:23+00:00"
  },
  "ifa": {
   "data": [
@@ -867,7 +867,7 @@ window.DB.generated = {
     "home": "מכבי פ\"ת",
     "away": "הפועל ת\"א",
     "round": "מחזור 11",
-    "score": "",
+    "score": "2-0",
     "link": "https://www.one.co.il/Soccer/League/1"
    },
    {
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T14:17:21+00:00",
-  "fetched_at": "2026-11-27T14:17:21+00:00"
+  "checked_at": "2026-11-27T15:17:23+00:00",
+  "fetched_at": "2026-11-27T15:17:23+00:00"
  },
  "tv": {
   "data": [
@@ -2977,8 +2977,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T14:17:22+00:00",
-  "fetched_at": "2026-11-27T14:17:22+00:00"
+  "checked_at": "2026-11-27T15:17:24+00:00",
+  "fetched_at": "2026-11-27T15:17:24+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3110,66 +3110,12 @@ window.DB.generated = {
    ],
    "results": [
     {
-     "date": "2026-11-06",
+     "date": "2026-11-27",
      "time": "14:00",
-     "home": "מכבי ת\"א",
-     "away": "מכבי פ\"ת",
-     "round": "מחזור 10",
-     "score": "2-2",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-11-07",
-     "time": "15:00",
-     "home": "הפועל פ\"ת",
-     "away": "הפועל ר\"ג",
-     "round": "מחזור 10",
-     "score": "2-1",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-11-07",
-     "time": "17:30",
-     "home": "מכבי חיפה",
-     "away": "מכבי נתניה",
-     "round": "מחזור 10",
-     "score": "0-4",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-11-07",
-     "time": "18:00",
-     "home": "עירוני ק\"ש",
-     "away": "הפועל חיפה",
-     "round": "מחזור 10",
-     "score": "2-0",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-11-07",
-     "time": "18:00",
-     "home": "הפועל ירושלים",
-     "away": "בני סכנין",
-     "round": "מחזור 10",
-     "score": "1-1",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-11-07",
-     "time": "19:30",
-     "home": "עירוני טבריה",
-     "away": "בית\"ר ירושלים",
-     "round": "מחזור 10",
-     "score": "1-1",
-     "link": "https://www.one.co.il/Soccer/League/1"
-    },
-    {
-     "date": "2026-11-08",
-     "time": "20:30",
-     "home": "הפועל ב\"ש",
+     "home": "מכבי פ\"ת",
      "away": "הפועל ת\"א",
-     "round": "מחזור 10",
-     "score": "0-1",
+     "round": "מחזור 11",
+     "score": "2-0",
      "link": "https://www.one.co.il/Soccer/League/1"
     }
    ],
@@ -3192,8 +3138,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-27T14:17:22+00:00",
-  "fetched_at": "2026-11-27T14:17:22+00:00"
+  "checked_at": "2026-11-27T15:17:24+00:00",
+  "fetched_at": "2026-11-27T15:17:24+00:00"
  },
  "ai": {
   "data": {
@@ -3217,7 +3163,8 @@ window.DB.generated = {
    ],
    "candidates": 3,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -3238,7 +3185,7 @@ window.DB.generated = {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 873,
+     "likes": 874,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
@@ -3263,6 +3210,13 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/xyzanonimous5/Qwen-Image-2.1-Studio"
     },
     {
+     "title": "Scaling swarms to thousands of agents",
+     "desc_en": "A field report from building PyBot",
+     "desc_he": "דוח שטח מבניית PyBot",
+     "likes": 51,
+     "link": "https://huggingface.co/spaces/HuggingFaceSwarms/scaling-swarms"
+    },
+    {
      "title": "LTX 2.3 10Eros Image-to-Video",
      "desc_en": "ltx 2.3 improved image-to-video with 10eros & native audio",
      "desc_he": "ltx 2.3 משופרת תמונה לווידאו עם 10eros ואודיו מקורי",
@@ -3270,17 +3224,10 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros"
     },
     {
-     "title": "Scaling swarms to thousands of agents",
-     "desc_en": "A field report from building PyBot",
-     "desc_he": "דוח שטח מבניית PyBot",
-     "likes": 50,
-     "link": "https://huggingface.co/spaces/HuggingFaceSwarms/scaling-swarms"
-    },
-    {
      "title": "Looped transformers: thinking twice with the same weights",
      "desc_en": "How looped transformers work, tested on tiny models",
      "desc_he": "כיצד פועלים שנאים בלולאה, נבדק על דגמים זעירים",
-     "likes": 43,
+     "likes": 44,
      "link": "https://huggingface.co/spaces/dlouapre/looped-transformers"
     },
     {
@@ -3293,8 +3240,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-27T14:17:30+00:00",
-  "fetched_at": "2026-11-27T14:17:30+00:00"
+  "checked_at": "2026-11-27T15:17:30+00:00",
+  "fetched_at": "2026-11-27T15:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -3647,8 +3594,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-27T14:17:25+00:00",
-  "fetched_at": "2026-11-27T14:17:25+00:00"
+  "checked_at": "2026-11-27T15:17:27+00:00",
+  "fetched_at": "2026-11-27T15:17:27+00:00"
  },
  "idf": {
   "data": [
@@ -3678,8 +3625,9 @@ window.DB.generated = {
     "date": "2026-11-26T14:28:46+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-27T14:17:26+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-27T15:17:27+00:00",
   "fetched_at": "2026-11-27T14:17:26+00:00"
  },
  "feed_health": {
@@ -3687,44 +3635,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-27T13:58:00+00:00",
-    "seen_at": "2026-11-27T14:17:31+00:00",
+    "newest": "2026-11-27T14:44:00+00:00",
+    "seen_at": "2026-11-27T15:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-27T12:03:00+00:00",
-    "seen_at": "2026-11-27T14:17:31+00:00",
+    "seen_at": "2026-11-27T15:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-27T10:55:00+00:00",
-    "seen_at": "2026-11-27T14:17:31+00:00",
+    "seen_at": "2026-11-27T15:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-27T10:00:00+00:00",
-    "seen_at": "2026-11-27T14:17:31+00:00",
+    "seen_at": "2026-11-27T15:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-27T12:30:00+00:00",
-    "seen_at": "2026-11-27T14:17:31+00:00",
+    "newest": "2026-11-27T15:38:00+00:00",
+    "seen_at": "2026-11-27T15:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-27T15:03:00+00:00",
-    "seen_at": "2026-11-27T14:17:31+00:00",
+    "newest": "2026-11-27T15:56:00+00:00",
+    "seen_at": "2026-11-27T15:17:31+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-27T14:00:00+00:00",
-    "seen_at": "2026-11-27T14:17:31+00:00",
+    "newest": "2026-11-27T14:50:00+00:00",
+    "seen_at": "2026-11-27T15:17:31+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3742,25 +3690,25 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-24T16:00:00+00:00",
-    "seen_at": "2026-11-27T14:17:31+00:00",
+    "seen_at": "2026-11-27T15:17:31+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-27T13:29:51+00:00",
-    "seen_at": "2026-11-27T14:17:31+00:00",
+    "seen_at": "2026-11-27T15:17:31+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-27T14:17:31+00:00",
+    "seen_at": "2026-11-27T15:17:31+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-27T13:38:01+00:00",
-    "seen_at": "2026-11-27T14:17:31+00:00",
+    "newest": "2026-11-27T14:50:53+00:00",
+    "seen_at": "2026-11-27T15:17:31+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
@@ -3770,7 +3718,7 @@ window.DB.generated = {
     "stuck": false
    }
   },
-  "checked_at": "2026-11-27T14:17:31+00:00"
+  "checked_at": "2026-11-27T15:17:31+00:00"
  },
  "health_news": {
   "data": [
@@ -3925,8 +3873,9 @@ window.DB.generated = {
     "date": "2026-11-08T10:26:28+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-27T14:17:27+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-27T15:17:27+00:00",
   "fetched_at": "2026-11-27T14:17:27+00:00"
  }
 };
