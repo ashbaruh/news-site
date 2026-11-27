@@ -1,236 +1,102 @@
 /* נוצר אוטומטית ע"י tools/war_brief.py — עדכון ביניים, עד 3 ידיעות לזירה. לא לערוך ידנית. */
 window.DB = window.DB || {};
 window.DB.war_brief = {
- "slot": "2026-11-27T04:00:00+02:00",
- "generated_at": "2026-11-27T01:40:14+00:00",
+ "slot": "2026-11-27T12:00:00+02:00",
+ "generated_at": "2026-11-27T10:10:28+00:00",
  "model": "gemini-3.5-flash-lite",
  "arenas": {
   "iran": {
    "events": [
     {
-     "id": "IRAN-11270140-01",
-     "title": "ייצוא תבואה רוסי חדש לאיראן",
-     "summary": "יצואנים מרוסיה החלו להעביר משלוחי חיטה, תירס ושעורה דרך נמלי צפון הים הכספי אל איראן.",
-     "axis": "iran",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T17:40:28+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-26T17:40:28+00:00",
-     "last_update_at": "2026-11-26T17:40:28+00:00",
-     "what_is_not_verified": "הנתונים המדויקים על היקף השוק אינם מאומתים מעבר לדיווח.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49940",
-       "published_at": "2026-11-26T17:40:28+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11270140-02",
-     "title": "הכחשת מעורבות בתקיפה בכווית",
-     "summary": "דובר צבא איראן דחה באופן מוחלט את הטענות על תקיפת מתקן חיוני בכווית.",
+     "id": "IRAN-11271010-01",
+     "title": "איראן וטורקיה סיכמו על הרחבת שיתוף הפעולה הביטחוני",
+     "summary": "איראן וטורקיה חתמו על הסכמות לחיזוק שיתוף הפעולה המבצעי וחילופי המידע בנושאי ביטחון גבולות ומאבק בטרור ובהברחות.",
      "axis": "iran",
      "claim_type": "statement",
      "lifecycle": "active",
-     "occurred_at": "2026-11-26T16:43:01+00:00",
+     "occurred_at": "2026-11-27T09:58:10+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-26T16:43:01+00:00",
-     "last_update_at": "2026-11-26T17:04:35+00:00",
-     "what_is_not_verified": "נכונות הטענות מצד כווית ואיטליה אינה מאומתת בטקסט מעבר להאשמות.",
+     "first_reported_at": "2026-11-27T09:58:10+00:00",
+     "last_update_at": "2026-11-27T09:58:10+00:00",
+     "what_is_not_verified": "האם ההסכמות ייושמו בפועל בשטח",
      "is_new_in_window": true,
      "reports": [
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "fh_cc95d042b6bd16e1",
-       "url": "https://t.me/abualiexpress/134290",
-       "published_at": "2026-11-26T17:04:35+00:00"
-      },
       {
        "source_id": "src_irna",
-       "source_root_id": "fh_cc95d042b6bd16e1",
-       "url": "https://en.irna.ir/news/86333502/Iran-denies-Kuwaiti-claims-of-attack-by-Iranian-forces",
-       "published_at": "2026-11-26T16:43:01+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11270140-03",
-     "title": "סגירת מעברי גבול בעיראק",
-     "summary": "כוחות הביטחון של עיראק סגרו שני מעברי גבול עם סוריה ואיראן שניהל האזור האוטונומי של כורדיסטאן.",
-     "axis": "iran",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T17:36:31+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T17:36:31+00:00",
-     "last_update_at": "2026-11-26T17:36:31+00:00",
-     "what_is_not_verified": "ההשלכות המלאות של הסגירה אינן מאומתות.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraq-closes-two-border-crossings-kurdistan-region-syria-and-iran",
-       "published_at": "2026-11-26T17:36:31+00:00"
-      }
-     ],
-     "places": []
-    }
-   ]
-  },
-  "ukraine": {
-   "events": [
-    {
-     "id": "UKRAINE-11270140-01",
-     "title": "תכנית מולדובה לייצור רחפנים",
-     "summary": "נשיאת מולדובה הודיעה על כוונה להתחיל בייצור רחפנים בטכנולוגיה אוקראינית בשנת 2027 ושינוי החקיקה הנדרש.",
-     "axis": "ukraine",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T16:50:32+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T16:50:32+00:00",
-     "last_update_at": "2026-11-26T16:50:32+00:00",
-     "what_is_not_verified": "האם החקיקה תאושר במועד טרם התברר בשטח.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tg_carmel",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49938",
-       "published_at": "2026-11-26T16:50:32+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11270140-02",
-     "title": "עיכוב באישור סיוע פיננסי באיחוד האירופי",
-     "summary": "פסגת האיחוד האירופי נכשלה באישור חבילת סיוע פיננסי נוספת בסך מיליארדי אירו לקייב עקב התנגדות מדינות שונות.",
-     "axis": "ukraine",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-27T00:29:55+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-27T00:29:55+00:00",
-     "last_update_at": "2026-11-27T00:29:55+00:00",
-     "what_is_not_verified": "האם יושגו פשרות בהמשך אינו ידוע.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tass",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/world/2225609",
-       "published_at": "2026-11-27T00:29:55+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "UKRAINE-11270140-03",
-     "title": "הצטרפות קואליציה להשבת ילדים אוקראינים",
-     "summary": "נשיא אוקראינה הודיע כי הונגריה הצטרפה לקואליציה הבינלאומית להשבת ילדים אוקראינים חטופים.",
-     "axis": "ukraine",
-     "claim_type": "statement",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T20:59:52+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T20:59:52+00:00",
-     "last_update_at": "2026-11-26T20:59:52+00:00",
-     "what_is_not_verified": "לוח הזמנים להשבת הילדים בפועל אינו מפורט.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_kyivind",
-       "source_root_id": "fh_9b4d79188778d9a6",
-       "url": "https://kyivindependent.com/hungary-joins-coalition-for-return-of-abducted-ukrainian-children-following-magyar-visit-zelensky-says/",
-       "published_at": "2026-11-26T20:59:52+00:00"
-      }
-     ],
-     "places": []
-    }
-   ]
-  },
-  "yemen": {
-   "events": [
-    {
-     "id": "YEMEN-11270140-01",
-     "title": "ירוט כטב\"ם חות'י בדרום",
-     "summary": "הקואליציה הודיעה על יירוט והשמדת כטב\"ם ששוגר לעבר האזור הדרומי.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T21:52:05+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T21:52:05+00:00",
-     "last_update_at": "2026-11-26T21:52:05+00:00",
-     "what_is_not_verified": "סוג החימוש המדויק ומיקום השיגור המדויק אינם מפורטים מעבר להודעה.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_54d52b323c7c5577",
-       "url": "https://www.sabanew.net/viewstory/156583",
-       "published_at": "2026-11-26T21:52:05+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-11270140-02",
-     "title": "פעולות צבאיות נגד יכולות חות'יות",
-     "summary": "כוחות הקואליציה דיווחו על ביצוע פעולה צבאית ממוקדת לנטרול יכולות של המיליציה החות'ית.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T19:34:33+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T19:34:33+00:00",
-     "last_update_at": "2026-11-26T19:34:33+00:00",
-     "what_is_not_verified": "תוצאותיה המלאות של הפעולה אינן מפורטות מעבר לדיווח הרשמי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "fh_c814644401fea27a",
-       "url": "https://www.sabanew.net/viewstory/156582",
-       "published_at": "2026-11-26T19:34:33+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "YEMEN-11270140-03",
-     "title": "פגיעה באזרחים כתוצאה מירי בטאיז",
-     "summary": "דווח על פציעתם של מספר אזרחים, ביניהם ילדים ואישה, כתוצאה מהפגזות וירי צלפים באזור טאיז.",
-     "axis": "yemen",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T19:02:20+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-26T19:02:20+00:00",
-     "last_update_at": "2026-11-26T19:02:20+00:00",
-     "what_is_not_verified": "זהותם המלאה של הנפגעים מעבר לנתונים הכלליים אינה מצוינת.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_saba_aden",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.sabanew.net/viewstory/156580",
-       "published_at": "2026-11-26T19:02:20+00:00"
+       "source_root_id": "fh_12bfff6337fe919d",
+       "url": "https://en.irna.ir/news/86333862/Iran-Turkey-agree-to-expand-security-cooperation-at-Ankara-meeting",
+       "published_at": "2026-11-27T09:58:10+00:00"
       }
      ],
      "places": [
       {
-       "name": "טאיז, תימן",
-       "lat": 13.5752,
-       "lon": 44.0215
+       "name": "אנקרה, טורקיה",
+       "lat": 39.9208,
+       "lon": 32.854
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11271010-02",
+     "title": "משמרות המהפכה טוענים כי ירי אזהרה הרחיק מטוס קרב אמריקאי",
+     "summary": "לפי הודעת משמרות המהפכה, מערכת הגנה אווירית ביצעה ירי אזהרה שאילץ מטוס קרב אמריקאי לשנות מסלול ולהתרחק מהמרחב האווירי האיראני.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-27T07:11:46+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-27T07:11:46+00:00",
+     "last_update_at": "2026-11-27T09:22:23+00:00",
+     "what_is_not_verified": "אמינות טענת משמרות המהפכה על עצם האירוע",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_irna",
+       "source_root_id": "fh_06ff8ee65c3bda90",
+       "url": "https://en.irna.ir/news/86333823/IRGC-says-warning-fire-forced-US-F-16-away-from-Iran-s-airspace",
+       "published_at": "2026-11-27T09:22:23+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_06ff8ee65c3bda90",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-forced-us-fighter-jet-retreat-hengam-island",
+       "published_at": "2026-11-27T07:11:46+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אי המגאם, איראן",
+       "lat": 26.6485,
+       "lon": 55.8831
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11271010-03",
+     "title": "ארדואן השלים את אישור הסכם ההגנה של מכה",
+     "summary": "נשיא טורקיה חתם רשמית על אישור הסכם ההגנה המשותף עם פקיסטן וערב הסעודית.",
+     "axis": "iran",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-27T05:46:29+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-27T05:46:29+00:00",
+     "last_update_at": "2026-11-27T05:46:29+00:00",
+     "what_is_not_verified": "אינו מאומת מעבר לפרסום הרשמי",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_3995594f910c17f6",
+       "url": "https://www.al-monitor.com/originals/2026/11/erdogan-completes-turkeys-ratification-mecca-defence-pact",
+       "published_at": "2026-11-27T05:46:29+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "איסטנבול, טורקיה",
+       "lat": 41.0064,
+       "lon": 28.9759
       }
      ]
     }
@@ -239,56 +105,209 @@ window.DB.war_brief = {
   "north": {
    "events": [
     {
-     "id": "NORTH-11270140-01",
-     "title": "תקיפת רקטות וקני שיגור בדרום לבנון",
-     "summary": "חיל האוויר תקף עשרות רקטות וקני שיגור במחנה אימונים של כוח רדואן בדרום לבנון.",
+     "id": "NORTH-11271010-01",
+     "title": "תקיפות של צה\"ל בדרום לבנון",
+     "summary": "מטוסי קרב של צה\"ל תקפו במספר מרחבים בדרום לבנון.",
      "axis": "north",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-26T19:24:53+00:00",
+     "occurred_at": "2026-11-27T09:23:24+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-26T19:24:53+00:00",
-     "last_update_at": "2026-11-26T19:24:53+00:00",
-     "what_is_not_verified": "תוצאות התקיפה המדויקות אינן מפורטות מעבר להסרת האיום.",
+     "first_reported_at": "2026-11-27T09:23:24+00:00",
+     "last_update_at": "2026-11-27T09:23:24+00:00",
+     "what_is_not_verified": "תוצאות המדויקות של התקיפות בשטח",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_idf",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/idf_telegram/25702",
-       "published_at": "2026-11-26T19:24:53+00:00"
+       "url": "https://t.me/abualiexpress/134324",
+       "published_at": "2026-11-27T09:23:24+00:00"
       }
      ],
      "places": [
       {
-       "name": "עין א-תינה",
-       "lat": 33.5021,
-       "lon": 35.6423
+       "name": "כפר תבנית, לבנון",
+       "lat": 33.3519,
+       "lon": 35.5186
       }
      ]
     },
     {
-     "id": "NORTH-11270140-02",
-     "title": "עימותים וטענות בסוריה סביב שילוב לוחמים זרים",
-     "summary": "ארגון לוחמים אוזבקים בסוריה האשים את שירותי המודיעין של ממשלת המעבר במעצרים ורדיפה.",
+     "id": "NORTH-11271010-02",
+     "title": "צה\"ל תקף עשרות רקטות וקני שיגור בדרום לבנון",
+     "summary": "דובר צה\"ל אישר כי בוצעה תקיפה של עשרות רקטות וקני שיגור במחנה אימונים בדרום לבנון.",
      "axis": "north",
-     "claim_type": "statement",
+     "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-26T19:37:16+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-26T19:37:16+00:00",
-     "last_update_at": "2026-11-26T19:37:16+00:00",
-     "what_is_not_verified": "הנתונים על מספר הלוחמים הזרים מבוססים על דיווח עיתונאי בלבד.",
+     "occurred_at": "2026-11-27T07:43:01+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-27T07:43:01+00:00",
+     "last_update_at": "2026-11-27T07:43:01+00:00",
+     "what_is_not_verified": "היקף הנזק המלא שנגרם לתשתיות הטרור",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_tg_carmel",
+       "source_id": "src_tg_abualiexpress",
        "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/alexmehacarmel/49947",
-       "published_at": "2026-11-26T19:37:16+00:00"
+       "url": "https://t.me/abualiexpress/134312",
+       "published_at": "2026-11-27T07:43:01+00:00"
       }
      ],
      "places": []
+    },
+    {
+     "id": "NORTH-11271010-03",
+     "title": "הריגת חיילים סורים בתקיפה בדאערא",
+     "summary": "משרד ההגנה הסורי דיווח על מותם של שני חיילים בצבא סוריה כתוצאה מתקיפה של חמושים בלתי מזוהים בצפון מחוז דאערא.",
+     "axis": "north",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-27T09:36:01+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-27T09:36:01+00:00",
+     "last_update_at": "2026-11-27T09:36:01+00:00",
+     "what_is_not_verified": "זהותם המדויקת של התוקפים",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_anadolu",
+       "source_root_id": "fh_da29584179d04d5e",
+       "url": "https://www.aa.com.tr/en/middle-east/2-syrian-soldiers-killed-in-attack-by-unidentified-assailants-in-daraa/4140139",
+       "published_at": "2026-11-27T09:36:01+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דאערא, סוריה",
+       "lat": 32.6228,
+       "lon": 36.1068
+      }
+     ]
+    }
+   ]
+  },
+  "ukraine": {
+   "events": [
+    {
+     "id": "UKRAINE-11271010-01",
+     "title": "הרוגים והפסקות חשמל כתוצאה מתקפות רוסיות באוקראינה",
+     "summary": "כוחות רוסיה שיגרו עשרות רבות של כטב\"מים ואמצעי תקיפה לעבר אוקראינה, מה שהוביל להרוגים, פצועים והפסקות חשמל במספר מחוזות.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-27T09:59:41+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-27T09:59:41+00:00",
+     "last_update_at": "2026-11-27T09:59:41+00:00",
+     "what_is_not_verified": "היקף פגיעות מדויק בכל אתר ואתר",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "fh_ecea8ce6b1106cd7",
+       "url": "https://kyivindependent.com/russian-attacks-kill-6-injure-25-across-ukraine-over-past-day-power-outages-across-6-oblasts/",
+       "published_at": "2026-11-27T09:59:41+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11271010-02",
+     "title": "מזכיר מועצת אירופה הגיע לביקור בקייב",
+     "summary": "אלן ברסה הגיע לקייב לפגישות עם הנהגת אוקראינה ודן בקידום שלום המבוסס על זכויות אדם.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-27T09:48:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-27T09:48:00+00:00",
+     "last_update_at": "2026-11-27T09:48:00+00:00",
+     "what_is_not_verified": "תוצאותיהן המעשיות של הפגישות שטרם התקיימו במלואן",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "fh_d942d4ff7fe9533c",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/27/8064935/",
+       "published_at": "2026-11-27T09:48:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11271010-03",
+     "title": "אוקראינה והבנק העולמי חתמו על הסכמי מימון בסך מיליוני דולרים",
+     "summary": "משרד הכלכלה האוקראיני והבנק העולמי חתמו על עסקאות מימון לתמיכה בעסקים מקומיים ובהלוואות לדיור.",
+     "axis": "ukraine",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-27T09:41:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-27T09:41:00+00:00",
+     "last_update_at": "2026-11-27T09:41:00+00:00",
+     "what_is_not_verified": "קצב מימוש הכספים בפועל",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "fh_ce011d8fe073b68d",
+       "url": "https://www.ukrinform.net/rubric-economy/4189179-business-support-affordable-mortgages-ukraine-world-bank-sign-agreements-worth-676-mln.html",
+       "published_at": "2026-11-27T09:41:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קייב, אוקראינה",
+       "lat": 50.45,
+       "lon": 30.5241
+      }
+     ]
+    }
+   ]
+  },
+  "yemen": {
+   "events": [
+    {
+     "id": "YEMEN-11271010-01",
+     "title": "התראה של האו\"ם על החמרה בסיכון לרעב",
+     "summary": "ארגוני האו\"ם הזהירו כי מצב הביטחון התזונתי צפוי להחמרי במספר מוקדים בעולם, ביניהם תימן, עקב סכסוכים וקשיים כלכליים.",
+     "axis": "yemen",
+     "claim_type": "assessment",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-27T09:46:28+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-27T09:46:28+00:00",
+     "last_update_at": "2026-11-27T09:46:28+00:00",
+     "what_is_not_verified": "היקף ההשפעה המדויק על כל אזור בנפרד",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_77dc7db7573c2c82",
+       "url": "https://www.al-monitor.com/originals/2026/11/un-warns-famine-risks-rising-hunger-hotspots-increase",
+       "published_at": "2026-11-27T09:46:28+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "רומא, איטליה",
+       "lat": 41.8933,
+       "lon": 12.4829
+      }
+     ]
     }
    ]
   }
