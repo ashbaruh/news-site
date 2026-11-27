@@ -554,6 +554,10 @@
 34.2549,
 35.6589
 ],
+"batumi, georgia": [
+41.651,
+41.636
+],
 "beaufort, lebanon": [
 33.3243,
 35.5321
@@ -1138,6 +1142,10 @@
 -2.2458
 ],
 "golan heights": null,
+"gomel region, belarus": [
+52.4029,
+30.9648
+],
 "gorgan, iran": [
 36.8377,
 54.4394
@@ -1815,6 +1823,10 @@
 "kutuzivka, ukraine": [
 47.3299,
 30.9476
+],
+"kuwait": [
+29.3797,
+47.9734
 ],
 "kuwait city, kuwait": [
 29.3797,
@@ -3135,6 +3147,7 @@
 ],
 "tsiporen outpost, ramim ridge, israel": null,
 "tsymbulova, russia": null,
+"tula oblast, russia": null,
 "tula, russia": [
 54.193,
 37.6175
