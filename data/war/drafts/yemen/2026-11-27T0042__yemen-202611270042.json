@@ -1,0 +1,288 @@
+{
+ "status": "draft",
+ "received_sha256_12": "fe4fbc3b4e2b",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 2,
+   "verified": 1,
+   "shared_root": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-27T00:42:42+00:00",
+  "window": {
+   "from": "2026-11-26T00:42:42+00:00",
+   "to": "2026-11-27T00:42:42+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611270042"
+  },
+  "summary": "הזירה בתימן כוללת תקיפות נמשכות של המיליציה החות'ית לעבר שטח סעודיה, כולל פגיעה במתקני זיקוק נפט בג'זאן ובראס תנורה וירי כטב\"מים וטילים בליסטיים, מול תגובות צבאיות ואוויריות מצד כוחות הקואליציה. במקביל, מתנהלים עימותים קרקעיים והפגזות באזורים שונים בתימן, כגון תעז, מאריב ואל-ג'וף, בין כוחות הממשלה המוכרת לבין החות'ים.",
+  "fronts": [
+   {
+    "name": "חזית תימן וסעודיה",
+    "status": "פעיל - תקיפות אוויריות, שיגור כטב\"מים וטילים, ועימותים קרקעיים"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11270042-01",
+    "title": "יירוט כטב\"ם בדרום סעודיה",
+    "summary": "הקואליציה הודיעה על ירוט והשמדת כטב\"ם ששיגרו החות'ים לכיוון דרום סעודיה.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T21:52:05+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T21:52:05+00:00",
+    "last_update_at": "2026-11-26T21:52:05+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_54d52b323c7c5577",
+      "url": "https://www.sabanew.net/viewstory/156583",
+      "published_at": "2026-11-26T21:52:05+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11270042-02",
+    "title": "תקיפה על מתקן זיקוק בג'זאן",
+    "summary": "החות'ים תקפו את בית הזיקוק בג'זאן שבסעודיה, כתוצאה מכך נהרג עובד נפאלי ונפצעו נוספים, וחלקים מהמתקן הושבתו זמנית.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T07:25:28+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T07:25:28+00:00",
+    "last_update_at": "2026-11-26T19:34:33+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_c814644401fea27a",
+      "url": "https://www.sabanew.net/viewstory/156582",
+      "published_at": "2026-11-26T19:34:33+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_c814644401fea27a",
+      "url": "https://www.newarab.com/news/iran-denies-deadly-kuwait-attack-houthis-target-saudi-refinery",
+      "published_at": "2026-11-26T16:55:02+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_bb0fe7292db1872e",
+      "url": "https://www.sabanew.net/viewstory/156545",
+      "published_at": "2026-11-26T14:55:20+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_c814644401fea27a",
+      "url": "https://www.newarab.com/news/drone-attack-kuwait-kills-two-italians",
+      "published_at": "2026-11-26T07:25:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'זאן, סעודיה",
+      "lat": 16.8947,
+      "lon": 42.558
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11270042-03",
+    "title": "עימותים וקרבות בתימן",
+    "summary": "כוחות הממשלה המוכרת בתימן דיווחו על עימותים עם כוחות חות'יים במאריב, אל-ג'וף ותעז, לצד נפגעים אזרחיים בעיר תעז.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T07:25:28+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-26T07:25:28+00:00",
+    "last_update_at": "2026-11-26T19:02:20+00:00",
+    "what_is_not_verified": "היקף הנפגעים המלא אינו מאומת לחלוטין מעבר לדיווחים המקומיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_472ab72af97bde57",
+      "url": "https://www.sabanew.net/viewstory/156580",
+      "published_at": "2026-11-26T19:02:20+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_472ab72af97bde57",
+      "url": "https://www.newarab.com/news/iran-denies-deadly-kuwait-attack-houthis-target-saudi-refinery",
+      "published_at": "2026-11-26T16:55:02+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_472ab72af97bde57",
+      "url": "https://www.newarab.com/news/drone-attack-kuwait-kills-two-italians",
+      "published_at": "2026-11-26T07:25:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "מאריב, תימן",
+      "lat": 15.4579,
+      "lon": 45.323
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11270042-04",
+    "title": "השמדת משגר טילים באל-חודיידה",
+    "summary": "הקואליציה הודיעה כי השמידה פלטפורמת שיגור של טילים בליסטיים במחוז אל-חודיידה.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T15:17:41+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T15:17:41+00:00",
+    "last_update_at": "2026-11-26T15:17:41+00:00",
+    "what_is_not_verified": "אין",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_81e0cc4553601354",
+      "url": "https://www.sabanew.net/viewstory/156549",
+      "published_at": "2026-11-26T15:17:41+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אל-חודיידה, תימן",
+      "lat": 14.7979,
+      "lon": 42.9545
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11270042-05",
+    "title": "תקיפת מתקני זיקוק בראס תנורה",
+    "summary": "דווח על תקיפה של החות'ים נגד מתקני זיקוק סעודיים באזור ראס תנורה לחופי המפרץ הפרסי.",
+    "axis": "תימן והחות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T07:25:28+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T07:25:28+00:00",
+    "last_update_at": "2026-11-26T16:55:02+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק אינו מאומת לחלוטין.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-denies-deadly-kuwait-attack-houthis-target-saudi-refinery",
+      "published_at": "2026-11-26T16:55:02+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134273",
+      "published_at": "2026-11-26T12:53:19+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/drone-attack-kuwait-kills-two-italians",
+      "published_at": "2026-11-26T07:25:28+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ראס תנורה, סעודיה",
+      "lat": 26.7074,
+      "lon": 50.0674
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "היקף הנזק המלא במתקני הזיקוק שהותקפו בסעודיה",
+   "מספר הנפגעים המדויק בעימותים הקרקעיים בתימן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3273,
+    "unit": "ILS",
+    "change_pct": -1.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-26T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "סיום ההפיכה והשתלטות מחדש על המדינה"
+    ],
+    "inferred": [
+     "שיבוש תשתיות אנרגיה וכלכלה בסעודיה",
+     "הפעלת לחץ צבאי במסגרת הזירה האזורית"
+    ],
+    "forecast": [
+     "המשך ניסיונות תקיפה לעבר מתקנים אסטרטגיים בסעודיה",
+     "המשך הלחימה הקרקעי מול כוחות הממשלה בתימן"
+    ]
+   },
+   {
+    "actor": "הקואליציה בהובלת סעודיה",
+    "declared": [
+     "הגנה על שטחי הממלכה וסיכול יכולות חות'יות"
+    ],
+    "inferred": [
+     "פגיעה ביכולות השיגור והייצור של החות'ים בתימן",
+     "שמירה על רציפות תפקוד מתקני האנרגיה"
+    ],
+    "forecast": [
+     "המשך תקיפות נגד תשתיות צבאיות של החות'ים",
+     "תגובה צבאית מיידית לכל ניסיון שיגור לשטח סעודיה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/drone-attack-kuwait-kills-two-italians",
+    "accessed_at": "2026-11-27T00:42:42+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/156549",
+    "accessed_at": "2026-11-27T00:42:42+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134273",
+    "accessed_at": "2026-11-27T00:42:42+00:00"
+   }
+  ]
+ }
+}

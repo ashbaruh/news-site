@@ -698,76 +698,271 @@ window.DB.war_published = {
   }
  },
  "ukraine": {
-  "draft": "drafts/ukraine/2026-11-26T0850__ukraine-202611260850.json",
+  "draft": "drafts/ukraine/2026-11-27T0040__ukraine-202611270040.json",
   "analysis": {
    "contract_version": 1,
    "arena": "ukraine",
-   "generated_at": "2026-11-26T08:50:17+00:00",
+   "generated_at": "2026-11-27T00:40:36+00:00",
    "window": {
-    "from": "2026-11-25T08:50:17+00:00",
-    "to": "2026-11-26T08:50:17+00:00"
+    "from": "2026-11-26T00:40:36+00:00",
+    "to": "2026-11-27T00:40:36+00:00"
    },
    "model": {
-    "name": "gemini-3.5-flash-lite",
-    "run_id": "ukraine-202611260850"
+    "name": "gemini-3.8-flash",
+    "run_id": "ukraine-202611270040"
    },
-   "summary": "הלחימה בין רוסיה לאוקראינה נמשכת בעצימות גבוהה תוך חילופי תקיפות אוויריות נרחבות ועצירת התקדמות משמעותית במשא ומתן מדיני. אוקראינה מתמודדת עם לחץ כבד בחזית הקרקעית ותקיפות על תשתיות ואזורי מגורים, אך במקביל ממשיכה לבצע תקיפות כטב\"מים וטילים לעבר בסיסים ומפעלים בתוך שטחי רוסיה, ומקבלת סיוע כלכלי וצבאי ממדינות המערב.",
+   "summary": "הלחימה בין רוסיה לאוקראינה מתאפיינת בהמשך חילופי מהלומות אוויריות, כאשר כוחות רוסיים תוקפים תשתיות ומטרות במחוזות דניפרופטרובסק וזפוריז'יה ונערכים למתקפה נרחבת, בעוד אוקראינה פוגעת במתקני דלק ובסיסים בעומק רוסיה. במקביל נרשמת מחלוקת באיחוד האירופי המעכבת אישור חבילת סיוע כספית משמעותית לקייב, לצד שיח מדיני מתגבר בוושינגטון לגבי תנאי פשרה עתידיים והפסקת אש סביב מתקנים רגישים.",
    "fronts": [
     {
-     "name": "חזית המזרח (גזרת פוקרובסק)",
-     "status": "פעיל ביותר ומרכז הלחימה הקרקעית"
+     "name": "מחוז דניפרופטרובסק (קריבי ריה וניקופול)",
+     "status": "מתקפות כטב\"מים רוסיות מסיביות נגד תשתיות חשמל, מים ומבנים אזרחיים"
     },
     {
-     "name": "תשתיות אנרגיה ועורף אוקראיני",
-     "status": "תחת מתקפות כטב\"מים וטילים בלתי פוסקות"
+     "name": "מחוז זפוריז'יה (והתחנה הגרעינית)",
+     "status": "תקיפות צבאיות לצד מגעים בינלאומיים של סבא\"א להפסקת אש מקומית סביב התחנה"
     },
     {
-     "name": "מרחב התעופה והבסיסים בעומק רוסיה",
-     "status": "מוקד לתקיפות כטב\"מים אוקראיניים"
+     "name": "חזית דונבאס (דונצק ודרוז'קיבקה)",
+     "status": "תקיפות הדדיות, פגיעות ברחפנים ושיבוש פינוי אזרחים עקב החמרה במצב הביטחוני"
+    },
+    {
+     "name": "עומק רוסיה (מחוז וולגוגרד)",
+     "status": "פגיעות אוקראיניות במתקני נפט ובשדה תעופה"
     }
    ],
    "events": [
     {
-     "id": "UKRAINE-11260850-01",
-     "title": "תקיפת כטב\"מים באזור המעשייה בנבינומוסק",
-     "summary": "שני בני אדם ביקשו טיפול רפואי בעקבות תקיפת כטב\"מים באזור התעשייה בנבינומוסק",
-     "axis": "תקיפות אוויריות בעומק רוסיה",
-     "claim_type": "incident",
+     "id": "UKRAINE-11270040-01",
+     "title": "פסגת האיחוד האירופי לא אישרה חבילת סיוע בסך 45 מיליארד אירו לאוקראינה",
+     "summary": "פסגת מנהיגי האיחוד האירופי לא הצליחה לאשר הלוואה כספית בסך 45 מיליארד אירו לשנת 2027 בשל עמדתן של הונגריה, צ'כיה וסלובקיה, וההחלטה נדחתה לחודש דצמבר.",
+     "axis": "סיוע בינלאומי",
+     "claim_type": "statement",
      "lifecycle": "active",
      "occurred_at": "2026-11-26T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T08:30:41+00:00",
-     "last_update_at": "2026-11-26T08:30:41+00:00",
-     "what_is_not_verified": "פרטים מלאים על היקף הנזק אינם מאומתים מלבד הפצועים",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-26T17:51:17+00:00",
+     "last_update_at": "2026-11-27T00:29:55+00:00",
+     "what_is_not_verified": "טרם אושר סופית מתווה הפשרה ופיצול מרכיבי ההלוואה בין רכיב צבאי לתקציבי לקראת חודש דצמבר.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tass",
-       "source_root_id": "or_tass",
-       "url": "https://tass.com/emergencies/2225101",
-       "published_at": "2026-11-26T08:30:41+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/world/2225609",
+       "published_at": "2026-11-27T00:29:55+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/26/8064867/",
+       "published_at": "2026-11-26T18:44:00+00:00"
+      },
+      {
+       "source_id": "src_guardian",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.theguardian.com/world/2026/nov/26/eu-leaders-braced-for-clashes-over-ukraine-aid-at-budget-talks",
+       "published_at": "2026-11-26T17:51:17+00:00"
       }
      ],
      "places": [
       {
-       "name": "נבינומוסק, רוסיה",
-       "lat": 44.6246,
-       "lon": 41.9476
+       "name": "בריסל, בלגיה",
+       "lat": 50.8467,
+       "lon": 4.3525
       }
      ]
     },
     {
-     "id": "UKRAINE-11260850-02",
-     "title": "יירוט כטב\"ם מונע סילון באמצעות לייזר אוקראיני",
-     "summary": "מערכת הגנה אווירית אוקראינית מבוססת לייזר בשם בליסק ייירטה כטב\"ם רוסי בעל מנוע סילון",
-     "axis": "הגנה אווירית וטכנולוגיה",
+     "id": "UKRAINE-11270040-02",
+     "title": "מגעים לקראת חילופי שבויים נוספים בין אוקראינה לרוסיה",
+     "summary": "אוקראינה נערכת לביצוע עסקת חילופי שבויי מלחמה נוספת, כך על פי הודעת הנשיא זלנסקי.",
+     "axis": "משא ומתן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-26T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-26T21:25:00+00:00",
+     "last_update_at": "2026-11-26T21:25:00+00:00",
+     "what_is_not_verified": "לא פורטו מועד העסקה ומספר השבויים הצפויים להשתחרר משני הצדדים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4189070-zelensky-announces-preparations-for-next-prisoner-exchange.html",
+       "published_at": "2026-11-26T21:25:00+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11270040-03",
+     "title": "התרעה אוקראינית מפני מתקפה רוסית נרחבת על תשתיות האנרגיה",
+     "summary": "הנשיא זלנסקי הזהיר כי רוסיה נערכת למתקפה אווירית רחבת היקף נוספת על תשתיות המדינה בימים הקרובים, וקרא לתושבים להישמע לאזעקות.",
+     "axis": "עורף אוקראינה",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-26T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-26T19:02:25+00:00",
+     "last_update_at": "2026-11-26T20:39:45+00:00",
+     "what_is_not_verified": "היקף המתקפה המדויק ועיתויה הספציפי אינם מאומתים מעבר להתרעות המודיעין.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49948",
+       "published_at": "2026-11-26T20:39:45+00:00"
+      },
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4189052-zelensky-warns-russia-is-preparing-new-largescale-attack.html",
+       "published_at": "2026-11-26T20:02:00+00:00"
+      },
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/ukraine-war-latest-north-korea-halts-military-aid-to-russia-ukrainian-intelligence-says/",
+       "published_at": "2026-11-26T19:02:25+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11270040-04",
+     "title": "תקיפות כטב\"מים רוסיים במחוז דניפרופטרובסק",
+     "summary": "כוחות רוסיים ביצעו מעל 50 תקיפות באמצעות כטב\"מים בשני מחוזות משנה, אשר גרמו לפגיעה בתשתיות אזרחיות, מבני תעשייה, רשתות מים וחשמל.",
+     "axis": "חזית המזרח",
      "claim_type": "incident",
      "lifecycle": "active",
-     "occurred_at": "2026-11-26T08:29:53+00:00",
+     "occurred_at": "2026-11-26T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-26T17:06:00+00:00",
+     "last_update_at": "2026-11-26T17:06:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/26/8064855/",
+       "published_at": "2026-11-26T17:06:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "קריבי ריה, אוקראינה",
+       "lat": 47.9103,
+       "lon": 33.3918
+      },
+      {
+       "name": "ניקופול, אוקראינה",
+       "lat": 47.5692,
+       "lon": 34.3917
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11270040-05",
+     "title": "התקפה רוסית על העיר זפוריז'יה גרמה לנפגעים",
+     "summary": "אדם אחד נהרג וארבעה נוספים נפצעו כתוצאה ממתקפה שביצעו כוחות רוסיים על העיר זפוריז'יה.",
+     "axis": "חזית הדרום",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-26T17:59:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-26T17:59:00+00:00",
+     "last_update_at": "2026-11-26T17:59:00+00:00",
+     "what_is_not_verified": "לא צוין — יש להתייחס כלא מאומת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_ukrinform",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.ukrinform.net/rubric-ato/4189009-russian-attack-on-zaporizhzhia-kills-one-injures-four.html",
+       "published_at": "2026-11-26T17:59:00+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "זפוריז'יה, אוקראינה",
+       "lat": 47.8508,
+       "lon": 35.1183
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11270040-06",
+     "title": "תקיפות כטב\"מים אוקראיניים על שטחי דונצק שבשליטת רוסיה",
+     "summary": "רוסיה דיווחה כי ארבעה בני אדם נהרגו ושישה נפצעו כתוצאה ממתקפות רחפנים אוקראיניות, אשר גרמו נזק למבני מגורים ותשתיות.",
+     "axis": "חזית דונבאס",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-26T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-26T23:56:33+00:00",
+     "last_update_at": "2026-11-26T23:56:33+00:00",
+     "what_is_not_verified": "אין אימות עצמאי של גורמי צד שלישי להיקף הנפגעים והנזק שדווחו במחוז.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/emergencies/2225599",
+       "published_at": "2026-11-26T23:56:33+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "דונצק, אוקראינה",
+       "lat": 48.0159,
+       "lon": 37.8013
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11270040-07",
+     "title": "הסוכנות הבינלאומית לאנרגיה אטומית במגעים להפסקת אש סביב תחנת הכוח זפוריז'יה",
+     "summary": "מנכ\"ל סבא\"א רפאל גרוסי מנהל מגעים מול רוסיה ואוקראינה בניסיון להשיג הפסקת אש באזור התחנה כדי לאפשר תיקון קווי חשמל חיוניים.",
+     "axis": "משא ומתן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-26T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-26T22:19:35+00:00",
+     "last_update_at": "2026-11-26T22:19:35+00:00",
+     "what_is_not_verified": "לא נקבע אם הצדדים יסכימו להפוגה מקומית לביצוע התיקונים.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_tass",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://tass.com/world/2225589",
+       "published_at": "2026-11-26T22:19:35+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "אנרהודר, אוקראינה",
+       "lat": 47.4901,
+       "lon": 34.6603
+      }
+     ]
+    },
+    {
+     "id": "UKRAINE-11270040-08",
+     "title": "יירוט מבצעי ראשון של כטב\"ם סילוני באמצעות מערכת לייזר אוקראינית",
+     "summary": "גורמים אוקראיניים רשמיים דיווחו כי מערכת ההגנה בלייזר 'בליסק' יירטה בהצלחה כטב\"ם סילוני רוסי מסוג גראן בניסוי מבצעי.",
+     "axis": "טכנולוגיה והגנה אווירית",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-26T00:00:00+00:00",
      "is_ongoing": false,
      "first_reported_at": "2026-11-26T08:29:53+00:00",
      "last_update_at": "2026-11-26T08:29:53+00:00",
-     "what_is_not_verified": "היעילות המבצעית הרחבה של המערכת, שכן היא נמצאת בשלב ניסויים",
+     "what_is_not_verified": "היירוט מבוסס על הצהרות גורמים רשמיים מקומיים ללא אימות טכני עצמאי בלתי תלוי.",
      "is_new_in_window": true,
      "reports": [
       {
@@ -780,201 +975,82 @@ window.DB.war_published = {
      "places": []
     },
     {
-     "id": "UKRAINE-11260850-03",
-     "title": "פגיעה במפעל התעשייה הביטחונית בקייב",
-     "summary": "משרד ההגנה הרוסי דיווח על פגיעה במפעל התעשייתי חימוולוקנו בקייב שייצר רכיבי ראשי קרב לכטב\"מים",
-     "axis": "תקיפות באוקראינה",
+     "id": "UKRAINE-11270040-09",
+     "title": "תקיפות אוקראיניות על מתקני נפט ושדה תעופה במחוז וולגוגרד ברוסיה",
+     "summary": "המטה הכללי של אוקראינה אישר כי כוחותיו תקפו שני מתקני נפט ושדה תעופה במחוז וולגוגרד שבשטח הפדרציה הרוסית.",
+     "axis": "עומק רוסיה",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-26T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-26T08:27:22+00:00",
-     "last_update_at": "2026-11-26T08:27:22+00:00",
-     "what_is_not_verified": "היקף הנזק המדויק במפעל",
+     "first_reported_at": "2026-11-26T19:02:25+00:00",
+     "last_update_at": "2026-11-26T19:02:25+00:00",
+     "what_is_not_verified": "מידת הנזק המדויקת שנגרמה במתקנים אינה מפורטת.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_kyivind",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://kyivindependent.com/ukraine-war-latest-north-korea-halts-military-aid-to-russia-ukrainian-intelligence-says/",
+       "published_at": "2026-11-26T19:02:25+00:00"
+      }
+     ],
+     "places": []
+    },
+    {
+     "id": "UKRAINE-11270040-10",
+     "title": "מגעים דיפלומטיים והצהרות סביב תנאי סיום הלחימה וערבויות ביטחון",
+     "summary": "הנשיא טראמפ דיווח על שיחותיו עם פוטין ופגישתו עם מזכ\"ל נאט\"ו לסיום המלחמה, בעוד במוסקבה מתנגדים למתן ערבויות ביטחוניות לאוקראינה במודל סעיף 5 של נאט\"ו.",
+     "axis": "משא ומתן",
+     "claim_type": "statement",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-26T00:00:00+00:00",
+     "is_ongoing": true,
+     "first_reported_at": "2026-11-26T14:19:52+00:00",
+     "last_update_at": "2026-11-27T00:23:28+00:00",
+     "what_is_not_verified": "פרטי הפשרות וההצעות שהועלו בשיחות סגורות לגבי חילופי שטחים או ערבויות.",
      "is_new_in_window": true,
      "reports": [
       {
        "source_id": "src_tass",
        "source_root_id": "or_unknown_origin",
-       "url": "https://tass.com/politics/2225093",
-       "published_at": "2026-11-26T08:27:22+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11260850-04",
-     "title": "עימותים בגזרת הקו החזית",
-     "summary": "תועדו 167 עימותים צבאיים לאורך קו החזית ביממה האחרונה, כאשר גזרת פוקרובסק ממשיכה להיות המוקד הלוהט ביותר",
-     "axis": "קו החזית הקרקעי",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-25T00:00:00+00:00",
-     "is_ongoing": true,
-     "first_reported_at": "2026-11-26T08:17:00+00:00",
-     "last_update_at": "2026-11-26T08:17:00+00:00",
-     "what_is_not_verified": "המספר המדויק של נפגעים בכל עימות",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_d47a1b2205f6cee7",
-       "url": "https://www.ukrinform.net/rubric-ato/4188741-167-clashes-reported-along-front-line-in-past-24-hours-with-pokrovsk-sector-remaining-hottest-spot.html",
-       "published_at": "2026-11-26T08:17:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "פוקרובסק, אוקראינה",
-       "lat": 48.2771,
-       "lon": 37.1772
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11260850-05",
-     "title": "סיכול פיגוע נגד איש ביטחון רוסי בסוצ'י",
-     "summary": "השירות הפדרלי של רוסיה דיווח על סיכול מזימת טרור נגד אזרח רוסי בסוצ'י",
-     "axis": "סיכול טרור ומודיעין",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T07:29:11+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T07:29:11+00:00",
-     "last_update_at": "2026-11-26T07:29:11+00:00",
-     "what_is_not_verified": "פרטי המזימה המלאים והזהות המדויקת של המעורבים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_tass",
-       "source_root_id": "fh_c11ce179c41bd18e",
-       "url": "https://tass.com/society/2225065",
-       "published_at": "2026-11-26T07:29:11+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "סוצ'י, רוסיה",
-       "lat": 43.5855,
-       "lon": 39.7231
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11260850-06",
-     "title": "השגת מימון בריטי להקמת חוות רוחות באוקראינה",
-     "summary": "בריטניה מתחייבת להשקיע מיליונים בהקמת חוות רוחות באוקראינה לחיזוק מערכת האנרגיה",
-     "axis": "סיוע כלכלי ותשתיות",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T05:00:46+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T05:00:46+00:00",
-     "last_update_at": "2026-11-26T07:27:00+00:00",
-     "what_is_not_verified": "המיקום המדויק של חוות הרוחות מטעמי ביטחון",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_pravda_ua",
-       "source_root_id": "or_european_pravda",
-       "url": "https://www.pravda.com.ua/eng/news/2026/11/26/8064733/",
-       "published_at": "2026-11-26T07:27:00+00:00"
-      },
-      {
-       "source_id": "src_guardian",
-       "source_root_id": "or_european_pravda",
-       "url": "https://www.theguardian.com/business/2026/nov/26/uk-to-invest-95m-in-ukraine-windfarm-war-hit-energy-system",
-       "published_at": "2026-11-26T05:00:46+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "קייב, אוקראינה",
-       "lat": 50.45,
-       "lon": 30.5241
-      },
-      {
-       "name": "אודסה, אוקראינה",
-       "lat": 46.4843,
-       "lon": 30.7323
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11260850-07",
-     "title": "פגיעת כטב\"ם בבניין מגורים בחארקוב",
-     "summary": "שני בני אדם נהרגו כתוצאה מפגיעת כטב\"ם רוסי בבניין מגורים רב קומות במחוז נובוסוורסקי בחארקוב",
-     "axis": "תקיפות באוקראינה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T07:27:00+00:00",
-     "last_update_at": "2026-11-26T07:27:00+00:00",
-     "what_is_not_verified": "מספר הפצועים המלא מעבר להרוגים",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_ukrinform",
-       "source_root_id": "fh_6bec521d447c7dda",
-       "url": "https://www.ukrinform.net/rubric-ato/4188730-drone-strike-on-highrise-building-in-kharkiv-kills-two-people.html",
-       "published_at": "2026-11-26T07:27:00+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "חארקוב, אוקראינה",
-       "lat": 49.9923,
-       "lon": 36.231
-      }
-     ]
-    },
-    {
-     "id": "UKRAINE-11260850-08",
-     "title": "תקיפת בסיס התעופה סבאסלייקה",
-     "summary": "כוחות אוקראינה תקפו את בסיס התעופה סבאסלייקה במחוז ניז'ני נובגורוד ופגעו במספר מטוסי קרב",
-     "axis": "תקיפות אוויריות בעומק רוסיה",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-24T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-25T12:08:29+00:00",
-     "last_update_at": "2026-11-25T14:46:41+00:00",
-     "what_is_not_verified": "מצבם המדויק של המטוסים שנפגעו",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "or_bbc",
-       "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-11-25T14:46:41+00:00"
+       "url": "https://tass.com/world/2225607",
+       "published_at": "2026-11-27T00:23:28+00:00"
       },
       {
        "source_id": "src_tg_carmel",
-       "source_root_id": "or_bbc",
-       "url": "https://t.me/alexmehacarmel/49911",
-       "published_at": "2026-11-25T12:08:29+00:00"
+       "source_root_id": "or_unknown_origin",
+       "url": "https://t.me/alexmehacarmel/49941",
+       "published_at": "2026-11-26T18:15:25+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/11/26/russia-opposes-granting-ukraine-security-guarantees-modeled-on-nato-s-article-5-rbc-ukraine-reports",
+       "published_at": "2026-11-26T17:00:52+00:00"
+      },
+      {
+       "source_id": "src_pravda_ua",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/26/8064852/",
+       "published_at": "2026-11-26T16:39:00+00:00"
+      },
+      {
+       "source_id": "src_meduza",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://meduza.io/en/news/2026/11/26/trump-envoy-jared-kushner-calls-putin-a-historic-figure-and-a-grandmaster-of-politics-praises-his-deep-understanding-of-the-issues",
+       "published_at": "2026-11-26T14:19:52+00:00"
       }
      ],
-     "places": [
-      {
-       "name": "סבאסלייקה, רוסיה",
-       "lat": 55.4552,
-       "lon": 42.3116
-      }
-     ]
+     "places": []
     }
    ],
    "not_verified": [
-    "טענות על היקף האבידות המדויק של הצדדים",
-    "טענות סותרות סביב ניסיון התקיפה לכאורה על מעון פוטין בוולדאי",
-    "ההיתכנות המבצעית והמשפטית של יירוט טילי רוסיה על ידי נאט\"ו משטח פולין"
+    "טענת המודיעין האוקראיני על הפסקת הסיוע הצבאי מצפון קוריאה לרוסיה",
+    "הטענה לפיה ישראל סייעה לכוחות אוקראיניים בלוב לתקוף ספינות רוסיות באמצעי לוחמה אלקטרונית (אין כל ראיה)",
+    "דיווחים על הסכמה חשאית רוסית לכאורה למתן ערבויות בסגנון סעיף 5 של נאט\"ו לאוקראינה",
+    "מספר האבדות הרוסיות המוערך במחקר הגרדיאן המבוסס על תעודות פטירה שהושגו בפריצה",
+    "אומדן הנזק וההוצאות העודפות של כלכלת רוסיה בסך 190 מיליארד דולר"
    ],
    "map": {
     "confidence": "high",
@@ -985,109 +1061,122 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "אירו/דולר",
-     "value": 1.0935,
+     "value": 1.0975,
      "unit": "USD",
-     "change_pct": -0.26,
+     "change_pct": 0.37,
      "source_id": "src_ecb",
-     "as_of": "2026-11-25T15:00:00+00:00"
+     "as_of": "2026-11-26T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
-     "actor": "רוסיה",
+     "actor": "אוקראינה",
      "declared": [
-      "השגת יעדי המבצע הצבאי והחלשת התעשייה הצבאית האוקראינית"
+      "השגת חבילות נשק וסיוע להגנה על תשתיות קריטיות מפני כטב\"מים",
+      "הצטרפות מלאה לברית נאט\"ו כערובה ביטחונית ראשית",
+      "השבת כל שבויי המלחמה והילדים שנלקחו"
      ],
      "inferred": [
-      "שחיקת היכולות הכלכליות והצבאיות של אוקראינה באמצעות מתקפות בלתי פוסקות על תשתיות",
-      "הורדת המוטיבציה של המערב להמשיך ולתמוך באוקראינה"
+      "פגיעה ממוקדת במתקני נפט ובסיסי אוויר בעומק רוסיה לפגיעה במאמץ המלחמתי",
+      "בניית יכולות הגנה עצמאיות מבוססות טכנולוגיה מקומית כדוגמת לייזר ורחפנים"
      ],
      "forecast": [
-      "המשך לחץ צבאי בחפירות ובמוקדי החזית המרכזיים עד להשגת הישגים טריטוריאליים נוספים"
+      "המשך לחץ אינטנסיבי על מדינות המערב לקבלת מימון ומערכות יירוט טרם החורף"
      ]
     },
     {
-     "actor": "אוקראינה",
+     "actor": "רוסיה",
      "declared": [
-      "הגנה על ריבונות המדינה ושחרור שטחים כבושים",
-      "קבלת מערכות הגנה מתקדמות וסיוע כלכלי לשיקום תשתיות"
+      "התנגדות מוחלטת לקבלת אוקראינה לנאט\"ו או להענקת ערבויות ביטחון דמויות סעיף 5",
+      "רצון להביא להסדר המסיים את העימות לפי תנאיה"
      ],
      "inferred": [
-      "העברת הלחימה לעומק השטח הרוסי באמצעות כטב\"מים ופגיעה במתקנים צבאיים ותעשייתיים",
-      "בניית יכולות הגנה אוויריות עצמאיות חדשניות"
+      "שיבוש ופגיעה מערכתית בתשתיות האנרגיה של אוקראינה כדי להתיש את כושר עמידתה",
+      "המשך תקיפות ממוקדות באזורי החזית לקיבוע שליטה בשטחים במזרח"
      ],
      "forecast": [
-      "המשך פיתוח אמצעי לחימה טכנולוגיים וחיזוק התשתיות האנרגטיות בעזרת שותפות בינלאומיות"
+      "הוצאה לפועל של מתקפה משולבת נוספת על רשת האנרגיה האוקראינית בטווח הקצר"
      ]
     }
    ],
    "sources_cited": [
     {
-     "source_id": "src_bbc",
-     "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-11-26T08:50:17+00:00"
+     "source_id": "src_guardian",
+     "url": "https://www.theguardian.com/world/2026/nov/26/eu-leaders-braced-for-clashes-over-ukraine-aid-at-budget-talks",
+     "accessed_at": "2026-11-27T00:40:36+00:00"
     },
     {
-     "source_id": "src_guardian",
-     "url": "https://www.theguardian.com/business/2026/nov/26/uk-to-invest-95m-in-ukraine-windfarm-war-hit-energy-system",
-     "accessed_at": "2026-11-26T08:50:17+00:00"
+     "source_id": "src_kyivind",
+     "url": "https://kyivindependent.com/ukraine-war-latest-north-korea-halts-military-aid-to-russia-ukrainian-intelligence-says/",
+     "accessed_at": "2026-11-27T00:40:36+00:00"
+    },
+    {
+     "source_id": "src_meduza",
+     "url": "https://meduza.io/en/news/2026/11/26/trump-envoy-jared-kushner-calls-putin-a-historic-figure-and-a-grandmaster-of-politics-praises-his-deep-understanding-of-the-issues",
+     "accessed_at": "2026-11-27T00:40:36+00:00"
     },
     {
      "source_id": "src_pravda_ua",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/26/8064733/",
-     "accessed_at": "2026-11-26T08:50:17+00:00"
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/26/8064852/",
+     "accessed_at": "2026-11-27T00:40:36+00:00"
     },
     {
      "source_id": "src_tass",
-     "url": "https://tass.com/society/2225065",
-     "accessed_at": "2026-11-26T08:50:17+00:00"
+     "url": "https://tass.com/world/2225607",
+     "accessed_at": "2026-11-27T00:40:36+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
      "url": "https://t.me/abualiexpress/134257",
-     "accessed_at": "2026-11-26T08:50:17+00:00"
+     "accessed_at": "2026-11-27T00:40:36+00:00"
     },
     {
      "source_id": "src_tg_carmel",
-     "url": "https://t.me/alexmehacarmel/49911",
-     "accessed_at": "2026-11-26T08:50:17+00:00"
+     "url": "https://t.me/alexmehacarmel/49941",
+     "accessed_at": "2026-11-27T00:40:36+00:00"
     },
     {
      "source_id": "src_ukrinform",
-     "url": "https://www.ukrinform.net/rubric-ato/4188730-drone-strike-on-highrise-building-in-kharkiv-kills-two-people.html",
-     "accessed_at": "2026-11-26T08:50:17+00:00"
+     "url": "https://www.ukrinform.net/rubric-ato/4189009-russian-attack-on-zaporizhzhia-kills-one-injures-four.html",
+     "accessed_at": "2026-11-27T00:40:36+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-25T00:40:57+00:00",
+  "previous_generated_at": "2026-11-26T08:50:17+00:00",
   "changes": {
-   "UKRAINE-11260850-01": {
+   "UKRAINE-11270040-01": {
     "kind": "new"
    },
-   "UKRAINE-11260850-02": {
+   "UKRAINE-11270040-02": {
     "kind": "new"
    },
-   "UKRAINE-11260850-03": {
+   "UKRAINE-11270040-03": {
+    "kind": "new"
+   },
+   "UKRAINE-11270040-04": {
+    "kind": "new"
+   },
+   "UKRAINE-11270040-05": {
+    "kind": "new"
+   },
+   "UKRAINE-11270040-06": {
+    "kind": "new"
+   },
+   "UKRAINE-11270040-07": {
+    "kind": "new"
+   },
+   "UKRAINE-11270040-08": {
     "kind": "same",
-    "from": "shared_root",
+    "from": "initial",
     "to": "initial",
-    "prev": "פגיעה בקייב מרסיסי מל\"ט",
-    "score": 0.817
+    "prev": "יירוט כטב\"ם מונע סילון באמצעות לייזר אוקראיני",
+    "score": 1.0
    },
-   "UKRAINE-11260850-04": {
+   "UKRAINE-11270040-09": {
     "kind": "new"
    },
-   "UKRAINE-11260850-05": {
-    "kind": "new"
-   },
-   "UKRAINE-11260850-06": {
-    "kind": "new"
-   },
-   "UKRAINE-11260850-07": {
-    "kind": "new"
-   },
-   "UKRAINE-11260850-08": {
+   "UKRAINE-11270040-10": {
     "kind": "new"
    }
   }
