@@ -1,0 +1,276 @@
+{
+ "status": "draft",
+ "received_sha256_12": "bf77d48ac4c7",
+ "preview": {
+  "events": 4,
+  "levels": {
+   "shared_root": 3,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-27T19:40:29+00:00",
+  "window": {
+   "from": "2026-11-26T19:40:29+00:00",
+   "to": "2026-11-27T19:40:29+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "yemen-202611271940"
+  },
+  "summary": "הלחימה בתימן ובאזור המפרץ נמשכת ביתר שאת, כאשר החות'ים מבצעים תקיפות נגד תשתיות אנרגיה וערים בסעודיה, והקואליציה בהובלת סעודיה משיבה בתקיפות אוויריות נרחבות בשטחים שבשליטת החות'ים. במקביל, חברות 'ברית מכה' (סעודיה, פקיסטן וטורקיה) מהדקות את שיתוף הפעולה הצבאי וההגנתי ביניהן לנוכח האיומים הללו.",
+  "fronts": [
+   {
+    "name": "חזית תימן וסעודיה",
+    "status": "פעילה"
+   },
+   {
+    "name": "הים האדום ומצר באב אל-מנדב",
+    "status": "פעילה"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11271940-01",
+    "title": "פגישת ברית הסכמת מכה באיסלאמבאד",
+    "summary": "נציגי פקיסטן, סעודיה וטורקיה נפגשו באיסלאמבאד כדי לדון בהסכם ההגנה המשותף שלהם, וגינו את התקיפות החות'יות נגד סעודיה תוך הבטחה להגן על ביטחון הממלכה.",
+    "axis": "סעודיה והקואליציה מול החות'ים",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T08:58:04+00:00",
+    "last_update_at": "2026-11-27T17:41:24+00:00",
+    "what_is_not_verified": "ההצהרות אינן מאומתות מעבר לכתוב במסמכים הרשמיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_7f12c76a6228a3ec",
+      "url": "https://www.aljazeera.com/news/2026/11/27/mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-arabia?traffic_source=rss",
+      "published_at": "2026-11-27T17:41:24+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_7f12c76a6228a3ec",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/mecca-pact-members-meet-islamabad-condemn-houthi-attacks-saudi-arabia",
+      "published_at": "2026-11-27T17:29:50+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_7f12c76a6228a3ec",
+      "url": "https://www.newarab.com/news/erdogan-completes-turkeys-ratification-mecca-pact",
+      "published_at": "2026-11-27T08:58:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "איסלאמבאד, פקיסטן",
+      "lat": 33.6938,
+      "lon": 73.0652
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11271940-02",
+    "title": "תקיפה על מתקן זיקוק נפט בסעודיה",
+    "summary": "כוחות חות'ים תקפו מתקן זיקוק נפט באזור ג'זאן שבסעודיה, מה שגרם להשבתה זמנית של המתקן ולנפגעים.",
+    "axis": "סעודיה והקואליציה מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T07:29:58+00:00",
+    "last_update_at": "2026-11-27T16:49:23+00:00",
+    "what_is_not_verified": "פרטי הנזק המלאים אינם מאומתים באופן עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/kuwait-summons-iran-ambassador-saudi-arabia-strikes-sanaa",
+      "published_at": "2026-11-27T16:49:23+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-strike-kills-11-yemens-taiz",
+      "published_at": "2026-11-27T16:46:57+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-says-attack-kuwait-suspicious-offers-cooperate",
+      "published_at": "2026-11-27T07:29:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'זאן, סעודיה",
+      "lat": 16.8947,
+      "lon": 42.558
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11271940-03",
+    "title": "תקיפות אוויריות של סעודיה בתימן",
+    "summary": "חיל האוויר הסעודי והקואליציה תקפו את צנעא, מחוז סעדה, ומבנה מגורים באל-טורבה שבמחוז תעז, בתגובה להתקפות החות'יות.",
+    "axis": "סעודיה והקואליציה מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T07:29:58+00:00",
+    "last_update_at": "2026-11-27T16:49:23+00:00",
+    "what_is_not_verified": "מספר הנפגעים המדויק אינו מאומת ממקור ראשון סעודי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/kuwait-summons-iran-ambassador-saudi-arabia-strikes-sanaa",
+      "published_at": "2026-11-27T16:49:23+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-strike-kills-11-yemens-taiz",
+      "published_at": "2026-11-27T16:46:57+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-says-attack-kuwait-suspicious-offers-cooperate",
+      "published_at": "2026-11-27T07:29:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     },
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11271940-04",
+    "title": "יירוט כלי טיס בלתי מאויש מעל ריאד",
+    "summary": "הקואליציה בהובלת סעודיה דיווחה על יירוט והשמדה של כלי טיס בלתי מאויש ששוגר לעבר אזור ריאד או האזור הדרומי.",
+    "axis": "סעודיה והקואליציה מול החות'ים",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T21:52:05+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T21:52:05+00:00",
+    "last_update_at": "2026-11-27T16:46:57+00:00",
+    "what_is_not_verified": "לא מאומת מי עמד מאחורי השיגור באופן בלתי תלוי מעבר להודעת הקואליציה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_d13fb558324231bd",
+      "url": "https://www.newarab.com/news/saudi-strike-kills-11-yemens-taiz",
+      "published_at": "2026-11-27T16:46:57+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_d13fb558324231bd",
+      "url": "https://www.sabanew.net/viewstory/156613",
+      "published_at": "2026-11-27T13:14:04+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_54d52b323c7c5577",
+      "url": "https://www.sabanew.net/viewstory/156583",
+      "published_at": "2026-11-26T21:52:05+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "מספר הנפגעים המדויק בתקיפות הסעודיות בתעז",
+   "היקף הנזק המלא במתקן הזיקוק בג'זאן"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3094,
+    "unit": "ILS",
+    "change_pct": -0.54,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-27T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "החות'ים",
+    "declared": [
+     "פגיעה במטרות כלכליות ואסטרטגיות בסעודיה"
+    ],
+    "inferred": [
+     "הרחבת השליטה באזורים בתימן והפעלת לחץ על הממשלה המוכרת וסעודיה"
+    ],
+    "forecast": [
+     "המשך שיגור כטב\"מים וטילים לעבר סעודיה ומטרות ימיות"
+    ]
+   },
+   {
+    "actor": "סעודיה והקואליציה",
+    "declared": [
+     "הגנה על הביטחון, הריבונות והשלמות הטריטוריאלית של הממלכה",
+     "תמיכה בממשלת תימן המוכרת"
+    ],
+    "inferred": [
+     "בלימת ההתקדמות החות'ית ופגיעה ביכולותיהם הצבאיות והאוויריות"
+    ],
+    "forecast": [
+     "הידוק שיתופי פעולה אזוריים והגנה משותפת במסגרת בריתות הגנה"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/27/mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-arabia?traffic_source=rss",
+    "accessed_at": "2026-11-27T19:40:29+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/mecca-pact-members-meet-islamabad-condemn-houthi-attacks-saudi-arabia",
+    "accessed_at": "2026-11-27T19:40:29+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/saudi-strike-kills-11-yemens-taiz",
+    "accessed_at": "2026-11-27T19:40:29+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/156583",
+    "accessed_at": "2026-11-27T19:40:29+00:00"
+   }
+  ]
+ }
+}

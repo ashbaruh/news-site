@@ -1,0 +1,261 @@
+{
+ "status": "draft",
+ "received_sha256_12": "33d6f1a65d1d",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "initial": 4,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "ukraine",
+  "generated_at": "2026-11-27T19:37:41+00:00",
+  "window": {
+   "from": "2026-11-26T19:37:41+00:00",
+   "to": "2026-11-27T19:37:41+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "ukraine-202611271937"
+  },
+  "summary": "הלחימה באוקראינה נמשכת לאורך החזיתות השונות תוך כדי חילופי תקיפות אוויריות ופגיעות בתשתיות ובמאגרי דלק, במקביל למגעים דיפלומטיים ומאמצים בינלאומיים לגיוס סיוע כלכלי וצבאי רחב לקייב לקראת שנת 2027. צדדים שונים באירופה דנים במימון נוסף ובבניית בריתות תעשייתיות צבאיות, בעוד שמועלים קשיים בירוקרטיים ולוגיסטיים בהקמת מתקני ייצור.",
+  "fronts": [
+   {
+    "name": "חזית המזרח והצפון-מזרח (חארקוב ודונבאס)",
+    "status": "פעיל עם תקיפות והתנגשויות קרקעיות"
+   },
+   {
+    "name": "החזית הדרומית ומחוז זפוריז'יה",
+    "status": "פעיל עם פעולות פינוי ותקיפות נגד תשתיות צבאיות"
+   },
+   {
+    "name": "העורק הרוסי (עומק רוסיה ומחוזות סמוכים)",
+    "status": "תחת מתקפות כטב\"מים וטילים אוקראיניים ארוכי טווח"
+   }
+  ],
+  "events": [
+   {
+    "id": "UKRAINE-11271937-01",
+    "title": "תקיפה אוקראינית במתקן דלק ברוסיה",
+    "summary": "הצבא האוקראיני דיווח על פגיעה במתקן לייצור דלק טילי ומחסן דלק ברוסיה.",
+    "axis": "תקיפות והגנה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T18:36:27+00:00",
+    "last_update_at": "2026-11-27T18:36:27+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק אינו מאומת ממקור עצמאי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_kyivind",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://kyivindependent.com/ukraine-war-latest-ukraine-hits-missile-fuel-production-facility-in-russias-tula-oblast-military-says/",
+      "published_at": "2026-11-27T18:36:27+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11271937-02",
+    "title": "פגיעה במערכת הגנה אווירית ומחסנים בשטחים כבושים",
+    "summary": "כוחות ההגנה של אוקראינה תקפו מערכת טילים מדגם בוק-אם-3 ועמדות פיקוד ומחסנים בשטחים כבושים.",
+    "axis": "חזית הלחימה הקרקעית",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T18:22:00+00:00",
+    "last_update_at": "2026-11-27T18:22:00+00:00",
+    "what_is_not_verified": "טענות ההצלחה והתוצאות בשטח מבוססות על דיווח צבאי אוקראיני בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4189398-ukrainian-forces-strike-russias-latest-bukm3-air-defense-system-in-occupied-territory.html",
+      "published_at": "2026-11-27T18:22:00+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "UKRAINE-11271937-03",
+    "title": "חילופי אזרחים בין רוסיה לאוקראינה",
+    "summary": "התקיימו חילופי אזרחים שבהם הוחזרו אזרחים לאוקראינה ולרוסיה דרך מעבר גבול בבלארוס.",
+    "axis": "הומניטרי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T12:50:12+00:00",
+    "last_update_at": "2026-11-27T12:50:12+00:00",
+    "what_is_not_verified": "זהות כלל המעורבים ופרטים מלאים על המשתתפים לא צוינו במלואם.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "or_belta",
+      "url": "https://t.me/alexmehacarmel/49960",
+      "published_at": "2026-11-27T12:50:12+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "מחוז גומל, בלארוס",
+      "lat": 52.4029,
+      "lon": 30.9648
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11271937-04",
+    "title": "פינוי אזרחית ובעלי חיים מבלאבינה",
+    "summary": "כוחות משטרה ומתנדבים פינו תושבת ומספר בעלי חיים ממשלול לחימה באזור זפוריז'יה.",
+    "axis": "הומניטרי",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T18:18:00+00:00",
+    "last_update_at": "2026-11-27T18:18:00+00:00",
+    "what_is_not_verified": "לא צוינו פרטים מלאים על מצבם הבריאותי המדויק של כל בעלי החיים.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "fh_30fb99eed1265b70",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/27/8065039/",
+      "published_at": "2026-11-27T18:18:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בלאבינה, אוקראינה",
+      "lat": 47.7433,
+      "lon": 35.2191
+     },
+     {
+      "name": "מחוז זפוריז'יה, אוקראינה",
+      "lat": 46.4609,
+      "lon": 34.8643
+     }
+    ]
+   },
+   {
+    "id": "UKRAINE-11271937-05",
+    "title": "מתקפה רוסית על פיסוצ'ין במחוז חרקוב",
+    "summary": "מתקפה פגעה באזור פיסוצ'ין וגרמה לפצועים רבים, בהם ילדים.",
+    "axis": "תקיפות והגנה",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T17:16:00+00:00",
+    "last_update_at": "2026-11-27T17:45:00+00:00",
+    "what_is_not_verified": "סוג הנשק המדויק ששימש בתקיפה לא צוין באופן רשמי מוחלט.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_ukrinform",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.ukrinform.net/rubric-ato/4189394-russian-attack-on-pisochyn-in-kharkiv-region-leaves-eight-injured-including-three-children.html",
+      "published_at": "2026-11-27T17:45:00+00:00"
+     },
+     {
+      "source_id": "src_pravda_ua",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/27/8065024/",
+      "published_at": "2026-11-27T17:16:00+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "פיסוצ'ין, אוקראינה",
+      "lat": 49.9548,
+      "lon": 36.1039
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "טענות על השעיה מוחלטת או זמנית של שיתוף פעולה צבאי ואספקת טילים מצד צפון קוריאה לרוסיה מבוססות על מקורות מודיעין אוקראיניים בלבד ללא אישור רשמי מצד מוסקבה או פיונגיאנג.",
+   "ההצהרות בדבר תיאום מראש או היעדר תיאום סביב תקיפת כלי שיט בנמל בן גאזי בלִיביה נתונות במחלוקת בין אוקראינה לאיטליה.",
+   "הטענות על עצירת פרויקט הקמת מפעל התחמושת של ריינמטאל באוקראינה בשל חסמים בירוקרטיים טרם זכו לאישור סופי רשמי של החברה."
+  ],
+  "map": {
+   "confidence": "high",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "אירו/דולר",
+    "value": 1.0957,
+    "unit": "USD",
+    "change_pct": -0.16,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-27T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "אוקראינה",
+    "declared": [
+     "שמירה על אחדות אירופית וקבלת סיוע מאקרו-פיננסי וצבאי נרחב לשנת 2027",
+     "הרחבת הבריתות התעשייתיות בתחום הרחפנים והכלים הבלתי מאוישים"
+    ],
+    "inferred": [
+     "שימור יכולת התקיפה בעומק שטח רוסיה למרות מגבלות טכנולוגיות",
+     "גיוס משאבים בינלאומיים להתמודדות עם החורף הקרב ומערכות האנרגיה הפגועות"
+    ],
+    "forecast": [
+     "הגשת בקשות נוספות להרחבת שיתופי פעולה ביטחוניים באירופה",
+     "המשך מאמצים לסיכול התקדמות רוסית בחזית ופגיעה בלוגיסטיקה"
+    ]
+   },
+   {
+    "actor": "רוסיה",
+    "declared": [
+     "יצירת מסדרון ביטחוני בין שטחה לבין נאט\"ו",
+     "הגדלת תקציב הביטחון והתאמת המאמץ המלחמתי"
+    ],
+    "inferred": [
+     "המשך לחץ צבאי ופגיעה בתשתיות קריטיות באוקראינה להשגת הכרעה או שחיקה",
+     "מניעת הפצת מידע וצילומים על נזקי תקיפות בשטחה באמצעות החמרת צעדים משפטיים"
+    ],
+    "forecast": [
+     "הגברת התקיפות האוויריות המסיביות בתקופת החורף",
+     "המשך מאמצים דיפלומטיים לשימור בריתות אזוריות חלופיות"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_kyivind",
+    "url": "https://kyivindependent.com/ukraine-war-latest-ukraine-hits-missile-fuel-production-facility-in-russias-tula-oblast-military-says/",
+    "accessed_at": "2026-11-27T19:37:41+00:00"
+   },
+   {
+    "source_id": "src_pravda_ua",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/27/8065024/",
+    "accessed_at": "2026-11-27T19:37:41+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49960",
+    "accessed_at": "2026-11-27T19:37:41+00:00"
+   },
+   {
+    "source_id": "src_ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4189394-russian-attack-on-pisochyn-in-kharkiv-region-leaves-eight-injured-including-three-children.html",
+    "accessed_at": "2026-11-27T19:37:41+00:00"
+   }
+  ]
+ }
+}
