@@ -7,8 +7,8 @@
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-27T13:17:23+00:00",
-  "fetched_at": "2026-11-27T13:17:23+00:00"
+  "checked_at": "2026-11-27T14:17:19+00:00",
+  "fetched_at": "2026-11-27T14:17:19+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T13:17:34+00:00",
-  "fetched_at": "2026-11-27T13:17:34+00:00"
+  "checked_at": "2026-11-27T14:17:31+00:00",
+  "fetched_at": "2026-11-27T14:17:31+00:00"
  },
  "av_en": {
   "data": [
@@ -77,17 +77,17 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T13:17:36+00:00",
-  "fetched_at": "2026-11-27T13:17:36+00:00"
+  "checked_at": "2026-11-27T14:17:31+00:00",
+  "fetched_at": "2026-11-27T14:17:31+00:00"
  },
- "generated_at": "2026-11-27T13:17:36+00:00",
+ "generated_at": "2026-11-27T14:17:31+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "צרות בפינוי בינוי: החברה שמוכרת חצי מפרויקט ענק בנזיד עדשים",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001565180",
-     "date": "2026-11-27T10:26:00+00:00"
+     "title": "\"אנחנו עומדים בפני בינת־על\": אמנון שעשוע על המהפכה שמטלטלת את המדע",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001565258",
+     "date": "2026-11-27T13:31:00+00:00"
     },
     {
      "title": "הנשיא טראמפ: \"דיברתי עם נתניהו. אם נעשה משהו, בוודאות נתקוף את הר המכוש\"",
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-27T13:17:25+00:00",
-  "fetched_at": "2026-11-27T13:17:25+00:00"
+  "checked_at": "2026-11-27T14:17:20+00:00",
+  "fetched_at": "2026-11-27T14:17:20+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T13:17:25+00:00",
-  "fetched_at": "2026-11-27T13:17:25+00:00"
+  "checked_at": "2026-11-27T14:17:21+00:00",
+  "fetched_at": "2026-11-27T14:17:21+00:00"
  },
  "tv": {
   "data": [
@@ -2975,8 +2975,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T13:17:27+00:00",
-  "fetched_at": "2026-11-27T13:17:27+00:00"
+  "checked_at": "2026-11-27T14:17:22+00:00",
+  "fetched_at": "2026-11-27T14:17:22+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3190,12 +3190,19 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-27T13:17:27+00:00",
-  "fetched_at": "2026-11-27T13:17:27+00:00"
+  "checked_at": "2026-11-27T14:17:22+00:00",
+  "fetched_at": "2026-11-27T14:17:22+00:00"
  },
  "ai": {
   "data": {
    "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/israeli-employment-service-ai-replaces-software-developers/",
+     "date": "2026-11-25T09:06:53+00:00",
+     "launch": false,
+     "title": "דוח ה-AI של שירות התעסוקה: 211% יותר מתכנתים דורשי עבודה"
+    },
     {
      "source": "Google",
      "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
@@ -3206,45 +3213,44 @@
      "translated_by": "mymemory"
     }
    ],
-   "candidates": 1,
+   "candidates": 3,
    "failed_sources": [
-    "Anthropic",
-    "גיקטיים"
+    "Anthropic"
    ],
    "tools": [
     {
      "title": "pi-H3",
      "desc_en": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
      "desc_he": "סרטון Minimax H3 ב-2–4 שלבים ללא מפענח VAE",
-     "likes": 196,
+     "likes": 198,
      "link": "https://huggingface.co/spaces/Lakonik/pi-H3"
     },
     {
      "title": "MiniMax-H3-Image",
      "desc_en": "Text-to-image and multi-image editing in 6 steps",
      "desc_he": "עריכת טקסט לתמונה וריבוי תמונות ב-6 שלבים",
-     "likes": 379,
+     "likes": 380,
      "link": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image"
     },
     {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 871,
+     "likes": 873,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
      "title": "Krea 2 Turbo Revamped: Image Editor",
      "desc_en": "Edit one image from a prompt. Keep the look consistent.",
      "desc_he": "ערוך תמונה אחת מתוך הנחיה. שמור על המראה עקבי.",
-     "likes": 198,
+     "likes": 199,
      "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 570,
+     "likes": 571,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -3265,8 +3271,15 @@
      "title": "Scaling swarms to thousands of agents",
      "desc_en": "A field report from building PyBot",
      "desc_he": "דוח שטח מבניית PyBot",
-     "likes": 49,
+     "likes": 50,
      "link": "https://huggingface.co/spaces/HuggingFaceSwarms/scaling-swarms"
+    },
+    {
+     "title": "Looped transformers: thinking twice with the same weights",
+     "desc_en": "How looped transformers work, tested on tiny models",
+     "desc_he": "כיצד פועלים שנאים בלולאה, נבדק על דגמים זעירים",
+     "likes": 43,
+     "link": "https://huggingface.co/spaces/dlouapre/looped-transformers"
     },
     {
      "title": "Voice Isolator",
@@ -3274,19 +3287,12 @@
      "desc_he": "הסר רעשי רקע מדיבור, מקבצים או בשידור חי",
      "likes": 64,
      "link": "https://huggingface.co/spaces/mrfakename/voice-isolator"
-    },
-    {
-     "title": "Looped transformers: thinking twice with the same weights",
-     "desc_en": "How looped transformers work, tested on tiny models",
-     "desc_he": "כיצד פועלים שנאים בלולאה, נבדק על דגמים זעירים",
-     "likes": 40,
-     "link": "https://huggingface.co/spaces/dlouapre/looped-transformers"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-27T13:17:33+00:00",
-  "fetched_at": "2026-11-27T13:17:33+00:00"
+  "checked_at": "2026-11-27T14:17:30+00:00",
+  "fetched_at": "2026-11-27T14:17:30+00:00"
  },
  "abroad": {
   "data": {
@@ -3639,8 +3645,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-27T13:17:31+00:00",
-  "fetched_at": "2026-11-27T13:17:31+00:00"
+  "checked_at": "2026-11-27T14:17:25+00:00",
+  "fetched_at": "2026-11-27T14:17:25+00:00"
  },
  "idf": {
   "data": [
@@ -3670,103 +3676,107 @@
     "date": "2026-11-26T14:28:46+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-27T13:17:31+00:00",
-  "fetched_at": "2026-11-27T12:17:35+00:00"
+  "ok": true,
+  "checked_at": "2026-11-27T14:17:26+00:00",
+  "fetched_at": "2026-11-27T14:17:26+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-27T12:57:00+00:00",
-    "seen_at": "2026-11-27T13:17:36+00:00",
+    "newest": "2026-11-27T13:58:00+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-27T12:03:00+00:00",
-    "seen_at": "2026-11-27T13:17:36+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-27T10:55:00+00:00",
-    "seen_at": "2026-11-27T13:17:36+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-27T10:00:00+00:00",
-    "seen_at": "2026-11-27T13:17:36+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-27T12:30:00+00:00",
-    "seen_at": "2026-11-27T13:17:36+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-27T14:13:00+00:00",
-    "seen_at": "2026-11-27T13:17:36+00:00",
+    "newest": "2026-11-27T15:03:00+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-27T13:04:00+00:00",
-    "seen_at": "2026-11-27T13:17:36+00:00",
+    "newest": "2026-11-27T14:00:00+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-27T10:18:28+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-24T13:07:53+00:00",
-    "seen_at": "2026-11-27T13:17:36+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-24T16:00:00+00:00",
-    "seen_at": "2026-11-27T13:17:36+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-27T09:15:17+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "newest": "2026-11-27T13:29:51+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-27T13:17:36+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-27T13:14:59+00:00",
-    "seen_at": "2026-11-27T13:17:36+00:00",
+    "newest": "2026-11-27T13:38:01+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
-    "newest": "2026-11-27T12:11:41+00:00",
-    "seen_at": "2026-11-27T13:17:36+00:00",
+    "newest": "2026-11-27T13:59:14+00:00",
+    "seen_at": "2026-11-27T14:17:31+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-27T13:17:36+00:00"
+  "checked_at": "2026-11-27T14:17:31+00:00"
  },
  "health_news": {
   "data": [
+   {
+    "title": "מבדיקה מוקדמת לטיפול מותאם: הגישה של מדיקה רפאל לסרטן הערמונית",
+    "link": "https://www.walla.co.il/healthy/health-news/383963015",
+    "date": "2026-11-27T13:59:14+00:00"
+   },
    {
     "title": "מקרה כלבת נוסף בצפון: המקרה השלישי מאז מות הצעירה",
     "link": "https://www.walla.co.il/news/health-news/383963406",
@@ -3911,15 +3921,10 @@
     "title": "ציפורן חודרנית שחוזרת שוב ושוב: למה זה קורה ואיך מטפלים בזה לטווח ארוך",
     "link": "https://www.walla.co.il/healthy/health-news/383960513",
     "date": "2026-11-08T10:26:28+00:00"
-   },
-   {
-    "title": "שיא עולמי בבני ברק: בת 43 ילדה בפעם ה-12 בניתוח קיסרי",
-    "link": "https://www.walla.co.il/healthy/health-news/383960496",
-    "date": "2026-11-08T09:09:31+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T13:17:32+00:00",
-  "fetched_at": "2026-11-27T13:17:32+00:00"
+  "checked_at": "2026-11-27T14:17:27+00:00",
+  "fetched_at": "2026-11-27T14:17:27+00:00"
  }
 }
