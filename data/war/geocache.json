@@ -128,6 +128,7 @@
 "al-alam camp, shabwa, yemen": null,
 "al-alam camp, shabwah, yemen": null,
 "al-aqrood, yemen": null,
+"al-arida border crossing, syria": null,
 "al-bab, syria": [
 36.3711,
 37.5144
@@ -418,6 +419,10 @@
 "baalbek, lebanon": [
 34.0097,
 36.2117
+],
+"bab al-hawa, syria": [
+36.2285,
+36.7107
 ],
 "bab al-mandab": [
 12.5744,
@@ -1232,6 +1237,10 @@
 60.1666,
 24.9435
 ],
+"hengam island, iran": [
+26.6485,
+55.8831
+],
 "henichesk, ukraine": [
 46.1662,
 34.8089
@@ -1348,6 +1357,10 @@
 "islahiye, turkey": [
 37.0307,
 36.6369
+],
+"islamabad, pakistan": [
+33.6938,
+73.0652
 ],
 "israel": null,
 "israel-lebanon border": null,
@@ -1654,6 +1667,7 @@
 50.45,
 30.5241
 ],
+"kilis border, turkey-syria": null,
 "king khalid international airport, riyadh, saudi arabia": [
 24.9586,
 46.711
@@ -2133,6 +2147,7 @@
 ],
 "mount dov, israel": null,
 "mount dov, lebanon": null,
+"mount hermon foothills, israel": null,
 "mount hermon, syria": [
 33.4169,
 35.8564

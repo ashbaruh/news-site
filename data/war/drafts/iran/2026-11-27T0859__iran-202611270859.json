@@ -1,0 +1,354 @@
+{
+ "status": "draft",
+ "received_sha256_12": "d5c1cd98eb8c",
+ "preview": {
+  "events": 5,
+  "levels": {
+   "shared_root": 3,
+   "initial": 1,
+   "verified": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-27T08:59:23+00:00",
+  "window": {
+   "from": "2026-11-26T08:59:23+00:00",
+   "to": "2026-11-27T08:59:23+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611270859"
+  },
+  "summary": "המתיחות האזורית בין איראן לבין ישראל וארצות הברית נמשכת על רקע לחץ כלכלי כבד וסנקציות המוטלות על טהאן, לצד איומים הדדיים באפשרות של תקיפה צבאית נרחבת על מתקני גרעין ותשתיות. במקביל, נרשמים אירועים ביטחוניים בגזרות השונות, הכוללים תקרית אווירית מול אי חנגאם, מתקפת כטב\"מים בכווית שגרמה לנפגעים זרים ואוזכרה בהקשר אזורי, והיערכות צבאית מוגברת הכוללת תקיפות מנע של צה\"ל בלבנון והידוק בריתות הגנה אזוריות.",
+  "fronts": [
+   {
+    "name": "ציר איראן - ארה\"ב",
+    "status": "פעיל ומתוח עם איומים הדדיים ותקיפות מנועות"
+   },
+   {
+    "name": "ציר ישראל - איראן ושלוחותיה",
+    "status": "הסלמה פוטנציאלית עם פעילות מונעת בלבנון"
+   },
+   {
+    "name": "זירת המפרץ",
+    "status": "מתיחות בעקבות תקריות כטב\"מים ופעילות ימית"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11270859-01",
+    "title": "ירי אזהרה של משמרות המהפכה מול אי חנגאם",
+    "summary": "מערכת הגנה אווירית של משמרות המהפכה ביצעה ירי אזהרה בדרום מזרח אי חנגאם ואילצה מטוס קרב אמריקאי מסוג אף-16 לסגת.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T07:11:46+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T07:11:46+00:00",
+    "last_update_at": "2026-11-27T08:07:38+00:00",
+    "what_is_not_verified": "הטענה שמתקפת האזהרה אכן אילצה מטוס אמריקאי לסגת מבוססת על הודעת משמרות המהפכה בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-682",
+      "published_at": "2026-11-27T08:07:38+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-forced-us-fighter-jet-retreat-hengam-island",
+      "published_at": "2026-11-27T07:11:46+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אי חנגאם, איראן",
+      "lat": 26.6485,
+      "lon": 55.8831
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11270859-02",
+    "title": "תקיפת כטב\"ם בכווית והריגת טכנאים איטלקים",
+    "summary": "מתקפת כטב\"ם פגעה במתקן בכווית וגרמה למותם של שני טכנאים איטלקים מחברת ריינמטאל. ממשלת איראן הכחישה קשר לתקיפה והציעה חקירה משותפת, בעוד שגורמים שונים האשימו את איראן.",
+    "axis": "איראן מול המפרץ",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T15:22:33+00:00",
+    "last_update_at": "2026-11-27T08:07:38+00:00",
+    "what_is_not_verified": "זהות אלגורם האחראי לתקיפה והטענה האיראנית שמדובר בפעילות חשודה או מבצע דגל כוזב אינן מאומתות ממקור בלתי תלוי.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-682",
+      "published_at": "2026-11-27T08:07:38+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86333718/Iran-s-Italy-embassy-warns-against-efforts-to-draw-Europe-into",
+      "published_at": "2026-11-27T06:39:04+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://en.irna.ir/news/86333676/Iran-ready-for-joint-probe-into-Kuwait-attack-Araghchi",
+      "published_at": "2026-11-27T05:41:39+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/several-countries-slam-suspected-iranian-attack-kuwait",
+      "published_at": "2026-11-27T02:26:09+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.iranintl.com/en/202611267797",
+      "published_at": "2026-11-26T22:00:00+00:00"
+     },
+     {
+      "source_id": "src_bbc",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-26T21:17:53+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134290",
+      "published_at": "2026-11-26T17:04:35+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://t.me/abualiexpress/134289",
+      "published_at": "2026-11-26T16:45:29+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.al-monitor.com/originals/2026/11/iranian-drone-attack-kuwait-leaves-two-italians-dead",
+      "published_at": "2026-11-26T15:22:33+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11270859-03",
+    "title": "השלמת אשרור הסכם ההגנה של מכה",
+    "summary": "טורקיה השלימה את תהליך האשרור של הסכם ההגנה המשותף של מכה יחד עם פקיסטן וערב הסעודית, על רקע המתיחות מול איראן.",
+    "axis": "איראן מול מדינות האזור",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T05:46:29+00:00",
+    "last_update_at": "2026-11-27T07:16:30+00:00",
+    "what_is_not_verified": "מהימנות האפקטיביות המעשית של ההסכם להגנה משותפת אינה מאומתת בשטח.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_3995594f910c17f6",
+      "url": "https://www.aljazeera.com/news-analysis/2026/11/27/can-the-mecca-pact-turn-its-collective-defence-promise-into-real-support?traffic_source=rss",
+      "published_at": "2026-11-27T07:16:30+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_3995594f910c17f6",
+      "url": "https://www.al-monitor.com/originals/2026/11/erdogan-completes-turkeys-ratification-mecca-defence-pact",
+      "published_at": "2026-11-27T05:46:29+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "אסלאמאבאד, פקיסטן",
+      "lat": 33.6938,
+      "lon": 73.0652
+     },
+     {
+      "name": "מכה, ערב הסעודית",
+      "lat": 21.4208,
+      "lon": 39.8269
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11270859-04",
+    "title": "תקיפת משגרים של כוח רדואן בדרום לבנון",
+    "summary": "צה\"ל תקף עשרות רקטות ומשגרים של כוח רדואן בעומק דרום לבנון על רקע הערכות המודיעין לגבי מעורבות אפשרית של חיזבאללה.",
+    "axis": "ישראל מול שלוחקות איראן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T19:37:05+00:00",
+    "last_update_at": "2026-11-26T19:37:05+00:00",
+    "what_is_not_verified": "היקף הנזק המלא והאם חיזבאללה יבחר להצטרף באופן מלא לעימות נותרו בגדר הערכה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_walla",
+      "source_root_id": "fh_f413d436125d4e23",
+      "url": "https://www.walla.co.il/news/military/383963336",
+      "published_at": "2026-11-26T19:37:05+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "IRAN-11270859-05",
+    "title": "שיגור 150 טילים אמריקאיים לבלימת תקיפות במצר",
+    "summary": "נשיא ארה\"ב חשף כי צבא ארצות הברית שיגר 150 טילים במצר כדי לבלום תקיפות נגד הכוחות.",
+    "axis": "איראן מול ארה\"ב",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T23:41:42+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-26T23:41:42+00:00",
+    "last_update_at": "2026-11-26T23:41:42+00:00",
+    "what_is_not_verified": "מספר הטילים המדויק ופרטי היירוטים מבוססים על הצהרת נשיא ארה\"ב בלבד.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21944448",
+      "published_at": "2026-11-26T23:41:42+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "{'string': 'הטענה האיראנית כי תקיפת הכטב\"ם בכווית בוצעה במסגרת פעילות \\'דגל כוזב\\' על ידי ישראל וארה\"ב אינה מאומתת.'}",
+   "{'string': 'הדיווחים על התקדמות איראנית ממשית בתחום הנשק הכימי אינם מאומתים במלואם.'}",
+   "{'string': 'טענת משמרות המהפכה על אילוצם של מטוסי קרב אמריקאיים לסגת באמצעות ירי אזהרה.'}"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3273,
+    "unit": "ILS",
+    "change_pct": -1.53,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-26T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "שמירה על מוכנות צבאית גבוהה להגן על גבולות המדינה",
+     "הכחשה גורפת של מעורבות בתקיפות בכווית ונכונות לחקירה משותפת",
+     "התנגדות לנוכחות צבא זרה באזור המפרץ"
+    ],
+    "inferred": [
+     "ניסיון להתמודד עם משבר כלכלי חריף, צניחת מטבע ומחסור חמור במזון ובאנרגיה",
+     "הסתמכות על שלוחות ולוחמה אסימטרית להרחקת האיום",
+     "המשך פיתוח התשתיות הגרעיניות בחשאי"
+    ],
+    "forecast": [
+     "המשך המצוקה הכלכלית עקב הסנקציות והמצור הימי",
+     "הגברת החשש מעימות צבאי ישיר שיפגע בתשתיות קריטיות",
+     "העמקת הקשרים עם שותפות עוקפות סנקציות כמו רוסיה"
+    ]
+   },
+   {
+    "actor": "ארצות הברית",
+    "declared": [
+     "מניעת השגת נשק גרעיני בידי איראן בכל מחיר",
+     "הגנה על ישראל ועל בעלות הברית במזרח התיכון",
+     "מתן אפשרות אחרונה להסכם מדיני לצד חיזוק הנוכחות הצבאית באזור"
+    ],
+    "inferred": [
+     "הפעלת לחץ מקסימלי הכולל מצור ימי וכלכלי להחלשת המשטר בטהראן",
+     "הכנה מבצעית לתקיפת יעדים אסטרטגיים ואתרים גרעיניים במקרה של כישלון הדיפלומטיה"
+    ],
+    "forecast": [
+     "תגבור נוסף של כוחות צבא ונושאות מטוסים באזור",
+     "המשך תקיפות הגנתיות לבלימת איומים מצד איראן ושלוחותיה"
+    ]
+   },
+   {
+    "actor": "ישראל",
+    "declared": [
+     "הערכות מבצעית רב-חזיתית מול איומים מאיראן ומלבנון",
+     "מניעת התבססות איומים קיומיים, לרבות במישור הכימי והגרעיני"
+    ],
+    "inferred": [
+     "ויכוח פנימי בין דרגים ביטחוניים שונים על הצורך בפעולה עצמאית ללא תיאום מלא עם ארה\"ב",
+     "הכנה לאפשרות של הסלמה כוללת הכוללת פגיעה בתשתיות איראניות"
+    ],
+    "forecast": [
+     "המשך פעילות מנע מול שלוחות איראן (כדוגמת חיזבאללה)",
+     "היערכות לתגובה אפשרית במקרה של פריצת עימות ישיר בין איראן לארה\"ב"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news-analysis/2026/11/27/can-the-mecca-pact-turn-its-collective-defence-promise-into-real-support?traffic_source=rss",
+    "accessed_at": "2026-11-27T08:59:23+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/erdogan-completes-turkeys-ratification-mecca-defence-pact",
+    "accessed_at": "2026-11-27T08:59:23+00:00"
+   },
+   {
+    "source_id": "src_bbc",
+    "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+    "accessed_at": "2026-11-27T08:59:23+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611267797",
+    "accessed_at": "2026-11-27T08:59:23+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86333676/Iran-ready-for-joint-probe-into-Kuwait-attack-Araghchi",
+    "accessed_at": "2026-11-27T08:59:23+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21944448",
+    "accessed_at": "2026-11-27T08:59:23+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/several-countries-slam-suspected-iranian-attack-kuwait",
+    "accessed_at": "2026-11-27T08:59:23+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134289",
+    "accessed_at": "2026-11-27T08:59:23+00:00"
+   },
+   {
+    "source_id": "src_walla",
+    "url": "https://www.walla.co.il/news/military/383963336",
+    "accessed_at": "2026-11-27T08:59:23+00:00"
+   }
+  ]
+ }
+}
