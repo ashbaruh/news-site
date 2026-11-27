@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-27T12:17:26+00:00",
-  "fetched_at": "2026-11-27T12:17:26+00:00"
+  "checked_at": "2026-11-27T13:17:23+00:00",
+  "fetched_at": "2026-11-27T13:17:23+00:00"
  },
  "animals": {
   "data": [
@@ -44,11 +44,18 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T12:17:40+00:00",
-  "fetched_at": "2026-11-27T12:17:40+00:00"
+  "checked_at": "2026-11-27T13:17:34+00:00",
+  "fetched_at": "2026-11-27T13:17:34+00:00"
  },
  "av_en": {
   "data": [
+   {
+    "title_en": "How to watch Ireland vs Australia: live stream Nations Championship 2026 fifth-place playoff for free from anywhere",
+    "title_he": "איך לצפות באירלנד נגד אוסטרליה: שידור חי של אליפות האומות 2026 במקום החמישי בפלייאוף בחינם מכל מקום",
+    "translated_by": "google",
+    "link": "https://www.whathifi.com/streaming-entertainment/how-to-watch/ireland-vs-australia-nations-championship-2026-fifth-place-playoff-free",
+    "date": "2026-11-27T13:00:00+00:00"
+   },
    {
     "title_en": "How to watch Nations Championship finals weekend 2026: live stream rugby for FREE",
     "title_he": "איך לצפות בגמר אליפות האומות בסוף השבוע 2026: שידור חי של רוגבי בחינם",
@@ -69,20 +76,13 @@ window.DB.generated = {
     "translated_by": "google",
     "link": "https://www.whathifi.com/tv-home-cinema/this-budget-movie-setup-pairs-an-award-winning-tv-with-the-best-budget-dolby-atmos-sound-system-we-have-tested",
     "date": "2026-11-27T10:09:05+00:00"
-   },
-   {
-    "title_en": "Sonos’ latest Ultra Dolby Atmos soundbar is a tough sell right now – thankfully, there are two decent backups",
-    "title_he": "סרגל הקול האחרון של Sonos Ultra Dolby Atmos מוכר כעת - למרבה המזל, ישנם שני גיבויים הגונים",
-    "translated_by": "google",
-    "link": "https://www.whathifi.com/tv-home-cinema/soundbars/sonos-latest-ultra-dolby-atmos-soundbar-is-a-tough-sell-right-now-thankfully-there-are-two-decent-backups",
-    "date": "2026-11-26T17:29:00+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T12:17:42+00:00",
-  "fetched_at": "2026-11-27T12:17:42+00:00"
+  "checked_at": "2026-11-27T13:17:36+00:00",
+  "fetched_at": "2026-11-27T13:17:36+00:00"
  },
- "generated_at": "2026-11-27T12:17:42+00:00",
+ "generated_at": "2026-11-27T13:17:36+00:00",
  "globes": {
   "data": {
    "top": [
@@ -94,7 +94,7 @@ window.DB.generated = {
     {
      "title": "הנשיא טראמפ: \"דיברתי עם נתניהו. אם נעשה משהו, בוודאות נתקוף את הר המכוש\"",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001565315",
-     "date": "2026-11-27T09:09:00+00:00"
+     "date": "2026-11-27T12:47:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-27T12:17:27+00:00",
-  "fetched_at": "2026-11-27T12:17:27+00:00"
+  "checked_at": "2026-11-27T13:17:25+00:00",
+  "fetched_at": "2026-11-27T13:17:25+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T12:17:29+00:00",
-  "fetched_at": "2026-11-27T12:17:29+00:00"
+  "checked_at": "2026-11-27T13:17:25+00:00",
+  "fetched_at": "2026-11-27T13:17:25+00:00"
  },
  "tv": {
   "data": [
@@ -2977,8 +2977,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T12:17:30+00:00",
-  "fetched_at": "2026-11-27T12:17:30+00:00"
+  "checked_at": "2026-11-27T13:17:27+00:00",
+  "fetched_at": "2026-11-27T13:17:27+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3192,19 +3192,12 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-27T12:17:30+00:00",
-  "fetched_at": "2026-11-27T12:17:30+00:00"
+  "checked_at": "2026-11-27T13:17:27+00:00",
+  "fetched_at": "2026-11-27T13:17:27+00:00"
  },
  "ai": {
   "data": {
    "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/israeli-employment-service-ai-replaces-software-developers/",
-     "date": "2026-11-25T09:06:53+00:00",
-     "launch": false,
-     "title": "דוח ה-AI של שירות התעסוקה: 211% יותר מתכנתים דורשי עבודה"
-    },
     {
      "source": "Google",
      "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
@@ -3215,9 +3208,10 @@ window.DB.generated = {
      "translated_by": "mymemory"
     }
    ],
-   "candidates": 5,
+   "candidates": 1,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "גיקטיים"
    ],
    "tools": [
     {
@@ -3245,7 +3239,7 @@ window.DB.generated = {
      "title": "Krea 2 Turbo Revamped: Image Editor",
      "desc_en": "Edit one image from a prompt. Keep the look consistent.",
      "desc_he": "ערוך תמונה אחת מתוך הנחיה. שמור על המראה עקבי.",
-     "likes": 197,
+     "likes": 198,
      "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
     },
     {
@@ -3273,7 +3267,7 @@ window.DB.generated = {
      "title": "Scaling swarms to thousands of agents",
      "desc_en": "A field report from building PyBot",
      "desc_he": "דוח שטח מבניית PyBot",
-     "likes": 48,
+     "likes": 49,
      "link": "https://huggingface.co/spaces/HuggingFaceSwarms/scaling-swarms"
     },
     {
@@ -3284,17 +3278,17 @@ window.DB.generated = {
      "link": "https://huggingface.co/spaces/mrfakename/voice-isolator"
     },
     {
-     "title": "Wan2.2 14B Cum explosion lora",
-     "desc_en": "generate a video from an image with a text prompt with text",
-     "desc_he": "ליצור סרטון מתמונה עם הנחיית טקסט עם טקסט",
-     "likes": 70,
-     "link": "https://huggingface.co/spaces/johnnysnowblind/wan2-2-fp8da-aoti-preview-2c-finishing"
+     "title": "Looped transformers: thinking twice with the same weights",
+     "desc_en": "How looped transformers work, tested on tiny models",
+     "desc_he": "כיצד פועלים שנאים בלולאה, נבדק על דגמים זעירים",
+     "likes": 40,
+     "link": "https://huggingface.co/spaces/dlouapre/looped-transformers"
     }
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-27T12:17:39+00:00",
-  "fetched_at": "2026-11-27T12:17:39+00:00"
+  "checked_at": "2026-11-27T13:17:33+00:00",
+  "fetched_at": "2026-11-27T13:17:33+00:00"
  },
  "abroad": {
   "data": {
@@ -3647,8 +3641,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-27T12:17:34+00:00",
-  "fetched_at": "2026-11-27T12:17:34+00:00"
+  "checked_at": "2026-11-27T13:17:31+00:00",
+  "fetched_at": "2026-11-27T13:17:31+00:00"
  },
  "idf": {
   "data": [
@@ -3678,8 +3672,9 @@ window.DB.generated = {
     "date": "2026-11-26T14:28:46+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-27T12:17:35+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-27T13:17:31+00:00",
   "fetched_at": "2026-11-27T12:17:35+00:00"
  },
  "feed_health": {
@@ -3687,44 +3682,44 @@ window.DB.generated = {
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-27T12:03:00+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "newest": "2026-11-27T12:57:00+00:00",
+    "seen_at": "2026-11-27T13:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-27T12:03:00+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "seen_at": "2026-11-27T13:17:36+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-27T10:55:00+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "seen_at": "2026-11-27T13:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-27T10:00:00+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "seen_at": "2026-11-27T13:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-27T12:30:00+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "seen_at": "2026-11-27T13:17:36+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-27T13:00:00+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "newest": "2026-11-27T14:13:00+00:00",
+    "seen_at": "2026-11-27T13:17:36+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-27T12:08:00+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "newest": "2026-11-27T13:04:00+00:00",
+    "seen_at": "2026-11-27T13:17:36+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3736,13 +3731,13 @@ window.DB.generated = {
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-24T13:07:53+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "seen_at": "2026-11-27T13:17:36+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-24T16:00:00+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "seen_at": "2026-11-27T13:17:36+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3754,26 +3749,31 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "seen_at": "2026-11-27T13:17:36+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-27T11:45:27+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "newest": "2026-11-27T13:14:59+00:00",
+    "seen_at": "2026-11-27T13:17:36+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
-    "newest": "2026-11-26T10:38:03+00:00",
-    "seen_at": "2026-11-27T12:17:42+00:00",
+    "newest": "2026-11-27T12:11:41+00:00",
+    "seen_at": "2026-11-27T13:17:36+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-27T12:17:42+00:00"
+  "checked_at": "2026-11-27T13:17:36+00:00"
  },
  "health_news": {
   "data": [
+   {
+    "title": "מקרה כלבת נוסף בצפון: המקרה השלישי מאז מות הצעירה",
+    "link": "https://www.walla.co.il/news/health-news/383963406",
+    "date": "2026-11-27T12:11:41+00:00"
+   },
    {
     "title": "משרד הבריאות במכתב הערכה ליוסי אמבולנס על פעילותה ב\"עם כלביא\"",
     "link": "https://www.walla.co.il/healthy/health-news/383963248",
@@ -3918,15 +3918,10 @@ window.DB.generated = {
     "title": "שיא עולמי בבני ברק: בת 43 ילדה בפעם ה-12 בניתוח קיסרי",
     "link": "https://www.walla.co.il/healthy/health-news/383960496",
     "date": "2026-11-08T09:09:31+00:00"
-   },
-   {
-    "title": "הילד בריא, אז למה לחסן? מומחית עונה על השאלה של הורים רבים",
-    "link": "https://www.walla.co.il/healthy/health-news/383959808",
-    "date": "2026-11-04T16:04:01+00:00"
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-27T12:17:35+00:00",
-  "fetched_at": "2026-11-27T12:17:35+00:00"
+  "checked_at": "2026-11-27T13:17:32+00:00",
+  "fetched_at": "2026-11-27T13:17:32+00:00"
  }
 };
