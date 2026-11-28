@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-28T08:17:16+00:00",
-  "fetched_at": "2026-11-28T08:17:16+00:00"
+  "checked_at": "2026-11-28T09:17:29+00:00",
+  "fetched_at": "2026-11-28T09:17:29+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T08:17:29+00:00",
-  "fetched_at": "2026-11-28T08:17:29+00:00"
+  "checked_at": "2026-11-28T09:17:39+00:00",
+  "fetched_at": "2026-11-28T09:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,22 +79,22 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T08:17:29+00:00",
-  "fetched_at": "2026-11-28T08:17:29+00:00"
+  "checked_at": "2026-11-28T09:17:39+00:00",
+  "fetched_at": "2026-11-28T09:17:39+00:00"
  },
- "generated_at": "2026-11-28T08:17:29+00:00",
+ "generated_at": "2026-11-28T09:17:39+00:00",
  "globes": {
   "data": {
    "top": [
     {
-     "title": "מוכנים לוותר על כסף כדי לא לעמוד בפקקים: המרד השקט של תושבי השרון",
-     "link": "https://www.globes.co.il/news/article.aspx?did=1001564818",
-     "date": "2026-11-28T06:00:00+00:00"
+     "title": "עם כסף, חלומות יזמיים וקריצה לעולם: העולים החדשים שמתעקשים להתנהל אחרת",
+     "link": "https://www.globes.co.il/news/article.aspx?did=1001564812",
+     "date": "2026-11-28T08:30:00+00:00"
     },
     {
-     "title": "מפקד חיל הים של איראן: מתכננים לפרוץ את המצור הימי האמריקאי",
+     "title": "בלי שחמאס התפרק מנשקו: ישראל בדרך לאשר את התוכנית לעזה",
      "link": "https://www.globes.co.il/news/article.aspx?did=1001565325",
-     "date": "2026-11-28T08:10:00+00:00"
+     "date": "2026-11-28T08:16:00+00:00"
     }
    ],
    "market": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-28T08:17:17+00:00",
-  "fetched_at": "2026-11-28T08:17:17+00:00"
+  "checked_at": "2026-11-28T09:17:30+00:00",
+  "fetched_at": "2026-11-28T09:17:30+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T08:17:18+00:00",
-  "fetched_at": "2026-11-28T08:17:18+00:00"
+  "checked_at": "2026-11-28T09:17:31+00:00",
+  "fetched_at": "2026-11-28T09:17:31+00:00"
  },
  "tv": {
   "data": [
@@ -2942,8 +2942,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T08:17:20+00:00",
-  "fetched_at": "2026-11-28T08:17:20+00:00"
+  "checked_at": "2026-11-28T09:17:32+00:00",
+  "fetched_at": "2026-11-28T09:17:32+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3058,31 +3058,23 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-28T08:17:20+00:00",
-  "fetched_at": "2026-11-28T08:17:20+00:00"
+  "checked_at": "2026-11-28T09:17:32+00:00",
+  "fetched_at": "2026-11-28T09:17:32+00:00"
  },
  "ai": {
   "data": {
-   "news": [
-    {
-     "source": "גיקטיים",
-     "link": "https://www.geektime.co.il/israeli-employment-service-ai-replaces-software-developers/",
-     "date": "2026-11-25T09:06:53+00:00",
-     "launch": false,
-     "title": "דוח ה-AI של שירות התעסוקה: 211% יותר מתכנתים דורשי עבודה"
-    }
-   ],
-   "candidates": 1,
+   "news": [],
+   "candidates": 0,
    "failed_sources": [
     "Anthropic",
-    "Google DeepMind"
+    "גיקטיים"
    ],
    "tools": [
     {
      "title": "pi-H3",
      "desc_en": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
      "desc_he": "סרטון Minimax H3 ב-2–4 שלבים ללא מפענח VAE",
-     "likes": 211,
+     "likes": 212,
      "link": "https://huggingface.co/spaces/Lakonik/pi-H3"
     },
     {
@@ -3117,7 +3109,7 @@ window.DB.generated = {
      "title": "Looped transformers: thinking twice with the same weights",
      "desc_en": "How looped transformers work, tested on tiny models",
      "desc_he": "כיצד פועלים שנאים בלולאה, נבדק על דגמים זעירים",
-     "likes": 64,
+     "likes": 65,
      "link": "https://huggingface.co/spaces/dlouapre/looped-transformers"
     },
     {
@@ -3151,12 +3143,30 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-28T08:17:27+00:00",
-  "fetched_at": "2026-11-28T08:17:27+00:00"
+  "checked_at": "2026-11-28T09:17:38+00:00",
+  "fetched_at": "2026-11-28T09:17:38+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "האולטימטום לאוסקר גלוך: \"אם לא אעשה הגנה, לא אשחק\"",
+     "link": "https://sports.walla.co.il/item/3877873",
+     "date": "2026-11-28T09:58:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "אוסקר גלוך"
+     ]
+    },
+    {
+     "title": "שני רק לקיירי אירווינג: הנשק הסודי של דני אבדיה",
+     "link": "https://sports.walla.co.il/item/3877817",
+     "date": "2026-11-28T09:25:00+00:00",
+     "source": "וואלה",
+     "players": [
+      "דני אבדיה"
+     ]
+    },
     {
      "title": "זהבי, המרוקאים באייאקס והמאמן: גלוך בראיון",
      "link": "https://www.one.co.il/Article/540088.html?ref=rss",
@@ -3273,26 +3283,6 @@ window.DB.generated = {
      "source": "וואלה",
      "players": [
       "רועי רביבו"
-     ]
-    },
-    {
-     "title": "מרקו וולף: \"הגענו ליותר מצבים, צריך לשחק ככה מול נתניה\"",
-     "link": "https://sports.walla.co.il/item/3877799",
-     "date": "2026-11-27T06:45:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני וולף"
-     ]
-    },
-    {
-     "title": "גלוך קיבל מנוחה, הפסד דרמטי ללמקין ותיקו לאבו פאני",
-     "link": "https://sports.walla.co.il/item/3877612",
-     "date": "2026-11-26T22:57:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "אוסקר גלוך",
-      "סתיו למקין",
-      "מוחמד אבו פאני"
      ]
     }
    ],
@@ -3506,8 +3496,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-28T08:17:23+00:00",
-  "fetched_at": "2026-11-28T08:17:23+00:00"
+  "checked_at": "2026-11-28T09:17:36+00:00",
+  "fetched_at": "2026-11-28T09:17:36+00:00"
  },
  "idf": {
   "data": [
@@ -3538,70 +3528,70 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T08:17:24+00:00",
-  "fetched_at": "2026-11-28T08:17:24+00:00"
+  "checked_at": "2026-11-28T09:17:36+00:00",
+  "fetched_at": "2026-11-28T09:17:36+00:00"
  },
  "feed_health": {
   "ok": true,
   "data": {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
-    "newest": "2026-11-28T08:11:00+00:00",
-    "seen_at": "2026-11-28T08:17:29+00:00",
+    "newest": "2026-11-28T09:00:00+00:00",
+    "seen_at": "2026-11-28T09:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-27T12:03:00+00:00",
-    "seen_at": "2026-11-28T08:17:29+00:00",
+    "seen_at": "2026-11-28T09:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-27T18:00:00+00:00",
-    "seen_at": "2026-11-28T08:17:29+00:00",
+    "seen_at": "2026-11-28T09:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
-    "newest": "2026-11-27T17:20:00+00:00",
-    "seen_at": "2026-11-28T08:17:29+00:00",
+    "newest": "2026-11-28T09:25:00+00:00",
+    "seen_at": "2026-11-28T09:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-28T09:08:00+00:00",
-    "seen_at": "2026-11-28T08:17:29+00:00",
+    "newest": "2026-11-28T09:58:00+00:00",
+    "seen_at": "2026-11-28T09:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-27T18:59:00+00:00",
-    "seen_at": "2026-11-28T08:17:29+00:00",
+    "newest": "2026-11-28T09:39:00+00:00",
+    "seen_at": "2026-11-28T09:17:39+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-28T08:05:00+00:00",
-    "seen_at": "2026-11-28T08:17:29+00:00",
+    "newest": "2026-11-28T09:10:00+00:00",
+    "seen_at": "2026-11-28T09:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-28T01:09:23+00:00",
-    "seen_at": "2026-11-28T08:17:29+00:00",
+    "seen_at": "2026-11-28T09:17:39+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
     "label": "Google DeepMind",
     "newest": "2026-11-24T13:07:53+00:00",
-    "seen_at": "2026-11-28T07:17:23+00:00",
+    "seen_at": "2026-11-28T09:17:39+00:00",
     "stuck": false
    },
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-24T16:00:00+00:00",
-    "seen_at": "2026-11-28T08:17:29+00:00",
+    "seen_at": "2026-11-28T09:17:39+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
@@ -3613,23 +3603,23 @@ window.DB.generated = {
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-28T08:17:29+00:00",
+    "seen_at": "2026-11-28T09:17:39+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-27T23:00:33+00:00",
-    "seen_at": "2026-11-28T08:17:29+00:00",
+    "seen_at": "2026-11-28T09:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-27T13:59:14+00:00",
-    "seen_at": "2026-11-28T08:17:29+00:00",
+    "seen_at": "2026-11-28T09:17:39+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-28T08:17:29+00:00"
+  "checked_at": "2026-11-28T09:17:39+00:00"
  },
  "health_news": {
   "data": [
@@ -3785,7 +3775,7 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T08:17:24+00:00",
-  "fetched_at": "2026-11-28T08:17:24+00:00"
+  "checked_at": "2026-11-28T09:17:37+00:00",
+  "fetched_at": "2026-11-28T09:17:37+00:00"
  }
 };
