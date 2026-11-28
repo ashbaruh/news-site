@@ -1137,6 +1137,10 @@
 ],
 "germany": null,
 "ghanam island, iran": null,
+"ghanam island, oman": [
+26.3537,
+56.3513
+],
 "ghobeiry, lebanon": [
 33.8598,
 35.5057
@@ -1225,6 +1229,10 @@
 37.0159
 ],
 "har dov, lebanon": null,
+"haret hreik, lebanon": [
+33.8544,
+35.5113
+],
 "haris, lebanon": [
 33.1768,
 35.3799
@@ -1265,6 +1273,10 @@
 "hermel, lebanon": [
 34.4205,
 36.4214
+],
+"hermon, israel": [
+33.3178,
+35.8036
 ],
 "herzliya, israel": [
 32.1656,
@@ -1633,6 +1645,10 @@
 "kharkiv, ukraine": [
 49.9923,
 36.231
+],
+"khasab port, oman": [
+26.2043,
+56.2537
 ],
 "khasab, oman": [
 26.1841,

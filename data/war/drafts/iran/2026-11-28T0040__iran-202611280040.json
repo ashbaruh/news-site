@@ -1,0 +1,317 @@
+{
+ "status": "draft",
+ "received_sha256_12": "45b9a7061548",
+ "preview": {
+  "events": 3,
+  "levels": {
+   "verified": 2,
+   "shared_root": 1
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "iran",
+  "generated_at": "2026-11-28T00:40:19+00:00",
+  "window": {
+   "from": "2026-11-27T00:40:19+00:00",
+   "to": "2026-11-28T00:40:19+00:00"
+  },
+  "model": {
+   "name": "gemini-3.5-flash-lite",
+   "run_id": "iran-202611280040"
+  },
+  "summary": "העימות בין איראן לבין ארה\"ב וישראל מתנהל בחזית ימית מתוחה הכוללת אכיפת מצור ימי אמריקני, תקיפת כלי שיט מפרים ומנגד איומים איראניים ופגיעה במכליות נפט במימי מצר הורמוז ומפרץ עומאן. במקביל, נרשמת מתיחות אזורית סביב תקריות חמושות כמו פגיעת כטב\"ם בכווית, לצד לחץ כלכלי חסר תקדים על איראן עקב סנקציות וקריסת המטבע המקומי.",
+  "fronts": [
+   {
+    "name": "החזית הימית במפרץ ובמצר הורמוז",
+    "status": "פעילה ומתוחה מאוד"
+   },
+   {
+    "name": "הזירה האזורית והמפרציפית",
+    "status": "פעילה עם השלכות ביטחוניות"
+   }
+  ],
+  "events": [
+   {
+    "id": "IRAN-11280040-01",
+    "title": "פיצוץ מכליות נפט כתוצאה מפגיעה במוקשים ימיים",
+    "summary": "משמרות המהפכה של איראן דיווחו כי שתי מכליות נפט התפוצצו ועלו באש לאחר שפגעו במוקשים ימיים סמוך לנמל ח'סב ובחלקו המזרחי של מצר הורמוז.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T12:44:06+00:00",
+    "last_update_at": "2026-11-28T00:06:49+00:00",
+    "what_is_not_verified": "האם המכליות אכן נפגעו ממוקשים ימיים והנסיבות המדויקות של האירוע.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_b080513b92f3e32e",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-two-oil-tankers-catch-fire-after-hitting-naval-mines",
+      "published_at": "2026-11-28T00:06:49+00:00"
+     },
+     {
+      "source_id": "src_irna",
+      "source_root_id": "fh_92f20615187d127e",
+      "url": "https://en.irna.ir/news/86333992/Oil-tanker-hits-mine-in-south-of-Strait-of-Hormuz",
+      "published_at": "2026-11-27T12:44:06+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "נמל ח'סב, עומאן",
+      "lat": 26.2043,
+      "lon": 56.2537
+     },
+     {
+      "name": "מצר הורמוז",
+      "lat": 26.4494,
+      "lon": 56.2028
+     },
+     {
+      "name": "אי ג'אנאם, עומאן",
+      "lat": 26.3537,
+      "lon": 56.3513
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11280040-02",
+    "title": "תקיפה והשבתה של אוניית סוחר על ידי צבא ארה\"ב",
+    "summary": "כוחות צבא ארה\"ב תקפו והשביתו את מערכת ההנעה של אוניית משא הנושאת את דגל פלאו לאחר שיצאה מנמל בנדר עבאס והפרה את המצור הימי.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T17:02:01+00:00",
+    "last_update_at": "2026-11-27T23:55:16+00:00",
+    "what_is_not_verified": "לא מאומתים פרטים מעבר לטענות הצבא האמריקני על נסיבות הפרת המצור.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_bef6f206a44200fc",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
+      "published_at": "2026-11-27T23:55:16+00:00"
+     },
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "fh_b4c2db9b3db089e3",
+      "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
+      "published_at": "2026-11-27T22:22:02+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_711eaef35ab6e181",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-military-fires-ship-violating-iran-blockade",
+      "published_at": "2026-11-27T21:30:26+00:00"
+     },
+     {
+      "source_id": "src_iranintl",
+      "source_root_id": "fh_b295a16e96fd15f7",
+      "url": "https://www.iranintl.com/en/202611274132",
+      "published_at": "2026-11-27T19:49:00+00:00"
+     },
+     {
+      "source_id": "src_almonitor",
+      "source_root_id": "fh_35b5e69745bea925",
+      "url": "https://www.al-monitor.com/originals/2026/11/us-disables-ship-trying-leave-iran-tehran-vows-confront-blockade",
+      "published_at": "2026-11-27T18:46:30+00:00"
+     },
+     {
+      "source_id": "src_tg_carmel",
+      "source_root_id": "fh_bef6f206a44200fc",
+      "url": "https://t.me/alexmehacarmel/49967",
+      "published_at": "2026-11-27T18:36:21+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_15b13b773cfff107",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-it-disabled-commercial-ship-trying-run-iran-blockade",
+      "published_at": "2026-11-27T17:38:26+00:00"
+     },
+     {
+      "source_id": "src_israelhayom",
+      "source_root_id": "fh_20783aedfa9c2c87",
+      "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21947352",
+      "published_at": "2026-11-27T17:26:38+00:00"
+     },
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "fh_90c471befda442f6",
+      "url": "https://www.maariv.co.il/breaking-news/article-1392912",
+      "published_at": "2026-11-27T17:12:21+00:00"
+     },
+     {
+      "source_id": "src_ynet",
+      "source_root_id": "fh_9403bad4f796c266",
+      "url": "https://www.ynet.co.il/news/article/skvdvnvkqg",
+      "published_at": "2026-11-27T17:08:45+00:00"
+     },
+     {
+      "source_id": "src_tg_abualiexpress",
+      "source_root_id": "fh_bef6f206a44200fc",
+      "url": "https://t.me/abualiexpress/134354",
+      "published_at": "2026-11-27T17:02:01+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "בנדר עבאס, איראן",
+      "lat": 27.1842,
+      "lon": 56.2893
+     },
+     {
+      "name": "מפרץ עומאן",
+      "lat": 24.2138,
+      "lon": 58.9846
+     }
+    ]
+   },
+   {
+    "id": "IRAN-11280040-03",
+    "title": "התקפה קטלנית בכווית באמצעות כטב\"ם",
+    "summary": "מתקפת כטב\"ם בכווית הביאה למותם של שני אזרחים איטלקים ולפציעת אחרים, כאשר שר החוץ של איטליה הצהיר כי הכלי יוצר באיראן.",
+    "axis": "איראן מול ארה\"ב וישראל",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T23:47:40+00:00",
+    "last_update_at": "2026-11-28T00:00:00+00:00",
+    "what_is_not_verified": "איראן מכחישה את מעורבותה וטענה שהכלי לא שוגר משטחה.",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_aljazeera",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
+      "published_at": "2026-11-28T00:00:00+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-killed-two-italians-kuwait-was-iranian-made-says-italys-foreign",
+      "published_at": "2026-11-27T23:47:40+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "כווית",
+      "lat": 29.3797,
+      "lon": 47.9734
+     }
+    ]
+   }
+  ],
+  "not_verified": [
+   "האם המכליות במצר הורמוז אכן נפגעו ממוקשים ימיים כגרסת משמרות המהפכה או מסיבה אחרת",
+   "האחריותשיר הלשכה האיראנית לשיגור הכטב\"ם שהותקף בכווית",
+   "היקף הפעילות הצבאית המדויקת באתרים שצוינו על ידי ארה\"ב"
+  ],
+  "map": {
+   "confidence": "medium",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3094,
+    "unit": "ILS",
+    "change_pct": -0.54,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-27T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "איראן",
+    "declared": [
+     "שסר המצור הימי על נמליה",
+     "סגירת מצר הורמוז ומניעת מעבר ספינות תחת מצור"
+    ],
+    "inferred": [
+     "ניסיון לשמור על נתיבי ייצוא הנפט והכנסות למשטר למרות הסנקציות",
+     "הפגנת כוח ימי דרך שלוחותיה וכוחות משמרות המהפכה"
+    ],
+    "forecast": [
+     "המרת פעילות ימית בעימותים ישירים נוספים בתוואי המים",
+     "העמקת תחושת המצוקה הכלכלית המקומית עקב סגירת נתיבי המסחר"
+    ]
+   },
+   {
+    "actor": "ארה\"ב וישראל",
+    "declared": [
+     "אכיפת מצצור ימי מלא על נמלי איראן",
+     "מניעת תנועת כלי שיט שמנסים להפר את הסנקציות"
+    ],
+    "inferred": [
+     "חניקת הכלכלה האיראנית ובידודה הבין-לאומי",
+     "הרחקת איומים ימיים מנתיבי המסחר המרכזיים במפרץ"
+    ],
+    "forecast": [
+     "המשך תקיפת כלי שיט מפרים",
+     "הגברת הלחץ הדיפלומטי והכלכלי על טהראן"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_aljazeera",
+    "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
+    "accessed_at": "2026-11-28T00:40:19+00:00"
+   },
+   {
+    "source_id": "src_almonitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/us-disables-ship-trying-leave-iran-tehran-vows-confront-blockade",
+    "accessed_at": "2026-11-28T00:40:19+00:00"
+   },
+   {
+    "source_id": "src_iranintl",
+    "url": "https://www.iranintl.com/en/202611274132",
+    "accessed_at": "2026-11-28T00:40:19+00:00"
+   },
+   {
+    "source_id": "src_irna",
+    "url": "https://en.irna.ir/news/86333992/Oil-tanker-hits-mine-in-south-of-Strait-of-Hormuz",
+    "accessed_at": "2026-11-28T00:40:19+00:00"
+   },
+   {
+    "source_id": "src_israelhayom",
+    "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21947352",
+    "accessed_at": "2026-11-28T00:40:19+00:00"
+   },
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1392912",
+    "accessed_at": "2026-11-28T00:40:19+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-killed-two-italians-kuwait-was-iranian-made-says-italys-foreign",
+    "accessed_at": "2026-11-28T00:40:19+00:00"
+   },
+   {
+    "source_id": "src_tg_abualiexpress",
+    "url": "https://t.me/abualiexpress/134354",
+    "accessed_at": "2026-11-28T00:40:19+00:00"
+   },
+   {
+    "source_id": "src_tg_carmel",
+    "url": "https://t.me/alexmehacarmel/49967",
+    "accessed_at": "2026-11-28T00:40:19+00:00"
+   },
+   {
+    "source_id": "src_ynet",
+    "url": "https://www.ynet.co.il/news/article/skvdvnvkqg",
+    "accessed_at": "2026-11-28T00:40:19+00:00"
+   }
+  ]
+ }
+}

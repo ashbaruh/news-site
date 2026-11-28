@@ -289,232 +289,210 @@ window.DB.war_published = {
   }
  },
  "iran": {
-  "draft": "drafts/iran/2026-11-27T0859__iran-202611270859.json",
+  "draft": "drafts/iran/2026-11-28T0040__iran-202611280040.json",
   "analysis": {
    "contract_version": 1,
    "arena": "iran",
-   "generated_at": "2026-11-27T08:59:23+00:00",
+   "generated_at": "2026-11-28T00:40:19+00:00",
    "window": {
-    "from": "2026-11-26T08:59:23+00:00",
-    "to": "2026-11-27T08:59:23+00:00"
+    "from": "2026-11-27T00:40:19+00:00",
+    "to": "2026-11-28T00:40:19+00:00"
    },
    "model": {
     "name": "gemini-3.5-flash-lite",
-    "run_id": "iran-202611270859"
+    "run_id": "iran-202611280040"
    },
-   "summary": "המתיחות האזורית בין איראן לבין ישראל וארצות הברית נמשכת על רקע לחץ כלכלי כבד וסנקציות המוטלות על טהאן, לצד איומים הדדיים באפשרות של תקיפה צבאית נרחבת על מתקני גרעין ותשתיות. במקביל, נרשמים אירועים ביטחוניים בגזרות השונות, הכוללים תקרית אווירית מול אי חנגאם, מתקפת כטב\"מים בכווית שגרמה לנפגעים זרים ואוזכרה בהקשר אזורי, והיערכות צבאית מוגברת הכוללת תקיפות מנע של צה\"ל בלבנון והידוק בריתות הגנה אזוריות.",
+   "summary": "העימות בין איראן לבין ארה\"ב וישראל מתנהל בחזית ימית מתוחה הכוללת אכיפת מצור ימי אמריקני, תקיפת כלי שיט מפרים ומנגד איומים איראניים ופגיעה במכליות נפט במימי מצר הורמוז ומפרץ עומאן. במקביל, נרשמת מתיחות אזורית סביב תקריות חמושות כמו פגיעת כטב\"ם בכווית, לצד לחץ כלכלי חסר תקדים על איראן עקב סנקציות וקריסת המטבע המקומי.",
    "fronts": [
     {
-     "name": "ציר איראן - ארה\"ב",
-     "status": "פעיל ומתוח עם איומים הדדיים ותקיפות מנועות"
+     "name": "החזית הימית במפרץ ובמצר הורמוז",
+     "status": "פעילה ומתוחה מאוד"
     },
     {
-     "name": "ציר ישראל - איראן ושלוחותיה",
-     "status": "הסלמה פוטנציאלית עם פעילות מונעת בלבנון"
-    },
-    {
-     "name": "זירת המפרץ",
-     "status": "מתיחות בעקבות תקריות כטב\"מים ופעילות ימית"
+     "name": "הזירה האזורית והמפרציפית",
+     "status": "פעילה עם השלכות ביטחוניות"
     }
    ],
    "events": [
     {
-     "id": "IRAN-11270859-01",
-     "title": "ירי אזהרה של משמרות המהפכה מול אי חנגאם",
-     "summary": "מערכת הגנה אווירית של משמרות המהפכה ביצעה ירי אזהרה בדרום מזרח אי חנגאם ואילצה מטוס קרב אמריקאי מסוג אף-16 לסגת.",
-     "axis": "איראן מול ארה\"ב",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-27T07:11:46+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-27T07:11:46+00:00",
-     "last_update_at": "2026-11-27T08:07:38+00:00",
-     "what_is_not_verified": "הטענה שמתקפת האזהרה אכן אילצה מטוס אמריקאי לסגת מבוססת על הודעת משמרות המהפכה בלבד.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-682",
-       "published_at": "2026-11-27T08:07:38+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-forced-us-fighter-jet-retreat-hengam-island",
-       "published_at": "2026-11-27T07:11:46+00:00"
-      }
-     ],
-     "places": [
-      {
-       "name": "אי חנגאם, איראן",
-       "lat": 26.6485,
-       "lon": 55.8831
-      }
-     ]
-    },
-    {
-     "id": "IRAN-11270859-02",
-     "title": "תקיפת כטב\"ם בכווית והריגת טכנאים איטלקים",
-     "summary": "מתקפת כטב\"ם פגעה במתקן בכווית וגרמה למותם של שני טכנאים איטלקים מחברת ריינמטאל. ממשלת איראן הכחישה קשר לתקיפה והציעה חקירה משותפת, בעוד שגורמים שונים האשימו את איראן.",
-     "axis": "איראן מול המפרץ",
-     "claim_type": "incident",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T00:00:00+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T15:22:33+00:00",
-     "last_update_at": "2026-11-27T08:07:38+00:00",
-     "what_is_not_verified": "זהות אלגורם האחראי לתקיפה והטענה האיראנית שמדובר בפעילות חשודה או מבצע דגל כוזב אינן מאומתות ממקור בלתי תלוי.",
-     "is_new_in_window": true,
-     "reports": [
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-682",
-       "published_at": "2026-11-27T08:07:38+00:00"
-      },
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86333718/Iran-s-Italy-embassy-warns-against-efforts-to-draw-Europe-into",
-       "published_at": "2026-11-27T06:39:04+00:00"
-      },
-      {
-       "source_id": "src_irna",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://en.irna.ir/news/86333676/Iran-ready-for-joint-probe-into-Kuwait-attack-Araghchi",
-       "published_at": "2026-11-27T05:41:39+00:00"
-      },
-      {
-       "source_id": "src_mee",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/several-countries-slam-suspected-iranian-attack-kuwait",
-       "published_at": "2026-11-27T02:26:09+00:00"
-      },
-      {
-       "source_id": "src_iranintl",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.iranintl.com/en/202611267797",
-       "published_at": "2026-11-26T22:00:00+00:00"
-      },
-      {
-       "source_id": "src_bbc",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-       "published_at": "2026-11-26T21:17:53+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/134290",
-       "published_at": "2026-11-26T17:04:35+00:00"
-      },
-      {
-       "source_id": "src_tg_abualiexpress",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://t.me/abualiexpress/134289",
-       "published_at": "2026-11-26T16:45:29+00:00"
-      },
-      {
-       "source_id": "src_almonitor",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.al-monitor.com/originals/2026/11/iranian-drone-attack-kuwait-leaves-two-italians-dead",
-       "published_at": "2026-11-26T15:22:33+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11270859-03",
-     "title": "השלמת אשרור הסכם ההגנה של מכה",
-     "summary": "טורקיה השלימה את תהליך האשרור של הסכם ההגנה המשותף של מכה יחד עם פקיסטן וערב הסעודית, על רקע המתיחות מול איראן.",
-     "axis": "איראן מול מדינות האזור",
+     "id": "IRAN-11280040-01",
+     "title": "פיצוץ מכליות נפט כתוצאה מפגיעה במוקשים ימיים",
+     "summary": "משמרות המהפכה של איראן דיווחו כי שתי מכליות נפט התפוצצו ועלו באש לאחר שפגעו במוקשים ימיים סמוך לנמל ח'סב ובחלקו המזרחי של מצר הורמוז.",
+     "axis": "איראן מול ארה\"ב וישראל",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-27T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-27T05:46:29+00:00",
-     "last_update_at": "2026-11-27T07:16:30+00:00",
-     "what_is_not_verified": "מהימנות האפקטיביות המעשית של ההסכם להגנה משותפת אינה מאומתת בשטח.",
+     "first_reported_at": "2026-11-27T12:44:06+00:00",
+     "last_update_at": "2026-11-28T00:06:49+00:00",
+     "what_is_not_verified": "האם המכליות אכן נפגעו ממוקשים ימיים והנסיבות המדויקות של האירוע.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_aljazeera",
-       "source_root_id": "fh_3995594f910c17f6",
-       "url": "https://www.aljazeera.com/news-analysis/2026/11/27/can-the-mecca-pact-turn-its-collective-defence-promise-into-real-support?traffic_source=rss",
-       "published_at": "2026-11-27T07:16:30+00:00"
+       "source_id": "src_mee",
+       "source_root_id": "fh_b080513b92f3e32e",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-two-oil-tankers-catch-fire-after-hitting-naval-mines",
+       "published_at": "2026-11-28T00:06:49+00:00"
       },
       {
-       "source_id": "src_almonitor",
-       "source_root_id": "fh_3995594f910c17f6",
-       "url": "https://www.al-monitor.com/originals/2026/11/erdogan-completes-turkeys-ratification-mecca-defence-pact",
-       "published_at": "2026-11-27T05:46:29+00:00"
+       "source_id": "src_irna",
+       "source_root_id": "fh_92f20615187d127e",
+       "url": "https://en.irna.ir/news/86333992/Oil-tanker-hits-mine-in-south-of-Strait-of-Hormuz",
+       "published_at": "2026-11-27T12:44:06+00:00"
       }
      ],
      "places": [
       {
-       "name": "אסלאמאבאד, פקיסטן",
-       "lat": 33.6938,
-       "lon": 73.0652
+       "name": "נמל ח'סב, עומאן",
+       "lat": 26.2043,
+       "lon": 56.2537
       },
       {
-       "name": "מכה, ערב הסעודית",
-       "lat": 21.4208,
-       "lon": 39.8269
+       "name": "מצר הורמוז",
+       "lat": 26.4494,
+       "lon": 56.2028
+      },
+      {
+       "name": "אי ג'אנאם, עומאן",
+       "lat": 26.3537,
+       "lon": 56.3513
       }
      ]
     },
     {
-     "id": "IRAN-11270859-04",
-     "title": "תקיפת משגרים של כוח רדואן בדרום לבנון",
-     "summary": "צה\"ל תקף עשרות רקטות ומשגרים של כוח רדואן בעומק דרום לבנון על רקע הערכות המודיעין לגבי מעורבות אפשרית של חיזבאללה.",
-     "axis": "ישראל מול שלוחקות איראן",
+     "id": "IRAN-11280040-02",
+     "title": "תקיפה והשבתה של אוניית סוחר על ידי צבא ארה\"ב",
+     "summary": "כוחות צבא ארה\"ב תקפו והשביתו את מערכת ההנעה של אוניית משא הנושאת את דגל פלאו לאחר שיצאה מנמל בנדר עבאס והפרה את המצור הימי.",
+     "axis": "איראן מול ארה\"ב וישראל",
      "claim_type": "incident",
      "lifecycle": "active",
      "occurred_at": "2026-11-26T00:00:00+00:00",
      "is_ongoing": false,
-     "first_reported_at": "2026-11-26T19:37:05+00:00",
-     "last_update_at": "2026-11-26T19:37:05+00:00",
-     "what_is_not_verified": "היקף הנזק המלא והאם חיזבאללה יבחר להצטרף באופן מלא לעימות נותרו בגדר הערכה.",
+     "first_reported_at": "2026-11-27T17:02:01+00:00",
+     "last_update_at": "2026-11-27T23:55:16+00:00",
+     "what_is_not_verified": "לא מאומתים פרטים מעבר לטענות הצבא האמריקני על נסיבות הפרת המצור.",
      "is_new_in_window": true,
      "reports": [
       {
-       "source_id": "src_walla",
-       "source_root_id": "fh_f413d436125d4e23",
-       "url": "https://www.walla.co.il/news/military/383963336",
-       "published_at": "2026-11-26T19:37:05+00:00"
-      }
-     ],
-     "places": []
-    },
-    {
-     "id": "IRAN-11270859-05",
-     "title": "שיגור 150 טילים אמריקאיים לבלימת תקיפות במצר",
-     "summary": "נשיא ארה\"ב חשף כי צבא ארצות הברית שיגר 150 טילים במצר כדי לבלום תקיפות נגד הכוחות.",
-     "axis": "איראן מול ארה\"ב",
-     "claim_type": "data",
-     "lifecycle": "active",
-     "occurred_at": "2026-11-26T23:41:42+00:00",
-     "is_ongoing": false,
-     "first_reported_at": "2026-11-26T23:41:42+00:00",
-     "last_update_at": "2026-11-26T23:41:42+00:00",
-     "what_is_not_verified": "מספר הטילים המדויק ופרטי היירוטים מבוססים על הצהרת נשיא ארה\"ב בלבד.",
-     "is_new_in_window": true,
-     "reports": [
+       "source_id": "src_aljazeera",
+       "source_root_id": "fh_bef6f206a44200fc",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
+       "published_at": "2026-11-27T23:55:16+00:00"
+      },
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "fh_b4c2db9b3db089e3",
+       "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
+       "published_at": "2026-11-27T22:22:02+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_711eaef35ab6e181",
+       "url": "https://www.al-monitor.com/originals/2026/11/us-military-fires-ship-violating-iran-blockade",
+       "published_at": "2026-11-27T21:30:26+00:00"
+      },
+      {
+       "source_id": "src_iranintl",
+       "source_root_id": "fh_b295a16e96fd15f7",
+       "url": "https://www.iranintl.com/en/202611274132",
+       "published_at": "2026-11-27T19:49:00+00:00"
+      },
+      {
+       "source_id": "src_almonitor",
+       "source_root_id": "fh_35b5e69745bea925",
+       "url": "https://www.al-monitor.com/originals/2026/11/us-disables-ship-trying-leave-iran-tehran-vows-confront-blockade",
+       "published_at": "2026-11-27T18:46:30+00:00"
+      },
+      {
+       "source_id": "src_tg_carmel",
+       "source_root_id": "fh_bef6f206a44200fc",
+       "url": "https://t.me/alexmehacarmel/49967",
+       "published_at": "2026-11-27T18:36:21+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "fh_15b13b773cfff107",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-it-disabled-commercial-ship-trying-run-iran-blockade",
+       "published_at": "2026-11-27T17:38:26+00:00"
+      },
       {
        "source_id": "src_israelhayom",
-       "source_root_id": "or_unknown_origin",
-       "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21944448",
-       "published_at": "2026-11-26T23:41:42+00:00"
+       "source_root_id": "fh_20783aedfa9c2c87",
+       "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21947352",
+       "published_at": "2026-11-27T17:26:38+00:00"
+      },
+      {
+       "source_id": "src_maariv",
+       "source_root_id": "fh_90c471befda442f6",
+       "url": "https://www.maariv.co.il/breaking-news/article-1392912",
+       "published_at": "2026-11-27T17:12:21+00:00"
+      },
+      {
+       "source_id": "src_ynet",
+       "source_root_id": "fh_9403bad4f796c266",
+       "url": "https://www.ynet.co.il/news/article/skvdvnvkqg",
+       "published_at": "2026-11-27T17:08:45+00:00"
+      },
+      {
+       "source_id": "src_tg_abualiexpress",
+       "source_root_id": "fh_bef6f206a44200fc",
+       "url": "https://t.me/abualiexpress/134354",
+       "published_at": "2026-11-27T17:02:01+00:00"
       }
      ],
-     "places": []
+     "places": [
+      {
+       "name": "בנדר עבאס, איראן",
+       "lat": 27.1842,
+       "lon": 56.2893
+      },
+      {
+       "name": "מפרץ עומאן",
+       "lat": 24.2138,
+       "lon": 58.9846
+      }
+     ]
+    },
+    {
+     "id": "IRAN-11280040-03",
+     "title": "התקפה קטלנית בכווית באמצעות כטב\"ם",
+     "summary": "מתקפת כטב\"ם בכווית הביאה למותם של שני אזרחים איטלקים ולפציעת אחרים, כאשר שר החוץ של איטליה הצהיר כי הכלי יוצר באיראן.",
+     "axis": "איראן מול ארה\"ב וישראל",
+     "claim_type": "incident",
+     "lifecycle": "active",
+     "occurred_at": "2026-11-26T00:00:00+00:00",
+     "is_ongoing": false,
+     "first_reported_at": "2026-11-27T23:47:40+00:00",
+     "last_update_at": "2026-11-28T00:00:00+00:00",
+     "what_is_not_verified": "איראן מכחישה את מעורבותה וטענה שהכלי לא שוגר משטחה.",
+     "is_new_in_window": true,
+     "reports": [
+      {
+       "source_id": "src_aljazeera",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
+       "published_at": "2026-11-28T00:00:00+00:00"
+      },
+      {
+       "source_id": "src_mee",
+       "source_root_id": "or_unknown_origin",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-killed-two-italians-kuwait-was-iranian-made-says-italys-foreign",
+       "published_at": "2026-11-27T23:47:40+00:00"
+      }
+     ],
+     "places": [
+      {
+       "name": "כווית",
+       "lat": 29.3797,
+       "lon": 47.9734
+      }
+     ]
     }
    ],
    "not_verified": [
-    "{'string': 'הטענה האיראנית כי תקיפת הכטב\"ם בכווית בוצעה במסגרת פעילות \\'דגל כוזב\\' על ידי ישראל וארה\"ב אינה מאומתת.'}",
-    "{'string': 'הדיווחים על התקדמות איראנית ממשית בתחום הנשק הכימי אינם מאומתים במלואם.'}",
-    "{'string': 'טענת משמרות המהפכה על אילוצם של מטוסי קרב אמריקאיים לסגת באמצעות ירי אזהרה.'}"
+    "האם המכליות במצר הורמוז אכן נפגעו ממוקשים ימיים כגרסת משמרות המהפכה או מסיבה אחרת",
+    "האחריותשיר הלשכה האיראנית לשיגור הכטב\"ם שהותקף בכווית",
+    "היקף הפעילות הצבאית המדויקת באתרים שצוינו על ידי ארה\"ב"
    ],
    "map": {
     "confidence": "medium",
@@ -525,133 +503,111 @@ window.DB.war_published = {
    "economy": [
     {
      "indicator": "דולר/שקל",
-     "value": 3.3273,
+     "value": 3.3094,
      "unit": "ILS",
-     "change_pct": -1.53,
+     "change_pct": -0.54,
      "source_id": "src_ecb",
-     "as_of": "2026-11-26T15:00:00+00:00"
+     "as_of": "2026-11-27T15:00:00+00:00"
     }
    ],
    "strategic_goals": [
     {
      "actor": "איראן",
      "declared": [
-      "שמירה על מוכנות צבאית גבוהה להגן על גבולות המדינה",
-      "הכחשה גורפת של מעורבות בתקיפות בכווית ונכונות לחקירה משותפת",
-      "התנגדות לנוכחות צבא זרה באזור המפרץ"
+      "שסר המצור הימי על נמליה",
+      "סגירת מצר הורמוז ומניעת מעבר ספינות תחת מצור"
      ],
      "inferred": [
-      "ניסיון להתמודד עם משבר כלכלי חריף, צניחת מטבע ומחסור חמור במזון ובאנרגיה",
-      "הסתמכות על שלוחות ולוחמה אסימטרית להרחקת האיום",
-      "המשך פיתוח התשתיות הגרעיניות בחשאי"
+      "ניסיון לשמור על נתיבי ייצוא הנפט והכנסות למשטר למרות הסנקציות",
+      "הפגנת כוח ימי דרך שלוחותיה וכוחות משמרות המהפכה"
      ],
      "forecast": [
-      "המשך המצוקה הכלכלית עקב הסנקציות והמצור הימי",
-      "הגברת החשש מעימות צבאי ישיר שיפגע בתשתיות קריטיות",
-      "העמקת הקשרים עם שותפות עוקפות סנקציות כמו רוסיה"
+      "המרת פעילות ימית בעימותים ישירים נוספים בתוואי המים",
+      "העמקת תחושת המצוקה הכלכלית המקומית עקב סגירת נתיבי המסחר"
      ]
     },
     {
-     "actor": "ארצות הברית",
+     "actor": "ארה\"ב וישראל",
      "declared": [
-      "מניעת השגת נשק גרעיני בידי איראן בכל מחיר",
-      "הגנה על ישראל ועל בעלות הברית במזרח התיכון",
-      "מתן אפשרות אחרונה להסכם מדיני לצד חיזוק הנוכחות הצבאית באזור"
+      "אכיפת מצצור ימי מלא על נמלי איראן",
+      "מניעת תנועת כלי שיט שמנסים להפר את הסנקציות"
      ],
      "inferred": [
-      "הפעלת לחץ מקסימלי הכולל מצור ימי וכלכלי להחלשת המשטר בטהראן",
-      "הכנה מבצעית לתקיפת יעדים אסטרטגיים ואתרים גרעיניים במקרה של כישלון הדיפלומטיה"
+      "חניקת הכלכלה האיראנית ובידודה הבין-לאומי",
+      "הרחקת איומים ימיים מנתיבי המסחר המרכזיים במפרץ"
      ],
      "forecast": [
-      "תגבור נוסף של כוחות צבא ונושאות מטוסים באזור",
-      "המשך תקיפות הגנתיות לבלימת איומים מצד איראן ושלוחותיה"
-     ]
-    },
-    {
-     "actor": "ישראל",
-     "declared": [
-      "הערכות מבצעית רב-חזיתית מול איומים מאיראן ומלבנון",
-      "מניעת התבססות איומים קיומיים, לרבות במישור הכימי והגרעיני"
-     ],
-     "inferred": [
-      "ויכוח פנימי בין דרגים ביטחוניים שונים על הצורך בפעולה עצמאית ללא תיאום מלא עם ארה\"ב",
-      "הכנה לאפשרות של הסלמה כוללת הכוללת פגיעה בתשתיות איראניות"
-     ],
-     "forecast": [
-      "המשך פעילות מנע מול שלוחות איראן (כדוגמת חיזבאללה)",
-      "היערכות לתגובה אפשרית במקרה של פריצת עימות ישיר בין איראן לארה\"ב"
+      "המשך תקיפת כלי שיט מפרים",
+      "הגברת הלחץ הדיפלומטי והכלכלי על טהראן"
      ]
     }
    ],
    "sources_cited": [
     {
      "source_id": "src_aljazeera",
-     "url": "https://www.aljazeera.com/news-analysis/2026/11/27/can-the-mecca-pact-turn-its-collective-defence-promise-into-real-support?traffic_source=rss",
-     "accessed_at": "2026-11-27T08:59:23+00:00"
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
+     "accessed_at": "2026-11-28T00:40:19+00:00"
     },
     {
      "source_id": "src_almonitor",
-     "url": "https://www.al-monitor.com/originals/2026/11/erdogan-completes-turkeys-ratification-mecca-defence-pact",
-     "accessed_at": "2026-11-27T08:59:23+00:00"
-    },
-    {
-     "source_id": "src_bbc",
-     "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-     "accessed_at": "2026-11-27T08:59:23+00:00"
+     "url": "https://www.al-monitor.com/originals/2026/11/us-disables-ship-trying-leave-iran-tehran-vows-confront-blockade",
+     "accessed_at": "2026-11-28T00:40:19+00:00"
     },
     {
      "source_id": "src_iranintl",
-     "url": "https://www.iranintl.com/en/202611267797",
-     "accessed_at": "2026-11-27T08:59:23+00:00"
+     "url": "https://www.iranintl.com/en/202611274132",
+     "accessed_at": "2026-11-28T00:40:19+00:00"
     },
     {
      "source_id": "src_irna",
-     "url": "https://en.irna.ir/news/86333676/Iran-ready-for-joint-probe-into-Kuwait-attack-Araghchi",
-     "accessed_at": "2026-11-27T08:59:23+00:00"
+     "url": "https://en.irna.ir/news/86333992/Oil-tanker-hits-mine-in-south-of-Strait-of-Hormuz",
+     "accessed_at": "2026-11-28T00:40:19+00:00"
     },
     {
      "source_id": "src_israelhayom",
-     "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21944448",
-     "accessed_at": "2026-11-27T08:59:23+00:00"
+     "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21947352",
+     "accessed_at": "2026-11-28T00:40:19+00:00"
+    },
+    {
+     "source_id": "src_maariv",
+     "url": "https://www.maariv.co.il/breaking-news/article-1392912",
+     "accessed_at": "2026-11-28T00:40:19+00:00"
     },
     {
      "source_id": "src_mee",
-     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/several-countries-slam-suspected-iranian-attack-kuwait",
-     "accessed_at": "2026-11-27T08:59:23+00:00"
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-killed-two-italians-kuwait-was-iranian-made-says-italys-foreign",
+     "accessed_at": "2026-11-28T00:40:19+00:00"
     },
     {
      "source_id": "src_tg_abualiexpress",
-     "url": "https://t.me/abualiexpress/134289",
-     "accessed_at": "2026-11-27T08:59:23+00:00"
+     "url": "https://t.me/abualiexpress/134354",
+     "accessed_at": "2026-11-28T00:40:19+00:00"
     },
     {
-     "source_id": "src_walla",
-     "url": "https://www.walla.co.il/news/military/383963336",
-     "accessed_at": "2026-11-27T08:59:23+00:00"
+     "source_id": "src_tg_carmel",
+     "url": "https://t.me/alexmehacarmel/49967",
+     "accessed_at": "2026-11-28T00:40:19+00:00"
+    },
+    {
+     "source_id": "src_ynet",
+     "url": "https://www.ynet.co.il/news/article/skvdvnvkqg",
+     "accessed_at": "2026-11-28T00:40:19+00:00"
     }
    ]
   },
   "auto": true,
-  "previous_generated_at": "2026-11-26T19:47:32+00:00",
+  "previous_generated_at": "2026-11-27T08:59:23+00:00",
   "changes": {
-   "IRAN-11270859-01": {
+   "IRAN-11280040-01": {
     "kind": "new"
    },
-   "IRAN-11270859-02": {
-    "kind": "same",
-    "from": "shared_root",
-    "to": "shared_root",
-    "prev": "תקיפת כטב\"מים בכוויית והריגת שני טכנאים",
-    "score": 1.0
-   },
-   "IRAN-11270859-03": {
+   "IRAN-11280040-02": {
     "kind": "new"
    },
-   "IRAN-11270859-04": {
-    "kind": "new"
-   },
-   "IRAN-11270859-05": {
-    "kind": "new"
+   "IRAN-11280040-03": {
+    "kind": "possible",
+    "prev": "תקיפת כטב\"ם בכווית והריגת טכנאים איטלקים",
+    "score": 0.467
    }
   }
  },
