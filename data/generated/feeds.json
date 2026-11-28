@@ -2,13 +2,13 @@
  "boi": {
   "data": {
    "rate": 3.25,
-   "as_of": "2026-11-27",
+   "as_of": "2026-11-28",
    "effective_from": "2026-09-03",
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-28T03:17:14+00:00",
-  "fetched_at": "2026-11-28T03:17:14+00:00"
+  "checked_at": "2026-11-28T04:17:28+00:00",
+  "fetched_at": "2026-11-28T04:17:28+00:00"
  },
  "animals": {
   "data": [
@@ -42,8 +42,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T03:17:21+00:00",
-  "fetched_at": "2026-11-28T03:17:21+00:00"
+  "checked_at": "2026-11-28T04:17:39+00:00",
+  "fetched_at": "2026-11-28T04:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -77,10 +77,10 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T03:17:22+00:00",
-  "fetched_at": "2026-11-28T03:17:22+00:00"
+  "checked_at": "2026-11-28T04:17:39+00:00",
+  "fetched_at": "2026-11-28T04:17:39+00:00"
  },
- "generated_at": "2026-11-28T03:17:22+00:00",
+ "generated_at": "2026-11-28T04:17:39+00:00",
  "globes": {
   "data": {
    "top": [
@@ -224,8 +224,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-28T03:17:15+00:00",
-  "fetched_at": "2026-11-28T03:17:15+00:00"
+  "checked_at": "2026-11-28T04:17:29+00:00",
+  "fetched_at": "2026-11-28T04:17:29+00:00"
  },
  "ifa": {
   "data": [
@@ -1869,8 +1869,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T03:17:16+00:00",
-  "fetched_at": "2026-11-28T03:17:16+00:00"
+  "checked_at": "2026-11-28T04:17:30+00:00",
+  "fetched_at": "2026-11-28T04:17:30+00:00"
  },
  "tv": {
   "data": [
@@ -2884,8 +2884,8 @@
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T03:17:16+00:00",
-  "fetched_at": "2026-11-28T03:17:16+00:00"
+  "checked_at": "2026-11-28T04:17:31+00:00",
+  "fetched_at": "2026-11-28T04:17:31+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3000,17 +3000,24 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-28T03:17:16+00:00",
-  "fetched_at": "2026-11-28T03:17:16+00:00"
+  "checked_at": "2026-11-28T04:17:31+00:00",
+  "fetched_at": "2026-11-28T04:17:31+00:00"
  },
  "ai": {
   "data": {
-   "news": [],
-   "candidates": 0,
+   "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/israeli-employment-service-ai-replaces-software-developers/",
+     "date": "2026-11-25T09:06:53+00:00",
+     "launch": false,
+     "title": "דוח ה-AI של שירות התעסוקה: 211% יותר מתכנתים דורשי עבודה"
+    }
+   ],
+   "candidates": 2,
    "failed_sources": [
     "Anthropic",
-    "Google DeepMind",
-    "גיקטיים"
+    "Google DeepMind"
    ],
    "tools": [
     {
@@ -3038,14 +3045,14 @@
      "title": "Krea 2 Turbo Revamped: Image Editor",
      "desc_en": "Edit one image from a prompt. Keep the look consistent.",
      "desc_he": "ערוך תמונה אחת מתוך הנחיה. שמור על המראה עקבי.",
-     "likes": 205,
+     "likes": 207,
      "link": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped"
     },
     {
      "title": "Harness Leaderboard",
      "desc_en": "Which coding-agent harness should you use for your model?",
      "desc_he": "באיזו רתמה של סוכן קידוד כדאי להשתמש עבור הדגם שלך?",
-     "likes": 573,
+     "likes": 574,
      "link": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
@@ -3086,12 +3093,22 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-28T03:17:21+00:00",
-  "fetched_at": "2026-11-28T03:17:21+00:00"
+  "checked_at": "2026-11-28T04:17:38+00:00",
+  "fetched_at": "2026-11-28T04:17:38+00:00"
  },
  "abroad": {
   "data": {
    "items": [
+    {
+     "title": "5 נקודות לדני וולף ו-4 לבן שרף בהפסד ברוקלין",
+     "link": "https://www.one.co.il/Article/540070.html?ref=rss",
+     "date": "2026-11-28T04:00:00+00:00",
+     "source": "ONE",
+     "players": [
+      "בן שרף",
+      "דני וולף"
+     ]
+    },
     {
      "title": "צפו: דניאל פרץ הצטיין בנקמה המתוקה של סאות'המפטון",
      "link": "https://sports.walla.co.il/item/3877834",
@@ -3215,15 +3232,6 @@
      "title": "צפו בשאקיל אוניל מדבר עם דני אבדיה בעברית: \"ברוך השם\"",
      "link": "https://sports.walla.co.il/item/3877689",
      "date": "2026-11-26T07:25:00+00:00",
-     "source": "וואלה",
-     "players": [
-      "דני אבדיה"
-     ]
-    },
-    {
-     "title": "ארה\"ב המומה מדני אבדיה: \"אין לו מצפון, לא מפחד משום דבר\"",
-     "link": "https://sports.walla.co.il/item/3877688",
-     "date": "2026-11-26T07:09:00+00:00",
      "source": "וואלה",
      "players": [
       "דני אבדיה"
@@ -3440,8 +3448,8 @@
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-28T03:17:19+00:00",
-  "fetched_at": "2026-11-28T03:17:19+00:00"
+  "checked_at": "2026-11-28T04:17:35+00:00",
+  "fetched_at": "2026-11-28T04:17:35+00:00"
  },
  "idf": {
   "data": [
@@ -3471,8 +3479,9 @@
     "date": "2026-11-26T19:37:05+00:00"
    }
   ],
-  "ok": true,
-  "checked_at": "2026-11-28T03:17:20+00:00",
+  "ok": false,
+  "error": "not well-formed (invalid token): line 1, column 0",
+  "checked_at": "2026-11-28T04:17:35+00:00",
   "fetched_at": "2026-11-28T03:17:20+00:00"
  },
  "feed_health": {
@@ -3481,43 +3490,43 @@
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-27T18:00:00+00:00",
-    "seen_at": "2026-11-28T03:17:22+00:00",
+    "seen_at": "2026-11-28T04:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-27T12:03:00+00:00",
-    "seen_at": "2026-11-28T03:17:22+00:00",
+    "seen_at": "2026-11-28T04:17:39+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-27T10:55:00+00:00",
-    "seen_at": "2026-11-28T03:17:22+00:00",
+    "seen_at": "2026-11-28T04:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-27T17:20:00+00:00",
-    "seen_at": "2026-11-28T03:17:22+00:00",
+    "seen_at": "2026-11-28T04:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
     "newest": "2026-11-27T22:53:00+00:00",
-    "seen_at": "2026-11-28T03:17:22+00:00",
+    "seen_at": "2026-11-28T04:17:39+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
     "newest": "2026-11-27T18:59:00+00:00",
-    "seen_at": "2026-11-28T03:17:22+00:00",
+    "seen_at": "2026-11-28T04:17:39+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-27T22:29:00+00:00",
-    "seen_at": "2026-11-28T03:17:22+00:00",
+    "newest": "2026-11-28T04:11:00+00:00",
+    "seen_at": "2026-11-28T04:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
@@ -3535,35 +3544,35 @@
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-24T16:00:00+00:00",
-    "seen_at": "2026-11-28T03:17:22+00:00",
+    "seen_at": "2026-11-28T04:17:39+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
     "newest": "2026-11-27T13:29:51+00:00",
-    "seen_at": "2026-11-28T02:17:32+00:00",
+    "seen_at": "2026-11-28T04:17:39+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-28T03:17:22+00:00",
+    "seen_at": "2026-11-28T04:17:39+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
     "newest": "2026-11-27T23:00:33+00:00",
-    "seen_at": "2026-11-28T03:17:22+00:00",
+    "seen_at": "2026-11-28T04:17:39+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-27T13:59:14+00:00",
-    "seen_at": "2026-11-28T00:17:39+00:00",
+    "seen_at": "2026-11-28T04:17:39+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-28T03:17:22+00:00"
+  "checked_at": "2026-11-28T04:17:39+00:00"
  },
  "health_news": {
   "data": [
@@ -3718,9 +3727,8 @@
     "date": "2026-11-08T10:26:28+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-28T03:17:20+00:00",
-  "fetched_at": "2026-11-28T00:17:35+00:00"
+  "ok": true,
+  "checked_at": "2026-11-28T04:17:35+00:00",
+  "fetched_at": "2026-11-28T04:17:35+00:00"
  }
 }
