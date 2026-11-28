@@ -257,6 +257,10 @@
 42.026
 ],
 "al-suqaylabiyah, syria": null,
+"al-turba, yemen": [
+13.2076,
+44.1177
+],
 "al-wazi'yah, yemen": null,
 "aleppo international airport, syria": [
 36.181,
@@ -655,6 +659,10 @@
 "bezruky, ukraine": [
 50.0077,
 34.6354
+],
+"bila tserkva, ukraine": [
+49.797,
+30.1158
 ],
 "bilenke, ukraine": [
 48.7592,
@@ -2027,6 +2035,10 @@
 33.0992,
 35.5117
 ],
+"malotaranivka, ukraine": [
+48.6676,
+37.5135
+],
 "manama, bahrain": [
 26.2235,
 50.5822
@@ -2306,6 +2318,10 @@
 56.3265,
 44.0051
 ],
+"nizhyn, ukraine": [
+51.0465,
+31.8806
+],
 "northern border, israel": null,
 "norway": null,
 "nova tavolzhanka, russia": [
@@ -2316,6 +2332,7 @@
 49.7181,
 35.8602
 ],
+"novaya guta, belarus": null,
 "novaya huta, belarus": null,
 "nove, ukraine": [
 50.0334,

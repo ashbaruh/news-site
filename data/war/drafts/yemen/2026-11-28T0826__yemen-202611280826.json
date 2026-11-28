@@ -1,0 +1,470 @@
+{
+ "status": "draft",
+ "received_sha256_12": "8c09fbbcd0d4",
+ "preview": {
+  "events": 9,
+  "levels": {
+   "shared_root": 5,
+   "verified": 2,
+   "initial": 2
+  },
+  "note": "כך האתר יחשב את רמות האימות. לאשר? הוסף את השם ל-data/war/approved.json"
+ },
+ "analysis": {
+  "contract_version": 1,
+  "arena": "yemen",
+  "generated_at": "2026-11-28T08:26:38+00:00",
+  "window": {
+   "from": "2026-11-27T08:26:38+00:00",
+   "to": "2026-11-28T08:26:38+00:00"
+  },
+  "model": {
+   "name": "gemini-3.8-flash",
+   "run_id": "yemen-202611280826"
+  },
+  "summary": "העימות בתימן וסביבתה הסלים באופן חד עם חידוש חילופי המהלומות הישירות בין החות'ים לבין סעודיה, לצד התקדמות חות'ית לעבר עדן ואחיזה בקו החוף של באב אל-מנדב. במקביל לתקיפות חות'יות על תשתיות אנרגיה ושיגורים לעבר ריאד, הקואליציה תוקפת בצנעא וביעדים נוספים וכוחות ממשלת תימן מנהלים מערכה נרחבת במוקדים שונים. הזירה הימית שבה למוקד המתיחות עם אירוע השתלטות חמושים על ספינת משא בסמוך לחוף התימני.",
+  "fronts": [
+   {
+    "name": "חזית סעודיה - חות'ים",
+    "status": "הסלמה הכוללת שיגורי טילים וכטב\"מים לעבר ריאד וג'אזאן לצד תקיפות אוויריות סעודיות בצנעא ובמחוזות נוספים"
+   },
+   {
+    "name": "פנים תימן (ממשלה מול חות'ים)",
+    "status": "קרבות עצימים ומבצע צבאי נרחב של כוחות הממשלה, לצד התקדמות חות'ית לכיוון עדן ותקיפות במחוז תעז ולחג'"
+   },
+   {
+    "name": "התווך הימי (הים האדום ובאב אל-מנדב)",
+    "status": "מתיחות גוברת עקב שליטת החות'ים ברצועת החוף המערבית ודיווח על חטיפת ספינת משא"
+   }
+  ],
+  "events": [
+   {
+    "id": "YEMEN-11280826-01",
+    "title": "יירוט טיל שיוט חות'י ששוגר לעבר ריאד",
+    "summary": "מערכות ההגנה האווירית של סעודיה יירטו והשמידו טיל שיוט ששוגר על ידי הכוחות החות'יים לעבר הבירה ריאד.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-28T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-28T03:18:59+00:00",
+    "last_update_at": "2026-11-28T07:58:45+00:00",
+    "what_is_not_verified": "האם נגרם נזק משני כתוצאה משברי היירוט",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_63aa6ce91ccbcbd0",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-683",
+      "published_at": "2026-11-28T07:58:45+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_63aa6ce91ccbcbd0",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-air-defences-destroy-houthi-cruise-missile-over-riyadh",
+      "published_at": "2026-11-28T03:55:53+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_63aa6ce91ccbcbd0",
+      "url": "https://www.sabanew.net/viewstory/156641",
+      "published_at": "2026-11-28T03:18:59+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11280826-02",
+    "title": "יירוט כלי טיס בלתי מאויש ששוגר לעבר ריאד",
+    "summary": "הקואליציה בראשות סעודיה יירטה והשמידה כלי טיס בלתי מאויש ששיגרו החות'ים בכיוון ריאד.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T13:14:04+00:00",
+    "last_update_at": "2026-11-27T16:46:57+00:00",
+    "what_is_not_verified": "דגם כלי הטיס ומיקום היירוט המדויק",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "fh_d13fb558324231bd",
+      "url": "https://www.newarab.com/news/saudi-strike-kills-11-yemens-taiz",
+      "published_at": "2026-11-27T16:46:57+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_d13fb558324231bd",
+      "url": "https://www.sabanew.net/viewstory/156613",
+      "published_at": "2026-11-27T13:14:04+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ריאד, סעודיה",
+      "lat": 24.6389,
+      "lon": 46.716
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11280826-03",
+    "title": "מתקפה חות'ית על בית זיקוק בג'אזאן והשבתתו",
+    "summary": "תקיפה שביצעו החות'ים לעבר מתקן נפט בג'אזאן גרמה לשריפה, למותו של עובד זר ולפציעת אחרים, והובילה לסגירה זמנית של האתר.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-26T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T07:29:58+00:00",
+    "last_update_at": "2026-11-27T16:49:23+00:00",
+    "what_is_not_verified": "היקף הנזק המדויק למתקני הזיקוק",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/kuwait-summons-iran-ambassador-saudi-arabia-strikes-sanaa",
+      "published_at": "2026-11-27T16:49:23+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-strike-kills-11-yemens-taiz",
+      "published_at": "2026-11-27T16:46:57+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-says-attack-kuwait-suspicious-offers-cooperate",
+      "published_at": "2026-11-27T07:29:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "ג'אזאן, סעודיה",
+      "lat": 16.8947,
+      "lon": 42.558
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11280826-04",
+    "title": "תקיפות אוויריות של הקואליציה בצנעא ובמחוז אל-בידא",
+    "summary": "מטוסי הקואליציה ביצעו תקיפות אוויריות נגד מטרות בבירה צנעא ופגעו ברשתות תקשורת במספר נפות במחוז אל-בידא.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T07:29:58+00:00",
+    "last_update_at": "2026-11-28T03:55:53+00:00",
+    "what_is_not_verified": "מספר הנפגעים ומידת הנזק לתשתיות",
+    "is_new_in_window": false,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-air-defences-destroy-houthi-cruise-missile-over-riyadh",
+      "published_at": "2026-11-28T03:55:53+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-civil-defence-says-danger-has-passed-eastern-province-al-kharj",
+      "published_at": "2026-11-28T00:24:08+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/kuwait-summons-iran-ambassador-saudi-arabia-strikes-sanaa",
+      "published_at": "2026-11-27T16:49:23+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/iran-says-attack-kuwait-suspicious-offers-cooperate",
+      "published_at": "2026-11-27T07:29:58+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "צנעא, תימן",
+      "lat": 15.3539,
+      "lon": 44.2059
+     },
+     {
+      "name": "אל-בידא, תימן",
+      "lat": 13.9881,
+      "lon": 45.5729
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11280826-05",
+    "title": "מבצע 'שחר תימן' של כוחות הממשלה נגד יעדים חות'יים",
+    "summary": "דובר כוחות הממשלה בתימן דיווח על ביצוע מאות תקיפות ארטילריה, גיחות אוויר ושיגורי רקטות, שבהן נפגעו או נהרגו עשרות לוחמים ומפקדים חות'ים ונהרס ציוד צבאי רב.",
+    "axis": "פנים תימן",
+    "claim_type": "data",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-27T16:48:37+00:00",
+    "last_update_at": "2026-11-28T07:58:45+00:00",
+    "what_is_not_verified": "אמיתות מספרי הנפגעים והכלים שהושמדו, שנמסרו מצד אחד בלבד",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_6c5fc9020f385446",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-683",
+      "published_at": "2026-11-28T07:58:45+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_6c5fc9020f385446",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-forces-claim-121-houthi-fighters-killed-726-attacks",
+      "published_at": "2026-11-28T02:26:50+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_6c5fc9020f385446",
+      "url": "https://www.sabanew.net/viewstory/156619",
+      "published_at": "2026-11-27T16:48:37+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11280826-06",
+    "title": "תקיפות והפגזות חות'יות באזור תעז",
+    "summary": "התקפות באמצעות כטב\"מים, ירי רקטות וצלפים פגעו באזורי מגורים במחוז תעז, וגרמו למותם של אזרחים ולפציעת פעוטה.",
+    "axis": "פנים תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T14:16:39+00:00",
+    "last_update_at": "2026-11-28T07:58:45+00:00",
+    "what_is_not_verified": "זהות האחראים המדויקת למתקפה הספציפית בעיר א-תורבה, נוכח דיווחים סותרים",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_426d8ceef6f3b196",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-683",
+      "published_at": "2026-11-28T07:58:45+00:00"
+     },
+     {
+      "source_id": "src_mee",
+      "source_root_id": "fh_426d8ceef6f3b196",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-attacks-kill-three-civilians-and-wound-three-others-taiz-report",
+      "published_at": "2026-11-28T03:29:15+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_426d8ceef6f3b196",
+      "url": "https://www.sabanew.net/viewstory/156632",
+      "published_at": "2026-11-27T21:57:28+00:00"
+     },
+     {
+      "source_id": "src_saba_aden",
+      "source_root_id": "fh_936e151d572ca5b0",
+      "url": "https://www.sabanew.net/viewstory/156615",
+      "published_at": "2026-11-27T14:16:39+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "תעז, תימן",
+      "lat": 13.5752,
+      "lon": 44.0215
+     },
+     {
+      "name": "א-תורבה, תימן",
+      "lat": 13.2076,
+      "lon": 44.1177
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11280826-07",
+    "title": "דיווח חות'י על פגיעה קטלנית של חיל האוויר הסעודי בתעז",
+    "summary": "כלי תקשורת המזוהים עם החות'ים טענו כי גיחה של מטוסי קרב סעודיים על מבנה מגורים בא-תורבה הביאה למותם של אזרחים רבים, בהם ילדים, וכן הותקפו מאגרי דלק בצעדָה.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T16:46:57+00:00",
+    "last_update_at": "2026-11-27T16:46:57+00:00",
+    "what_is_not_verified": "האם התקיפה בא-תורבה בוצעה על ידי מטוסי סעודיה או שמדובר בירי חות'י",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/saudi-strike-kills-11-yemens-taiz",
+      "published_at": "2026-11-27T16:46:57+00:00"
+     }
+    ],
+    "places": [
+     {
+      "name": "א-תורבה, תימן",
+      "lat": 13.2076,
+      "lon": 44.1177
+     },
+     {
+      "name": "צעדה, תימן",
+      "lat": 16.9409,
+      "lon": 43.763
+     }
+    ]
+   },
+   {
+    "id": "YEMEN-11280826-08",
+    "title": "השתלטות חמושים על אוניית משא סמוך לחופי תימן",
+    "summary": "חמושים ביצעו השתלטות על ספינת משא בעת ששטה בקרבת חופי תימן.",
+    "axis": "הים האדום ומצר באב אל-מנדב",
+    "claim_type": "incident",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-28T00:00:00+00:00",
+    "is_ongoing": true,
+    "first_reported_at": "2026-11-28T07:57:23+00:00",
+    "last_update_at": "2026-11-28T07:57:23+00:00",
+    "what_is_not_verified": "זהות החמושים, שמה של האונייה ומצבו של הצוות",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_maariv",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.maariv.co.il/breaking-news/article-1393005",
+      "published_at": "2026-11-28T07:57:23+00:00"
+     }
+    ],
+    "places": []
+   },
+   {
+    "id": "YEMEN-11280826-09",
+    "title": "אשרור הסכם ההגנה המשולש בין טורקיה, סעודיה ופקיסטן",
+    "summary": "טורקיה השלימה את אשרור ברית ההגנה המשותפת שנחתמה במכה, המאפשרת מתן סיוע צבאי לריאד בעקבות הישנות התקיפות החות'יות.",
+    "axis": "סעודיה - תימן",
+    "claim_type": "statement",
+    "lifecycle": "active",
+    "occurred_at": "2026-11-27T00:00:00+00:00",
+    "is_ongoing": false,
+    "first_reported_at": "2026-11-27T08:58:04+00:00",
+    "last_update_at": "2026-11-28T07:58:45+00:00",
+    "what_is_not_verified": "מועד פריסת כוחות צבאיים טורקיים בסעודיה בפועל",
+    "is_new_in_window": true,
+    "reports": [
+     {
+      "source_id": "src_mee",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-683",
+      "published_at": "2026-11-28T07:58:45+00:00"
+     },
+     {
+      "source_id": "src_newarab",
+      "source_root_id": "or_unknown_origin",
+      "url": "https://www.newarab.com/news/erdogan-completes-turkeys-ratification-mecca-pact",
+      "published_at": "2026-11-27T08:58:04+00:00"
+     }
+    ],
+    "places": []
+   }
+  ],
+  "not_verified": [
+   "זהות האחראים לפגיעה הקטלנית בבניין מגורים בעיר א-תורבה (טענות סותרות בין הצדדים)",
+   "מספר הנפגעים והאבדות המדויק במבצע 'שחר תימן'",
+   "פרטי ספינת המשא שנחטפה וזהות החמושים שעלו עליה"
+  ],
+  "map": {
+   "confidence": "low",
+   "is_assessment": true,
+   "note": "הערכה אנליטית מבוססת דיווחים — לא קו שליטה מאומת בשטח.",
+   "layers": []
+  },
+  "economy": [
+   {
+    "indicator": "דולר/שקל",
+    "value": 3.3094,
+    "unit": "ILS",
+    "change_pct": -0.54,
+    "source_id": "src_ecb",
+    "as_of": "2026-11-27T15:00:00+00:00"
+   }
+  ],
+  "strategic_goals": [
+   {
+    "actor": "התנועה החות'ית",
+    "declared": [
+     "פגיעה במתקנים חיוניים ובבסיסים בשטח סעודיה בתגובה להפצצות הקואליציה"
+    ],
+    "inferred": [
+     "הפעלת לחץ כלכלי על סעודיה דרך שיתוק מתקני אנרגיה כדי לכפות הפסקת תקיפות",
+     "הרחבת השליטה הטריטוריאלית לעבר עדן וביסוס אחיזה במצר באב אל-מנדב"
+    ],
+    "forecast": [
+     "המשך ניסיונות שיגור טילים וכטב\"מים לטווחים ארוכים והגברת הפעילות ההתקפית בדרום תימן"
+    ]
+   },
+   {
+    "actor": "ערב הסעודית והקואליציה",
+    "declared": [
+     "הגנה על שטח הממלכה ויירוט איומים בליסטיים ורחפנים",
+     "תמיכה במאמצי ההגנה המשותפים במסגרת ברית מכה"
+    ],
+    "inferred": [
+     "גביית מחיר מהחות'ים באמצעות פגיעה בתשתיות תקשורת ומטרות שלטוניות בצנעא ובמעוזיהם",
+     "חיזוק קשרים ביטחוניים עם שותפות אזוריות להרתעת האיום החות'י"
+    ],
+    "forecast": [
+     "המשך יירוטים והגברת גיחות הפצצה ממוקדות במוקדי שליטה חות'יים"
+    ]
+   },
+   {
+    "actor": "ממשלת תימן המוכרת בינלאומית",
+    "declared": [
+     "פגיעה ביכולות הצבאיות של החות'ים וסיכול פעולותיהם באמצעות מבצע 'שחר תימן'",
+     "גינוי תקיפות של ריכוזי אוכלוסייה אזרחית במחוזות תעז ולחג'"
+    ],
+    "inferred": [
+     "בלימת התקדמות החות'ים במרחב הדרום והגנה על המובלעת הזמנית בעדן"
+    ],
+    "forecast": [
+     "המשך פעולות יבשתיות וארטילריות במאמץ לבלום את לחץ הכוחות החות'יים"
+    ]
+   }
+  ],
+  "sources_cited": [
+   {
+    "source_id": "src_maariv",
+    "url": "https://www.maariv.co.il/breaking-news/article-1393005",
+    "accessed_at": "2026-11-28T08:26:38+00:00"
+   },
+   {
+    "source_id": "src_mee",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-683",
+    "accessed_at": "2026-11-28T08:26:38+00:00"
+   },
+   {
+    "source_id": "src_newarab",
+    "url": "https://www.newarab.com/news/erdogan-completes-turkeys-ratification-mecca-pact",
+    "accessed_at": "2026-11-28T08:26:38+00:00"
+   },
+   {
+    "source_id": "src_saba_aden",
+    "url": "https://www.sabanew.net/viewstory/156615",
+    "accessed_at": "2026-11-28T08:26:38+00:00"
+   }
+  ]
+ }
+}
