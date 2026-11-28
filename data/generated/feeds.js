@@ -9,8 +9,8 @@ window.DB.generated = {
    "previous_rate": 3.5
   },
   "ok": true,
-  "checked_at": "2026-11-28T10:17:15+00:00",
-  "fetched_at": "2026-11-28T10:17:15+00:00"
+  "checked_at": "2026-11-28T11:17:25+00:00",
+  "fetched_at": "2026-11-28T11:17:25+00:00"
  },
  "animals": {
   "data": [
@@ -44,8 +44,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T10:17:25+00:00",
-  "fetched_at": "2026-11-28T10:17:25+00:00"
+  "checked_at": "2026-11-28T11:17:39+00:00",
+  "fetched_at": "2026-11-28T11:17:39+00:00"
  },
  "av_en": {
   "data": [
@@ -79,10 +79,10 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T10:17:25+00:00",
-  "fetched_at": "2026-11-28T10:17:25+00:00"
+  "checked_at": "2026-11-28T11:17:40+00:00",
+  "fetched_at": "2026-11-28T11:17:40+00:00"
  },
- "generated_at": "2026-11-28T10:17:25+00:00",
+ "generated_at": "2026-11-28T11:17:40+00:00",
  "globes": {
   "data": {
    "top": [
@@ -226,8 +226,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-28T10:17:16+00:00",
-  "fetched_at": "2026-11-28T10:17:16+00:00"
+  "checked_at": "2026-11-28T11:17:27+00:00",
+  "fetched_at": "2026-11-28T11:17:27+00:00"
  },
  "ifa": {
   "data": [
@@ -1871,8 +1871,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T10:17:17+00:00",
-  "fetched_at": "2026-11-28T10:17:17+00:00"
+  "checked_at": "2026-11-28T11:17:27+00:00",
+  "fetched_at": "2026-11-28T11:17:27+00:00"
  },
  "tv": {
   "data": [
@@ -2942,8 +2942,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T10:17:19+00:00",
-  "fetched_at": "2026-11-28T10:17:19+00:00"
+  "checked_at": "2026-11-28T11:17:29+00:00",
+  "fetched_at": "2026-11-28T11:17:29+00:00"
  },
  "ligat_haal": {
   "data": {
@@ -3058,22 +3058,31 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-28T10:17:19+00:00",
-  "fetched_at": "2026-11-28T10:17:19+00:00"
+  "checked_at": "2026-11-28T11:17:29+00:00",
+  "fetched_at": "2026-11-28T11:17:29+00:00"
  },
  "ai": {
   "data": {
-   "news": [],
-   "candidates": 0,
+   "news": [
+    {
+     "source": "גיקטיים",
+     "link": "https://www.geektime.co.il/israeli-ai-research-variable-fonts-neurips-2026/",
+     "date": "2026-11-28T11:12:45+00:00",
+     "launch": false,
+     "title": "החוקרים הישראלים שמלמדים AI לעצב פונטים"
+    }
+   ],
+   "candidates": 1,
    "failed_sources": [
-    "Anthropic"
+    "Anthropic",
+    "Google DeepMind"
    ],
    "tools": [
     {
      "title": "pi-H3",
      "desc_en": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
      "desc_he": "סרטון Minimax H3 ב-2–4 שלבים ללא מפענח VAE",
-     "likes": 212,
+     "likes": 213,
      "link": "https://huggingface.co/spaces/Lakonik/pi-H3"
     },
     {
@@ -3094,7 +3103,7 @@ window.DB.generated = {
      "title": "The Ultimate MoE Training Handbook",
      "desc_en": "A hands-on guide to training Mixture-of-Experts models",
      "desc_he": "מדריך מעשי להכשרת דגמי Mixture-of-Experts",
-     "likes": 881,
+     "likes": 882,
      "link": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
@@ -3122,7 +3131,7 @@ window.DB.generated = {
      "title": "Scaling swarms to thousands of agents",
      "desc_en": "A field report from building PyBot",
      "desc_he": "דוח שטח מבניית PyBot",
-     "likes": 53,
+     "likes": 54,
      "link": "https://huggingface.co/spaces/HuggingFaceSwarms/scaling-swarms"
     },
     {
@@ -3142,8 +3151,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-28T10:17:24+00:00",
-  "fetched_at": "2026-11-28T10:17:24+00:00"
+  "checked_at": "2026-11-28T11:17:38+00:00",
+  "fetched_at": "2026-11-28T11:17:38+00:00"
  },
  "abroad": {
   "data": {
@@ -3495,8 +3504,8 @@ window.DB.generated = {
    ]
   },
   "ok": true,
-  "checked_at": "2026-11-28T10:17:21+00:00",
-  "fetched_at": "2026-11-28T10:17:21+00:00"
+  "checked_at": "2026-11-28T11:17:33+00:00",
+  "fetched_at": "2026-11-28T11:17:33+00:00"
  },
  "idf": {
   "data": [
@@ -3527,8 +3536,8 @@ window.DB.generated = {
    }
   ],
   "ok": true,
-  "checked_at": "2026-11-28T10:17:21+00:00",
-  "fetched_at": "2026-11-28T10:17:21+00:00"
+  "checked_at": "2026-11-28T11:17:33+00:00",
+  "fetched_at": "2026-11-28T11:17:33+00:00"
  },
  "feed_health": {
   "ok": true,
@@ -3536,49 +3545,49 @@ window.DB.generated = {
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2": {
     "label": "גלובס",
     "newest": "2026-11-28T09:39:00+00:00",
-    "seen_at": "2026-11-28T10:17:25+00:00",
+    "seen_at": "2026-11-28T11:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585": {
     "label": "גלובס",
     "newest": "2026-11-27T12:03:00+00:00",
-    "seen_at": "2026-11-28T10:17:25+00:00",
+    "seen_at": "2026-11-28T11:17:40+00:00",
     "stuck": false
    },
    "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225": {
     "label": "גלובס",
     "newest": "2026-11-27T18:00:00+00:00",
-    "seen_at": "2026-11-28T10:17:25+00:00",
+    "seen_at": "2026-11-28T11:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/13444": {
     "label": "וואלה ישראלים ב-NBA",
     "newest": "2026-11-28T09:25:00+00:00",
-    "seen_at": "2026-11-28T10:17:25+00:00",
+    "seen_at": "2026-11-28T11:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/316": {
     "label": "וואלה כדורגל עולמי",
-    "newest": "2026-11-28T09:58:00+00:00",
-    "seen_at": "2026-11-28T10:17:25+00:00",
+    "newest": "2026-11-28T11:40:00+00:00",
+    "seen_at": "2026-11-28T11:17:40+00:00",
     "stuck": false
    },
    "https://rss.walla.co.il/feed/156": {
     "label": "וואלה כדורגל ישראלי",
-    "newest": "2026-11-28T10:39:00+00:00",
-    "seen_at": "2026-11-28T10:17:25+00:00",
+    "newest": "2026-11-28T12:02:00+00:00",
+    "seen_at": "2026-11-28T11:17:40+00:00",
     "stuck": false
    },
    "https://www.one.co.il/rss": {
     "label": "ONE",
-    "newest": "2026-11-28T09:35:00+00:00",
-    "seen_at": "2026-11-28T10:17:25+00:00",
+    "newest": "2026-11-28T10:32:00+00:00",
+    "seen_at": "2026-11-28T11:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/news/military": {
     "label": "וואלה צבא וביטחון",
     "newest": "2026-11-28T09:51:01+00:00",
-    "seen_at": "2026-11-28T10:17:25+00:00",
+    "seen_at": "2026-11-28T11:17:40+00:00",
     "stuck": false
    },
    "https://deepmind.google/blog/rss.xml": {
@@ -3590,35 +3599,35 @@ window.DB.generated = {
    "https://blog.google/technology/ai/rss/": {
     "label": "Google",
     "newest": "2026-11-24T16:00:00+00:00",
-    "seen_at": "2026-11-28T10:17:25+00:00",
+    "seen_at": "2026-11-28T11:17:40+00:00",
     "stuck": false
    },
    "https://www.geektime.co.il/feed/": {
     "label": "גיקטיים",
-    "newest": "2026-11-28T08:24:02+00:00",
-    "seen_at": "2026-11-28T10:17:25+00:00",
+    "newest": "2026-11-28T11:12:45+00:00",
+    "seen_at": "2026-11-28T11:17:40+00:00",
     "stuck": false
    },
    "https://www.goodnewsnetwork.org/category/news/animals/feed/": {
     "label": "Good News Network",
     "newest": "2026-11-21T17:30:30+00:00",
-    "seen_at": "2026-11-28T10:17:25+00:00",
+    "seen_at": "2026-11-28T11:17:40+00:00",
     "stuck": false
    },
    "https://www.whathifi.com/feeds.xml": {
     "label": "What Hi-Fi?",
-    "newest": "2026-11-28T10:00:00+00:00",
-    "seen_at": "2026-11-28T10:17:25+00:00",
+    "newest": "2026-11-28T10:54:35+00:00",
+    "seen_at": "2026-11-28T11:17:40+00:00",
     "stuck": false
    },
    "https://www.walla.co.il/rss/feed/healthy/health-news": {
     "label": "וואלה חדשות בריאות",
     "newest": "2026-11-27T13:59:14+00:00",
-    "seen_at": "2026-11-28T09:17:39+00:00",
+    "seen_at": "2026-11-28T11:17:40+00:00",
     "stuck": false
    }
   },
-  "checked_at": "2026-11-28T10:17:25+00:00"
+  "checked_at": "2026-11-28T11:17:40+00:00"
  },
  "health_news": {
   "data": [
@@ -3773,9 +3782,8 @@ window.DB.generated = {
     "date": "2026-11-08T10:26:28+00:00"
    }
   ],
-  "ok": false,
-  "error": "not well-formed (invalid token): line 1, column 0",
-  "checked_at": "2026-11-28T10:17:22+00:00",
-  "fetched_at": "2026-11-28T09:17:37+00:00"
+  "ok": true,
+  "checked_at": "2026-11-28T11:17:34+00:00",
+  "fetched_at": "2026-11-28T11:17:34+00:00"
  }
 };
